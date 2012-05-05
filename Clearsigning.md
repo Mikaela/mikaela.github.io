@@ -15,6 +15,6 @@ don't support PGP, but they can at least be verified on all mailing lists.
 I am on slow connection and your signature is too big for me.
 =============================================================
 
-I am sorry for that. But keep in mind that your email client would stll
-download ther PGG/MIME signature (signature.asc) file even if I used
+I am sorry for that. But keep in mind that your email client would still
+download ther PGP/MIME signature (signature.asc) file even if I used
 PGP/MIME.
