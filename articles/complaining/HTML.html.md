@@ -17,7 +17,7 @@ Why are they annoying?
 
 4. They don't show correctly in some emails clients.
 
-5. At least guidelines of [Debian mailing lists](http://www.debian.org/MailingLists/#codeofconduct) and [Ubuntu mailing lists](http://www.ubuntu.com/support/community/mailinglists) forbid writing emails in HTML. Hopefully others do to, at least they should.
+5. At least guidelines of [Debian mailing lists](http://www.debian.org/MailingLists/#codeofconduct), [Ubuntu mailing lists](http://www.ubuntu.com/support/community/mailinglists) and [Linux Kernel Developer mailing lists](http://vger.kernel.org/majordomo-info.html) forbid writing emails in HTML. Hopefully others do to, at least they should.
 
 My email client cannot write messages in plaintext!
 ---------------------------------------------------
