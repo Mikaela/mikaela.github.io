@@ -1,0 +1,38 @@
+<h1 id="signing-emails.">Signing emails.</h1>
+<h2 id="why-do-you-sign-all-your-messages">Why do you sign all your messages?</h2>
+<p>The signature is evidence that message comes from me. If I sign all my messages, I can say that I sign all my messages and possibly unsigned offensive content, which is spoofed to &quot;come&quot; from my address, isn't sent by me.</p>
+<h3 id="but-it-doesnt-prove-anything-you-can-just-leave-offensive-content-unsigned.">But it doesn't prove anything, you can just leave offensive content unsigned.</h3>
+<p>True, I could do that. But I don't have habit of writing offensive text and saying that it doesn't come from me.</p>
+<h2 id="your-signature-doesnt-mean-anything-anyway-because-you-arent-part-of-any-trust-web.">Your signature doesn't mean anything anyway, because you aren't part of any trust web.</h2>
+<ol class="incremental" style="list-style-type: decimal">
+<li><p>Some people at IRC lsign keys of each other, so I am in somekind of trustweb.</p></li>
+<li><p>The signature can still prove that the email hasn't been modified after sending.</p></li>
+<li><p>This can change in the future. My key doesn't have any signatures right now, because anyone else near here doesn't use PGP.</p></li>
+</ol>
+<h3 id="why-you-dont-get-signatures-using-cacert">Why you don't get signatures using <a href="https://cacert.org/">CAcert</a>?</h3>
+<p>According to &quot;Locate assurer&quot; feature at <a href="https://cacert.org/">CAcert</a>, the nearest assurer is 110KM away from me.</p>
+<h4 id="why-did-you-mention-cacert">Why did you mention <a href="https://cacert.org/">CAcert</a>?</h4>
+<p><a href="https://wiki.cacert.org/PgpSigning">https://wiki.cacert.org/PgpSigning</a></p>
+<h1 id="clearsigninginline-signing">Clearsigning/INLINE signing</h1>
+<h2 id="why-do-you-gpg-clearsign-your-emails-instead-of-using-pgpmime-or-something-less-spammy">Why do you GPG clearsign your emails instead of using PGP/MIME or something less spammy?</h2>
+<ol class="incremental" style="list-style-type: decimal">
+<li><p>Some mailing list software mess up with headers and make PGP/MIME signatures unverifiable.</p>
+<p>Which mailing lists do that?</p>
+<p>At least the following:</p>
+<ol class="incremental" style="list-style-type: decimal">
+<li><p><a href="https://lists.ubuntu.com">Ubuntu mailing lists</a>. See also <a href="https://bugs.launchpad.net/bugs/996581">bug 996581 at Launchpad</a>.</p></li>
+<li><p><a href="https://www.mozdev.org/mailman/listinfo">Mozdev mailing lists</a>.</p></li>
+<li><p><a href="http://lists.gnupg.org/mailman/listinfo/">GnuPG mailing lists</a>.</p></li>
+</ol></li>
+<li><p>INLINE messages are easier to verify manually (presuming that charset doesn't cause problems).</p></li>
+<li><p><a href="https://github.com/k9mail/k-9">K9 Mail</a> doesn't support PGP/MIME.</p></li>
+</ol>
+<h2 id="but-clearsigned-signature-looks-ugly.">But clearsigned signature looks ugly.</h2>
+<p>This is the problem of your email client. If you use <a href="https://mozilla.org/thunderbird">Thunderbird or Icedove or Seamonkey</a>, you can probably install <a href="http://enigmail.mozdev.org/home/index.php.html">Enigmail</a> and that signature block gets hidden. If you use some other email client, please report bug for that package in your distribution or upstream bug tracker.</p>
+<h2 id="i-am-on-slow-connection-and-your-signature-is-too-big-for-me.">I am on slow connection and your signature is too big for me.</h2>
+<p>And what does that have to do with INLINE signature? In PGP/MIME you would download the same mess, but inside signature.asc file.</p>
+<h1 id="other-things">Other things</h1>
+<h2 id="why-did-you-write-this-page">Why did you write this page?</h2>
+<p>Because I am fed up explaining myself on some mailing lists. This page will be linked in my email signature and I will ignore every question about things, which read on this page.</p>
+<h2 id="so-you-are-just-ignorant-and-want-to-spam-people">So you are just ignorant and want to spam people?</h2>
+<p>I want to raise awareness about PGP and that it's very easy to spoof emails from addresses of other people. As stated previously, I will also ignore claims like that.</p>
