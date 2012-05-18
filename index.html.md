@@ -1,6 +1,7 @@
-Welcome
-=======
+# Welcome
 
-You can find my [PGP key here.](http://mkaysi.github.com/PGP/key.txt).
+There might not be much to see in this page. You can fix list of pages in the source.
 
-The list of pages can be found in [source.](https://github.com/Mkaysi/mkaysi.github.com)
+# Around the web
+
+put list of my profiles, gpg keys, irc channels etc here.
