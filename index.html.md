@@ -5,6 +5,7 @@ There might not be much to see in this page. You can fix list of pages in the so
 # Around the web
 
 This is list of my profiles etc. in different services.
+
 The list can be incomplete if I am inactive somewhere or forget some place.
 
 ## Email
@@ -12,8 +13,11 @@ The list can be incomplete if I am inactive somewhere or forget some place.
 # Mailing lists
 
 [Some Debian mailing lists.](http://lists.debian.org/)
+
 [Some Ubuntu mailing lists.](http://lists.ubuntu.com/)
+
 [Enigmail mailing list.](https://www.mozdev.org/mailman/listinfo/enigmail)
+
 And some other mailing lists. You can see if email is sent by me by looking at PGP signature.
 
 ### pgp
@@ -29,16 +33,22 @@ sub   4096R/A4271AC5 2012-03-27
 Preferred keyserver: [pool.sks-keyservers.net](http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0x4DB53CFE82A46728)
 
 My PGP key is also available at [here, GitHub](http://mkaysi.github.com/PGP/key.txt).
+
 Please note that my key at GitHub doesn't contain any other signatures than selfsigs.
+
 It has been procressed with [pgp-clean](http://pgp-tools.alioth.debian.org/)
+
 
 ## Version control / code etc.
 
 [Mkaysi at GitHub](https://github.com/Mkaysi)
+
 [Mkaysi at Launchpad](https://launchpad.net/~mkaysi)
+
 [Mkaysi at Gitorious](https://gitorious.org/~mkaysi)
 
 # Social media
 
 [Mkaysi at Twitter](https://twitter.com/Mkaysi)
+
 [Mkaysi at Identica](https://identi.ca/Mkaysi)
