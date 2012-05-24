@@ -52,3 +52,14 @@ It has been procressed with [pgp-clean](http://pgp-tools.alioth.debian.org/)
 [Mkaysi at Twitter](https://twitter.com/Mkaysi)
 
 [Mkaysi at Identica](https://identi.ca/Mkaysi)
+
+## IRC
+
+You can find me (Mkaysi) at [freenode] and [OFTC].
+
+[freenode]:http://freenode.net/
+[OFTC]:http://oftc.net/
+
+At freenode I can usually be found from at least at [#limnoria,#gribble,#supybot,##Mkaysi](irc://irc.freenode.net/#limnoria,#gribble,#supybot,##Mkaysi).
+
+At OFTC, I can usually be found from at least at [#debian-next,#supybot,](irc://irc.oftc.net/#debian-next,#supybot,)
