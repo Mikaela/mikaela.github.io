@@ -32,7 +32,7 @@ sub   4096R/A4271AC5 2012-03-27
 
 Preferred keyserver: [pool.sks-keyservers.net](http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0x4DB53CFE82A46728)
 
-My PGP key is also available at [here, GitHub](http://mkaysi.github.com/PGP/key.txt).
+My PGP key is also available [here, at GitHub](http://mkaysi.github.com/PGP/key.txt).
 
 Please note that my key at GitHub doesn't contain any other signatures than selfsigs.
 
