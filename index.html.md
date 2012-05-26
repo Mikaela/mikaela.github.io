@@ -32,7 +32,7 @@ sub   4096R/A4271AC5 2012-03-27
 
 Preferred keyserver: [pool.sks-keyservers.net](http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0x4DB53CFE82A46728)
 
-My PGP key is also available [here, at GitHub](http://mkaysi.github.com/PGP/key.txt).
+My PGP key is also available [here](PGP/key.txt).
 
 Please note that my key at GitHub doesn't contain any other signatures than selfsigs.
 
@@ -65,3 +65,7 @@ You can find me (Mkaysi) at [freenode] and [OFTC].
 At freenode I can usually be found from at least at [#limnoria,#gribble,#supybot,##Mkaysi](irc://irc.freenode.net/#limnoria,#gribble,#supybot,##Mkaysi).
 
 At OFTC, I can usually be found from at least at [#debian-next,#supybot,](irc://irc.oftc.net/#debian-next,#supybot,)
+
+# This is mirror of [http://mkaysi.github.com/](http://mkaysi.github.com/)
+
+This mirror might be outdated unless you are looking at [http://mkaysi.github.com/](http://mkaysi.github.com/)
