@@ -74,8 +74,7 @@ This mirror might be outdated unless you are looking at [http://mkaysi.github.co
 
 [GitHub]
 
-cadoth
-Cadoth doesn't have any other address than IP.
+[cadoth]
 
 [marduk]
 
@@ -83,6 +82,6 @@ v1
 V1 doesn't have any other address than IP.
 
 [GitHub]:http://mkaysi.github.com/
-[cadoth]:http://178.79.191.68/~mkaysi
+[cadoth]:hydrogen.neonirc.net
 [marduk]:http://marduk.touchlay.com/~mkaysi
 [v1]:http://64.31.29.168/~mkaysi
