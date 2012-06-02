@@ -82,6 +82,6 @@ v1
 V1 doesn't have any other address than IP.
 
 [GitHub]:http://mkaysi.github.com/
-[cadoth]:hydrogen.neonirc.net
+[cadoth]:http://hydrogen.neonirc.net
 [marduk]:http://marduk.touchlay.com/~mkaysi
 [v1]:http://64.31.29.168/~mkaysi
