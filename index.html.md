@@ -70,16 +70,16 @@ At OFTC, I can usually be found from at least at [#debian-next,#supybot,](irc://
 
 This mirror might be outdated unless you are looking at [http://mkaysi.github.com/](http://mkaysi.github.com/)
 
-## Official mirrors at...
+## Official mirrors are at...
 
 [GitHub]
 
-[cadoth]
+cadoth
 Cadoth doesn't have any other address than IP.
 
 [marduk]
 
-[v1]
+v1
 V1 doesn't have any other address than IP.
 
 [GitHub]:http://mkaysi.github.com/
