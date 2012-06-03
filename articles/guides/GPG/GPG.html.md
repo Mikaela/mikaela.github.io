@@ -34,3 +34,40 @@ Notes:
 1. When you are asked for key size, enter the maximum size.
 
 2. When you are asked for email address, leave it empty. We will add it later.
+
+##### Adding new UIDs (User IDentities)
+
+First you need to find out the ID of the key, which you just created. You can see it with two commands.
+
+> gpg2 --list-keys
+
+or 
+
+> gpg2 --fingerprint
+
+The second command also shows the key fingerprint which is usually used to identify the key. Note that you can see both keyid formats in fingerprint. The last eght characters in keyid are the short format and the last sixteen characters are the long format.
+If you want to see the long keyid, run
+
+> gpg2 --list-keys --keyid-format long
+
+Now add the uid with the following commands:
+
+> gpg2 --edit-key KEYID
+
+and enter command:
+
+> adduid
+
+and you are asked for name and email address again. This time you can give them both.
+
+If that UID which has only your first name isn't the first UID, select it by giving command, which is the number of the UID, for example:
+
+> 2
+
+and * appears to that UID to tell you that that UID is selected. Now give command
+
+> primary
+
+to make it the primary UID again.
+
+Now you can exit from GPG with
