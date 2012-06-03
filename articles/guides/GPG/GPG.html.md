@@ -71,3 +71,41 @@ and * appears to that UID to tell you that that UID is selected. Now give comman
 to make it the primary UID again.
 
 Now you can exit from GPG with
+
+> quit
+
+and confirm to save changes with
+
+> y
+
+#### Step 1: Importing old key
+
+You can import your old private key same way as you import public keys. This means:
+
+> gpg2 --import key.asc
+
+Where key.asc is the file, which contains the (private) key(s)
+
+### Step 2: backing up the key
+
+You need to know your keyid. I told you how to get it in "Adding new uids". To back up your private key, run
+
+> gpg2 --export-secret-keys -a KEYID
+
+and save the output of that command to file. If you are on Linux or Mac OS X, you can forward the output directly to file, with
+
+> gpg2 --export-secret-keys -a KEYID > privatekey.asc
+
+The previous command creates a file called "privatekey.asc", which contains the output of the first command.
+
+### Step 3: Configuring gpg(2)
+
+WRITE THIS LATER WITH COMPUTER!
+
+### Step 4: Sharing your public key
+
+There are two ways to share your key. I personally use and recommend them both.
+
+### Without keyservers
+
+If you have homepage, it's recommended that you put your key there. My key can be found
