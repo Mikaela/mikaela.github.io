@@ -106,6 +106,40 @@ WRITE THIS LATER WITH COMPUTER!
 
 There are two ways to share your key. I personally use and recommend them both.
 
-### Without keyservers
+#### Without keyservers
 
-If you have homepage, it's recommended that you put your key there. My key can be found
+If you have homepage, it's recommended that you put your key there. My key can be found at [PGP/key.txt]
+
+[PGP/key.txt]:../../PGP/key.txt
+
+You can get your public key with command
+
+> gpg2 --export -a KEYID
+
+or if you use Linux and have installed package signing-party, you can use
+
+> pgp-clean KEYID
+
+to get your public key without signatures (I will explain them later). WARNING: pgp-clean seems to also remove encryption subkey.
+
+#### With keyservers
+
+If you followed my configuration, you are usng pool.sks-keyservers.net as your keyserver and you are automatically receiving unknown keys from t, whenever you try to verify something, what is signed with unknown key.
+
+To send your public key to keyserver, run
+
+> gpg2 --send-keys KEYID
+
+To receive key from keyserver, run
+
+> gpg2 --recv-keys KEYID
+
+To search keys from keyserver, use
+
+> gpg2 --search-keys QUERY WORDS
+
+or if you are using Linux and have packages signing-party and dialog installed, you can use
+
+> keylookup QUERY WORDS
+
+
