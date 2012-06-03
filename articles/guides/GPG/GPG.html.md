@@ -142,4 +142,44 @@ or if you are using Linux and have packages signing-party and dialog installed, 
 
 > keylookup QUERY WORDS
 
+##### Word of warning
 
+Keyservers only append content. Information on keyserver cannot be removed. This means, that when you delete uid, signature or whatever, it reappears when you run
+
+> gpg2 --refresh-keys
+
+or receive your key from keyserver again. Thought content (uids, signatures, keys etc.) can be revoked.
+
+# You can now move to Icedove / Thunderbird guide and after that | or Enigmail guide, because things after this are usually done by email client.
+
+But you should continue reading to understand how to use GPG without email client.
+
+## Trusting keys.
+
+If you want to make gpg know that you trust key of another person, you have two opinons. Enter the "key editing shell", with
+
+> gpg2 --edit-key KEYID
+
+and
+
+### Way 1: lsign
+
+Lsign signs the key locally making it impossible to export the signature. Use it if you trust the key owner to be who the key says, but you haven't met him/her personally.
+
+Lsign the key with
+
+> lsign
+
+and then you can exit gpg with
+
+> quit
+
+confirming to svae changes with
+
+> y
+
+### Way 2: sign
+
+If you trust the key owner to be whom the key says and you have met him/her personally and have seen proof of his/her identify (i.e. passport) or he/she is member of your family or long time friend, you can sign the key with
+
+> sign
