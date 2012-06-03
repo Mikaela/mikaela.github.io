@@ -216,4 +216,44 @@ saving the changes with
 
 > y
 
+## Signing
 
+### Signing a message
+
+Run
+
+> gpg2 --clearsign
+
+and write your message. When you are ready, add one empty line and press CTRL-D and gpg outputs signed message.
+
+### Signing a plaintext file
+
+Just run
+
+> gpg2 --clearsign file.txt
+
+and the signed content will be found from file.txt.asc
+
+NOTE: .asc is same as .txt and can be opened with normal text editor.
+
+### Verifying signature
+
+#### Clearsigned messages
+
+Just run
+
+> gpg2
+
+and paste the signed content, add one empty line and press CTRL-D.
+
+#### Detached signatures
+
+Run
+
+> gpg2 --verify file.sig
+
+and you are asked for signed file.
+
+## Encrypting
+
+To encrypt a message, just run
