@@ -257,3 +257,29 @@ and you are asked for signed file.
 ## Encrypting
 
 To encrypt a message, just run
+
+> gpg2 --encrypt -a -r receiver (-r receiver...)
+
+If you followed my configuration instructions, you are automatically receiver. Replace "receiver" with KEYID. Write your message, add empty line and press CTRL-D and gpg outputs encrypted content.
+
+### Decrypting
+
+Just run
+
+> gpg2 --decrypt
+
+paste the encrypted content, add empty line and press CTRL-D and gpg outputs, the decrypted content.
+
+## Read also
+
+My Icedove / Thunderbird guide and Enigmail guide.
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">GPG guide</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://mkaysi.github.com/articles/guides/GPG/GPG.html" property="cc:attributionName" rel="cc:attributionURL">Mika Suomalainen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+
+## Questions and asnwers
+
+### How do I ask question?
+
+Just email me, the addresses can be found from my GPG key, which has been mentioned on this page some times. Please cleasign your question, so I won't get power to fake it, and please don't use HTML.
