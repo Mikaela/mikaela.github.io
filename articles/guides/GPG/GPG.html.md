@@ -183,3 +183,37 @@ confirming to svae changes with
 If you trust the key owner to be whom the key says and you have met him/her personally and have seen proof of his/her identify (i.e. passport) or he/she is member of your family or long time friend, you can sign the key with
 
 > sign
+
+making the signature exportable or sendable to keyserver. Now exit gpg with
+
+> quit
+
+saving the changes with
+
+> y
+
+and send the signed key to keyserver with
+
+> gpg2 --send-keys KEYID
+
+Other people will see your signature next time when they receive the key agan or run
+
+> gpg2 --refresh-keys
+
+NOTE: You can upgrade lsigned signature to signed signature with the "sign" command.
+
+#### Trust
+
+Trust determines does gpg trust the key to validate other keys. Trust is only visible to you. You can se trust with
+
+> trust
+
+and then exit gpg with
+
+> quit
+
+saving the changes with
+
+> y
+
+
