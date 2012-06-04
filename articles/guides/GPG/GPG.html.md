@@ -41,9 +41,28 @@ First you need to find out the ID of the key, which you just created. You can se
 
 > gpg2 --list-keys
 
+Example output:
+
+```
+% gpg --list-keys
+pub   4096R/82A46728 2012-03-27
+uid                  Mika Suomalainen
+sub   4096R/A4271AC5 2012-03-27
+```
+
 or 
 
 > gpg2 --fingerprint
+
+Example output:
+
+```
+% gpg2 --fingerprint
+pub   4096R/82A46728 2012-03-27
+Key fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
+uid                  Mika Suomalainen
+sub   4096R/A4271AC5 2012-03-27
+```
 
 The second command also shows the key fingerprint which is usually used to identify the key. Note that you can see both keyid formats in fingerprint. The last eght characters in keyid are the short format and the last sixteen characters are the long format.
 If you want to see the long keyid, run
