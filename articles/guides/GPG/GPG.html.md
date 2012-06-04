@@ -129,7 +129,50 @@ The previous command creates a file called "privatekey.asc", which contains the 
 
 ### Step 3: Configuring gpg(2)
 
-WRITE THIS LATER WITH COMPUTER!
+The configuring of gpg happens in gpg configuration directory. In Linux and Mac this is ~/.gnupg/gpg.conf.
+
+I recommend you to add following lines to it. I'll try to explain them with my best ability.
+
+```
+# Options for GnuPG
+# Copyright 1998, 1999, 2000, 2001, 2002, 2003,
+#           2010 Free Software Foundation, Inc.
+#
+# This file is free software; as a special exception the author gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+#
+# This file is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+# implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+License information so I won't break license of the default config file, which I have appended.
+
+> default-key KEYID
+
+So KEYID is used by default if there are multiple secret keys.
+
+```
+default-recipient-self
+encrypt-to KEYID
+```
+
+So everything what you encrypt is also encrypted to you.
+
+> charset UTF-8
+
+So UTF-8 is used as default character set and most of characters can be used.
+
+```
+keyserver hkp://pool.sks-keyservers.net
+keyserver-options auto-key-retrieve no-include-revoked verbose
+```
+
+So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used.
+
+By the way, you can find my gpg.conf [here].
+
+[here]:https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.conf
 
 ### Step 4: Sharing your public key
 
