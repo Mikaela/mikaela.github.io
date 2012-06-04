@@ -11,13 +11,23 @@ icedove enigmail pinentry pinentry-curses pinentry-gtk2 pinentry-qt4 signing-par
 
 > # aptitude install gnupg gnupg2 icedove enigmail pinentry-curses pinentry-gtk2 pinentry-qt4 signing-party gnupg2
 
+NOTE: If you aren't using Debian, install package "thunderbird" instead of "icedove".
+
 ### Mac OS X
 
-You need at least GPG-tools, but I also recommend you to install Thunderbird and Enigmail.
+You need at least [GPG-tools], but I also recommend you to install [Thunderbird] and [Enigmail].
+
+[GPG-tools]:http://www.gpgtools.org/
+[Thunderbird]:https://www.mozilla.org/en-US/thunderbird/
+[Enigmail]:http://enigmail.mozdev.org/home/index.php.html
 
 ### Windows
 
-You need at least GPG4Win, but I recommend installing Thunderbird and Enigmail too.
+You need at least [GPG4Win], but I recommend installing [Thunderbird] and [Enigmail] too.
+
+[GPG4Win]:http://www.gpg4win.org/
+[Thunderbird]:https://www.mozilla.org/en-US/thunderbird/
+[Enigmail]:http://enigmail.mozdev.org/home/index.php.html
 
 ### Step 1
 
