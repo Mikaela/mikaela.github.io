@@ -174,6 +174,16 @@ By the way, you can find my gpg.conf [here].
 
 [here]:https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.conf
 
+#### Group lines
+
+Write this later.
+
+See also my Enigmail instructions about group lines.
+
+### Comments
+
+Write this later.
+
 ### Step 4: Sharing your public key
 
 There are two ways to share your key. I personally use and recommend them both.
