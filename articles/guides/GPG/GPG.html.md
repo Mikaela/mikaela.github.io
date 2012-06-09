@@ -182,7 +182,72 @@ See also my Enigmail instructions about group lines.
 
 ### Comments
 
-Write this later.
+GPG can automatically add comments to signed and encrypted content. They 
+are usually hidden by email clients, which support GPG.
+
+Example comment:
+
+```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Signed content.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+Comment: This is a comment.
+
+iQIcBAEBAgAGBQJP0ypzAAoJEE21PP6CpGcojpsP/jV8o398xaCOCtdk5gyZtSZG
+KYDbyV8dNk1jxyNb7yPuEHGdm2BNXuKDHoG1vOli1yfavDvZ7Ir6i6HqDINRt6QF
+TFcWQgurMtXEJ4zCbMwBHM5OCpRL0gtuK/ERZFWeA+zDuM/pDKWLcX9REriT5CaG
+CWBBvCIf/C2imGqe3+KBKSy13pis7MXARCTHesTOV/z04vKfsVqh7+M60ss/sc48
+kkL7CR/RiovomeoDhWuwS63oDE49eG+hlMDswgehnx71bvYr2NBZ3qfls4utx3fj
+ro4ubRGW52tY9wIC1tZoNiqa/n9Z6jOIq76Vn5DaJQ1dKWn3MnA5Sv2ztV4GlaIO
+iTLkvavAe7KHVxDCKcHpI7vnj9JlahF1u8+JDHXbTePDE3MiQvK1uEK91EQP9kYT
+EYQwuClDfVGNBgqORTzZUpszYrT1dCdLte+29RdkHzsC+32x540xLvkDFvkZ+92Y
+7LxCX83aKzIdAZmehNmSrzQAL+NCfMW3YjkvWOYoFFMd//nSVifCbxvRLsyv7npr
+Fowb/UnnZW3ScT/sFNJWH/xY5skDS8WZd3H6O7MJ8gHUeOR9YQepQX56kvSRVtbj
+ncnVEtqLjlbMpHEFy9ykKgM6rzuRTzLRct7Tf787Ww4hgSN92lhetPZmi6BGcS1z
+ZRzFq367A+HsVMlihBjd
+=HKS4
+-----END PGP SIGNATURE-----
+```
+
+To add comments, use "--comment" flag or add "comment" lines to gpg.conf:
+
+For example:
+
+> comment "Something"
+
+Appears as
+
+```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+This is signed content, which has comment, which reads "Something".
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+Comment: Something
+
+iQIcBAEBAgAGBQJP0yt8AAoJEE21PP6CpGcoHskP/jLift0y8tA7VnmbIyFfOr2J
+RVJfcc/cl8xvbnhSKIOa5rS47Z9MgVqf8KDY373E1CZMvOsdx4yPINMJb4901iBQ
+71RCRcg45YUI+yWRlZ2+ZsE7NBgUWm2cdSbwfaWrxH2eL8zRN+G5c3qiAQu0pXY5
+Mc1MG6ZQQzz3v+SrYPB6aZn8R8uNQR6U1YfbhtG1daxIfzdbXQNqMi/pIDV+M5GY
+IS3Wbbp57pvJ8R3EjvqMsDKv76L/ZFySlrAugQaZIj4lQVUzXhivBwzkaHslj6dP
+HSGamz3C4yX5GPe/QBJ8jgANAtmdx2+1IpoRRqiLrOOT48vRkCFM40VwjMVO4W+B
+wNg9BQUpB53/QBtpQ5kDHrpPA+6bS4QkzUIzMsMuSvF9w15vG+Ae7qozD/YTLeD/
+IBaRlqPIRI/CrOEfUfn0DE6bFKTMgf4WE5M8IZ2kBVAE/mBqicJ9QKI53it8Ru4M
+hznPzwtmQTHf02yaj06LjB1P0SYU3gjwioRN+3RVoCRC92rjW5gN4MBYR0jKydp6
+MHf2Mg+ped1BegBDEVD4FyDPw/LNmveZb5O8/KIpjdb9dMgP5uqDpvJEzS64OQf0
+vtzYEnCrJW+/1ABuGoF2aKG7+i24gLt9re+jOb02dj5NxRc1tWmhVNVM/acwReVr
+1ELecm6kOS0qlPF//OnU
+=Ilhi
+-----END PGP SIGNATURE-----
+```
+
+Comments can be whatever you want. For example they can have link to your homepage or command to receive your key from keyserver etc.
 
 ### Step 4: Sharing your public key
 
