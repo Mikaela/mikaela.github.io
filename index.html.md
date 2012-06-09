@@ -69,7 +69,7 @@ This mirror might be outdated unless you are looking at [http://mkaysi.github.co
 
 [GitHub]
 
-cadoth
+cadoth — Cadoth doesn't have any other address than IP right now.
 
 [marduk]
 
