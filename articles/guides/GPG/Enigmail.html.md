@@ -2,7 +2,10 @@
 
 # What do you need
 
-This depends on your OS. You should also read my previous guides about GPG and Icedove / Thunderbird.
+This depends on your OS. You should also read my previous guides about [GPG] and Icedove / Thunderbird.
+
+[GPG]:GPG.html
+
 
 ## Debian based distributins
 
@@ -14,11 +17,19 @@ NOTE: In Debian Thunderbird is called Icedove and the package is icedove.
 
 ## Mac OS X
 
-You need PGP-tools, Thunderbird and Enigmail
+You need [GPG-tools], [Thunderbird] and [Enigmail]
+
+[GPG-tools]:http://www.gpgtools.org/
+[Thunderbird]:https://www.mozilla.org/en-US/thunderbird/
+[Enigmail]:http://enigmail.mozdev.org/home/index.php.html
 
 ## Windows
 
-You need GPG4Win, Thunderbird and Enigmail.
+You need [GPG4Win], [Thunderbird] and [Enigmail].
+
+[GPG4Win]:http://www.gpg4win.org/
+[Thunderbird]:https://www.mozilla.org/en-US/thunderbird/
+[Enigmail]:http://enigmail.mozdev.org/home/index.php.html
 
 # Running the Enigmail wizard.
 
