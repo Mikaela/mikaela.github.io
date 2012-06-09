@@ -34,11 +34,6 @@ Preferred keyserver: [pool.sks-keyservers.net](http://pool.sks-keyservers.net:11
 
 My PGP key is also available [here](PGP/key.txt).
 
-Please note that my key at GitHub doesn't contain any other signatures than selfsigs.
-
-It has been procressed with [pgp-clean](http://pgp-tools.alioth.debian.org/)
-
-
 ## Version control / code etc.
 
 [Mkaysi at GitHub](https://github.com/Mkaysi)
@@ -74,7 +69,7 @@ This mirror might be outdated unless you are looking at [http://mkaysi.github.co
 
 [GitHub]
 
-[cadoth]
+cadoth
 
 [marduk]
 
