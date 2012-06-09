@@ -176,9 +176,21 @@ By the way, you can find my gpg.conf [here].
 
 #### Group lines
 
-Write this later.
+Group lines are a way to write email to one recepient and have it encrypted to multiple keys automatically. 
 
-See also my Enigmail instructions about group lines.
+Example group line:
+
+> group <touchlay-server@googlegroups.com>=82A46728 8449A12B 666CC0DD 4EC00206
+
+With that line, when recepient is touchlay-server@googlegroups.com, then emails are encrypted to those 4 keys.
+
+NOTE: I think that group lines require email addresses to be in format
+
+> <some@thi.ng>
+
+See also my [Enigmail] instructions about group lines.
+
+[Enigmail]:Enigmail.html
 
 ### Comments
 
