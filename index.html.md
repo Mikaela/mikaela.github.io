@@ -34,6 +34,8 @@ Preferred keyserver: [pool.sks-keyservers.net](http://pool.sks-keyservers.net:11
 
 My PGP key is also available [here](PGP/key.txt).
 
+NOTICE: Remember to check that the fingerprint matches to the key!
+
 ## Version control / code etc.
 
 [Mkaysi at GitHub](https://github.com/Mkaysi)
