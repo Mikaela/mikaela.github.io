@@ -39,7 +39,9 @@ NOTE: Allow wizard to do changes, which it wants.
 
 ## Enable viewing messages in original HTML.
 
-instructions here
+You probably want to see the HTML in case the message has been sent using HTML.
+
+You can see the messages in original HTML easily. Open View (menu) --> Message body as --> Original HTML.
 
 ## If the wizard fails
 
@@ -56,4 +58,8 @@ Write about Adele
 
 # Sending PGP/MIME instead of PGP/INLINE
 
-I personally don't recommend this, because of my reasons. PGP/MIME puts the signature to signature.asc attachment and PGP/INLINE into "mess" in the bottom of email.
+I personally don't recommend this, because of my reasons. PGP/MIME puts the signature to signature.asc ataachment and PGP/INLINE into "mess" in the bottom of email.
+
+NOTE: If you want to sign emails and use HTML at the same time, you *must* use PGP/MIME or otherwise your signature cannot be verified!
+
+Write the instructions here.
