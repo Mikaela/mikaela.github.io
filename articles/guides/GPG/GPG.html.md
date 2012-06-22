@@ -431,7 +431,10 @@ paste the encrypted content, add empty line and press CTRL-D and gpg outputs, th
 
 ## Read also
 
-My Icedove / Thunderbird guide and Enigmail guide.
+My [Icedove / Thunderbird guide] and [Enigmail guide].
+
+[Icedove / Thunderbird guide]:../Thunderbird-Icedove.html
+[Enigmail guide]:Enigmail.html
 
 ## License
 
