@@ -1,3 +1,5 @@
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
 # Welcome
 
 There might not be much to see in this page. You can find list of pages in the source.
