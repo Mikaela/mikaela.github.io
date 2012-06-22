@@ -45,21 +45,59 @@ You can see the messages in original HTML easily. Open View (menu) --> Message b
 
 ## If the wizard fails
 
-Write with computer
+### Sending plaintext
+
+This is documented in my Icedove / Thunderbird guide.
+
+### Signing by default.
+
+Open Edit --> Account Settings --> OpenPGP security and select "Enable OpenPG support (Enigmail) with this user information". Then select "Use specific OpenPGP key" and press the "select key" button. Now just select your private key.
+
+After you have selected the key, I recommend you to select the first and the second boxes, which are about signing.
+
+Remember to do this for multiple identities. Select the account and then click the "manage identities" button.
 
 ## Sending UTF-8
 
-Write to Icedove / Thunderbird guide.
+I have documented this in my Icedove / Thunderbird guide. 
+
+This only changes the charset line to UTF-8 or removes the mentioning of charset in signature.
 
 # Testing that everything works
 
-Write about Adele
+Adele is PGP email bot. You can send email to it and it will tell you if it can decrypt your email or is it signed.
 
+You can get the PGP key of Adele by running
+
+> gpg2 --keyserver pool.sks-keyservers.net --recv-keys 92AB3FF7
+
+Just send your email to adele-en@gnupp.de and it will reply shortly.
 
 # Sending PGP/MIME instead of PGP/INLINE
 
-I personally don't recommend this, because of my reasons. PGP/MIME puts the signature to signature.asc ataachment and PGP/INLINE into "mess" in the bottom of email.
+PGP/MIME puts the signature to signature.asc ataachment and PGP/INLINE into "mess" in the bottom of email.
+
+WARNING: This might not work with some mailing lists (for example Ubuntu, Mozdev and GnuPG mailing lists)!
+
+There is open bug report about PGP/MIME not working on Ubuntu MLs at LaunchPad, [996581]
+
+[996581]:https://bugs.launchpad.net/ubuntu/+bug/996581
 
 NOTE: If you want to sign emails and use HTML at the same time, you *must* use PGP/MIME or otherwise your signature cannot be verified!
 
-Write the instructions here.
+To send PGP/MIME by default, open Edit --> Account Settings --> OpenPGP security and check "Use always PGP/MIME".
+
+Remember to check to do this for your all identities in case you have more than one of them. Edit --> Account Settings --> "Manage Identities..." button and after selecting identity, you can find OpenPGP security tab.
+
+# OpenPGP headers.
+
+To enable sending OpenPGP headers, return to OpenPGP settings (mentioned above) and click "advanced".
+
+Select the both checkboxes and write URL where your key is located. If you don't have homepage, you can link to webui of your preferred keyserver.
+
+These headers appear in email source like this:
+
+```
+OpenPGP: id=82A46728;
+    url=http://mkaysi.github.com/PGP/key.txt
+```
