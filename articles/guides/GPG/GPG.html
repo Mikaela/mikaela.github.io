@@ -1,0 +1,328 @@
+<h1 id="quick-gpg-guide">Quick GPG guide</h1>
+<p>Note: If gpg2 gives you error about invalid/unknown/etc. command, use gpg instead.</p>
+<h2 id="what-do-you-need">What do you need:?</h2>
+<h3 id="linux-debian-based-distributions">Linux (Debian based distributions)</h3>
+<p>You need at least package gnupg, but I recommend installing packages icedove enigmail pinentry pinentry-curses pinentry-gtk2 pinentry-qt4 signing-party and gnupg2.</p>
+<blockquote>
+<h1>aptitude install gnupg gnupg2 icedove enigmail pinentry-curses pinentry-gtk2 pinentry-qt4 signing-party gnupg2</h1>
+</blockquote>
+<p>NOTE: If you aren't using Debian, install package &quot;thunderbird&quot; instead of &quot;icedove&quot;.</p>
+<h3 id="mac-os-x">Mac OS X</h3>
+<p>You need at least <a href="http://www.gpgtools.org/">GPG-tools</a>, but I also recommend you to install <a href="https://www.mozilla.org/en-US/thunderbird/">Thunderbird</a> and <a href="Enigmail.html">Enigmail</a>.</p>
+<h3 id="windows">Windows</h3>
+<p>You need at least <a href="http://www.gpg4win.org/">GPG4Win</a>, but I recommend installing <a href="https://www.mozilla.org/en-US/thunderbird/">Thunderbird</a> and <a href="Enigmail.html">Enigmail</a> too.</p>
+<h3 id="step-1">Step 1</h3>
+<p>This depends are you generating a new key or importing old key.</p>
+<h4 id="step-1-generating-a-new-key">Step 1: Generating a new key</h4>
+<p>Open terminal (or cmd.exe if you are using Windows) and run</p>
+<blockquote>
+<p>gpg2 --gen-key</p>
+</blockquote>
+<p>Notes:</p>
+<ol class="incremental" style="list-style-type: decimal">
+<li><p>When you are asked for key size, enter the maximum size.</p></li>
+<li><p>When you are asked for email address, leave it empty. We will add it later.</p></li>
+</ol>
+<h5 id="adding-new-uids-user-identities">Adding new UIDs (User IDentities)</h5>
+<p>First you need to find out the ID of the key, which you just created. You can see it with two commands.</p>
+<blockquote>
+<p>gpg2 --list-keys</p>
+</blockquote>
+<p>Example output:</p>
+<pre><code>% gpg --list-keys
+pub   4096R/82A46728 2012-03-27
+uid                  Mika Suomalainen
+sub   4096R/A4271AC5 2012-03-27</code></pre>
+<p>or</p>
+<blockquote>
+<p>gpg2 --fingerprint</p>
+</blockquote>
+<p>Example output:</p>
+<pre><code>% gpg2 --fingerprint
+pub   4096R/82A46728 2012-03-27
+Key fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
+uid                  Mika Suomalainen
+sub   4096R/A4271AC5 2012-03-27</code></pre>
+<p>The second command also shows the key fingerprint which is usually used to identify the key. Note that you can see both keyid formats in fingerprint. The last eght characters in keyid are the short format and the last sixteen characters are the long format. If you want to see the long keyid, run</p>
+<blockquote>
+<p>gpg2 --list-keys --keyid-format long</p>
+</blockquote>
+<p>Now add the uid with the following commands:</p>
+<blockquote>
+<p>gpg2 --edit-key KEYID</p>
+</blockquote>
+<p>and enter command:</p>
+<blockquote>
+<p>adduid</p>
+</blockquote>
+<p>and you are asked for name and email address again. This time you can give them both.</p>
+<p>If that UID which has only your first name isn't the first UID, select it by giving command, which is the number of the UID, for example:</p>
+<blockquote>
+<p>2</p>
+</blockquote>
+<p>and * appears to that UID to tell you that that UID is selected. Now give command</p>
+<blockquote>
+<p>primary</p>
+</blockquote>
+<p>to make it the primary UID again.</p>
+<p>Now you can exit from GPG with</p>
+<blockquote>
+<p>quit</p>
+</blockquote>
+<p>and confirm to save changes with</p>
+<blockquote>
+<p>y</p>
+</blockquote>
+<h4 id="step-1-importing-old-key">Step 1: Importing old key</h4>
+<p>You can import your old private key same way as you import public keys. This means:</p>
+<blockquote>
+<p>gpg2 --import key.asc</p>
+</blockquote>
+<p>Where key.asc is the file, which contains the (private) key(s)</p>
+<h3 id="step-2-backing-up-the-key">Step 2: backing up the key</h3>
+<p>You need to know your keyid. I told you how to get it in &quot;Adding new uids&quot;. To back up your private key, run</p>
+<blockquote>
+<p>gpg2 --export-secret-keys -a KEYID</p>
+</blockquote>
+<p>and save the output of that command to file. If you are on Linux or Mac OS X, you can forward the output directly to file, with</p>
+<blockquote>
+<p>gpg2 --export-secret-keys -a KEYID &gt; privatekey.asc</p>
+</blockquote>
+<p>The previous command creates a file called &quot;privatekey.asc&quot;, which contains the output of the first command.</p>
+<h3 id="step-3-configuring-gpg2">Step 3: Configuring gpg(2)</h3>
+<p>The configuring of gpg happens in gpg configuration directory. In Linux and Mac this is ~/.gnupg/gpg.conf.</p>
+<p>I recommend you to add following lines to it. I'll try to explain them with my best ability.</p>
+<p><code># Options for GnuPG # Copyright 1998, 1999, 2000, 2001, 2002, 2003, #           2010 Free Software Foundation, Inc. # # This file is free software; as a special exception the author gives # unlimited permission to copy and/or distribute it, with or without # modifications, as long as this notice is preserved. # # This file is distributed in the hope that it will be useful, but # WITHOUT ANY WARRANTY, to the extent permitted by law; without even the # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</code> License information so I won't break license of the default config file, which I have appended.</p>
+<blockquote>
+<p>default-key KEYID</p>
+</blockquote>
+<p>So KEYID is used by default if there are multiple secret keys.</p>
+<pre><code>default-recipient-self
+encrypt-to KEYID</code></pre>
+<p>So everything what you encrypt is also encrypted to you.</p>
+<blockquote>
+<p>charset UTF-8</p>
+</blockquote>
+<p>So UTF-8 is used as default character set and most of characters can be used.</p>
+<pre><code>keyserver hkp://pool.sks-keyservers.net
+keyserver-options auto-key-retrieve no-include-revoked verbose</code></pre>
+<p>So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used.</p>
+<p>By the way, you can find my gpg.conf <a href="https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.conf">here</a>.</p>
+<h4 id="group-lines">Group lines</h4>
+<p>Group lines are a way to write email to one recepient and have it encrypted to multiple keys automatically.</p>
+<p>Example group line:</p>
+<blockquote>
+<p>group <script type="text/javascript">
+<!--
+h='&#x67;&#x6f;&#x6f;&#x67;&#108;&#x65;&#x67;&#114;&#x6f;&#x75;&#112;&#x73;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#116;&#x6f;&#x75;&#x63;&#104;&#108;&#x61;&#x79;&#x2d;&#x73;&#x65;&#114;&#118;&#x65;&#114;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#116;&#x6f;&#x75;&#x63;&#104;&#108;&#x61;&#x79;&#x2d;&#x73;&#x65;&#114;&#118;&#x65;&#114;&#32;&#x61;&#116;&#32;&#x67;&#x6f;&#x6f;&#x67;&#108;&#x65;&#x67;&#114;&#x6f;&#x75;&#112;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>=82A46728 8449A12B 666CC0DD 4EC00206</p>
+</blockquote>
+<p>With that line, when recepient is touchlay-server@googlegroups.com, then emails are encrypted to those 4 keys.</p>
+<p>NOTE: I think that group lines require email addresses to be in format</p>
+<blockquote>
+<p><script type="text/javascript">
+<!--
+h='&#116;&#104;&#x69;&#46;&#110;&#x67;';a='&#64;';n='&#x73;&#x6f;&#x6d;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x73;&#x6f;&#x6d;&#x65;&#32;&#x61;&#116;&#32;&#116;&#104;&#x69;&#32;&#100;&#x6f;&#116;&#32;&#110;&#x67;</noscript></p>
+</blockquote>
+<p>See also my <a href="Enigmail.html">Enigmail</a> instructions about group lines.</p>
+<h3 id="comments">Comments</h3>
+<p>GPG can automatically add comments to signed and encrypted content. They are usually hidden by email clients, which support GPG.</p>
+<p>Example comment:</p>
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Signed content.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+Comment: This is a comment.
+
+iQIcBAEBAgAGBQJP0ypzAAoJEE21PP6CpGcojpsP/jV8o398xaCOCtdk5gyZtSZG
+KYDbyV8dNk1jxyNb7yPuEHGdm2BNXuKDHoG1vOli1yfavDvZ7Ir6i6HqDINRt6QF
+TFcWQgurMtXEJ4zCbMwBHM5OCpRL0gtuK/ERZFWeA+zDuM/pDKWLcX9REriT5CaG
+CWBBvCIf/C2imGqe3+KBKSy13pis7MXARCTHesTOV/z04vKfsVqh7+M60ss/sc48
+kkL7CR/RiovomeoDhWuwS63oDE49eG+hlMDswgehnx71bvYr2NBZ3qfls4utx3fj
+ro4ubRGW52tY9wIC1tZoNiqa/n9Z6jOIq76Vn5DaJQ1dKWn3MnA5Sv2ztV4GlaIO
+iTLkvavAe7KHVxDCKcHpI7vnj9JlahF1u8+JDHXbTePDE3MiQvK1uEK91EQP9kYT
+EYQwuClDfVGNBgqORTzZUpszYrT1dCdLte+29RdkHzsC+32x540xLvkDFvkZ+92Y
+7LxCX83aKzIdAZmehNmSrzQAL+NCfMW3YjkvWOYoFFMd//nSVifCbxvRLsyv7npr
+Fowb/UnnZW3ScT/sFNJWH/xY5skDS8WZd3H6O7MJ8gHUeOR9YQepQX56kvSRVtbj
+ncnVEtqLjlbMpHEFy9ykKgM6rzuRTzLRct7Tf787Ww4hgSN92lhetPZmi6BGcS1z
+ZRzFq367A+HsVMlihBjd
+=HKS4
+-----END PGP SIGNATURE-----</code></pre>
+<p>To add comments, use &quot;--comment&quot; flag or add &quot;comment&quot; lines to gpg.conf:</p>
+<p>For example:</p>
+<blockquote>
+<p>comment &quot;Something&quot;</p>
+</blockquote>
+<p>Appears as</p>
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+This is signed content, which has comment, which reads &quot;Something&quot;.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+Comment: Something
+
+iQIcBAEBAgAGBQJP0yt8AAoJEE21PP6CpGcoHskP/jLift0y8tA7VnmbIyFfOr2J
+RVJfcc/cl8xvbnhSKIOa5rS47Z9MgVqf8KDY373E1CZMvOsdx4yPINMJb4901iBQ
+71RCRcg45YUI+yWRlZ2+ZsE7NBgUWm2cdSbwfaWrxH2eL8zRN+G5c3qiAQu0pXY5
+Mc1MG6ZQQzz3v+SrYPB6aZn8R8uNQR6U1YfbhtG1daxIfzdbXQNqMi/pIDV+M5GY
+IS3Wbbp57pvJ8R3EjvqMsDKv76L/ZFySlrAugQaZIj4lQVUzXhivBwzkaHslj6dP
+HSGamz3C4yX5GPe/QBJ8jgANAtmdx2+1IpoRRqiLrOOT48vRkCFM40VwjMVO4W+B
+wNg9BQUpB53/QBtpQ5kDHrpPA+6bS4QkzUIzMsMuSvF9w15vG+Ae7qozD/YTLeD/
+IBaRlqPIRI/CrOEfUfn0DE6bFKTMgf4WE5M8IZ2kBVAE/mBqicJ9QKI53it8Ru4M
+hznPzwtmQTHf02yaj06LjB1P0SYU3gjwioRN+3RVoCRC92rjW5gN4MBYR0jKydp6
+MHf2Mg+ped1BegBDEVD4FyDPw/LNmveZb5O8/KIpjdb9dMgP5uqDpvJEzS64OQf0
+vtzYEnCrJW+/1ABuGoF2aKG7+i24gLt9re+jOb02dj5NxRc1tWmhVNVM/acwReVr
+1ELecm6kOS0qlPF//OnU
+=Ilhi
+-----END PGP SIGNATURE-----</code></pre>
+<p>Comments can be whatever you want. For example they can have link to your homepage or command to receive your key from keyserver etc.</p>
+<h3 id="step-4-sharing-your-public-key">Step 4: Sharing your public key</h3>
+<p>There are two ways to share your key. I personally use and recommend them both.</p>
+<h4 id="without-keyservers">Without keyservers</h4>
+<p>If you have homepage, it's recommended that you put your key there. My key can be found at <a href="../../PGP/key.txt">PGP/key.txt</a></p>
+<p>You can get your public key with command</p>
+<blockquote>
+<p>gpg2 --export -a KEYID</p>
+</blockquote>
+<p>or if you use Linux and have installed package signing-party, you can use</p>
+<blockquote>
+<p>pgp-clean KEYID</p>
+</blockquote>
+<p>to get your public key without signatures (I will explain them later). WARNING: pgp-clean seems to also remove encryption subkey.</p>
+<h4 id="with-keyservers">With keyservers</h4>
+<p>If you followed my configuration, you are usng pool.sks-keyservers.net as your keyserver and you are automatically receiving unknown keys from t, whenever you try to verify something, what is signed with unknown key.</p>
+<p>To send your public key to keyserver, run</p>
+<blockquote>
+<p>gpg2 --send-keys KEYID</p>
+</blockquote>
+<p>To receive key from keyserver, run</p>
+<blockquote>
+<p>gpg2 --recv-keys KEYID</p>
+</blockquote>
+<p>To search keys from keyserver, use</p>
+<blockquote>
+<p>gpg2 --search-keys QUERY WORDS</p>
+</blockquote>
+<p>or if you are using Linux and have packages signing-party and dialog installed, you can use</p>
+<blockquote>
+<p>keylookup QUERY WORDS</p>
+</blockquote>
+<h5 id="word-of-warning">Word of warning</h5>
+<p>Keyservers only append content. Information on keyserver cannot be removed. This means, that when you delete uid, signature or whatever, it reappears when you run</p>
+<blockquote>
+<p>gpg2 --refresh-keys</p>
+</blockquote>
+<p>or receive your key from keyserver again. Thought content (uids, signatures, keys etc.) can be revoked.</p>
+<h1 id="you-can-now-move-to-icedove-thunderbird-guide-and-after-that-or-enigmail-guide-because-things-after-this-are-usually-done-by-email-client.">You can now move to Icedove / Thunderbird guide and after that | or Enigmail guide, because things after this are usually done by email client.</h1>
+<p>But you should continue reading to understand how to use GPG without email client.</p>
+<h2 id="trusting-keys.">Trusting keys.</h2>
+<p>If you want to make gpg know that you trust key of another person, you have two opinons. Enter the &quot;key editing shell&quot;, with</p>
+<blockquote>
+<p>gpg2 --edit-key KEYID</p>
+</blockquote>
+<p>and</p>
+<h3 id="way-1-lsign">Way 1: lsign</h3>
+<p>Lsign signs the key locally making it impossible to export the signature. Use it if you trust the key owner to be who the key says, but you haven't met him/her personally.</p>
+<p>Lsign the key with</p>
+<blockquote>
+<p>lsign</p>
+</blockquote>
+<p>and then you can exit gpg with</p>
+<blockquote>
+<p>quit</p>
+</blockquote>
+<p>confirming to svae changes with</p>
+<blockquote>
+<p>y</p>
+</blockquote>
+<h3 id="way-2-sign">Way 2: sign</h3>
+<p>If you trust the key owner to be whom the key says and you have met him/her personally and have seen proof of his/her identify (i.e. passport) or he/she is member of your family or long time friend, you can sign the key with</p>
+<blockquote>
+<p>sign</p>
+</blockquote>
+<p>making the signature exportable or sendable to keyserver. Now exit gpg with</p>
+<blockquote>
+<p>quit</p>
+</blockquote>
+<p>saving the changes with</p>
+<blockquote>
+<p>y</p>
+</blockquote>
+<p>and send the signed key to keyserver with</p>
+<blockquote>
+<p>gpg2 --send-keys KEYID</p>
+</blockquote>
+<p>Other people will see your signature next time when they receive the key agan or run</p>
+<blockquote>
+<p>gpg2 --refresh-keys</p>
+</blockquote>
+<p>NOTE: You can upgrade lsigned signature to signed signature with the &quot;sign&quot; command.</p>
+<h4 id="trust">Trust</h4>
+<p>Trust determines does gpg trust the key to validate other keys. Trust is only visible to you. You can se trust with</p>
+<blockquote>
+<p>trust</p>
+</blockquote>
+<p>and then exit gpg with</p>
+<blockquote>
+<p>quit</p>
+</blockquote>
+<p>saving the changes with</p>
+<blockquote>
+<p>y</p>
+</blockquote>
+<h2 id="signing">Signing</h2>
+<h3 id="signing-a-message">Signing a message</h3>
+<p>Run</p>
+<blockquote>
+<p>gpg2 --clearsign</p>
+</blockquote>
+<p>and write your message. When you are ready, add one empty line and press CTRL-D and gpg outputs signed message.</p>
+<h3 id="signing-a-plaintext-file">Signing a plaintext file</h3>
+<p>Just run</p>
+<blockquote>
+<p>gpg2 --clearsign file.txt</p>
+</blockquote>
+<p>and the signed content will be found from file.txt.asc</p>
+<p>NOTE: .asc is same as .txt and can be opened with normal text editor.</p>
+<h3 id="verifying-signature">Verifying signature</h3>
+<h4 id="clearsigned-messages">Clearsigned messages</h4>
+<p>Just run</p>
+<blockquote>
+<p>gpg2</p>
+</blockquote>
+<p>and paste the signed content, add one empty line and press CTRL-D.</p>
+<h4 id="detached-signatures">Detached signatures</h4>
+<p>Run</p>
+<blockquote>
+<p>gpg2 --verify file.sig</p>
+</blockquote>
+<p>and you are asked for signed file.</p>
+<h2 id="encrypting">Encrypting</h2>
+<p>To encrypt a message, just run</p>
+<blockquote>
+<p>gpg2 --encrypt -a -r receiver (-r receiver...)</p>
+</blockquote>
+<p>If you followed my configuration instructions, you are automatically receiver. Replace &quot;receiver&quot; with KEYID. Write your message, add empty line and press CTRL-D and gpg outputs encrypted content.</p>
+<h3 id="decrypting">Decrypting</h3>
+<p>Just run</p>
+<blockquote>
+<p>gpg2 --decrypt</p>
+</blockquote>
+<p>paste the encrypted content, add empty line and press CTRL-D and gpg outputs, the decrypted content.</p>
+<h2 id="read-also">Read also</h2>
+<p>My <a href="../Thunderbird-Icedove.html">Icedove / Thunderbird guide</a> and <a href="Enigmail.html">Enigmail guide</a>.</p>
+<h2 id="license">License</h2>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">GPG guide</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://mkaysi.github.com/articles/guides/GPG/GPG.html" property="cc:attributionName" rel="cc:attributionURL">Mika Suomalainen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>
+<h2 id="questions-and-asnwers">Questions and asnwers</h2>
+<h3 id="how-do-i-ask-question">How do I ask question?</h3>
+<p>Just email me, the addresses can be found from my GPG key, which has been mentioned on this page some times. Please cleasign your question, so I won't get power to fake it, and please don't use HTML.</p>
