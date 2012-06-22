@@ -34,6 +34,8 @@ To send emails in plaintext, open Edit --> Account settings --> Composition & Ad
 
 See my complaining about HTML usage [here].
 
+[here]:../complaining/HTML.html
+
 ## Sending UTF-8.
 
 This doesn't affect emails with any visible way. It might just remove some charters in message source and it will allow you to send more charters than some latin1 charset. It might also remove charset line in PGP/INLINE signed emails.
@@ -46,6 +48,9 @@ I am going to write explaining for this later.
 
 ## Read also
 
-My GPG guide and my Enigmail guide.
+My [GPG guide] and my [Enigmail guide].
+
+[GPG guide]:GPG/GPG.html
+[Enigmail guide]:GPG/Enigmail.html
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Thunderbird / Icedove guide</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://mkaysi.github.com/articles/guides/Thunderbird-Icedove.html" rel="dct:source">mkaysi.github.com</a>.
