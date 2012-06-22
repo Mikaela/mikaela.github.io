@@ -2,9 +2,10 @@
 
 # What do you need
 
-This depends on your OS. You should also read my previous guides about [GPG] and Icedove / Thunderbird.
+This depends on your OS. You should also read my previous guides about [GPG] and [Icedove / Thunderbird].
 
 [GPG]:GPG.html
+[Icedove / Thunderbird]:../Thunderbird-Icedove.html
 
 
 ## Debian based distributins
@@ -47,7 +48,9 @@ You can see the messages in original HTML easily. Open View (menu) --> Message b
 
 ### Sending plaintext
 
-This is documented in my Icedove / Thunderbird guide.
+This is documented in my [Icedove / Thunderbird guide].
+
+[Icedove / Thunderbird guide]:../Thunderbird-Icedove.html#sending-plaintext
 
 ### Signing by default.
 
@@ -59,7 +62,9 @@ Remember to do this for multiple identities. Select the account and then click t
 
 ## Sending UTF-8
 
-I have documented this in my Icedove / Thunderbird guide. 
+I have documented this in my [Icedove / Thunderbird guide].
+
+[Icedove / Thunderbird guide]:../Thunderbird-Icedove.html#sending-utf-8
 
 This only changes the charset line to UTF-8 or removes the mentioning of charset in signature.
 
