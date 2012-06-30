@@ -32,6 +32,12 @@ uid                  Mika Suomalainen
 sub   4096R/A4271AC5 2012-03-27
 ```
 
+### OTR
+
+See [OTR]. The blocks, which contain fingerprints are signed with GPG.
+
+[OTR]:PGP/OTR.html
+
 Preferred keyserver: [pool.sks-keyservers.net](http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0x4DB53CFE82A46728)
 
 My PGP key is also available [here](PGP/key.txt).
