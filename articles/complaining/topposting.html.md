@@ -16,7 +16,9 @@ This example from [Debian wiki](https://wiki.debian.org/FAQsFromDebianUser#What_
 Why is it bad?
 --------------
 
-See the answer to the previous question. It explains everything.
+See the answer to the previous question.
+
+It also makes harder to know what previous poster meant if he/she just said "+1" and other people have used different posting style and senders and replies are messed up. This happens often on Lubuntu mailing lists.
 
 Rules
 -----
