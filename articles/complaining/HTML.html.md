@@ -19,6 +19,8 @@ Why are they annoying?
 
 5. At least guidelines of [Debian mailing lists](http://www.debian.org/MailingLists/#codeofconduct), [Ubuntu mailing lists](http://www.ubuntu.com/support/community/mailinglists) and [Linux Kernel Developer mailing lists](http://vger.kernel.org/majordomo-info.html) forbid writing emails in HTML. Hopefully others do to, at least they should.
 
+6. PGP/INLINE signed or encrypted blocks get invalid, when HTML adds spaces to them. This seems to be very popular issue (probably, because K9 mail has interesting default settings of sending HTML and topposting...)
+
 My email client cannot write messages in plaintext!
 ---------------------------------------------------
 
