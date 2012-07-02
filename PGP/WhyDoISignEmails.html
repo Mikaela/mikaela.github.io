@@ -16,7 +16,7 @@
 <h1 id="clearsigninginline-signing">Clearsigning/INLINE signing</h1>
 <h2 id="why-do-you-gpg-clearsign-your-emails-instead-of-using-pgpmime-or-something-less-spammy">Why do you GPG clearsign your emails instead of using PGP/MIME or something less spammy?</h2>
 <ol class="incremental" style="list-style-type: decimal">
-<li><p>Some mailing list software mess up with headers and make PGP/MIME signatures unverifiable.</p>
+<li><p>Some mailing list software mess up with headers and make PGP/MIME signatures unverifiable at least to Enigmail. Some people say that that what those mailing lists do is completely valid. It's up to you to believe in Enigmail developers or other people.</p>
 <p>Which mailing lists do that?</p>
 <p>At least the following:</p>
 <ol class="incremental" style="list-style-type: decimal">
@@ -24,8 +24,11 @@
 <li><p><a href="https://www.mozdev.org/mailman/listinfo">Mozdev mailing lists</a>.</p></li>
 <li><p><a href="http://lists.gnupg.org/mailman/listinfo/">GnuPG mailing lists</a>.</p></li>
 </ol></li>
-<li><p>INLINE messages are easier to verify manually (presuming that charset doesn't cause problems).</p></li>
+<li><p>INLINE messages are easier to verify manually (presuming that charset doesn't cause problems).</p>
+<p>There are many web archives and sometimes people want to verify signatures of emails, which they didn't receive. Think about <a href="http://bugs.debian.org/">Debian BTS</a>.</p></li>
 <li><p><a href="https://github.com/k9mail/k-9">K9 Mail</a> doesn't support PGP/MIME.</p></li>
+<li><p><a href="http://bugs.debian.org/">Debian BTS</a> doesn't send working PGP/MIME back in subscribtion confirmations.</p>
+<p>In my opinion, it's easier to check did you request something with [Ðebian BTS] if it has content, which is signed with your key.</p></li>
 </ol>
 <h2 id="but-clearsigned-signature-looks-ugly.">But clearsigned signature looks ugly.</h2>
 <p>This is the problem of your email client. If you use <a href="https://mozilla.org/thunderbird">Thunderbird or Icedove or Seamonkey</a>, you can probably install <a href="http://enigmail.mozdev.org/home/index.php.html">Enigmail</a> and that signature block gets hidden. If you use some other email client, please report bug for that package in your distribution or upstream bug tracker.</p>

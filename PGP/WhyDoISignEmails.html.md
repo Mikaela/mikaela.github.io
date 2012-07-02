@@ -33,7 +33,8 @@ According to "Locate assurer" feature at [CAcert], the nearest assurer is
 
 ## Why do you GPG clearsign your emails instead of using PGP/MIME or something less spammy?
 
-1. Some mailing list software mess up with headers and make PGP/MIME signatures unverifiable.
+1. Some mailing list software mess up with headers and make PGP/MIME signatures unverifiable at least to Enigmail.
+Some people say that that what those mailing lists do is completely valid. It's up to you to believe in Enigmail developers or other people.
 
     Which mailing lists do that?
 
@@ -47,10 +48,17 @@ According to "Locate assurer" feature at [CAcert], the nearest assurer is
 
 2. INLINE messages are easier to verify manually (presuming that charset doesn't cause problems).
 
+    There are many web archives and sometimes people want to verify signatures of emails, which they didn't receive. Think about [Debian BTS].
+
 3. [K9 Mail] doesn't support PGP/MIME.
 
 [K9 Mail]:https://github.com/k9mail/k-9
 
+4. [Debian BTS] doesn't send working PGP/MIME back in subscribtion confirmations.
+
+    In my opinion, it's easier to check did you request something with [Ðebian BTS] if it has content, which is signed with your key.
+
+[Debian BTS]:http://bugs.debian.org/
 
 ## But clearsigned signature looks ugly.
     
