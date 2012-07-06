@@ -1,0 +1,28 @@
+<h1 id="what-you-should-remove-from-email-when-you-reply-into-pgpinline-signed-email.">What you should remove from email, when you reply into PGP/INLINE signed email.</h1>
+<h2 id="top">Top</h2>
+<p>From top of the email, remove everything after</p>
+<blockquote>
+<p>-----BEGIN PGP SIGNED MESSAGE-----</p>
+</blockquote>
+<p>untill the first line change.</p>
+<p>For example:</p>
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,</code></pre>
+<p>You would remove</p>
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1</code></pre>
+<p>so the message would be</p>
+<blockquote>
+<p>Hi,</p>
+</blockquote>
+<h1 id="bottom">Bottom</h1>
+<p>Remove everything between lines</p>
+<blockquote>
+<p>-----BEGIN PGP SIGNATURE-----</p>
+</blockquote>
+<p>and</p>
+<blockquote>
+<p>-----END PGP SIGNATURE-----</p>
+</blockquote>
