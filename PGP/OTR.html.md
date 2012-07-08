@@ -8,7 +8,7 @@ syntax: account || fingerprint
 
 Devgan is laptop.
 
-# Pidgin
+## Pidgin
 
 I have moved to Pidgin (again). The old PSI+ keys can still be found on this page.
 
@@ -49,7 +49,7 @@ B4Vtxa7mf/z1g0mz+9/a
 -----END PGP SIGNATURE-----
 ```
 
-# PSI+
+## PSI+
 
 I might be using Pidgin more than PSI+.
 
@@ -90,6 +90,8 @@ GoBAFxXmFKgCV3T+1F1v
 # Ciblia
 
 Ciblia is phone.
+
+## GibberBot
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
