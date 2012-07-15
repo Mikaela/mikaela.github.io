@@ -1,18 +1,18 @@
 # What is what in MATE and GNOME.
 
-MATE        || GNOME            =   What it is?
+MATE            ||   GNOME             =   What it is?
 
-Caja           Nautilus         =   File browser
+Caja            ||   Nautilus         =   File browser
 
-Pluma          Gedit            =   Text editor
+Pluma           ||   Gedit            =   Text editor
 
-Eye of MATE    Eye of GNOME     =   Picture viewer
+Eye of MATE     ||   Eye of GNOME     =   Picture viewer
 
-Atril          Evince           =   Document viewer
+Atril           ||   Evince           =   Document viewer
 
-Engrampa       File roller      =   File extractor
+Engrampa        ||   File roller      =   File extractor
 
-MATE terminal  GNOME Terminal   =   Terminal emulator
+MATE terminal   ||  GNOME Terminal    =   Terminal emulator
 
 
 # Notice about aptitude
