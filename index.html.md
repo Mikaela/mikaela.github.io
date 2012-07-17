@@ -60,18 +60,25 @@ NOTICE: Remember to check that the fingerprint matches to the key!
 
 [Mkaysi at Identica](https://identi.ca/Mkaysi)
 
-### IRC
+### [Mika Suomalainen at Facebook](https://facebook.com/mika.suomalainen)
 
-You can find me (Mkaysi) at [freenode] and [OFTC].
+Friend requests are accepted from people whom I know personally or from IRC/somewhere similar.
+
+## IRC
+
+You can find me (Mkaysi) at [freenode], [OFTC] and [IRCnet].
 
 [freenode]:http://freenode.net/
 [OFTC]:http://oftc.net/
+[IRCnet]:http://ircnet.com/
 
 At freenode I can usually be found from at least at [#limnoria,#gribble,#supybot,##Mkaysi](irc://irc.freenode.net/#limnoria,#gribble,#supybot,##Mkaysi).
 
 At OFTC, I can usually be found from at least at [#debian-next,#supybot,](irc://irc.oftc.net/#debian-next,#supybot,)
 
-# Miscannellious things related to this page.
+At IRCNET, I don't have any public channels, which are in English.
+
+# Miscannellious things related to this site.
 
 [Mirror list](mirrors.html)
 
