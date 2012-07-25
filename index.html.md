@@ -1,5 +1,3 @@
-<meta http-equiv="refresh" content="0;url=http://cadoth.net/~mkaysi">
-
 # Welcome
 
 There might not be much to see in this page. You can find list of pages in the source.
