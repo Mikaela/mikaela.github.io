@@ -1,12 +1,11 @@
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.19 (GNU/Linux)
-Comment: Homepage: http://mkaysi.github.com/
-Comment: gpg --keyserver pool.sks-keyservers.net --recv-keys 82A46728
 Comment: Public key: http://mkaysi.github.com/PGP/key.txt
+Comment: gpg --keyserver pool.sks-keyservers.net --recv-keys 0x82A46728
 Comment: Fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
-Comment: See my Icedove / Thunderbird guide here http://git.io/YUDk8g
-Comment: See my GPG guide here http://git.io/5KWssQ
-Comment: See my Enigmail guide here http://git.io/bXla3g
+Comment: Why do I (clear)sign emails? http://git.io/6FLzWg
+Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
+Comment: Charset of this message should be UTF-8.
 
 mQINBE9xiBUBEADI2Wdm4G7gVGm1fDi/78LSXgcLSpiixaHnE1vrdU3CoSZ5Pygo
 wLxMMoA5R/4z329SyuGFlxO+IPl2lWFh1UD+iOC+WhWZkeRFPGIF7YKeYtDqoSCs
