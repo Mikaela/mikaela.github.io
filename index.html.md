@@ -76,7 +76,7 @@ At OFTC, I can usually be found from at least at [#debian-next,#supybot,](irc://
 
 At IRCNET, I don't have any public channels, which are in English.
 
-# Miscannellious things related to this site.
+# Miscellaneous things related to this site.
 
 [Mirror list](mirrors.html)
 
