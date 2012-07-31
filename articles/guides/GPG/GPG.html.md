@@ -176,6 +176,10 @@ So everything what you encrypt is also encrypted to you.
 
 So keyids are shown in the longest format, including 0x prefix, which marks them as hexadecimanls.
 
+Example outputs from --list-keys and gpg --fingerprint after setting 0xLONG as keyid format.
+
+After you set 0xLONG as keyid-format, keys appear like 0x4DB53CFE82A46728 instead of 82A46728.
+
 > charset UTF-8
 
 So UTF-8 is used as default character set and most of characters can be used.
