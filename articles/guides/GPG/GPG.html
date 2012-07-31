@@ -73,6 +73,16 @@ sub   4096R/A4271AC5 2012-03-27</code></pre>
 <blockquote>
 <p>y</p>
 </blockquote>
+<h6 id="setting-preferred-keyserver-of-the-key.">Setting preferred keyserver of the key.</h6>
+<p>Preferred keyserver is where the key is refreshed when someone runs &quot;gpg2 --refresh-keys&quot;.</p>
+<p>To set it run</p>
+<blockquote>
+<p>gpg2 --edit-key KEYID</p>
+</blockquote>
+<blockquote>
+<p>keyserver</p>
+</blockquote>
+<p>and enter the keyserver address, for example hkp://pool.sks-keyservers.net (I recommend this keyserver).</p>
 <h4 id="step-1-importing-old-key">Step 1: Importing old key</h4>
 <p>You can import your old private key same way as you import public keys. This means:</p>
 <blockquote>
