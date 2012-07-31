@@ -148,6 +148,7 @@ I recommend you to add following lines to it. I'll try to explain them with my b
 ```
 # Options for GnuPG
 # Copyright 1998, 1999, 2000, 2001, 2002, 2003,
+#           2012— Mika Suomalainen (Mkaysi) https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.conf
 #           2010 Free Software Foundation, Inc.
 #
 # This file is free software; as a special exception the author gives
