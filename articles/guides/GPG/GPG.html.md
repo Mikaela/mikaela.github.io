@@ -207,6 +207,7 @@ With that line, when recepient is touchlay-server@googlegroups.com, then emails 
 
 NOTE: I think that group lines require email addresses to be in format
 
+NOTE: KEYIDs in group line should be in format 0xLONG. If you don't use that format by default, use "gpg2 --keyid-format 0xLONG --list-keys".
 > <some@thi.ng>
 
 See also my [Enigmail] instructions about group lines.

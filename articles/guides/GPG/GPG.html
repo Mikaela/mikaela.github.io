@@ -135,14 +135,12 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+
 </script><noscript>&#116;&#x6f;&#x75;&#x63;&#104;&#108;&#x61;&#x79;&#x2d;&#x73;&#x65;&#114;&#118;&#x65;&#114;&#32;&#x61;&#116;&#32;&#x67;&#x6f;&#x6f;&#x67;&#108;&#x65;&#x67;&#114;&#x6f;&#x75;&#112;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>=0x4DB53CFE82A46728 0x0BD622288449A12B 0x729DF464666CC0DD 0xCACC5B094EC00206</p>
 <p>With that line, when recepient is touchlay-server@googlegroups.com, then emails are encrypted to those 4 keys.</p>
 <p>NOTE: I think that group lines require email addresses to be in format</p>
-<blockquote>
-<p><script type="text/javascript">
+<p>NOTE: KEYIDs in group line should be in format 0xLONG. If you don't use that format by default, use &quot;gpg2 --keyid-format 0xLONG --list-keys&quot;. &gt; <script type="text/javascript">
 <!--
 h='&#116;&#104;&#x69;&#46;&#110;&#x67;';a='&#64;';n='&#x73;&#x6f;&#x6d;&#x65;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
 // -->
 </script><noscript>&#x73;&#x6f;&#x6d;&#x65;&#32;&#x61;&#116;&#32;&#116;&#104;&#x69;&#32;&#100;&#x6f;&#116;&#32;&#110;&#x67;</noscript></p>
-</blockquote>
 <p>See also my <a href="Enigmail.html">Enigmail</a> instructions about group lines.</p>
 <h3 id="comments">Comments</h3>
 <p>GPG can automatically add comments to signed and encrypted content. They are usually hidden by email clients, which support GPG.</p>
