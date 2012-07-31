@@ -111,12 +111,16 @@ sub   4096R/A4271AC5 2012-03-27</code></pre>
 encrypt-to KEYID</code></pre>
 <p>So everything what you encrypt is also encrypted to you.</p>
 <blockquote>
+<p>keyid-format 0xLONG</p>
+</blockquote>
+<p>So keyids are shown in the longest format, including 0x prefix, which marks them as hexadecimanls.</p>
+<blockquote>
 <p>charset UTF-8</p>
 </blockquote>
 <p>So UTF-8 is used as default character set and most of characters can be used.</p>
 <pre><code>keyserver hkp://pool.sks-keyservers.net
-keyserver-options auto-key-retrieve no-include-revoked verbose</code></pre>
-<p>So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used.</p>
+keyserver-options auto-key-retrieve no-include-revoked verbose import-clean</code></pre>
+<p>So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used and signatures by unknown keys are automatically removed.</p>
 <p>By the way, you can find my gpg.conf <a href="https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.conf">here</a>.</p>
 <h4 id="group-lines">Group lines</h4>
 <p>Group lines are a way to write email to one recepient and have it encrypted to multiple keys automatically.</p>

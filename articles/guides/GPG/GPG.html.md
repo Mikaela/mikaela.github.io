@@ -172,16 +172,20 @@ encrypt-to KEYID
 
 So everything what you encrypt is also encrypted to you.
 
+> keyid-format 0xLONG
+
+So keyids are shown in the longest format, including 0x prefix, which marks them as hexadecimanls.
+
 > charset UTF-8
 
 So UTF-8 is used as default character set and most of characters can be used.
 
 ```
 keyserver hkp://pool.sks-keyservers.net
-keyserver-options auto-key-retrieve no-include-revoked verbose
+keyserver-options auto-key-retrieve no-include-revoked verbose import-clean
 ```
 
-So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used.
+So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used and signatures by unknown keys are automatically removed.
 
 By the way, you can find my gpg.conf [here].
 
