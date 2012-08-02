@@ -73,6 +73,16 @@ sub   4096R/A4271AC5 2012-03-27</code></pre>
 <blockquote>
 <p>y</p>
 </blockquote>
+<h6 id="setting-preferred-keyserver-of-the-key.">Setting preferred keyserver of the key.</h6>
+<p>Preferred keyserver is where the key is refreshed when someone runs &quot;gpg2 --refresh-keys&quot;.</p>
+<p>To set it run</p>
+<blockquote>
+<p>gpg2 --edit-key KEYID</p>
+</blockquote>
+<blockquote>
+<p>keyserver</p>
+</blockquote>
+<p>and enter the keyserver address, for example hkp://pool.sks-keyservers.net (I recommend this keyserver).</p>
 <h4 id="step-1-importing-old-key">Step 1: Importing old key</h4>
 <p>You can import your old private key same way as you import public keys. This means:</p>
 <blockquote>
@@ -92,7 +102,7 @@ sub   4096R/A4271AC5 2012-03-27</code></pre>
 <h3 id="step-3-configuring-gpg2">Step 3: Configuring gpg(2)</h3>
 <p>The configuring of gpg happens in gpg configuration directory. In Linux and Mac this is ~/.gnupg/gpg.conf.</p>
 <p>I recommend you to add following lines to it. I'll try to explain them with my best ability.</p>
-<p><code># Options for GnuPG # Copyright 1998, 1999, 2000, 2001, 2002, 2003, #           2010 Free Software Foundation, Inc. # # This file is free software; as a special exception the author gives # unlimited permission to copy and/or distribute it, with or without # modifications, as long as this notice is preserved. # # This file is distributed in the hope that it will be useful, but # WITHOUT ANY WARRANTY, to the extent permitted by law; without even the # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</code> License information so I won't break license of the default config file, which I have appended.</p>
+<p><code># Options for GnuPG # Copyright 1998, 1999, 2000, 2001, 2002, 2003, #           2012— Mika Suomalainen (Mkaysi) https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.conf #           2010 Free Software Foundation, Inc. # # This file is free software; as a special exception the author gives # unlimited permission to copy and/or distribute it, with or without # modifications, as long as this notice is preserved. # # This file is distributed in the hope that it will be useful, but # WITHOUT ANY WARRANTY, to the extent permitted by law; without even the # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</code> License information so I won't break license of the default config file, which I have appended.</p>
 <blockquote>
 <p>default-key KEYID</p>
 </blockquote>
@@ -101,34 +111,36 @@ sub   4096R/A4271AC5 2012-03-27</code></pre>
 encrypt-to KEYID</code></pre>
 <p>So everything what you encrypt is also encrypted to you.</p>
 <blockquote>
+<p>keyid-format 0xLONG</p>
+</blockquote>
+<p>So keyids are shown in the longest format, including 0x prefix, which marks them as hexadecimanls.</p>
+<p>Example outputs from --list-keys and gpg --fingerprint after setting 0xLONG as keyid format.</p>
+<p>After you set 0xLONG as keyid-format, keys appear like 0x4DB53CFE82A46728 instead of 82A46728.</p>
+<blockquote>
 <p>charset UTF-8</p>
 </blockquote>
 <p>So UTF-8 is used as default character set and most of characters can be used.</p>
 <pre><code>keyserver hkp://pool.sks-keyservers.net
-keyserver-options auto-key-retrieve no-include-revoked verbose</code></pre>
-<p>So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used.</p>
+keyserver-options auto-key-retrieve no-include-revoked verbose import-clean</code></pre>
+<p>So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used and signatures by unknown keys are automatically removed.</p>
 <p>By the way, you can find my gpg.conf <a href="https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.conf">here</a>.</p>
 <h4 id="group-lines">Group lines</h4>
 <p>Group lines are a way to write email to one recepient and have it encrypted to multiple keys automatically.</p>
 <p>Example group line:</p>
-<blockquote>
 <p>group <script type="text/javascript">
 <!--
 h='&#x67;&#x6f;&#x6f;&#x67;&#108;&#x65;&#x67;&#114;&#x6f;&#x75;&#112;&#x73;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#116;&#x6f;&#x75;&#x63;&#104;&#108;&#x61;&#x79;&#x2d;&#x73;&#x65;&#114;&#118;&#x65;&#114;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
 // -->
-</script><noscript>&#116;&#x6f;&#x75;&#x63;&#104;&#108;&#x61;&#x79;&#x2d;&#x73;&#x65;&#114;&#118;&#x65;&#114;&#32;&#x61;&#116;&#32;&#x67;&#x6f;&#x6f;&#x67;&#108;&#x65;&#x67;&#114;&#x6f;&#x75;&#112;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>=82A46728 8449A12B 666CC0DD 4EC00206</p>
-</blockquote>
+</script><noscript>&#116;&#x6f;&#x75;&#x63;&#104;&#108;&#x61;&#x79;&#x2d;&#x73;&#x65;&#114;&#118;&#x65;&#114;&#32;&#x61;&#116;&#32;&#x67;&#x6f;&#x6f;&#x67;&#108;&#x65;&#x67;&#114;&#x6f;&#x75;&#112;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>=0x4DB53CFE82A46728 0x0BD622288449A12B 0x729DF464666CC0DD 0xCACC5B094EC00206</p>
 <p>With that line, when recepient is touchlay-server@googlegroups.com, then emails are encrypted to those 4 keys.</p>
 <p>NOTE: I think that group lines require email addresses to be in format</p>
-<blockquote>
-<p><script type="text/javascript">
+<p>NOTE: KEYIDs in group line should be in format 0xLONG. If you don't use that format by default, use &quot;gpg2 --keyid-format 0xLONG --list-keys&quot;. &gt; <script type="text/javascript">
 <!--
 h='&#116;&#104;&#x69;&#46;&#110;&#x67;';a='&#64;';n='&#x73;&#x6f;&#x6d;&#x65;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
 // -->
 </script><noscript>&#x73;&#x6f;&#x6d;&#x65;&#32;&#x61;&#116;&#32;&#116;&#104;&#x69;&#32;&#100;&#x6f;&#116;&#32;&#110;&#x67;</noscript></p>
-</blockquote>
 <p>See also my <a href="Enigmail.html">Enigmail</a> instructions about group lines.</p>
 <h3 id="comments">Comments</h3>
 <p>GPG can automatically add comments to signed and encrypted content. They are usually hidden by email clients, which support GPG.</p>

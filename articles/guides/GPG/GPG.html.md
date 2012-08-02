@@ -107,6 +107,18 @@ and confirm to save changes with
 
 > y
 
+###### Setting preferred keyserver of the key.
+
+Preferred keyserver is where the key is refreshed when someone runs "gpg2 --refresh-keys".
+
+To set it run
+
+> gpg2 --edit-key KEYID
+
+> keyserver
+
+and enter the keyserver address, for example hkp://pool.sks-keyservers.net (I recommend this keyserver).
+
 #### Step 1: Importing old key
 
 You can import your old private key same way as you import public keys. This means:
@@ -136,6 +148,7 @@ I recommend you to add following lines to it. I'll try to explain them with my b
 ```
 # Options for GnuPG
 # Copyright 1998, 1999, 2000, 2001, 2002, 2003,
+#           2012— Mika Suomalainen (Mkaysi) https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.conf
 #           2010 Free Software Foundation, Inc.
 #
 # This file is free software; as a special exception the author gives
@@ -159,16 +172,24 @@ encrypt-to KEYID
 
 So everything what you encrypt is also encrypted to you.
 
+> keyid-format 0xLONG
+
+So keyids are shown in the longest format, including 0x prefix, which marks them as hexadecimanls.
+
+Example outputs from --list-keys and gpg --fingerprint after setting 0xLONG as keyid format.
+
+After you set 0xLONG as keyid-format, keys appear like 0x4DB53CFE82A46728 instead of 82A46728.
+
 > charset UTF-8
 
 So UTF-8 is used as default character set and most of characters can be used.
 
 ```
 keyserver hkp://pool.sks-keyservers.net
-keyserver-options auto-key-retrieve no-include-revoked verbose
+keyserver-options auto-key-retrieve no-include-revoked verbose import-clean
 ```
 
-So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used.
+So default keyserver is specified and unknown keys are always received when something what requires missing key is procressses and revoked keys aren't included in search results and verbose output is used and signatures by unknown keys are automatically removed.
 
 By the way, you can find my gpg.conf [here].
 
@@ -180,12 +201,13 @@ Group lines are a way to write email to one recepient and have it encrypted to m
 
 Example group line:
 
-> group <touchlay-server@googlegroups.com>=82A46728 8449A12B 666CC0DD 4EC00206
+group <touchlay-server@googlegroups.com>=0x4DB53CFE82A46728 0x0BD622288449A12B 0x729DF464666CC0DD 0xCACC5B094EC00206
 
 With that line, when recepient is touchlay-server@googlegroups.com, then emails are encrypted to those 4 keys.
 
 NOTE: I think that group lines require email addresses to be in format
 
+NOTE: KEYIDs in group line should be in format 0xLONG. If you don't use that format by default, use "gpg2 --keyid-format 0xLONG --list-keys".
 > <some@thi.ng>
 
 See also my [Enigmail] instructions about group lines.
