@@ -1,0 +1,56 @@
+Return-Path: <s.mika95@gmail.com>
+Received: from [192.168.1.102] ([77.109.197.243])
+        by mx.google.com with ESMTPS id s3sm3684815lbk.11.2012.08.06.04.39.58
+        (version=SSLv3 cipher=OTHER);
+        Mon, 06 Aug 2012 04:39:58 -0700 (PDT)
+Sender: Mika Suomalainen <s.mika95@gmail.com>
+Message-ID: <501FAD0D.7080206@outlook.com>
+Date: Mon, 06 Aug 2012 14:39:57 +0300
+From: Mika Suomalainen <mika.suomalainen@outlook.com>
+Reply-To: mika.suomalainen@outlook.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:11.0) Gecko/20120418 Icedove/11.0
+MIME-Version: 1.0
+To: mkaysi@users.sourceforge.net
+Subject: PGP/INLINE signed email
+X-Enigmail-Version: 1.4.1
+OpenPGP: id=82A46728;
+	url=http://mkaysi.github.com/PGP/key.txt
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hi,
+
+This is PGP/INLINE signed email, so this should be easy to verify by
+copy-pasting this to "gpg --verify".
+
+- -- 
+Mika Suomalainen
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+Comment: Public key: http://mkaysi.github.com/PGP/key.txt
+Comment: gpg --keyserver pool.sks-keyservers.net --recv-keys 0x82A46728
+Comment: Fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
+Comment: Why do I (clear)sign emails? http://git.io/6FLzWg
+Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
+Comment: Charset of this message should be UTF-8.
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iQIcBAEBCgAGBQJQH60JAAoJEE21PP6CpGcoGUUP/Ra091ygC9Tpqr33Y66ncHqs
+xOffinq8mUUYqTqm3lZoZHDbR1KEUga7Tjx5aFFK/7LTrVqopap2OIjxV6H5x+PB
+hy+THvKj6tLjESv5tlNwgSzlHClYnMo1B3RhogQYS6/KnQkHTf9PHf1LqIiDfiwu
+5wmw8OoVr6U43hU0xNNctF+QLsgguec4ScIsSG04gbpxQZpMKnY/xkvYEQQtbcnK
+coDTlmZI0XSCuRLM4+ieHUp/doWt58xb+umGIenBg9Y0F4Lu0HJlhfM9phWnWugr
+Pvmq17mB0ZNITl58f4osMAN80oP0dmCYkC8NJ3eC4tXsnXDeslIzU+X7HhHwLv+p
+wADmUCycOuxCsfmaaV3MyTHcq9ezqMZmc6Yj9SRNgNpFBcJS+iSVnhzNjER0i9so
+WwLVZzNxa9SDEdjhRu5i1Fs6wsHydPrpYM9HXDVOMESOOAAYJksBntVzU2z3RJLp
+7BY2bSTkZjlMS+/G+WzApWQJsv8bwH2IOCnW9YO2TzdAM+7GOPT1o53vGooM8u1A
+XgshvLc7Aomw7b6jInG/510SBHnxsH7DWOZqLvmBk3R6TYZkeEhpXk/UUz617KeM
+VvCWaasCdLa8S95t3ppVCgN7SoKWuJDR9/9W7RNtd13JNHGGQ+FuvLQv0N4iOipd
+TPt1GCsAVrApDGtIrFFk
+=4qxS
+-----END PGP SIGNATURE-----
+
