@@ -59,9 +59,9 @@ NOTICE: Remember to check that the fingerprint matches to the key!
 
 [Mkaysi at Identica](https://identi.ca/Mkaysi)
 
-### [Mika Suomalainen at Facebook](https://facebook.com/mika.suomalainen)
+<!-- Facebook Badge START --><a href="https://www.facebook.com/mika.suomalainen" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Mika Suomalainen">Mika Suomalainen</a><span style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; line-height: 16px; font-variant: normal; font-style: normal; font-weight: normal; color: #555555; text-decoration: none;">&nbsp;|&nbsp;</span><a href="http://www.facebook.com/badges/" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Tee oma merkkisi!">Luo merkki</a><br/><a href="https://www.facebook.com/mika.suomalainen" target="_TOP" title="Mika Suomalainen"><img src="https://badge.facebook.com/badge/100002544672061.1472.490186611.png" style="border: 0px;" /></a><!-- Facebook Badge END -->
 
-Friend requests are accepted from people whom I know personally or from IRC/somewhere similar.
+Friend requests (at Facebook) are accepted from people whom I know personally or from IRC/somewhere similar.
 
 ## IRC
 
