@@ -2,6 +2,7 @@
 wget -O .cat.sh https://raw.github.com/Mkaysi/shell-things/master/.cat.sh
 wget -O bashrc https://raw.github.com/Mkaysi/shell-things/master/bashrc
 wget -O gitconfig https://raw.github.com/Mkaysi/shell-things/master/gitconfig
+wget -O .gitignore https://raw.github.com/Mkaysi/shell-things/master/.gitignore
 wget -O notMkaysi https://raw.github.com/Mkaysi/shell-things/master/notMkaysi
 wget -O oidentd.conf https://raw.github.com/Mkaysi/shell-things/master/oidentd.conf
 wget -O pastebinit.xml https://raw.github.com/Mkaysi/shell-things/master/pastebinit.xml
