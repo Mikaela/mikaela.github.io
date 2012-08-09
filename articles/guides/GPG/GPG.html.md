@@ -184,6 +184,10 @@ After you set 0xLONG as keyid-format, keys appear like 0x4DB53CFE82A46728 instea
 
 So UTF-8 is used as default character set and most of characters can be used.
 
+> armor
+
+So you don't need to specify -a to get ASCII armoured text.
+
 ```
 keyserver hkp://pool.sks-keyservers.net
 keyserver-options auto-key-retrieve no-include-revoked verbose import-clean
@@ -201,14 +205,11 @@ Group lines are a way to write email to one recepient and have it encrypted to m
 
 Example group line:
 
-group <touchlay-server@googlegroups.com>=0x4DB53CFE82A46728 0x0BD622288449A12B 0x729DF464666CC0DD 0xCACC5B094EC00206
+group touchlay-server@googlegroups.com=0x4DB53CFE82A46728 0x0BD622288449A12B 0x729DF464666CC0DD 0xCACC5B094EC00206
 
 With that line, when recepient is touchlay-server@googlegroups.com, then emails are encrypted to those 4 keys.
 
-NOTE: I think that group lines require email addresses to be in format
-
 NOTE: KEYIDs in group line should be in format 0xLONG. If you don't use that format by default, use "gpg2 --keyid-format 0xLONG --list-keys".
-> <some@thi.ng>
 
 See also my [Enigmail] instructions about group lines.
 
