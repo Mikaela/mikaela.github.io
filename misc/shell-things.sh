@@ -19,3 +19,7 @@ wget -O gpg.conf https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.con
 wget -O pgprules.xml.asc https://raw.github.com/Mkaysi/shell-things/master/gnupg/pgprules.xml.asc
 cd ..
 wget -O README.md https://raw.github.com/Mkaysi/shell-things/master/README.md
+
+chmod +x cat.sh
+chmod +x recommends
+chmod +x warnings
