@@ -12,13 +12,23 @@ True, I could do that. But I don't have habit of writing offensive text and sayi
 
 ## Your signature doesn't mean anything anyway, because you aren't part of any trust web.
 
-1. Some people at IRC lsign keys of each other, so I am in somekind of trustweb.
+Actually, I am, but my key is only signed by bots (see below).
 
-2. The signature can still prove that the email hasn't been modified after sending.
+You might have "import-minimal" or "import-clean" in your keyserver-options in your gpg.conf, so you don't see the signatures. If you don't have them, run 
 
-3. This can change in the future. My key doesn't have any signatures right now, because anyone else near here doesn't use PGP.
+> gpg --keyserver pool.sks-keyservers.net --refresh-keys 0x4DB53CFE82A46728 
 
-### Why you don't get signatures using [CAcert]?
+and signatures should appear.
+
+*NOTE*: My key contains information, that my preferred keyserver is pool.sks-keyservers.net, so it's used with --refresh-keys with my key even if you speify another keyserver. This isn't the case if you use very old version of my key.
+
+### Why you don't get signatures from some bot certificate authority?
+
+#### [PGP Global Directory]
+
+I have got signature from [PGP Global Directory], it wanted only to confirm my email addresses.
+
+### [CAcert]
 
 According to "Locate assurer" feature at [CAcert], the nearest assurer is
  110KM away from me.
@@ -28,6 +38,8 @@ According to "Locate assurer" feature at [CAcert], the nearest assurer is
 [https://wiki.cacert.org/PgpSigning](https://wiki.cacert.org/PgpSigning)
 
 [CAcert]:https://cacert.org/
+
+[PGP Global Directory]:https://keyserver.pgp.com/vkd/GetWelcomeScreen.event
 
 # Clearsigning/INLINE signing
 

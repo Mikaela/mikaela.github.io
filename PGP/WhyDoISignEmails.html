@@ -4,12 +4,17 @@
 <h3 id="but-it-doesnt-prove-anything-you-can-just-leave-offensive-content-unsigned.">But it doesn't prove anything, you can just leave offensive content unsigned.</h3>
 <p>True, I could do that. But I don't have habit of writing offensive text and saying that it doesn't come from me.</p>
 <h2 id="your-signature-doesnt-mean-anything-anyway-because-you-arent-part-of-any-trust-web.">Your signature doesn't mean anything anyway, because you aren't part of any trust web.</h2>
-<ol class="incremental" style="list-style-type: decimal">
-<li><p>Some people at IRC lsign keys of each other, so I am in somekind of trustweb.</p></li>
-<li><p>The signature can still prove that the email hasn't been modified after sending.</p></li>
-<li><p>This can change in the future. My key doesn't have any signatures right now, because anyone else near here doesn't use PGP.</p></li>
-</ol>
-<h3 id="why-you-dont-get-signatures-using-cacert">Why you don't get signatures using <a href="https://cacert.org/">CAcert</a>?</h3>
+<p>Actually, I am, but my key is only signed by bots (see below).</p>
+<p>You might have &quot;import-minimal&quot; or &quot;import-clean&quot; in your keyserver-options in your gpg.conf, so you don't see the signatures. If you don't have them, run</p>
+<blockquote>
+<p>gpg --keyserver pool.sks-keyservers.net --refresh-keys 0x4DB53CFE82A46728</p>
+</blockquote>
+<p>and signatures should appear.</p>
+<p><em>NOTE</em>: My key contains information, that my preferred keyserver is pool.sks-keyservers.net, so it's used with --refresh-keys with my key even if you speify another keyserver. This isn't the case if you use very old version of my key.</p>
+<h3 id="why-you-dont-get-signatures-from-some-bot-certificate-authority">Why you don't get signatures from some bot certificate authority?</h3>
+<h4 id="pgp-global-directory"><a href="https://keyserver.pgp.com/vkd/GetWelcomeScreen.event">PGP Global Directory</a></h4>
+<p>I have got signature from <a href="https://keyserver.pgp.com/vkd/GetWelcomeScreen.event">PGP Global Directory</a>, it wanted only to confirm my email addresses.</p>
+<h3 id="cacert"><a href="https://cacert.org/">CAcert</a></h3>
 <p>According to &quot;Locate assurer&quot; feature at <a href="https://cacert.org/">CAcert</a>, the nearest assurer is 110KM away from me.</p>
 <h4 id="why-did-you-mention-cacert">Why did you mention <a href="https://cacert.org/">CAcert</a>?</h4>
 <p><a href="https://wiki.cacert.org/PgpSigning">https://wiki.cacert.org/PgpSigning</a></p>
