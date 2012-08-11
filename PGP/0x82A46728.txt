@@ -1,7 +1,7 @@
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.19 (GNU/Linux)
 Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
-Comment: gpg2 --keyserver http://goo.gl/ojAzM --recv-keys 0x82A46728
+Comment: gpg --fetch-keys http://mkaysi.github.com/PGP/0x82A46728.txt
 Comment: Fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
 Comment: Why do I (clear)sign emails? http://git.io/6FLzWg
 Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
