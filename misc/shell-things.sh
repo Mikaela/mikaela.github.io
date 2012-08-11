@@ -10,6 +10,9 @@ wget -O tmux.conf https://raw.github.com/Mkaysi/shell-things/master/tmux.conf
 wget -O vimrc https://raw.github.com/Mkaysi/shell-things/master/vimrc
 wget -O xsessionrc https://raw.github.com/Mkaysi/shell-things/master/xsessionrc
 wget -O zshrc https://raw.github.com/Mkaysi/shell-things/master/zshrc
+wget -O warnings https://raw.github.com/Mkaysi/shell-things/master/warnings
+wget -O recommends https://raw.github.com/Mkaysi/shell-things/master/recommends
+
 mkdir -p gnupg
 cd gnupg
 wget -O gpg.conf https://raw.github.com/Mkaysi/shell-things/master/gnupg/gpg.conf
