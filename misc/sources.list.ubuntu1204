@@ -29,3 +29,8 @@ deb-src http://archive.canonical.com/ubuntu precise partner
 ## developers who want to ship their latest software.
 deb http://extras.ubuntu.com/ubuntu precise main
 deb-src http://extras.ubuntu.com/ubuntu precise main
+
+# Virtualbox
+# gpg --keyserver pool.sks-keyservers.net --recv-keys 98AB5139
+# gpg --export -a 7B0FAB3A13B907435925D9C954422A4B98AB5139
+deb http://download.virtualbox.org/virtualbox/debian squeeze contrib
