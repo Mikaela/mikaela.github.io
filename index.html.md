@@ -5,7 +5,7 @@
 <meta name="keywords" content="Insert,keywords,here" />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
-<title>Insert title here</title>
+<title>Homepage of Mika Suomalainen (Mkaysi)</title>
 </head>
 
 # Welcome
