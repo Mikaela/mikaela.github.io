@@ -1,4 +1,14 @@
-﻿# Signing emails.
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Explaining about why do I sign my emails using PGP." />
+<meta name="keywords" content="PGP,email,GPG,spoofing,cacert,inline,PGP/INLINE,PGP/MINE,clearsign,Thunderbird,Icedove,Enigmail," />
+<meta name="author" content="Mika Suomalainen" />
+<meta charset="UTF-8" />
+<title>Why do I sign emails, which I send?</title>
+</head>
+
+# Signing emails.
 
 ## Why do you sign all your messages?
 
@@ -100,3 +110,4 @@ Because I am fed up explaining myself on some mailing lists. This page will
 I want to raise awareness about PGP and that it's very easy to spoof emails
  from addresses of other people. As stated previously, I will also ignore 
  claims like that.
+ </html>
