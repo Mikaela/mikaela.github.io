@@ -19,16 +19,22 @@ Homepage of Mika Suomalainen (Mkaysi)
 <p><a href="http://enigmail.net/support/list.php">Enigmail mailing list.</a></p>
 <p>And some other mailing lists. You can see if email is sent by me by looking at PGP signature.</p>
 <h3 id="pgp">pgp</h3>
-<pre><code>pub   4096R/82A46728 2012-03-27
-Key fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
-uid                  Mika Suomalainen
+<pre><code>pub   4096R/0x4DB53CFE82A46728 2012-03-27
+uid                            Mika Suomalainen
 &lt;...&gt;
-sub   4096R/A4271AC5 2012-03-27</code></pre>
-<p>Preferred keyserver: <a href="http://pool.sks-keyservers.net:11371/pk%20s/lookup?op=get&amp;search=0x4DB53CFE82A46728">pool.sks-keyservers.net</a></p>
-<p>My PGP key is also available <a href="0x82A46728.txt">here</a>.</p>
-<p>NOTICE: Remember to check that the fingerprint matches to the key!</p>
+sub   4096R/0xDA6A2440A4271AC5 2012-03-27
+</code></pre>
+<h4 id="preferred-keyservers">Preferred keyservers:</h4>
+<h5 id="pgp-global-directory"><a href="http://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x4DB53CFE82A46728">PGP Global Directory</a></h5>
+<p>This keyserver doesn't allow receiving nor sending outside the web interface. If you sign my key, please send it <a href="http://keyserver.pgp.com/vkd/GetUploadKeyScreen.event">here</a> and please also send it to pool.sks-keyservers.net.</p>
+<p>This keyserver is set as preferred keyserver in my key, so it will be used for my key when you run &quot;gpg --refresh-keys&quot;.</p>
+<h5 id="sks-keyservers"><a href="http://pool.sks-keyservers.net:11371/pk%20s/lookup?op=get&amp;search=0x4DB53CFE82A46728">SKS keyservers</a></h5>
+<p>pool.sks-keyservers.net allows sending and receiving keys, but please send signed key also to PGP Global Directory.</p>
+<h5 id="this-site.">This site.</h5>
+<p>My PGP key is also <a href="0x82A46728.txt">on this site.</a>.</p>
+<p>NOTICE: Remember to check that the fingerprint matches to the key on all keyservers.</p>
 <h3 id="otr">OTR</h3>
-<p>See <a href="PGP/OTR.html">OTR</a>. The blocks, which contain fingerprints are signed with GPG.</p>
+<p>See <a href="PGP/OTR.html">OTR</a>. It's detach-signed as explained in it.</p>
 <h2 id="version-control-code-etc.">Version control / code etc.</h2>
 <p><a href="https://github.com/Mkaysi">Mkaysi at GitHub</a></p>
 <p><a href="https://launchpad.net/~mkaysi">Mkaysi at Launchpad</a></p>

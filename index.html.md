@@ -35,23 +35,37 @@ And some other mailing lists. You can see if email is sent by me by looking at P
 ### pgp
 
 ```
-pub   4096R/82A46728 2012-03-27
-Key fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
-uid                  Mika Suomalainen
+pub   4096R/0x4DB53CFE82A46728 2012-03-27
+uid                            Mika Suomalainen
 <...>
-sub   4096R/A4271AC5 2012-03-27
+sub   4096R/0xDA6A2440A4271AC5 2012-03-27
+
 ```
 
-Preferred keyserver: [pool.sks-keyservers.net](http://pool.sks-keyservers.net:11371/pk
+#### Preferred keyservers: 
+
+##### [PGP Global Directory](http://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x4DB53CFE82A46728)
+
+This keyserver doesn't allow receiving nor sending outside the web interface. If you sign my key, please send it [here] and please also send it to pool.sks-keyservers.net.
+
+This keyserver is set as preferred keyserver in my key, so it will be used for my key when you run "gpg --refresh-keys".
+
+[here]:http://keyserver.pgp.com/vkd/GetUploadKeyScreen.event
+
+##### [SKS keyservers](http://pool.sks-keyservers.net:11371/pk
 s/lookup?op=get&search=0x4DB53CFE82A46728)
 
-My PGP key is also available [here](0x82A46728.txt).
+pool.sks-keyservers.net allows sending and receiving keys, but please send signed key also to PGP Global Directory.
 
-NOTICE: Remember to check that the fingerprint matches to the key!
+##### This site.
+
+My PGP key is also [on this site.](0x82A46728.txt).
+
+NOTICE: Remember to check that the fingerprint matches to the key on all keyservers.
 
 ### OTR
 
-See [OTR]. The blocks, which contain fingerprints are signed with GPG.
+See [OTR]. It's detach-signed as explained in it.
 
 [OTR]:PGP/OTR.html
 
