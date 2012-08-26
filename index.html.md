@@ -1,9 +1,10 @@
+<!DOCTYPE html>
+<html>
 <head>
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
 </head> 
 
-<HTML>
 # Welcome
 
 There might not be much to see in this page. You can find list of pages in the [source].
