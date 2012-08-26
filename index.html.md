@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="description" content="Insert description here" />
+<meta name="keywords" content="Insert,keywords,here" />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
-</head> 
+<title>Insert title here</title>
+</head>
 
 # Welcome
 
