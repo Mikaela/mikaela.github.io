@@ -1,3 +1,8 @@
+<head>
+<meta name="author" content="Mika Suomalainen" />
+<meta charset="UTF-8" />
+</head> 
+
 <HTML>
 # Welcome
 
