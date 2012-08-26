@@ -5,6 +5,7 @@
 <meta name="keywords" content="Insert,keywords,here" />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
+<link rel="canonical" href="http://mkaysi.github.com/index.html">
 <title>Homepage of Mika Suomalainen (Mkaysi)</title>
 </head>
 

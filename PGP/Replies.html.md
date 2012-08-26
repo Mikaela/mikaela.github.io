@@ -4,6 +4,7 @@
 <meta name="description" content="Tells what should be removed from PGP/INLINE signed emails when replying in case email client doesn't do it." />
 <meta name="keywords" content="email,PGP,inline,PGP/INLINE,Enigmail,Thunderbird,Icedove,reply" />
 <meta name="author" content="Mika Suomalainen" />
+<link rel="canonical" href="http://mkaysi.github.com/PGP/Replies.html">
 <meta charset="UTF-8" />
 <title>What to remove in replies to PGP/INLINE signed emails.</title>
 </head>
