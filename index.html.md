@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="description" content="Insert description here" />
-<meta name="keywords" content="Insert,keywords,here" />
+<meta name="description" content="Index of my homesite." />
+<meta name="keywords" content="Mika,Suomalainen,email,PGP,GPG,profiles,socialmedia,facebook,twitter,identica,identi.ca,Twitter,freenode,IRC," />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/index.html">
