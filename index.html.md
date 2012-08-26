@@ -12,6 +12,8 @@
 
 There might not be much to see in this page. You can find list of pages in the [source].
 
+[source]:https://github.com/Mkaysi/mkaysi.github.com/
+
 # Around the web
 
 This is list of my profiles etc. in different services.
