@@ -39,6 +39,12 @@ and signatures should appear.
 
 I have got signature from [PGP Global Directory], it wanted only to confirm my email addresses.
 
+### [Hushmail]
+
+I have got signature from [Hushmail]. It wanted only to confirm email addresses too.
+
+[Hushmail]:https://www.hushtools.com/
+
 ### [CAcert]
 
 According to "Locate assurer" feature at [CAcert], the nearest assurer is
