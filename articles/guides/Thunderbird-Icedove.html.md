@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Thunderbird/Icedove guide" />
+<meta name="keywords" content="Thunderbird,Icedove,Enigmail,gpg,gnupg" />
+<meta name="author" content="Mika Suomalainen" />
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://mkaysi.github.com/articles/guides/Thunderbird-Icedove.html">
+<title>Thunderbird/Icedove guide</title>
+</head>
+
 # Thunderbird / Icedove guide
 
 ## What do you need?
@@ -54,3 +65,6 @@ My [GPG guide] and my [Enigmail guide].
 [Enigmail guide]:GPG/Enigmail.html
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Thunderbird / Icedove guide</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://mkaysi.github.com/articles/guides/Thunderbird-Icedove.html" rel="dct:source">mkaysi.github.com</a>.
+
+<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
+</HTML>
