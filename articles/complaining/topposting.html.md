@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Insert description here" />
+<meta name="keywords" content="Insert,keywords,here" />
+<meta name="author" content="Mika Suomalainen" />
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://mkaysi.github.com/articles/complaining/topposting.html">
+<title>Top-posting in emails is annoying</title>
+</head>
+
 Top-posting
 ===========
 
@@ -24,3 +35,7 @@ Rules
 -----
 
 At least [Debian mailing lists](http://www.debian.org/MailingLists/#codeofconduct) and [Ubuntu mailing lists](http://www.ubuntu.com/support/community/mailinglists) forbid top-posting in their guidelines. In my opinion other mailing lists should do this too.
+
+<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
+
+</HTML>
