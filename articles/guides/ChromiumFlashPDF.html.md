@@ -35,6 +35,8 @@ Remember to keep Google Chrome installed, because when package managment upgrade
 Now open (or if it was already running, restart) Chromium and go to [about:plugins](about:plugins). There you should see two new plugins called "Chrome PDF Viewer" and "Flash".
 Enable them if they aren't enabled and they both should work now whenever you go into page with Flash script or PDF file.
 
+NOTE: Flash might need you to install package flashplugin-nonfree from the repositories. I am not fully sure about this.
+
 [Google Chrome]:https://www.google.com/intl/en/chrome/browser/
 [Chromium]:http://www.chromium.org/Home
 
