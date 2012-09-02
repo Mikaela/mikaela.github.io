@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Enigmail guide" />
+<meta name="keywords" content="Thunderbird,Icedove, Enigmail,GnuPG,gpg" />
+<meta name="author" content="Mika Suomalainen" />
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://mkaysi.github.com/articles/guides/gpg/Enigmail.html">
+<title>Enigmail guide</title>
+</head>
+
 # Quick Enigmail guide.
 
 # What do you need
