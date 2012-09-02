@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="What is what in GNOME and MATE" />
+<meta name="keywords" content="GNOME,MATE," />
+<meta name="author" content="Mika Suomalainen" />
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://mkaysi.github.com/articles/guides/GnomeToMATE.html">
+<title>Moving from GNOME to MATE</title>
+</head>
+
 # What is what in MATE and GNOME.
 
 MATE            ||   GNOME             =   What it is?
