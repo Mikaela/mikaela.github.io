@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="GnuPG guide" />
+<meta name="keywords" content="gpg,gnupg,terminal" />
+<meta name="author" content="Mika Suomalainen" />
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://mkaysi.github.com/articles/guides/GPG/GPG.html">
+<title>GPG guide</title>
+</head>
+
 # Quick GPG guide
 
 Note: If gpg2 gives you error about invalid/unknown/etc. command, use gpg instead.

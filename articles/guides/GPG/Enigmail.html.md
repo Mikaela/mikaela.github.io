@@ -5,7 +5,7 @@
 <meta name="keywords" content="Thunderbird,Icedove, Enigmail,GnuPG,gpg" />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
-<link rel="canonical" href="http://mkaysi.github.com/articles/guides/gpg/Enigmail.html">
+<link rel="canonical" href="http://mkaysi.github.com/articles/guides/GPG/Enigmail.html">
 <title>Enigmail guide</title>
 </head>
 
