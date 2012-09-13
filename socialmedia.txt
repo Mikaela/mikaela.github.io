@@ -1,0 +1,31 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+https://plus.google.com/113787158024729598288/
+https://twitter.com/Mkaysi
+https://identi.ca/mkaysi
+https://www.facebook.com/mika.suomalainen
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
+Comment: gpg --fetch-keys http://mkaysi.github.com/PGP/0x82A46728.txt
+Comment: Fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
+Comment: I have personal problem with PGP/MIME...
+Comment: ...so signature *IS* long. See http://git.io/6FLzWg
+Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
+Comment: Charset of this message should be UTF-8.
+
+iQIcBAEBCgAGBQJQUekTAAoJEE21PP6CpGcog7AP/igpeDCxWP6wF6bkipQhCmKN
+jTj5+EUhGrWqqwIqb3/prIfjx0MNMRl/EmfPBQTUBKVFLq+qgldqffTycw4fOkHz
+xI1AzRl1mSuR5CCFRKj8iKG0U1tULtx1tiZ1frp8Ak9d78xsbgYt6XmAPHZIWMtL
+vhgMIAtMq6aN3fHjIz7mfYkUTlpHVn28RZNyVTiO6A6OK3+RCK7wRfl15x0RpdW/
+ZljxevPBi22gWBaKrcfnS+y3VDWiwkWl9rA4w8xqn5+GnDb4jsa3w56g0WqctaQn
+yiDa9D/RvWiITRswxpmybLcWQhiQReZacLRzMs2BFsGXXtDuQhW00ROTn+u9EvRw
+c8Q3wXckmp+MSvvI9nkFubjqq9hJv3sCFOZh0lPO3lLRX1od2NmP8D5xUwBySb/9
+7HVUI0sVg+UnaHUmpfKv3Wfu3kDKb7F7Dbz04SYBiVcp2yv02lrkg1KCa250rflk
+jmX3l4k8kt9kZf3uArRx2hBgPktlp1o9npjI1VOtyf/L15HW1MKgWVJAGg1/gPhI
+RijAQJ4OEUJYGMbHeNxcRUZ/1YWVCHeHLefCrP3zwo8EBkV29gWoT/bNyvcBXMJo
+C804V6flFnfDbZU3DLQcIe9xuptkZo3SgR0DOLDOGnSpLr5Seh4IOYSDWWML8i4w
+9ePIY8nnV21Rqq66vxSn
+=Ppou
+-----END PGP SIGNATURE-----
