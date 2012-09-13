@@ -82,6 +82,13 @@ See [OTR]. It's detach-signed as explained in it.
 
 ##  Social media
 
+<B> [PGP/GPG clearsigned file with links mentioned below](socialmedia.txt)</B>
+as requested publicly on [Planet Debian].
+
+[Planet Debian]:http://charles.plessy.org/Debian/debi%C3%A2neries/connect%C3%A9dedans/
+
+[Google+](https://plus.google.com/113787158024729598288)
+
 <a href="https://twitter.com/Mkaysi" class="twitter-follow-button" data-show-count="false" data-lang="fi" data-size="large">Seuraa käyttäjää @Mkaysi</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
