@@ -8,6 +8,7 @@
 <link rel="canonical" href="http://mkaysi.github.com/index.html">
 <title>Homepage of Mika Suomalainen (Mkaysi)</title>
 </head>
+<body bgcolor="silver" text="black" link="blue" vlink="purple">
 
 # Welcome
 
@@ -116,4 +117,5 @@ I used to be also on some channels at OFTC and IRCnet, but because of problems w
 
 <div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
 
+</body>
 </HTML>

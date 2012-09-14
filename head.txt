@@ -9,3 +9,4 @@
 <link rel="canonical" href="http://mkaysi.github.com/">
 <title>Insert title here</title>
 </head>
+<body bgcolor="silver" text="black" link="blue" vlink="purple">
