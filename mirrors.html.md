@@ -7,6 +7,7 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/mirrors.html">
 <title>Mirrors</title>
+<link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
 
 # Mirrors of this site
