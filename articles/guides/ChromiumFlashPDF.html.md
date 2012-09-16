@@ -7,6 +7,7 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/ChromiumFlashPDF.html">
 <title>Getting Google Chrome integrated flash and PDF player to Chromium</title>
+<link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
 
 # What do you need?

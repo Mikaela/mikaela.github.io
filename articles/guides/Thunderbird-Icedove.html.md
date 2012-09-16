@@ -7,6 +7,7 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Thunderbird-Icedove.html">
 <title>Thunderbird/Icedove guide</title>
+<link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
 
 # Thunderbird / Icedove guide

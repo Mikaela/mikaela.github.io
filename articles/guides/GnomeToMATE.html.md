@@ -7,6 +7,7 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/GnomeToMATE.html">
 <title>Moving from GNOME to MATE</title>
+<link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
 
 # What is what in MATE and GNOME.
