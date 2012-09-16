@@ -1,4 +1,4 @@
-# /etc/default/chromium
+# /etc/chromium/default
 # Default settings for chromium. This file is sourced by /bin/sh from
 # /usr/bin/chromium
 
