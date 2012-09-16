@@ -81,7 +81,7 @@ See [OTR]. It's detach-signed as explained in it.
 
 [Mkaysi at SourceForge](https://sourceforge.net/users/mkaysi)
 
-##  Social media
+##  Social media etc.
 
 <B> [PGP/GPG clearsigned file with links mentioned below](socialmedia.txt)</B>
 as requested publicly on [Planet Debian].
@@ -98,6 +98,13 @@ as requested publicly on [Planet Debian].
 <!-- Facebook Badge START --><a href="https://www.facebook.com/mika.suomalainen" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Mika Suomalainen">Mika Suomalainen</a><span style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; line-height: 16px; font-variant: normal; font-style: normal; font-weight: normal; color: #555555; text-decoration: none;">&nbsp;|&nbsp;</span><a href="http://www.facebook.com/badges/" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Tee oma merkkisi!">Luo merkki</a><br/><a href="https://www.facebook.com/mika.suomalainen" target="_TOP" title="Mika Suomalainen"><img src="https://badge.facebook.com/badge/100002544672061.1472.490186611.png" style="border: 0px;" /></a><!-- Facebook Badge END -->
 
 Friend requests (at Facebook) are accepted from people whom I know personally or from IRC/somewhere similar.
+
+<!--
+Skype 'My status' button
+http://www.skype.com/go/skypebuttons
+-->
+<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+<a href="skype:Mkaysi1?call"><img src="http://mystatus.skype.com/bigclassic/Mkaysi1" style="border: none;" width="182" height="44" alt="My status" /></a>
 
 ## IRC
 
