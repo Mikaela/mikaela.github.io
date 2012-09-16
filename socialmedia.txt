@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 This clearsigned file contains links to my accounts around the web.
 
 Google+: https://plus.google.com/113787158024729598288/
@@ -5,3 +8,27 @@ Twitter: https://twitter.com/Mkaysi
 Identica/Statusnet: https://identi.ca/mkaysi
 Facebook: https://www.facebook.com/mika.suomalainen
 Skype: Mkaysi1
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.19 (GNU/Linux)
+Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
+Comment: gpg --fetch-keys http://mkaysi.github.com/PGP/0x82A46728.txt
+Comment: Fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
+Comment: I have personal problem with PGP/MIME...
+Comment: ...so signature *IS* long. See http://git.io/6FLzWg
+Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
+Comment: Charset of this message should be UTF-8.
+
+iQIcBAEBCgAGBQJQVff2AAoJEE21PP6CpGcoCawP/RY2V7ZNbabq/HO5EswDHXNT
+dY4iKqfFGplGxBMxUyLaFSnXfUOvsn3MEXfSlCifXWmRwTym+U3DxDNxVtLGjaGQ
+Ij7qavyoQE/bNVfMe0Xfzqsu0Do7T3vhQNc/V7sc74Q2IaRWKQp6PZSq9bf05kCS
+WHYqn46sGSFa7etwPqsrUTTpd7vZid1cqwYJBA9WRLVXVgPURCcsWLeA2QIo88nm
+ByU7oL2IM2DxEHRwB/18kGECklTBGgG9jyvSlhywJAQhWx4u8UQyud3YfhAVpqnQ
+i413m+WGa/QNT995LEL6cz9aUPtd7yZlgZBDcmdVAJ4hk0R82aRTt0hIXoemzZW4
+G6FqeisJ/pNl3sQSDIUZ7MNSLtk98pRlWrTDgbmLa8kF2U80OGfmvCTseNxgyu2A
+mJALcSSDv5ZInQwtLitPserSgJNHkEsByZbOkzgIWDllozTDDsd9C8XGASCzWGFh
+jGezPRjgghDpn2+1ThXXiX/1j9b/oZxnHeZ4gCrgsBy+q4C8J1zqYmIW+wiWymj5
+TptmYQzWEYxjb6izwBh25O6ek06TtE9HBkL3CSV9wvMSjd9FEkMYzpTqr/wlfuq2
+0mtS13fTGqryeJuQvjmGEcdq22dNgN17cJ/6kD+Qx0IfHtgZMuf4sajRk903oTe/
++S66CWnSPatPRB5kwiT9
+=hZaI
+-----END PGP SIGNATURE-----
