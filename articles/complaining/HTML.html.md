@@ -7,6 +7,7 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/complaining/HTML.html">
 <title>HTML in emails is annoying</title>
+<link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
 
 

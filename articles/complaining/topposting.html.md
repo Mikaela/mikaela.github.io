@@ -7,6 +7,7 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/complaining/topposting.html">
 <title>Top-posting in emails is annoying</title>
+<link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
 
 Top-posting
