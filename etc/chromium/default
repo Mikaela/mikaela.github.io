@@ -6,5 +6,5 @@
 CHROMIUM_FLAGS="--password-store=detect --enable-easy-off-store-extension-install --ppapi-flash-path=/opt/google/chrome/PepperFlash/libpepflashplayer.so"
 
 # --password-store=detect was there already. I'm not fully sure what is it.
-# --enable-easy-off-store-extension-install = Allow installing extensions outside Chrome web store.
+# --enable-easy-off-store-extension-install = Allow installing extensions outside Chrome web store. Thanks Unit193 & nyuszika7h
 # --ppapi-flash-path=/opt/google/chrome/PepperFlash/libpepflashplayer.so = Use Pepper Flash from Chromium. This might report wrong report wrong version information according to WebUpd8 (via WebUpd8 How To Make Chromium Use Flash Player `Pepper` From Google Chrome ~ Web Upd8: Ubuntu / Linux blog : http://www.webupd8.org/2012/09/how-to-make-chromium-use-flash-player.html ).
