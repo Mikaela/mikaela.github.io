@@ -1,43 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="description" content="Tells what should be removed from PGP/INLINE signed emails when replying in case email client doesn't do it." /> <meta name="keywords" content="email,PGP,inline,PGP/INLINE,Enigmail,Thunderbird,Icedove,reply" /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/PGP/Replies.html"> <meta charset="UTF-8" />
-<title>
-What to remove in replies to PGP/INLINE signed emails.
-</title>
-</head>
-
-<h1 id="what-you-should-remove-from-email-when-you-reply-into-pgpinline-signed-email.">What you should remove from email, when you reply into PGP/INLINE signed email.</h1>
-<h2 id="top">Top</h2>
-<p>From top of the email, remove everything after</p>
-<blockquote>
-<p>-----BEGIN PGP SIGNED MESSAGE-----</p>
-</blockquote>
-<p>untill the first line change.</p>
-<p>For example:</p>
-<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
-Hi,</code></pre>
-<p>You would remove</p>
-<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1</code></pre>
-<p>so the message would be</p>
-<blockquote>
-<p>Hi,</p>
-</blockquote>
-<h1 id="bottom">Bottom</h1>
-<p>Remove everything between lines</p>
-<blockquote>
-<p>-----BEGIN PGP SIGNATURE-----</p>
-</blockquote>
-<p>and</p>
-<blockquote>
-<p>-----END PGP SIGNATURE-----</p>
-</blockquote>
-<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript>
-<a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a>
-</noscript>
+<!DOCTYPE html><html>
+<head><meta name="description" content="Tells what should be removed from PGP/INLINE signed emails when replying in case email client doesn't do it." /> <meta name="keywords" content="email,PGP,inline,PGP/INLINE,Enigmail,Thunderbird,Icedove,reply" /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/PGP/Replies.html"> <meta charset="UTF-8" /> <title>What to remove in replies to PGP/INLINE signed emails.</title> <link rel="stylesheet" type="text/css" href="../tyyli.css" /></head>
+<h1 id="what-you-should-remove-from-email-when-you-reply-into-pgpinline-signed-email."
+>What you should remove from email, when you reply into PGP/INLINE signed email.</h1
+><h2 id="top"
+>Top</h2
+><p
+>From top of the email, remove everything after</p
+><blockquote
+><p
+  >-----BEGIN PGP SIGNED MESSAGE-----</p
+  ></blockquote
+><p
+>untill the first line change.</p
+><p
+>For example:</p
+><p
+>``` -----BEGIN PGP SIGNED MESSAGE----- Hash: SHA1</p
+><p
+>Hi, ```</p
+><p
+>You would remove</p
+><p
+><code
+  >-----BEGIN PGP SIGNED MESSAGE----- Hash: SHA1</code
+  ></p
+><p
+>so the message would be</p
+><blockquote
+><p
+  >Hi,</p
+  ></blockquote
+><h1 id="bottom"
+>Bottom</h1
+><p
+>Remove everything between lines</p
+><blockquote
+><p
+  >-----BEGIN PGP SIGNATURE-----</p
+  ></blockquote
+><p
+>and</p
+><blockquote
+><p
+  >-----END PGP SIGNATURE-----</p
+  ></blockquote
+><div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
 
 </html>
 

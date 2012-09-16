@@ -7,6 +7,7 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/PGP/OTR.html">
 <title>My OTR keys</title>
+<link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
 
 # OTR

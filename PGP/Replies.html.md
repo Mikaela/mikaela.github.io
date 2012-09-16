@@ -7,6 +7,7 @@
 <link rel="canonical" href="http://mkaysi.github.com/PGP/Replies.html">
 <meta charset="UTF-8" />
 <title>What to remove in replies to PGP/INLINE signed emails.</title>
+<link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
 
 # What you should remove from email, when you reply into PGP/INLINE signed email.

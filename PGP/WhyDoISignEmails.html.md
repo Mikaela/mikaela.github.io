@@ -7,6 +7,7 @@
 <link rel="canonical" href="http://mkaysi.github.com/PGP/WhyDoISignEmails.html">
 <meta charset="UTF-8" />
 <title>Why do I sign emails, which I send?</title>
+<link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
 
 # Signing emails.
