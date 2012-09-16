@@ -1,146 +1,64 @@
-<!DOCTYPE html><html>
-<head><meta name="description" content="Explaining about why do I sign my emails using PGP." /> <meta name="keywords" content="PGP,email,GPG,spoofing,cacert,inline,PGP/INLINE,PGP/MINE,clearsign,Thunderbird,Icedove,Enigmail," /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/PGP/WhyDoISignEmails.html"> <meta charset="UTF-8" /> <title>Why do I sign emails, which I send?</title> <link rel="stylesheet" type="text/css" href="tyyli.css" /></head>
-<h1 id="signing-emails."
->Signing emails.</h1
-><h2 id="why-do-you-sign-all-your-messages"
->Why do you sign all your messages?</h2
-><p
->The signature is evidence that message comes from me. If I sign all my messages, I can say that I sign all my messages and possibly unsigned offensive content, which is spoofed to &quot;come&quot; from my address, isn't sent by me.</p
-><h3 id="but-it-doesnt-prove-anything-you-can-just-leave-offensive-content-unsigned."
->But it doesn't prove anything, you can just leave offensive content unsigned.</h3
-><p
->True, I could do that. But I don't have habit of writing offensive text and saying that it doesn't come from me.</p
-><h2 id="your-signature-doesnt-mean-anything-anyway-because-you-arent-part-of-any-trust-web."
->Your signature doesn't mean anything anyway, because you aren't part of any trust web.</h2
-><p
->Actually, I am, but my key is only signed by bots (see below).</p
-><p
->You might have &quot;import-minimal&quot; or &quot;import-clean&quot; in your keyserver-options in your gpg.conf, so you don't see the signatures. If you don't have them, run</p
-><blockquote
-><p
-  >gpg --keyserver pool.sks-keyservers.net --refresh-keys 0x4DB53CFE82A46728</p
-  ></blockquote
-><p
->and signatures should appear.</p
-><p
-><em
-  >NOTE</em
-  >: My key contains information, that my preferred keyserver is pool.sks-keyservers.net, so it's used with --refresh-keys with my key even if you speify another keyserver. This isn't the case if you use very old version of my key.</p
-><h3 id="why-you-dont-get-signatures-from-some-bot-certificate-authority"
->Why you don't get signatures from some bot certificate authority?</h3
-><h4 id="pgp-global-directory"
-><a href="https://keyserver.pgp.com/vkd/GetWelcomeScreen.event"
-  >PGP Global Directory</a
-  ></h4
-><p
->I have got signature from <a href="https://keyserver.pgp.com/vkd/GetWelcomeScreen.event"
-  >PGP Global Directory</a
-  >, it wanted only to confirm my email addresses.</p
-><h3 id="hushmail"
-><a href="https://www.hushtools.com/"
-  >Hushmail</a
-  ></h3
-><p
->I have got signature from <a href="https://www.hushtools.com/"
-  >Hushmail</a
-  >. It wanted only to confirm email addresses too.</p
-><h3 id="cacert"
-><a href="https://cacert.org/"
-  >CAcert</a
-  ></h3
-><p
->According to &quot;Locate assurer&quot; feature at <a href="https://cacert.org/"
-  >CAcert</a
-  >, the nearest assurer is 110KM away from me.</p
-><h4 id="why-did-you-mention-cacert"
->Why did you mention <a href="https://cacert.org/"
-  >CAcert</a
-  >?</h4
-><p
-><a href="https://wiki.cacert.org/PgpSigning"
-  >https://wiki.cacert.org/PgpSigning</a
-  ></p
-><h1 id="clearsigninginline-signing"
->Clearsigning/INLINE signing</h1
-><h2 id="why-do-you-gpg-clearsign-your-emails-instead-of-using-pgpmime-or-something-less-spammy"
->Why do you GPG clearsign your emails instead of using PGP/MIME or something less spammy?</h2
-><ol class="incremental" style="list-style-type: decimal"
-><li
-  ><p
-    >Some mailing list software mess up with headers and make PGP/MIME signatures unverifiable at least to Enigmail. Some people say that that what those mailing lists do is completely valid. It's up to you to believe in Enigmail developers or other people.</p
-    ><p
-    >Which mailing lists do that?</p
-    ><p
-    >At least the following:</p
-    ><ol class="incremental" style="list-style-type: decimal"
-    ><li
-      ><p
-	><a href="https://lists.ubuntu.com"
-	  >Ubuntu mailing lists</a
-	  >. See also <a href="https://bugs.launchpad.net/bugs/996581"
-	  >bug 996581 at Launchpad</a
-	  >.</p
-	></li
-      ><li
-      ><p
-	><a href="https://www.mozdev.org/mailman/listinfo"
-	  >Mozdev mailing lists</a
-	  >.</p
-	></li
-      ><li
-      ><p
-	><a href="http://lists.gnupg.org/mailman/listinfo/"
-	  >GnuPG mailing lists</a
-	  >.</p
-	></li
-      ></ol
-    ></li
-  ><li
-  ><p
-    >INLINE messages are easier to verify manually (presuming that charset doesn't cause problems).</p
-    ><p
-    >There are many web archives and sometimes people want to verify signatures of emails, which they didn't receive. Think about <a href="http://bugs.debian.org/"
-      >Debian BTS</a
-      >.</p
-    ></li
-  ><li
-  ><p
-    ><a href="https://github.com/k9mail/k-9"
-      >K9 Mail</a
-      > doesn't support PGP/MIME.</p
-    ></li
-  ><li
-  ><p
-    ><a href="http://bugs.debian.org/"
-      >Debian BTS</a
-      > doesn't send working PGP/MIME back in subscribtion confirmations.</p
-    ><p
-    >In my opinion, it's easier to check did you request something with [Ðebian BTS] if it has content, which is signed with your key.</p
-    ></li
-  ></ol
-><h2 id="but-clearsigned-signature-looks-ugly."
->But clearsigned signature looks ugly.</h2
-><p
->This is the problem of your email client. If you use <a href="https://mozilla.org/thunderbird"
-  >Thunderbird or Icedove or Seamonkey</a
-  >, you can probably install <a href="http://enigmail.mozdev.org/home/index.php.html"
-  >Enigmail</a
-  > and that signature block gets hidden. If you use some other email client, please report bug for that package in your distribution or upstream bug tracker.</p
-><h2 id="i-am-on-slow-connection-and-your-signature-is-too-big-for-me."
->I am on slow connection and your signature is too big for me.</h2
-><p
->And what does that have to do with INLINE signature? In PGP/MIME you would download the same mess, but inside signature.asc file.</p
-><h1 id="other-things"
->Other things</h1
-><h2 id="why-did-you-write-this-page"
->Why did you write this page?</h2
-><p
->Because I am fed up explaining myself on some mailing lists. This page will be linked in my email signature and I will ignore every question about things, which read on this page.</p
-><h2 id="so-you-are-just-ignorant-and-want-to-spam-people"
->So you are just ignorant and want to spam people?</h2
-><p
->I want to raise awareness about PGP and that it's very easy to spoof emails from addresses of other people. As stated previously, I will also ignore claims like that.</p
-><div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Explaining about why do I sign my emails using PGP." /> <meta name="keywords" content="PGP,email,GPG,spoofing,cacert,inline,PGP/INLINE,PGP/MINE,clearsign,Thunderbird,Icedove,Enigmail," /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/PGP/WhyDoISignEmails.html"> <meta charset="UTF-8" />
+<title>
+Why do I sign emails, which I send?
+</title>
+<link rel="stylesheet" type="text/css" href="../tyyli.css" />
+</head>
+
+<h1 id="signing-emails.">Signing emails.</h1>
+<h2 id="why-do-you-sign-all-your-messages">Why do you sign all your messages?</h2>
+<p>The signature is evidence that message comes from me. If I sign all my messages, I can say that I sign all my messages and possibly unsigned offensive content, which is spoofed to &quot;come&quot; from my address, isn't sent by me.</p>
+<h3 id="but-it-doesnt-prove-anything-you-can-just-leave-offensive-content-unsigned.">But it doesn't prove anything, you can just leave offensive content unsigned.</h3>
+<p>True, I could do that. But I don't have habit of writing offensive text and saying that it doesn't come from me.</p>
+<h2 id="your-signature-doesnt-mean-anything-anyway-because-you-arent-part-of-any-trust-web.">Your signature doesn't mean anything anyway, because you aren't part of any trust web.</h2>
+<p>Actually, I am, but my key is only signed by bots (see below).</p>
+<p>You might have &quot;import-minimal&quot; or &quot;import-clean&quot; in your keyserver-options in your gpg.conf, so you don't see the signatures. If you don't have them, run</p>
+<blockquote>
+<p>gpg --keyserver pool.sks-keyservers.net --refresh-keys 0x4DB53CFE82A46728</p>
+</blockquote>
+<p>and signatures should appear.</p>
+<p><em>NOTE</em>: My key contains information, that my preferred keyserver is pool.sks-keyservers.net, so it's used with --refresh-keys with my key even if you speify another keyserver. This isn't the case if you use very old version of my key.</p>
+<h3 id="why-you-dont-get-signatures-from-some-bot-certificate-authority">Why you don't get signatures from some bot certificate authority?</h3>
+<h4 id="pgp-global-directory"><a href="https://keyserver.pgp.com/vkd/GetWelcomeScreen.event">PGP Global Directory</a></h4>
+<p>I have got signature from <a href="https://keyserver.pgp.com/vkd/GetWelcomeScreen.event">PGP Global Directory</a>, it wanted only to confirm my email addresses.</p>
+<h3 id="hushmail"><a href="https://www.hushtools.com/">Hushmail</a></h3>
+<p>I have got signature from <a href="https://www.hushtools.com/">Hushmail</a>. It wanted only to confirm email addresses too.</p>
+<h3 id="cacert"><a href="https://cacert.org/">CAcert</a></h3>
+<p>According to &quot;Locate assurer&quot; feature at <a href="https://cacert.org/">CAcert</a>, the nearest assurer is 110KM away from me.</p>
+<h4 id="why-did-you-mention-cacert">Why did you mention <a href="https://cacert.org/">CAcert</a>?</h4>
+<p><a href="https://wiki.cacert.org/PgpSigning">https://wiki.cacert.org/PgpSigning</a></p>
+<h1 id="clearsigninginline-signing">Clearsigning/INLINE signing</h1>
+<h2 id="why-do-you-gpg-clearsign-your-emails-instead-of-using-pgpmime-or-something-less-spammy">Why do you GPG clearsign your emails instead of using PGP/MIME or something less spammy?</h2>
+<ol class="incremental" style="list-style-type: decimal">
+<li><p>Some mailing list software mess up with headers and make PGP/MIME signatures unverifiable at least to Enigmail. Some people say that that what those mailing lists do is completely valid. It's up to you to believe in Enigmail developers or other people.</p>
+<p>Which mailing lists do that?</p>
+<p>At least the following:</p>
+<ol class="incremental" style="list-style-type: decimal">
+<li><p><a href="https://lists.ubuntu.com">Ubuntu mailing lists</a>. See also <a href="https://bugs.launchpad.net/bugs/996581">bug 996581 at Launchpad</a>.</p></li>
+<li><p><a href="https://www.mozdev.org/mailman/listinfo">Mozdev mailing lists</a>.</p></li>
+<li><p><a href="http://lists.gnupg.org/mailman/listinfo/">GnuPG mailing lists</a>.</p></li>
+</ol></li>
+<li><p>INLINE messages are easier to verify manually (presuming that charset doesn't cause problems).</p>
+<p>There are many web archives and sometimes people want to verify signatures of emails, which they didn't receive. Think about <a href="http://bugs.debian.org/">Debian BTS</a>.</p></li>
+<li><p><a href="https://github.com/k9mail/k-9">K9 Mail</a> doesn't support PGP/MIME.</p></li>
+<li><p><a href="http://bugs.debian.org/">Debian BTS</a> doesn't send working PGP/MIME back in subscribtion confirmations.</p>
+<p>In my opinion, it's easier to check did you request something with [Ðebian BTS] if it has content, which is signed with your key.</p></li>
+</ol>
+<h2 id="but-clearsigned-signature-looks-ugly.">But clearsigned signature looks ugly.</h2>
+<p>This is the problem of your email client. If you use <a href="https://mozilla.org/thunderbird">Thunderbird or Icedove or Seamonkey</a>, you can probably install <a href="http://enigmail.mozdev.org/home/index.php.html">Enigmail</a> and that signature block gets hidden. If you use some other email client, please report bug for that package in your distribution or upstream bug tracker.</p>
+<h2 id="i-am-on-slow-connection-and-your-signature-is-too-big-for-me.">I am on slow connection and your signature is too big for me.</h2>
+<p>And what does that have to do with INLINE signature? In PGP/MIME you would download the same mess, but inside signature.asc file.</p>
+<h1 id="other-things">Other things</h1>
+<h2 id="why-did-you-write-this-page">Why did you write this page?</h2>
+<p>Because I am fed up explaining myself on some mailing lists. This page will be linked in my email signature and I will ignore every question about things, which read on this page.</p>
+<h2 id="so-you-are-just-ignorant-and-want-to-spam-people">So you are just ignorant and want to spam people?</h2>
+<p>I want to raise awareness about PGP and that it's very easy to spoof emails from addresses of other people. As stated previously, I will also ignore claims like that.</p>
+<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript>
+<a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a>
+</noscript>
 
 </html>
 
