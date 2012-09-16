@@ -7,8 +7,8 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/index.html">
 <title>Homepage of Mika Suomalainen (Mkaysi)</title>
+<link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
-<body bgcolor="silver" text="black" link="blue" vlink="purple">
 
 # Welcome
 
