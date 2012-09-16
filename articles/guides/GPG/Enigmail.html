@@ -1,123 +1,60 @@
-<!DOCTYPE html><html>
-<head><meta name="description" content="Enigmail guide" /> <meta name="keywords" content="Thunderbird,Icedove, Enigmail,GnuPG,gpg" /> <meta name="author" content="Mika Suomalainen" /> <meta charset="UTF-8" /> <link rel="canonical" href="http://mkaysi.github.com/articles/guides/GPG/Enigmail.html"> <title>Enigmail guide</title> <link rel="stylesheet" type="text/css" href="../../../tyyli.css" /></head>
-<h1 id="quick-enigmail-guide."
->Quick Enigmail guide.</h1
-><h1 id="what-do-you-need"
->What do you need</h1
-><p
->This depends on your OS. You should also read my previous guides about <a href="GPG.html"
-  >GPG</a
-  > and <a href="../Thunderbird-Icedove.html"
-  >Icedove / Thunderbird</a
-  >.</p
-><h2 id="debian-based-distributins"
->Debian based distributins</h2
-><p
->You need at least packages icedove or thunderbird and enigmail, but I recommend you to install gnupg2 and pinentry packages too.</p
-><blockquote
-><p
-  >aptitude install thunderbird enigmail gnupg2 pinentry-curses pinentry-gtk2 pinentry-qt4</p
-  ></blockquote
-><p
->NOTE: In Debian Thunderbird is called Icedove and the package is icedove.</p
-><h2 id="mac-os-x"
->Mac OS X</h2
-><p
->You need <a href="http://www.gpgtools.org/"
-  >GPG-tools</a
-  >, <a href="https://www.mozilla.org/en-US/thunderbird/"
-  >Thunderbird</a
-  > and <a href="http://enigmail.mozdev.org/home/index.php.html"
-  >Enigmail</a
-  ></p
-><h2 id="windows"
->Windows</h2
-><p
->You need <a href="http://www.gpg4win.org/"
-  >GPG4Win</a
-  >, <a href="https://www.mozilla.org/en-US/thunderbird/"
-  >Thunderbird</a
-  > and <a href="http://enigmail.mozdev.org/home/index.php.html"
-  >Enigmail</a
-  >.</p
-><h1 id="running-the-enigmail-wizard."
->Running the Enigmail wizard.</h1
-><p
->If Enigmail wizard doesn't appear by itself, open it manually from OpenPGP (menu) --&gt; Enigmail wizard.</p
-><p
->NOTE: Allow wizard to do changes, which it wants.</p
-><h2 id="enable-viewing-messages-in-original-html."
->Enable viewing messages in original HTML.</h2
-><p
->You probably want to see the HTML in case the message has been sent using HTML.</p
-><p
->You can see the messages in original HTML easily. Open View (menu) --&gt; Message body as --&gt; Original HTML.</p
-><h2 id="if-the-wizard-fails"
->If the wizard fails</h2
-><h3 id="sending-plaintext"
->Sending plaintext</h3
-><p
->This is documented in my <a href="../Thunderbird-Icedove.html#sending-utf-8"
-  >Icedove / Thunderbird guide</a
-  >.</p
-><h3 id="signing-by-default."
->Signing by default.</h3
-><p
->Open Edit --&gt; Account Settings --&gt; OpenPGP security and select &quot;Enable OpenPG support (Enigmail) with this user information&quot;. Then select &quot;Use specific OpenPGP key&quot; and press the &quot;select key&quot; button. Now just select your private key.</p
-><p
->After you have selected the key, I recommend you to select the first and the second boxes, which are about signing.</p
-><p
->Remember to do this for multiple identities. Select the account and then click the &quot;manage identities&quot; button.</p
-><h2 id="sending-utf-8"
->Sending UTF-8</h2
-><p
->I have documented this in my <a href="../Thunderbird-Icedove.html#sending-utf-8"
-  >Icedove / Thunderbird guide</a
-  >.</p
-><p
->This only changes the charset line to UTF-8 or removes the mentioning of charset in signature.</p
-><h1 id="testing-that-everything-works"
->Testing that everything works</h1
-><p
->Adele is PGP email bot. You can send email to it and it will tell you if it can decrypt your email or is it signed.</p
-><p
->You can get the PGP key of Adele by running</p
-><blockquote
-><p
-  >gpg2 --keyserver pool.sks-keyservers.net --recv-keys 92AB3FF7</p
-  ></blockquote
-><p
->Just send your email to adele-en@gnupp.de and it will reply shortly.</p
-><h1 id="sending-pgpmime-instead-of-pgpinline"
->Sending PGP/MIME instead of PGP/INLINE</h1
-><p
->PGP/MIME puts the signature to signature.asc ataachment and PGP/INLINE into &quot;mess&quot; in the bottom of email.</p
-><p
->WARNING: This might not work with some mailing lists (for example Ubuntu, Mozdev and GnuPG mailing lists)!</p
-><p
->There is open bug report about PGP/MIME not working on Ubuntu MLs at LaunchPad, <a href="https://bugs.launchpad.net/ubuntu/+bug/996581"
-  >996581</a
-  ></p
-><p
->NOTE: If you want to sign emails and use HTML at the same time, you <em
-  >must</em
-  > use PGP/MIME or otherwise your signature cannot be verified!</p
-><p
->To send PGP/MIME by default, open Edit --&gt; Account Settings --&gt; OpenPGP security and check &quot;Use always PGP/MIME&quot;.</p
-><p
->Remember to check to do this for your all identities in case you have more than one of them. Edit --&gt; Account Settings --&gt; &quot;Manage Identities...&quot; button and after selecting identity, you can find OpenPGP security tab.</p
-><h1 id="openpgp-headers."
->OpenPGP headers.</h1
-><p
->To enable sending OpenPGP headers, return to OpenPGP settings (mentioned above) and click &quot;advanced&quot;.</p
-><p
->Select the both checkboxes and write URL where your key is located. If you don't have homepage, you can link to webui of your preferred keyserver.</p
-><p
->These headers appear in email source like this:</p
-><p
-><code
-  >OpenPGP: id=82A46728;     url=http://mkaysi.github.com/PGP/key.txt</code
-  ></p
-><p
-><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Enigmail guide</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://mkaysi.github.com/articles/guides/GPG/Enigmail.html" rel="dct:source">mkaysi.github.com</a>.</p
->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Enigmail guide" /> <meta name="keywords" content="Thunderbird,Icedove, Enigmail,GnuPG,gpg" /> <meta name="author" content="Mika Suomalainen" /> <meta charset="UTF-8" /> <link rel="canonical" href="http://mkaysi.github.com/articles/guides/GPG/Enigmail.html">
+<title>
+Enigmail guide
+</title>
+<link rel="stylesheet" type="text/css" href="../../../tyyli.css" />
+</head>
+
+<h1 id="quick-enigmail-guide.">Quick Enigmail guide.</h1>
+<h1 id="what-do-you-need">What do you need</h1>
+<p>This depends on your OS. You should also read my previous guides about <a href="GPG.html">GPG</a> and <a href="../Thunderbird-Icedove.html">Icedove / Thunderbird</a>.</p>
+<h2 id="debian-based-distributins">Debian based distributins</h2>
+<p>You need at least packages icedove or thunderbird and enigmail, but I recommend you to install gnupg2 and pinentry packages too.</p>
+<blockquote>
+<p>aptitude install thunderbird enigmail gnupg2 pinentry-curses pinentry-gtk2 pinentry-qt4</p>
+</blockquote>
+<p>NOTE: In Debian Thunderbird is called Icedove and the package is icedove.</p>
+<h2 id="mac-os-x">Mac OS X</h2>
+<p>You need <a href="http://www.gpgtools.org/">GPG-tools</a>, <a href="https://www.mozilla.org/en-US/thunderbird/">Thunderbird</a> and <a href="http://enigmail.mozdev.org/home/index.php.html">Enigmail</a></p>
+<h2 id="windows">Windows</h2>
+<p>You need <a href="http://www.gpg4win.org/">GPG4Win</a>, <a href="https://www.mozilla.org/en-US/thunderbird/">Thunderbird</a> and <a href="http://enigmail.mozdev.org/home/index.php.html">Enigmail</a>.</p>
+<h1 id="running-the-enigmail-wizard.">Running the Enigmail wizard.</h1>
+<p>If Enigmail wizard doesn't appear by itself, open it manually from OpenPGP (menu) --&gt; Enigmail wizard.</p>
+<p>NOTE: Allow wizard to do changes, which it wants.</p>
+<h2 id="enable-viewing-messages-in-original-html.">Enable viewing messages in original HTML.</h2>
+<p>You probably want to see the HTML in case the message has been sent using HTML.</p>
+<p>You can see the messages in original HTML easily. Open View (menu) --&gt; Message body as --&gt; Original HTML.</p>
+<h2 id="if-the-wizard-fails">If the wizard fails</h2>
+<h3 id="sending-plaintext">Sending plaintext</h3>
+<p>This is documented in my <a href="../Thunderbird-Icedove.html#sending-utf-8">Icedove / Thunderbird guide</a>.</p>
+<h3 id="signing-by-default.">Signing by default.</h3>
+<p>Open Edit --&gt; Account Settings --&gt; OpenPGP security and select &quot;Enable OpenPG support (Enigmail) with this user information&quot;. Then select &quot;Use specific OpenPGP key&quot; and press the &quot;select key&quot; button. Now just select your private key.</p>
+<p>After you have selected the key, I recommend you to select the first and the second boxes, which are about signing.</p>
+<p>Remember to do this for multiple identities. Select the account and then click the &quot;manage identities&quot; button.</p>
+<h2 id="sending-utf-8">Sending UTF-8</h2>
+<p>I have documented this in my <a href="../Thunderbird-Icedove.html#sending-utf-8">Icedove / Thunderbird guide</a>.</p>
+<p>This only changes the charset line to UTF-8 or removes the mentioning of charset in signature.</p>
+<h1 id="testing-that-everything-works">Testing that everything works</h1>
+<p>Adele is PGP email bot. You can send email to it and it will tell you if it can decrypt your email or is it signed.</p>
+<p>You can get the PGP key of Adele by running</p>
+<blockquote>
+<p>gpg2 --keyserver pool.sks-keyservers.net --recv-keys 92AB3FF7</p>
+</blockquote>
+<p>Just send your email to adele-en@gnupp.de and it will reply shortly.</p>
+<h1 id="sending-pgpmime-instead-of-pgpinline">Sending PGP/MIME instead of PGP/INLINE</h1>
+<p>PGP/MIME puts the signature to signature.asc ataachment and PGP/INLINE into &quot;mess&quot; in the bottom of email.</p>
+<p>WARNING: This might not work with some mailing lists (for example Ubuntu, Mozdev and GnuPG mailing lists)!</p>
+<p>There is open bug report about PGP/MIME not working on Ubuntu MLs at LaunchPad, <a href="https://bugs.launchpad.net/ubuntu/+bug/996581">996581</a></p>
+<p>NOTE: If you want to sign emails and use HTML at the same time, you <em>must</em> use PGP/MIME or otherwise your signature cannot be verified!</p>
+<p>To send PGP/MIME by default, open Edit --&gt; Account Settings --&gt; OpenPGP security and check &quot;Use always PGP/MIME&quot;.</p>
+<p>Remember to check to do this for your all identities in case you have more than one of them. Edit --&gt; Account Settings --&gt; &quot;Manage Identities...&quot; button and after selecting identity, you can find OpenPGP security tab.</p>
+<h1 id="openpgp-headers.">OpenPGP headers.</h1>
+<p>To enable sending OpenPGP headers, return to OpenPGP settings (mentioned above) and click &quot;advanced&quot;.</p>
+<p>Select the both checkboxes and write URL where your key is located. If you don't have homepage, you can link to webui of your preferred keyserver.</p>
+<p>These headers appear in email source like this:</p>
+<pre><code>OpenPGP: id=82A46728;
+    url=http://mkaysi.github.com/PGP/key.txt</code></pre>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Enigmail guide</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://mkaysi.github.com/articles/guides/GPG/Enigmail.html" rel="dct:source">mkaysi.github.com</a>.</p>

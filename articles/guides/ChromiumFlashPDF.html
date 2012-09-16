@@ -1,42 +1,28 @@
-<!DOCTYPE html><html>
-<head><meta name="description" content="Guide for getting Flash and PDF plugins from Google Chrome to Chromium" /> <meta name="keywords" content="Google,Chrome,Chromium,Flash,Player,PDF,Linux,Debian,Ubuntu" /> <meta name="author" content="Mika Suomalainen" /> <meta charset="UTF-8" /> <link rel="canonical" href="http://mkaysi.github.com/articles/guides/ChromiumFlashPDF.html"> <title>Getting Google Chrome integrated flash and PDF player to Chromium</title> <link rel="stylesheet" type="text/css" href="../../tyyli.css" /></head>
-<h1 id="what-do-you-need"
->What do you need?</h1
-><p
->You need <a href="https://www.google.com/intl/en/chrome/browser/"
-  >Google Chrome</a
-  > and <a href="http://www.chromium.org/Home"
-  >Chromium</a
-  >. <a href="https://www.google.com/intl/en/chrome/browser/"
-  >Google Chrome</a
-  > contains the plugins, which you need and why would you want to get them into <a href="http://www.chromium.org/Home"
-  >Chromium</a
-  > if you didn't have it?</p
-><p
-><a href="http://www.chromium.org/Home"
-  >Chromium</a
-  > is probably packaged in your distribution and can be found either in package &quot;chromium&quot; (in Debian 7 (Wheezy) and above) or &quot;chromium-browser&quot; (Debian 6 (Squeeze)).</p
-><h1 id="how-to-get-the-plugins-into-chromium."
->How to get the plugins into Chromium.</h1
-><p
->After you have installed Chrome and Chromium, you should have directories &quot;/opt/google/chrome&quot; and &quot;/usr/lib/chromium&quot;.</p
-><p
->The plugins, which you want are files &quot;libpdf.so&quot; and &quot;libgcflashplayer.so&quot; in the /opt/google/chrome&quot; directory.</p
-><p
->The easiest way to get them into Chromium is to symlink them with the following commands:</p
-><p
-><code
-  >ln -s /opt/google/chrome/libpdf.so /usr/lib/chromium/ ln -s /opt/google/chrome/libgcflashplayer.so /usr/lib/chromium</code
-  ></p
-><p
->Remember to keep Google Chrome installed, because when package managment upgrades it, those plugins are also upgraded in both Chrome and Chromium (because Chromium is same as Chrome with those plugins).</p
-><p
->Now open (or if it was already running, restart) Chromium and go to <a href="about:plugins"
-  >about:plugins</a
-  >. There you should see two new plugins called &quot;Chrome PDF Viewer&quot; and &quot;Flash&quot;. Enable them if they aren't enabled and they both should work now whenever you go into page with Flash script or PDF file.</p
-><p
->NOTE: Flash might need you to install package flashplugin-nonfree from the repositories. I am not fully sure about this.</p
-><div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Guide for getting Flash and PDF plugins from Google Chrome to Chromium" /> <meta name="keywords" content="Google,Chrome,Chromium,Flash,Player,PDF,Linux,Debian,Ubuntu" /> <meta name="author" content="Mika Suomalainen" /> <meta charset="UTF-8" /> <link rel="canonical" href="http://mkaysi.github.com/articles/guides/ChromiumFlashPDF.html">
+<title>
+Getting Google Chrome integrated flash and PDF player to Chromium
+</title>
+<link rel="stylesheet" type="text/css" href="../../tyyli.css" />
+</head>
+
+<h1 id="what-do-you-need">What do you need?</h1>
+<p>You need <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> and <a href="http://www.chromium.org/Home">Chromium</a>. <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> contains the plugins, which you need and why would you want to get them into <a href="http://www.chromium.org/Home">Chromium</a> if you didn't have it?</p>
+<p><a href="http://www.chromium.org/Home">Chromium</a> is probably packaged in your distribution and can be found either in package &quot;chromium&quot; (in Debian 7 (Wheezy) and above) or &quot;chromium-browser&quot; (Debian 6 (Squeeze)).</p>
+<h1 id="how-to-get-the-plugins-into-chromium.">How to get the plugins into Chromium.</h1>
+<p>After you have installed Chrome and Chromium, you should have directories &quot;/opt/google/chrome&quot; and &quot;/usr/lib/chromium&quot;.</p>
+<p>The plugins, which you want are files &quot;libpdf.so&quot; and &quot;libgcflashplayer.so&quot; in the /opt/google/chrome&quot; directory.</p>
+<p>The easiest way to get them into Chromium is to symlink them with the following commands:</p>
+<pre><code>ln -s /opt/google/chrome/libpdf.so /usr/lib/chromium/
+ln -s /opt/google/chrome/libgcflashplayer.so /usr/lib/chromium</code></pre>
+<p>Remember to keep Google Chrome installed, because when package managment upgrades it, those plugins are also upgraded in both Chrome and Chromium (because Chromium is same as Chrome with those plugins).</p>
+<p>Now open (or if it was already running, restart) Chromium and go to <a href="about:plugins">about:plugins</a>. There you should see two new plugins called &quot;Chrome PDF Viewer&quot; and &quot;Flash&quot;. Enable them if they aren't enabled and they both should work now whenever you go into page with Flash script or PDF file.</p>
+<p>NOTE: Flash might need you to install package flashplugin-nonfree from the repositories. I am not fully sure about this.</p>
+<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript>
+<a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a>
+</noscript>
 
 </HTML>
 
