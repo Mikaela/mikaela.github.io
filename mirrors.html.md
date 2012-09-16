@@ -18,6 +18,8 @@
 
 [cadoth] is VPS provided by nyuszika7h.
 
+In case you are wondering why that mirror looks a little different than others, that is, becuase I am using CSS of http://cadoth.net/ with it for fun.
+
 [GitHub pages] is the latest compiled version of this site. 
 
 [cadoth]:http://cadoth.net/~mkaysi/index.html
