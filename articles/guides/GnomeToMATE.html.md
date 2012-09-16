@@ -12,20 +12,43 @@
 
 # What is what in MATE and GNOME.
 
-MATE            ||   GNOME             =   What it is?
-
-Caja            ||   Nautilus         =   File browser
-
-Pluma           ||   Gedit            =   Text editor
-
-Eye of MATE     ||   Eye of GNOME     =   Picture viewer
-
-Atril           ||   Evince           =   Document viewer
-
-Engrampa        ||   File roller      =   File extractor
-
-MATE terminal   ||  GNOME Terminal    =   Terminal emulator
-
+<table border=1>
+	<tr>
+		<td>MATE</td>
+		<td>GNOME</td>
+		<td>What it is?</td>
+	</tr>
+	<tr>
+		<td>Caja</td>
+		<td>Nautilus</td>
+		<td>File manager</td>
+	</tr>
+	<tr>
+		<td>Pluma</td>
+		<td>Gedit</td>
+		<td>Text editor</td>
+	</tr>
+	<tr>
+		<td>Eye of MATE</td>
+		<td>Eye of GNOME</td>
+		<td>Picture viewer</td>
+	</tr>
+		<tr>
+		<td>Atril</td>
+		<td>Evince</td>
+		<td>Document viewer</td>
+	</tr>
+		<tr>
+		<td>Engrampa</td>
+		<td>File roller</td>
+		<td>File extractor</td>
+	</tr>
+		<tr>
+		<td>MATE Terminal</td>
+		<td>GNOME Terminal</td>
+		<td>Terminal emulator</td>
+	</tr>
+</table>
 
 # Notice about aptitude
 
