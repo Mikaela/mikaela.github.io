@@ -6,6 +6,7 @@
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/GPG/GPG.html">
+<link rel="stylesheet" type="text/css" href="../../../tyyli.css" />
 <title>GPG guide</title>
 </head>
 

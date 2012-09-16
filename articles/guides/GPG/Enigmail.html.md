@@ -7,6 +7,7 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/GPG/Enigmail.html">
 <title>Enigmail guide</title>
+<link rel="stylesheet" type="text/css" href="../../../tyyli.css" />
 </head>
 
 # Quick Enigmail guide.
