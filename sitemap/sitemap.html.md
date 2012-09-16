@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Sitemap" />
+<meta name="keywords" content="Sitemap" />
+<meta name="author" content="Mika Suomalainen" />
+<meta charset="UTF-8" />
+<link rel="canonical" href="http://mkaysi.github.com/sitemap/sitemap.html">
+<title>Sitemap</title>
+<link rel="stylesheet" type="text/css" href="../tyyli.css" />
+</head>
+
 # Sitemap
 
 This page lists every page on this site.
