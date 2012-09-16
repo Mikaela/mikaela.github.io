@@ -8,5 +8,5 @@
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
-<body bgcolor="silver" text="black" link="blue" vlink="purple">
