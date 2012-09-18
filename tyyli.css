@@ -1,4 +1,6 @@
 body {
     color:  black;
-    background-color: silver;
+    background-color_ silver;
+    :link:   blue;
+    :visited: purple;
 }
