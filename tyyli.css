@@ -1,6 +1,7 @@
 body {
     color:  black;
     background-color_ silver;
-    :link:   blue;
-    :visited: purple;
 }
+
+a:link {color:blue}
+a:visited {color:purple}
