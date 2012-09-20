@@ -1,7 +1,7 @@
 body {
     color:  black;
     background-color: silver;
-    font-family: "DejaVu Sans", Ubuntu, Arial, Arial, Helvetica, "sans-serif";
+    font-family: "DejaVu Sans", Ubuntu, Arial, Arial, Helvetica, sans-serif;
 }
 
 a:link { color: blue }
