@@ -64,11 +64,15 @@ What does this mean? Anyone can tell the bot to ghost someone else on same accou
 [issue 1]:https://bugs.launchpad.net/ubuntu/+source/supybot/+bug/996947
 [issue 2]:https://bugs.launchpad.net/ubuntu/+source/supybot/+bug/996950
 
-2. [Debian], [issue 1] and [issue 2]
+2. [Debian], [issue 1] and [issue 2].
 
 [Debian]:http://debian.org/
 [issue 1]:http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=672214
 [issue 2]:http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=672215
+
+The first issue has been also used to take down some of [Ubuntu IRC bots] several times. At least UbotX (I don't remember the number) and meetingology.
+
+[Ubuntu IRC bots]:https://wiki.ubuntu.com/IRC/Bots
 
 3. to their IRC channel.
 
