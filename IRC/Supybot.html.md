@@ -86,8 +86,22 @@ There are also two active Supybot forks, known as [Limnoria] and [Gribble], whic
 
 I recommend [Limnoria], because it seems to be more active (activity of [Gribble] isn't announced anywhere) and it has additional commands, translations and new plugin called [PluginDownloader], which makes installing of 3rd party plugins easy.
 
+[Gribble modifications when compared to Supybot.]	
+
+[Limnoria modifications when compared to Supybot.] (By the way, Gribbles features have been fully merged to Limnoria.)
+
+[Gribble modifications when compared to Supybot.]:http://sourceforge.net/apps/mediawiki/gribble/index.php?title=Gribble_Project_Git_Repository
+[Limnoria modifications when compared to Supybot.]:https://github.com/ProgVal/Limnoria/wiki/LGC
+
 Your current botname.conf is <strong>100% compatible with forks</strong>.
+
+[Join Supybot channels on freenode!]
 
 [Limnoria]:https://github.com/ProgVal/Limnoria
 [Gribble]:http://sourceforge.net/apps/mediawiki/gribble/index.php?title=Main_Page
 [PluginDownloader]:https://github.com/ProgVal/Limnoria/tree/master/plugins/PluginDownloader
+[Join Supybot channels on freenode!]:irc://irc.freenode.net/#supybot,#gribble,#limnoria
+
+[Changelog of this page.]
+
+[Changelog of this page.]:https://github.com/Mkaysi/mkaysi.github.com/commits/master/IRC/Supybot.html.md
