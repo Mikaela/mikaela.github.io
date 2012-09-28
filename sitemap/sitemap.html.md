@@ -19,7 +19,7 @@
 This page lists every page on this site.
 Note that to see markdown source of .html page, you only need to add ".md" after ".html" in the URL line.
 
-# /
+# [/]
 
 [404] — Page, which is shown if you encounter 404 error.
 
@@ -27,6 +27,7 @@ Note that to see markdown source of .html page, you only need to add ".md" after
 
 [mirrors] — List of mirrors of this site.
 
+[/]:../index.html
 [404]:../404.html
 [index]:../index.html
 [mirrors]:../mirrors.html
