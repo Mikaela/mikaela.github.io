@@ -9,6 +9,9 @@
 <title>Homepage of Mika Suomalainen (Mkaysi)</title>
 <link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
+<text align=left>index</text align>
+<text align=center></text align>
+<text align=left><a href="sitemap/sitemap.html">Sitemap --></a></text align>
 
 # Welcome
 
