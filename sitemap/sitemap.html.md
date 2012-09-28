@@ -37,8 +37,10 @@ Note that to see markdown source of .html page, you only need to add ".md" after
 
 ## /articles/
 
+## IRC/
+
 ## /PGP/
 
 ## /Prey/
 
-## /Sitemap/
+## /sitemap/
