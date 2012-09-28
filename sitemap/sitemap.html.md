@@ -25,7 +25,7 @@ Note that to see markdown source of .html page, you only need to add ".md" after
 
 [404]:../404.html
 [index]:../index.html
-[mirrors]:../mirrors.html.md
+[mirrors]:../mirrors.html
 
 <strong>EVERYTHING BELOW THIS LINE IS UNDER CONSTRUCTION!</strong>
 <hr/>
