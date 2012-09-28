@@ -17,15 +17,18 @@ Note that to see markdown source of .html page, you only need to add ".md" after
 
 # /
 
-404.html — Page, which is shown if you encounter 404 error.
+[404] — Page, which is shown if you encounter 404 error.
 
-index.html — Index page
+[index] — Index page
 
-LICENSE.md — License of this site.
+[mirrors] — List of mirrors of this site.
 
-mirrors.html — List of mirrors of this site.
+[404]:../404.html
+[index]:../index.html
+[mirrors]:../mirrors.html.md
 
-README.md — Useless README file.
+<strong>EVERYTHING BELOW THIS LINE IS UNDER CONSTRUCTION!</strong>
+<hr/>
 
 ## /articles/
 
