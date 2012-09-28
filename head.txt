@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
 </body>
-<text align=left><a href="index.html"><-- index</a></text align>
+<text align=left><a href="index.html"><-- Index</a></text align>
 <text align=center>TITLEOFTHISPAGEHERE</text align>
 <text align=left><a href="sitemap/sitemap.html">Sitemap --></a></text align>
 

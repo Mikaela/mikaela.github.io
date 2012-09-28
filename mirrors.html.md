@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
 <body>
-<text align=left><a href="index.html"><-- index</a></text align>
+<text align=left><a href="index.html"><-- Index</a></text align>
 <text align=center>Mirrors of this site</text align>
 <text align=left><a href="sitemap/sitemap.html">Sitemap --></a></text align>
 
