@@ -1,3 +1,3 @@
-# Temporary files from Vim and nano aren't welcome here.
 *.swp
 *~
+*.kate-swp
