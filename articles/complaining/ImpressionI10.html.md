@@ -59,14 +59,14 @@ I will list them in them in table below
 		<td>Firefox for Android crashes when started</td>
 		<td>No</td>
 		<td>No</td>
-		<td>[795572 - Bugzilla@Mozilla]</td>
+		<td>[#795572 - Bugzilla@Mozilla]</td>
 		<td><center>-</center></td>
 	</tr>
 	<tr>
 		<td>GitHub for Android crashes when started</td>
 		<td>No</td>
 		<td>No</td>
-		<td>I will report it soon.</td>
+		<td>[#238 - github/android]</td>
 		<td><center>-</center></td>
 	</tr>
 		<tr>
@@ -99,6 +99,7 @@ What happens when I run it? Nothing as you can see below.
 [Leader International INC]:http://www.leaderinternationalinc.com/
 [F-Droid]:https://f-droid.org/
 [#11 - Zanshinmu/Wifi-Fixer - GitHub]:https://github.com/Zanshinmu/Wifi-Fixer/issues/11
-[795572 - Bugzilla@Mozilla]:https://bugzilla.mozilla.org/show_bug.cgi?id=795572
+[#795572 - Bugzilla@Mozilla]:https://bugzilla.mozilla.org/show_bug.cgi?id=795572
 [ADB]:https://developer.android.com/tools/help/adb.html
 [alogcat]:https://code.google.com/p/alogcat/
+[#238 - github/android]:https://github.com/github/android/issues/238
