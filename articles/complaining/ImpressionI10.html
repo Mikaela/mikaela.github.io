@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="My opinion about Impression I10 tablt." /> <meta name="keywords" content="Impression,I10,bugs,problems,issues," /> <meta name="author" content="Mika Suomalainen" /> <meta charset="UTF-8" /> <link rel="canonical" href="http://mkaysi.github.com/articles/complaining/ImpressionI10">
+<title>
+Impression I10
+</title>
+<link rel="stylesheet" type="text/css" href="../../tyyli.css" />
+</head>
+<body>
+<hr/>
+<text align=left><a href="../../index.html">&lt;-- Index</a></text align> <text align=center>Impression I10</text align> <text align=right><a href="../../sitemap/sitemap.html">Sitemap --&gt;</a></text align>
+<hr/>
+
+<h1 id="many-issues">Many issues</h1>
+<p>I don't like this tablet.</p>
+<h2 id="market-problem">Market problem</h2>
+<h3 id="no-anroid-market-google-play">No Anroid Market / Google Play</h3>
+<p>It doesn't have Android Market nor Google Play officially. Of course it can unofficially be installed, but that doesn't fix the compatibility of applicaltions.</p>
+<h3 id="amazon-market">Amazon Market</h3>
+<p>[Leader Interational INC], the author of this tablet, suggests installing Amazon Market in one of the papers which come with this device. This has a problem that you must give credit card details <strong>even with free applicaltions</strong>. I don't have credit card!</p>
+<h3 id="f-droid"><a href="https://f-droid.org/">F-Droid</a></h3>
+<p>F-Droid is the solution for this problem. It describes itself as &quot;<em>an easily-installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</em>&quot;.</p>
+<h4 id="applicaltion-compatibility">Applicaltion compatibility</h4>
+<p>I am experiencing many issues with different applicaltions on this tablet. Luckily <a href="https://f-droid.org/">F-Droid</a> clearly tells where the issue trackers and homepages are.</p>
+<p>I will list them in them in table below</p>
+<table border=1>
+    <tr>
+        <td>
+Issue
+</td>
+        <td>
+Fixed?
+</td>
+        <td>
+Fix in <a href="https://f-droid.org/">F-Droid</a>?
+</td>
+        <td>
+Upstream issue
+</td>
+        <td>
+More details
+</td>
+    </tr>
+    <tr>
+        <td>
+WiFi Fixer crashes when it's started
+</td>
+        <td>
+Yes
+</td>
+        <td>
+No
+</td>
+        <td>
+<a href="https://github.com/Zanshinmu/Wifi-Fixer/issues/11">#11 - Zanshinmu/Wifi-Fixer - GitHub</a>
+</td>
+        <td><center>
+-
+</center></td>
+    </tr>
+    <tr>
+        <td>
+Firefox for Android crashes when started
+</td>
+        <td>
+No
+</td>
+        <td>
+No
+</td>
+        <td>
+<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=795572">795572 - Bugzilla@Mozilla</a>
+</td>
+        <td><center>
+-
+</center></td>
+    </tr>
+    <tr>
+        <td>
+GitHub for Android crashes when started
+</td>
+        <td>
+No
+</td>
+        <td>
+No
+</td>
+        <td>
+I will report it soon.
+</td>
+        <td><center>
+-
+</center></td>
+    </tr>
+        <tr>
+        <td>
+Barcode Scanner crashes when started
+</td>
+        <td>
+No
+</td>
+        <td>
+No
+</td>
+        <td>
+I will report it soon.
+</td>
+        <td><center>
+-
+</center></td>
+    </tr>
+</table>
+
+<h2 id="adb-logcat-doesnt-work."><a href="https://developer.android.com/tools/help/adb.html">ADB</a> logcat doesn't work.</h2>
+<ol class="incremental" style="list-style-type: decimal">
+<li>I have plugged the USB cable.</li>
+<li>USB debugging reports to be on.</li>
+<li>Device detects the cable.</li>
+<li>I have tested <a href="https://developer.android.com/tools/help/adb.html">ADB</a> with another device and it worked.</li>
+</ol>
+<p>It's good that at least <a href="https://code.google.com/p/alogcat/">alogcat</a> works. I haven't tested other features of adb yet.</p>
+<p>What happens when I run it? Nothing as you can see below.</p>
+<pre><code>% adb logcat
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+- waiting for device -</code></pre>
