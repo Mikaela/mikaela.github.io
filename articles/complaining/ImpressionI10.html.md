@@ -49,28 +49,28 @@ I will list them in them in table below
 		<td>More details</td>
 	</tr>
 	<tr>
-		<td>WiFi Fixer crashes when it's started</td>
+		<td>[WiFi Fixer] crashes when it's started</td>
 		<td>Yes</td>
 		<td>No</td>
 		<td>[#11 - Zanshinmu/Wifi-Fixer - GitHub]</td>
 		<td><center>-</center></td>
 	</tr>
 	<tr>
-		<td>Firefox for Android crashes when started</td>
+		<td>[Firefox for Android] crashes when started</td>
 		<td>No</td>
 		<td>No</td>
 		<td>[#795572 - Bugzilla@Mozilla]</td>
 		<td><center>-</center></td>
 	</tr>
 	<tr>
-		<td>GitHub for Android crashes when started</td>
+		<td>[GitHub for Android] crashes when started</td>
 		<td>No</td>
 		<td>No</td>
 		<td>[#238 - github/android]</td>
 		<td><center>-</center></td>
 	</tr>
 		<tr>
-		<td>Barcode Scanner crashes when started</td>
+		<td>[Barcode Scanner] crashes when started</td>
 		<td>No</td>
 		<td>No</td>
 		<td>[#1377 - zxing - Google Project Hosting]</td>
@@ -104,3 +104,7 @@ What happens when I run it? Nothing as you can see below.
 [alogcat]:https://code.google.com/p/alogcat/
 [#238 - github/android]:https://github.com/github/android/issues/238
 [#1377 - zxing - Google Project Hosting]:https://code.google.com/p/zxing/issues/detail?id=1377
+[WiFi Fixer]:https://wififixer.wordpress.com/
+[Firefox for Android]:https://wiki.mozilla.org/Mobile/Platforms/Android
+[GitHub for Android]:https://github.com/github/android
+[Barcode Scanner]:https://code.google.com/p/zxing/
