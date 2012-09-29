@@ -73,7 +73,7 @@ I will list them in them in table below
 		<td>Barcode Scanner crashes when started</td>
 		<td>No</td>
 		<td>No</td>
-		<td>I will report it soon.</td>
+		<td>[#1377 - zxing - Google Project Hosting]</td>
 		<td><center>-</center></td>
 	</tr>
 </table>
@@ -103,3 +103,4 @@ What happens when I run it? Nothing as you can see below.
 [ADB]:https://developer.android.com/tools/help/adb.html
 [alogcat]:https://code.google.com/p/alogcat/
 [#238 - github/android]:https://github.com/github/android/issues/238
+[#1377 - zxing - Google Project Hosting]:https://code.google.com/p/zxing/issues/detail?id=1377
