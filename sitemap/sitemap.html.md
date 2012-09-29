@@ -23,6 +23,8 @@ Note that to see markdown source of .html page, you only need to add ".md" after
 
 # /
 
+The root directory where everything is located.
+
 [404] — Page which is shown if you encounter 404 error.
 
 [index] — Index page
@@ -34,10 +36,22 @@ Note that to see markdown source of .html page, you only need to add ".md" after
 [index]:../index.html
 [mirrors]:../mirrors.html
 
+## /articles/
+
+Some things, which are direct complaining about something or then guides for doing something. They might not be very good guidess.
+
+### /articles/complaining/
+
+Complaining about some things.
+
+[HTML in emails]:../articles/complaining/HTML.html
+
+[Topposting in emails]:../articles/complaining/topposting.html
+
 <strong>EVERYTHING BELOW THIS LINE IS UNDER CONSTRUCTION!</strong>
 <hr/>
 
-## /articles/
+### /articles/guides/
 
 ## /IRC/
 
