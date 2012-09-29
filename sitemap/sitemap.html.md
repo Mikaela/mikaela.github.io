@@ -44,6 +44,10 @@ Some things, which are direct complaining about something or then guides for doi
 
 Complaining about some things.
 
+[HTML in emails]
+
+[Topposting in emails]
+
 [HTML in emails]:../articles/complaining/HTML.html
 
 [Topposting in emails]:../articles/complaining/topposting.html
