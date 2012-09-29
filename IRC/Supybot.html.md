@@ -88,10 +88,10 @@ I recommend [Limnoria], because it seems to be more active (activity of [Gribble
 
 [Gribble modifications when compared to Supybot.]	
 
-[Limnoria modifications when compared to Supybot.] (By the way, Gribbles features have been fully merged to Limnoria.)
+[Limnoria modifications when compared to Gribble.] Features of Gribble have been fully merged to Limnoria.
 
 [Gribble modifications when compared to Supybot.]:http://sourceforge.net/apps/mediawiki/gribble/index.php?title=Gribble_Project_Git_Repository
-[Limnoria modifications when compared to Supybot.]:https://github.com/ProgVal/Limnoria/wiki/LGC
+[Limnoria modifications when compared to Gribble.]:https://github.com/ProgVal/Limnoria/wiki/LGC
 
 Your current botname.conf is <strong>100% compatible with forks</strong>.
 
