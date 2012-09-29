@@ -23,7 +23,7 @@ Note that to see markdown source of .html page, you only need to add ".md" after
 
 # [/]
 
-[404] — Page, which is shown if you encounter 404 error.
+[404] — Page which is shown if you encounter 404 error.
 
 [index] — Index page
 
