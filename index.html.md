@@ -17,9 +17,9 @@
 
 # Welcome
 
-There might not be much to see in this page. You can find list of pages in the [source].
+There might not be much to see in this page. You can find list of pages in the [sitemap].
 
-[source]:https://github.com/Mkaysi/mkaysi.github.com/
+[sitemap]:http://mkaysi.github.com/sitemap/sitemap.html
 
 # Around the web
 
