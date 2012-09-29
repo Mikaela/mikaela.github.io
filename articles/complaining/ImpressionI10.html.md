@@ -78,6 +78,8 @@ I will list them in them in table below
 	</tr>
 </table>
 
+Why "Fix in [F-Droid]"? It's the only market, which I have found correctly working on this device.
+
 ## [ADB] logcat doesn't work.
 
 1. I have plugged the USB cable.
