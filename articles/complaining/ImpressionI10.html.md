@@ -64,10 +64,10 @@ I will list them in them in table below
 	</tr>
 	<tr>
 		<td>[GitHub for Android] crashes when started</td>
-		<td>No</td>
-		<td>No</td>
+		<td>Invalid</td>
+		<td><center>Won't be fixed?</center></td>
 		<td>[#238 - github/android]</td>
-		<td><center>-</center></td>
+		<td><center>"<em>This is a device bug</em>" I am not surprised...</center></td>
 	</tr>
 		<tr>
 		<td>[Barcode Scanner] crashes when started</td>
