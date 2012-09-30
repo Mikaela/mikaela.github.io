@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="description" content="My opinion about Impression I10 tablt." />
+<meta name="description" content="My opinion about Impression I10 tablet." />
 <meta name="keywords" content="Impression,I10,bugs,problems,issues," />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
@@ -64,16 +64,18 @@ I will list them in them in table below
 	</tr>
 	<tr>
 		<td>[GitHub for Android] crashes when started</td>
-		<td>Invalid</td>
-		<td><center>Won't be fixed?</center></td>
 		<td>[#238 - github/android]</td>
-		<td><center>"<em>This is a device bug</em>" I am not surprised...</center></td>
+		<td>No</td>
+		<td>No</td>
+		<td><center>-</center></td>
 	</tr>
 		<tr>
 		<td>[Barcode Scanner] crashes when started</td>
-		<td>No</td>
-		<td>No</td>
+
+        <td>Invalid</td>
+		<td><center>Won't be fixed?</center></td>
 		<td>[#1377 - zxing - Google Project Hosting]</td>
+		<td><center>"<em>This is a device bug</em>" I am not surprised...</center></td>
 		<td><center>-</center></td>
 	</tr>
 </table>
