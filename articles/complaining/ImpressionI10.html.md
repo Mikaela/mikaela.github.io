@@ -22,7 +22,7 @@ I don't like this tablet.
 
 ## Market problem
 
-### No Anroid Market / Google Play
+### No Android Market / Google Play
 
 It doesn't have Android Market nor Google Play officially. Of course it can unofficially be installed, but that doesn't fix the compatibility of applicaltions.
 
