@@ -71,7 +71,6 @@ I will list them in them in table below
 	</tr>
 		<tr>
 		<td>[Barcode Scanner] crashes when started</td>
-
         <td>Invalid</td>
 		<td><center>Won't be fixed?</center></td>
 		<td>[#1377 - zxing - Google Project Hosting]</td>
