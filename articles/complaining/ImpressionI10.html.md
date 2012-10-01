@@ -34,7 +34,7 @@ It doesn't have Android Market nor Google Play officially. Of course it can unof
 
 F-Droid is the solution for this problem. It describes itself as "<em>an easily-installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</em>".
 
-#### Applicaltion compatibility
+#### Application compatibility
 
 I am experiencing many issues with different applicaltions on this tablet. Luckily [F-Droid] clearly tells where the issue trackers and homepages are.
 
