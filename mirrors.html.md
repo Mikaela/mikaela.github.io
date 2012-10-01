@@ -65,6 +65,12 @@ Some pages are redirecting you to cadoth mirror (issue [#10]. They are listed he
 		<td>You are currently looking this on cadoth, aren't you?</td>
 		<td>YES</td>
 	</tr>
+	<tr>
+		<td>articles/complaining/ImpressionI10.html</td>
+		<td>cadoth</td>
+		<td>I have advertised it too much to not forward it.</td>
+		<td>Not yet</td>
+	</tr>
 </table>
 
 <center><strong>TODO: Add links to those pages.</strong></center>
