@@ -99,6 +99,46 @@ What happens when I run it? Nothing as you can see below.
 - waiting for device -
 ```
 
+# Something works :)
+
+## Games
+
+I tried installing some [games from F-Droid] and for some reason they all work. Below there is another table of games which I installed and what I thought about them.
+
+<table>
+	<tr>
+		<td>Game</td>
+		<td>Status</td>
+	</tr>
+	<tr>
+		<td>[Andor's Trail]</td>
+		<td>I am lost. I should go to "storage cave" or someones basement and I cannot find either. There are too many caves.</td>
+	</tr>
+	<tr>
+		<td>[Chess Walk]</td>
+		<td>I keep losing...</td>
+	</tr>
+	<tr>
+		<td>[Dots'n'Boxes]</td>
+		<td>I didn't read the description and thought that this was just X and O game, but was surprised by it being in German and I didn't understand anything.</td>
+	</tr>
+		<tr>
+		<td>[GL Tron]</td>
+		<td>I keep losing in this too...</td>
+	</tr>
+	</tr>
+		<tr>
+		<td>[Taps Of Fire]</td>
+		<td>Maybe I am a little better on this than [Frets on Fire], but I am bad in this.</td>
+	</tr>
+		</tr>
+		<tr>
+		<td>[Vector Pinball]</td>
+		<td>My new favourite Android game :D</td>
+	</tr>
+</table>
+
+
 [Leader International INC]:http://www.leaderinternationalinc.com/
 [F-Droid]:https://f-droid.org/
 [#11 - Zanshinmu/Wifi-Fixer - GitHub]:https://github.com/Zanshinmu/Wifi-Fixer/issues/11
@@ -111,3 +151,11 @@ What happens when I run it? Nothing as you can see below.
 [Firefox for Android]:https://wiki.mozilla.org/Mobile/Platforms/Android
 [GitHub for Android]:https://github.com/github/android
 [Barcode Scanner]:https://code.google.com/p/zxing/
+[games from F-Droid]:http://f-droid.org/repository/browse/?page_id=0&fdpage=1&fdcategory=Games
+[Andor's Trail]:http://f-droid.org/repository/browse/?fdcategory=Games&fdid=com.gpl.rpg.AndorsTrail&fdpage=1
+[Chess Walk]:http://f-droid.org/repository/browse/?fdcategory=Games&fdid=cz.hejl.chesswalk&fdpage=1
+[Dots'n'Boxes]:http://f-droid.org/repository/browse/?fdcategory=Games&fdid=de.stefan_oltmann.kaesekaestchen&fdpage=1
+[GL Tron]:http://f-droid.org/repository/browse/?fdcategory=Games&fdid=com.glTron&fdpage=1
+[Taps Of Fire]:http://f-droid.org/repository/browse/?fdcategory=Games&fdid=org.tof&fdpage=2
+[Frets On Fire]:http://fretsonfire.sourceforge.net/
+[Vector Pinball]:http://f-droid.org/repository/browse/?fdcategory=Games&fdid=com.dozingcatsoftware.bouncy&fdpage=2
