@@ -16,6 +16,8 @@
 <text align=right><a href="../../sitemap/sitemap.html">Sitemap --></a></text align>
 <hr/>
 
+<table style="width:194px;"><tr><td align="center" style="height:194px;background:url(https://picasaweb.google.com/s/c/transparent_album_background.gif) no-repeat left"><a href="https://picasaweb.google.com/113787158024729598288/ImpressionI10?authuser=0&feat=embedwebsite"><img src="https://lh5.googleusercontent.com/-hObrpRJKAbk/UGq9u9iYYzE/AAAAAAAABNI/tl9JR-zlGxI/s160-c/ImpressionI10.jpg" width="160" height="160" style="margin:1px 0 0 4px;"></a></td></tr><tr><td style="text-align:center;font-family:arial,sans-serif;font-size:11px"><a href="https://picasaweb.google.com/113787158024729598288/ImpressionI10?authuser=0&feat=embedwebsite" style="color:#4D4D4D;font-weight:bold;text-decoration:none;">Impression I10</a></td></tr></table>
+
 # Many issues
 
 I don't like this tablet. 
