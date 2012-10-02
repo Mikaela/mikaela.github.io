@@ -54,29 +54,35 @@ I will list them in them in table below
 		<td>[WiFi Fixer] crashes when it's started</td>
 		<td>Yes</td>
 		<td>No</td>
-		<td>[#11 - Zanshinmu/Wifi-Fixer - GitHub]</td>
+		<td><a href="https://github.com/Zanshinmu/Wifi-Fixer/issues/11" >Gives "force close" messages on Impression I10 tablet. · Issue #11 · Zanshinmu/Wifi-Fixer</a></td>
 		<td><center>-</center></td>
 	</tr>
 	<tr>
 		<td>[Firefox for Android] crashes when started</td>
 		<td>No</td>
 		<td>No</td>
-		<td>[#795572 - Bugzilla@Mozilla]</td>
+		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=795572" >795572 – Firefox for Android crashes shortly after starting it on Impression I10</a></td>
 		<td><center>-</center></td>
 	</tr>
 	<tr>
 		<td>[GitHub for Android] crashes when started</td>
-		<td>[#238 - github/android]</td>
 		<td>No</td>
 		<td>No</td>
+		<td><a href="https://github.com/github/android/issues/238" >Crashes when started on Impression I10 tablet. · Issue #238 · github/android</a></td>
 		<td><center>-</center></td>
 	</tr>
 		<tr>
 		<td>[Barcode Scanner] crashes when started</td>
-        <td>Invalid</td>
-		<td><center>Won't be fixed?</center></td>
-		<td>[#1377 - zxing - Google Project Hosting]</td>
+		<td>Invalid</td>
+		<td><center>-</center></td>
+		<td><a href="https://code.google.com/p/zxing/issues/detail?id=1377" >Issue 1377 - zxing - Crashes on start with Impression I10 - Multi-format 1D/2D barcode image processing library with clients for Android, Java - Google Project Hosting</a></td>
 		<td><center>"<em>This is a device bug</em>" I am not surprised...</center></td>
+	</tr>
+	<tr>
+		<td>[Android Terminal Emulator] crashes when started</td>
+		<td><center>No</td>
+		<td><center>No</center></td>
+		<td><a href="https://github.com/jackpal/Android-Terminal-Emulator/issues/162" >Crashes immediately after started on ImpressionI10. · Issue #162 · jackpal/Android-Terminal-Emulator</a></td>
 		<td><center>-</center></td>
 	</tr>
 </table>
@@ -114,7 +120,7 @@ I tried installing some [games from F-Droid] and for some reason they all work. 
 	</tr>
 	<tr>
 		<td>[Andor's Trail]</td>
-		<td>I am lost. I should go to "storage cave" or someones basement and I cannot find either. There are too many caves.</td>
+		<td>I am lost. I should go to "storage cave" and I cannot find it. There are too many caves and the nearest one was empty.</td>
 	</tr>
 	<tr>
 		<td>[Chess Walk]</td>
@@ -143,12 +149,8 @@ I tried installing some [games from F-Droid] and for some reason they all work. 
 
 [Leader International INC]:http://www.leaderinternationalinc.com/
 [F-Droid]:https://f-droid.org/
-[#11 - Zanshinmu/Wifi-Fixer - GitHub]:https://github.com/Zanshinmu/Wifi-Fixer/issues/11
-[#795572 - Bugzilla@Mozilla]:https://bugzilla.mozilla.org/show_bug.cgi?id=795572
 [ADB]:https://developer.android.com/tools/help/adb.html
 [alogcat]:https://code.google.com/p/alogcat/
-[#238 - github/android]:https://github.com/github/android/issues/238
-[#1377 - zxing - Google Project Hosting]:https://code.google.com/p/zxing/issues/detail?id=1377
 [WiFi Fixer]:https://wififixer.wordpress.com/
 [Firefox for Android]:https://wiki.mozilla.org/Mobile/Platforms/Android
 [GitHub for Android]:https://github.com/github/android
@@ -161,3 +163,4 @@ I tried installing some [games from F-Droid] and for some reason they all work. 
 [Taps Of Fire]:http://f-droid.org/repository/browse/?fdcategory=Games&fdid=org.tof&fdpage=2
 [Frets On Fire]:http://fretsonfire.sourceforge.net/
 [Vector Pinball]:http://f-droid.org/repository/browse/?fdcategory=Games&fdid=com.dozingcatsoftware.bouncy&fdpage=2
+[Android Terminal Emulator]:http://f-droid.org/repository/browse/?fdfilter=terminal&fdid=jackpal.androidterm&fdpage=1
