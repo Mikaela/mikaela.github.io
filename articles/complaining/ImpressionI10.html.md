@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<META HTTP-EQUIV="refresh" CONTENT="1;URL=http://cadoth.net/~mkaysi/articles/complaining/ImpressionI10">
 <meta name="description" content="My experience with Impression I10 tablet." />
 <meta name="keywords" content="Impression,I10,bugs,problems,issues," />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
-<link rel="canonical" href="http://mkaysi.github.com/articles/complaining/ImpressionI10">
+<link rel="canonical" href="http://cadoth.net/~mkaysi/articles/complaining/ImpressionI10">
 <title>Impression I10</title>
 <link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
