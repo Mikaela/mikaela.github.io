@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<META HTTP-EQUIV="refresh" CONTENT="1;URL=cadoth.net/~mkaysi/articles/complaining/ImpressionI10.html">
+<META HTTP-EQUIV="refresh" CONTENT="1;URL=http://cadoth.net/~mkaysi/articles/complaining/ImpressionI10.html">
 <meta name="description" content="My experience with Impression I10 tablet." />
 <meta name="keywords" content="Impression,I10,bugs,problems,issues," />
 <meta name="author" content="Mika Suomalainen" />
