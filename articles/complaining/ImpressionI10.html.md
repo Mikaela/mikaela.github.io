@@ -53,37 +53,39 @@ I will list them in them in table below
 	<tr>
 		<td>[WiFi Fixer] crashes when it's started</td>
 		<td>Yes</td>
-		<td>No</td>
+		<td>Not yet</td>
 		<td><a href="https://github.com/Zanshinmu/Wifi-Fixer/issues/11" >Gives "force close" messages on Impression I10 tablet. · Issue #11 · Zanshinmu/Wifi-Fixer</a></td>
-		<td><center>-</center></td>
+		<td><center><em>"The crash is caused by a framework method that should  be there in Android
+2.3.x not existing.</em>"</center></td>
 	</tr>
 	<tr>
 		<td>[Firefox for Android] crashes when started</td>
-		<td>No</td>
-		<td>No</td>
+		<td>?</td>
+		<td>?</td>
 		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=795572" >795572 – Firefox for Android crashes shortly after starting it on Impression I10</a></td>
-		<td><center>-</center></td>
+		<td><center>"<em>Should we consider blocklisting the Impression i10? We use many Gingerbread+ APIs and checking them all via reflection instead of Build.VERSION.SDK_INT does not seem practical.
+</em>"</center></td>
 	</tr>
 	<tr>
 		<td>[GitHub for Android] crashes when started</td>
-		<td>No</td>
-		<td>No</td>
+		<td>?</td>
+		<td>?</td>
 		<td><a href="https://github.com/github/android/issues/238" >Crashes when started on Impression I10 tablet. · Issue #238 · github/android</a></td>
-		<td><center>-</center></td>
+		<td><center>"<em>This exception:</em>""<em>is due to a broken implementation of Java on this OEM's custom ROM.</em>"</center></td>
 	</tr>
 		<tr>
 		<td>[Barcode Scanner] crashes when started</td>
 		<td>Invalid</td>
 		<td><center>-</center></td>
 		<td><a href="https://code.google.com/p/zxing/issues/detail?id=1377" >Issue 1377 - zxing - Crashes on start with Impression I10 - Multi-format 1D/2D barcode image processing library with clients for Android, Java - Google Project Hosting</a></td>
-		<td><center>"<em>This is a device bug</em>" I am not surprised...</center></td>
+		<td>"<em>This is a device bug...</em>"</td>
 	</tr>
 	<tr>
 		<td>[Android Terminal Emulator] crashes when started</td>
-		<td><center>No</td>
-		<td><center>No</center></td>
+		<td><center>?</td>
+		<td><center>?</center></td>
 		<td><a href="https://github.com/jackpal/Android-Terminal-Emulator/issues/162" >Crashes immediately after started on ImpressionI10. · Issue #162 · jackpal/Android-Terminal-Emulator</a></td>
-		<td><center>-</center></td>
+		<td><center>"<em>Assuming your ROM reports that it's API 9 (Android 2.3) or later, it's broken -- java.io.File.canExecute() is documented as being available in API 9 and up.</em>"</center></td>
 	</tr>
 </table>
 
