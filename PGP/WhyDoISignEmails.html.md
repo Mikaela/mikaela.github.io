@@ -18,6 +18,26 @@ The signature is evidence that message comes from me. If I sign all my messages,
 I can say that I sign all my messages and possibly unsigned offensive
 content, which is spoofed to "come" from my address, isn't sent by me.
 
+### Who would want to spoof you?
+
+I don't know, but it seems that some people want. On 06.10.12 there has been spam attack against [Limnoria's pastebin] where the pasted message has title which contains some nicks (including mine) from #Limnoria at freenode and then Limnoria bot announces it on #Limnoria and spams people.
+
+What does this have to do with me? I was sleeping when this started around 00:30 Finnish time (UTC+3), but the pasted message claims
+
+```
+Pasted by Mkaysi.
+```
+
+Everyone knows that I am known as Mkaysi at multiple places, but that paster isn't me. If I pasted something, the paster name would be "Mkaysi".
+
+Maybe I will start signing all my pastes in the future. There is [feature request for pastebinit] about that.
+
+#### Expection
+
+School forces me to send some emails without signing them when I am not at home.
+
+
+
 ### But it doesn't prove anything, you can just leave offensive content unsigned.
 
 True, I could do that. But I don't have habit of writing offensive text and saying that it doesn't come from me.
