@@ -53,7 +53,7 @@ I will list them in them in table below
 	<tr>
 		<td>[WiFi Fixer] crashes when it's started</td>
 		<td>Yes</td>
-		<td>Not yet</td>
+		<td>Probably (it's at least in Google Play)</td>
 		<td><a href="https://github.com/Zanshinmu/Wifi-Fixer/issues/11" >Gives "force close" messages on Impression I10 tablet. · Issue #11 · Zanshinmu/Wifi-Fixer</a></td>
 		<td><center><em>"The crash is caused by a framework method that should  be there in Android
 2.3.x not existing.</em>"</center></td>
