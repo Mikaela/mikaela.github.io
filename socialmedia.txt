@@ -1,13 +1,34 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-This clearsigned file contains links to my accounts around the web.
+My accounts around the Internet
+===============================
+
+Git etc.
+- --------
+
+GitHub: https://github.com/Mkaysi
+Gitorious: https://gitorious.org/~mkaysi
+
+Social media
+- ------------
 
 Google+: https://plus.google.com/113787158024729598288/
 Twitter: https://twitter.com/Mkaysi
 Identica/Statusnet: https://identi.ca/mkaysi
 Facebook: https://www.facebook.com/mika.suomalainen
+LastFM: http://www.last.fm/user/Mkaysi
+YouTube: https://www.youtube.com/user/Mkaysi1
+
+Instant messaging etc.
+- ----------------------
+
 Skype: Mkaysi1
+freenode (IRC): Mkaysi
+Windows LIVE: https://profile.live.com/P.mvc#!/cid-40502dd7058f4dc3
+
+This list: http://mkaysi.github.com/socialmedia.txt
+
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.19 (GNU/Linux)
 Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
@@ -18,17 +39,17 @@ Comment: ...so signature *IS* long. See http://git.io/6FLzWg
 Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
 Comment: Charset of this message should be UTF-8.
 
-iQIcBAEBCgAGBQJQVff2AAoJEE21PP6CpGcoCawP/RY2V7ZNbabq/HO5EswDHXNT
-dY4iKqfFGplGxBMxUyLaFSnXfUOvsn3MEXfSlCifXWmRwTym+U3DxDNxVtLGjaGQ
-Ij7qavyoQE/bNVfMe0Xfzqsu0Do7T3vhQNc/V7sc74Q2IaRWKQp6PZSq9bf05kCS
-WHYqn46sGSFa7etwPqsrUTTpd7vZid1cqwYJBA9WRLVXVgPURCcsWLeA2QIo88nm
-ByU7oL2IM2DxEHRwB/18kGECklTBGgG9jyvSlhywJAQhWx4u8UQyud3YfhAVpqnQ
-i413m+WGa/QNT995LEL6cz9aUPtd7yZlgZBDcmdVAJ4hk0R82aRTt0hIXoemzZW4
-G6FqeisJ/pNl3sQSDIUZ7MNSLtk98pRlWrTDgbmLa8kF2U80OGfmvCTseNxgyu2A
-mJALcSSDv5ZInQwtLitPserSgJNHkEsByZbOkzgIWDllozTDDsd9C8XGASCzWGFh
-jGezPRjgghDpn2+1ThXXiX/1j9b/oZxnHeZ4gCrgsBy+q4C8J1zqYmIW+wiWymj5
-TptmYQzWEYxjb6izwBh25O6ek06TtE9HBkL3CSV9wvMSjd9FEkMYzpTqr/wlfuq2
-0mtS13fTGqryeJuQvjmGEcdq22dNgN17cJ/6kD+Qx0IfHtgZMuf4sajRk903oTe/
-+S66CWnSPatPRB5kwiT9
-=hZaI
+iQIcBAEBCgAGBQJQeWlCAAoJEE21PP6CpGcosAcP/2B51w8L3+LhMwMVB2W3okmb
+7YqydYERuo5T22s6IdmYDbKlcNQjgjRh+QxtkImaWW8CoC7VFeaLd89uCmffqg61
+4XqK4aOlwkd1gveDmXNdXQRfrQ2VssqInS9h7qkIXuTjl+XlTxqtjQtfAaX9Op6I
+k7CySUjbn0jztor1raHISFs1CxnBWgYS0fjpRQfHQzUS2Ko/RjPQ1cT7XtIpf/i7
+rYQ0MJj/qXwjybdOmuqw/CQnSWWIJ6ccpfEY1mBOUsigf3esKUScd5BilcZQGZ+e
+0gpZOsTiCcPKyoRgFU93ahWPDDwPQyOMXrEBInHCsH9+S36Z1fBumyBCLrV/7afk
+kv396gtceGEikGqq3DWDTiFaLFEzKdjm5EOwOEtp02jWzUlyIOfjI1YTKmYNsoBo
+bvLOskIxtdOndS0/wGSfqNZKKnjXdQITtjryxZMitEElOo7kuD98mScSfQ6F6HoD
+EOS0YTIJ2BisUVSgD21afuLtBddMOscgpq4TPElNr/zyOR1wXDNnDiIiMQjD7n9u
+6kQxXkJDw7f9bJur/q5n2tNWfXLgo8q/WRqbnRhVWbTNaxcEepeT+OQYZLEhIRq9
+T0jraSx3ZKFiKfHiQ3B93Ad/s+lJnahyBqvk9Axy7t7OwI70niet9oo/rusRZDgu
+Q3x50sorZYthWwpRawEH
+=6qHi
 -----END PGP SIGNATURE-----
