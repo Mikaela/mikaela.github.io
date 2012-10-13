@@ -11,13 +11,13 @@ curl -L http://mkaysi.github.com/socialmedia.txt|gpg --verify
 It requires cURL and GnuPG to be installed (Debian/Ubuntu packages: curl gnupg)
 
 Git etc.
-- - --------
+========
 
 GitHub: https://github.com/Mkaysi
 Gitorious: https://gitorious.org/~mkaysi
 
 Social media
-- - ------------
+============
 
 Google+: https://plus.google.com/113787158024729598288/
 Twitter: https://twitter.com/Mkaysi
@@ -27,12 +27,13 @@ LastFM: http://www.last.fm/user/Mkaysi
 YouTube: https://www.youtube.com/user/Mkaysi1
 
 Instant messaging etc.
-- - ----------------------
+======================
 
 Skype: Mkaysi1
 freenode (IRC): Mkaysi
 Windows LIVE: https://profile.live.com/P.mvc#!/cid-40502dd7058f4dc3
 
+My homepage: http://mkaysi.github.com/ ( mirror #1: http://cadoth.net/~mkaysi )
 This list: http://mkaysi.github.com/socialmedia.txt
 
 -----BEGIN PGP SIGNATURE-----
@@ -45,17 +46,17 @@ Comment: ...so signature *IS* long. See http://git.io/6FLzWg
 Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
 Comment: Charset of this message should be UTF-8.
 
-iQIcBAEBCgAGBQJQeWqrAAoJEE21PP6CpGco/hwQAKzRMyOW0ZShUXJG4SMYvnz4
-KVnHe0UXMcm47wTbCoWv1Vhx7/01Um/vLohRNg3uvfVNI27Clxdl0HVFKLWwdQea
-kn/2zAiwWkds5sR4/BYRSOolRYcUTlyHvYUZxWmuMWzPC2Kzs9E3ZPlYSwgRD0yT
-RVDxIuHIZDBGdgQE7eMu10330FHRL9iPdb7zqsJ4CZEoi4ZN9KzD17lrjFrQmSfn
-WB43WQqMghpgQibmS2arioqLs0YbosYnrek087IR9AMrK+tLWKPH1BqTBERqxvoq
-MQ5LU/iF4S3JeN1JhF72VI3R5TpOpzZooP16QHQcZJqzLNQkvCJY7GIFfa+AaCz6
-7vEn8hsxTSJg29QBFLHnaGUOt7LePIkPA5oz/aXENnqPRi/JY3sZXRZ3f7tu69tq
-fFuQBJWJu6FcxWQ6K1MM6pGDyok7O1KzqlQZpwmMDOX9VpZjOjdevTe9dzyQ4GmB
-7HDv0+IYcgMRPL5y0hNbsa4uxWG3j3JFeNNi3J+k5cqb/XYizwQ5kGTE96Tq9O67
-6z4qo9AAFLoZcbvCJAPirfJc4e14PFllSE7YZ9/RftsI28xI9iosuCOQgP6gE1TV
-e3Su/9rU8Fg6Lo5q1wGUrxsg56Ycbi6WJClHmnKAsnaCgndxDoluCqh+4VCIllg6
-g/dARdnY9n4xrbdT4jNb
-=5iCV
+iQIcBAEBCgAGBQJQeWx0AAoJEE21PP6CpGcojJsQAKpZ9uz8oCAE7UNzbxT3wVbX
+9HSR+zsgL0mZTkgYI9dYnrOovor4uG0nPRCE9FV9ApLpYsbA4HzXudf/u6je7IeI
+dl3ugNV+0v4CSrMPLZWXN4UiUC7iD+kwzSnG9MvdNdzjzmVc7CaWmu4iEPXLDcKc
+b5O8iPrXuS78MizvNMQEf0+t1wc78dFGXSUP/0sapcv9sLyiOMmPlfb9KdcEA7Hf
++/wJSnQVq591kVKqSV3bQVFM/TJO6iodGyA/He+bBaLu9j4I9MfiIfC3wFDdwOUg
+B5QIx+GC8XiJ+RjOYhv5ya19afWQU5E8qwOG2qfTiaxn3PKaIVRot1tbtQlwwJvo
+WOJZWeYbLzJSTD0zpBHO6hF7Kd0aYBKp41UOLftDzhCobq0ZJSN7fv+QijMI2fxS
+8U91dsiCSRuYR1qAGRD0Tp7aUuYgDSMbNLsGVefKM/CgZmCUtdUvtwuCOmjLN6lG
+ou2OTN9UDq0hpIwDChXyt8l07yf1ZJeSf/xi38XiXrCTvv2hRSnD2ts1Z+z5NCny
+Tdl4bNK65Ps8fdVCCEqCQfR1jfbMyYNKskcjaabDBuWzn7FezqWKO0fZDtrAp4Dj
+SJ8b1FQ/FaMctIAGkkcJVWQRtvZ+MLkX7F9Dq5Dc4hsBCqHCS8cLTZVSmvDNhlt6
+udsrLVjU/PPjChFTMwkD
+=iPZp
 -----END PGP SIGNATURE-----
