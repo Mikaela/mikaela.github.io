@@ -53,7 +53,7 @@ I will list them in them in table below
 	<tr>
 		<td>[WiFi Fixer] crashes when it's started</td>
 		<td>Yes</td>
-		<td>Probably (it's at least in Google Play)</td>
+		<td>Yes</td>
 		<td><a href="https://github.com/Zanshinmu/Wifi-Fixer/issues/11" >Gives "force close" messages on Impression I10 tablet. · Issue #11 · Zanshinmu/Wifi-Fixer</a></td>
 		<td><center><em>"The crash is caused by a framework method that should  be there in Android
 2.3.x not existing.</em>"</center></td>
@@ -82,8 +82,9 @@ I will list them in them in table below
 	</tr>
 	<tr>
 		<td>[Android Terminal Emulator] crashes when started</td>
-		<td><center>?</td>
-		<td><center>?</center></td>
+		<td><center>"<em>Going to close as a device bug that we aren't going to work around.
+</em>"</td>
+		<td><center>-</center></td>
 		<td><a href="https://github.com/jackpal/Android-Terminal-Emulator/issues/162" >Crashes immediately after started on ImpressionI10. · Issue #162 · jackpal/Android-Terminal-Emulator</a></td>
 		<td><center>"<em>Assuming your ROM reports that it's API 9 (Android 2.3) or later, it's broken -- java.io.File.canExecute() is documented as being available in API 9 and up.</em>"</center></td>
 	</tr>
