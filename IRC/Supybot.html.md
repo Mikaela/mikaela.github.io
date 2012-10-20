@@ -86,6 +86,13 @@ There are also two active Supybot forks, known as [Limnoria] and [Gribble], whic
 
 I recommend [Limnoria], because it seems to be more active (activity of [Gribble] isn't announced anywhere) and it has additional commands, translations and new plugin called [PluginDownloader], which makes installing of 3rd party plugins easy.
 
+<strong>If you use Debian/Ubuntu or any Debian based distribution, you can get [stable version of Limnoria here] or [testing version here].</strong>
+
+The links above should always be the latest version of Limnoria and they are updated daily.
+
+[stable version of Limnoria]:http://compiler.progval.net/limnoria-master-HEAD.deb
+[testing version here]:http://compiler.progval.net/limnoria-testing-HEAD.deb
+
 [Gribble modifications when compared to Supybot.]	
 
 [Limnoria modifications when compared to Gribble.] Features of Gribble have been fully merged to Limnoria.
