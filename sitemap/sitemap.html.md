@@ -76,10 +76,17 @@ Complaining about some things.
 [GPG]:../articles/guides/GPG/GPG.html
 [Enigmail]:../articles/guides/GPG/Enigmail.html
 
+## /IRC/
+
+[Web interface of my bot]
+
+[Security issues of stock Supybot]
+
+[Web interface of my bot]:../IRC/OtusBot.html
+[Security issues of stock Supybot]:../IRC/Supybot.html
+
 <strong>EVERYTHING BELOW THIS LINE IS UNDER CONSTRUCTION!</strong>
 <hr/>
-
-## /IRC/
 
 ## /PGP/
 
