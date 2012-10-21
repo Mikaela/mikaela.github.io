@@ -12,6 +12,7 @@
 <body>
 <hr/>
 [Sitemap](../../sitemap/sitemap.html)
+<hr/>
 
 # What is what in MATE and GNOME.
 

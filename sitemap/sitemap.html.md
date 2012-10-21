@@ -54,10 +54,21 @@ Complaining about some things.
 
 [Topposting in emails]:../articles/complaining/topposting.html
 
+### /articles/guides/
+
+<strong>WARNING: These guides are very unclear and I should use time to make them understandable etc.</strong>
+
+[GNOME to MATE]
+
+[Thunderbird / Icedove]
+
+[GNOME to MATE]:../articles/guides/GnomeToMATE.html
+[Thunderbird / Icedove]:../articles/guides/Thunderbird-Icedove.html
+
 <strong>EVERYTHING BELOW THIS LINE IS UNDER CONSTRUCTION!</strong>
 <hr/>
 
-### /articles/guides/
+#### /GPG/
 
 ## /IRC/
 
