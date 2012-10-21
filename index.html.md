@@ -36,15 +36,5 @@ My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE
 [0x4DB53CFE82A46728]:PGP/0x82A46728.txt
 
 <hr/>
-<p>
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-</a>
-</p>
-<hr/>
-
-
 </body>
 </HTML>
