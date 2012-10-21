@@ -21,13 +21,13 @@ This should be somekind of description about me, but I don't know what to type h
 
 <a href="https://plus.google.com/113787158024729598288/posts" >Mika Suomalainen @ Google+</a> || <a href="https://twitter.com/Mkaysi" >Mkaysi @ Twitter</a> || <a href="https://identi.ca/mkaysi" >Mkaysi @ Identi.ca</a> || <a href="https://www.facebook.com/mika.suomalainen" >Mika Suomalainen @ Facebook</a> || <a href="http://www.last.fm/user/Mkaysi" >Mkaysi @ last.fm</a> || <a href="https://www.youtube.com/user/Mkaysi1" >Mika Suomalainen @ YouTube</a>
 
+[PGP signed version of accounts above](socialmedia.txt)
+
 ## This site
 
 This site is a little messy and it probably should have been made with something else than plain HTML and markdown since the beginning. I should probably learn PHP and move this away from [GH pages] which doesn't allow PHP.
 
 [GH pages]:http://pages.github.com/
-
-[PGP signed version of accounts above](socialmedia.txt)
 
 <hr/>
 
