@@ -1,8 +1,13 @@
 body {
-    color:  black;
-    background-color: silver;
+    color:  lightblue;
+    background-color: black;
     font-family: "DejaVu Sans", Ubuntu, Arial, Arial, Helvetica, sans-serif;
 }
 
-a:link { color: blue }
-a:visited { color: purple }
+a:link { 
+    color: red
+}
+
+a:visited {
+    color: pink
+}
