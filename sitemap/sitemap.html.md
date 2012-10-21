@@ -50,7 +50,7 @@ Complaining about some things.
 
 [HTML in emails]:../articles/complaining/HTML.html
 
-[Impression I10 tablet]:../articles/complaining/ImpresionI10.html
+[Impression I10 tablet]:../articles/complaining/ImpressionI10.html
 
 [Topposting in emails]:../articles/complaining/topposting.html
 

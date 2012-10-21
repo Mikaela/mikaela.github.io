@@ -5,15 +5,13 @@
 <meta name="keywords" content="Impression,I10,bugs,problems,issues," />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
-<link rel="canonical" href="http://cadoth.net/~mkaysi/articles/complaining/ImpressionI10.html">
+<link rel="canonical" href="http://mkaysi.github.com/articles/complaining/ImpressionI10.html">
 <title>Impression I10</title>
 <link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
 <body>
 <hr/>
-<text align=left><a href="../../index.html"><-- Index</a></text align>
-<text align=center>Impression I10</text align>
-<text align=right><a href="../../sitemap/sitemap.html">Sitemap --></a></text align>
+[Sitemap](../../sitemap/sitemap.html)
 <hr/>
 
 <table style="width:194px;"><tr><td align="center" style="height:194px;background:url(https://picasaweb.google.com/s/c/transparent_album_background.gif) no-repeat left"><a href="https://picasaweb.google.com/113787158024729598288/ImpressionI10?authuser=0&feat=embedwebsite"><img src="https://lh5.googleusercontent.com/-hObrpRJKAbk/UGq9u9iYYzE/AAAAAAAABNI/tl9JR-zlGxI/s160-c/ImpressionI10.jpg" width="160" height="160" style="margin:1px 0 0 4px;"></a></td></tr><tr><td style="text-align:center;font-family:arial,sans-serif;font-size:11px"><a href="https://picasaweb.google.com/113787158024729598288/ImpressionI10?authuser=0&feat=embedwebsite" style="color:#4D4D4D;font-weight:bold;text-decoration:none;">Impression I10</a></td></tr></table>

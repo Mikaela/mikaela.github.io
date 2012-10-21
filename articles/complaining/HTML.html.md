@@ -9,7 +9,10 @@
 <title>HTML in emails is annoying</title>
 <link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
-
+<body>
+<hr/>
+[Sitemap](../../sitemap/sitemap.html)
+<hr/>
 
 Using HTML in emails.
 =====================
@@ -44,6 +47,5 @@ But I use webmail, I cannot send plaintext!
 
 Are you sure? [Debian wiki, which was mentioned eaerier](https://wiki.debian.org/DebianMailingLists#HowTo_send_plain_text_emails_to_the_list) also includes instructions for many webmails about writing in plaintext.
 
-<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://mkaysi.github.com/', 'user' : 1040881, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-02', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/bd3fe1f1"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/mkaysi.github.com--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
-
+</body>
 </HTML>
