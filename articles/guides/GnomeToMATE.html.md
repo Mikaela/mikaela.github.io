@@ -9,6 +9,9 @@
 <title>Moving from GNOME to MATE</title>
 <link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
+<body>
+<hr/>
+[Sitemap](../../sitemap/sitemap.html)
 
 # What is what in MATE and GNOME.
 
@@ -85,3 +88,6 @@ as root.
 Own experience with Linux since 2008.
 
 [MATE applicaltions]:http://mate-desktop.org/applications/
+
+</body>
+</html>
