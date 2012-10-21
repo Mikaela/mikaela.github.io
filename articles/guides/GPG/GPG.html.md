@@ -9,6 +9,10 @@
 <link rel="stylesheet" type="text/css" href="../../../tyyli.css" />
 <title>GPG guide</title>
 </head>
+<body>
+<hr/>
+[Sitemap](../../../sitemap/sitemap.html
+<hr/>
 
 # Quick GPG guide
 
@@ -475,8 +479,5 @@ My [Icedove / Thunderbird guide] and [Enigmail guide].
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">GPG guide</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://mkaysi.github.com/articles/guides/GPG/GPG.html" property="cc:attributionName" rel="cc:attributionURL">Mika Suomalainen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 
-## Questions and asnwers
-
-### How do I ask question?
-
-Just email me, the addresses can be found from my GPG key, which has been mentioned on this page some times. Please cleasign your question, so I won't get power to fake it, and please don't use HTML.
+</body>
+</html>

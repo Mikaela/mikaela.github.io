@@ -9,6 +9,10 @@
 <title>Enigmail guide</title>
 <link rel="stylesheet" type="text/css" href="../../../tyyli.css" />
 </head>
+<body>
+<hr/>
+[Sitemap]:../../../sitemap/sitemap.html
+<hr/>
 
 # Quick Enigmail guide.
 
@@ -120,3 +124,6 @@ OpenPGP: id=82A46728;
 ```
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Enigmail guide</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://mkaysi.github.com/articles/guides/GPG/Enigmail.html" rel="dct:source">mkaysi.github.com</a>.
+
+</body>
+</html>
