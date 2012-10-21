@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="description" content="Index of my homesite." />
-<meta name="keywords" content="keywords,will,be,added,here,later" />
+<meta name="keywords" content="about,me,Mkaysi,Mika,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube," />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/index.html">
