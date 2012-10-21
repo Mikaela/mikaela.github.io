@@ -65,10 +65,19 @@ Complaining about some things.
 [GNOME to MATE]:../articles/guides/GnomeToMATE.html
 [Thunderbird / Icedove]:../articles/guides/Thunderbird-Icedove.html
 
+#### /GPG/
+
+<strong> WARNING: These guides are even more unclear than those one folder down!</strong>
+
+[GPG]
+
+[Enigmail]
+
+[GPG]:../articles/guides/GPG/GPG.html
+[Enigmail]:../articles/guides/GPG/Enigmail.html
+
 <strong>EVERYTHING BELOW THIS LINE IS UNDER CONSTRUCTION!</strong>
 <hr/>
-
-#### /GPG/
 
 ## /IRC/
 
