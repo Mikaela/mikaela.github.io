@@ -42,7 +42,6 @@ My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
         alt="Valid CSS!" />
 </a>
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Mkaysi's homepage</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://mkaysi.github.com/" property="cc:attributionName" rel="cc:attributionURL">Mika Suomalainen (Mkaysi)</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 </p>
 <hr/>
 
