@@ -23,16 +23,29 @@ This should be somekind of description about me, but I don't know what to type h
 
 ## This site
 
-This site is a little messy and it probably should have been made with something else than plain HTML and markdown since the beginning. I should probably learn PHP and move this away from [GH pages] which don't allow PHP.
+This site is a little messy and it probably should have been made with something else than plain HTML and markdown since the beginning. I should probably learn PHP and move this away from [GH pages] which doesn't allow PHP.
+
+[GH pages]:http://pages.github.com/
 
 [PGP signed version of accounts above](socialmedia.txt)
 
 <hr/>
+
 My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728</strong>
+
+[0x4DB53CFE82A46728]:PGP/0x82A46728.txt
+
+<hr/>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</a>
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Mkaysi's homepage</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://mkaysi.github.com/" property="cc:attributionName" rel="cc:attributionURL">Mika Suomalainen (Mkaysi)</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</p>
 <hr/>
 
-[GH pages]:http://pages.github.com/
-[0x4DB53CFE82A46728]:PGP/0x82A46728.txt
 
 </body>
 </HTML>
