@@ -11,9 +11,7 @@
 </head>
 <body>
 <hr/>
-<text align=left><a href="../index.html"><-- Index</a></text align>
-<text align=center></text align>
-<text align=left>Sitemap</text align>
+[Index](../index.html)
 <hr/>
 
 # Sitemap
