@@ -7,6 +7,13 @@
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
 <body>
+<hr/>
+[Sitemap](../sitemap/sitemap.html)
+<hr/>
+
 <strong>You are being redirected to the web interface of [OtusBot]...</strong></body>
 
 [OtusBot]:http://cadoth.net:5995/
+
+</body>
+</html>

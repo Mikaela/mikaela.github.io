@@ -9,6 +9,10 @@
 <title>Security issues of Supybot</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
+<body>
+<hr/>
+[Sitemap](../sitemap/sitemap.html)
+<hr/>
 
 <em>If you are looking for web interface of my bot (known as Supybot on freenode), click [here.]</em>
 
