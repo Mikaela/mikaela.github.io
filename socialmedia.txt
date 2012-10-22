@@ -1,43 +1,6 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
-My accounts around the Internet
-===============================
-
-To check that this file hasn't been modified after I signed it, run
-
-curl -L http://mkaysi.github.com/socialmedia.txt|gpg --verify
-
-It requires cURL and GnuPG to be installed (Debian/Ubuntu packages: curl gnupg)
-
-Git etc.
-========
-
-GitHub: https://github.com/Mkaysi
-Gitorious: https://gitorious.org/~mkaysi
-
-Social media
-============
-
-Google+: https://plus.google.com/113787158024729598288/
-Twitter: https://twitter.com/Mkaysi
-Identica/Statusnet: https://identi.ca/mkaysi
-Facebook: https://www.facebook.com/mika.suomalainen
-LastFM: http://www.last.fm/user/Mkaysi
-YouTube: https://www.youtube.com/user/Mkaysi1
-
-Instant messaging etc.
-======================
-
-Skype: Mkaysi1
-freenode (IRC): Mkaysi
-Windows LIVE: https://profile.live.com/P.mvc#!/cid-40502dd7058f4dc3
-
-My homepage: http://mkaysi.github.com/ ( mirror #1: http://cadoth.net/~mkaysi )
-This list: http://mkaysi.github.com/socialmedia.txt
-
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.19 (GNU/Linux)
+Comment: Homepage: http://mkaysi.github.com/
 Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
 Comment: gpg --fetch-keys http://mkaysi.github.com/PGP/0x82A46728.txt
 Comment: Fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
@@ -46,17 +9,17 @@ Comment: ...so signature *IS* long. See http://git.io/6FLzWg
 Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
 Comment: Charset of this message should be UTF-8.
 
-iQIcBAEBCgAGBQJQeWx0AAoJEE21PP6CpGcojJsQAKpZ9uz8oCAE7UNzbxT3wVbX
-9HSR+zsgL0mZTkgYI9dYnrOovor4uG0nPRCE9FV9ApLpYsbA4HzXudf/u6je7IeI
-dl3ugNV+0v4CSrMPLZWXN4UiUC7iD+kwzSnG9MvdNdzjzmVc7CaWmu4iEPXLDcKc
-b5O8iPrXuS78MizvNMQEf0+t1wc78dFGXSUP/0sapcv9sLyiOMmPlfb9KdcEA7Hf
-+/wJSnQVq591kVKqSV3bQVFM/TJO6iodGyA/He+bBaLu9j4I9MfiIfC3wFDdwOUg
-B5QIx+GC8XiJ+RjOYhv5ya19afWQU5E8qwOG2qfTiaxn3PKaIVRot1tbtQlwwJvo
-WOJZWeYbLzJSTD0zpBHO6hF7Kd0aYBKp41UOLftDzhCobq0ZJSN7fv+QijMI2fxS
-8U91dsiCSRuYR1qAGRD0Tp7aUuYgDSMbNLsGVefKM/CgZmCUtdUvtwuCOmjLN6lG
-ou2OTN9UDq0hpIwDChXyt8l07yf1ZJeSf/xi38XiXrCTvv2hRSnD2ts1Z+z5NCny
-Tdl4bNK65Ps8fdVCCEqCQfR1jfbMyYNKskcjaabDBuWzn7FezqWKO0fZDtrAp4Dj
-SJ8b1FQ/FaMctIAGkkcJVWQRtvZ+MLkX7F9Dq5Dc4hsBCqHCS8cLTZVSmvDNhlt6
-udsrLVjU/PPjChFTMwkD
-=iPZp
+iQIcBAABCgAGBQJQhX1SAAoJEE21PP6CpGcooVsP/2YRNLreuEvIwPLjW0eqNZfg
+bbNXgGwp+Dz4OSeW82ttF6awDO2/1d/t4ytfwxoIbe9NrjRNl97bjrkr33tRXLRj
+MMRYxaVJl10H3pcPW8sriCaZBuuXTxR0B+PxlrjaHfx1HV1FFSZTZdahwHRDABOB
+o5TDfW809ZVqE24kVwU1ZuUBAFWTo6n7zWZpymix+I5IunJNZFKfR1sKFR76o2N2
+Aak/CkdJ/U4SSpKgCsFY4tZEBS2DNVE5/1XK+zXs90gr1hlN42Wf1fAxuF3LORtU
+aSjqEly/s3pN79HWKO3TkNs8Rdv3pKk1pNU+Ikeh23y4JIYdlFojIZdkYyWEJAR4
+GLe/t92ipapEcQ/SkgPcnccKwn0VZ2pjSIZNFd7S+V5fDO3g7+cqoqkzlXY1BsFZ
+eA64nmPo7oE3XF7UwtqdahF7tMBgeS5IDz2Q7yGmCTpQvRWEXSGqIwUjHQMvhrOe
+6WKvpNJzOgWLW59OdI6KJYQlfEaPlBBbMMCvJxS0kVoa1RLTmT13I35tQ5EOF6xU
+dSLQEdTR9a80LWy/fctfYuh8KAtq2CgNFL8FKdUWByp4SYDXKrMseClwha+9i/M6
+6pZsOkrgsIHC3ppaUgtG3v22gl3JizdYbN6MjCZhSSC+6Z6fycagPFfm+gcDyQUJ
+x9ow0f8ujsy2xXRCEdNX
+=v8k1
 -----END PGP SIGNATURE-----
