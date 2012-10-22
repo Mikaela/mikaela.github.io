@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="description" content="Index of my homesite." />
+<meta name="description" content="A little information about me." />
 <meta name="keywords" content="about,me,Mkaysi,Mika,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube," />
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
@@ -15,17 +15,21 @@
 
 # About me
 
-This should be somekind of description about me, but I don't know what to type here, so currently it contains nothing.
+<em>17, Linux user since 2008, currently using [Debian] Sid & [Kubuntu] Precise, interested in computers and some kind of Finnish translator.</em>
+
+<!-- Now it's somewhere where I can copy-paste it easily to social media services :D -->
+
+I am seventeen years old, even though people often think that I am older. I started using Linux in 2008 and the distribution was [Ubuntu] 8.04 Hardy Heron. I am currently using [Debian] Sid (unstable) and [Kubuntu] 12.04 Precise Pangolin. I am interested in computers and I am some kind of Finnish translator.
+
+[Debian]:http://www.debian.org/
+[Kubuntu]:http://www.kubuntu.org/
+[Ubuntu]:http://www.ubuntu.com/
 
 <a href="https://github.com/Mkaysi" >Mkaysi @ GitHub</a> || <a href="https://gitorious.org/~mkaysi" >Mkaysi @ Gitorious</a>
 
 <a href="https://plus.google.com/113787158024729598288/posts" >Mika Suomalainen @ Google+</a> || <a href="https://twitter.com/Mkaysi" >Mkaysi @ Twitter</a> || <a href="https://identi.ca/mkaysi" >Mkaysi @ Identi.ca</a> || <a href="https://www.facebook.com/mika.suomalainen" >Mika Suomalainen @ Facebook</a> || <a href="http://www.last.fm/user/Mkaysi" >Mkaysi @ last.fm</a> || <a href="https://www.youtube.com/user/Mkaysi1" >Mika Suomalainen @ YouTube</a>
 
 [PGP signed version of accounts above](socialmedia.txt)
-
-## This site
-
-This site is a little messy and it probably should have been made with something else than plain HTML and markdown since the beginning. I should probably learn PHP and move this away from [GH pages] which doesn't allow PHP.
 
 [GH pages]:http://pages.github.com/
 
@@ -35,6 +39,15 @@ My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE
 
 [0x4DB53CFE82A46728]:PGP/0x82A46728.txt
 
+<hr/>
+<p>
+[This page is valid HTML5!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F)
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</a>
+</p>
 <hr/>
 </body>
 </HTML>
