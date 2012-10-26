@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 My accounts around the Internet
 ===============================
 
@@ -43,3 +46,28 @@ Miscellaneous
 GoodReads: http://www.goodreads.com/user/show/11147845-mika-suomalainen
 My homepage: http://mkaysi.github.com/ ( mirror #1: http://cadoth.net/~mkaysi )
 This list: http://mkaysi.github.com/socialmedia.txt
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+Comment: Homepage: http://mkaysi.github.com/
+Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
+Comment: gpg --fetch-keys http://mkaysi.github.com/PGP/0x82A46728.txt
+Comment: Fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
+Comment: I have personal problem with PGP/MIME...
+Comment: ...so signature *IS* long. See http://git.io/6FLzWg
+Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
+Comment: Charset of this message should be UTF-8.
+
+iQIcBAEBCgAGBQJQikAnAAoJEE21PP6CpGcoIGYP/16NzAXdCvjPSuhlaILLAyZa
+G29l0VZgxFWZYSJcoT3QQcLEDywvc0r/tyBm6OCWE9O9pf5sU6qfBskiHQoDosGJ
+/OZCx0sQ6/ywVrYiA3duvJiocDRiCWzX7p2aZmF8Umw8ATn7p6dA5epRvqaiXp5J
+tX10d1pJfLpQAEILKle0pDxCoD5t7ZrjGs2vi2CviZQxZxpWkDN724sP0rlqckAS
+KQhZAVzV+RwFWPpAylxR4hpYx/jJt9pxOrxEfPjRJ8OT1ANNmhxSDHxxdHNtdYj1
+9R0S3Hpm3qvlQI/qlfl6ETNb/ZsT1Pq/iFmaFVNUYEXvJrQnuuN0dPhowfGRoCKc
+a3b4efqPyI0rBfphSZbLQAZArO5q4zE7QcWfA4/OMxnnzUkqHA9Bz6mxnHi1QvAa
+WiqY2csEumcefbFSiovu2vWX7GSpLS28cwCIEEK2T0tfH1i8CeabsDJIKyboulEM
+fWgg2G5/Ams/kUR8ze8mCFkyeslN+NpGykWzM0zqTzmJ7S7And/fIGnQqou164di
+F786N2uwqYcpX+RCKDHTLAL7cCPIUpUUorbtofnIQlPJb2IgUA0UgSoKCzrNiH/h
+E77hFkOaN2L8PWZ1aA4ShM2ETFH0utj/5Hdtrjj0QjMRqIn3QT/kEbSY3z41Wki1
+JDf78J6PlWX4MAdEzUAc
+=FLs3
+-----END PGP SIGNATURE-----
