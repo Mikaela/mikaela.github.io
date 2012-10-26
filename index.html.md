@@ -29,7 +29,7 @@ I am seventeen years old, even though people often think that I am older. I star
 
 <a href="https://plus.google.com/113787158024729598288/posts" >Mika Suomalainen @ Google+</a> || <a href="https://twitter.com/Mkaysi" >Mkaysi @ Twitter</a> || <a href="https://identi.ca/mkaysi" >Mkaysi @ Identi.ca</a> || <a href="https://www.facebook.com/mika.suomalainen" >Mika Suomalainen @ Facebook</a> || <a href="http://www.last.fm/user/Mkaysi" >Mkaysi @ last.fm</a> || <a href="https://www.youtube.com/user/Mkaysi1" >Mika Suomalainen @ YouTube</a>
 
-<a href="http://db.tt/y7fPYse" >Dropbox invite (+500mb free space to me and people who register using this link)</a> || <a href="https://one.ubuntu.com/referrals/referee/386817/" >Ubuntu One invite (+500mb free space to me and people who register using this link)</a>
+<a href="http://db.tt/y7fPYse" >Dropbox invite (+500mb free space to me and people who register using this link)</a> || <a href="https://one.ubuntu.com/referrals/referee/386817/" >Ubuntu One invite (+500mb free space to me and people who register using this link)</a> || <a href="http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF" > Wuala invite (+250Mt free space to me and people who register using this link)</a>
 
 [PGP signed version of accounts above](socialmedia.txt)
 
