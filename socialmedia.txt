@@ -15,6 +15,7 @@ Git etc.
 
 GitHub: https://github.com/Mkaysi
 Gitorious: https://gitorious.org/~mkaysi
+Launchpad: https://launchpad.net/~mkaysi
 
 Social media
 ============
@@ -47,7 +48,7 @@ GoodReads: http://www.goodreads.com/user/show/11147845-mika-suomalainen
 My homepage: http://mkaysi.github.com/ ( mirror #1: http://cadoth.net/~mkaysi )
 This list: http://mkaysi.github.com/socialmedia.txt
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
+Version: GnuPG v2.0.19 (GNU/Linux)
 Comment: Homepage: http://mkaysi.github.com/
 Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
 Comment: gpg --fetch-keys http://mkaysi.github.com/PGP/0x82A46728.txt
@@ -57,17 +58,17 @@ Comment: ...so signature *IS* long. See http://git.io/6FLzWg
 Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
 Comment: Charset of this message should be UTF-8.
 
-iQIcBAEBCgAGBQJQikAnAAoJEE21PP6CpGcoIGYP/16NzAXdCvjPSuhlaILLAyZa
-G29l0VZgxFWZYSJcoT3QQcLEDywvc0r/tyBm6OCWE9O9pf5sU6qfBskiHQoDosGJ
-/OZCx0sQ6/ywVrYiA3duvJiocDRiCWzX7p2aZmF8Umw8ATn7p6dA5epRvqaiXp5J
-tX10d1pJfLpQAEILKle0pDxCoD5t7ZrjGs2vi2CviZQxZxpWkDN724sP0rlqckAS
-KQhZAVzV+RwFWPpAylxR4hpYx/jJt9pxOrxEfPjRJ8OT1ANNmhxSDHxxdHNtdYj1
-9R0S3Hpm3qvlQI/qlfl6ETNb/ZsT1Pq/iFmaFVNUYEXvJrQnuuN0dPhowfGRoCKc
-a3b4efqPyI0rBfphSZbLQAZArO5q4zE7QcWfA4/OMxnnzUkqHA9Bz6mxnHi1QvAa
-WiqY2csEumcefbFSiovu2vWX7GSpLS28cwCIEEK2T0tfH1i8CeabsDJIKyboulEM
-fWgg2G5/Ams/kUR8ze8mCFkyeslN+NpGykWzM0zqTzmJ7S7And/fIGnQqou164di
-F786N2uwqYcpX+RCKDHTLAL7cCPIUpUUorbtofnIQlPJb2IgUA0UgSoKCzrNiH/h
-E77hFkOaN2L8PWZ1aA4ShM2ETFH0utj/5Hdtrjj0QjMRqIn3QT/kEbSY3z41Wki1
-JDf78J6PlWX4MAdEzUAc
-=FLs3
+iQIcBAEBCgAGBQJQj/ioAAoJEE21PP6CpGcoHtUP/j8ogP3/w8K3/NOfEebG7xuA
+MEKntRr+2O9hPKCI3KnHUiGMUBQyBZlSxkZdDCBZ4VJLt9Xr8gLVt+XJpMrqzTJR
+yVH2dr5zuNaLcfHjzavNxbS8Zo0PS8h7qrj3Wt2zL6xeu19JNemCqFSY3oLG4CEy
+Up4c0MuH8WImPEm7KJXvCwqOvwrWmD3xrCmZMsTnk7ZZVJ9uu+92ukNg8RGwaUlG
+40y/3RYTgtfgvMkMNsF0/Gxf8Bi7IFDiy09+3/wa5Y+gasfH6IZfCfXZ+yux5ekl
+W+B3ZDPvXaGQvbl+mix+df+yAS9b9E2gNGGch69NHJNUed4T4s4OsvAhpje/sZVd
+IOJCsRHIGKwcAZAA941ziCsDs8Enx2v/42Zitm+94yaNL4bITrY9aKKKJRYOsNdK
+0IIDiN7QzCJNcqiPv6IVgiBJ4cQoMa6l6I5XcJnxGbGh3DIEYXVLZk4mO+p2ploR
+l+tNK0JKW56V8UYULm4LGMKAj4FPykFI8DokevHKGWuogCyGcNsTIalPMevjkq+/
+B/NB8J3BjBZ9Pbbfnq0mvqPOCu/JK167K1lX5Opc+CoJJ+/bAUhjsvrAL5nQ3NHi
+SS8AMVof7Z66G9/KztXh0zUc2Zwgu0gPBHvHx1TAO4tdyXfknJ18acQ2pddyPfbV
+aIE9r3kBR5Y89cZRU7vT
+=5KZR
 -----END PGP SIGNATURE-----
