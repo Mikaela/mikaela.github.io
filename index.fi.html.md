@@ -10,16 +10,17 @@
 <link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
 <hr/>
-[Sitemap](sitemap/sitemap.html)
+[Sivukartta](sitemap/sitemap.fi.html)
 <hr/>
 
 # Minusta
 
-<em>17, Linux user since 2008, currently using [Debian] Sid & [Kubuntu] Precise, interested in computers and some kind of Finnish translator.</em>
+<em>17, Linux-käyttäjä vuodesta 2008, käyttää tällä hetkellä [Debian] Sidiä & [Kubuntu] Preciseä, kiinnostunut tietokoneista ja jonkinlainen suomeksi kääntäjä.</em>
 
-<!-- Now it's somewhere where I can copy-paste it easily to social media services :D -->
+<!-- Nyt se on jossakin, josta voin kopioida sen sosiaalisiin medioihin :D -->
+<!-- Miksi minä suomennan myös kommentteja? -->
 
-I am seventeen years old, even though people often think that I am older. I started using Linux in 2008 and the distribution was [Ubuntu] 8.04 Hardy Heron. I am currently using [Debian] Sid (unstable) and [Kubuntu] 12.04 Precise Pangolin. I am interested in computers and I am some kind of Finnish translator.
+Olen seitsemäntoista-vuotias, vaikka ihmiset luulevat usein, että olen vanhempi. Aloitin Linuxin käytön vuonna 2008 ja jekelu, jota käytin oli [Ubuntu] 8.04 Hardy Heron. Käytän tällä hetkellä [Debian] Sidiä (epävakaa) ja [Kubuntu] 12.04 Precise Pangolinia. Olen kiinnostunut tietokoneista ja olen myös jonkinlainen suomeksi kääntäjä.
 
 [Debian]:http://www.debian.org/
 [Kubuntu]:http://www.kubuntu.org/
@@ -29,22 +30,20 @@ I am seventeen years old, even though people often think that I am older. I star
 
 <a href="https://plus.google.com/113787158024729598288/posts" >Mika Suomalainen @ Google+</a> || <a href="https://twitter.com/Mkaysi" >Mkaysi @ Twitter</a> || <a href="https://identi.ca/mkaysi" >Mkaysi @ Identi.ca</a> || <a href="https://www.facebook.com/mika.suomalainen" >Mika Suomalainen @ Facebook</a> || <a href="http://www.last.fm/user/Mkaysi" >Mkaysi @ last.fm</a> || <a href="https://www.youtube.com/user/Mkaysi1" >Mika Suomalainen @ YouTube</a>
 
-<a href="http://db.tt/y7fPYse" >+500mb free space for new Dropbox users</a> || <a href="https://one.ubuntu.com/referrals/referee/386817/" >+500mb free space for new Ubuntu One users</a> || <a href="http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF" > +1Gb free space for new Wuala users </a>
+<a href="http://db.tt/y7fPYse" >+500mb ilmaista tilaa uusille Dropnox-käyttäjille</a> || <a href="https://one.ubuntu.com/referrals/referee/386817/" >+500mb ilmaista tilaa uusille Ubuntu One-käyttäjille</a> || <a href="http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF" > +1Gb ilmaista tilaa uusille Wuala-käyttäjille</a>
 
-[PGP signed version of accounts above](socialmedia.txt)
-
-[GH pages]:http://pages.github.com/
+[PGP-allekirjoitettu lista ylläolevista tunnuksista](socialmedia.txt)
 
 <hr/>
 
-My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728</strong>
+PGP-avaimeni on [0x4DB53CFE82A46728] ja sen sormenjälki on <strong>24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728</strong>
 
 [0x4DB53CFE82A46728]:PGP/0x82A46728.txt
 
 <hr/>
 <p>
-[Valid HTML5!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F)
-[Valid CSS!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=)
+[Kelvollista HTML5:ttä!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F)
+[Kelvollista CSS:ää!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=)
 </a>
 </p>
 <hr/>
