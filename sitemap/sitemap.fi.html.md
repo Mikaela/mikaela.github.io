@@ -6,7 +6,7 @@
 <meta name="author" content="Mika Suomalainen" />
 <meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/sitemap/sitemap.fi.html">
-<title>Sitemap</title>
+<title>Sivukartta</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
 <body>
