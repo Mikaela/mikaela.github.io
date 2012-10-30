@@ -43,7 +43,7 @@ My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE
 
 <hr/>
 <p>
-[This page is valid HTML5!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F)
+[Valid HTML5!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F)
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
