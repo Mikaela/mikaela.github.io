@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="refresh" content="60" />
+<!-- <meta http-equiv="refresh" content="60" /> -->
 <meta name="description" content="Insert description here" />
 <meta name="keywords" content="Insert,keywords,here" />
 <meta name="author" content="Mika Suomalainen" />
@@ -12,8 +12,8 @@
 </head>
 <body>
 <hr/>
-<text align=left><a href="index.html"><-- Index</a></text align>
-<text align=center>TITLEOFTHISPAGEHERE</text align>
-<text align=left><a href="sitemap/sitemap.html">Sitemap --></a></text align>
+<a href="sitemap/sitemap.html">Sitemap --></a>
 <hr/>
-vim : set ft=html
+
+
+<!-- vim : set ft=html -->
