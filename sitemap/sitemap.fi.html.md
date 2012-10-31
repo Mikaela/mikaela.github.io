@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8" />
 <meta name="description" content="Sivukartta" />
 <meta name="keywords" content="Sivukartta" />
 <meta name="author" content="Mika Suomalainen" />
-<meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/sitemap/sitemap.fi.html">
 <title>Sivukartta</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
