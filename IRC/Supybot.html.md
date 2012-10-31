@@ -60,7 +60,7 @@ What does this mean? Anyone can tell the bot to ghost someone else on same accou
 
 ## 4. Web page with special characters in title can be used to send DCC/CTCP commands.
 
-This doesn't mean only things like CTCP actions (also known as /me), but known problems with old routers ( ) which make 
+This doesn't mean only things like CTCP actions (also known as /me), but known problems with old routers ( FF ? DCC SEND “ff???f??????????????” 0 0 0 ) which make 
 them reconnect to the internet.
 
 This is currently* fixed only in Limnoria's testing version. 
