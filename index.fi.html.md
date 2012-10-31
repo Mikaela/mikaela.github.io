@@ -1,12 +1,19 @@
 <!DOCTYPE html> 
 <html>
 <head>
+
 <meta name="description" content="Hiukan tietoa minusta ja linkkejä sosiaalisen median tunnuksiini sekä viittauslinkkejä, jotka antavat sinulle (ja minulle) enemmän tilaa (tai mitä tahansa antavatkin) eri palveluissa :)" />
+
 <meta name="keywords" content="about,me,Mkaysi,Mika,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube,Debian,Ubuntu,Linux,computers,Dropbox,Ubuntu,one,u1,Lacie,Wuala,valid,HTML5,referral,promo,code,kelvollinen,viittaus,koodi" />
+
 <meta name="author" content="Mika Suomalainen" />
+
 <meta charset="UTF-8" />
+
 <link rel="canonical" href="http://mkaysi.github.com/index.fi.html">
+
 <title>Mkaysin kotisivu</title>
+
 <link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
 <hr/>
@@ -44,7 +51,6 @@ PGP-avaimeni on [0x4DB53CFE82A46728] ja sen sormenjälki on <strong>24BC 1573 B8
 <p>
 [Kelvollista HTML5:ttä!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F)
 [Kelvollista CSS:ää!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=)
-</a>
 </p>
 <hr/>
 </body>
