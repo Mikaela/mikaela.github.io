@@ -63,9 +63,18 @@ What does this mean? Anyone can tell the bot to ghost someone else on same accou
 This doesn't mean only things like CTCP actions (also known as /me), but known problems with old routers ( FF ? DCC SEND “ff???f??????????????” 0 0 0 ) which make 
 them reconnect to the internet.
 
+Usage:
+
+```
+!web title <malicious.page.here>
+!web fetch <malicious.page.here>
+```
+
+Note that web fetch is disabled by default.
+
 This is currently* fixed only in Limnoria's testing version. 
 
-*See the changelog link at bottom. Currently means 17:43 (UTC) on 2012-10-31.
+*See the changelog link at bottom. Currently means 18:04 (UTC) on 2012-10-31.
 
 
 # Are these issues publicly known?
