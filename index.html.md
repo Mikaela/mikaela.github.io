@@ -1,22 +1,13 @@
 <!DOCTYPE html> 
-
 <html>
-
 <head>
-<meta name="description" content="A little information about me and links to my social media accounts and referral links to give you and me more space (or whatever they give) in different services :)" />
-
-<meta name="keywords" content="about,me,Mkaysi,Mika,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube,Debian,Ubuntu,Linux,computers,Dropbox,Ubuntu,one,u1,Lacie,Wuala,valid,HTML5,referral,promo,code" />
-
-<meta name="author" content="Mika Suomalainen" />
-
 <meta charset="UTF-8" />
-
+<meta name="description" content="A little information about me and links to my social media accounts and referral links to give you and me more space (or whatever they give) in different services :)" />
+<meta name="keywords" content="about,me,Mkaysi,Mika,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube,Debian,Ubuntu,Linux,computers,Dropbox,Ubuntu,one,u1,Lacie,Wuala,valid,HTML5,referral,promo,code" />
+<meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/index.html">
-
 <title>Mkaysi's homepage</title>
-
 <link rel="stylesheet" type="text/css" href="tyyli.css" />
-
 </head>
 <hr/>
 [Sitemap](sitemap/sitemap.html)
