@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="description" content="Supybot security issues," /> <meta name="keywords" content="Security,Issues,Supybot,crash,Debian,Ubuntu,IRC" /> <meta name="author" content="Mika Suomalainen" /> <meta charset="UTF-8" /> <link rel="canonical" href="http://mkaysi.github.com/IRC/Supybot.html">
+<meta charset="UTF-8" /> <meta name="description" content="Supybot security issues," /> <meta name="keywords" content="Security,Issues,Supybot,crash,Debian,Ubuntu,IRC" /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/IRC/Supybot.html">
 <title>
 Security issues of Supybot
 </title>
@@ -30,6 +30,10 @@ Security issues of Supybot
 <h2 id="anyone-can-access-network-services-via-the-bot.">3. Anyone can access network services via the bot.</h2>
 <p>I don't have example command for this, but it happens by nesting &quot;format cut&quot; and &quot;misc tell&quot;.</p>
 <p>What does this mean? Anyone can tell the bot to ghost someone else on same account, take over a channel by telling the bot to give flags (if it has correct flags), change password of the account and everything else what you do with network services.</p>
+<h2 id="web-page-with-special-characters-in-title-can-be-used-to-send-dccctcp-commands.">4. Web page with special characters in title can be used to send DCC/CTCP commands.</h2>
+<p>This doesn't mean only things like CTCP actions (also known as /me), but known problems with old routers ( ) which make them reconnect to the internet.</p>
+<p>This is currently* fixed only in Limnoria's testing version.</p>
+<p>*See the changelog link at bottom. Currently means 17:43 (UTC) on 2012-10-31.</p>
 <h1 id="are-these-issues-publicly-known">Are these issues publicly known?</h1>
 <p><STRONG>Of course they are.</strong> They have been reported to</p>
 <ol class="incremental" style="list-style-type: decimal">

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8" />
 <meta name="description" content="Supybot security issues," />
 <meta name="keywords" content="Security,Issues,Supybot,crash,Debian,Ubuntu,IRC" />
 <meta name="author" content="Mika Suomalainen" />
-<meta charset="UTF-8" />
 <link rel="canonical" href="http://mkaysi.github.com/IRC/Supybot.html">
 <title>Security issues of Supybot</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
@@ -57,6 +57,16 @@ For example:
 I don't have example command for this, but it happens by nesting "format cut" and "misc tell". 
 
 What does this mean? Anyone can tell the bot to ghost someone else on same account, take over a channel by telling the bot to give flags (if it has correct flags), change password of the account and everything else what you do with network services.
+
+## 4. Web page with special characters in title can be used to send DCC/CTCP commands.
+
+This doesn't mean only things like CTCP actions (also known as /me), but known problems with old routers ( ) which make 
+them reconnect to the internet.
+
+This is currently* fixed only in Limnoria's testing version. 
+
+*See the changelog link at bottom. Currently means 17:43 (UTC) on 2012-10-31.
+
 
 # Are these issues publicly known?
 
