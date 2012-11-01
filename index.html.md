@@ -43,8 +43,9 @@ My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE
 
 <hr/>
 <p>
-[Valid HTML5!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F)
-[Valid CSS!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=)
+| [Valid HTML5!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F) |
+[Valid CSS!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=) |
+[I Support Open Wi-fi](https://openwireless.org) |
 </p>
 <hr/>
 </body>

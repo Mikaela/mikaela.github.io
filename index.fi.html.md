@@ -42,8 +42,9 @@ PGP-avaimeni on [0x4DB53CFE82A46728] ja sen sormenjälki on <strong>24BC 1573 B8
 
 <hr/>
 <p>
-[Kelvollista HTML5:ttä!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F)
-[Kelvollista CSS:ää!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=)
+| [Kelvollista HTML5:ttä!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F) |
+[Kelvollista CSS:ää!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=) |
+[Tuen avointa Wi-fiä](https://openwireless.org) |
 </p>
 <hr/>
 </body>
