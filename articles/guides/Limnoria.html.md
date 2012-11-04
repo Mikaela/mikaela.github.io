@@ -17,7 +17,7 @@
 
 # Installing
 
-There are three ways to install Limnoria depending on your operating system. If you are on Debian-based Linux distribution e.g. Debian, *Ubuntu you can install the Debian package. Or then you can install from source which should work on all other OSes too (at least Mac OS X, I don't have successful experience with Windows) and you can also install for current user only.
+There are three ways to install [Limnoria] depending on your operating system. If you are on Debian-based Linux distribution e.g. [Debian], [*Ubuntu], [Linux Mint] you can install the Debian package. Or then you can install from source which should work on all other OSes too (at least Mac OS X, I don't have successful experience with Windows) and you can also install for current user only.
 
 ## With the Debian package
 
@@ -42,5 +42,9 @@ The "apt-get install -f" tries to fix broken packages by downloading and install
 ### Upgrading
 
 To upgrade just run the steps above. Remember that the Debian packages are daily builds, so they are changed every day. You can see the latest change on [compiler.progval.net]. The "-HEAD" packages are always the most recent version.
+
+## From source
+
+I recommend that you have [git] installed.
 
 <!-- vim : set ft=html -->
