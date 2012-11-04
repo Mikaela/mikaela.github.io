@@ -68,6 +68,280 @@ echo &quot;PATH=$HOME/.local/bin:$PATH&quot; &gt;&gt; ~/.zshrc</code></pre>
 <p>and you should be able to run the commands without needing to type the whole PATH, so you can now move into configuring.</p>
 <p><strong>NOTE: You don't need to do this again after upgrading.</strong></p>
 <h2 id="running-the-supybot-wizard">Running the Supybot-wizard</h2>
+<p>First return to your home folder if you aren't there already.</p>
+<pre><code>cd ~</code></pre>
+<p>Now create a folder for your bot, move into it and run supybot-wizard.</p>
+<pre><code>mkdir bot
+cd bot
+supybot-wizard</code></pre>
+<h2 id="supybot-wizard">Supybot-wizard</h2>
+<pre><code>This is a wizard to help you start running supybot. What it will
+do is create the necessary config files based on the options you
+select here. So hold on tight and be ready to be interrogated :)
+
+First of all, we can bold the questions you&#39;re asked so you can
+easily distinguish the mostly useless blather (like this) from
+the questions that you actually have to answer.
+
+Would you like to try this bolding? [y/n] (default: y) </code></pre>
+<blockquote>
+<p>y</p>
+</blockquote>
+<p>Yes, we do. This bolding should work on both Linux and Mac OS X.</p>
+<pre><code> Do you see this in bold? [y/n] </code></pre>
+<blockquote>
+<p>y</p>
+</blockquote>
+<p>I can't answer for you, but at least I see it in bold, so I selected y.</p>
+<pre><code>Great!
+
+We&#39;ve got some preliminary things to get out of the way before we
+can really start asking you questions that directly relate to
+what your bot is going to be like.
+
+We want to know if you consider yourself an advanced Supybot user
+because some questions are just utterly boring and useless for
+new users. Others might not make sense unless you&#39;ve used Supybot
+for some time.
+
+ Are you an advanced Supybot user? [y/n] (default: n) </code></pre>
+<blockquote>
+<p>n</p>
+</blockquote>
+<p>I am actually advanced Supybot user in my opinion, but in this guide we aren't advanced users :).</p>
+<pre><code>This version of Supybot (known as Limnoria) includes another
+language. This can be changed at any time. You need to answer
+with a short id for the language, such as &#39;en&#39;, &#39;fr&#39;, &#39;it&#39;
+(without the quotes). If you want to use English, just press
+enter.
+
+ What language do you want to use? (default: en) </code></pre>
+<blockquote>
+<p>en</p>
+</blockquote>
+<p>Supported languages are currently en, fr, fi, it, hu. I am the Finnish translator and I know that there are big issues with some translations. If you decide to use fi and notice issues, please report them at [issue tracker of my Limnoria fork at GitHub].</p>
+<pre><code>Your bot needs to create some directories in order to store the
+various log, config, and data files.
+
+ Where would you like to create these directories? (default: .) </code></pre>
+<blockquote>
+<p>.</p>
+</blockquote>
+<p>We created this new folder just for our bot.</p>
+<pre><code>Good! We&#39;re done with the directory stuff.
+
+Now we&#39;re going to ask you things that actually relate to the bot
+you&#39;ll be running.
+
+First, we need to know the name of the network you&#39;d like to
+connect to. Not the server host, mind you, but the name of the
+network. If you plan to connect to irc.freenode.net, for
+instance, you should answer this question with &#39;freenode&#39;
+(without the quotes).
+
+ What IRC network will you be connecting to? </code></pre>
+<blockquote>
+<p>freenode</p>
+</blockquote>
+<p>[Freenode] is very popular IRC network and Limnorias support channels are there too.</p>
+<p><strong> Network names should always be typen with small letters to avoid issues with some plugins e.g. [Relay] &amp; [LinkRelay].</p>
+<pre><code> What server would you like to connect to? </code></pre>
+<blockquote>
+<p>irc.freenode.net</p>
+</blockquote>
+<p>irc.freenode.net should put us into some server which is part of [freenode].</p>
+<pre><code>Found freenode (no network available).
+
+IRC Servers almost always accept connections on port 6667. They
+can, however, accept connections anywhere their admin feels like
+he wants to accept connections from.
+
+ Does this server require connection on a non-standard port? [y/
+n] (default: n) </code></pre>
+<blockquote>
+<p>n</p>
+</blockquote>
+<p>We probably want to use [SSL] to make people on same (W)LAN unable to spy everything what the bot sees. SSL wasn't supported in [Supybot] directly without [Twisted], but it is in [Limnoria] and [Gribble].</p>
+<pre><code> What nick would you like your bot to use? </code></pre>
+<p>You must use your imanigation and take a nick which you like.</p>
+<pre><code>Some servers require a password to connect to them. Most public
+servers don&#39;t. If you try to connect to a server and for some
+reason it just won&#39;t work, it might be that you need to set a
+password.
+
+ Do you want to set such a password? [y/n] (default: n) </code></pre>
+<p>[Freenode] allows identifying to services with password username:password, but it's recommended to use [SASL] instead. I will tell how to use it after the wizard.</p>
+<p>``` Of course, having an IRC bot isn't the most useful thing in the world unless you can make that bot join some channels.</p>
+<p>Do you want your bot to join some channels when he connects? [y/ n] (default: y) ``` &gt; y</p>
+<pre><code>Separate channels with spaces. If the channel is locked with a
+key, follow the channel name with the key separated by a comma.
+For example: #supybot-bots #mychannel,mykey #otherchannel
+
+ What channels? (default: )   </code></pre>
+<blockquote>
+<h1>limnoria-bots #supybot-bots</h1>
+</blockquote>
+<p>These two are bot testing channels for all [Limnorias] &amp; [Supybots] &amp; [Gribbles] which anyone can join with his/her bot.</p>
+<pre><code>Beginning configuration for Admin...
+
+
+Done!
+
+Beginning configuration for User...
+
+
+Done!
+
+Beginning configuration for Channel...
+
+
+Done!
+
+Beginning configuration for Misc...
+
+
+Done!
+
+Beginning configuration for Config...
+
+
+Done!
+
+Now we&#39;re going to run you through plugin configuration. There&#39;s
+a variety of plugins in supybot by default, but you can create
+and add your own, of course. We&#39;ll allow you to take a look at
+the known plugins&#39; descriptions and configure them if you like
+what you see.
+
+ Would you like to look at plugins individually? [y/n] </code></pre>
+<blockquote>
+<p>y</p>
+</blockquote>
+<p>Why not? We can see this list later by running &quot;list --unloaded&quot; with the bot.</p>
+<pre><code> What plugin would you like to look at? [Alias/Anonymous/
+AutoMode/BadWords/ChannelLogger/ChannelStats/Conditional/Ctcp/
+Dict/Dunno/Factoids/Filter/Format/Games/Google/Herald/
+Internet/Karma/Lart/Later/Limiter/Math/MessageParser/
+MoobotFactoids/Network/News/NickAuth/NickCapture/Nickometer/
+Note/Plugin/PluginDownloader/Praise/Protector/Quote/QuoteGrabs/
+RSS/Relay/Reply/Scheduler/Seen/Services/ShrinkUrl/Status/
+String/Success/Time/Todo/Topic/URL/Unix/Utilities/Web] </code></pre>
+<blockquote>
+<p>NickAuth</p>
+</blockquote>
+<p>NickAuth is very useful plugin which allows you to identify to your bot by identifying to network services. I will talk more about it later. <strong>NickAuth is currently only in testing version.</strong></p>
+<p><strong>Don't load plugins which you don't need!</strong></p>
+<pre><code>Add a description of the plugin (to be presented to the user inside the wizard)
+here.  This should describe *what* the plugin does.
+
+
+ Would you like to load this plugin? [y/n] (default: y) </code></pre>
+<blockquote>
+<p>y</p>
+</blockquote>
+<p>...</p>
+<p>We just found <a href="https://github.com/ProgVal/Limnoria/issues/425">a bug</a>! Good thing that I just told you what this plugin does.</p>
+<pre><code>eginning configuration for NickAuth...
+
+
+Done!
+
+ Would you like add another plugin? [y/n] </code></pre>
+<blockquote>
+<p>n</p>
+</blockquote>
+<p>You can add other plugins if you want, but remember that you can see the list of unloaded plugins with &quot;list --unloaded&quot;.</p>
+<p><em>In advanced user mode you are asked a list of all plugins which you want to load instead of load one by one.</em></p>
+<pre><code>Although supybot offers a supybot-adduser script, with which you
+can add users to your bot&#39;s user database, it&#39;s *very* important
+that you have an owner user for you bot.
+
+ Would you like to add an owner user for your bot? [y/n]
+(default: y) </code></pre>
+<blockquote>
+<p>y</p>
+</blockquote>
+<p>I must tell you about supybot-adduser later. It's very helpful and so are the commands to give CTRL - C from terminal or reload the configuration from terminal.</p>
+<pre><code> What should the owner&#39;s username be? </code></pre>
+<blockquote>
+<p>Mkaysi</p>
+</blockquote>
+<p>but you should probably use your own nick here.</p>
+<pre><code>What should the owner&#39;s password be? </code></pre>
+<blockquote>
+<p>password</p>
+</blockquote>
+<p><STRONG>DO NOT USE THAT PASSWORD!</STRONG></p>
+<pre><code>Re-enter password: </code></pre>
+<blockquote>
+<p>password</p>
+</blockquote>
+<p><STRONG>DO NOT USE THAT PASSWORD!</STRONG></p>
+<pre><code>Of course, when you&#39;re in an IRC channel you can address the bot
+by its nick and it will respond, if you give it a valid command
+(it may or may not respond, depending on what your config
+variable replyWhenNotCommand is set to). But your bot can also
+respond to a short &quot;prefix character,&quot; so instead of saying &quot;bot:
+do this,&quot; you can say, &quot;@do this&quot; and achieve the same effect. Of
+course, you don&#39;t *have* to have a prefix char, but if the bot
+ends up participating significantly in your channel, it&#39;ll ease
+things.
+
+ Would you like to set the prefix char(s) for your bot?  [y/
+n] (default: y) </code></pre>
+<blockquote>
+<p>y</p>
+</blockquote>
+<pre><code>Enter any characters you want here, but be careful: they should
+be rare enough that people don&#39;t accidentally address the bot
+(simply because they&#39;ll probably be annoyed if they do address
+the bot on accident). You can even have more than one. I
+(jemfinch) am quite partial to @, but that&#39;s because I&#39;ve been
+using it since my ocamlbot days.
+
+ What would you like your bot&#39;s prefix character(s) to be? </code></pre>
+<blockquote>
+<p>Qwerty123</p>
+</blockquote>
+<p>By giving invalid prefix character, we get list of allowed prefix characters.</p>
+<pre><code>Value must contain only ~!@#$%^&amp;*()_-+=[{}]\|&#39;&quot;;:,&lt;.&gt;/?
+
+ What would you like your bot&#39;s prefix character(s) to be? </code></pre>
+<p>Just select something. You can later specify any character you want by using reply.whenaddressedby.strings. I will return to it later.</p>
+<pre><code>There are a lot of options we didn&#39;t ask you about simply because
+we&#39;d rather you get up and running and have time left to play
+around with your bot. But come back and see us! When you&#39;ve
+played around with your bot enough to know what you like, what
+you don&#39;t like, what you&#39;d like to change, then take a look at
+your configuration file when your bot isn&#39;t running and read the
+comments, tweaking values to your heart&#39;s desire.
+
+All done! Your new bot configuration is &lt;BOTNICK&gt;.conf. If you&#39;re
+running a *nix based OS, you can probably start your bot with the
+command line &quot;supybot &lt;BOTNICK&gt;.conf&quot;. If you&#39;re not running a *nix
+or similar machine, you&#39;ll just have to start it like you start
+all your other Python scripts.</code></pre>
+<p>As the Wizard says, just run</p>
+<blockquote>
+<p>supybot botnick.conf</p>
+</blockquote>
+<p>which works even with local installation if you added ~/.local to $PATH.</p>
+<hr/>
+<p><strong>COMING SOON(ER OR LATER)</STRONG></p>
+<h2 id="identifying">Identifying</h2>
+<h3 id="normally">Normally</h3>
+<h3 id="automatically">Automatically</h3>
+<h3 id="with-nickauth-testing-version-only">With NickAuth (testing version only)</h3>
+<h2 id="further-configuring">Further configuring</h2>
+<h3 id="registering-identifying-to-services">Registering &amp; identifying to Services</h3>
+<h3 id="sasl">[SASL]</h3>
+<p>Limnoria supports SASL thanks to <a href="https://github.com/nyuszika7h">nyuszika7h</a>. SASL allows you to identify before you are even connected to the network.</p>
+<h3 id="dont-highlight-everyone-when-you-talk-to-them">Don't highlight everyone when you talk to them</h3>
+<h3 id="quieter-error-messages">Quieter error messages</h3>
+<h3 id="changing-the-prefix">Changing the prefix</h3>
+<h4 id="prefix-strings">Prefix strings</h4>
+<h3 id="more-networks">More networks</h3>
+<h2 id="supybot-adduser">supybot-adduser</h2>
 <!-- vim : set ft=html -->
 
 
