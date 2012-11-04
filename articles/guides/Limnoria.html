@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" /> <!-- <meta http-equiv="refresh" content="60" /> --> <meta name="description" content="Guide for installing and using Limnoria which is actively developed fork of Supybot." /> <meta name="keywords" content="Supybot,Limnoria,IRC,bot," /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Limnoria.html">
+<title>
+Installing &amp; running Limnoria.
+</title>
+<link rel="stylesheet" type="text/css" href="tyyli.css" />
+</head>
+<body>
+<hr/>
+<a href="../../sitemap/sitemap.html">Sitemap</a>
+<hr/>
+
+<h1 id="installing">Installing</h1>
+<p>There are three ways to install Limnoria depending on your operating system. If you are on Debian-based Linux distribution e.g. Debian, *Ubuntu you can install the Debian package. Or then you can install from source which should work on all other OSes too (at least Mac OS X, I don't have successful experience with Windows) and you can also install for current user only.</p>
+<h2 id="with-the-debian-package">With the Debian package</h2>
+<p><strong>This method requires root access.</strong></p>
+<p>First become root by running</p>
+<blockquote>
+<p>sudo su</p>
+</blockquote>
+<p>Then download the Debian package. Here you have to choice do you install the stable version or testing version.</p>
+<p>Replace &quot;VERSIONHERE&quot; with &quot;master&quot; to get stable version or &quot;testing&quot; to get unstable version.</p>
+<pre><code>wget http://compiler.progval.net/limnoria-VERSIONHERE-HEAD.deb
+dpkg -i limnoria-VERSIONHERE-HEAD.deb
+apt-get install -f</code></pre>
+<p>The &quot;apt-get install -f&quot; tries to fix broken packages by downloading and installing missing depedencies if there are them.</p>
+<h3 id="upgrading">Upgrading</h3>
+<p>To upgrade just run the steps above. Remember that the Debian packages are daily builds, so they are changed every day. You can see the latest change on [compiler.progval.net]. The &quot;-HEAD&quot; packages are always the most recent version.</p>
+<!-- vim : set ft=html -->
+
+
