@@ -25,7 +25,9 @@ There are three ways to install [Limnoria] depending on your operating system. I
 
 First become root by running
 
-> sudo su
+```
+sudo su
+```
 
 Then download the Debian package. Here you have to choice do you install the stable version or testing version.
 
@@ -49,29 +51,41 @@ I recommend that you have [git] installed, because it will make upgrading easier
 
 If you are going to do a global installation you might want to become root now, otherwise skip the next command
 
-> sudo su
+```
+sudo su
+```
 
 Now download (or "clone") the git repository.
 
-> git clone git://github.com/ProgVal/Limnoria.git
+```
+git clone git://github.com/ProgVal/Limnoria.git
+```
 
 move into the cloned repository
 
-> cd Limnoria
+```
+cd Limnoria
+```
 
 and decide do you want install stable or testing version.
 
 In case you want the testing version, change into the testing branch. If you want the stable version skip this.
 
-> git checkout -b testing origin/testing
+```
+git checkout -b testing origin/testing
+```
 
 Now if you are root and what global installation, you run
 
-> python setup.py install
+```
+python setup.py install
+```
 
 or local installation
 
-> python setup.py install --user
+```
+python setup.py install --user
+```
 
 Limnoria is now installed and you can move to configuring it.
 
@@ -83,15 +97,21 @@ Return to the git repository or if you have removed it, follow the installation 
 
 Update the cloned repository by running
 
-> git pull
+```
+git pull
+```
 
 and then reinstall
 
-> python setup.py install
+```
+python setup.py install
+```
 
 or only for current user
 
-> python setup.py install --user
+```
+python setup.py install --user
+```
 
 <hr/>
 
@@ -114,11 +134,15 @@ echo "PATH=$HOME/.local/bin:$PATH" >> ~/.zshrc
 
 then run 
 
-> source .bashrc
+```
+source .bashrc
+```
 
 or with zsh
 
-> source .zshrc
+```
+source .zshrc
+```
 
 and you should be able to run the commands without needing to type the whole PATH, so you can now move into configuring.
 
