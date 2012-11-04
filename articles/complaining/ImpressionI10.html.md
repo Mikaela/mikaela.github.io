@@ -28,7 +28,9 @@ It doesn't have Android Market nor Google Play officially. Of course it can unof
 
 ### Amazon Market
 
-[Leader Interational INC], the author of this tablet, suggests installing Amazon Market in one of the papers which come with this device. This has a problem that you must give credit card details <strong>even with free applicaltions</strong>. I don't have credit card!
+[Leader Interational INC], the author of this tablet, suggests installing Amazon Market in one of the papers which come with this device. This has a problem that you must give credit card details <strong>even with free applicaltions</strong>. I don't want to give my credit card details just to get free applications!
+
+[Leader International INC]:http://www.leaderinternationalinc.com/
 
 ### [F-Droid]
 
