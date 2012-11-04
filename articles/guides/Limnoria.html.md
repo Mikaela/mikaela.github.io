@@ -394,8 +394,21 @@ here.  This should describe *what* the plugin does.
 
 We just found [a bug](https://github.com/ProgVal/Limnoria/issues/425)! Good thing that I just told you what this plugin does.
 
+This bug is now fixed.
+
 ```
-eginning configuration for NickAuth...
+Support authentication based on nicks and network services.
+
+
+ Would you like to load this plugin [y/n] (default: y)
+```
+
+> y
+
+See above.
+
+```
+Beginning configuration for NickAuth...
 
 
 Done!
