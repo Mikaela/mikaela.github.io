@@ -4,6 +4,12 @@ body {
     font-family: "DejaVu Sans", Ubuntu, Arial, Arial, Helvetica, sans-serif;
 }
 
+pre {
+    color:  white;
+    background-color: black;
+    font-family: Courier, "Courier New", ;
+}
+
 a:link { 
     color: red
 }
