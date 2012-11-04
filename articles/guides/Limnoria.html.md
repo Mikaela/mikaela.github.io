@@ -539,4 +539,6 @@ Limnoria supports SASL thanks to [nyuszika7h](https://github.com/nyuszika7h). SA
 
 ## supybot-adduser
 
+## Playing with the users.conf by hand
+
 <!-- vim : set ft=html -->
