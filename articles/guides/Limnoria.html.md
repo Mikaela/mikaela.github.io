@@ -274,9 +274,17 @@ he wants to accept connections from.
 n] (default: n) 
 ```
 
-> n
+> y
 
 We probably want to use [SSL] to make people on same (W)LAN unable to spy everything what the bot sees. SSL wasn't supported in [Supybot] directly without [Twisted], but it is in [Limnoria] and [Gribble].
+
+```
+ What port is that?     
+```
+
+> 6697
+
+[SSL ports of freenode] are listed on their [homepage]. 6697 is popular SSL port as the wizard told previously in case you listened to the longer explanation :).
 
 ```
  What nick would you like your bot to use? 
