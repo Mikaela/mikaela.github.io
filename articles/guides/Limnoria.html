@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" /> <!-- <meta http-equiv="refresh" content="60" /> --> <meta name="description" content="Guide for installing and using Limnoria which is actively developed fork of Supybot." /> <meta name="keywords" content="Supybot,Limnoria,IRC,bot," /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Limnoria.html">
+<meta charset="UTF-8" /> <!-- <meta http-equiv="refresh" content="60" /> --> <meta name="description" content="Guide for installing and using Limnoria which is actively developed fork of Supybot either from Debian package or from source and with or without root." /> <meta name="keywords" content="Supybot,Limnoria,IRC,bot,python2,git,Debian,Linux,Mint,Ubuntu,Kubuntu,Lubuntu,Xubuntu,Arch" /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Limnoria.html">
 <title>
 Installing &amp; running Limnoria.
 </title>
@@ -21,7 +21,7 @@ Installing &amp; running Limnoria.
 <p>sudo su</p>
 </blockquote>
 <p>Then download the Debian package. Here you have to choice do you install the stable version or testing version.</p>
-<p>Replace &quot;VERSIONHERE&quot; with &quot;master&quot; to get stable version or &quot;testing&quot; to get unstable version.</p>
+<p>Replace &quot;VERSIONHERE&quot; with &quot;master&quot; to get stable version or &quot;testing&quot; to get testing version.</p>
 <pre><code>wget http://compiler.progval.net/limnoria-VERSIONHERE-HEAD.deb
 dpkg -i limnoria-VERSIONHERE-HEAD.deb
 apt-get install -f</code></pre>
@@ -29,7 +29,69 @@ apt-get install -f</code></pre>
 <h3 id="upgrading">Upgrading</h3>
 <p>To upgrade just run the steps above. Remember that the Debian packages are daily builds, so they are changed every day. You can see the latest change on [compiler.progval.net]. The &quot;-HEAD&quot; packages are always the most recent version.</p>
 <h2 id="from-source">From source</h2>
-<p>I recommend that you have [git] installed.</p>
+<p>I recommend that you have [git] installed, because it will make upgrading easier and you don't have to find the [download links] from [GitHub].</p>
+<p>If you are going to do a global installation you might want to become root now, otherwise skip the next command</p>
+<blockquote>
+<p>sudo su</p>
+</blockquote>
+<p>Now download (or &quot;clone&quot;) the git repository.</p>
+<blockquote>
+<p>git clone git://github.com/ProgVal/Limnoria.git</p>
+</blockquote>
+<p>move into the cloned repository</p>
+<blockquote>
+<p>cd Limnoria</p>
+</blockquote>
+<p>and decide do you want install stable or testing version.</p>
+<p>In case you want the testing version, change into the testing branch. If you want the stable version skip this.</p>
+<blockquote>
+<p>git checkout -b testing origin/testing</p>
+</blockquote>
+<p>Now if you are root and what global installation, you run</p>
+<blockquote>
+<p>python setup.py install</p>
+</blockquote>
+<p>or local installation</p>
+<blockquote>
+<p>python setup.py install --user</p>
+</blockquote>
+<p>Limnoria is now installed and you can move to configuring it.</p>
+<p><strong>[Arch Linux] users (and users of other distributions which use python3 by default instead of python&quot;): REPLACE &quot;python&quot; WITH &quot;python2&quot; in all commands!</strong></p>
+<h3 id="upgrading-1">Upgrading</h3>
+<p>Return to the git repository or if you have removed it, follow the installation steps again.</p>
+<p>Update the cloned repository by running</p>
+<blockquote>
+<p>git pull</p>
+</blockquote>
+<p>and then reinstall</p>
+<blockquote>
+<p>python setup.py install</p>
+</blockquote>
+<p>or only for current user</p>
+<blockquote>
+<p>python setup.py install --user</p>
+</blockquote>
+<hr/>
+
+<h1 id="configuring-the-bot">Configuring the bot</h1>
+<p>If you installed [Limnoria] as root, you can skip the next section and move to &quot;running Supybot-wizard&quot;.</p>
+<h2 id="preparing-locally-installed-limnoria-for-use">Preparing locally installed Limnoria for use</h2>
+<p>Limnoria's binaries were installed to ~/.local/bin which isn't in default $PATH. This means that you must either type the whole path always when you want to run Limnoria or add ~/.local/bin to your PATH. We do the previously mentioned.</p>
+<p>You can add it to the PATH by running the following commands:</p>
+<pre><code>echo &quot;PATH=$HOME/.local/bin:$PATH&quot; &gt;&gt; ~/.bashrc
+echo &quot;PATH=$HOME/.local/bin:$PATH&quot; &gt;&gt; ~/.zshrc</code></pre>
+<p><strong>If you type only one &quot;&gt;&quot; instead of &quot;&gt;&gt;&quot; in those commands, you will replace the content of those files with &quot;PATH=<span class="math"><em>H</em><em>O</em><em>M</em><em>E</em> / . <em>l</em><em>o</em><em>c</em><em>a</em><em>l</em> / <em>b</em><em>i</em><em>n</em>: </span>PATH&quot; instead of appending it into them.</strong></p>
+<p>then run</p>
+<blockquote>
+<p>source .bashrc</p>
+</blockquote>
+<p>or with zsh</p>
+<blockquote>
+<p>source .zshrc</p>
+</blockquote>
+<p>and you should be able to run the commands without needing to type the whole PATH, so you can now move into configuring.</p>
+<p><strong>NOTE: You don't need to do this again after upgrading.</strong></p>
+<h2 id="running-the-supybot-wizard">Running the Supybot-wizard</h2>
 <!-- vim : set ft=html -->
 
 
