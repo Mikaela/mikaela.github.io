@@ -2,6 +2,7 @@ body {
     color:  lightblue;
     background-color: black;
     font-family: "DejaVu Sans", Ubuntu, Arial, Arial, Helvetica, sans-serif;
+    text-align: justify
 }
 
 pre {
