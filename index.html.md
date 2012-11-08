@@ -19,21 +19,11 @@
 
 <!-- Now it's somewhere where I can copy-paste it easily to social media services :D -->
 
-I am seventeen years old, even though people often think that I am older.
-
-I started using Linux in 2008 and the distribution was [Ubuntu] 8.04 Hardy Heron. 
-
-My current distributions are [Debian] Sid (branch: unstable (which is misleading name as this is sometimes too stable)) and [Kubuntu] 12.04 LTS Precise Pangolin. 
-
-I am interested in computers. I am also some kind of Finnish translator.
+I am seventeen years old, even though people often think that I am older. I started using Linux in 2008 and the distribution was [Ubuntu] 8.04 Hardy Heron. I am currently using [Debian] Sid (branch: unstable (which is misleading name as this is sometimes too stable)) and [Kubuntu] 12.04 LTS Precise Pangolin. I am interested in computers. I am also some kind of Finnish translator.
 
 [Debian]:http://www.debian.org/
 [Kubuntu]:http://www.kubuntu.org/
 [Ubuntu]:http://www.ubuntu.com/
-
-<hr/>
-
-## Social media account links & referral links.
 
 <a href="https://github.com/Mkaysi" >Mkaysi @ GitHub</a> || <a href="https://gitorious.org/~mkaysi" >Mkaysi @ Gitorious</a> || <a href="https://launchpad.net/~mkaysi" >Mika Suomalainen @ Launchpad</a> 
 
