@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<meta name="description" content="What is Asperger's syndrome and how it affects me. This page was written on 10.11.2012 when I was planning my fourth suicide attempt, but I got idea to type this and wait for people who I know to react to this and kill myself in case of negative reaction." />
+<meta name="description" content="What is Asperger's syndrome and how it affects me. This page was written on 10.11.2012 and was waiting for release on world autism awareness day, but was accidentally released at Debian Pastebinit too soon. I was plannig for my fourth suicide attempt but I got idea to type this and wait for people who I know to react to this and kill myself in case of negative reaction." />
 <meta name="keywords" content="Asperger,syndrome,neurology,psychology,suicide,suicidality" />
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/Asperger.html">
@@ -64,10 +64,6 @@ I am tired of being depressed/anxious/whatever and that people don't understand 
 
 Or if unexpected happens and people can live with information what I am and agree it, then I probably lose my excuse to kill myself and this means that I might continue living, but I know that this isn't going to happen.
 
-Typed: 10.11.2012
 Translated to Finnish: see the [Finnish version](Asperger.fi.html)
-To be published: 2012-04-02 (the next Autism Awareness Day)
-
-[Signature to prevent me from modifying this text before release](Asperger.html.md.sig)
 
 <!-- vim : set ft=html -->
