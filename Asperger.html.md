@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<meta name="description" content="What is Asperger's syndrome and how it affects me. This page was written on 10.11.2012 and was waiting for release on world autism awareness day, but was accidentally released at Debian Pastebinit too soon. I was plannig for my fourth suicide attempt but I got idea to type this and wait for people who I know to react to this and kill myself in case of negative reaction." />
-<meta name="keywords" content="Asperger,syndrome,neurology,psychology,suicide,suicidality" />
+<meta name="description" content="My exxperiences with Asperger's syndrome." />
+<meta name="keywords" content="Asperger,syndrome,neurology,psychology,suicide,suicidality,depression" />
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/Asperger.html">
 <title>Asperger's syndrome</title>
@@ -13,6 +13,8 @@
 <hr/>
 [Sitemap](sitemap/sitemap.html)
 <hr/>
+
+<strong><em>What is put into the internet stays in the internet,</em> so I am not going to remove this page. According to the original plan, I should have been dead at the time when this page was published but I am not and I won't be. It was my desicion to publish this information and I am going to follow it. I hope that this page helps someone else who has AS or helps to understand person with AS.</strong>
 
 # What is Asperger's syndrome?
 
@@ -54,16 +56,14 @@ It was also fun to play music loudly near my ears because I had to cover my ears
 
 People also seem to have need for coming to talk to me when I don't want to talk with anyone. They just come to talk without anything to talk about "Hi Mika, how are you" etc. There are many other things too which I consider as bullying and that people don't even notice that I don't like.
 
+There are many other ways which I was bullied too, but these are the ones which bother me most.
+
 #### Depression
 
-Risk of depression is usually part of Asperger's syndrome and that is the reason why I am typing this. My depression has caused me to try committing suicide three times, end junior high school before it ended, spend some months in psyciathrical hospital (I don't recommend it thought it was the first place to give correct information about AS and where I started seriously considering that I had it, youth policlinic told me that I had ADHD and skizophreny in addition to AS, but at psychiatrical hospital they were sure that I don't have either) and I was going to commit suicide for fourth time, but then I thought that I could as well type this page and I will go to this now.
+Risk of depression is usually part of Asperger's syndrome. My depression has caused me to try committing suicide four times, end junior high school before it ended, spend some months in psyciathrical hospital (two times but the second stay is only two weeks) (I don't recommend it thought it was the first place to give correct information about AS and where I started seriously considering that I had it, youth policlinic told me that I had ADHD and skizophreny in addition to AS, but at psychiatrical hospital they were sure that I don't have either).
 
 # Why did I type this?
 
-I am tired of being depressed/anxious/whatever and that people don't understand me at all and I thought that it's better to type this and wait for people to react to this (tell me that I am stupid and I shouldn't have ever born) so I can commit suicide with nobody caring about it.
-
-Or if unexpected happens and people can live with information what I am and agree it, then I probably lose my excuse to kill myself and this means that I might continue living, but I know that this isn't going to happen.
-
-Translated to Finnish: see the [Finnish version](Asperger.fi.html)
+I originally typed this page to get suicide reason (I expect people to use this page against me), but now I am keeping this page just because I already published it. See also the bolded notice on top of this page.
 
 <!-- vim : set ft=html -->
