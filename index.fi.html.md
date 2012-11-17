@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
 <hr/>
-[Sivukartta](sitemap/sitemap.fi.html)
+[Sivukartta](sitemap/sitemap.fi.html) || [Englanniksi / in English](index.html)
 <hr/>
 
 # Minusta
