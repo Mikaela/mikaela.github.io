@@ -11,7 +11,7 @@
 </head>
 <body>
 <hr/>
-[Etusivu](../index.fi.html)
+[Etusivu](../index.fi.html) || [Englanniksi / in English](sitemap.html)
 <hr/>
 
 # Sivukartta

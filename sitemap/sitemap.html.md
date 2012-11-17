@@ -11,7 +11,7 @@
 </head>
 <body>
 <hr/>
-[Index](../index.html)
+[Index](../index.html) || [In Finnish / Suomeksi](sitemap.html)
 <hr/>
 
 # Sitemap
