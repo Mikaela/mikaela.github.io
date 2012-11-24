@@ -45,8 +45,9 @@ PGP-avaimeni on [0x4DB53CFE82A46728] ja sen sormenjälki on <strong>24BC 1573 B8
 | <a id=tekstinäppäimet href="http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F" >Kelvollista HTML5:ttä!</a> | [Kelvollista CSS:ää!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=) |
 [Tuen avointa Wi-fiä](https://openwireless.org) |
 
-<a id=isotnäppäimet href="http://wigle.net"><img border="0" src="http://wigle.net/bi/nEIGaDKdx7eeGP1h50DCxw.png"></a> <!-- Firefox advocate (lisätään kun olen 18) -->
+<hr/>
 
+<a id=isotnäppäimet href="http://wigle.net"><img border="0" src="http://wigle.net/bi/nEIGaDKdx7eeGP1h50DCxw.png"></a> <!-- Firefox advocate (lisätään kun olen 18) -->
 
 <hr/>
 </body>
