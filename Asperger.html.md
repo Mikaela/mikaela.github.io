@@ -14,7 +14,7 @@
 [Sitemap](sitemap/sitemap.html)
 <hr/>
 
-<em> Message to people who come from Finnish page / Viesti ihmisille, jotka tulevat suomenkieliseltä sivulta: Tämä sivu käännetään suomeksi myöhemmin</em>
+<em> Message to people who come from [Finnish index](index.fi.html): <strong>Tämä sivu käännetään suomeksi myöhemmin.</strong></em>
 
 <strong><em>What is put into the internet stays in the internet,</em> so I am not going to remove this page. According to the original plan, I should have been dead at the time when this page was published but I am not and I won't be. It was my desicion to publish this information and I am going to follow it. I hope that this page helps someone else who has AS or helps to understand person with AS.</strong>
 

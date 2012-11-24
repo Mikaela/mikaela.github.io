@@ -15,7 +15,7 @@
 
 # Minusta
 
-<em>17, [AS](Asperger.html) Linux-käyttäjä vuodesta 2008, käyttää tällä hetkellä [Debian] Sidiä & [Kubuntu] Preciseä, kiinnostunut tietokoneista ja jonkinlainen suomeksi kääntäjä.</em>
+<em>17, [AS](Asperger.html), Linux-käyttäjä vuodesta 2008, käyttää tällä hetkellä [Debian] Sidiä & [Kubuntu] Preciseä, kiinnostunut tietokoneista ja jonkinlainen suomeksi kääntäjä.</em>
 
 <!-- Nyt se on jossakin, josta voin kopioida sen sosiaalisiin medioihin :D -->
 <!-- Miksi minä suomennan myös kommentteja? -->
