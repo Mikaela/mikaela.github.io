@@ -24,7 +24,22 @@ Message to people who come from [Finnish index](index.fi.html): <strong>Tämä s
 
 [From Wikipedia](https://en.wikipedia.org/wiki/Asperger_syndrome)
 
-## How it affects me?
+Remember that <strong>AS affects everyone differently.</strong> I might have feature which you don't have, but you might have feature which I don't have.
+
+## Cure for Asperger's syndrome
+
+There is no cure for AS and I agree with Luke Jackson with what he said about curing it in his book <em>Freaks Geeks and Asperger's syndrome</em>.
+
+"<em>There seems to be no definite cause of autism and lots of
+people have different theories. Research is going on all around the
+world to find both the cause and a cure. This is a really controversial
+subject because lots of people (me included) think that <strong>looking
+for a cure for autism can be likened to Hitler trying to create an
+Aryan race.</strong></em>"
+
+(I added the bolding to that quote.)
+
+## How it affects me
 
 I cannot name everything immediately if I am asked, but some things are easy to notice.
 
