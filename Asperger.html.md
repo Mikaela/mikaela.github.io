@@ -68,6 +68,8 @@ Risk of depression is usually part of Asperger's syndrome. My depression has cau
 
 I originally typed this page to get suicide reason (I expect people to use this page against me), but now I am keeping this page just because I already published it. See also the bolded notice on top of this page.
 
+<hr/>
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
