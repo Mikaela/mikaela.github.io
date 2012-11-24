@@ -25,11 +25,11 @@ I am seventeen years old, even though people often think that I am older which c
 [Kubuntu]:http://www.kubuntu.org/
 [Ubuntu]:http://www.ubuntu.com/
 
-<a href="https://github.com/Mkaysi" >Mkaysi @ GitHub</a> || <a href="https://gitorious.org/~mkaysi" >Mkaysi @ Gitorious</a> || <a href="https://launchpad.net/~mkaysi" >Mika Suomalainen @ Launchpad</a> 
+<a id=code href="https://github.com/Mkaysi" >Mkaysi @ GitHub</a> || <a href="https://gitorious.org/~mkaysi" >Mkaysi @ Gitorious</a> || <a href="https://launchpad.net/~mkaysi" >Mika Suomalainen @ Launchpad</a> 
 
-<a href="https://plus.google.com/113787158024729598288/posts" >Mika Suomalainen @ Google+</a> || <a href="https://twitter.com/Mkaysi" >Mkaysi @ Twitter</a> || <a href="https://identi.ca/mkaysi" >Mkaysi @ Identi.ca</a> || <a href="https://www.facebook.com/mika.suomalainen" >Mika Suomalainen @ Facebook</a> || <a href="http://www.last.fm/user/Mkaysi" >Mkaysi @ last.fm</a> || <a href="https://www.youtube.com/user/Mkaysi1" >Mika Suomalainen @ YouTube</a>
+<a id=socialmedia href="https://plus.google.com/113787158024729598288/posts" >Mika Suomalainen @ Google+</a> || <a href="https://twitter.com/Mkaysi" >Mkaysi @ Twitter</a> || <a href="https://identi.ca/mkaysi" >Mkaysi @ Identi.ca</a> || <a href="https://www.facebook.com/mika.suomalainen" >Mika Suomalainen @ Facebook</a> || <a href="http://www.last.fm/user/Mkaysi" >Mkaysi @ last.fm</a> || <a href="https://www.youtube.com/user/Mkaysi1" >Mika Suomalainen @ YouTube</a>
 
-<a href="http://db.tt/y7fPYse" >+500mb free space for new Dropbox users</a> || <a href="https://one.ubuntu.com/referrals/referee/386817/" >+500mb free space for new Ubuntu One users</a> || <a href="http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF" > +1Gb free space for new Wuala users </a> || <a href="https://lastpass.com/f?884346" > Free 1 month Premium for new LastPass users </a>
+<a id=referral href="http://db.tt/y7fPYse" >+500mb free space for new Dropbox users</a> || <a href="https://one.ubuntu.com/referrals/referee/386817/" >+500mb free space for new Ubuntu One users</a> || <a href="http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF" > +1Gb free space for new Wuala users </a> || <a href="https://lastpass.com/f?884346" > Free 1 month Premium for new LastPass users </a>
 
 [PGP signed version of accounts above](socialmedia.txt)
 
@@ -42,11 +42,9 @@ My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE
 [0x4DB53CFE82A46728]:PGP/0x82A46728.txt
 
 <hr/>
-<p>
-| [Valid HTML5!](http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F) |
-[Valid CSS!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=) |
-[I Support Open Wi-fi](https://openwireless.org) |
-</p>
+
+|<a id=textbuttons href="http://validator.w3.org/check?uri=http%3A%2F%2Fmkaysi.github.com%2F" >Valid HTML5!</a> | [Valid CSS!](http://jigsaw.w3.org/css-validator/validator?uri=mkaysi.github.com&profile=css3&usermedium=all&warning=1&vextwarning=) | [I Support Open Wi-fi](https://openwireless.org) |
+
 <hr/>
 </body>
 </HTML>
