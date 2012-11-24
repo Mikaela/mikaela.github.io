@@ -59,7 +59,7 @@ There were also popular toys which made horrible smell and they were always too 
 
 #### Because of AS
 
-Asperger's syndrome can directly be used in bullying. As I seem weird (hate cursewords, don't smoke nor drink alcohol), people at school have nice habit of thinking reasons to it. They have told that "I know why Mika is so weird. His ancestors have had sex with monkeys" and that I am retarted.
+Asperger's syndrome can directly be used in bullying. As I seem weird (hate cursewords, don't smoke nor drink alcohol), people at school have nice habit of thinking reasons to it. They have told that "I know why Mika is so weird. His ancestors have had sex with monkeys" and that I am retarded.
 
 AS can probably be blamed for the reason of bullying that I only speak "book language" and I was called as "book language Mika" for first grades 1-3 (or something around that) as "book-language-Mika". It also happened on grades 7-9 (junior high school in Finnish school system).
 
@@ -67,7 +67,28 @@ I was also bullied because of my clumsiness which could be seen in not being goo
 
 #### Which might not be related to AS.
 
+There was a Facebook group called "<em>Mika Suomalainen fanclub</em>". Its description wanted everyone who knew me to join that group.
+
+I told about it to one teacher, but nobody was able to do anything. My mother told about it to police, but they weren't able to do anything, because there were no offensive content.
+
+That group was only joined by bullies and the offensive content appeared shortly before the group was removevd.
+
+There was also another group which was about the bully called (Bully Name bunny club) created by some friend of friend of my mother, but the bully didn't care about it as much as I.
+
+
+
+
 On my current school (vocational school, it's after junior high school in Finnish school system) it seems like people thought that my sexuality isn't correct (I am not interested in sexuality) and they decided to fix that. How? They told me "Mika, look, here is Ubuntu" (Ubuntu is the most popular Linux distribution in the world which I used before Debian and which I am still using) and then showed me porn on their phones.
+
+<hr/>
+
+When I was at psychiatrical hospital for the second time (after publishing suicidal version of this page and failing fourth suicide attempt) there was one bully at the hospital and I heard an interesting story about the previously mentioned bullying method from another person there who had been told about it by bully.
+
+<em>He told me that they had shown you porn and you had left running and screaming "no more".</em>.
+
+What makes this interesting is that neither the bully nor the person who told me about this knew that I think it as bullying before I told that person who told me. The real version is that they shouted me to <em>look here is Ubuntu</em> as I told previously and after noticing what it was in reality I left walking normally with normal face and went in front of class room where the next lesson was starting shortly.
+
+<hr/>
 
 It was also fun to play music loudly near my ears because I had to cover my ears with my hands when that happened.
 
