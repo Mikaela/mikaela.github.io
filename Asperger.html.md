@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="description" content="My experiences with Asperger's syndrome." />
-<meta name="keywords" content="Asperger,syndrome,neurology,psychology,suicide,suicidality,depression" />
+<meta name="keywords" content="Asperger,syndrome,neurology,psychology,suicide,suicidality,depression,school,bullying,sertralin,orion,medicine,sleep,sleeping,problem,problems," />
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/Asperger.html">
 <title>Asperger's syndrome</title>
@@ -61,9 +61,15 @@ There were also popular toys which made horrible smell and they were always too 
 
 Asperger's syndrome can directly be used in bullying. As I seem weird (hate cursewords, don't smoke nor drink alcohol), people at school have nice habit of thinking reasons to it. They have told that "I know why Mika is so weird. His ancestors have had sex with monkeys" and that I am retarded.
 
+<hr/>
+
 AS can probably be blamed for the reason of bullying that I only speak "book language" and I was called as "book language Mika" for first grades 1-3 (or something around that) as "book-language-Mika". It also happened on grades 7-9 (junior high school in Finnish school system).
 
+<hr/>
+
 I was also bullied because of my clumsiness which could be seen in not being good in P.E. and weird walking style.
+
+<hr/>
 
 #### Which might not be related to AS.
 
@@ -75,16 +81,14 @@ That group was only joined by bullies and the offensive content appeared shortly
 
 There was also another group which was about the bully called (Bully Name bunny club) created by some friend of friend of my mother, but the bully didn't care about it as much as I.
 
-
-
+<hr/>
 
 On my current school (vocational school, it's after junior high school in Finnish school system) it seems like people thought that my sexuality isn't correct (I am not interested in sexuality) and they decided to fix that. How? They told me "Mika, look, here is Ubuntu" (Ubuntu is the most popular Linux distribution in the world which I used before Debian and which I am still using) and then showed me porn on their phones.
 
-<hr/>
 
-When I was at psychiatrical hospital for the second time (after publishing suicidal version of this page and failing fourth suicide attempt) there was one bully at the hospital and I heard an interesting story about the previously mentioned bullying method from another person there who had been told about it by bully.
+When I was at psychiatrical hospital for the second time (after publishing suicidal version of this page and failing fourth suicide attempt) there was one bully at the hospital and I heard an interesting story about this bullying method from another person there who had been told about it by the bully.
 
-<em>He told me that they had shown you porn and you had left running and screaming "no more".</em>.
+<em>He told me that they had shown you porn and you had left running and screaming "no more"</em>.
 
 What makes this interesting is that neither the bully nor the person who told me about this knew that I think it as bullying before I told that person who told me. The real version is that they shouted me to <em>look here is Ubuntu</em> as I told previously and after noticing what it was in reality I left walking normally with normal face and went in front of class room where the next lesson was starting shortly.
 
@@ -92,13 +96,35 @@ What makes this interesting is that neither the bully nor the person who told me
 
 It was also fun to play music loudly near my ears because I had to cover my ears with my hands when that happened.
 
+<hr/>
+
 People also seem to have need for coming to talk to me when I don't want to talk with anyone. They just come to talk without anything to talk about "Hi Mika, how are you" etc. There are many other things too which I consider as bullying and that people don't even notice that I don't like.
+
+<hr/>
 
 There are many other ways which I was bullied too, but these are the ones which bother me most.
 
 #### Depression
 
 Risk of depression is usually part of Asperger's syndrome. My depression has caused me to try committing suicide four times, end junior high school before it ended, spend some months in psyciathrical hospital (two times but the second stay is only two weeks) (I don't recommend it thought it was the first place to give correct information about AS and where I started seriously considering that I had it, youth policlinic told me that I had ADHD and skizophreny in addition to AS, but at psychiatrical hospital they were sure that I don't have either).
+
+##### Medicines / Sertralin Orion
+
+I am currently using depression medicine called Sertralin Orion. According to [Google](https://www.google.fi/search?q=Sertalin+Orion&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:fi:official&client=firefox-beta&channel=fflb#hl=fi&client=firefox-beta&hs=qW1&tbo=d&rls=org.mozilla:fi:official&channel=fflb&spell=1&q=Sertralin+Orion&sa=X&ei=_xexUKz0E6WL4gTnlIGADw&ved=0CCwQvwUoAA&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.&fp=93a82c3ec6531c44&bpcl=38897761&biw=1045&bih=373) it can cause a lot of side effects but I haven't encountered big side effects.
+
+It's interesting that I was told to use this, because the product data sheet tells that it mustn't be used to cure depression with people under 18 (I am currently 17 (2012-11-24)) and that it can cause suicidality and anxiety etc.
+
+### Sleeping problems
+
+Usually problems with sleep are part of AS. I have this problem too with falling asleep.
+
+I think that this is because AS people are very interested about something (in my case computers :)) and they think about that something a lot. If you think something interesting you fall asleep slower.
+
+[Melatonin](https://en.wikipedia.org/wiki/Melatonin) is said to help with this and it seems to help me a little.
+
+According to [Finnish Wikipedia](https://fi.wikipedia.org/wiki/Unettomuus) [Melatonin] helps children with AS fall asleep by average of 18 minutes. It also tells that the results had differences with each person and that melatonin increases discontinuity of sleep.
+
+[Melatonin]:https://en.wikipedia.org/wiki/Melatonin
 
 # Why did I type this?
 
