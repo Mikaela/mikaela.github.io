@@ -34,7 +34,13 @@ It doesn't have Android Market nor Google Play officially. Of course it can unof
 
 F-Droid is the solution for this problem. It describes itself as "<em>an easily-installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.</em>".
 
-#### Application compatibility
+### [GetJar](http://getjar.com)
+
+How can I have forgotten GetJar? It's the first place where I ever downloaded phone applications and where [Angry Birds](http://angrybirds.com/) was originally released.
+
+It even works with this tablet like my old Nokia 6125 :D
+
+### Application compatibility
 
 I am experiencing many issues with different applicaltions on this tablet. Luckily [F-Droid] clearly tells where the issue trackers and homepages are.
 
@@ -88,7 +94,7 @@ I will list them in them in table below
 	</tr>
 </table>
 
-Why "Fix in [F-Droid]"? It's the only market, which I have found correctly working on this device.
+Why "Fix in [F-Droid]"? It's the only market which I remembered when I started writing this page. I didn't remember [GetJar](http://getjar.com/) that time.
 
 ## [ADB] logcat doesn't work.
 
