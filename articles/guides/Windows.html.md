@@ -118,6 +118,8 @@ Some people like the new Modern UI (me) and some hate it (my brother). It can be
 
 First download [Pokki] and when you see the start menu, right click it and set the settings you want (boot to desktop & disable hot corners).
 
+[Pokki]:https://www.pokki.com/
+
 <!-- vim : set ft=html -->
 <hr/>
 
