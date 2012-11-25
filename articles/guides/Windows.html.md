@@ -110,6 +110,14 @@ control userpassswords2
 
 Then select user <strong>which is not Administrator</strong> from the list and check the "Users don't need passwords to login" above.
 
+## Disabling Windows 8 Modern UI
+
+Some people like the new Modern UI (me) and some hate it (my brother). It can be disabled easily by installing [Pokki].
+
+[Pokki] is Start Menu for Windows 8 which also has options to login directly to desktop (without seeing Modern UI) and disable hot corners. Pokki also includes inbuild application store where you can <em>get hundreds of free applications.</em>
+
+First download [Pokki] and when you see the start menu, right click it and set the settings you want (boot to desktop & disable hot corners).
+
 <!-- vim : set ft=html -->
 <hr/>
 
