@@ -92,6 +92,7 @@ I will list them in them in table below
 		<td><a href="https://github.com/jackpal/Android-Terminal-Emulator/issues/162" >Crashes immediately after started on ImpressionI10. · Issue #162 · jackpal/Android-Terminal-Emulator</a></td>
 		<td><center>"<em>Assuming your ROM reports that it's API 9 (Android 2.3) or later, it's broken -- java.io.File.canExecute() is documented as being available in API 9 and up.</em>"</center></td>
 	</tr>
+
 </table>
 
 Why "Fix in [F-Droid]"? It's the only market which I remembered when I started writing this page. I didn't remember [GetJar](http://getjar.com/) that time.
@@ -153,6 +154,7 @@ I tried installing some [games from F-Droid] and for some reason they all work. 
 	</tr>
 </table>
 
+Angry Birds doesn't work, but it's from GetJar not from F-Droid :(
 
 [Leader International INC]:http://www.leaderinternationalinc.com/
 [F-Droid]:https://f-droid.org/
