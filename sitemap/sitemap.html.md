@@ -64,6 +64,8 @@ Complaining about some things.
 
 [Thunderbird / Icedove]
 
+[Windows](../articles/guides/Windows.html) — Activating Administrator, removing password without knowing it, netsh tethering, autologin without regedit
+
 [GNOME to MATE]:../articles/guides/GnomeToMATE.html
 [Thunderbird / Icedove]:../articles/guides/Thunderbird-Icedove.html
 

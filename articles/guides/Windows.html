@@ -50,6 +50,11 @@ netsh wlan start hostednetwork</code></pre>
 <p>To see devices which are currently connected to the network, run</p>
 <pre><code>netsh wlan show hostednetwork</code></pre>
 <p>The hosted network gets disabled on reboot, but you can enable it again by running &quot;netsh wlan start hostednetwork&quot; (as administrator). You don't need to do anything else, it remembers the shared network connection.</p>
+<h2 id="automatic-login-without-regedit">Automatic login without regedit</h2>
+<p>Of course, it's possible to set autologin with regedit too, but in my opinion this way is much faster.</p>
+<p>Press Windows + R and then run</p>
+<pre><code>control userpassswords2</code></pre>
+<p>Then select user <strong>which is not Administrator</strong> from the list and check the &quot;Users don't need passwords to login&quot; above.</p>
 <!-- vim : set ft=html -->
 <hr/>
 

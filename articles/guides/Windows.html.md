@@ -98,6 +98,18 @@ netsh wlan show hostednetwork
 
 The hosted network gets disabled on reboot, but you can enable it again by running "netsh wlan start hostednetwork" (as administrator). You don't need to do anything else, it remembers the shared network connection.
 
+## Automatic login without regedit
+
+Of course, it's possible to set autologin with regedit too, but in my opinion this way is much faster.
+
+Press Windows + R and then run 
+
+```
+control userpassswords2
+```
+
+Then select user <strong>which is not Administrator</strong> from the list and check the "Users don't need passwords to login" above.
+
 <!-- vim : set ft=html -->
 <hr/>
 
