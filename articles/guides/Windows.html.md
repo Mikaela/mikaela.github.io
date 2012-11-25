@@ -61,6 +61,43 @@ If you cannot think any password for it, you can use same password as with your 
 
 Remember also to not use the Administrator account for general use.
 
+## Tethering connection without 3rd party tools
+
+This can be done with netsh, but the network doesn't have connection to internet at first.
+
+First open cmd.exe as Administrator (activating administrator account). This requires normal user with administrator rights.
+
+First allow tethering to be used and set SSID and password and start the network.
+
+```
+netsh wlan set hostednetwork mode=allow ssid=mynetwork key=mypassword
+netsh wlan start hostednetwork
+```
+
+NOTE: If you get error about missing svchost service or something else, press Windows + R and run "services" and enable "Wireless autoconfiguration" or something like that.
+
+NOTE2: If you get other error, disable the network card in adapter settings and enable it again. Then run "netsh wlan start hostednetwork again".
+
+NOTE3: If nothing helps, run "netsh wlan show drivers" and ensure that your network card supports hosted/virtual networks.
+
+TODO: I must find out how to not have the network WPA2 secured. Leaving key=mypassword out doesn't seem to work.
+
+<iframe src="https://openwireless.org/widget/150x196/" width="150" height="196" frameborder="0"></iframe>
+
+### Getting internet access to the new network.
+
+Right click the network icon on the taskbar and select "open network and sharing center". Then select "change adapter settings" in the window which opens and right click the connection which you want to share. Click properties and then "Sharing".
+
+Share the connection using your new network which is something like "Wireless Local Area Connection 2" and uncheck "let others manage this connection", but remember to keep "let other users access the internet using this connection" checked. Then click "OK" or "apply" and your tethered network has internet access.
+
+To see devices which are currently connected to the network, run
+
+```
+netsh wlan show hostednetwork
+```
+
+The hosted network gets disabled on reboot, but you can enable it again by running "netsh wlan start hostednetwork" (as administrator). You don't need to do anything else, it remembers the shared network connection.
+
 <!-- vim : set ft=html -->
 <hr/>
 
