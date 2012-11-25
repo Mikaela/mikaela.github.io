@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <!-- <meta http-equiv="refresh" content="60" /> -->
-<meta name="description" content="Interesting things with Windows (mainly 8 or 7)." />
+<meta name="description" content="Interesting things with Windows (mainly 8 or 7). Activating administrator, tethering without 3rd party tools, removing passwords without knowing them, automatically logging in without regedit..." />
 <meta name="keywords" content="Windows,Windows7,Windows8,7,8,netsh,WLAN,tether,connection,sharing,Administrator,root,enable," />
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Windows.html">
