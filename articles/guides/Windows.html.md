@@ -80,7 +80,7 @@ NOTE2: If you get other error, disable the network card in adapter settings and 
 
 NOTE3: If nothing helps, run "netsh wlan show drivers" and ensure that your network card supports hosted/virtual networks.
 
-TODO: I must find out how to not have the network WPA2 secured. Leaving key=mypassword out doesn't seem to work.
+According to [superuser user Soumya](http://superuser.com/a/308692) it's not possible to have open hosted network :(.
 
 <iframe src="https://openwireless.org/widget/150x196/" width="150" height="196" frameborder="0"></iframe>
 

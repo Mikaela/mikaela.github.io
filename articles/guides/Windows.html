@@ -41,7 +41,7 @@ netsh wlan start hostednetwork</code></pre>
 <p>NOTE: If you get error about missing svchost service or something else, press Windows + R and run &quot;services&quot; and enable &quot;Wireless autoconfiguration&quot; or something like that.</p>
 <p>NOTE2: If you get other error, disable the network card in adapter settings and enable it again. Then run &quot;netsh wlan start hostednetwork again&quot;.</p>
 <p>NOTE3: If nothing helps, run &quot;netsh wlan show drivers&quot; and ensure that your network card supports hosted/virtual networks.</p>
-<p>TODO: I must find out how to not have the network WPA2 secured. Leaving key=mypassword out doesn't seem to work.</p>
+<p>According to <a href="http://superuser.com/a/308692">superuser user Soumya</a> it's not possible to have open hosted network :(.</p>
 <iframe src="https://openwireless.org/widget/150x196/" width="150" height="196" frameborder="0"></iframe>
 
 <h3 id="getting-internet-access-to-the-new-network.">Getting internet access to the new network.</h3>
