@@ -8,7 +8,7 @@
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Windows.html">
 <title>Interesting things to do with Windows</title>
-<link rel="stylesheet" type="text/css" href="tyyli.css" />
+<link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
 <body>
 <hr/>
