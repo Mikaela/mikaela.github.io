@@ -54,7 +54,7 @@
 	</tr>
 </table>
 
-# Notice about aptitude
+## Notice about aptitude
 
 If you don't have aptitude installed, you can get it with
 
@@ -64,7 +64,7 @@ as root or if you don't want to use it,
 
 > alias aptitude=apt-get
 
-# Removing GNOME versions.
+## Removing GNOME versions.
 
 If you want to remove GNOME versions, just run
 
@@ -72,7 +72,7 @@ If you want to remove GNOME versions, just run
 
 as root.
 
-# Removing MATE versions
+## Removing MATE versions
 
 If you want to remove MATE versions, just run
 
@@ -80,9 +80,9 @@ If you want to remove MATE versions, just run
 
 as root.
 
-# WARNING: You do everything on this page with your own risk.
+<strong>WARNING: You do everything on this page with your own risk.</strong>
 
-# Sources
+## Sources
 
 [MATE applicaltions]
 
@@ -92,3 +92,32 @@ Own experience with Linux since 2008.
 
 </body>
 </html>
+
+<em>WARNING: These guides are very unclear and I should use time to make them understandable etc.</em> says sitemap.</em>
+
+<hr/>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_developer = 0; 
+var disqus_url = 'http://mkaysi.github.com/articles/guides/GnomeToMATE.html';
+var disques_title = 'Moving from GNOME to MATE';
+var disqus_shortname = 'mkaysishomepage'; // required: replace example with your forum shortname
+/* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = 
+true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0])
+.appendChild(dsq);
+            })();
+        </script>
+        <noscript>
+Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Dis
+qus.</a>
+</noscript>
+        
+<p><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus
+</span></a></p>
+<!-- vim : set ft=html -->
