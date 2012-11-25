@@ -88,9 +88,11 @@ On my current school (vocational school, it's after junior high school in Finnis
 
 When I was at psychiatrical hospital for the second time (after publishing suicidal version of this page and failing fourth suicide attempt) there was one bully at the hospital and I heard an interesting story about this bullying method from another person there who had been told about it by the bully.
 
-<em>He told me that they had shown you porn and you had left running and screaming "no more"</em>.
+<em>He told me that they had shown you porn and you had left running and screaming "no more. He also said that when you are talking with teachers, you only look at ground."</em>
 
 What makes this interesting is that neither the bully nor the person who told me about this knew that I think it as bullying before I told that person who told me. The real version is that they shouted me to <em>look here is Ubuntu</em> as I told previously and after noticing what it was in reality I left walking normally with normal face and went in front of class room where the next lesson was starting shortly.
+
+As far as looking at ground is conserned, it's still AS feature to not look at other people in the eyes. I'm not sure about looking at ground, because I usually look at wall or computer or somewhere behind the person whom I am talking to.
 
 <hr/>
 
