@@ -16,6 +16,22 @@ Interesting things to do with Windows
 <h2 id="removing-password-without-administrator-access.">Removing password without Administrator access.</h2>
 <p>This can be done easily with <a href="http://pogostick.net/~pnh/ntpasswd/">ntpasswd</a>. It also has other features, but I only recommend using the &quot;blank password&quot; / &quot;remove password&quot; function as it's the most working one. This feature should work with Windows XP too, but I have only tried it with 7 and 8.</p>
 <p>I don't type usage instructions here, because <a href="http://pogostick.net/~pnh/ntpasswd/">ntpasswd</a> has enough good documentation and it's easy to use anyway.</p>
+<h2 id="enabling-administrator-account">Enabling Administrator account</h2>
+<p>Administrator is <em>root (Linux/Mac/*NIX SuperUser) of Windows</em>. Some people prefer to be able to login as root/Administrator directly in emmergency or if they need to do something as root quickly.</p>
+<p>To enable this account open cmd.exe as Administrator.</p>
+<p>Windows 8: You can do this by going to ModernUI by pressing Windows button or activating the hot corner on bottom left. Then start typing (or type) &quot;cmd&quot;, right click &quot;Command Prompt&quot; which appears and select &quot;Run as Administrator&quot;.</p>
+<p>Windows 7: Open Start menu by pressing Windows button or by clicking the start menu. Then start searching for &quot;cmd&quot; and you should receive result &quot;cmd.exe&quot; or &quot;Command Prompt&quot;. Right click it and select &quot;run as Administrator&quot;.</p>
+<p>Now you are on cmd.exe which is running as Administrator. Next you must find out what is the Administrator account called. It depends on which language Windows was originally installed.</p>
+<p>With English installation the Administrator account is &quot;Administrator&quot; and in Finnish installation &quot;Järjestelmänvalvoja&quot;. You can see the list of users including Administrator by running</p>
+<pre><code>net user</code></pre>
+<p>(Todo: add example output).</p>
+<p>Now you should know the name of Administrator account and you can enable it running:</p>
+<pre><code>net user Administrator /active:yes</code></pre>
+<p>Where you replace &quot;Administrator&quot; with the account which is Administrator in &quot;net user&quot; e.g. Järjestelmänvalvoja. If you want to disable it, simply change &quot;/active:yes&quot; to &quot;/active no&quot;.</p>
+<p><strong>Administrator doesn't have password set by default</strong> so now go to Control Panel and Users. Select &quot;manage other user&quot; and then select &quot;Administrator&quot; and set password for it.</p>
+<p>If you cannot think any password for it, you can use same password as with your own account in emmergency like <a href="http://linuxmint.com/">Linux Mint</a> is doing. It uses the password of the user which was created in installation as root password. With <a href="http://ubuntu.com/">Ubuntu</a> root account is disabled by default and it can be enabled by running &quot;sudo passwd root&quot; and setting password.</p>
+<p><strong>You must set password for Administrator, because that account can do everything without User Access Control (UAC) prompts!</strong></p>
+<p>Remember also to not use the Administrator account for general use.</p>
 <!-- vim : set ft=html -->
 <hr/>
 

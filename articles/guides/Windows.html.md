@@ -25,6 +25,42 @@ I don't type usage instructions here, because [ntpasswd] has enough good documen
 
 [ntpasswd]:http://pogostick.net/~pnh/ntpasswd/
 
+## Enabling Administrator account
+
+Administrator is <em>root (Linux/Mac/*NIX SuperUser) of Windows</em>. Some people prefer to be able to login as root/Administrator directly in emmergency or if they need to do something as root quickly.
+
+To enable this account open cmd.exe as Administrator.
+
+Windows 8: You can do this by going to ModernUI by pressing Windows button or activating the hot corner on bottom left. Then start typing (or type) "cmd", right click "Command Prompt" which appears and select "Run as Administrator".
+
+Windows 7: Open Start menu by pressing Windows button or by clicking the start menu. Then start searching for "cmd" and you should receive result "cmd.exe" or "Command Prompt". Right click it and select "run as Administrator".
+
+Now you are on cmd.exe which is running as Administrator. Next you must find out what is the Administrator account called. It depends on which language Windows was originally installed.
+
+With English installation the Administrator account is "Administrator" and in Finnish installation "Järjestelmänvalvoja". You can see the list of users including Administrator by running
+
+```
+net user
+```
+
+(Todo: add example output).
+
+Now you should know the name of Administrator account and you can enable it running:
+
+```
+net user Administrator /active:yes
+```
+
+Where you replace "Administrator" with the account which is Administrator in "net user" e.g. Järjestelmänvalvoja. If you want to disable it, simply change "/active:yes" to "/active no".
+
+<strong>Administrator doesn't have password set by default</strong> so now go to Control Panel and Users. Select "manage other user" and then select "Administrator" and set password for it.
+
+If you cannot think any password for it, you can use same password as with your own account in emmergency like [Linux Mint](http://linuxmint.com/) is doing. It uses the password of the user which was created in installation as root password. With [Ubuntu](http://ubuntu.com/) root account is disabled by default and it can be enabled by running "sudo passwd root" and setting password.
+
+<strong>You must set password for Administrator, because that account can do everything without User Access Control (UAC) prompts!</strong>
+
+Remember also to not use the Administrator account for general use.
+
 <!-- vim : set ft=html -->
 <hr/>
 
