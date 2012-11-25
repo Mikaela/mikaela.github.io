@@ -21,7 +21,7 @@ You can do interesting things with Windows 8 and 7. For example you can tether y
 
 This can be done easily with [ntpasswd]. It also has other features, but I only recommend using the "blank password" / "remove password" function as it's the most working one. This feature should work with Windows XP too, but I have only tried it with 7 and 8.
 
-I don't type usage instructions here, because [ntpassword] has enough good documentation and it's easy to use anyway.
+I don't type usage instructions here, because [ntpasswd] has enough good documentation and it's easy to use anyway.
 
 [ntpasswd]:http://pogostick.net/~pnh/ntpasswd/
 
