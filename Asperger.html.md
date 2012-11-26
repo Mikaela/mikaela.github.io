@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<meta name="description" content="My experiences with Asperger's syndrome." />
+<meta name="description" content="My experiences with Asperger's syndrome. It seems that I am accepted as what I am." />
 <meta name="keywords" content="Asperger,syndrome,neurology,psychology,suicide,suicidality,depression,school,bullying,sertralin,orion,medicine,sleep,sleeping,problem,problems," />
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/Asperger.html">
@@ -14,9 +14,12 @@
 [Sitemap](sitemap/sitemap.html)
 <hr/>
 
-Message to people who come from [Finnish index](index.fi.html): <strong>Tämä sivu käännetään suomeksi myöhemmin.</strong>
+Message to people who come from [Finnish index](index.fi.html): <strong>Tämä sivu käännetään suomeksi myöhemmin.</strong> Odottaessasi voit lukea tämän tiivistelmän: <strong>Minulla on [Aspergerin oireyhtymä](https://fi.wikipedia.org/wiki/Aspergerin_oireyhtym%C3%A4) ja olen yrittänyt tappaa itseni neljä (4) kertaa johtuen eri syistä mukaanlukien koulukiusaaminen.</strong> Katso myös [Wikipedian luettelo tunnetuista Autismin kirjon henkilöistä](https://fi.wikipedia.org/wiki/Luettelo_tunnetuista_autismin_kirjon_henkil%C3%B6ist%C3%A4)
 
-<strong><em>What is put into the internet stays in the internet,</em> so I am not going to remove this page. According to the original plan, I should have been dead at the time when this page was published but I am not and I won't be. It was my desicion to publish this information and I am going to follow it. I hope that this page helps someone else who has AS or helps to understand person with AS.</strong>
+<strong><em>What is put into the internet stays in the internet,</em> so I am not going to remove this page.</strong> After the following discussion I think that I am accepted as what I am even at school and I probably won't be bullied again in near future (maybe it starts again the day after tomorrow or next week as it always does).
+
+<em>Were you ill?</em>. (Background information: I was away from school for two weeks / 60 hours.) 
+|| <em>I tried to kill myself for the fourth time and was at [Kuusankoski psychiatrical hospital] for two weeks. || After this one teacher joined the discussion and asked whether I am on able to be at school now and after I said that I can, they said that <em>everyone should be polite to everyone, because they can never known is on heart of another person</em>. This was the important part of that discussion.
 
 # What is Asperger's syndrome?
 
