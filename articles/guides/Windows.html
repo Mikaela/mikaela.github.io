@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" /> <!-- <meta http-equiv="refresh" content="60" /> --> <meta name="description" content="Interesting things with Windows (mainly 8 or 7). Activating administrator, tethering without 3rd party tools, removing passwords without knowing them, automatically logging in without regedit..." /> <meta name="keywords" content="Windows,Windows7,Windows8,7,8,netsh,WLAN,tether,connection,sharing,Administrator,root,enable," /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Windows.html">
+<meta charset="UTF-8" /> <!-- <meta http-equiv="refresh" content="60" /> --> <meta name="description" content="Interesting things with Windows (mainly 8 or 7). Activating administrator, tethering without 3rd party tools, removing passwords without knowing them, automatically logging in without regedit, USB installation..." /> <meta name="keywords" content="Windows,Windows7,Windows8,7,8,netsh,WLAN,tether,connection,sharing,Administrator,root,enable,USB,rearm,slmgr,ei,ei.cfg,cfg," /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Windows.html">
 <title>
 Interesting things to do with Windows
 </title>
@@ -59,6 +59,77 @@ netsh wlan start hostednetwork</code></pre>
 <p>Some people like the new Modern UI (me) and some hate it (my brother). It can be disabled easily by installing <a href="https://www.pokki.com/">Pokki</a>.</p>
 <p><a href="https://www.pokki.com/">Pokki</a> is Start Menu for Windows 8 which also has options to login directly to desktop (without seeing Modern UI) and disable hot corners. Pokki also includes inbuild application store where you can <em>get hundreds of free applications.</em></p>
 <p>First download <a href="https://www.pokki.com/">Pokki</a> and when you see the start menu, right click it and set the settings you want (boot to desktop &amp; disable hot corners).</p>
+<h2 id="creating-windows-usb-install">Creating Windows USB install</h2>
+<div id=usb>
+
+<p><a href="http://www.raivogalleria.net/?p=1388">RaivoGalleria</a> has good instructions on how to create bootable Windows USB stick, but iẗ́'s in Finnish. It uses Windows internal utilities instead of Windows 7 USB creator tool, so you don't need .net framework.</p>
+<ol class="incremental" style="list-style-type: decimal">
+<li><p>Plug in the stick and open cmd.exe as Administrator (right click it in Start menu/Modern UI and select &quot;run as Administrator).</p></li>
+<li><p>Enter the following commands <strong>replacing X with your USB stick number</strong>. WARNING: This will erase everything on that stick.</p></li>
+</ol>
+<pre><code>diskpart
+list disk
+select disk X
+clean
+create partition primary
+select partition 1
+active
+format fs=ntfs</code></pre>
+<p>The formatting will take some time... After it's done, enter these two commands:</p>
+<pre><code>assign
+exit</code></pre>
+<p>Now minimize the command prompt, you will need it soon.</p>
+<ol class="incremental" start="4" style="list-style-type: decimal">
+<li><p>Mount the Windows 8 image. If you are using Windows 8, simply double click it. Otherwise download use <a href="http://www.daemon-tools.cc/eng/home">Daemon-Tools</a>.</p></li>
+<li><p>Open the command prompt again and replace the first X: with drive letter of the virtual drive containing Windows installation image and the second with USB stick letter.</p></li>
+</ol>
+<pre><code>X:
+cd boot
+bootsect.exe /nt60 X:
+exit</code></pre>
+<p>Now open the virtual drive and copy-paste all files to the USB stick. Then read the next section of this page unless you made Windows 8 Enterprise stick.</p>
+</div>
+
+<h2 id="installing-all-versions-from-single-media">Installing all versions from single media</h2>
+<div id=eicfg>
+
+<p>First disable hiding of extensions of known file types in folder options if you haven't done so already. Then go to the USB stick and open folder sources.</p>
+<p>Create a new file called &quot;ei.cfg&quot; (NOT &quot;ei.cfg.txt&quot; which you will get if you hide extentions of known file types!).</p>
+<p>Then paste the following into it:</p>
+<pre><code>[EditionID]
+
+[Channel]
+Retail
+[VL]
+0</code></pre>
+<p>and save. Note that the second line must be empty.</p>
+<p>Now try booting from the stick and press &quot;install&quot;. You will get a menu asking whether you want to install &quot;Windows 8 Pro&quot; or &quot;Windows 8&quot; (this doesn't work with Enterprise). If you don't want to boot, press the X on top right corner and then click it again and your computer reboots.</p>
+<p>This method also removes asking of product key from installation.</p>
+<p><strong>Vista &amp; 7 users: remove the ei.cfg file to get this menu if you aren't installing Windows 8).</strong></p>
+</div>
+
+<!--## Extending the trial period
+<div id=rearm>
+
+Windows offers trial period of 30 days by default. When that time has went, you can open cmd.exe as Administrator and run
+
+```
+slmgr /rearm
+```
+
+to get another 30 days. This can be repeated three times so you will get 90 days.
+
+To check how many rearms you have left, simply run
+
+```
+slmgr -dlv
+```
+
+I have heard that there is registry value which allows the rearm time to be reset some times, but I haven't tried it.
+
+</div>
+-->
+
 <!-- vim : set ft=html -->
 <hr/>
 

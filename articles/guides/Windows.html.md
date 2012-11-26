@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <!-- <meta http-equiv="refresh" content="60" /> -->
-<meta name="description" content="Interesting things with Windows (mainly 8 or 7). Activating administrator, tethering without 3rd party tools, removing passwords without knowing them, automatically logging in without regedit..." />
-<meta name="keywords" content="Windows,Windows7,Windows8,7,8,netsh,WLAN,tether,connection,sharing,Administrator,root,enable," />
+<meta name="description" content="Interesting things with Windows (mainly 8 or 7). Activating administrator, tethering without 3rd party tools, removing passwords without knowing them, automatically logging in without regedit, USB installation..." />
+<meta name="keywords" content="Windows,Windows7,Windows8,7,8,netsh,WLAN,tether,connection,sharing,Administrator,root,enable,USB,rearm,slmgr,ei,ei.cfg,cfg," />
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Windows.html">
 <title>Interesting things to do with Windows</title>
@@ -119,6 +119,101 @@ Some people like the new Modern UI (me) and some hate it (my brother). It can be
 First download [Pokki] and when you see the start menu, right click it and set the settings you want (boot to desktop & disable hot corners).
 
 [Pokki]:https://www.pokki.com/
+
+## Creating Windows USB install
+<div id=usb>
+
+[RaivoGalleria](http://www.raivogalleria.net/?p=1388) has good instructions on how to create bootable Windows USB stick, but iẗ́'s in Finnish. It uses Windows internal utilities instead of Windows 7 USB creator tool, so you don't need .net framework.
+
+1. Plug in the stick and open cmd.exe as Administrator (right click it in Start menu/Modern UI and select "run as Administrator).
+
+2. Enter the following commands <strong>replacing X with your USB stick number</strong>. WARNING: This will erase everything on that stick.
+
+```
+diskpart
+list disk
+select disk X
+clean
+create partition primary
+select partition 1
+active
+format fs=ntfs
+```
+
+The formatting will take some time... After it's done, enter these two commands:
+
+```
+assign
+exit
+```
+
+Now minimize the command prompt, you will need it soon.
+
+4. Mount the Windows 8 image. If you are using Windows 8, simply double click it. Otherwise download use [Daemon-Tools](http://www.daemon-tools.cc/eng/home).
+
+
+5. Open the command prompt again and replace the first X: with drive letter of the virtual drive containing Windows installation image and the second with USB stick letter.
+
+```
+X:
+cd boot
+bootsect.exe /nt60 X:
+exit
+```
+
+Now open the virtual drive and copy-paste all files to the USB stick. Then read the next section of this page unless you made Windows 8 Enterprise stick.
+
+</div>
+
+## Installing all versions from single media
+<div id=eicfg>
+
+First disable hiding of extensions of known file types in folder options if you haven't done so already. Then go to the USB stick and open folder sources.
+
+Create a new file called "ei.cfg" (NOT "ei.cfg.txt" which you will get if you hide extentions of known file types!).
+
+Then paste the following into it:
+
+```
+[EditionID]
+
+[Channel]
+Retail
+[VL]
+0
+```
+
+and save. Note that the second line must be empty.
+
+Now try booting from the stick and press "install". You will get a menu asking whether you want to install "Windows 8 Pro" or "Windows 8" (this doesn't work with Enterprise). If you don't want to boot, press the X on top right corner and then click it again and your computer reboots.
+
+This method also removes asking of product key from installation.
+
+<strong>Vista & 7 users: remove the ei.cfg file to get this menu if you aren't installing Windows 8).</strong>
+
+</div>
+
+<!--## Extending the trial period
+<div id=rearm>
+
+Windows offers trial period of 30 days by default. When that time has went, you can open cmd.exe as Administrator and run
+
+```
+slmgr /rearm
+```
+
+to get another 30 days. This can be repeated three times so you will get 90 days.
+
+To check how many rearms you have left, simply run
+
+```
+slmgr -dlv
+```
+
+I have heard that there is registry value which allows the rearm time to be reset some times, but I haven't tried it.
+
+</div>
+-->
 
 <!-- vim : set ft=html -->
 <hr/>
