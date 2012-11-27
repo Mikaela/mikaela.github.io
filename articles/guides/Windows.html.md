@@ -161,12 +161,14 @@ bootsect.exe /nt60 X:
 exit
 ```
 
-Now open the virtual drive and copy-paste all files to the USB stick. Then read the next section of this page unless you made Windows 8 Enterprise stick.
+Now open the virtual drive and copy-paste all files to the USB stick. Then read the next section of this page unless you made Windows * Enterprise stick.
 
 </div>
 
 ## Installing all versions from single media
 <div id=eicfg>
+
+<strong>Important notes:</strong>. This <strong>doesn't work with any Windows Enterprise version disk</strong> and this <strong>allows installing without product key.</strong> If you are using <strong>earlier Windows than 8 remove the ei.cfg</strong> from "sources" folder instead of creating it.
 
 First disable hiding of extensions of known file types in folder options if you haven't done so already. Then go to the USB stick and open folder sources.
 
@@ -189,12 +191,12 @@ Now try booting from the stick and press "install". You will get a menu asking w
 
 This method also removes asking of product key from installation.
 
-<strong>Vista & 7 users: remove the ei.cfg file to get this menu if you aren't installing Windows 8).</strong>
-
 </div>
 
-<!--## Extending the trial period
+## Extending the trial period
 <div id=rearm>
+
+Thank you for the tip [nyuszika7h](https://github.com/nyuszika7h) :)
 
 Windows offers trial period of 30 days by default. When that time has went, you can open cmd.exe as Administrator and run
 
@@ -202,7 +204,7 @@ Windows offers trial period of 30 days by default. When that time has went, you 
 slmgr /rearm
 ```
 
-to get another 30 days. This can be repeated three times so you will get 90 days.
+to get another 30 days (Windows 7 Enterprise gives only 10). This can be repeated three times (with Windows 7 Enterprise six) so you will get 90 days.
 
 To check how many rearms you have left, simply run
 
@@ -213,7 +215,6 @@ slmgr -dlv
 I have heard that there is registry value which allows the rearm time to be reset some times, but I haven't tried it.
 
 </div>
--->
 
 <!-- vim : set ft=html -->
 <hr/>
