@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <!-- <meta http-equiv="refresh" content="60" /> -->
-<meta name="description" content="Interesting things with Windows (mainly 8 or 7). Activating administrator, tethering without 3rd party tools, removing passwords without knowing them, automatically logging in without regedit, USB installation..." />
-<meta name="keywords" content="Windows,Windows7,Windows8,7,8,netsh,WLAN,tether,connection,sharing,Administrator,root,enable,USB,rearm,slmgr,ei,ei.cfg,cfg," />
+<meta name="description" content="Interesting things with Windows (mainly 8 or 7). Activating administrator, tethering without 3rd party tools, creating bootable USB stick, installing applications which aren't localized from store, unlocking hidden menu & skipping product key question in installation and more." />
+<meta name="keywords" content="Windows,Windows7,Windows8,7,8,netsh,WLAN,tether,connection,sharing,Administrator,root,enable,USB,rearm,slmgr,ei,ei.cfg,cfg,store,unlocalized,applications" />
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/Windows.html">
 <title>Interesting things to do with Windows</title>
@@ -215,6 +215,16 @@ slmgr -dlv
 I have heard that there is registry value which allows the rearm time to be reset some times, but I haven't tried it.
 
 </div>
+
+## Installing applications not localized to your language
+
+I am using Windows 8 in Finnish and I noticed that some applications which I knew to be in store were missing. This was because they weren't translated into Finnish yet. The store was also telling me to install one update which didn't exist.
+
+Simply press the Windows button, type "languages" and select "options". Then click "add a language", select "English" and then "English (United States). 
+
+Now the Store should also show English applications to you too.
+
+If you are interested, the update which didn't exist in Finnish was for [Skype for Windows 8](http://skype.com).
 
 <!-- vim : set ft=html -->
 <hr/>
