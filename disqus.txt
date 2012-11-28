@@ -25,3 +25,5 @@ qus.</a>
 <p><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus
 </span></a></p>
 <!-- vim : set ft=html -->
+</body>
+</html>
