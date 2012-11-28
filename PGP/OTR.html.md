@@ -9,6 +9,9 @@
 <title>My OTR keys</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
+<hr/>
+[Sitemap](sitemap/sitemap.html)
+<hr/>
 
 # OTR
 
