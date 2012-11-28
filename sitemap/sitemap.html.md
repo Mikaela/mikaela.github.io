@@ -89,11 +89,17 @@ Complaining about some things.
 [Web interface of my bot]:../IRC/OtusBot.html
 [Security issues of stock Supybot]:../IRC/Supybot.html
 
-<strong>EVERYTHING BELOW THIS LINE IS UNDER CONSTRUCTION!</strong>
-<hr/>
-
 ## /PGP/
 
-## /Prey/
+[Replying to PGP clearsigned email](../PGP/Replies.html)
+
+[Fingerprints of my OTR keys](../PGP/OTR.html]
+
+[Why do I sign emails?](../PGP/WhyDoISignEmails.html)
+
 
 ## /sitemap/
+
+[English sitemap](sitemap.html)
+
+[Finnish sitemap](sitemap.html)
