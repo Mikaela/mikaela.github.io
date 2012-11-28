@@ -23,7 +23,9 @@ curl -OL http://mkaysi.github.com/PGP/OTR.html.md.asc
 
 ...and then run...
 
-> gpg --verify OTR.html.md.asc
+```
+gpg --verify OTR.html.md.asc
+```
 
 ... You should get something like "UNTRUSTED: Good signature from Mika Suomalainen".
 
