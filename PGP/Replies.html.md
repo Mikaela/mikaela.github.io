@@ -9,6 +9,9 @@
 <title>What to remove in replies to PGP/INLINE signed emails.</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
+<hr/>
+[Sitemap](sitemap/sitemap.html)
+<hr/>
 
 # What you should remove from email, when you reply into PGP/INLINE signed email.
 
