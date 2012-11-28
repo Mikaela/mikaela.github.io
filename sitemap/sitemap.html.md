@@ -93,7 +93,7 @@ Complaining about some things.
 
 [Replying to PGP clearsigned email](../PGP/Replies.html)
 
-[Fingerprints of my OTR keys](../PGP/OTR.html]
+[Fingerprints of my OTR keys](../PGP/OTR.html)
 
 [Why do I sign emails?](../PGP/WhyDoISignEmails.html)
 
