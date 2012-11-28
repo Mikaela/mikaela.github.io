@@ -93,7 +93,7 @@ exit</code></pre>
 <h2 id="installing-all-versions-from-single-media">Installing all versions from single media</h2>
 <div id=eicfg>
 
-<p><strong>Important notes:</strong>. This <strong>doesn't work with any Windows Enterprise version disk</strong> and this <strong>allows installing without product key.</strong> If you are using <strong>earlier Windows than 8 remove the ei.cfg</strong> from &quot;sources&quot; folder instead of creating it.</p>
+<p><strong>Important notes:</strong>. This <strong>doesn't work with any Windows Enterprise version disk</strong> (because those disks contain only Enterprise. Normal versions of Windows don't contain Eterprise either) and this <strong>allows installing without product key.</strong> If you are using <strong>earlier Windows than 8 remove the ei.cfg</strong> from &quot;sources&quot; folder instead of creating it.</p>
 <p>First disable hiding of extensions of known file types in folder options if you haven't done so already. Then go to the USB stick and open folder sources.</p>
 <p>Create a new file called &quot;ei.cfg&quot; (NOT &quot;ei.cfg.txt&quot; which you will get if you hide extentions of known file types!).</p>
 <p>Then paste the following into it:</p>
@@ -104,8 +104,8 @@ Retail
 [VL]
 0</code></pre>
 <p>and save. Note that the second line must be empty.</p>
-<p>Now try booting from the stick and press &quot;install&quot;. You will get a menu asking whether you want to install &quot;Windows 8 Pro&quot; or &quot;Windows 8&quot; (this doesn't work with Enterprise). If you don't want to boot, press the X on top right corner and then click it again and your computer reboots.</p>
-<p>This method also removes asking of product key from installation.</p>
+<p>Now try booting from the stick and press &quot;install&quot;. You will get a menu asking whether you want to install &quot;Windows 8 Pro&quot; or &quot;Windows 8&quot; (with Windows 7 you would see all versions except Starter if you use 64-bi disk). If you don't want to install, press the X on top right corner and then click it again and your computer reboots.</p>
+<p>If you don't have license for that Windows version which you installed, don't worry. You can extent the trial period using the method below.</p>
 </div>
 
 <h2 id="extending-the-trial-period">Extending the trial period</h2>

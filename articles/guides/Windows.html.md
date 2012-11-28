@@ -168,7 +168,7 @@ Now open the virtual drive and copy-paste all files to the USB stick. Then read 
 ## Installing all versions from single media
 <div id=eicfg>
 
-<strong>Important notes:</strong>. This <strong>doesn't work with any Windows Enterprise version disk</strong> and this <strong>allows installing without product key.</strong> If you are using <strong>earlier Windows than 8 remove the ei.cfg</strong> from "sources" folder instead of creating it.
+<strong>Important notes:</strong>. This <strong>doesn't work with any Windows Enterprise version disk</strong> (because those disks contain only Enterprise. Normal versions of Windows don't contain Eterprise either) and this <strong>allows installing without product key.</strong> If you are using <strong>earlier Windows than 8 remove the ei.cfg</strong> from "sources" folder instead of creating it.
 
 First disable hiding of extensions of known file types in folder options if you haven't done so already. Then go to the USB stick and open folder sources.
 
@@ -187,9 +187,9 @@ Retail
 
 and save. Note that the second line must be empty.
 
-Now try booting from the stick and press "install". You will get a menu asking whether you want to install "Windows 8 Pro" or "Windows 8" (this doesn't work with Enterprise). If you don't want to boot, press the X on top right corner and then click it again and your computer reboots.
+Now try booting from the stick and press "install". You will get a menu asking whether you want to install "Windows 8 Pro" or "Windows 8" (with Windows 7 you would see all versions except Starter if you use 64-bi disk). If you don't want to install, press the X on top right corner and then click it again and your computer reboots.
 
-This method also removes asking of product key from installation.
+If you don't have license for that Windows version which you installed, don't worry. You can extent the trial period using the method below.
 
 </div>
 
