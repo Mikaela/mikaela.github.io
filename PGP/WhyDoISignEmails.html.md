@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
 <hr/>
-[Sitemap](sitemap/sitemap.html)
+[Sitemap](../sitemap/sitemap.html)
 <hr/>
 
 # Signing emails.
