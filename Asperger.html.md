@@ -16,10 +16,7 @@
 
 Message to people who come from [Finnish index](index.fi.html): <strong>Tämä sivu käännetään suomeksi myöhemmin.</strong> Odottaessasi voit lukea tämän tiivistelmän: <strong>Minulla on [Aspergerin oireyhtymä](https://fi.wikipedia.org/wiki/Aspergerin_oireyhtym%C3%A4) ja olen yrittänyt tappaa itseni neljä (4) kertaa johtuen eri syistä mukaanlukien koulukiusaaminen.</strong> Katso myös [Wikipedian luettelo tunnetuista Autismin kirjon henkilöistä](https://fi.wikipedia.org/wiki/Luettelo_tunnetuista_autismin_kirjon_henkil%C3%B6ist%C3%A4)
 
-<strong><em>What is put into the internet stays in the internet,</em> so I am not going to remove this page.</strong> After the following discussion I think that I am accepted as what I am even at school and I probably won't be bullied again in near future (maybe it starts again the day after tomorrow or next week as it always does).
-
-<em>Were you ill?</em>. (Background information: I was away from school for two weeks / 60 hours.) 
-|| <em>I tried to kill myself for the fourth time and was at [Kuusankoski psychiatrical hospital] for two weeks. || After this one teacher joined the discussion and asked whether I am on able to be at school now and after I said that I can, they said that <em>everyone should be polite to everyone, because they can never known is on heart of another person</em>. This was the important part of that discussion.
+<strong><em>What is put into the internet stays in the internet,</em> so I am not going to remove this page.</strong>
 
 # What is Asperger's syndrome?
 
@@ -109,6 +106,10 @@ People also seem to have need for coming to talk to me when I don't want to talk
 
 There are many other ways which I was bullied too, but these are the ones which bother me most.
 
+<hr/>
+
+Even if there isn't bullying right now, it will begin again tomorrow or day after tomorrow or next week or in the near future.
+
 #### Depression
 
 Risk of depression is usually part of Asperger's syndrome. My depression has caused me to try committing suicide four times, end junior high school before it ended, spend some months in psyciathrical hospital (two times but the second stay is only two weeks) (I don't recommend it thought it was the first place to give correct information about AS and where I started seriously considering that I had it, youth policlinic told me that I had ADHD and skizophreny in addition to AS, but at psychiatrical hospital they were sure that I don't have either).
@@ -133,7 +134,7 @@ According to [Finnish Wikipedia](https://fi.wikipedia.org/wiki/Unettomuus) [Mela
 
 # Why did I type this?
 
-I originally typed this page to get suicide reason (I expect people to use this page against me), but now I am keeping this page just because I already published it. See also the bolded notice on top of this page.
+I originally typed this page to announce my suicide and I expected people to use this page against me, but it they didn't (even if comments are open for hate messages which I am still waiting). Now I am keeping this page just because I already published it. See also the bolded notice on top of this page.
 
 <hr/>
 
