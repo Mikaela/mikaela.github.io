@@ -1,5 +1,9 @@
 ## Linux Mint Debian Edition / LMDE
 
+## If you encounter issues about release file being invalid/expired on Debian or LMDE, add
+# Acquire::Check-Valid-Until "false"; 
+## to /etc/apt/apt.conf.d/80mintupdate-debian and run apt-get update
+
 ## LMDE main repositories
 deb http://packages.linuxmint.com/ debian main upstream import
 deb http://debian.linuxmint.com/latest testing main contrib non-free
