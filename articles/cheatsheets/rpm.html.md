@@ -19,6 +19,12 @@
 
 This is my cheatsheet for setting up distribution using rpm. I am more experienced with distributions using dpkg, so I need this a little in the beginning.
 
+<strong>Note on Fedora: install package "yum-plugin-fastestmirror" to always get the fastest mirror!</strong>. It comes with CentOS by default and is like http.debian.net and mirrors.ubuntu.com from Debian side of Linux family.
+
+```
+yum install yum-plugin-fastestmirror
+```
+
 ## Installing Virtualbox guest additions
 
 Start by installing dkms from [EPEL](https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F).
