@@ -93,11 +93,11 @@ to end of every section where X is replaced with actual priority.
 
 [CentOS wiki](http://wiki.centos.org/PackageManagement/Yum/Priorities) suggests the following priorities:
 
-CentOS-Base: everything is priority=1 except contrib priority=2
+CentOS-Base/default repositories: everything is priority=1 except contrib priority=2
 
 Third party repositories (EPEL,rpmforge) should be > 10 and other should be more preferred than other. I used
 
-epel 10 rpmforge 11 rpmfusion 12 livna 12 (Livna provides only libdvdcss and other packages have been moved to rpmfusion.)
+<strong>epel 10 rpmforge 11 rpmfusion 12 livna 12</strong> (Livna provides only libdvdcss and other packages have been moved to rpmfusion.)
 
 Now you should be able to safely run "yum check-update" and "yum update" or "yum upgrade".
 

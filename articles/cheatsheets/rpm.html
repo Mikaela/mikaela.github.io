@@ -46,9 +46,9 @@ enabled=1</code></pre>
 <pre><code>priority=X</code></pre>
 <p>to end of every section where X is replaced with actual priority.</p>
 <p><a href="http://wiki.centos.org/PackageManagement/Yum/Priorities">CentOS wiki</a> suggests the following priorities:</p>
-<p>CentOS-Base: everything is priority=1 except contrib priority=2</p>
+<p>CentOS-Base/default repositories: everything is priority=1 except contrib priority=2</p>
 <p>Third party repositories (EPEL,rpmforge) should be &gt; 10 and other should be more preferred than other. I used</p>
-<p>epel 10 rpmforge 11 rpmfusion 12 livna 12 (Livna provides only libdvdcss and other packages have been moved to rpmfusion.)</p>
+<p><strong>epel 10 rpmforge 11 rpmfusion 12 livna 12</strong> (Livna provides only libdvdcss and other packages have been moved to rpmfusion.)</p>
 <p>Now you should be able to safely run &quot;yum check-update&quot; and &quot;yum update&quot; or &quot;yum upgrade&quot;.</p>
 <p>If you have installed Fedora from Live-CD you probably want to instll LibreOffice with</p>
 <pre><code>yum groupinstall office</code></pre>
