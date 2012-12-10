@@ -15,7 +15,13 @@
 [Sitemap](../../sitemap/sitemap.html)
 <hr/>
 
-# Figuring out what is the USB stick
+# Introductiom
+
+Programs used / Debian packages
+
+isohybrid dd ddrescue / syslinux coreutils gddrescue
+
+Finding out what is the USB drive in /dev/sd*
 
 Start by mounting the stick which should be automatic in GUI.
 
@@ -29,7 +35,7 @@ should tell what is the /dev/USBSTICK
 
 ```
 isohybrid image.iso
-dd if=image of=/dev/USBSTICK bs=1024
+dd if=image of=/dev/USBSTICK bs=1024;
 ```
 
 ## Creating .iso from CD/DVD
@@ -45,10 +51,14 @@ DRIVE can be /dev/dvd /dev/cdrom or /dev/scd0 depending on the CD/DVD.
 ## Backing up scratched CD/DVD
 
 ```
-dd if=/dev/DRIVE (see above) of=IMAGE.iso conv=noerror
+ddrescue /dev/device /where/to/create/the/file.iso /path/to/logfile.log
 ```
 
-maybe ddrescue should be used instead of dd.
+The logfile.log is used to keep track of what has been recovered. You can use same logfile for multiple clones.
+
+Usage: You have two broken copies of same device. First you clone the other and then give same command to other, different source, but same destination and log file. If the device isn't broken on same part as the another, ddrescue will build a complete file.
+
+I would also use ddrescue with backing up large devicces instead of dd.
 
 <!-- vim : set ft=html -->
 <hr/>
