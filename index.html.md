@@ -47,10 +47,10 @@ My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE
 
 <hr/>
 
-<a id=bigbuttons href="http://wigle.net"><img border="0" src="http://wigle.net/bi/nEIGaDKdx7eeGP1h50DCxw.png"></a> <!-- Firefox advocate (will be added when I am 18) -->
+| <a id=bigbuttons href="http://wigle.net"><img border="0" alt="Wigle.net stats" src="http://wigle.net/bi/nEIGaDKdx7eeGP1h50DCxw.png"></a> | <!-- Firefox advocate (will be added when I am 18) -->
 
 <hr/>
-<div id=mirrors>Mirrors; [GitHub](http://mkaysi.github.com/) , [cadoth](http://cadoth.net/~mkaysi/)</div>
+<div id=mirrors>| Mirrors; [GitHub](http://mkaysi.github.com/) , [cadoth](http://cadoth.net/~mkaysi/) |</div>
 <hr/>
 </body>
 </HTML>

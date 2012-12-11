@@ -47,10 +47,10 @@ PGP-avaimeni on [0x4DB53CFE82A46728] ja sen sormenjälki on <strong>24BC 1573 B8
 
 <hr/>
 
-<a id=isotnäppäimet href="http://wigle.net"><img border="0" src="http://wigle.net/bi/nEIGaDKdx7eeGP1h50DCxw.png"></a> <!-- Firefox advocate (lisätään kun olen 18) -->
+| <a id=isotnäppäimet href="http://wigle.net"><img border="0" alt="Wigle.net" src="http://wigle.net/bi/nEIGaDKdx7eeGP1h50DCxw.png"></a> | <!-- Firefox advocate (lisätään kun olen 18) -->
 
 <hr/>
-<div id=peilit>Peilit; [GitHub](http://mkaysi.github.com/) , [cadoth](http://cadoth.net/~mkaysi/) </div>
+<div id=peilit>| Peilit; [GitHub](http://mkaysi.github.com/) , [cadoth](http://cadoth.net/~mkaysi/) |</div>
 
 <hr/>
 </body>
