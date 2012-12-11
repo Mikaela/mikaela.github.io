@@ -51,7 +51,7 @@ DRIVE can be /dev/dvd /dev/cdrom or /dev/scd0 depending on the CD/DVD.
 ## Backing up scratched CD/DVD
 
 ```
-ddrescue /dev/device /where/to/create/the/file.iso /path/to/logfile.log
+ddrescue -v /dev/device /where/to/create/the/file.iso /path/to/logfile.log
 ```
 
 The logfile.log is used to keep track of what has been recovered. You can use same logfile for multiple clones.

@@ -27,7 +27,7 @@ dd if=image of=/dev/USBSTICK bs=1024;</code></pre>
 <pre><code>dd if=/dev/DRIVE of=image.iso</code></pre>
 <p>DRIVE can be /dev/dvd /dev/cdrom or /dev/scd0 depending on the CD/DVD.</p>
 <h2 id="backing-up-scratched-cddvd">Backing up scratched CD/DVD</h2>
-<pre><code>ddrescue /dev/device /where/to/create/the/file.iso /path/to/logfile.log</code></pre>
+<pre><code>ddrescue -v /dev/device /where/to/create/the/file.iso /path/to/logfile.log</code></pre>
 <p>The logfile.log is used to keep track of what has been recovered. You can use same logfile for multiple clones.</p>
 <p>Usage: You have two broken copies of same device. First you clone the other and then give same command to other, different source, but same destination and log file. If the device isn't broken on same part as the another, ddrescue will build a complete file.</p>
 <p>I would also use ddrescue with backing up large devicces instead of dd.</p>
