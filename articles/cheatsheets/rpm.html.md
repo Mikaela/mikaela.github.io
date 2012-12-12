@@ -25,7 +25,7 @@ This is my cheatsheet for setting up distribution using rpm (mainly Fedora & Cen
 yum install yum-plugin-fastestmirror
 ```
 
-By default cheks every 10 days, change configuration variable in config file to 0 to make it search always when yum is ran.
+By default cheks every 10 days, change configuration variable "maxhostfileage" file to 0 to make it search always when yum is ran in /etc/yum/yum.pluginconf.d/fastestmirror.conf and check that "enabled" is set to "1". If it's 0, the plugin is disabled.
 
 ## 3rd party repositories
 
@@ -104,9 +104,9 @@ Prevent repositories from conflicting each other:
 yum install yum-plugin-priorities
 ```
 
-Ensure that it's enabled!
+Ensure that it's enabled by looking at /etc/yum/pluginconf.d/priorities.conf ! "enabled" should be 1
 
-Edit all .repo files in yum.repos.d and add PRIORITY=X to everything.
+Edit all .repo files in /etc/yum.repos.d/ and add PRIORITY=X to everything. My priorities are listed on same table as repositories themselves.
 
 ## Installing Virtualbox guest additions
 
@@ -155,15 +155,16 @@ yum install gnome-tweak-tool "gnome-shell-extension-*" # This might not be a goo
 
 Use gnome-tweak-tool to enable/disable them. They might need reboot/logging in again before they appear in gnome-tweak-tool.
 
-## Installing all codecs/gstreamer pluginsS
+## Installing all codecs/gstreamer plugins
 
 ```
 yum install "gstreamer-plugins-*" --skip-broken # Might not be a good idea...
 ```
+
 ## Installing Flash
 
 ```
-yum install flashplugin # requires Adobe Flash repository to be enabled.
+yum install flash-plugin # requires Adobe Flash repository to be enabled.
 ```
 
 [Flash]:https://get.adobe.com/flashplayer/

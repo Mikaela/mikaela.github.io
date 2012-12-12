@@ -16,7 +16,7 @@ Cheatsheet for distributions using rpm
 <p>This is my cheatsheet for setting up distribution using rpm (mainly Fedora &amp; CentOS). I am more experienced with distributions using dpkg, so I need this a little in the beginning.</p>
 <h2 id="always-get-the-fastest-mirror">Always get the fastest mirror</h2>
 <pre><code>yum install yum-plugin-fastestmirror</code></pre>
-<p>By default cheks every 10 days, change configuration variable in config file to 0 to make it search always when yum is ran.</p>
+<p>By default cheks every 10 days, change configuration variable &quot;maxhostfileage&quot; file to 0 to make it search always when yum is ran in /etc/yum/yum.pluginconf.d/fastestmirror.conf and check that &quot;enabled&quot; is set to &quot;1&quot;. If it's 0, the plugin is disabled.</p>
 <h2 id="rd-party-repositories">3rd party repositories</h2>
 <table>
     <tr>
@@ -126,8 +126,8 @@ rpm -ivh http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el&
 <h2 id="priorities">Priorities</h2>
 <p>Prevent repositories from conflicting each other:</p>
 <pre><code>yum install yum-plugin-priorities</code></pre>
-<p>Ensure that it's enabled!</p>
-<p>Edit all .repo files in yum.repos.d and add PRIORITY=X to everything.</p>
+<p>Ensure that it's enabled by looking at /etc/yum/pluginconf.d/priorities.conf ! &quot;enabled&quot; should be 1</p>
+<p>Edit all .repo files in /etc/yum.repos.d/ and add PRIORITY=X to everything. My priorities are listed on same table as repositories themselves.</p>
 <h2 id="installing-virtualbox-guest-additions">Installing Virtualbox guest additions</h2>
 <pre><code>yum install dkms # requires some of the 3rd party repositories, EPEL on CentOS.</code></pre>
 <pre><code>yum install VirtualBox-guest # Fedora only ( ? ) Requires RPM Fusion</code></pre>
@@ -145,9 +145,10 @@ yum install kernel-devel</code></pre>
 <h2 id="installing-all-gnome-shell-extensions">Installing all Gnome shell extensions</h2>
 <pre><code>yum install gnome-tweak-tool &quot;gnome-shell-extension-*&quot; # This might not be a good idea.</code></pre>
 <p>Use gnome-tweak-tool to enable/disable them. They might need reboot/logging in again before they appear in gnome-tweak-tool.</p>
-<h2 id="installing-all-codecsgstreamer-pluginss">Installing all codecs/gstreamer pluginsS</h2>
-<p><code>yum install &quot;gstreamer-plugins-*&quot; --skip-broken # Might not be a good idea...</code> ## Installing Flash</p>
-<pre><code>yum install flashplugin # requires Adobe Flash repository to be enabled.</code></pre>
+<h2 id="installing-all-codecsgstreamer-plugins">Installing all codecs/gstreamer plugins</h2>
+<pre><code>yum install &quot;gstreamer-plugins-*&quot; --skip-broken # Might not be a good idea...</code></pre>
+<h2 id="installing-flash">Installing Flash</h2>
+<pre><code>yum install flash-plugin # requires Adobe Flash repository to be enabled.</code></pre>
 <!-- vim : set ft=html -->
 <hr/>
 
