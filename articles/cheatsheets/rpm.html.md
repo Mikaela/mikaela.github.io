@@ -167,13 +167,33 @@ yum install "gstreamer-plugins-*" --skip-broken # Might not be a good idea...
 yum install flash-plugin # requires Adobe Flash repository to be enabled.
 ```
 
+## Installing NVidia restricted drivers
+
+```
+yum install kmod-nvidia # requires RPM Fusion
+```
+
+## Installing (restricted?) miscellaneous things
+
+Codecs, restricted font technologies etc.
+
+```
+yum install audacious-plugins-freeworld k3b-extras-freeworld xine-lib-extras-freeworld libdvdcss vlc mozilla-vlc unrar freetype-freeworld
+```
+
+<hr/>
+
+Some commands mentioned here are copied from [Linux.fi] wiki, but it's in Finnish.
+
+<hr/>
+
 [Flash]:https://get.adobe.com/flashplayer/
 [EPEL]:https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F
 [RPM Fusion]:http://rpmfusion.org/Configuration
 [Livna]:http://rpm.livna.org/
 [RPM Forge]:http://repoforge.org/use/
 [VirtualBox]:https://www.virtualbox.org/
-
+[Linux.fı]:http://linux.fi/wiki/Etusivu
 <!-- vim : set ft=html -->
 <hr/>
 
