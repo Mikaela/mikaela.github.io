@@ -109,8 +109,21 @@ Provides libdvdcss for watching DVDs
     </tr>
 
 </table>
-
-<h3 id="priorities">Priorities</h3>
+<h3 id="terminal-enabling">Terminal enabling</h3>
+<p>This is faster than the GUI method</p>
+<h3 id="fedora">Fedora</h3>
+<pre><code>echo &quot;Adobe doesn&#39;t provide direct download link for the package :(&quot;
+rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+rpm -ivh http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
+rpm -ivh http://rpm.livna.org/livna-release.rpm</code></pre>
+<h3 id="centos">CentOS</h3>
+<pre><code>echo &quot;Adobe doesn&#39;t provide direct download link for the package :(&quot;
+rpm -ivh http://download.fedoraproject.org/pub/epel/&lt;RELEASE&gt;/i386/repoview/epel-release.html # replace &lt;release&gt; with CentOS / RedHat version. For example: 5 or 6 NOT 6.X or 5.X!
+rpm -ivh http://download1.rpmfusion.org/free/el/updates/&lt;RELEASE&gt;/i386/rpmfusion-free-release-&lt;RELEASE&gt;-1.noarch.rpm # Read the comment on line above
+rpm -ivh http://download1.rpmfusion.org/nonfree/el/updates/&lt;RELEASE&gt;/i386/rpmfusion-nonfree-release-&lt;RELEASE&gt;-1.noarch.rpm # The line two lines above tells you what to do...
+rpm -ivh http://rpm.livna.org/livna-release.rpm
+rpm -ivh http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el&lt;RELEASE&gt;.rf.&lt;ARCH&gt;.rpm # Replace &lt;RELEASE&gt; with CentOS version (examples some lines above) and &lt;ARCH&gt; with i686 or x86_64</code></pre>
+<h2 id="priorities">Priorities</h2>
 <p>Prevent repositories from conflicting each other:</p>
 <pre><code>yum install yum-plugin-priorities</code></pre>
 <p>Ensure that it's enabled!</p>
