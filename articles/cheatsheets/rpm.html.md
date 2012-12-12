@@ -68,7 +68,7 @@ By default cheks every 10 days, change configuration variable in config file to 
 	<tr>
 		<td>[RPM Forge]</td>
 		<td>12</td>
-		<td>"CentOS only ( ? ) , Provides a set of repositories"</td>
+		<td>CentOS only ( ? ), "Provides a set of repositories"</td>
 	</tr>
 
 </table>
