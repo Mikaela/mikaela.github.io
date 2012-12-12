@@ -17,101 +17,138 @@
 
 # My cheatsheet
 
-This is my cheatsheet for setting up distribution using rpm. I am more experienced with distributions using dpkg, so I need this a little in the beginning.
+This is my cheatsheet for setting up distribution using rpm (mainly Fedora & CentOS). I am more experienced with distributions using dpkg, so I need this a little in the beginning.
 
-<strong>Note on Fedora: install package "yum-plugin-fastestmirror" to always get the fastest mirror!</strong>. It comes with CentOS by default and is like http.debian.net and mirrors.ubuntu.com from Debian side of Linux family.
-
-<strong>DO NOT RUN "yum update" NOR "yum upgrade" NOR ANYTHING ELSE WHICH UPGRADES PACKAGES BEFORE SETTING PRIORIZING!</strong>
+## Always get the fastest mirror
 
 ```
 yum install yum-plugin-fastestmirror
 ```
 
-## Installing Virtualbox guest additions
+By default cheks every 10 days, change configuration variable in config file to 0 to make it search always when yum is ran.
 
-Start by installing dkms from [EPEL](https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F).
+## 3rd party repositories
 
-```
-rpm -i <package downloaded from EPEL link above>
-yum install dkms
-yum groupinstall "Development Tools"
-yum install kernel-devel
-```
+<table>
+	<tr>
+		<td>Repository</td>
+		<td>My priority</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>Base/Fedora-*</td>
+		<td>1</td>
+		<td>Official Fedora/CentOS packages</td>
+	</tr>
+	<tr>
+		<td>Extra</td>
+		<td>2</td>
+		<td>CentOS only, extra packages</td>
+	</tr>
+	<tr>
+		<td>[Flash]</td>
+		<td>10</td>
+		<td>Adobe Flash, shouldn't conflict with EPEL and EPEL is CentOS only.</td>
+	</tr>
+	<tr>
+		<td>[EPEL]</td>
+		<td>10</td>
+		<td>Extra Packages for Enterprise Linux (CentOS only)</td>
+	</tr>
+	<tr>
+		<td>[RPM Fusion]</td>
+		<td>11</td>
+		<td>"Provides software that the Fedora Project or Red Hat doesn't want to ship"</td>
+	</tr>
+	<tr>
+		<td>[Livna]</td>
+		<td>11</td>
+		<td>Provides libdvdcss for watching DVDs</td>
+	</tr>
+	<tr>
+		<td>[RPM Forge]</td>
+		<td>12</td>
+		<td>"CentOS only ( ? ) , Provides a set of repositories"</td>
+	</tr>
 
-Press HOST + D and cd to the mount point and run the Linux Additions installer.
+</table>
 
-### Fedora
+### Priorities
 
-First [enable RPM Fusion](http://rpmfusion.org/Configuration). Then
-
-```
-yum install VirtualBox-guest
-```
-
-and reboot.
-
-## Enabling other repositories
-
-For [EPEL](https://fedoraproject.org/wiki/EPEL) follow the first steps for Virtualbox guest additions installing above. Read also Fedora part above and enable RPM Fusion.
-
-### RPMGforge
-
-Download the [package](http://wiki.centos.org/AdditionalResources/Repositories/RPMForge#head-f0c3ecee3dbb407e4eed79a56ec0ae92d1398e01) and install it with
-
-```
-rpm -i <package>
-```
-
-## Livna
-
-[Livna is easy to enable. Just go to their homepage and follow their instructions](http://rpm.livna.org/)
-
-### yum-plugin-priorities
-
-Using multiple 3rd party repositories (EPEL, RPMforge) is dangerous so you must use priorities to be safe.
+Prevent repositories from conflicting each other:
 
 ```
 yum install yum-plugin-priorities
 ```
 
-Ensure that it's enabled by looking at /etc/yum/pluginconf.d/priorities.conf . It should read
+Ensure that it's enabled!
+
+Edit all .repo files in yum.repos.d and add PRIORITY=X to everything.
+
+## Installing Virtualbox guest additions
 
 ```
-[main]
-enabled=1
+yum install dkms # requires some of the 3rd party repositories, EPEL on CentOS.
 ```
 
-Now the plugin should be working and you must assign priorities.
-
-Edit all .repo files in /etc/yum.repos.d and add
-
 ```
-priority=X
+yum install VirtualBox-guest # Fedora only ( ? ) Requires RPM Fusion
 ```
 
-to end of every section where X is replaced with actual priority.
+Or using guest additions shipped with [VirtualBox];
 
-[CentOS wiki](http://wiki.centos.org/PackageManagement/Yum/Priorities) suggests the following priorities:
+```
+yum groupinstall "Development Tools"
+yum install kernel-devel
+```
 
-CentOS-Base/default repositories: everything is priority=1 except contrib priority=2
+Press HOST + D and cd to the mount point and run the Linux Additions installer and after successful installation, reboot
 
-Third party repositories (EPEL,rpmforge) should be > 10 and other should be more preferred than other. I used
-
-<strong>epel 10 rpmforge 11 rpmfusion 12 livna 12</strong> (Livna provides only libdvdcss and other packages have been moved to rpmfusion.)
-
-Now you should be able to safely run "yum check-update" and "yum update" or "yum upgrade".
-
-If you have installed Fedora from Live-CD you probably want to instll LibreOffice with
+## Installing LibreOffice (for people not installing from DVD) in Fedora
 
 ```
 yum groupinstall office
 ```
 
-and if your native language isn't English e.g.
+## Installing Finnsh language
+
+and replacing "finnish" or "fi" with your native language
 
 ```
 yum groupinstall finnish-support
 ```
+
+or with KDE
+
+```
+yum install kde-l10n-fi
+```
+
+## Installing all Gnome shell extensions
+
+```
+yum install gnome-tweak-tool "gnome-shell-extension-*" # This might not be a good idea.
+```
+
+Use gnome-tweak-tool to enable/disable them. They might need reboot/logging in again before they appear in gnome-tweak-tool.
+
+## Installing all codecs/gstreamer pluginsS
+
+```
+yum install "gstreamer-plugins-*" --skip-broken # Might not be a good idea...
+```
+## Installing Flash
+
+```
+yum install flashplugin # requires Adobe Flash repository to be enabled.
+```
+
+[Flash]:https://get.adobe.com/flashplayer/
+[EPEL]:https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F
+[RPM Fusion]:http://rpmfusion.org/Configuration
+[Livna]:http://rpm.livna.org/
+[RPM Forge]:http://repoforge.org/use/
+[VirtualBox]:https://www.virtualbox.org/
 
 <!-- vim : set ft=html -->
 <hr/>
