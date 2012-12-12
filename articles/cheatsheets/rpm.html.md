@@ -72,8 +72,31 @@ By default cheks every 10 days, change configuration variable in config file to 
 	</tr>
 
 </table>
+### Terminal enabling
 
-### Priorities
+This is faster than the GUI method
+
+### Fedora
+
+```
+echo "Adobe doesn't provide direct download link for the package :("
+rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+rpm -ivh http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
+rpm -ivh http://rpm.livna.org/livna-release.rpm
+```
+
+### CentOS
+
+```
+echo "Adobe doesn't provide direct download link for the package :("
+rpm -ivh http://download.fedoraproject.org/pub/epel/<RELEASE>/i386/repoview/epel-release.html # replace <release> with CentOS / RedHat version. For example: 5 or 6 NOT 6.X or 5.X!
+rpm -ivh http://download1.rpmfusion.org/free/el/updates/<RELEASE>/i386/rpmfusion-free-release-<RELEASE>-1.noarch.rpm # Read the comment on line above
+rpm -ivh http://download1.rpmfusion.org/nonfree/el/updates/<RELEASE>/i386/rpmfusion-nonfree-release-<RELEASE>-1.noarch.rpm # The line two lines above tells you what to do...
+rpm -ivh http://rpm.livna.org/livna-release.rpm
+rpm -ivh http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el<RELEASE>.rf.<ARCH>.rpm # Replace <RELEASE> with CentOS version (examples some lines above) and <ARCH> with i686 or x86_64
+```
+
+## Priorities
 
 Prevent repositories from conflicting each other:
 
