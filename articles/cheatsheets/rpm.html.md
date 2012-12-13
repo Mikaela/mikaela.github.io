@@ -155,12 +155,6 @@ yum install "gstreamer-plugins-*" --skip-broken # Might not be a good idea...
 yum install flash-plugin # requires Adobe Flash repository to be enabled.
 ```
 
-## Installing NVidia restricted drivers
-
-```
-yum install akmod-nvidia kmod-nvidia # requires RPM Fusion
-```
-
 ## Installing (restricted?) miscellaneous things
 
 Codecs, restricted font technologies etc.
