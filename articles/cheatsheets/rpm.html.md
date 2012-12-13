@@ -163,9 +163,23 @@ Codecs, restricted font technologies etc.
 yum install audacious-plugins-freeworld k3b-extras-freeworld xine-lib-extras-freeworld libdvdcss vlc mozilla-vlc unrar freetype-freeworld
 ```
 
+## Disabling boot screen
+
+Remove "rhgb" before "quiet" in /etc/default/grub & run:
+
+```
+grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+
+## Installing things which I want to have
+
+```
+yum install @development-tools git zsh tmux oidentd pastebinit syslinux most htop lynx gpg-agent curl pandoc
+```
+
 <hr/>
 
-Some commands mentioned here are copied from [Linux.fi] wiki, but it's in Finnish.
+Some commands mentioned here are copied from [Linux.fi](http://linux.fi/ wiki, but it's in Finnish.
 
 <hr/>
 
@@ -175,7 +189,6 @@ Some commands mentioned here are copied from [Linux.fi] wiki, but it's in Finnis
 [Livna]:http://rpm.livna.org/
 [RPM Forge]:http://repoforge.org/use/
 [VirtualBox]:https://www.virtualbox.org/
-[Linux.fı]:http://linux.fi/wiki/Etusivu
 <!-- vim : set ft=html -->
 <hr/>
 
