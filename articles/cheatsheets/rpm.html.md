@@ -111,40 +111,28 @@ Edit all .repo files in /etc/yum.repos.d/ and add PRIORITY=X to everything. My p
 ## Installing Virtualbox guest additions
 
 ```
-yum install dkms # requires some of the 3rd party repositories, EPEL on CentOS.
+yum install dkms # requires EPEL on CentOS.
 ```
 
 ```
-yum install VirtualBox-guest # Fedora only ( ? ) Requires RPM Fusion
+yum install VirtualBox-guest # Requires RPM Fusion
 ```
 
 Or using guest additions shipped with [VirtualBox];
 
 ```
-yum groupinstall "Development Tools"
-yum install kernel-devel
+yum install @development-tools kernel-devel
 ```
 
-Press HOST + D and cd to the mount point and run the Linux Additions installer and after successful installation, reboot
+Press HOST + D and cd to the mount point and run the Linux Additions installer and after successful installation, reboot. These didn't work for me on Fedora 17, but worked on CentOS. With Fedora I recommend installing VirtualBox-guest from RPM Fusion.
 
-## Installing LibreOffice (for people not installing from DVD) in Fedora
+## Installing LibreOffice & language support (for people not installing from DVD) in Fedora
 
-```
-yum groupinstall office
-```
+Remember to replace "finnish" and "fi" with your language
 
-## Installing Finnsh language
-
-and replacing "finnish" or "fi" with your native language
 
 ```
-yum groupinstall finnish-support
-```
-
-or with KDE
-
-```
-yum install kde-l10n-fi
+yum install @office @finnish-support kde-l10n-fi
 ```
 
 ## Installing all Gnome shell extensions
@@ -170,7 +158,7 @@ yum install flash-plugin # requires Adobe Flash repository to be enabled.
 ## Installing NVidia restricted drivers
 
 ```
-yum install kmod-nvidia # requires RPM Fusion
+yum install akmod-nvidia kmod-nvidia # requires RPM Fusion
 ```
 
 ## Installing (restricted?) miscellaneous things

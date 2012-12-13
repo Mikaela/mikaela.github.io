@@ -129,19 +129,14 @@ rpm -ivh http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el&
 <p>Ensure that it's enabled by looking at /etc/yum/pluginconf.d/priorities.conf ! &quot;enabled&quot; should be 1</p>
 <p>Edit all .repo files in /etc/yum.repos.d/ and add PRIORITY=X to everything. My priorities are listed on same table as repositories themselves.</p>
 <h2 id="installing-virtualbox-guest-additions">Installing Virtualbox guest additions</h2>
-<pre><code>yum install dkms # requires some of the 3rd party repositories, EPEL on CentOS.</code></pre>
-<pre><code>yum install VirtualBox-guest # Fedora only ( ? ) Requires RPM Fusion</code></pre>
+<pre><code>yum install dkms # requires EPEL on CentOS.</code></pre>
+<pre><code>yum install VirtualBox-guest # Requires RPM Fusion</code></pre>
 <p>Or using guest additions shipped with <a href="https://www.virtualbox.org/">VirtualBox</a>;</p>
-<pre><code>yum groupinstall &quot;Development Tools&quot;
-yum install kernel-devel</code></pre>
-<p>Press HOST + D and cd to the mount point and run the Linux Additions installer and after successful installation, reboot</p>
-<h2 id="installing-libreoffice-for-people-not-installing-from-dvd-in-fedora">Installing LibreOffice (for people not installing from DVD) in Fedora</h2>
-<pre><code>yum groupinstall office</code></pre>
-<h2 id="installing-finnsh-language">Installing Finnsh language</h2>
-<p>and replacing &quot;finnish&quot; or &quot;fi&quot; with your native language</p>
-<pre><code>yum groupinstall finnish-support</code></pre>
-<p>or with KDE</p>
-<pre><code>yum install kde-l10n-fi</code></pre>
+<pre><code>yum install @development-tools kernel-devel</code></pre>
+<p>Press HOST + D and cd to the mount point and run the Linux Additions installer and after successful installation, reboot. These didn't work for me on Fedora 17, but worked on CentOS. With Fedora I recommend installing VirtualBox-guest from RPM Fusion.</p>
+<h2 id="installing-libreoffice-language-support-for-people-not-installing-from-dvd-in-fedora">Installing LibreOffice &amp; language support (for people not installing from DVD) in Fedora</h2>
+<p>Remember to replace &quot;finnish&quot; and &quot;fi&quot; with your language</p>
+<pre><code>yum install @office @finnish-support kde-l10n-fi</code></pre>
 <h2 id="installing-all-gnome-shell-extensions">Installing all Gnome shell extensions</h2>
 <pre><code>yum install gnome-tweak-tool &quot;gnome-shell-extension-*&quot; # This might not be a good idea.</code></pre>
 <p>Use gnome-tweak-tool to enable/disable them. They might need reboot/logging in again before they appear in gnome-tweak-tool.</p>
@@ -150,7 +145,7 @@ yum install kernel-devel</code></pre>
 <h2 id="installing-flash">Installing Flash</h2>
 <pre><code>yum install flash-plugin # requires Adobe Flash repository to be enabled.</code></pre>
 <h2 id="installing-nvidia-restricted-drivers">Installing NVidia restricted drivers</h2>
-<pre><code>yum install kmod-nvidia # requires RPM Fusion</code></pre>
+<pre><code>yum install akmod-nvidia kmod-nvidia # requires RPM Fusion</code></pre>
 <h2 id="installing-restricted-miscellaneous-things">Installing (restricted?) miscellaneous things</h2>
 <p>Codecs, restricted font technologies etc.</p>
 <pre><code>yum install audacious-plugins-freeworld k3b-extras-freeworld xine-lib-extras-freeworld libdvdcss vlc mozilla-vlc unrar freetype-freeworld</code></pre>
