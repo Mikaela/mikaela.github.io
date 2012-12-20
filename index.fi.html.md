@@ -15,15 +15,15 @@
 
 # Minusta
 
-<em>17, [AS](Asperger.html), Linux-käyttäjä vuodesta 2008, käyttää tällä hetkellä [Debian] Sidiä & [Kubuntu] Preciseä, kiinnostunut tietokoneista ja jonkinlainen suomeksi kääntäjä.</em>
+<em>17, [AS](Asperger.html), Linux-käyttäjä vuodesta 2008, käyttää tällä hetkellä [Fedoraa] & [Debian] Sidiä, kiinnostunut tietokoneista ja jonkinlainen suomeksi kääntäjä.</em>
 
 <!-- Nyt se on jossakin, josta voin kopioida sen sosiaalisiin medioihin :D -->
 <!-- Miksi minä suomennan myös kommentteja? -->
 
-Olen seitsemäntoista-vuotias, vaikka ihmiset luulevat usein, että olen vanhempi. Se voidaan varmaankin selittää [Aspergerin oireyhtymällä, joka minulla on](Asperger.html). Aloitin Linuxin käytön vuonna 2008 ja jekelu, jota käytin oli [Ubuntu] 8.04 Hardy Heron. Käytän tällä hetkellä [Debian] Sidiä (epävakaa) ja [Kubuntu] 12.04 Precise Pangolinia. Olen kiinnostunut tietokoneista ja olen myös jonkinlainen suomeksi kääntäjä.
+Olen seitsemäntoista-vuotias, vaikka ihmiset luulevat usein, että olen vanhempi. Se voidaan varmaankin selittää [Aspergerin oireyhtymällä, joka minulla on](Asperger.html). Aloitin Linuxin käytön vuonna 2008 ja jekelu, jota käytin oli [Ubuntu] 8.04 Hardy Heron. Käytän tällä hetkellä [Fedoraa] & [Debian] Sidiä (epävakaa). Olen kiinnostunut tietokoneista ja olen myös jonkinlainen suomeksi kääntäjä.
 
+[Fedoraa]:https://fedoraproject.org/
 [Debian]:http://www.debian.org/
-[Kubuntu]:http://www.kubuntu.org/
 [Ubuntu]:http://www.ubuntu.com/
 
 <a id=koodi href="https://github.com/Mkaysi" >Mkaysi @ GitHub</a> || <a href="https://gitorious.org/~mkaysi" >Mkaysi @ Gitorious</a> || <a href="https://launchpad.net/~mkaysi" >Mika Suomalainen @ Launchpad</a> 
