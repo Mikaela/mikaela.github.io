@@ -15,14 +15,13 @@
 
 # About me
 
-<em>17, [AS](Asperger.html),  Linux user since 2008, currently using [Fedora] & [Debian] Sid, interested in computers and some kind of Finnish translator.</em>
+<em>17, [AS](Asperger.html),  Linux user since 2008, currently using [Fedora], interested in computers and some kind of Finnish translator.</em>
 
 <!-- Now it's somewhere where I can copy-paste it easily to social media services :D -->
 n
-I am seventeen years old, even though people often think that I am older which can probably be explained with my [Asperger's syndrome](Asperger.html). I started using Linux in 2008 and the distribution was [Ubuntu] 8.04 Hardy Heron. I am currently using [Fedora] and [Debian] Sid (branch: unstable (which is misleading name as this is sometimes too stable)). I am interested in computers. I am also some kind of Finnish translator.
+I am seventeen years old, even though people often think that I am older which can probably be explained with my [Asperger's syndrome](Asperger.html). I started using Linux in 2008 and the distribution was [Ubuntu] 8.04 Hardy Heron. I am currently using [Fedora]. I am interested in computers. I am also some kind of Finnish translator.
 
 [Fedora]:https://fedoraproject.org/
-[Debian]:http://www.debian.org/
 [Ubuntu]:http://www.ubuntu.com/
 
 <a id=code href="https://github.com/Mkaysi" >Mkaysi @ GitHub</a> || <a href="https://gitorious.org/~mkaysi" >Mkaysi @ Gitorious</a> || <a href="https://launchpad.net/~mkaysi" >Mika Suomalainen @ Launchpad</a> 
