@@ -112,13 +112,14 @@ Then select user <strong>which is not Administrator</strong> from the list and c
 
 ## Disabling Windows 8 Modern UI
 
-Some people like the new Modern UI (me) and some hate it (my brother). It can be disabled easily by installing [Pokki].
+Some people like the new Modern UI (me) and some hate it (my brother). It can be disabled easily by installing [Classic Shell].
 
-[Pokki] is Start Menu for Windows 8 which also has options to login directly to desktop (without seeing Modern UI) and disable hot corners. Pokki also includes inbuild application store where you can <em>get hundreds of free applications.</em>
+[Classic Shell] restores the start menu to Windows 8 and has three options for default theme, traditional Windows, Windows XP, Windows Vista/7.
+It can also be used on older Windowses than 8 and on them and 8 it restores the toolbar (file etc.) in Windows Explorer, simpler copy UI, free spae on device in Windows Explorer. In Internet Explorer, it adds caption to title bar, shows security zone and loading status in status bar.
 
-First download [Pokki] and when you see the start menu, right click it and set the settings you want (boot to desktop & disable hot corners).
+When you first click the start menu, it asks you which theme you would like to use. Then you can click the "all options" checkbox (you can return here by right clicking the start button and selecting "preferences"), you see many new tabs including "Windows 8 options". Click it and then you can disable hot corners.
 
-[Pokki]:https://www.pokki.com/
+[Classic Shell]:http://classicshell.sf.net/
 
 ## Creating Windows USB install
 <div id=usb>
