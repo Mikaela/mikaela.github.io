@@ -20,7 +20,7 @@
 <!-- Nyt se on jossakin, josta voin kopioida sen sosiaalisiin medioihin :D -->
 <!-- Miksi minä suomennan myös kommentteja? -->
 
-Olen seitsemäntoista-vuotias, vaikka ihmiset luulevat usein, että olen vanhempi. Se voidaan varmaankin selittää [Aspergerin oireyhtymällä, joka minulla on](Asperger.html). Aloitin Linuxin käytön vuonna 2008 ja jekelu, jota käytin oli [Ubuntu] 8.04 Hardy Heron. Käytän tällä hetkellä [Fedoraa] & [Debian] Sidiä (epävakaa). Olen kiinnostunut tietokoneista ja olen myös jonkinlainen suomeksi kääntäjä.
+Olen seitsemäntoista-vuotias, vaikka ihmiset luulevat usein, että olen vanhempi. Se voidaan varmaankin selittää [Aspergerin oireyhtymällä, joka minulla on](Asperger.html). Aloitin Linuxin käytön vuonna 2008 ja jakelu, jota käytin oli [Ubuntu] 8.04 Hardy Heron. Käytän tällä hetkellä [Fedoraa]. Olen kiinnostunut tietokoneista ja olen myös jonkinlainen suomeksi kääntäjä.
 
 [Fedoraa]:https://fedoraproject.org/
 [Ubuntu]:http://www.ubuntu.com/
