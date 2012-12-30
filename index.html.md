@@ -18,7 +18,7 @@
 <em>17, [AS](Asperger.html),  Linux user since 2008, currently using [Fedora], interested in computers and some kind of Finnish translator.</em>
 
 <!-- Now it's somewhere where I can copy-paste it easily to social media services :D -->
-n
+
 I am seventeen years old, even though people often think that I am older which can probably be explained with my [Asperger's syndrome](Asperger.html). I started using Linux in 2008 and the distribution was [Ubuntu] 8.04 Hardy Heron. I am currently using [Fedora]. I am interested in computers. I am also some kind of Finnish translator.
 
 [Fedora]:https://fedoraproject.org/
