@@ -137,7 +137,7 @@ Go to "OpenPGP" --> "Settings" --> "Show Expert Settings" --> "Keyserver" and en
 
 ### GnuPG level
 
-If you are using GPG, you can add two lines to your gpg config file. In Linux and Mac that means ~/.gnupg/gpg.conf, with Windows it means C:\Users\Username\AppData\Roaming\GnuPG\gpg.conf (or something like that).
+If you are using GPG, you can add two lines to your gpg config file. In Linux and Mac that means ~/.gnupg/gpg.conf, with Windows it means "C:\Users\Username\AppData\Roaming\GnuPG\gpg.conf" (or something like that).
 
 ```
 keyserver pool.sks-keyservers.net

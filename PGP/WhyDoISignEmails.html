@@ -69,7 +69,7 @@ Why do I sign emails, which I send?
 <p>pool.sks-keyservers.net</p>
 </blockquote>
 <h3 id="gnupg-level">GnuPG level</h3>
-<p>If you are using GPG, you can add two lines to your gpg config file. In Linux and Mac that means ~/.gnupg/gpg.conf, with Windows it means C:.conf (or something like that).</p>
+<p>If you are using GPG, you can add two lines to your gpg config file. In Linux and Mac that means ~/.gnupg/gpg.conf, with Windows it means &quot;C:.conf&quot; (or something like that).</p>
 <pre><code>keyserver pool.sks-keyservers.net
 keyserver-options no-include-revoked auto-key-retrieve</code></pre>
 <p>If you are worried about space usage of your public keyring, you can add &quot;import-clean&quot; or &quot;import-minimal&quot; after &quot;auto-key-retrieve&quot;. The first removes all useless signatures from the key (=signatures from keys that aren't in your keyring) and the second removes all signatures from the key.</p>
