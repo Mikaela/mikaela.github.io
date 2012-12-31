@@ -123,6 +123,31 @@ your distribution or upstream bug tracker.
 [Thunderbird or Icedove or Seamonkey]:https://mozilla.org/thunderbird
 [Enigmail]:http://enigmail.mozdev.org/home/index.php.html
 
+<strong>Enigmail doesn't hide the keyblock unless you import the key</strong>
+
+## Importing keys automatically
+
+To import keys automatically (when you receive email/file/whatever that is signed and you don't have the key), you have two options. Remember that this imports keys of other people too, so you will be seeing less large ugly character messes. :)
+
+### Enigmail
+
+Go to "OpenPGP" --> "Settings" --> "Show Expert Settings" --> "Keyserver" and enter keyserver address to the second box. I recommend pool.sks-keyservers.net as it's the most popular. (Please note that I am using Enigmail in Finnish so I have translated these places from Finnish to English, they might have different names to you).
+
+> pool.sks-keyservers.net
+
+### GnuPG level
+
+If you are using GPG, you can add two lines to your gpg config file. In Linux and Mac that means ~/.gnupg/gpg.conf, with Windows it means C:\Users\Username\AppData\Roaming\GnuPG\gpg.conf (or something like that).
+
+```
+keyserver pool.sks-keyservers.net
+keyserver-options no-include-revoked auto-key-retrieve
+```
+
+If you are worried about space usage of your public keyring, you can add "import-clean" or "import-minimal" after "auto-key-retrieve". The first removes all useless signatures from the key (=signatures from keys that aren't in your keyring) and the second removes all signatures from the key.
+
+I am importing keys fully and I have 118 different public keys in my keyring and the space usage is 4,4M. I am on multiple mailing lists where some people use PGP or GPG.
+
 ## I am on slow connection and your signature is too big for me.
 
 And what does that have to do with INLINE signature? In PGP/MIME you would
