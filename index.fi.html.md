@@ -15,6 +15,8 @@
 
 <!--- pandoc -f markdown -t mediawiki -i markdown.fi.md -o mediawiki.fi.txt --->
 
+<!--- pandoc -f markdown -t mediawiki -i markdown.fi.md -o mediawiki.fi.txt --->
+
 ***17, [AS](http://mkaysi.github.com/Asperger.html), Linux-käyttäjä 
 vuodesta 2008, käyttää tällä hetkellä [Fedoraa], kiinnostunut tietokoneista
 ja jonkinlainen suomeksi kääntäjä.***
@@ -182,11 +184,12 @@ W2YaeRC7JkgMso7OWJMt
 -----END PGP SIGNATURE-----
 ```
 
-Default licenses
+Oletus lisenssit
 ----------------
 
-If you see content by me where license isn't mentioned (like this page),
-the license is one of the three below depending on content.
+Jos näet tuottamaani sisältöä, jossa lisenssiä ei ole mainittu (esimerkiksi 
+tämä sivu), lisenssi on yksi kolmesta alapuolella mainitusta lisenssistä 
+riippuen sisällöstä.
 
 ### Koodi
 
@@ -254,7 +257,7 @@ Toivoisin, että nimeät ainakin tämän tiedon ja voit halutessasi nimetä myö
 ### Miksi sinulla on "oletuslisenssit" tuotoksille, jotka eivät mainitse lisenssiä?
 
 **Lisenssit tämän korostetun viestin alla eivät ole missään tekemisissä 
-tuotoksieni kanssa. Saadaksesi lisätietoja lue yläpuoliset osiot.
+tuotoksieni kanssa. Saadaksesi lisätietoja lue yläpuoliset osiot.**
 
 Olen "allekirjoittanut" [Fedora-Projectin osallistujasopimuksen](https://fedoraproject.org/wiki/Legal:Fedora_Project_Contributor_Agreement?rd=Legal:FPCA), joka määrittää allekirjoittajien oletuslisenssit mikäli he eivät ole 
 määrittäneet omia lisenssejään.
@@ -336,6 +339,7 @@ Tunnukset kaikkialla
 ### Viittauslinkit
 
 [Dropbox](http://db.tt/y7fPYse) || [Ubuntu One](https://one.ubuntu.com/referrals/referee/386817/) || [Wuala](http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF) || [LastPass](https://lastpass.com/f?884346)
+
 <hr/>
 
 PGP-avaimeni on [0x4DB53CFE82A46728] ja sen sormenjälki on <strong>24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728</strong>
