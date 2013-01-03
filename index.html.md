@@ -17,6 +17,10 @@
 
 ***17, [AS](http://mkaysi.github.com/Asperger.html),  Linux user since 2008, currently using [Fedora], interested in computers and some kind of Finnish translator.***
 
+<!--- pandoc -f markdown -t mediawiki -i markdown.md -o mediawiki.txt --->
+
+***17, [AS](http://mkaysi.github.com/Asperger.html),  Linux user since 2008, currently using [Fedora], interested in computers and some kind of Finnish translator.***
+
 About me
 ========
 
@@ -176,7 +180,7 @@ If you see content by me where license isn't mentioned (like this page),
 the license is one of the three below depending on content.
 
 ### Code
-
+<div id=bsd>
 BSD License
 
 ```
@@ -215,13 +219,15 @@ Remember to replace <year> with the year where the content is from.
 If you don't know the year when the content was made, just use the current 
 year.
 
+</div>
+
 ### Not code
 
-#### Photos
+#### Photos/Videos/Audio
 
-**This doesn't include screenshots and most things not taken with camera.**
+**This doesn't include screenshots and most things not taken with camera/microphone.**
 
-Photos by me which don't include license mentioning are licenced under 
+Photos/Videos/Audio by me which don't include license mentioning are licenced under 
 Creative Commons Attribution-NoDerivs 3.0 Unported license aka [CC-BY-ND](https://creativecommons.org/licenses/by-nd/3.0/).
 
 #### Everything else than mentioned above
@@ -245,7 +251,7 @@ default licences of signers if they haven't specified their own licences.
 
 The licences which they specify are MIT license for code and 
 Creative Commons Attribution-ShareAlike 3.0 Unported (CC-BY-SA) with
-section 4d waived.
+section 4d waived for everything else.
 
 Contributing
 ------------
@@ -316,6 +322,7 @@ There is [PGP signed file which contains this information too](http://mkaysi.git
 ### Referral links
 
 [Dropbox](http://db.tt/y7fPYse) || [Ubuntu One](https://one.ubuntu.com/referrals/referee/386817/) || [Wuala](http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF) || [LastPass](https://lastpass.com/f?884346)
+
 <hr/>
 
 My PGP key is [0x4DB53CFE82A46728] and its fingerprint is <strong>24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728</strong>

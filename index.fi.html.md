@@ -15,8 +15,6 @@
 
 <!--- pandoc -f markdown -t mediawiki -i markdown.fi.md -o mediawiki.fi.txt --->
 
-<!--- pandoc -f markdown -t mediawiki -i markdown.fi.md -o mediawiki.fi.txt --->
-
 ***17, [AS](http://mkaysi.github.com/Asperger.html), Linux-käyttäjä 
 vuodesta 2008, käyttää tällä hetkellä [Fedoraa], kiinnostunut tietokoneista
 ja jonkinlainen suomeksi kääntäjä.***
@@ -103,45 +101,34 @@ Käytin [LMDE:tä] minikannettavalla jonkin aikaa, mutta en saanut siihen
 
 ## Fedora
 
-Yritin kerran asentaa [Fedoran] yhdelle tietokoneelle, jolla oli ongelma 
-[Ubuntun] (ennen 10.04) nykyisen Linux-ytimen kanssa, mutta koska [Fedoralla] 
-oli sama ydin se ei onnistunut. Tämän ongelman ratkaisi päivitys [Ubuntun] 
+Yritin kerran asentaa [Fedoran](https://fedoraproject.org/) yhdelle tietokoneelle, jolla oli ongelma 
+[Ubuntun](http://ubuntu-fi.org/) (ennen 10.04) nykyisen Linux-ytimen kanssa, mutta koska [Fedoralla] 
+oli sama ydin se ei onnistunut. Tämän ongelman ratkaisi päivitys [Ubuntun](http://ubuntu-fi.org/) 
 päivitys Alpha-julkaisuun.
 
-Minulla ei ollut kiinnostusta [Fedoraa] kohtaa ennen kuin viimeaikoina kun 
+Minulla ei ollut kiinnostusta [Fedoraa](https://fedoraproject.org/) kohtaa ennen kuin viimeaikoina kun 
 opettaja nykyisessä koulussani alkoi suositella sitä ja meidän piti asentaa 
-se. Lopuksi kiinnostukseni [Fedoraa] kohtaan heräsi huomatessani toimintoja, 
+se. Lopuksi kiinnostukseni [Fedoraa](https://fedoraproject.org/) kohtaan heräsi huomatessani toimintoja, 
 joista tunneilla ei mainittu, delta-paketit ja fastest-mirror.
 
 Delta-paketit sallivat pakettien muutosten lataamisen kokonaisten pakettien 
 sijaan ja fastest-mirrorin nimi kertookin mitä se tekee.
 
-Tietysti delta-paketit ovat olemassa myös [Debianilla] ja [Ubuntulla], mutta 
+Tietysti delta-paketit ovat olemassa myös [Debianilla](http://www.debian.org/) ja [Ubuntulla](http://ubuntu-fi.org/), mutta 
 niitä ei käytetä oletuksena, niitä on vaikeampi käyttää, ne eivät ole 
-virallisesti tuettuja ja niillä on vain yksi päivityspalvelin. [Fedorassa] 
+virallisesti tuettuja ja niillä on vain yksi päivityspalvelin. [Fedorassa](https://fedoraproject.org/) 
 asennetaan vain päivitykset ja niitä käytetään automaattisesti.
 
-Fastest-mirror on myös [Ubuntulla] ja [Debianilla], mutta se ei ole 
+Fastest-mirror on myös [Ubuntulla](http://ubuntu-fi.org/) ja [Debianilla](http://www.debian.org/), mutta se ei ole 
 käytössä oletuksena (ei tosin ole Fedorallakaan) ja se on palvelimella.
-[Ubuntulla] on [yksi muuttuva tiedosto] mirrors.ubuntu.com:issa, joka 
-sisältää listan läheisistä päivityspalvelimista ja [Debianilla] on 
-[HTTP-uudelleenohjaaja], joka on myös palvelimella. Jos kumpikin menevät alas, 
+[Ubuntulla](http://ubuntu-fi.org/) on [yksi muuttuva tiedosto](http://mirrors.ubuntu.com/mirrors.txt) mirrors.ubuntu.com:issa, joka 
+sisältää listan läheisistä päivityspalvelimista ja [Debianilla](http://www.debian.org/) on 
+[HTTP-uudelleenohjaaja](http://http.debian.net/), joka on myös palvelimella. Jos kumpikin menevät alas, 
 et voi asentaa päivityksiä.
 
-[Fedoralla] on myös lupaus yrittää sisällyttää viimeisimmät ylävirran 
-versiot, joten sain uuden [Enigmailin] nopeammin, kuin olisin saanut sen 
-[Debianilla] tai [Ubuntulla].
-
-[Fedoran]:https://fedoraproject.org/
-[Ubuntun]:http://www.ubuntu.com/
-[Ubuntulla]http://www.ubuntu.com/:
-[Fedoraa]:https://fedoraproject.org/
-[Fedorassa]:https://fedoraproject.org/
-[Fedoralla]:https://fedoraproject.org/
-[Debianilla]:http://www.debian.org/
-[yksi muuttuva tiedosto]:http://mirrors.ubuntu.com/mirrors.txt
-[HTTP-uudelleenohjaaja]:http://http.debian.net/
-[Enigmailin]:http://www.enigmail.net/home/index.php
+[Fedoralla](https://fedoraproject.org/) on myös lupaus yrittää sisällyttää viimeisimmät ylävirran 
+versiot, joten sain uuden [Enigmailin](http://www.enigmail.net/home/index.php) nopeammin, kuin olisin saanut sen 
+[Debianilla](http://www.debian.org/) tai [Ubuntulla](http://ubuntu-fi.org/).
 
 PGP/GPG
 -------
@@ -184,14 +171,16 @@ W2YaeRC7JkgMso7OWJMt
 -----END PGP SIGNATURE-----
 ```
 
-Oletus lisenssit
-----------------
+Oletuslisenssit
+---------------
 
 Jos näet tuottamaani sisältöä, jossa lisenssiä ei ole mainittu (esimerkiksi 
 tämä sivu), lisenssi on yksi kolmesta alapuolella mainitusta lisenssistä 
 riippuen sisällöstä.
 
 ### Koodi
+
+<div id=bsd>
 
 BSD lisenssi
 
@@ -233,14 +222,16 @@ jolloin sisältö tehtiin, käytä nykyistä vuotta.
 En suomenna lisenssiä, koska jos teen ohjelman, se on luultavasti muutenkin
 englannin kielinen.
 
-### Ei koodia
+</div>
 
-#### Kuvat/Videot
+### Muuta kuin koodia
+
+#### Kuvat/Videot/Audio
 
 **Tämä ei sisällytä kuvankaappauksia eikä suurinta osaa muistakaan asioista, 
-joita ei ole otettu kameralla.**
+joita ei ole otettu kameralla/mikrofonilla.**
 
-Valokuvat/Videot, jotka olen ottanut, eivätkä ne sisällytä mainintaa 
+Valokuvat/Videot/Audio, jotka olen tuottanut, eivätkä ne sisällytä mainintaa 
 lisenssistä ovat lisensoituja Creative Commons Nimeä-Ei muutoksia 3.0 
 Muokkaamaton lisenssillä, joka tunnetaan myös nimellä [CC-BY-ND](https://creativecommons.org/licenses/by-nd/3.0/deed.fi)
 
@@ -259,12 +250,12 @@ Toivoisin, että nimeät ainakin tämän tiedon ja voit halutessasi nimetä myö
 **Lisenssit tämän korostetun viestin alla eivät ole missään tekemisissä 
 tuotoksieni kanssa. Saadaksesi lisätietoja lue yläpuoliset osiot.**
 
-Olen "allekirjoittanut" [Fedora-Projectin osallistujasopimuksen](https://fedoraproject.org/wiki/Legal:Fedora_Project_Contributor_Agreement?rd=Legal:FPCA), joka määrittää allekirjoittajien oletuslisenssit mikäli he eivät ole 
+Olen "allekirjoittanut" [Fedora-Projektin osallistujasopimuksen](https://fedoraproject.org/wiki/Legal:Fedora_Project_Contributor_Agreement?rd=Legal:FPCA), joka määrittää allekirjoittajien oletuslisenssit mikäli he eivät ole 
 määrittäneet omia lisenssejään.
 
 Lisenssit, jotka he määrittävät ovat MIT-lisenssi koodille ja kaikelle 
 muulle Creative Commons Nimeä-JaaSamoin 3.0 Muokkaamaton eli (CC-BY-SA) ja 
-jälkimmäisestä luovutaan osiosta 4d.
+jälkimmäisessä luovutaan osiosta 4d.
 
 Osallistuminen
 --------------
@@ -304,16 +295,10 @@ auttanut siellä joidenkin ongelmien kanssa.
 
 ### Fedora
 
-Olen joillakin [Fedoran] IRC-kanavilla [freenodessa] ja [IRCnetissä] ja 
-olen auttanut joidenkin ongelmien kanssa. Päädyin myös muokkaamaan [Linux.fi] 
-wikiä, jonka [Fedora] sivut eivät olleet ajan tasalla ennen kuin me 
+Olen joillakin [Fedoran](https://fedoraproject.org/) IRC-kanavilla [freenodessa](http://freenode.net/) ja [IRCnetissä](https://en.wikipedia.org/wiki/IRCnet) ja 
+olen auttanut joidenkin ongelmien kanssa. Päädyin myös muokkaamaan [Linux.fi](http://linux.fi/wiki/Etusivu) 
+wikiä, jonka [Fedora](http://linux.fi/wiki/Fedora) sivut eivät olleet ajan tasalla ennen kuin me 
 korjasimme ne.
-
-[Fedoran]:https://fedoraproject.org/
-[Fedora]http://linux.fi/wiki/Fedora
-[freenodessa]:http://freenode.net/
-[IRCnet]:https://en.wikipedia.org/wiki/IRCnet
-[Linux.fi]:http://linux.fi/wiki/Etusivu
 
 ### Linux.fi
 
@@ -339,12 +324,6 @@ Tunnukset kaikkialla
 ### Viittauslinkit
 
 [Dropbox](http://db.tt/y7fPYse) || [Ubuntu One](https://one.ubuntu.com/referrals/referee/386817/) || [Wuala](http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF) || [LastPass](https://lastpass.com/f?884346)
-
-<hr/>
-
-PGP-avaimeni on [0x4DB53CFE82A46728] ja sen sormenjälki on <strong>24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728</strong>
-
-[0x4DB53CFE82A46728]:PGP/0x82A46728.txt
 
 <hr/>
 
