@@ -7,7 +7,7 @@
 <meta name="keywords" content="OpenPGP,gpg,email,long,signature,long signature,PGP,GnuPG," />
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/Emails.html">
-<title>Insert title here</title>
+<title>How I send emails and why I send them like I do.</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
 <body>
@@ -19,14 +19,14 @@
 
 ## OpenPGP signing
 
-I sign my emails using [GnuPG] which is free implementation of the [OpenPGP] standard. 
+I sign my emails using [GnuPG](http://www.gnupg.org/) which is free implementation of the [OpenPGP](https://www.ietf.org/rfc/rfc4880.txt) standard. 
 The signature can be used to verify that I am the sender and that nobody modified the 
 message.
 
 ## UTF-8
 
 I use UTF-8, because it allows all characters and it's widely used everywhere. It is 
-also the default character set of [Python 3]. UTF-8 is also recommended on most of 
+also the default character set of [Python 3](http://python.org/). UTF-8 is also recommended on most of 
 IRC channels and networks.
 
 ## Plain text emails
