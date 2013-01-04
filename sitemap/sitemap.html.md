@@ -40,6 +40,8 @@ The root directory where everything is located.
 
 Some things, which are direct complaining about something or then guides for doing something. They might not be very good guidess.
 
+[How I send emails and why I do so](../articles/Emails.html)
+
 ### /articles/complaining/
 
 Complaining about some things.

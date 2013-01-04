@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" /> <!-- <meta http-equiv="refresh" content="60" /> --> <meta name="description" content="Explanation on how I send emails and why I send them that way and the problems which it can cause and solutions to them." /> <meta name="keywords" content="OpenPGP,gpg,email,long,signature,long signature,PGP,GnuPG," /> <meta name="author" content="Mika Suomalainen" /> <link rel="canonical" href="http://mkaysi.github.com/articles/Emails.html">
+<title>
+Insert title here
+</title>
+<link rel="stylesheet" type="text/css" href="../tyyli.css" />
+</head>
+<body>
+<hr/>
+<a href="sitemap/sitemap.html">Sitemap</a>
+<hr/>
+
+<h1 id="why-do-i-send-emails-how-i-sent-them">Why do I send emails how I sent them</h1>
+<h2 id="openpgp-signing">OpenPGP signing</h2>
+<p>I sign my emails using [GnuPG] which is free implementation of the [OpenPGP] standard. The signature can be used to verify that I am the sender and that nobody modified the message.</p>
+<h2 id="utf-8">UTF-8</h2>
+<p>I use UTF-8, because it allows all characters and it's widely used everywhere. It is also the default character set of [Python 3]. UTF-8 is also recommended on most of IRC channels and networks.</p>
+<h2 id="plain-text-emails">Plain text emails</h2>
+<p>I think that HTML emails only waste space. The content is HTML and even if it's not directly visible to the user, it has a lot of content when reading the email source. With plain text emails the source is only text, nothing is in HTML.</p>
+<h2 id="replying-below-quotes.">Replying below quotes.</h2>
+<p>Many mailing lists wish emails to be replied under the quoted text and inside the message. It also makes the email easier to read when you know what has been said previously.</p>
+<h2 id="issues-which-you-might-have-with-my-emails-and-how-to-fix-them">Issues which you might have with my emails and how to fix them</h2>
+<h3 id="openpgp-signature">OpenPGP signature</h3>
+<h4 id="long-mess-as-signature">Long mess as signature</h4>
+<p>The &quot;long mess&quot; should be hidden automatically by email client when you import my public key (I will tell you more about that later). If your email client doesn't do this, I suggest you to file a bug report to your email client or change it. I use and recommend [Thunderbird] with [Enigmail] plugin.</p>
+<h4 id="importing-public-keys-automatically">Importing public keys automatically</h4>
+<p>This will hide most of them and show you small notification about the email being signed. There are two ways to import keys automatically.</p>
+<h5 id="enigmail-level-enigmail-only">Enigmail level (Enigmail only)</h5>
+<p>Go to OpenPGP --&gt; Settings and click &quot;Show Expert Settings&quot;. Then open tab &quot;Keyserver&quot; and enter the following to the below box:</p>
+<pre><code>pool.sks-keyservers.net</code></pre>
+<p>Then click &quot;OK&quot; and you should get all keys automatically from pool.sks-keyservers.net when you receive email signed with unknown key presuming that the key is at the keyserver. If it's not, you will see the signature and error about key not found.</p>
+<h5 id="gnupg-level">GnuPG level</h5>
+<p>Modify the Enigmail configuration file which should be on one of these locations:</p>
+<pre><code>Linux: ~/.gnupg/gpg.conf
+Mac OS X: ~/.gnupg/gpg.conf
+Windows: C:\Users\User\AppData\Roaming\gnupg\gpg.conf
+(I&#39;m not fully sure about Windows location)</code></pre>
+<p>and add these lines:</p>
+<pre><code>keyserver pool.sks-keyservers.net
+auto-key-locate keyserver
+keyserver-options auto-key-retrieve no-include-revoked import-clean
+import-options import-clean
+export-options export-clean</code></pre>
+<p>You actually need only the first and third lines, but I recommend all what I mentioned and I explain what they do.</p>
+<blockquote>
+<p>keyserver pool.sks-keyservers.net</p>
+</blockquote>
+<p>Sets the default keyserver as pool.sks-keyservers.net.</p>
+<blockquote>
+<p>auto-key-locate keyserver</p>
+</blockquote>
+<p>If you are sending encrypted email to someone whose key you don't have, GPG tries to find it from keyserver automatically.</p>
+<blockquote>
+<p>keyserver-options auto-key-retrieve no-include-revoked import-clean</p>
+</blockquote>
+<p>When doing something with keyserver, get key automatically if it's missing and it has signed something and the signature is being verified and when searching, do not show revoked keys and remove useless signatures (=signature from missing key) from keys.</p>
+<blockquote>
+<p>import-options import-clean</p>
+</blockquote>
+<blockquote>
+<p>export-options export-clean</p>
+</blockquote>
+<p>When importing/exporting keys, remove all signatures that are from keys that aren't in keyring.</p>
+<hr/>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_developer = 0; 
+var disqus_url = 'http://mkaysi.github.com/articles/Emails.html';
+var disques_title = 'How I send emails and why I send them like I do.';
+var disqus_shortname = 'mkaysishomepage'; // required: replace example with your forum shortname
+/* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = 
+true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0])
+.appendChild(dsq);
+            })();
+        </script>
+        <noscript>
+Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Dis qus.</a>
+</noscript>
+
+<p>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus </span></a>
+</p>
+<!-- vim : set ft=html -->
+</body>
+</html>
+
+
