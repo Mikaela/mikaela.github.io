@@ -113,8 +113,8 @@ I recommend [Limnoria], because it seems to be more active (activity of [Gribble
 
 The links above should always be the latest version of Limnoria and they are updated daily.
 
-[stable version of Limnoria here]:http://compiler.progval.net/limnoria-master-HEAD.deb
-[testing version here]:http://compiler.progval.net/limnoria-testing-HEAD.deb
+[stable version of Limnoria here]:http://builds.progval.net/limnoria/limnoria-master-HEAD.deb
+[testing version here]:http://builds.progval.net/limnoria/limnoria-testing-HEAD.deb
 
 [Gribble modifications when compared to Supybot.]	
 
