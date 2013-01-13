@@ -17,10 +17,6 @@
 
 ***17, [AS](http://mkaysi.github.com/Asperger.html),  Linux user since 2008, currently using [Fedora], interested in computers and some kind of Finnish translator.***
 
-<!--- pandoc -f markdown -t mediawiki -i markdown.md -o mediawiki.txt --->
-
-***17, [AS](http://mkaysi.github.com/Asperger.html),  Linux user since 2008, currently using [Fedora], interested in computers and some kind of Finnish translator.***
-
 About me
 ========
 
