@@ -5,3 +5,11 @@ AddType text/html shtml
 AddHandler server-parsed shtml
 AddDefaultCharset utf-8 
 DirectoryIndex index.html sitemap.html
+
+# Force Google Chrome Frame to be used if it's installed.
+<IfModule mod_setenvif.c>
+  <IfModule mod_headers.c>
+    BrowserMatch chromeframe gcf
+    Header append X-UA-Compatible "chrome=1" env=gcf
+  </IfModule>
+</IfModule>
