@@ -5,12 +5,12 @@
 <meta name="description" content="Hiukan tietoa minusta ja linkkejä sosiaalisen median tunnuksiini sekä viittauslinkkejä, jotka antavat sinulle (ja minulle) enemmän tilaa (tai mitä tahansa antavatkin) eri palveluissa :)" />
 <meta name="keywords" content="about,me,Mkaysi,Mika,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube,Debian,Ubuntu,Linux,computers,Dropbox,Ubuntu,one,u1,Lacie,Wuala,valid,HTML5,referral,promo,code,kelvollinen,viittaus,koodi" />
 <meta name="author" content="Mika Suomalainen" />
-<link rel="canonical" href="http://mkaysi.github.com/index.fi.html">
+<link rel="canonical" href="http://mkaysi.github.com/AboutMe/index.fi.html">
 <title>Mkaysin kotisivu</title>
-<link rel="stylesheet" type="text/css" href="tyyli.css" />
+<link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
 <hr/>
-[Sivukartta](sitemap/sitemap.fi.html) || [Englanniksi / in English](index.html)
+[Sivukartta](../sitemap/sitemap.fi.html) || [Englanniksi / in English](../index.html)
 <hr/>
 
 <!--- pandoc -f markdown -t mediawiki -i markdown.fi.md -o mediawiki.fi.txt --->
