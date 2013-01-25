@@ -1,20 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000080;
+    background-color: #FFFFFF;
+    text-align: center
+}
+
 body {
-    color:  lightblue;
-    background-color: black;
+    color: #FFFFFF;
+    background-color: #000080;
     font-family: "DejaVu Sans", Ubuntu, Arial, Arial, Helvetica, sans-serif;
     text-align: justify
 }
 
 pre {
-    color:  white;
-    background-color: black;
+    color: #FFFFFF;
+    background-color: #C3C3C3;
     font-family: Courier, "Courier New";
 }
 
 a:link { 
-    color: red
+    color: #00FF00
 }
 
 a:visited {
-    color: pink
+    color: #C0FFC0
+}
+
+img {
+    text-align: center
 }
