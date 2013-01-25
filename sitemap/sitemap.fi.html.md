@@ -16,9 +16,9 @@
 
 # Sivukartta
 
-Juuri nyt tällä sivustolla on vain kolme suomenkielistä sivua.
+Juuri nyt tällä sivustolla on vain neljä suomenkielistä sivua.
 
-[Etusivu] || [404-virhe] || Sivukartta, jota luet nyt.
+[Etusivu] || [404-virhe]|| [Minusta](../AboutMe/index.fi.html) || Sivukartta, jota luet nyt.
 
 [Englanninkielinen versio] tästä sivustosta on hiukan laajempi.
 
