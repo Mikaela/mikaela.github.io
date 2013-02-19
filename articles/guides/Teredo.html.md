@@ -13,7 +13,7 @@
 </head>
 <body>
 <hr/>
-[Sitemap](sitemap/sitemap.html)
+[Sitemap](../../sitemap/sitemap.html)
 <hr/>
 
 
