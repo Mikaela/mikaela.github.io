@@ -72,6 +72,8 @@ Complaining about some things.
 
 [Windows](../articles/guides/Windows.html) — Activating Administrator, removing password without knowing it, netsh tethering, autologin without regedit
 
+[Enabling Teredo on Windows Vista and above](../articles/guides/teredo.html)
+
 [GNOME to MATE]:../articles/guides/GnomeToMATE.html
 [Thunderbird / Icedove]:../articles/guides/Thunderbird-Icedove.html
 
