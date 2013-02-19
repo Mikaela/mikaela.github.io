@@ -9,7 +9,7 @@
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/articles/guides/teredo.html">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="tyyli.css" />
+<link rel="stylesheet" type="text/css" href="../../tyyli.css" />
 </head>
 <body>
 <hr/>
