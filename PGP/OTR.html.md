@@ -35,14 +35,13 @@ gpg --verify OTR.html.md.asc
 [markdown source]:OTR.html.md
 [signature]:OTR.html.md.asc
 
-# Devgan
+## Devgan
 
 Devgan is a laptop.
 
-## Pidgin
+### Fedora
 
-### Debian
-
+#### Pidgin
 
 <table border=1>
 	<tr>
@@ -51,45 +50,56 @@ Devgan is a laptop.
 		<td>Key fingerprint</td>
 		<td>Protocol</td>
 	</tr>
-<!---
+
 	<tr>
 		<td>mika.suomalainen</td>
 		<td>chat.facebook.com</td>
-		<td>4DC7B798 3E3CB54E 62065108 8923A362 BD2B54C4</td>
-		<td></td>
+		<td>0ECCB778 B39A7BCF AAD514EB E7FBCF3E 93F169AB</td>
+		<td>XMPP (Facebook)</td>
 	</tr>
---->
+
 	<tr>
 		<td>s.mika95</td>
 		<td>gmail.com</td>
-		<td>3A833385 5A65443A 73A7C213 7A244290 2C24F709</td>
+		<td>EDAF9A26 AE3E4BDE 73653350 1BBF17AA 2BD63C84</td>
+		<td>XMPP</td>
+	</tr>
+	<tr>
+		<td>mikahmsuomalainen</td>
+		<td>gmail.com</td>
+		<td>983975C0 A27D9B71 5E2C89FF 4BD36B4F EEADF057</td>
 		<td>XMPP</td>
 	</tr>
 	<tr>
 		<td>mika.suomalainen</td>
 		<td>edu.ekami.fi</td>
-		<td>B0DC80EC 7B9D4B70 80012C03 1AE2B1B0 E9F52DF6</td>
+		<td>E2CF69C7 37FF11F0 DE750220 0343F9E1 3BC8BA93</td>
 		<td>MSN</td>
 	</tr>
 	<tr>
 		<td>mkaysi</td>
 		<td>jabber.org</td>
-		<td>D076B854 5A919CB1 DC32FFAA D0F956EC 086C7BDD</td>
+		<td>8820F934 21B40D84 3D98DD81 9D34C7A4 3BA56232</td>
 		<td>XMPP</td>
 	</tr>
     <tr>
 		<td>mkaysi</td>
 		<td>dukgo.com</td>
-		<td>B3AE41C3 75946988 86936D92 A7929D23 A52CE715</td>
+		<td>18765B9D AC46EC9A 5E1047B8 EF9895D6 4099856A</td>
 		<td>XMPP</td>
 	</tr>
     <tr>
 		<td>Mkaysi</td>
 		<td><center>-</center></td>
-		<td>19C47AF1 E5D8FF7A 0B5B98E9 4B620487 FFDFA671</td>
+		<td>20BA2267 E27B4BF6 D9A82862 743BE001 475B894A</td>
 		<td>Bonjour</td>
 	</tr>
-
+    <tr>
+		<td>mkaysi</td>
+		<td><center>-</center></td>
+		<td>EED02839 25E5E551 E54E1A98 D440A2D1 5801AA83</td>
+		<td>XFire</td>
+	</tr>
 </table>
 
 
