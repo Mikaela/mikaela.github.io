@@ -1,7 +1,7 @@
 /* TEAM */
 
 Creator: Mika Suomalainen
-Site: mkaysi@outlook.com
+Email: mkaysi@outlook.com
 Homepage: http://mkaysi.github.com/
 Social media: http://mkaysi.github.com/socialmedia.txt
 Location: Kotka, Finland
@@ -9,9 +9,11 @@ Location: Kotka, Finland
 /* THANKS */
 
 Contributor: nyuszika7h
+Email: nyuszika7h@cadoth.net
 Twitter: nyuszika7h
 
 Contributor: Valentin Lorenz
+Email: progval@progval.net
 Twitter: Progval
 Homepage: http://progval.net/
 
