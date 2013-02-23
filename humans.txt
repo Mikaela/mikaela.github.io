@@ -11,11 +11,13 @@ Location: Kotka, Finland
 Contributor: nyuszika7h
 Email: nyuszika7h@cadoth.net
 Twitter: nyuszika7h
+Location: Budapest, Hungary
 
 Contributor: Valentin Lorenz
 Email: progval@progval.net
 Twitter: Progval
 Homepage: http://progval.net/
+Location: Jouy-Aux-Arches, Lorraine, France
 
 /* SITE */
 
