@@ -1,0 +1,24 @@
+/* TEAM */
+
+Creator: Mika Suomalainen
+Site: mkaysi@outlook.com
+Homepage: http://mkaysi.github.com/
+Social media: http://mkaysi.github.com/socialmedia.txt
+Location: Kotka, Finland
+
+/* THANKS */
+
+Contributor: nyuszika7h
+Twitter: nyuszika7h
+
+Contributor: Valentin Lorenz
+Twitter: Progval
+Homepage: http://progval.net/
+
+/* SITE */
+
+Last update: https://github.com/Mkaysi/mkaysi.github.com/commits/master
+Standards: HTML5, CSS, Markdown
+Software: Git, Pandoc, Vim
+Main: http://mkaysi.github.com/
+Mirror#2: http://cadoth.net/~mkaysi/
