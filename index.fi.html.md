@@ -27,6 +27,8 @@
 <a href="http://ubuntu.com"><img src="http://www.ubuntu.com/sites/all/themes/ubuntu10/logo.png" border="1" height="25px" witdh="25px" alt="Ubuntu"</img></a>,
 <a href="http://debian.org"><img src="http://www.debian.org/Pics/openlogo-50.png" border="1" height="25px" witdh="25px" alt="Debian"</img></a>,
 <a href="https://fedoraproject.org/"><img src="https://fedoraproject.org/w/uploads/thumb/2/2d/Logo_fedoralogo.png/300px-Logo_fedoralogo.png" border="1" height="25px" witdh="25px" alt="Fedora"</img></a>
+<a href="https://www.centos.org/"><img src="https://www.centos.org/themes/centos/images/centos_logo_45.png" border="1" height="25px" witdh="25px" alt="IMAGE"
+
 <hr/>
 Koodi: <a href="https://github.com/Mkaysi/"><img src="https://github.com/github/media/blob/master/logos/github_logo_social_coding_outlined.png?raw=true" border="1" height="25px" witdh="25px" alt="GitHub</img></a>
 <a href="https://gitorious.org/~mkaysi"><img src="https://gitorious.org/img/logo.png?1354009548" border="1" height="25px" witdh="25px" alt="Gitorious"</img></a>
@@ -35,7 +37,8 @@ Koodi: <a href="https://github.com/Mkaysi/"><img src="https://github.com/github/
 Sosiaalinen media:
 <a href="https://twitter.com/Mkaysi"><img src="https://twitter.com/images/resources/twitter-bird-dark-bgs.png" border="1" height="25px" witdh="25px" alt="Twitter"</img></a>
 <a href="https://plus.google.com/113787158024729598288/posts"><img src="https://www.google.com/+/business/images/plus-badge.png" border="1" height="25px" witdh="25px" alt="Google+"</img></a>
-<a href="https://facebook.com/mika.suomalainen"><img src="https://www.facebook.com/downloadtracker/download.php?rid=48&hash=AQCbS5KpHyLD7doqa" border="1" height="25px" witdh="25px" alt="Facebook"</img></a>
+<a href="https://facebook.com/mika.suomalainen"><img src="http://aux4.iconpedia.net/uploads/8704008282142089168.png" border="1" height="25px" witdh="25px" alt="Facebook"</img></a>
+
 <hr/>
 Viittauslinkit: <a href="http://db.tt/y7fPYse"><img src="https://www.dropbox.com/static/images/new_logo.png" border="1" height="25px" witdh="25px" alt="Dropbox"</img></a>
 <a href="https://one.ubuntu.com/referrals/referee/386817/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ubuntu_One_Logo_U1.svg/240px-Ubuntu_One_Logo_U1.svg.png" border="1" height="25px" witdh="25px" alt="Ubuntu ONE"</img></a>
