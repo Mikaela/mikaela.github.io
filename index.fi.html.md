@@ -27,7 +27,7 @@
 <a href="http://ubuntu.com"><img src="http://www.ubuntu.com/sites/all/themes/ubuntu10/logo.png" border="1" height="25px" witdh="25px" alt="Ubuntu"</img></a>,
 <a href="http://debian.org"><img src="http://www.debian.org/Pics/openlogo-50.png" border="1" height="25px" witdh="25px" alt="Debian"</img></a>,
 <a href="https://fedoraproject.org/"><img src="https://fedoraproject.org/w/uploads/thumb/2/2d/Logo_fedoralogo.png/300px-Logo_fedoralogo.png" border="1" height="25px" witdh="25px" alt="Fedora"</img></a>
-<a href="https://www.centos.org/"><img src="https://www.centos.org/themes/centos/images/centos_logo_45.png" border="1" height="25px" witdh="25px" alt="IMAGE"
+<a href="https://www.centos.org/"><img src="https://www.centos.org/themes/centos/images/centos_logo_45.png" border="1" height="25px" witdh="25px" alt="CentOS"</img></a>
 
 <hr/>
 Koodi: <a href="https://github.com/Mkaysi/"><img src="https://github.com/github/media/blob/master/logos/github_logo_social_coding_outlined.png?raw=true" border="1" height="25px" witdh="25px" alt="GitHub</img></a>
