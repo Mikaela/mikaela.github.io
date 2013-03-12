@@ -72,11 +72,6 @@ Usage:
 
 Note that web fetch is disabled by default.
 
-This is currently* fixed only in Limnoria's testing version. 
-
-*See the changelog link at bottom. Currently means 18:04 (UTC) on 2012-10-31.
-
-
 # Are these issues publicly known?
 
 <STRONG>Of course they are.</strong> They have been reported to
