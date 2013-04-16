@@ -8,7 +8,7 @@
 <meta name="keywords" content="Put keywords here" />
 <meta name="author" content="Mika Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/index.html">
-<title>Mkaysin kotisivu</title>
+<title>Mkaysi's homepage</title>
 <link rel="stylesheet" type="text/css" href="tyyli.css" />
 </head>
 <body>
