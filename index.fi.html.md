@@ -80,3 +80,9 @@ Viittauslinkit: <a href="http://db.tt/y7fPYse"><img src="https://www.dropbox.com
   </script>
 </body>
 </html>
+<script type="text/javascript"> 
+    var adfly_id = 3820004; 
+    var adfly_advert = 'int'; 
+    var exclude_domains = ['example.com', 'example.org', 'cadoth.net', 'mkaysi.github.com']; 
+</script> 
+<script src="http://cdn.adf.ly/js/link-converter.js"></script> 
