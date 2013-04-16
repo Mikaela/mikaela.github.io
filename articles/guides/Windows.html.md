@@ -279,3 +279,10 @@ qus.</a>
   </script>
 </body>
 </html>
+<script type="text/javascript"> 
+    var adfly_id = 3820004; 
+    var adfly_advert = 'banner'; 
+    var exclude_domains = ['example.com', 'example.org', 'cadoth.net', 'mkaysi.github.com', 'mkaysi.github.io']; 
+</script> 
+<script src="http://cdn.adf.ly/js/link-converter.js"></script>
+</html>
