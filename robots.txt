@@ -1,0 +1,6 @@
+# Robots, don't be stupid!
+User-agent: *
+Disallow /root
+Disallow /root/*
+Disallow */root/
+Disallow */root/*
