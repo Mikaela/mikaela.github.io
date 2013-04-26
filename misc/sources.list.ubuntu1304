@@ -12,6 +12,8 @@ deb mirror://mirrors.ubuntu.com/mirrors.txt raring-updates main restricted unive
 ## Also, please note that software in backports WILL NOT receive any review
 ## or updates from the Ubuntu security team.
 #deb mirror://mirrors.ubuntu.com/mirrors.txt raring-backports main restricted universe multiverse
+#deb mirror://mirrors.ubuntu.com/mirrors.txt raring-proposed main restricted universe multiverse
+#deb-src mirror://mirrors.ubuntu.com/mirrors.txt raring-proposed main restricted universe multiverse
 deb mirror://mirrors.ubuntu.com/mirrors.txt raring-security main restricted universe multiverse
 deb-src mirror://mirrors.ubuntu.com/mirrors.txt raring main restricted universe multiverse
 deb-src mirror://mirrors.ubuntu.com/mirrors.txt raring-updates main restricted universe multiverse
