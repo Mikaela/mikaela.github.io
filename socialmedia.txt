@@ -1,6 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
+
 My accounts around the Internet
 ===============================
 
@@ -8,10 +9,10 @@ To check that this file hasn't been modified after I signed it, run
 
 curl -L http://mkaysi.github.com/socialmedia.txt|gpg --verify
 
-It requires cURL and GnuPG to be installed (Debian/Ubuntu packages: curl gnupg)
+It requires cURL and GnuPG to be installed (Debian/Ubuntu packages: curl gnupg gnupg-curl). gnupg-curl is only required with GnuPG1.
 
-Git etc.
-========
+Version control
+===============
 
 GitHub: https://github.com/Mkaysi
 Gitorious: https://gitorious.org/~mkaysi
@@ -33,42 +34,52 @@ Referrals
 Dropbox: http://db.tt/y7fPYse
 Ubuntu One: https://one.ubuntu.com/referrals/referee/386817/
 Wuala: http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF
+LastPass: https://lastpass.com/f?884346
+SpiderOak: Coming later...
+Adfly: http://adf.ly/?id=3820004
 
 Instant messaging etc.
 ======================
 
 Skype: Mkaysi1
 freenode (IRC): Mkaysi
-Windows LIVE: https://profile.live.com/P.mvc#!/cid-40502dd7058f4dc3
+Windows Live / Skype: mika <dot> suomalainen <at> outlook <dot> com
+Google Talk: s <dot> mika95 <at> gmail <dot> com
+Google Talk: mikahmsuomalainen <at> gmail <dot> com
+Jabber/XMPP: mkaysi <at> jabber <dot> org
+Jabber/XMPP: mkaysi <at> dukgo <dot> com
+
+Please note that Google Talk, Jabber and XMPP are (almost) same thing.
+    Google Talk is Google's implementation of Jabber
+    and Jabber is the old name of XMPP.
 
 Miscellaneous
 =============
 
 GoodReads: http://www.goodreads.com/user/show/11147845-mika-suomalainen
-My homepage: http://mkaysi.github.com/ ( mirror #1: http://cadoth.net/~mkaysi )
-This list: http://mkaysi.github.com/socialmedia.txt
+My homepage: http://mkaysi.github.io/ ( mirror #1: http://cadoth.net/~mkaysi )
+This list: http://mkaysi.github.io/socialmedia.txt
+
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.19 (GNU/Linux)
 Comment: Homepage: http://mkaysi.github.com/
 Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
 Comment: gpg --fetch-keys http://mkaysi.github.com/PGP/0x82A46728.txt
 Comment: Fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
-Comment: I have personal problem with PGP/MIME...
-Comment: ...so signature *IS* long. See http://git.io/6FLzWg
-Comment: Please remove PGP lines in replies. http://git.io/nvHrDg
-Comment: Charset of this message should be UTF-8.
+Comment: How/Why I send emails like I do http://adf.ly/MnBa4
+Comment: How to not verify my signature http://adf.ly/MnBqm
 
-iQIcBAEBCgAGBQJQj/ioAAoJEE21PP6CpGcoHtUP/j8ogP3/w8K3/NOfEebG7xuA
-MEKntRr+2O9hPKCI3KnHUiGMUBQyBZlSxkZdDCBZ4VJLt9Xr8gLVt+XJpMrqzTJR
-yVH2dr5zuNaLcfHjzavNxbS8Zo0PS8h7qrj3Wt2zL6xeu19JNemCqFSY3oLG4CEy
-Up4c0MuH8WImPEm7KJXvCwqOvwrWmD3xrCmZMsTnk7ZZVJ9uu+92ukNg8RGwaUlG
-40y/3RYTgtfgvMkMNsF0/Gxf8Bi7IFDiy09+3/wa5Y+gasfH6IZfCfXZ+yux5ekl
-W+B3ZDPvXaGQvbl+mix+df+yAS9b9E2gNGGch69NHJNUed4T4s4OsvAhpje/sZVd
-IOJCsRHIGKwcAZAA941ziCsDs8Enx2v/42Zitm+94yaNL4bITrY9aKKKJRYOsNdK
-0IIDiN7QzCJNcqiPv6IVgiBJ4cQoMa6l6I5XcJnxGbGh3DIEYXVLZk4mO+p2ploR
-l+tNK0JKW56V8UYULm4LGMKAj4FPykFI8DokevHKGWuogCyGcNsTIalPMevjkq+/
-B/NB8J3BjBZ9Pbbfnq0mvqPOCu/JK167K1lX5Opc+CoJJ+/bAUhjsvrAL5nQ3NHi
-SS8AMVof7Z66G9/KztXh0zUc2Zwgu0gPBHvHx1TAO4tdyXfknJ18acQ2pddyPfbV
-aIE9r3kBR5Y89cZRU7vT
-=5KZR
+iQIcBAEBCgAGBQJRhMRsAAoJEE21PP6CpGcoqJUP/25l9t+ISgFohvBnKIE/2zNk
+cCi/+kPbvOraZEwSimTcobUcEL4FzpccA+DD7bJB884SvkgkHwOihpWkxu5GA65U
+eBhgpz2eMDPgIk52K8PzkAoflDHepM+zFog/YKL1v9t6dDIiPSPUOGoFPLx7ARkX
+wWuKPUpLFkpJ2IUAnZ0czcNt6osegTuTqsFanqwRHFexxa9gWKR9UG1pArlnhKsJ
+2XanwHfNopy4h44VfARgF2WeHfMA9liDYvlsHbaG4UHgEAptqRirZh++OSnQ9R5f
+8BsAtZUxa7nEobADpFRGgWOpS8xFCJQYYM/PQYIveX6wzM82diZrMr0HI/7/aKMp
+6CNyiHvqFXcEbY/4MAhI3xg4rjQpaZq9fixTMHAhx8XStReIUEzfEnbE6ZJWsYY0
+irw+8aQHq4dd21ZOZB3lwkAwLCJ4nXuc19eejuTr9SVXt95LpNWir24wxVodObeU
+3cS30rN4xmVFlSMhnCNapREdUXvVsarLMSUpwFTt4/jilIIjEMuz8i1u1j+7c/7/
+Uii0YaWhu0TictjqeNjHcNTkNGRRse/+7k/dDkC93Q5SO54j240y5EPKtfgrI7qI
+nAb8HYJAE6teBXf82PrI7pvy3+LLLiPY9lqXgohY+8u4uRkokgCONi4cJj5jXlaF
+0bNYcbQh9jVyLFjwyny8
+=4pud
 -----END PGP SIGNATURE-----
