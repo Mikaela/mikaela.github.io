@@ -14,7 +14,7 @@
 <body>
 <hr/>
 [Sitemap](sitemap/sitemap.html) || [Suomeksi](index.fi.html)
-<hr/>
+<hr>
 
 <!--
 <a href="osoite"><img src="kuva" border="1" height="25px" witdh="25px" alt="IMAGE"</img></a>
@@ -27,8 +27,10 @@
 <a href="http://ubuntu.com"><img src="http://www.ubuntu.com/sites/all/themes/ubuntu10/logo.png" border="1" height="25px" witdh="25px" alt="Ubuntu"</img></a>,
 <a href="http://debian.org"><img src="http://www.debian.org/Pics/openlogo-50.png" border="1" height="25px" witdh="25px" alt="Debian"</img></a>,
 <a href="https://fedoraproject.org/"><img src="https://fedoraproject.org/w/uploads/thumb/2/2d/Logo_fedoralogo.png/300px-Logo_fedoralogo.png" border="1" height="25px" witdh="25px" alt="Fedora"</img></a>
-<a href="https://www.centos.org/"><img src="https://www.centos.org/themes/centos/images/centos_logo_45.png" border="1" height="25px" witdh="25px" alt="CentOS"
+<a href="https://www.centos.org/"><img src="https://www.centos.org/themes/centos/images/centos_logo_45.png" border="1" height="25px" witdh="25px" alt="CentOS"</a>
+
 <hr/>
+
 Code: <a href="https://github.com/Mkaysi/"><img src="https://github.com/github/media/blob/master/logos/github_logo_social_coding_outlined.png?raw=true" border="1" height="25px" witdh="25px" alt="GitHub</img></a>
 <a href="https://gitorious.org/~mkaysi"><img src="https://gitorious.org/img/logo.png?1354009548" border="1" height="25px" witdh="25px" alt="Gitorious"</img></a>
 <a href="https://launchpad.net/~mkaysi/"><img src="https://launchpad.net/@@/launchpad-logo-and-name.png" border="1" height="25px" witdh="25px" alt="LaunchPad"</img></a>
@@ -43,10 +45,11 @@ Referral links: <a href="http://db.tt/y7fPYse"><img src="https://www.dropbox.com
 <a href="https://one.ubuntu.com/referrals/referee/386817/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ubuntu_One_Logo_U1.svg/240px-Ubuntu_One_Logo_U1.svg.png" border="1" height="25px" witdh="25px" alt="Ubuntu ONE"</img></a>
 <a href="http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Wuala_logo.svg/210px-Wuala_logo.svg.png" border="1" height="25px" witdh="25px" alt="Wuala"</img></a>
 <a href="https://lastpass.com/f?884346"><img src="https://upload.wikimedia.org/wikipedia/fi/6/63/Lastpass_logo.png" border="1" height="25px" witdh="25px" alt="LastPass"</img></a>
-[Adf.ly](http://adf.ly/?id=3820004)
-
+<a href="http://adf.ly/?id=3820004"><img src=http://taimoorsultan.com/wp-content/uploads/2012/10/adf-ly-logo-vector-download-200x190.png" border="1" height="25px" witdh="25px" alt="Adf.ly"<img></a>
+<hr>
+<hr>
 [GPG signed list of these and other accounts](socialmedia.txt)
-
+<hr>
 <hr/>
 **PGP/GPG**: 24BC 1573 B8EE D666 D10A  AA65 **4DB5 3CFE** [***82A4 6728***](PGP/0x82A46728.txt)
 <hr/>
