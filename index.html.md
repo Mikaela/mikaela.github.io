@@ -38,13 +38,14 @@ Social media:
 <a href="https://plus.google.com/113787158024729598288/posts"><img src="https://www.google.com/+/business/images/plus-badge.png" border="1" height="25px" witdh="25px" alt="Google+"</img></a>
 <a href="https://facebook.com/mika.suomalainen"><img src="http://aux4.iconpedia.net/uploads/8704008282142089168.png" border="1" height="25px" witdh="25px" alt="Facebook"</img></a>
 <hr/>
+
 Referral links: <a href="http://db.tt/y7fPYse"><img src="https://www.dropbox.com/static/images/new_logo.png" border="1" height="25px" witdh="25px" alt="Dropbox"</img></a>
 <a href="https://one.ubuntu.com/referrals/referee/386817/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ubuntu_One_Logo_U1.svg/240px-Ubuntu_One_Logo_U1.svg.png" border="1" height="25px" witdh="25px" alt="Ubuntu ONE"</img></a>
 <a href="http://www.wuala.com/referral/KBM7654P7HB37KBN4MCF"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Wuala_logo.svg/210px-Wuala_logo.svg.png" border="1" height="25px" witdh="25px" alt="Wuala"</img></a>
 <a href="https://lastpass.com/f?884346"><img src="https://upload.wikimedia.org/wikipedia/fi/6/63/Lastpass_logo.png" border="1" height="25px" witdh="25px" alt="LastPass"</img></a>
-[SpiderOak]
 [Adf.ly](http://adf.ly/?id=3820004)
 
+[GPG signed list of these and other accounts](socialmedia.txt)
 
 <hr/>
 **PGP/GPG**: 24BC 1573 B8EE D666 D10A  AA65 **4DB5 3CFE** [***82A4 6728***](PGP/0x82A46728.txt)
