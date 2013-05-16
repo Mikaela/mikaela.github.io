@@ -4,21 +4,21 @@ h3,
 h4,
 h5,
 h6 {
-    color: white;
-    background-color: black;
+    color: #FFFFFF;
+    background-color: #000000;
     text-align: center
 }
 
 body {
-    color: white;
-    background-color: black;
+    color: #FFFFFF;
+    background-color: #000000;
     font-family: "DejaVu Sans", Ubuntu, Arial, Arial, Helvetica, sans-serif;
     text-align: justify-center
 }
 
 pre {
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #FFFFFF;
     font-family: "Ubuntu Mono", "DejaVu Sans Mono", Courier, "Courier New";
 }
 
