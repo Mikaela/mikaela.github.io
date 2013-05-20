@@ -14,7 +14,11 @@
 [Sitemap](sitemap/sitemap.html)
 <hr/>
 
-Message to people who come from [Finnish index](index.fi.html): <strong>Tämä sivu käännetään suomeksi myöhemmin.</strong> Odottaessasi voit lukea tämän tiivistelmän: <strong>Minulla on [Aspergerin oireyhtymä](https://fi.wikipedia.org/wiki/Aspergerin_oireyhtym%C3%A4) ja olen yrittänyt tappaa itseni neljä (4) kertaa johtuen eri syistä mukaanlukien koulukiusaaminen.</strong> Katso myös [Wikipedian luettelo tunnetuista Autismin kirjon henkilöistä](https://fi.wikipedia.org/wiki/Luettelo_tunnetuista_autismin_kirjon_henkil%C3%B6ist%C3%A4)
+Message to people who come from [Finnish index](index.fi.html): <strong>Tämä sivu käännetään suomeksi
+myöhemmin.</strong> Odottaessasi voit lukea tämän tiivistelmän: <strong>Minulla on [Aspergerin 
+oireyhtymä](https://fi.wikipedia.org/wiki/Aspergerin_oireyhtym%C3%A4) ja olen yrittänyt tappaa itseni 
+viisi (5) kertaa johtuen eri syistä mukaanlukien koulukiusaaminen.</strong> Katso myös [Wikipedian 
+luettelo tunnetuista Autismin kirjon henkilöistä](https://fi.wikipedia.org/wiki/Luettelo_tunnetuista_autismin_kirjon_henkil%C3%B6ist%C3%A4)
 
 <strong><em>What is put into the internet stays in the internet,</em> so I am not going to remove this page.</strong>
 
