@@ -51,7 +51,7 @@ Viittauslinkit: <a href="http://db.tt/y7fPYse"><img src="https://www.dropbox.com
 [PGP-allekirjoitettu lista yllämainituista ja muista tunnuksistani](socialmedia.txt)
 <hr/>
 <hr/>
-**PGP/GPG**: 24BC 1573 B8EE D666 D10A  AA65 **4DB5 3CFE** [***82A4 6728***](PGP/0x82A46728.txt)
+**PGP/GPG**: 2BE0 B660 BF31 C8F9 3FA0  FEB8 **DAA6 CA08** [***F2E9 6AC7***](PGP/0xDAA6CA08.txt)
 <hr/>
 [Lisenssit](AboutMe/index.fi.html#miksi-sinulla-on-oletuslisenssit-tuotoksille-jotka-eivät-mainitse-lisenssiä); Koodi: [BSD](AboutMe/index.fi.html#bsd) || Audio, Kuvat, Videot: [CC-BY-ND](AboutMe/index.fi.html#kuvatvideotaudio) || Muut: [CC-BY](AboutMe/index.fi.html#kaikki-muut-kuin-yllämainitut)
 <hr/>
