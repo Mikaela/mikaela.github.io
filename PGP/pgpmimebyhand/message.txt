@@ -1,9 +1,0 @@
-14:17:03         +skizzhg | Mkaysi, in the same way you do with
-inline, the difference is that you have to remove -----BEGIN
-                          | PGP SIGNATURE----- and -----END PGP
-SIGNATURE----- from the file
-
-
--- Mika Suomalainen
-
-
