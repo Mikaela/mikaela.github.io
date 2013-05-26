@@ -51,7 +51,7 @@ Referral links: <a href="http://db.tt/y7fPYse"><img src="https://www.dropbox.com
 [GPG signed list of these and other accounts](socialmedia.txt)
 <hr>
 <hr/>
-**PGP/GPG**: 2BE0 B660 BF31 C8F9 3FA0  FEB8 **DAA6 CA08** [***F2E9 6AC7***](PGP/0xDAA6CA08.txt)
+**PGP/GPG**: 2BE0 B660 BF31 C8F9 3FA0  FEB8 **DAA6 CA08** [***F2E9 6AC7***](PGP/0xF2E96AC7).txt)
 <hr/>
 [Licenses](AboutMe/index.html#default-licenses); Code: [BSD](AboutMe/index.html#bsd) || Audio, Pictures, Videos: [CC-BY-ND](AboutMe/index.html#photosvideosaudio) || Others: [CC-BY](AboutMe/index.html#everything-else-than-mentioned-above)
 <hr/>
