@@ -38,7 +38,7 @@ The root directory where everything is located.
 
 ## /AboutMe/
 
-[About me](../AboutMe/index.html
+[About me](../AboutMe/index.html)
 
 ## /articles/
 
@@ -77,6 +77,8 @@ Complaining about some things.
 [GNOME to MATE]:../articles/guides/GnomeToMATE.html
 [Thunderbird / Icedove]:../articles/guides/Thunderbird-Icedove.html
 
+<!---
+
 #### /GPG/
 
 <strong> WARNING: These guides are even more unclear than those one folder down!</strong>
@@ -87,6 +89,8 @@ Complaining about some things.
 
 [GPG]:../articles/guides/GPG/GPG.html
 [Enigmail]:../articles/guides/GPG/Enigmail.html
+
+--->
 
 ## /IRC/
 
