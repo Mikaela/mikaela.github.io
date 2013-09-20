@@ -23,6 +23,32 @@
 Linux users: install miredo and start it and you have IPv6. Optionally set 
 server in /etc/miredo/miredo.conf .
 
+## The easy way
+
+Create file called whatever.reg with this content:
+
+```
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"AddrConfigControl"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\TCPIP\v6Transition]
+"Teredo_DefaultQualified"="Enabled"
+"Teredo_State"="Enterprise Client"
+"Teredo_ServerName"="teredo.ipv6.microsoft.com"
+```
+
+Now double click it and answer Yes to UAC and warning about importing registry values. Now you can either 
+reboot or update Group policy by opening cmd.exe and running
+
+```
+gpupdate /force
+netsh interface teredo show state
+```
+
+teredo.ipv6.microsoft.com can be replaced with any other teredo server in the .reg file.
+
+## The hard way
+
 ```
 netsh int ipv6 set teredo client teredo.trex.fi
 ```
