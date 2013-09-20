@@ -22,7 +22,7 @@
 
 <img src=LOGO.jpg alt="LOGO, jonka eräs koulutehtävä vaatii" border="1"</img>
 
-[AS](Asperger.html), Linux-käyttäjä vuodesta 2008 jakeluila;
+[AS](Asperger.html), Linux-käyttäjä vuodesta 2008 jakeluila:
 
 <a href="http://ubuntu.com"><img src="http://www.ubuntu.com/sites/all/themes/ubuntu10/logo.png" border="1" height="25px" witdh="25px" alt="Ubuntu"</img></a>,
 <a href="http://debian.org"><img src="http://www.debian.org/Pics/openlogo-50.png" border="1" height="25px" witdh="25px" alt="Debian"</img></a>,
