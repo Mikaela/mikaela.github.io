@@ -16,6 +16,20 @@ Teredo on Windows Vista and above.
 <!-- vim : set ft=html -->
 <h1 id="enabling-teredo-on-windows-vista-and-above">Enabling teredo on Windows Vista and above</h1>
 <p>Linux users: install miredo and start it and you have IPv6. Optionally set server in /etc/miredo/miredo.conf .</p>
+<h2 id="the-easy-way">The easy way</h2>
+<p>Create file called whatever.reg with this content:</p>
+<pre><code>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+&quot;AddrConfigControl&quot;=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\TCPIP\v6Transition]
+&quot;Teredo_DefaultQualified&quot;=&quot;Enabled&quot;
+&quot;Teredo_State&quot;=&quot;Enterprise Client&quot;
+&quot;Teredo_ServerName&quot;=&quot;teredo.ipv6.microsoft.com&quot;</code></pre>
+<p>Now double click it and answer Yes to UAC and warning about importing registry values. Now you can either reboot or update Group policy by opening cmd.exe and running</p>
+<pre><code>gpupdate /force
+netsh interface teredo show state</code></pre>
+<p>teredo.ipv6.microsoft.com can be replaced with any other teredo server in the .reg file.</p>
+<h2 id="the-hard-way">The hard way</h2>
 <pre><code>netsh int ipv6 set teredo client teredo.trex.fi</code></pre>
 <p>Optional, sets Teredo server. The default one is provided by Microsoft, this isn't, but this is in Finland where I live.</p>
 <pre><code>route print</code></pre>
