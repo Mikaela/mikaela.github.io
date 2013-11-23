@@ -1,31 +1,24 @@
-## Linux Mint Debian Edition / LMDE
+## Main Debian archives.
+deb http://http.debian.net/debian unstable main contrib non-free
+deb-src http://http.debian.net/debian unstable main contrib non-free
 
-## If you encounter issues about release file being invalid/expired on Debian or LMDE, add
-# Acquire::Check-Valid-Until "false"; 
-## to /etc/apt/apt.conf.d/80mintupdate-debian and run apt-get update
-
-## LMDE main repositories
-deb http://packages.linuxmint.com/ debian main upstream import
-deb http://debian.linuxmint.com/latest testing main contrib non-free
-deb http://debian.linuxmint.com/latest/security testing/updates main contrib non-free
-deb http://debian.linuxmint.com/latest/multimedia testing main non-free
-# LMDE doesn't contain deb-src lines by default. They are required for changelogs, "apt-get build-dep" etc.
-deb-src http://packages.linuxmint.com/ debian main upstream import
-deb-src http://debian.linuxmint.com/latest testing main contrib non-free
-deb-src http://debian.linuxmint.com/latest/security testing/updates main contrib non-free
-deb-src http://debian.linuxmint.com/latest/multimedia testing main non-free
-
-## Debian (testing) main repositories
-### Why Debian testing repositories?
-#### From http://www.linuxmint.com/download_lmde.php:
-##### " 2. Is LMDE fully compatible with Debian?"
-####### "Yes, 100%. LMDE is compatible with repositories designed for Debian Testing."
-deb http://http.debian.net/debian testing main contrib non-free
-deb-src http://http.debian.net/debian testing main contrib non-free
-deb http://security.debian.org/ testing/updates main contrib non-free
-deb-src http://security.debian.org/ testing/updates main contrib non-free
 
 ## Virtualbox
 # gpg --keyserver pool.sks-keyservers.net --recv-keys 98AB5139
 # gpg --export -a 7B0FAB3A13B907435925D9C954422A4B98AB5139|apt-key add -
 deb http://download.virtualbox.org/virtualbox/debian wheezy contrib
+
+# MATE
+deb http://repo.mate-desktop.org/debian jessie main
+deb-src http://repo.mate-desktop.org/debian jessie main
+# apt-get --yes --quiet --allow-unauthenticated install mate-archive-keyring 
+
+## Main LMDE archives
+deb http://packages.linuxmint.com/ debian main upstream import
+deb http://debian.linuxmint.com/latest testing main contrib non-free
+deb http://debian.linuxmint.com/latest/security testing/updates main contrib non-free
+deb http://debian.linuxmint.com/latest/multimedia testing main non-free
+deb-src http://packages.linuxmint.com/ debian main upstream import
+deb-src http://debian.linuxmint.com/latest testing main contrib non-free
+deb-src http://debian.linuxmint.com/latest/security testing/updates main contrib non-free
+deb-src http://debian.linuxmint.com/latest/multimedia testing main non-free
