@@ -17,7 +17,7 @@
 Message to people who come from [Finnish index](index.fi.html): <strong>Tämä sivu käännetään suomeksi
 myöhemmin.</strong> Odottaessasi voit lukea tämän tiivistelmän: <strong>Minulla on [Aspergerin 
 oireyhtymä](https://fi.wikipedia.org/wiki/Aspergerin_oireyhtym%C3%A4) ja olen yrittänyt tappaa itseni 
-viisi (5) kertaa johtuen eri syistä mukaanlukien koulukiusaaminen.</strong> Katso myös [Wikipedian 
+ainakin kymmenen kertaa (olen jo seonnut laskuissa) johtuen eri syistä mukaanlukien koulukiusaaminen, transsukupuolisuus ja niistä johtuvat sekalaiset ahdistukset ja masennukset.</strong> Katso myös [Wikipedian 
 luettelo tunnetuista Autismin kirjon henkilöistä](https://fi.wikipedia.org/wiki/Luettelo_tunnetuista_autismin_kirjon_henkil%C3%B6ist%C3%A4)
 
 <strong><em>What is put into the internet stays in the internet,</em> so I am not going to remove this page.</strong>
@@ -118,11 +118,15 @@ Even if there isn't bullying right now, it will begin again tomorrow or day afte
 
 Risk of depression is usually part of Asperger's syndrome. My depression has caused me to try committing suicide four times, end junior high school before it ended, spend some months in psyciathrical hospital (two times but the second stay is only two weeks) (I don't recommend it thought it was the first place to give correct information about AS and where I started seriously considering that I had it, youth policlinic told me that I had ADHD and skizophreny in addition to AS, but at psychiatrical hospital they were sure that I don't have either).
 
-##### Medicines / Sertralin Orion
+##### Medicines / Sertralin Orion / Venlavaxin Orion / Risperidon orion
 
-I am currently using depression medicine called Sertralin Orion. According to [Google](https://www.google.fi/search?q=Sertalin+Orion&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:fi:official&client=firefox-beta&channel=fflb#hl=fi&client=firefox-beta&hs=qW1&tbo=d&rls=org.mozilla:fi:official&channel=fflb&spell=1&q=Sertralin+Orion&sa=X&ei=_xexUKz0E6WL4gTnlIGADw&ved=0CCwQvwUoAA&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.&fp=93a82c3ec6531c44&bpcl=38897761&biw=1045&bih=373) it can cause a lot of side effects but I haven't encountered big side effects.
+I have used Sertlarin Orion which I recommend everyone to stay away. It did something strange to my feelings so they didn't even feel like mine.
 
-It's interesting that I was told to use this, because the product data sheet tells that it mustn't be used to cure depression with people under 18 (I am currently 17 (2012-11-24)) and that it can cause suicidality and anxiety etc.
+After Sertlarin Orion I got many side effects, but I was told that they weren't side effects. They were "effect of something that I am hiding that bothers me" (transsexuality even thought it felt like transgenderism that time). Then Venlafaxin Orion was started and I was told that I should use it for five years and then we can think about other medicines. Venlafaxin Orion was dropped as useless for me after some time.
+
+While I still had Venlafaxin Orion, Risperidon Orion was started, but it didn't have any effect and was dropped at the same time as Venlafaxin Orion.
+
+Nobody beliebed me when I said that according to researches some medicines might not work for me like they should, becausse of Aspergers syndrome. It seems that I was right and it took three medicines and almost two years to see it.
 
 ### Sleeping problems
 
