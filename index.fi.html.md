@@ -22,7 +22,7 @@
 
 <img src=LOGO.jpg alt="LOGO, jonka eräs koulutehtävä vaatii" border="1"</img>
 
-#Transnainen ( #GirlsLikeUs ), #AS-henkilö, #feministi  & #Linux käyttäjä vuodesta 2008 useilla jakelulla, pitää #tietokoneista ja #fantasia kirjoista.
+.#Transnainen ( #GirlsLikeUs ), #AS-henkilö, #feministi  & #Linux käyttäjä vuodesta 2008 useilla jakelulla, pitää #tietokoneista ja #fantasia kirjoista.
 
 
 <a href="http://ubuntu.com"><img src="http://www.ubuntu.com/sites/all/themes/ubuntu10/logo.png" border="1" height="25px" witdh="25px" alt="Ubuntu"</img></a>,
