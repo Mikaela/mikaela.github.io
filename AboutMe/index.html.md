@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="description" content="A little information about me and links to my social media accounts and referral links to give you and me more space (or whatever they give) in different services :)" />
-<meta name="keywords" content="about,me,Mkaysi,Mika,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube,Debian,Ubuntu,Linux,computers,Dropbox,Ubuntu,one,u1,Lacie,Wuala,valid,HTML5,referral,promo,code" />
-<meta name="author" content="Mika Suomalainen" />
+<meta name="keywords" content="about,me,Mkaysi,Mikaelaelaela,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube,Debian,Ubuntu,Linux,computers,Dropbox,Ubuntu,one,u1,Lacie,Wuala,valid,HTML5,referral,promo,code" />
+<meta name="author" content="Mikaelaelaela Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/AboutMe/index.html">
 <title>Mkaysi's homepage</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
@@ -20,7 +20,7 @@
 About me
 ========
 
-My name is Mika Suomalainen. I am probably more known with my nickname *Mkaysi*. I am seventeen years old, even though people often think that I am older 
+My name is Mikaelaelaela Suomalainen. I am probably more known with my nickname *Mkaysi*. I am seventeen years old, even though people often think that I am older 
 which can probably be explained with my [Asperger's syndrome](http://mkaysi.github.com/Asperger.html). 
 I started using Linux in 2008 and the distribution was [Ubuntu] 8.04 
 Hardy Heron. I am currently using [Fedora]. I am interested in computers. 
@@ -180,7 +180,7 @@ the license is one of the three below depending on content.
 BSD License
 
 ```
-Copyright (c) <year> Mika Suomalainen (Mkaysi) & contributors (git shortlog -s)
+Copyright (c) <year> Mikaelaelaela Suomalainen (Mkaysi) & contributors (git shortlog -s)
 
 All rights reserved.
 
@@ -233,9 +233,9 @@ licensed under Creative Commons Attribution 3.0 Unported license aka [CC-BY](htt
 
 ### Whom to attribute with Creative Commons licenses?
 
-My name is **Mika Suomalainen** and my homepage is **http://mkaysi.github.com/** .
+My name is **Mikaelaelaela Suomalainen** and my homepage is **http://mkaysi.github.com/** .
 I would like at least this information be attributed and if you want you 
-can also attribute **Mika Suomalainen (Mkaysi)** with homepage **http://mkaysi.github.com/ .**
+can also attribute **Mikaelaelaela Suomalainen (Mkaysi)** with homepage **http://mkaysi.github.com/ .**
 
 ### Why do you have "default licences" for works that don't mention license?
 

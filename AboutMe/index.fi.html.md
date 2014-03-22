@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="description" content="Hiukan tietoa minusta ja linkkejä sosiaalisen median tunnuksiini sekä viittauslinkkejä, jotka antavat sinulle (ja minulle) enemmän tilaa (tai mitä tahansa antavatkin) eri palveluissa :)" />
-<meta name="keywords" content="about,me,Mkaysi,Mika,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube,Debian,Ubuntu,Linux,computers,Dropbox,Ubuntu,one,u1,Lacie,Wuala,valid,HTML5,referral,promo,code,kelvollinen,viittaus,koodi" />
-<meta name="author" content="Mika Suomalainen" />
+<meta name="keywords" content="about,me,Mkaysi,Mikaelaelaela,Suomalainen,GitHub,Gitorious,Google,Twitter,Identi.ca,Facebook,Last.fm,YouTube,Debian,Ubuntu,Linux,computers,Dropbox,Ubuntu,one,u1,Lacie,Wuala,valid,HTML5,referral,promo,code,kelvollinen,viittaus,koodi" />
+<meta name="author" content="Mikaelaelaela Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.com/AboutMe/index.fi.html">
 <title>Mkaysin kotisivu</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
@@ -22,7 +22,7 @@ ja jonkinlainen suomeksi kääntäjä.***
 Minusta
 =======
 
-Nimeni on Mika Suomalainen. Minut tunnetaan paremmin nimimerkilläni *Mkaysi*. 
+Nimeni on Mikaelaelaela Suomalainen. Minut tunnetaan paremmin nimimerkilläni *Mkaysi*. 
 Olen seitsemäntoista-vuotias, vaikka ihmiset luulevat usein, että olen 
 vanhempi. Se voidaan varmaankin selittää [Aspergerin oireyhtymällä, joka 
 minulla on](http://mkaysi.github.com/Asperger.html). Aloitin Linuxin 
@@ -185,7 +185,7 @@ riippuen sisällöstä.
 BSD lisenssi
 
 ```
-Copyright (c) <year> Mika Suomalainen (Mkaysi) & contributors (git shortlog -s)
+Copyright (c) <year> Mikaelaelaela Suomalainen (Mkaysi) & contributors (git shortlog -s)
 
 All rights reserved.
 
@@ -241,9 +241,9 @@ Kaikki muu tuottamani sisältö, kuin yllämainittu, on lisensoitu Creative Comm
 
 ### Kenet nimeän Creative Commons lisensseillä?
 
-Nimeni on **Mika Suomalainen** ja kotisivuni on **http://mkaysi.github.com/**.
+Nimeni on **Mikaelaelaela Suomalainen** ja kotisivuni on **http://mkaysi.github.com/**.
 Toivoisin, että nimeät ainakin tämän tiedon ja voit halutessasi nimetä myös 
-**Mika Suomalainen (Mkaysi)** kotisivulla **http://mkaysi.github.com/**.
+**Mikaelaelaela Suomalainen (Mkaysi)** kotisivulla **http://mkaysi.github.com/**.
 
 ### Miksi sinulla on "oletuslisenssit" tuotoksille, jotka eivät mainitse lisenssiä?
 
