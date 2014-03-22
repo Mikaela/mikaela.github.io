@@ -22,7 +22,7 @@
 
 <img src=LOGO.jpg alt="LOGO, jonka eräs koulutehtävä vaatii" border="1"</img>
 
-Pre-* [#transfeminiini](Trans.html) [#AS](Asperger.html)-henkilö, [#Linux](http://en.wikipedia.org/wiki/Linux distribution) käyttäjä vuodesta 2008, jakeluilla [#Ubuntu](http://ubuntu.com), [#Debian](http://debian.org), [#Fedora](http://fedoraproject.org), [#CentOS](http://centos.org) & [#LMDE](http://www.linuxmint.com/download_lmde.php), erityinen mielenkiinnonkohde on [#tietokoneet](http://en.wikipedia.org/wiki/Computer)
+.#Transnainen ( #GirlsLikeUs ), #AS-henkilö, #feministi  & #Linux käyttäjä vuodesta 2008 useilla jakelulla, pitää #tietokoneista ja #fantasia kirjoista.
 
 
 <a href="http://ubuntu.com"><img src="http://www.ubuntu.com/sites/all/themes/ubuntu10/logo.png" border="1" height="25px" witdh="25px" alt="Ubuntu"</img></a>,

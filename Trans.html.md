@@ -8,7 +8,7 @@
 <meta name="keywords" content="Insert,keywords,here" />
 <meta name="author" content="Mikaela Suomalainen" />
 <link rel="canonical" href="http://mkaysi.github.io/">
-<title>Insert title here</title>
+<title>Todo</title>
 <link rel="stylesheet" type="text/css" href="root/tyyli.css" />
 </head>
 <body>
@@ -16,5 +16,6 @@
 [Sitemap](root/sitemap/sitemap.html)
 <hr/>
 
+This page will be typed when I have time and motivation.
 
 <!-- vim : set ft=html -->

@@ -22,7 +22,7 @@
 
 <img src=LOGO.jpg alt="LOGO, which is required by one school excerise" border="1"</img>
 
-Pre-* [#transfeminine](Trans.html) [#AS](Asperger.html)-person, [#Linux](http://en.wikipedia.org/wiki/Linux distribution) user since 2008, using [#Ubuntu](http://ubuntu.com), [#Debian](http://debian.org), [#Fedora](http://fedoraproject.org), [#CentOS](http://centos.org) & [#LMDE](http://www.linuxmint.com/download_lmde.php), has special interest on [#computers](http://en.wikipedia.org/wiki/Computer)
+.#Trans woman ( #GirlsLikeUs ), #AS-person, #Feminist & #Linux user since 2008 with various distributions, likes #computers and #fantasy books. (Pronouns: she/her)
 
 <a href="http://ubuntu.com"><img src="http://www.ubuntu.com/sites/all/themes/ubuntu10/logo.png" border="1" height="25px" witdh="25px" alt="Ubuntu"</img></a>,
 <a href="http://debian.org"><img src="http://www.debian.org/Pics/openlogo-50.png" border="1" height="25px" witdh="25px" alt="Debian"</img></a>,
