@@ -7,13 +7,13 @@
 <meta name="description" content="Insert description here" />
 <meta name="keywords" content="Insert,keywords,here" />
 <meta name="author" content="Mikaela Suomalainen" />
-<link rel="canonical" href="http://mkaysi.github.io/">
+<link rel="canonical" href="http://mkaysi.github.io/Trans.html">
 <title>Todo</title>
 <link rel="stylesheet" type="text/css" href="root/tyyli.css" />
 </head>
 <body>
 <hr/>
-[Sitemap](root/sitemap/sitemap.html)
+[Sitemap](sitemap/sitemap.html)
 <hr/>
 
 This page will be typed when I have time and motivation.
