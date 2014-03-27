@@ -11,7 +11,7 @@
 [Sitemap](../sitemap/sitemap.html)
 <hr/>
 
-<strong>You are being redirected to the web interface of [OtusBot]...</strong></body>
+<strong>You are being redirected to the web interface of [Yvzabevn]...</strong></body>
 
 [OtusBot]:http://cadoth.net:5995/
 
