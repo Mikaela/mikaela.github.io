@@ -20,8 +20,6 @@
 <a href="osoite"><img src="kuva" border="1" height="25px" witdh="25px" alt="IMAGE"</img></a>
 -->
 
-<img src=LOGO.jpg alt="LOGO, which is required by one school excerise" border="1"</img>
-
 .#Trans woman ( #GirlsLikeUs ), #AS-person, #Feminist & #Linux user since 2008 with various distributions, likes #computers and #fantasy books. (Pronouns: she/her)
 
 <a href="http://ubuntu.com"><img src="http://www.ubuntu.com/sites/all/themes/ubuntu10/logo.png" border="1" height="25px" witdh="25px" alt="Ubuntu"</img></a>,
