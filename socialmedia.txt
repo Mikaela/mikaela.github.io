@@ -1,7 +1,6 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-
 My accounts around the Internet
 ===============================
 
@@ -11,20 +10,27 @@ curl -L http://mkaysi.github.com/socialmedia.txt|gpg --verify
 
 It requires cURL and GnuPG to be installed (Debian/Ubuntu packages: curl gnupg gnupg-curl). gnupg-curl is only required with GnuPG1.
 
+Notice about name
+- -----------------
+
+I am trans woman and some accounts listed in this file are with old name, 
+because they cannot be changed and creating new ones would be too hard.
+
 Version control
 ===============
 
 GitHub: https://github.com/Mkaysi
 Gitorious: https://gitorious.org/~mkaysi
-Launchpad: https://launchpad.net/~mkaysi
+Launchpad: https://launchpad.net/~mikaela
+
+Ohloh: https://www.ohloh.net/accounts/Mikaela
 
 Social media
 ============
 
-Google+: https://plus.google.com/113787158024729598288/
+Google+: https://plus.google.com/+MikaSuomalainen
 Twitter: https://twitter.com/Mkaysi
-Identica/Statusnet: https://identi.ca/mkaysi
-Facebook: https://www.facebook.com/mika.suomalainen
+Facebook: https://www.facebook.com/mikaelahmsuomalainen
 LastFM: http://www.last.fm/user/Mkaysi
 YouTube: https://www.youtube.com/user/Mkaysi1
 
@@ -42,8 +48,8 @@ Instant messaging etc.
 ======================
 
 Skype: Mkaysi1
-freenode (IRC): Mkaysi
-Windows Live / Skype: mika <dot> suomalainen <at> outlook <dot> com
+freenode (IRC): Mikaela / Ciblia / Mkaysi
+Windows Live / Skype: mikaela <dot> suomalainen <at> outlook <dot> com
 Google Talk: s <dot> mika95 <at> gmail <dot> com
 Google Talk: mikahmsuomalainen <at> gmail <dot> com
 Jabber/XMPP: mkaysi <at> jabber <dot> org
@@ -60,7 +66,7 @@ GoodReads: http://www.goodreads.com/user/show/11147845-mika-suomalainen
 My homepage: http://mkaysi.github.io/ ( mirror #1: http://cadoth.net/~mkaysi )
 This list: http://mkaysi.github.io/socialmedia.txt
 
------BEGIN PGP SIGNATURE-----
+- -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.19 (GNU/Linux)
 Comment: Homepage: http://mkaysi.github.com/
 Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
@@ -82,4 +88,25 @@ Uii0YaWhu0TictjqeNjHcNTkNGRRse/+7k/dDkC93Q5SO54j240y5EPKtfgrI7qI
 nAb8HYJAE6teBXf82PrI7pvy3+LLLiPY9lqXgohY+8u4uRkokgCONi4cJj5jXlaF
 0bNYcbQh9jVyLFjwyny8
 =4pud
+- -----END PGP SIGNATURE-----
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.20 (GNU/Linux)
+Comment: Homepage: http://mkaysi.github.io/
+Comment: Public key: http://mkaysi.github.io/PGP/0xB2F32B67.txt
+Comment: gpg --fetch-keys http://mkaysi.github.io/PGP/0xB2F32B67.txt
+Comment: Fingerprint = 2910 4A46 C561 5BF9 78A0 83F2 0C20 7F07 B2F3 2B67
+
+iQIcBAEBCgAGBQJTNBJiAAoJEAwgfwey8ytnqAYP/2AQjgVSGABc+pWLGei/3Aaf
+Llbx/9pMUSNBB0VOB7rNumwBBvNII7CSOCUTT5+eavugQXbJkP3CXMoU9a+2h6Ds
+2ZFo07y0zZop9NiJGixFlMqP4LsYaoyeCmMGTNuv7XSLxEQeUf2b3cov40T1goW+
+06vt7HukU7fjtjrcNLd7DNR/Bcz360CWdpUVyxbEldvlL1P35aGeMoo8pjk6x6ni
+kSXqbw8xfIEC9TXVYOrvgcWtgz9w/oYZgAMVMuNEmwWxaOXztzuXck8WQAIz3V2n
+/1cmO5R+K0IAbcTdydUQ2rxGZKeFsZaAC1BhjdPswAVu/5ku+HE02OhEWbn4sJ19
+epi9SD3x+sgnU7YoihY25jlyz3OuZiWgWQR+1b/m35GiLUSmO6Ki8yTLrNa8COPS
+rDZxZn1NNtGuEtc10L7HC9snokId55UZZKPbBR7FfZAXxuaC3mjaLsiY376V0rG5
+bEmOoSpN4rXvThNr5i6E++gY3UrINM83MiOSF1pPp26JYnEMEG/yuOT5/gHPOBwn
+HigjFCMvQzMfFiXWj7c9HLERPybmYhLKT9KXO1Ougf+zdqaMVfCJ2gXQ6E5bN9/L
+7XGs61+WA7k/4eyLe2zEcoZHyXIsW2jV4Ho2P9yHuxCK/GhwyJkq1o6qojjTgRBh
+30FcORjzSBGlboGp/tRn
+=XGzy
 -----END PGP SIGNATURE-----
