@@ -4,8 +4,8 @@
 <meta charset="UTF-8" />
 <meta name="description" content="Supybot security issues," />
 <meta name="keywords" content="Security,Issues,Supybot,crash,Debian,Ubuntu,IRC" />
-<meta name="author" content="Mika Suomalainen" />
-<link rel="canonical" href="http://mkaysi.github.com/IRC/Supybot.html">
+<meta name="author" content="Mikaela Suomalainen" />
+<link rel="canonical" href="http://mkaysi.github.io/IRC/Supybot.html">
 <title>Security issues of Supybot</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
@@ -16,7 +16,7 @@
 
 <em>If you are looking for web interface of my bot (known as Supybot on freenode), click [here.]</em>
 
-[here.]:OtusBot.html
+[here.]:Yvzabevn.html
 
 # Latest version of Supybot was released in 2005
 
@@ -102,7 +102,7 @@ You can add anticapability for these commands using "owner defaultcapability", b
 
 There are also two active Supybot forks, known as [Limnoria] and [Gribble], which are actively developed and have fixed these issues. If you want permanent solution, you should install either of them.
 
-I recommend [Limnoria], because it seems to be more active (activity of [Gribble] isn't announced anywhere) and it has additional commands, translations and new plugin called [PluginDownloader], which makes installing of 3rd party plugins easy.
+I recommend [Limnoria], because it seems to be more active (activity of [Gribble] isn't announced anywhere) and it has additional commands, translations and new plugin called [PluginDownloader], which makes installing of 3rd party plugins easy. Ohloh supports comparing different projescts, [here is comparsion of Limnoria, Gribble and Supybot](https://www.ohloh.net/p/compare?project_0=Limnoria&project_1=Gribble%3A+Support+Bottie&project_2=Supybot).
 
 <strong>If you use Debian/Ubuntu or any Debian based distribution, you can get [stable version of Limnoria here] or [testing version here].</strong>
 
