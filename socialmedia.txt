@@ -11,7 +11,7 @@ curl -L http://mkaysi.github.com/socialmedia.txt|gpg --verify
 It requires cURL and GnuPG to be installed (Debian/Ubuntu packages: curl gnupg gnupg-curl). gnupg-curl is only required with GnuPG1.
 
 Notice about name
-- -----------------
+- - -----------------
 
 I am trans woman and some accounts listed in this file are with old name, 
 because they cannot be changed and creating new ones would be too hard.
@@ -65,30 +65,6 @@ Miscellaneous
 GoodReads: http://www.goodreads.com/user/show/11147845-mika-suomalainen
 My homepage: http://mkaysi.github.io/ ( mirror #1: http://cadoth.net/~mkaysi )
 This list: http://mkaysi.github.io/socialmedia.txt
-
-- -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v2.0.19 (GNU/Linux)
-Comment: Homepage: http://mkaysi.github.com/
-Comment: Public key: http://mkaysi.github.com/PGP/0x82A46728.txt
-Comment: gpg --fetch-keys http://mkaysi.github.com/PGP/0x82A46728.txt
-Comment: Fingerprint = 24BC 1573 B8EE D666 D10A  AA65 4DB5 3CFE 82A4 6728
-Comment: How/Why I send emails like I do http://adf.ly/MnBa4
-Comment: How to not verify my signature http://adf.ly/MnBqm
-
-iQIcBAEBCgAGBQJRhMRsAAoJEE21PP6CpGcoqJUP/25l9t+ISgFohvBnKIE/2zNk
-cCi/+kPbvOraZEwSimTcobUcEL4FzpccA+DD7bJB884SvkgkHwOihpWkxu5GA65U
-eBhgpz2eMDPgIk52K8PzkAoflDHepM+zFog/YKL1v9t6dDIiPSPUOGoFPLx7ARkX
-wWuKPUpLFkpJ2IUAnZ0czcNt6osegTuTqsFanqwRHFexxa9gWKR9UG1pArlnhKsJ
-2XanwHfNopy4h44VfARgF2WeHfMA9liDYvlsHbaG4UHgEAptqRirZh++OSnQ9R5f
-8BsAtZUxa7nEobADpFRGgWOpS8xFCJQYYM/PQYIveX6wzM82diZrMr0HI/7/aKMp
-6CNyiHvqFXcEbY/4MAhI3xg4rjQpaZq9fixTMHAhx8XStReIUEzfEnbE6ZJWsYY0
-irw+8aQHq4dd21ZOZB3lwkAwLCJ4nXuc19eejuTr9SVXt95LpNWir24wxVodObeU
-3cS30rN4xmVFlSMhnCNapREdUXvVsarLMSUpwFTt4/jilIIjEMuz8i1u1j+7c/7/
-Uii0YaWhu0TictjqeNjHcNTkNGRRse/+7k/dDkC93Q5SO54j240y5EPKtfgrI7qI
-nAb8HYJAE6teBXf82PrI7pvy3+LLLiPY9lqXgohY+8u4uRkokgCONi4cJj5jXlaF
-0bNYcbQh9jVyLFjwyny8
-=4pud
-- -----END PGP SIGNATURE-----
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.20 (GNU/Linux)
 Comment: Homepage: http://mkaysi.github.io/
@@ -96,17 +72,17 @@ Comment: Public key: http://mkaysi.github.io/PGP/0xB2F32B67.txt
 Comment: gpg --fetch-keys http://mkaysi.github.io/PGP/0xB2F32B67.txt
 Comment: Fingerprint = 2910 4A46 C561 5BF9 78A0 83F2 0C20 7F07 B2F3 2B67
 
-iQIcBAEBCgAGBQJTNBJiAAoJEAwgfwey8ytnqAYP/2AQjgVSGABc+pWLGei/3Aaf
-Llbx/9pMUSNBB0VOB7rNumwBBvNII7CSOCUTT5+eavugQXbJkP3CXMoU9a+2h6Ds
-2ZFo07y0zZop9NiJGixFlMqP4LsYaoyeCmMGTNuv7XSLxEQeUf2b3cov40T1goW+
-06vt7HukU7fjtjrcNLd7DNR/Bcz360CWdpUVyxbEldvlL1P35aGeMoo8pjk6x6ni
-kSXqbw8xfIEC9TXVYOrvgcWtgz9w/oYZgAMVMuNEmwWxaOXztzuXck8WQAIz3V2n
-/1cmO5R+K0IAbcTdydUQ2rxGZKeFsZaAC1BhjdPswAVu/5ku+HE02OhEWbn4sJ19
-epi9SD3x+sgnU7YoihY25jlyz3OuZiWgWQR+1b/m35GiLUSmO6Ki8yTLrNa8COPS
-rDZxZn1NNtGuEtc10L7HC9snokId55UZZKPbBR7FfZAXxuaC3mjaLsiY376V0rG5
-bEmOoSpN4rXvThNr5i6E++gY3UrINM83MiOSF1pPp26JYnEMEG/yuOT5/gHPOBwn
-HigjFCMvQzMfFiXWj7c9HLERPybmYhLKT9KXO1Ougf+zdqaMVfCJ2gXQ6E5bN9/L
-7XGs61+WA7k/4eyLe2zEcoZHyXIsW2jV4Ho2P9yHuxCK/GhwyJkq1o6qojjTgRBh
-30FcORjzSBGlboGp/tRn
-=XGzy
+iQIcBAEBCgAGBQJTPtbpAAoJEAwgfwey8ytn6vAP/iCqQpiRMxTh2ZB+2ROqcTmq
+etOumrZKKWGmGx98zAxS3zW3kdkpECBTpNPO4GhGZpeb/6Ug16243oUsNpgaxsUU
+VU8g0oEDT8CxyrnzAoTCeSC7turNh94HEiSvXFpasRinCda6CdQabA+epShfJZkf
+98fiHuZ0SsL7tBlYGFe7vidJXbdxwoPUZDrb16u+W97l65VyU+hzty8e7NOhywpY
+8rE4jB1zm193dEwjQuMgH3IrBE3y8gthY7oxUyenKLKzdztBnw5H2Wp4qa5D/WZ5
+6LFqjH0ux3cWgMF9b6azMvvUqsjQCaJFvN2ZUcBBjoBZLzei3pNu9n/ERAcEZPxY
+Me6wPsvtRXwGHAn+bECbUwEUWZCaujnSbA+CGgjSASnfU+Ltm+VBZJ+xuKcNgCOQ
+jpzvVGUHd6D30oeBYKJeIUcWEMEMfn3ywQauC8i46Di4mtXmNw2jMXBtcqkjHsWv
+1OsP+ha9Vfhdqcs//fFpJ/ZVJPhN+gmRl+x6LAiOsInYsyAM4tnOCen16xA3Hdyj
+qRqt8QUGqpjzriHJ1pBLHOj7zwXeM8TYiMEJ6wvFsXJcOSBZZLFzoGr/NM6JjTqe
+IwrHz4LmzBydGepQZuJApyCTDGBYcx1GD7nYZ9/wH041Cs80nDsjbXrFCQkWf/z2
+pLd2zbEDnN7HmkHTebhQ
+=g4ce
 -----END PGP SIGNATURE-----
