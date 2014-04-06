@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<meta http-equiv="Refresh" content="5;url=http://cadoth.net:5995/">
+<meta http-equiv="Refresh" content="5;url=http://lakka.kapsi.fi:62291/">
 <title>Redirecting you to web interface of OtusBot...</title>
 <link rel="stylesheet" type="text/css" href="../tyyli.css" />
 </head>
@@ -13,7 +13,7 @@
 
 <strong>You are being redirected to the web interface of [Yvzabevn]...</strong></body>
 
-[OtusBot]:http://cadoth.net:5995/
+[Yvzabevn]:http://lakka.kapsi.fi:62291/
 
 </body>
 </html>

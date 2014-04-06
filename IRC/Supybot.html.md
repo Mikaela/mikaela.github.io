@@ -14,7 +14,7 @@
 [Sitemap](../sitemap/sitemap.html)
 <hr/>
 
-<em>If you are looking for web interface of my bot (known as Supybot on freenode), click [here.]</em>
+<em>If you are looking for web interface of my bot (known as Yvzabevn on freenode), click [here.]</em>
 
 [here.]:Yvzabevn.html
 
