@@ -9,14 +9,3 @@ deb-src http://security.debian.org/ stable/updates main contrib non-free
 ## Debian Backports
 #deb http://http.debian.net/debian-backports stable-backports main contrib non-free
 #deb-src http://http.debian.net/debian-backports stable-backports main contrib non-free
-#deb http://mozilla.debian.net/ wheezy-backports iceweasel-release
-
-
-## Virtualbox
-# gpg --keyserver pool.sks-keyservers.net --recv-keys 98AB5139
-# gpg --export -a 7B0FAB3A13B907435925D9C954422A4B98AB5139|apt-key add -
-#deb http://download.virtualbox.org/virtualbox/debian wheezy contrib
-
-# MATE
-#deb http://repo.mate-desktop.org/debian wheezy main
-# apt-get --yes --quiet --allow-unauthenticated install mate-archive-keyring 
