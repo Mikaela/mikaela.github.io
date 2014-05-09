@@ -1,7 +1,7 @@
 /* TEAM */
 
 Creator: Mikaela Suomalainen
-Email: mkaysi@outlook.com
+Email: mikaela.suomalainen@outlook.com
 Homepage: http://mkaysi.github.io/
 Social media: http://mkaysi.github.com/socialmedia.txt
 Location: Kotka, Finland
@@ -9,12 +9,12 @@ Location: Kotka, Finland
 /* THANKS */
 
 Contributor: nyuszika7h
-Email: nyuszika7h@cadoth.net
+Email: nyuszika7h@outlook.com
 Twitter: nyuszika7h
 Location: Budapest, Hungary
 
-Contributor: Valentin Lorenz
-Email: progval@progval.net
+Contributor: Valentin Lorentz
+Email: progval+github@progval.net
 Twitter: Progval
 Homepage: http://progval.net/
 Location: Jouy-Aux-Arches, Lorraine, France
