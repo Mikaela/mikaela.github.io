@@ -1,4 +1,4 @@
-## Main Debian archives.
+﻿## Main Debian archives.
 deb http://http.debian.net/debian stable main contrib non-free
 deb-src http://http.debian.net/debian stable main contrib non-free
 
