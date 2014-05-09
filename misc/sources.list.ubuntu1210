@@ -1,21 +1,24 @@
+﻿## Replace quantal on every line with your Ubuntu quantal which you can find out by running 
+# lsb_quantal -c
+
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
 # newer versions of the distribution.
 deb mirror://mirrors.ubuntu.com/mirrors.txt quantal main restricted universe multiverse
 
-## Major bug fix updates produced after the final release of the
+## Major bug fix updates produced after the final quantal of the
 ## distribution.
 deb mirror://mirrors.ubuntu.com/mirrors.txt quantal-updates main restricted universe multiverse
 
 ## N.B. software from this repository may not have been tested as
-## extensively as that contained in the main release, although it includes
+## extensively as that contained in the main quantal, although it includes
 ## newer versions of some applications which may provide useful features.
 ## Also, please note that software in backports WILL NOT receive any review
 ## or updates from the Ubuntu security team.
-#deb mirror://mirrors.ubuntu.com/mirrors.txt quantal-backports main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt quantal-backports main restricted universe multiverse
 deb mirror://mirrors.ubuntu.com/mirrors.txt quantal-security main restricted universe multiverse
 deb-src mirror://mirrors.ubuntu.com/mirrors.txt quantal main restricted universe multiverse
 deb-src mirror://mirrors.ubuntu.com/mirrors.txt quantal-updates main restricted universe multiverse
-#deb-src mirror://mirrors.ubuntu.com/mirrors.txt quantal-backports main restricted universe multiverse
+deb-src mirror://mirrors.ubuntu.com/mirrors.txt quantal-backports main restricted universe multiverse
 deb-src mirror://mirrors.ubuntu.com/mirrors.txt quantal-security main restricted universe multiverse
 
 ## Uncomment the following two lines to add software from Canonical's
@@ -29,8 +32,3 @@ deb-src http://archive.canonical.com/ubuntu quantal partner
 ## developers who want to ship their latest software.
 deb http://extras.ubuntu.com/ubuntu quantal main
 deb-src http://extras.ubuntu.com/ubuntu quantal main
-
-# Virtualbox
-# gpg --keyserver pool.sks-keyservers.net --recv-keys 98AB5139
-# gpg --export -a 7B0FAB3A13B907435925D9C954422A4B98AB5139|apt-key add -
-deb http://download.virtualbox.org/virtualbox/debian squeeze contrib

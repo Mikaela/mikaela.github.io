@@ -1,4 +1,4 @@
-## Replace RELEASE on every line with your Ubuntu RELEASE which you can find out by running 
+﻿## Replace RELEASE on every line with your Ubuntu RELEASE which you can find out by running 
 # lsb_release -c
 
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
@@ -14,11 +14,11 @@ deb mirror://mirrors.ubuntu.com/mirrors.txt RELEASE-updates main restricted univ
 ## newer versions of some applications which may provide useful features.
 ## Also, please note that software in backports WILL NOT receive any review
 ## or updates from the Ubuntu security team.
-#deb mirror://mirrors.ubuntu.com/mirrors.txt RELEASE-backports main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt RELEASE-backports main restricted universe multiverse
 deb mirror://mirrors.ubuntu.com/mirrors.txt RELEASE-security main restricted universe multiverse
 deb-src mirror://mirrors.ubuntu.com/mirrors.txt RELEASE main restricted universe multiverse
 deb-src mirror://mirrors.ubuntu.com/mirrors.txt RELEASE-updates main restricted universe multiverse
-#deb-src mirror://mirrors.ubuntu.com/mirrors.txt RELEASE-backports main restricted universe multiverse
+deb-src mirror://mirrors.ubuntu.com/mirrors.txt RELEASE-backports main restricted universe multiverse
 deb-src mirror://mirrors.ubuntu.com/mirrors.txt RELEASE-security main restricted universe multiverse
 
 ## Uncomment the following two lines to add software from Canonical's
@@ -32,12 +32,3 @@ deb-src http://archive.canonical.com/ubuntu RELEASE partner
 ## developers who want to ship their latest software.
 deb http://extras.ubuntu.com/ubuntu RELEASE main
 deb-src http://extras.ubuntu.com/ubuntu RELEASE main
-
-## Virtualbox
-# gpg --keyserver pool.sks-keyservers.net --recv-keys 98AB5139
-# gpg --export -a 7B0FAB3A13B907435925D9C954422A4B98AB5139|apt-key add -
-#deb http://download.virtualbox.org/virtualbox/debian wheezy contrib
-
-## MATE
-# sudo apt-get --yes --quiet --allow-unauthenticated install mate-archive-keyring
-#deb http://packages.mate-desktop.org/repo/ubuntu RELEASE main
