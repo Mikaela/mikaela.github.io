@@ -19,8 +19,7 @@ Welcome. This is my homepage doesn't mostly contain anything else than
 links elsewhere which you can see in the sidebar.
 
 <hr/>
-**PGP/GPG**: 2910 4A46 C561 5BF9 78A0  83F2 **0C20 7F07** [***B2F3 2B67***](PGP/
-0xB2F32B67.txt)
+**PGP/GPG**: 2910 4A46 C561 5BF9 78A0  83F2 **0C20 7F07** [***B2F3 2B67***](PGP/0xB2F32B67.txt)
 <hr/>
 </body>
 </html>
