@@ -50,19 +50,19 @@ has more work at IRCnet than `Yvzabevn`.
 
 ### runehq / irc.runehq.com +6697
 
-I am Mikaela at RuneHQ.
+I am `Mikaela` at RuneHQ.
 
 ### irccloud / irc.irccloud.com +6697
 
-I am Mikaela at IRCCloud.
+I am `Mikaela` at IRCCloud.
 
 ### foreverchat / irc.foreverchat.net +7029 
 
-I am Mikaela at foreverchat.
+I am `Mikaela` at foreverchat.
 
 ### oftc / irc.oftc.net +9999
 
-I am Mikaela at OFTC.
+I am `Mikaela` at OFTC.
 
 ## Bots
 
@@ -71,15 +71,16 @@ Limnoria's Finnish translator and have done some other contributions.
 
 ### Yvzabevn
 
-Yvzabevn is my primary bot and it's using Python 3. You can find it's 
+`Yvzabevn` is my primary bot and it's using Python 3. You can find it's 
 [web interface here](http://lakka.kapsi.fi:62291/).
 
 ### Tessu
 
-Tessu is my secondary bot (but you could call it as primary on IRCnet). It's
-named after our dog as some might know and it's configured to use Finnish.
+`Tessu` is my secondary bot (but you could call it as primary on IRCnet). 
+It's named after our dog as some might know and it's configured to use 
+Finnish. It's currently using Python 2.
 
-Tessu doesn't have web interface at the moment.
+`Tessu` doesn't have web interface at the moment.
 
 </body>
 </html>
