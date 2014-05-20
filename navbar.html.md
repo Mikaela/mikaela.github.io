@@ -13,7 +13,7 @@
 
 Pages
 
-<a href="index.html" target="right">Index</a>
+<a href="index.real.html" target="right">Index</a>
 
 Where to find me?
 
