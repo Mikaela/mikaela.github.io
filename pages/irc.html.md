@@ -7,7 +7,7 @@
 <meta name="author" content="Mikaela Suomalainen" />
 <link rel="canonical" href="https://">
 <title>Where to find me at IRC?</title>
-<link rel="stylesheet" type="text/css" href="css.css" />
+<link rel="stylesheet" type="text/css" href="../css.css" />
 </head>
 <body>
 
