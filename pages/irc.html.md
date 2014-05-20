@@ -5,7 +5,7 @@
 <!-- <meta http-equiv="refresh" content="60" /> -->
 <meta name="description" content="How do you find me at IRC." />
 <meta name="author" content="Mikaela Suomalainen" />
-<link rel="canonical" href="https://">
+<link rel="canonical" href="https://mkaysi.github.io/pages/irc.html">
 <title>Where to find me at IRC?</title>
 <link rel="stylesheet" type="text/css" href="../css.css" />
 </head>
