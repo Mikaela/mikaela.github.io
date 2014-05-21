@@ -24,7 +24,11 @@ I am `umode -i` in all networks, so finding me should be easy, just run
 in common network that you will find below.
 
 I will use topics in format "name of the network / round robin if any <port>". With "+" in front of port, I mean SSL.
-The networks are in random order (or whatever order my clients display them in).
+The networks are in alphabedical order.
+
+### foreverchat / irc.foreverchat.net +7029 
+
+I am `Mikaela` at foreverchat.
 
 ### freenode / chat.freenode.net +6697
 
@@ -32,26 +36,22 @@ At freenode I am usually `Mikaela` with my primary connection and my mobile
 connection is `Ciblia` or `TDA_Anima` (The Dark Aeon Anima, do you know 
 Final Fantasy X?) depending on my mood.
 
+### irccloud / irc.irccloud.com +6697
+
+I am `Mikaela` at IRCCloud.
+
 ### ircnet
 
 At IRCnet I am `Mikaela` and `Ciblia` unless my nicks get stolen. IRCnet 
 doesn't have services.
 
-### runehq / irc.runehq.com +6697
-
-I am `Mikaela` at RuneHQ.
-
-### irccloud / irc.irccloud.com +6697
-
-I am `Mikaela` at IRCCloud.
-
-### foreverchat / irc.foreverchat.net +7029 
-
-I am `Mikaela` at foreverchat.
-
 ### oftc / irc.oftc.net +9999
 
 I am `Mikaela` at OFTC.
+
+### runehq / irc.runehq.com +6697
+
+I am `Mikaela` at RuneHQ.
 
 </body>
 </html>
