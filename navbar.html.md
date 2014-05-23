@@ -13,19 +13,17 @@
 
 Pages
 
-<a href="index.real.html" target="right">Index</a>
+* <a href="index.real.html" target="right">Index</a>
 
 Where to find me?
 
 <!--
-<a href="pages/on-topic.html" target="right">On-topic sites</a>
+* <a href="pages/on-topic.html" target="right">On-topic sites</a>
 -->
-
 <!-- I cannot call IRC as on-topic nor off-topic -->
-<a href="pages/irc.html" target="right">Internet Relay Chat</a>
-
+* <a href="pages/irc.html" target="right">Internet Relay Chat</a>
 <!--
-<a href="pages/off-topic.html" target="right">Off-topic sites (Social Media)</a>
+* <a href="pages/off-topic.html" target="right">Off-topic sites (Social Media)</a>
 -->
 
 </body>
