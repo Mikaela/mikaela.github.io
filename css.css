@@ -4,14 +4,14 @@ h3,
 h4,
 h5,
 h6 {
-    color: #FFFFFF;
-    background-color: #000000;
+/*    color: #FFA6A6;
+    background-color: #FFFFCC;*/
     text-align: center
 }
 
 body {
-    color: #FFFFFF;
-    background-color: #000000;
+    color: #660066;
+    background-color: #CCFFFF;
     font-family: "DejaVu Sans", Ubuntu, Arial, Arial, Helvetica, sans-serif;
     text-align: justify-center
 }
@@ -22,13 +22,17 @@ pre {
     font-family: "Ubuntu Mono", "DejaVu Sans Mono", Courier, "Courier New";
 }
 
+
 a:link { 
-    color: #66FF66
+    /*color: #000000;*/
+    font-weight:bold
 }
 
 a:visited {
-    color: red
+    color: #FF0066;
+    font-weight:bold
 }
+*/
 
 img {
     display: inherit;
