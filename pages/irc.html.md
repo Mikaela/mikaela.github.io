@@ -11,7 +11,7 @@
 </head>
 <body>
 
-I am not going to explain what IRC is.
+**I am not going to explain what IRC is.**
 
 ## Finding me at IRC
 
