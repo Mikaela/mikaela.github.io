@@ -27,6 +27,7 @@ Where to find me?
 -->
 
 Not directly related to me
+
 * <a href="pages/external/identifying.html" target="right">Auto-identifying on IRC</a>
 
 </body>

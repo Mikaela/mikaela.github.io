@@ -6,7 +6,7 @@
 <meta name="description" content="Instructions for identifying to services on various IRC networks." />
 <meta name="author" content="Mikaela Suomalainen" />
 <link rel="canonical" href="https://mkaysi.github.io/pages/external/identifying.html">
-<title>Insert title here</title>
+<title>How to identify to services automatically</title>
 <link rel="stylesheet" type="text/css" href="../../css.css" />
 </head>
 <body>
