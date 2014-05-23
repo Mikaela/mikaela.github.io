@@ -53,6 +53,23 @@ I am `Mikaela` at OFTC.
 
 I am `Mikaela` at RuneHQ.
 
+## Other things
+
+### My bots
+
+I have some bots at freenode and ircnet, but I don't tell more about them 
+than they are [Limnorias] to not make them target to anything.
+
+### Templates which I use with ChanServ primarily on Atheme.
+
+I am op on some channels (I probably shouldn't, but try to tell that to 
+them) and I have made some templates to have flags easy to manage.
+
+As you can see from the embedded gist, they are bash scripts and they take 
+the channel name as argument when executed.
+
+<script src="https://gist.github.com/Mkaysi/597c03e41a20571e10af.js"></script>
+
 </body>
 </html>
 <!-- vim : set ft=markdown-->
