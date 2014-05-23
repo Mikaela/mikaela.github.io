@@ -17,8 +17,8 @@ body {
 }
 
 pre {
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #000000;
     font-family: "Ubuntu Mono", "DejaVu Sans Mono", Courier, "Courier New";
 }
 
@@ -29,10 +29,9 @@ a:link {
 }
 
 a:visited {
-    color: #FF0066;
+   /* color: #FF0066;*/
     font-weight:bold
 }
-*/
 
 img {
     display: inherit;
