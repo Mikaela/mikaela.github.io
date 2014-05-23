@@ -10,7 +10,7 @@ Insert title here
 <body>
 
 <p><strong>NOTE: This might be heavily freenode-specific, but these things should work with other networks too, at least SASL and CertFP.</strong></p>
-<p>I will document the four different methods to identify to services which I use by myself.</p>
+<p>I will document the four different methods to identify to services which I use by myself. <strong>I use all of these at the same time.</strong></p>
 <h2 id="sasl">SASL</h2>
 <p>There isn't much to say about SASL as it's easy to configure as long as your IRC client supports it. SASL identifies you before logging in, but it won't help you in case services are down. The easiest way to check does the network where you are support SASL is probably to whois or message or both to the SaslServ.</p>
 <pre><code>/whois SaslServ SaslServ
@@ -39,10 +39,27 @@ XX:XX:XX &lt; *sasl&gt; +-------------+-----------------------------------------
 <li>It's not supported even by freenode.</li>
 <li>I don't know any network that supports it.</li>
 </ul></li>
+<li>This won't help you if services go down.</li>
 </ul>
 <h2 id="certfp">CertFP</h2>
 <h2 id="server-password">Server password</h2>
+<p>This might not work with some networks, but this works with freenode. All IRC clients should support settng password which to use while connecting to server. Set it as <code>username:password</code> for freenode and you are automatically identified when you connect.</p>
+<p>Some notes:</p>
+<ul class="incremental">
+<li>This is only known to work with freenode.</li>
+<li>You aren't identified immediately so as shown in the embedded gist, your real host is visible for people who have you on <code>/monitor</code>.</li>
+<li>This won't help you if services go down.</li>
+</ul>
 <h2 id="automatic-command">Automatic command</h2>
+<p>This works with probably every client. They support setting commands that are automatically run as you connect and you can set the command</p>
+<pre><code>/msg NickServ identify username password</code></pre>
+<p>or whatever syntax the services on your network use.</p>
+<p>Some notes:</p>
+<ul class="incremental">
+<li>Your real host is still visible for /monitor ing people.</li>
+<li>Your client might send that command too late to prevent you from getting to redirect channels for unidentified users and show your real host to everyone.</li>
+<li>You might annoy people by joining twice and quitting once with &quot;Changing host&quot;.</li>
+</ul>
 For corrections above this line, please contact <a href="../irc.html">me at IRC</a> or fix them by yourself <a href="https://github.com/Mkaysi/mkaysi.github.io/blob/master/pages/external/identifying.html.md">here</a>. What is below that line is embedded GitHub gist which reads where to contact with issues with it.
 <hr/>
 <script src="https://gist.github.com/maxanton/1e2cf7ada079c271bd3c.js"></script>

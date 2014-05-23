@@ -15,7 +15,7 @@
 work with other networks too, at least SASL and CertFP.**
 
 I will document the four different methods to identify to services which I 
-use by myself.
+use by myself. **I use all of these at the same time.**
 
 ## SASL
 
@@ -65,13 +65,43 @@ use SSL.
 work with most of networks.
     * It's not supported even by freenode.
     * I don't know any network that supports it.
+* This won't help you if services go down.
 
 ## CertFP
 
 ## Server password
 
+This might not work with some networks, but this works with freenode. 
+All IRC clients should support settng password which to use while 
+connecting to server. Set it as `username:password` for freenode and you 
+are automatically identified when you connect.
+
+Some notes:
+
+* This is only known to work with freenode.
+* You aren't identified immediately so as shown in the embedded gist, 
+your real host is visible for people who have you on `/monitor`.
+* This won't help you if services go down.
+
 ## Automatic command
 
+This works with probably every client. They support setting commands that 
+are automatically run as you connect and you can set the command
+
+```
+/msg NickServ identify username password
+```
+
+or whatever syntax the services on your network use.
+
+Some notes:
+
+* Your real host is still visible for /monitor ing people.
+* Your client might send that command too late to prevent you from getting 
+to redirect channels for unidentified users and show your real host to 
+everyone.
+* You might annoy people by joining twice and quitting once with "Changing 
+host".
 
 For corrections above this line, please contact [me at IRC](../irc.html) or fix them by 
 yourself [here](https://github.com/Mkaysi/mkaysi.github.io/blob/master/pages/external/identifying.html.md). What is below that line is embedded GitHub 
