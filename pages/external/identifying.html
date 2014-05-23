@@ -42,6 +42,46 @@ XX:XX:XX &lt; *sasl&gt; +-------------+-----------------------------------------
 <li>This won't help you if services go down.</li>
 </ul>
 <h2 id="certfp">CertFP</h2>
+<p>CertFP identifies you using SSL certificate which you must generate and add to your NickServ account.</p>
+<p>You can use this command at IRC to check if the network supports certfp.</p>
+<pre><code>/msg NickServ help cert</code></pre>
+<p>I am not sure how this happens on Windows, so you might need to look for that information elsewhere unless someone decides to help me and tell how does it happen. I am going to tell about OpenSSL.</p>
+<h3 id="generating-the-certificate">Generating the certificate</h3>
+<p>Open terminal and run this command and replae YOURNICKNAMEHERE.pem with your nickname or something else which makes you know what it is (<strong>DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT</strong>):</p>
+<pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 365 -out YOURNICKNAMEHERE.pem</code></pre>
+<p>This gives us file <code>YOURNICKNAMEHERE.pem</code> which you must give to your IRC client. I am sorry, but that depends on your IRC client too, so I cannot say anything about it.</p>
+<h3 id="telling-nickserv-about-your-key">Telling NickServ about your key</h3>
+<p>NickServ wants to know the fingerprint which you can get with the following command:</p>
+<pre><code>openssl x509 -sha1 -noout -fingerprint -in YOURNICKNAMEHERE.pem | sed -e &#39;s/^.*=//;s/://g;y/ABCDEF/abcdef/&#39;</code></pre>
+<p>which returns your fingerprint (<strong>WHICH YOU MUST NOT SHARE WITH ANYONE</strong>)</p>
+<pre><code>05dd01fedc1b821b796d0d785160f03e32f53fa8</code></pre>
+<p>Now you can tell to NickServ about it.</p>
+<pre><code>/msg NickServ CERT ADD 05dd01fedc1b821b796d0d785160f03e32f53fa8</code></pre>
+<p>(replace that with your own fingerprint!) And nickerv replies to you</p>
+<pre><code>14:13:39 -- NickServ: Added fingerprint 05dd01fedc1b821b796d0d785160f03e32f53fa8 to your fingerprint list.</code></pre>
+<h3 id="testing">Testing</h3>
+<p>Now when you connect to freenode and have configured your IRC client to use your new certificate, you should get identified automatically and you should see your certificate by whoising yourself and running cert list with NickServ.</p>
+<pre><code>/WHOIS YOURNICK YOURNICK
+/MSG NickServ CERT LIST</code></pre>
+<p>replies</p>
+<pre><code>&lt;...&gt;
+XX:XX:XX -- [YOURNICK] has client certificate fingerprint 05dd01fedc1b821b796d0d785160f03e32f53fa8
+&lt;...&gt;
+XX:XX:XX -- NickServ: Fingerprint list for YOURNICK:
+XX:XX:XX -- NickServ: - 05dd01fedc1b821b796d0d785160f03e32f53fa8$$
+XX:XX:XX -- NickServ: End of YOURNICK fingerprint list.</code></pre>
+<h3 id="notes">Notes</h3>
+<ul class="incremental">
+<li>You must recreate your certificate yearly.</li>
+<li>This will identify you with immediately so you are still visible to /monitor.</li>
+<li>This will identify you after services return unlike other methods if you happen to be on splitted server without services.</li>
+<li>Supported networks which I am on:
+<ul class="incremental">
+<li>freenode</li>
+<li>oftc</li>
+<li>piratenet</li>
+</ul></li>
+</ul>
 <h2 id="server-password">Server password</h2>
 <p>This might not work with some networks, but this works with freenode. All IRC clients should support settng password which to use while connecting to server. Set it as <code>username:password</code> for freenode and you are automatically identified when you connect.</p>
 <p>Some notes:</p>
@@ -60,6 +100,7 @@ XX:XX:XX &lt; *sasl&gt; +-------------+-----------------------------------------
 <li>Your client might send that command too late to prevent you from getting to redirect channels for unidentified users and show your real host to everyone.</li>
 <li>You might annoy people by joining twice and quitting once with &quot;Changing host&quot;.</li>
 </ul>
+<hr/>
 For corrections above this line, please contact <a href="../irc.html">me at IRC</a> or fix them by yourself <a href="https://github.com/Mkaysi/mkaysi.github.io/blob/master/pages/external/identifying.html.md">here</a>. What is below that line is embedded GitHub gist which reads where to contact with issues with it.
 <hr/>
 <script src="https://gist.github.com/maxanton/1e2cf7ada079c271bd3c.js"></script>

@@ -69,6 +69,95 @@ work with most of networks.
 
 ## CertFP
 
+CertFP identifies you using SSL certificate which you must generate and 
+add to your NickServ account.
+
+You can use this command at IRC to check if the network supports certfp.
+
+```
+/msg NickServ help cert
+```
+
+I am not sure how this happens on Windows, so you might need to look for 
+that information elsewhere unless someone decides to help me and tell 
+how does it happen. I am going to tell about OpenSSL.
+
+### Generating the certificate
+
+Open terminal and run this command and replae YOURNICKNAMEHERE.pem with 
+your nickname or something else which makes you know what it is 
+(**DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT**):
+
+```
+openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 365 -out YOURNICKNAMEHERE.pem
+```
+
+This gives us file `YOURNICKNAMEHERE.pem` which you must give to your IRC 
+client. I am sorry, but that depends on your IRC client too, so I cannot 
+say anything about it.
+
+### Telling NickServ about your key
+
+NickServ wants to know the fingerprint which you can get with the following 
+command:
+
+```
+openssl x509 -sha1 -noout -fingerprint -in YOURNICKNAMEHERE.pem | sed -e 's/^.*=//;s/://g;y/ABCDEF/abcdef/'
+```
+
+which returns your fingerprint (**WHICH YOU MUST NOT SHARE WITH ANYONE**)
+
+```
+05dd01fedc1b821b796d0d785160f03e32f53fa8
+```
+
+Now you can tell to NickServ about it.
+
+```
+/msg NickServ CERT ADD 05dd01fedc1b821b796d0d785160f03e32f53fa8
+```
+
+(replace that with your own fingerprint!) And nickerv replies to you
+
+```
+14:13:39 -- NickServ: Added fingerprint 05dd01fedc1b821b796d0d785160f03e32f53fa8 to your fingerprint list.
+```
+
+### Testing
+
+Now when you connect to freenode and have configured your IRC client to 
+use your new certificate, you should get identified automatically and 
+you should see your certificate by whoising yourself and running cert list 
+with NickServ.
+
+```
+/WHOIS YOURNICK YOURNICK
+/MSG NickServ CERT LIST
+```
+
+replies
+
+```
+<...>
+XX:XX:XX -- [YOURNICK] has client certificate fingerprint 05dd01fedc1b821b796d0d785160f03e32f53fa8
+<...>
+XX:XX:XX -- NickServ: Fingerprint list for YOURNICK:
+XX:XX:XX -- NickServ: - 05dd01fedc1b821b796d0d785160f03e32f53fa8$$
+XX:XX:XX -- NickServ: End of YOURNICK fingerprint list.
+```
+
+### Notes
+
+* You must recreate your certificate yearly.
+* This will identify you with immediately so you are still visible to 
+/monitor.
+* This will identify you after services return unlike other methods if you 
+happen to be on splitted server without services.
+* Supported networks which I am on:
+    * freenode
+    * oftc
+    * piratenet
+
 ## Server password
 
 This might not work with some networks, but this works with freenode. 
@@ -103,6 +192,7 @@ everyone.
 * You might annoy people by joining twice and quitting once with "Changing 
 host".
 
+<hr/>
 For corrections above this line, please contact [me at IRC](../irc.html) or fix them by 
 yourself [here](https://github.com/Mkaysi/mkaysi.github.io/blob/master/pages/external/identifying.html.md). What is below that line is embedded GitHub 
 gist which reads where to contact with issues with it.

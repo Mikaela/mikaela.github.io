@@ -26,6 +26,9 @@ Where to find me?
 * <a href="pages/off-topic.html" target="right">Off-topic sites (Social Media)</a>
 -->
 
+Not directly related to me
+* <a href="pages/external/identifying.html" target="right">Auto-identifying on IRC</a>
+
 </body>
 </html>
 <!-- vim : set ft=html -->
