@@ -26,9 +26,11 @@ Where to find me?
 * <a href="pages/off-topic.html" target="right">Off-topic sites (Social Media)</a>
 -->
 
-Not directly related to me
+Not directly related to me:
 
-* <a href="pages/external/identifying.html" target="right">Auto-identifying on IRC</a>
+IRC:
+
+* <a href="pages/external/identifying.html" target="right">Auto-login</a>
 
 </body>
 </html>
