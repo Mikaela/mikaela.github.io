@@ -36,9 +36,11 @@ At freenode I am usually `Mikaela` with my primary connection and my mobile
 connection is `Ciblia` or `TDA_Anima` (The Dark Aeon Anima, do you know 
 Final Fantasy X?) depending on my mood.
 
+<!--
 ### irccloud / irc.irccloud.com +6697
 
 I am `Mikaela` at IRCCloud.
+-->
 
 ### ircnet
 
