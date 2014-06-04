@@ -89,7 +89,7 @@ your nickname or something else which makes you know what it is
 (**DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT**):
 
 ```
-openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 365 -out YOURNICKNAMEHERE.pem
+openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 365 -out YOURNICKNAMEHERE.pem -subj "/CN=Your Nickname"
 ```
 
 This gives us file `YOURNICKNAMEHERE.pem` which you must give to your IRC 

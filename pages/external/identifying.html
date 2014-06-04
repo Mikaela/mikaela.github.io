@@ -48,7 +48,7 @@ XX:XX:XX &lt; *sasl&gt; +-------------+-----------------------------------------
 <p>I am not sure how this happens on Windows, so you might need to look for that information elsewhere unless someone decides to help me and tell how does it happen. I am going to tell about OpenSSL.</p>
 <h3 id="generating-the-certificate">Generating the certificate</h3>
 <p>Open terminal and run this command and replae YOURNICKNAMEHERE.pem with your nickname or something else which makes you know what it is (<strong>DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT</strong>):</p>
-<pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 365 -out YOURNICKNAMEHERE.pem</code></pre>
+<pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 365 -out YOURNICKNAMEHERE.pem -subj &quot;/CN=Your Nickname&quot;</code></pre>
 <p>This gives us file <code>YOURNICKNAMEHERE.pem</code> which you must give to your IRC client. I am sorry, but that depends on your IRC client too, so I cannot say anything about it.</p>
 <h3 id="telling-nickserv-about-your-key">Telling NickServ about your key</h3>
 <p>NickServ wants to know the fingerprint which you can get with the following command:</p>
