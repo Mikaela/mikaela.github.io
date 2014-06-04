@@ -89,12 +89,35 @@ your nickname or something else which makes you know what it is
 (**DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT**):
 
 ```
-openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 365 -out YOURNICKNAMEHERE.pem -subj "/CN=Your Nickname"
+openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 24855 -out YOURNICKNAMEHERE.pem -subj "/CN=Your Nickname"
 ```
 
 This gives us file `YOURNICKNAMEHERE.pem` which you must give to your IRC 
-client. I am sorry, but that depends on your IRC client too, so I cannot 
-say anything about it.
+client. 
+
+**NOTE: This certificate is valid for 24855 days which is the maximum on 
+32-bit systems. This might not be very wise, but as we only use this cert 
+in IRC and we don't want to worry about regenerating it too often so we 
+have a very long time when it's valid. You should regenerate your 
+cert as often as you change your password or more even more often…***
+
+### Telling your client (or bouncer to use the cert).
+
+#### HexChat
+
+
+
+### Limnoria
+
+
+
+### WeeChat
+
+
+
+### ZNC
+
+
 
 ### Telling NickServ about your key
 

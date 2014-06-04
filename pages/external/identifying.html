@@ -48,8 +48,14 @@ XX:XX:XX &lt; *sasl&gt; +-------------+-----------------------------------------
 <p>I am not sure how this happens on Windows, so you might need to look for that information elsewhere unless someone decides to help me and tell how does it happen. I am going to tell about OpenSSL.</p>
 <h3 id="generating-the-certificate">Generating the certificate</h3>
 <p>Open terminal and run this command and replae YOURNICKNAMEHERE.pem with your nickname or something else which makes you know what it is (<strong>DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT</strong>):</p>
-<pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 365 -out YOURNICKNAMEHERE.pem -subj &quot;/CN=Your Nickname&quot;</code></pre>
-<p>This gives us file <code>YOURNICKNAMEHERE.pem</code> which you must give to your IRC client. I am sorry, but that depends on your IRC client too, so I cannot say anything about it.</p>
+<pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 24855 -out YOURNICKNAMEHERE.pem -subj &quot;/CN=Your Nickname&quot;</code></pre>
+<p>This gives us file <code>YOURNICKNAMEHERE.pem</code> which you must give to your IRC client.</p>
+<p><strong>NOTE: This certificate is valid for 24855 days which is the maximum on 32-bit systems. This might not be very wise, but as we only use this cert in IRC and we don't want to worry about regenerating it too often so we have a very long time when it's valid. You should regenerate your cert as often as you change your password or more even more often…</strong>*</p>
+<h3 id="telling-your-client-or-bouncer-to-use-the-cert.">Telling your client (or bouncer to use the cert).</h3>
+<h4 id="hexchat">HexChat</h4>
+<h3 id="limnoria">Limnoria</h3>
+<h3 id="weechat">WeeChat</h3>
+<h3 id="znc">ZNC</h3>
 <h3 id="telling-nickserv-about-your-key">Telling NickServ about your key</h3>
 <p>NickServ wants to know the fingerprint which you can get with the following command:</p>
 <pre><code>openssl x509 -sha1 -noout -fingerprint -in YOURNICKNAMEHERE.pem | sed -e &#39;s/^.*=//;s/://g;y/ABCDEF/abcdef/&#39;</code></pre>
