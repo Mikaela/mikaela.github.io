@@ -99,23 +99,50 @@ client.
 32-bit systems. This might not be very wise, but as we only use this cert 
 in IRC and we don't want to worry about regenerating it too often so we 
 have a very long time when it's valid. You should regenerate your 
-cert as often as you change your password or more even more often…***
+cert as often as you change your password or more even more often…**
+
+Oh, and **don't close your terminal yet** as you will need it for HexChat.
 
 ### Telling your client (or bouncer to use the cert).
 
 #### HexChat
 
+Create a folder "certs" to your HexChat config and copy the .pem file 
+there and copy and rename it as `client.pem`.
+
+```
+mkdir -p ~/.config/hexchat/certs/
+cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem
+```
+
+Now open your HexChat and press `CTRL + S` or go to `HexChat --> Network list` and check the settings for the networks that you use.
+
+* Use SSL for all the servers on this network.
+* Acccept invalid SSL certificates.
+* Make sure that the login method **IS NOT** `SASL EXTERNAL (cert)`, as 
+said previously, it won't work.
+    * It appears that HexChat started to want to use it when I added the 
+    certificate.
+    * If you use something that wants username, uncheck the `Use global user informtion` 
+    or you must specify the username in the Network List and ZNC won't like
+    it.
+
+#### Limnoria
+
+Insert your .pem file somewhere where the bot can read it and tell your 
+bot to read use it while connecting with
+
+```
+config networks.<network>.certfile /full/path/to/pem.file
+```
+
+**NOTE: This is server specific**. [ProgVal/Limnoria#612 is feature request for global certfiles.](https://github.com/ProgVal/Limnoria/issues/612)
+
+#### WeeChat
 
 
-### Limnoria
 
-
-
-### WeeChat
-
-
-
-### ZNC
+#### ZNC
 
 
 

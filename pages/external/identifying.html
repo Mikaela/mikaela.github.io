@@ -50,12 +50,29 @@ XX:XX:XX &lt; *sasl&gt; +-------------+-----------------------------------------
 <p>Open terminal and run this command and replae YOURNICKNAMEHERE.pem with your nickname or something else which makes you know what it is (<strong>DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT</strong>):</p>
 <pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 24855 -out YOURNICKNAMEHERE.pem -subj &quot;/CN=Your Nickname&quot;</code></pre>
 <p>This gives us file <code>YOURNICKNAMEHERE.pem</code> which you must give to your IRC client.</p>
-<p><strong>NOTE: This certificate is valid for 24855 days which is the maximum on 32-bit systems. This might not be very wise, but as we only use this cert in IRC and we don't want to worry about regenerating it too often so we have a very long time when it's valid. You should regenerate your cert as often as you change your password or more even more often…</strong>*</p>
+<p><strong>NOTE: This certificate is valid for 24855 days which is the maximum on 32-bit systems. This might not be very wise, but as we only use this cert in IRC and we don't want to worry about regenerating it too often so we have a very long time when it's valid. You should regenerate your cert as often as you change your password or more even more often…</strong></p>
+<p>Oh, and <strong>don't close your terminal yet</strong> as you will need it for HexChat.</p>
 <h3 id="telling-your-client-or-bouncer-to-use-the-cert.">Telling your client (or bouncer to use the cert).</h3>
 <h4 id="hexchat">HexChat</h4>
-<h3 id="limnoria">Limnoria</h3>
-<h3 id="weechat">WeeChat</h3>
-<h3 id="znc">ZNC</h3>
+<p>Create a folder &quot;certs&quot; to your HexChat config and copy the .pem file there and copy and rename it as <code>client.pem</code>.</p>
+<pre><code>mkdir -p ~/.config/hexchat/certs/
+cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
+<p>Now open your HexChat and press <code>CTRL + S</code> or go to <code>HexChat --&gt; Network list</code> and check the settings for the networks that you use.</p>
+<ul class="incremental">
+<li>Use SSL for all the servers on this network.</li>
+<li>Acccept invalid SSL certificates.</li>
+<li>Make sure that the login method <strong>IS NOT</strong> <code>SASL EXTERNAL (cert)</code>, as said previously, it won't work.
+<ul class="incremental">
+<li>It appears that HexChat started to want to use it when I added the certificate.</li>
+<li>If you use something that wants username, uncheck the <code>Use global user informtion</code> or you must specify the username in the Network List and ZNC won't like it.</li>
+</ul></li>
+</ul>
+<h4 id="limnoria">Limnoria</h4>
+<p>Insert your .pem file somewhere where the bot can read it and tell your bot to read use it while connecting with</p>
+<pre><code>config networks.&lt;network&gt;.certfile /full/path/to/pem.file</code></pre>
+<p><strong>NOTE: This is server specific</strong>. <a href="https://github.com/ProgVal/Limnoria/issues/612">ProgVal/Limnoria#612 is feature request for global certfiles.</a></p>
+<h4 id="weechat">WeeChat</h4>
+<h4 id="znc">ZNC</h4>
 <h3 id="telling-nickserv-about-your-key">Telling NickServ about your key</h3>
 <p>NickServ wants to know the fingerprint which you can get with the following command:</p>
 <pre><code>openssl x509 -sha1 -noout -fingerprint -in YOURNICKNAMEHERE.pem | sed -e &#39;s/^.*=//;s/://g;y/ABCDEF/abcdef/&#39;</code></pre>
