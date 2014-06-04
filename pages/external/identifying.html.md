@@ -163,7 +163,39 @@ certificates and I think that applies to our certificate too).
 
 #### ZNC
 
+Please read the both parts as you must add the certificate in webadmin or 
+read ZNC documentation on how to add it manually.
 
+##### Webadmin
+
+First login to your webadmin and if you are admin, go to the global 
+settings. Check the checkbox `certauth`, scroll down and press "Save".
+
+Then go to your settings and check the checkbox `cert`. You might also 
+want to check the checkbox for `sasl` and `perform`. Scroll down and 
+click "Save and return".
+
+Now you should see `certauth` in global modules where you can specify the 
+fingerprint of the pem file and your IRC client should be able to login to 
+ZNC with it.
+
+You should also see `Certificate` in user modules. On top of the page it 
+will tell you if you have certificate specified. Open the 
+`YOURNICKHERE.pem` and copy-paste everything in it to the large box and 
+click `Update`.
+
+##### IRC
+
+```
+/znc loadmod --type=global certauth
+/znc loadmod --type=user cert
+/znc loadmod --type=user perform
+/znc loadmod --type=network sasl
+```
+
+This is everything that was done above except adding the certificate which 
+you should do in the webadmin (see the two last paragraphs under webadmin 
+on this page).
 
 ### Telling NickServ about your key
 
@@ -217,7 +249,8 @@ XX:XX:XX -- NickServ: End of YOURNICK fingerprint list.
 
 ### Notes
 
-* You must recreate your certificate yearly.
+* You must recreate your certificate as specified by the `-days` part in 
+the openssl command.
 * This will identify you with immediately so you are still visible to 
 /monitor.
 * This will identify you after services return unlike other methods if you 
