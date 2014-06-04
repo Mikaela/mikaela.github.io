@@ -151,7 +151,7 @@ commands in WeeChat:
 /set irc.server_default.ssl_cert %h/YOURNICKNAMEHERE.pem"
 /set irc.server_default.ssl on
 /set irc.server_default.ssl_dhkey_size 1024
-/set irc.server_default.ssl_verify off
+/set irc.server_default.ssl_verify on
 ```
 
 1. Specifies where is the .pem file for all networks that don't have it 
