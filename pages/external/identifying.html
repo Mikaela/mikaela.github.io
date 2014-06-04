@@ -72,6 +72,18 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 <pre><code>config networks.&lt;network&gt;.certfile /full/path/to/pem.file</code></pre>
 <p><strong>NOTE: This is server specific</strong>. <a href="https://github.com/ProgVal/Limnoria/issues/612">ProgVal/Limnoria#612 is feature request for global certfiles.</a></p>
 <h4 id="weechat">WeeChat</h4>
+<p>I recommend you to <code>/script install iset.pl</code> for easier configuring when you aren't following this.</p>
+<p>Put the .pem file somewhere where your WeeChat can access it, preferably <code>~/.weechat</code> or whenever your &quot;WeeChat home&quot; is and run the following commands in WeeChat:</p>
+<pre><code>/set irc.server_default.ssl_cert %h/YOURNICKNAMEHERE.pem&quot;
+/set irc.server_default.ssl on
+/set irc.server_default.ssl_dhkey_size 1024
+/set irc.server_default.ssl_verify off</code></pre>
+<ol class="incremental" style="list-style-type: decimal">
+<li>Specifies where is the .pem file for all networks that don't have it invidually specified.</li>
+<li>Enables SSL for all networks by default unless otherwise configured.</li>
+<li>Sets <code>dhkey_size</code> to <code>1024</code> (required by some networks like freenode).</li>
+<li>Disables verifying the certificates (required for self-signed certificates and I think that applies to our certificate too).</li>
+</ol>
 <h4 id="znc">ZNC</h4>
 <h3 id="telling-nickserv-about-your-key">Telling NickServ about your key</h3>
 <p>NickServ wants to know the fingerprint which you can get with the following command:</p>

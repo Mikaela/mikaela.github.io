@@ -140,7 +140,26 @@ config networks.<network>.certfile /full/path/to/pem.file
 
 #### WeeChat
 
+I recommend you to `/script install iset.pl` for easier configuring when 
+you aren't following this.
 
+Put the .pem file somewhere where your WeeChat can access it, preferably 
+`~/.weechat` or whenever your "WeeChat home" is and run the following 
+commands in WeeChat:
+
+```
+/set irc.server_default.ssl_cert %h/YOURNICKNAMEHERE.pem"
+/set irc.server_default.ssl on
+/set irc.server_default.ssl_dhkey_size 1024
+/set irc.server_default.ssl_verify off
+```
+
+1. Specifies where is the .pem file for all networks that don't have it 
+invidually specified.
+2. Enables SSL for all networks by default unless otherwise configured.
+3. Sets `dhkey_size` to `1024` (required by some networks like freenode).
+4. Disables verifying the certificates (required for self-signed 
+certificates and I think that applies to our certificate too).
 
 #### ZNC
 
