@@ -118,7 +118,6 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem
 Now open your HexChat and press `CTRL + S` or go to `HexChat --> Network list` and check the settings for the networks that you use.
 
 * Use SSL for all the servers on this network.
-* Acccept invalid SSL certificates.
 * Make sure that the login method **IS NOT** `SASL EXTERNAL (cert)`, as 
 said previously, it won't work.
     * It appears that HexChat started to want to use it when I added the 
