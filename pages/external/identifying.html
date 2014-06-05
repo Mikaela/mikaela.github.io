@@ -106,7 +106,7 @@ config networks.&lt;network&gt;.sasl.password NSPASSWORD</code></pre>
 <p>Oh, and <strong>don't close your terminal yet</strong> as you will need it for HexChat.</p>
 <h3 id="telling-your-client-or-bouncer-to-use-the-cert.">Telling your client (or bouncer to use the cert).</h3>
 <h4 id="hexchat-1">HexChat</h4>
-<p>Create a folder &quot;certs&quot; to your HexChat config and copy the .pem file there and copy and rename it as <code>client.pem</code>.</p>
+<p>Create a folder &quot;certs&quot; to your HexChat config and copy the .pem file there and copy and rename it as <code>client.pem</code>. Windows users: skip the following two commands and go under topic &quot;Windows&quot; below.</p>
 <pre><code>mkdir -p ~/.config/hexchat/certs/
 cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 <p>Now open your HexChat and press <code>CTRL + S</code> or go to <code>HexChat --&gt; Network list</code> and check the settings for the networks that you use.</p>
@@ -118,6 +118,9 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 <li>If you use something that wants username, uncheck the <code>Use global user informtion</code> or you must specify the username in the Network List and ZNC won't like it.</li>
 </ul></li>
 </ul>
+<h5 id="windows-1">Windows</h5>
+<p><strong>TODO: Find out the PATHS and put those commands there.</strong></p>
+<p>You can now return to below the three *nix commands to the part which you skipped to check your settings.</p>
 <h4 id="limnoria-1">Limnoria</h4>
 <p>Insert your .pem file somewhere where the bot can read it and tell your bot to read use it while connecting with</p>
 <pre><code>config networks.&lt;network&gt;.certfile /full/path/to/pem.file</code></pre>

@@ -198,7 +198,8 @@ Oh, and **don't close your terminal yet** as you will need it for HexChat.
 #### HexChat
 
 Create a folder "certs" to your HexChat config and copy the .pem file 
-there and copy and rename it as `client.pem`.
+there and copy and rename it as `client.pem`. Windows users: skip the 
+following two commands and go under topic "Windows" below.
 
 ```
 mkdir -p ~/.config/hexchat/certs/
@@ -215,6 +216,13 @@ said previously, it won't work.
     * If you use something that wants username, uncheck the `Use global user informtion` 
     or you must specify the username in the Network List and ZNC won't like
     it.
+
+##### Windows
+
+**TODO: Find out the PATHS and put those commands there.**
+
+You can now return to below the three \*nix commands to the part which 
+you skipped to check your settings.
 
 #### Limnoria
 
