@@ -100,9 +100,8 @@ config networks.&lt;network&gt;.sasl.password NSPASSWORD</code></pre>
 </ul>
 <h3 id="generating-the-certificate">Generating the certificate</h3>
 <p>Open terminal and run this command and replae YOURNICKNAMEHERE.pem with your nickname or something else which makes you know what it is (<strong>DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT</strong>):</p>
-<pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 24855 -out YOURNICKNAMEHERE.pem -subj &quot;/CN=Your Nickname&quot;</code></pre>
-<p>This gives us file <code>YOURNICKNAMEHERE.pem</code> which you must give to your IRC client.</p>
-<p><strong>NOTE: This certificate is valid for 24855 days which is the maximum on 32-bit systems. This might not be very wise, but as we only use this cert in IRC and we don't want to worry about regenerating it too often so we have a very long time when it's valid. You should regenerate your cert as often as you change your password or more even more often…</strong></p>
+<pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 3650 -out YOURNICKNAMEHERE.pem -subj &quot;/CN=Your Nickname&quot;</code></pre>
+<p>This gives us file <code>YOURNICKNAMEHERE.pem</code> which you must give to your IRC client which is valid for 10 years and must be regenerated at least every 10 years or whatever you specify in <code>-days</code>.</p>
 <p>Oh, and <strong>don't close your terminal yet</strong> as you will need it for HexChat.</p>
 <h3 id="telling-your-client-or-bouncer-to-use-the-cert.">Telling your client (or bouncer to use the cert).</h3>
 <h4 id="hexchat-1">HexChat</h4>
