@@ -159,6 +159,14 @@ I am not sure how this happens on Windows, so you might need to look for
 that information elsewhere unless someone decides to help me and tell 
 how does it happen. I am going to tell about OpenSSL.
 
+#### Windows
+
+There is an [OpenSSL port for Windows](http://slproweb.com/products/Win32OpenSSL.html), 
+so openssl commands should work with it too.
+
+I list \*nix-like commands here, but only the openssl ones are important 
+and the other things can be done with Windows Explorer.
+
 ### Generating the certificate
 
 Open terminal and run this command and replae YOURNICKNAMEHERE.pem with 
@@ -387,6 +395,7 @@ yourself [here](https://github.com/Mkaysi/mkaysi.github.io/blob/master/pages/ext
 gist which reads where to contact with issues with it.
 <hr/>
 <script src="https://gist.github.com/maxanton/1e2cf7ada079c271bd3c.js"></script>
+<hr/>
 </body>
 </html>
 <!-- vim : set ft=markdown-->

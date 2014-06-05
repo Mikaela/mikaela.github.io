@@ -88,6 +88,9 @@ config networks.&lt;network&gt;.sasl.password NSPASSWORD</code></pre>
 <p>You can use this command at IRC to check if the network supports certfp.</p>
 <pre><code>/msg NickServ help cert</code></pre>
 <p>I am not sure how this happens on Windows, so you might need to look for that information elsewhere unless someone decides to help me and tell how does it happen. I am going to tell about OpenSSL.</p>
+<h4 id="windows">Windows</h4>
+<p>There is an <a href="http://slproweb.com/products/Win32OpenSSL.html">OpenSSL port for Windows</a>, so openssl commands should work with it too.</p>
+<p>I list *nix-like commands here, but only the openssl ones are important and the other things can be done with Windows Explorer.</p>
 <h3 id="generating-the-certificate">Generating the certificate</h3>
 <p>Open terminal and run this command and replae YOURNICKNAMEHERE.pem with your nickname or something else which makes you know what it is (<strong>DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT</strong>):</p>
 <pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 24855 -out YOURNICKNAMEHERE.pem -subj &quot;/CN=Your Nickname&quot;</code></pre>
@@ -196,6 +199,7 @@ XX:XX:XX -- NickServ: End of YOURNICK fingerprint list.</code></pre>
 For corrections above this line, please contact <a href="../irc.html">me at IRC</a> or fix them by yourself <a href="https://github.com/Mkaysi/mkaysi.github.io/blob/master/pages/external/identifying.html.md">here</a>. What is below that line is embedded GitHub gist which reads where to contact with issues with it.
 <hr/>
 <script src="https://gist.github.com/maxanton/1e2cf7ada079c271bd3c.js"></script>
+<hr/>
 </body>
 </html>
 <!-- vim : set ft=markdown-->
