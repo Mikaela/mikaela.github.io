@@ -68,8 +68,6 @@ work with most of networks.
     * I don't know any network that supports it.
 * This won't help you if services go down.
 
-<!--
-
 ### Using SASL with your client or bouncer
 
 Remember that I use all of these methods (SASL, CertFP, username:password, 
@@ -131,8 +129,20 @@ name in most of the networks which you are connected to.
 
 ### ZNC
 
+```
+/znc loadmod sasl
+/znc *sasl mechanism plain dh-aes dh-blowfish external
+/znc *sasl requireauth no
+/znc *sasl set NSACCOUNTNAME NSPASSWORD
+```
 
--->
+1. Loads the sasl module.
+2. Sets the mechanism list (where others than plain are useless as if 
+plain doesn't work, others most probably won't work either).
+3. Makes you able to connect to network even if SASL fails as I expect you 
+to also have CertFP configured which will identify you when services 
+return.
+4. Sets the details which ZNC uses to identify you.
 
 ## CertFP
 
