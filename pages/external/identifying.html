@@ -60,7 +60,6 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 <p>Now open your HexChat and press <code>CTRL + S</code> or go to <code>HexChat --&gt; Network list</code> and check the settings for the networks that you use.</p>
 <ul class="incremental">
 <li>Use SSL for all the servers on this network.</li>
-<li>Acccept invalid SSL certificates.</li>
 <li>Make sure that the login method <strong>IS NOT</strong> <code>SASL EXTERNAL (cert)</code>, as said previously, it won't work.
 <ul class="incremental">
 <li>It appears that HexChat started to want to use it when I added the certificate.</li>
@@ -71,6 +70,10 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 <p>Insert your .pem file somewhere where the bot can read it and tell your bot to read use it while connecting with</p>
 <pre><code>config networks.&lt;network&gt;.certfile /full/path/to/pem.file</code></pre>
 <p><strong>NOTE: This is server specific</strong>. <a href="https://github.com/ProgVal/Limnoria/issues/612">ProgVal/Limnoria#612 is feature request for global certfiles.</a></p>
+<h5 id="testing-branch">testing branch</h5>
+<p>Since Limnoria <strong>2014.06.04</strong> global certificate is supported. You can use the <code>version</code> command to check which version you are using.</p>
+<pre><code>config protocols.irc.certfile /full/path/to/pem.file</code></pre>
+<p>For instructions to <a href="https://github.com/ProgVal/Limnoria/blob/testing/INSTALL.md">upgrade Limnoria, please see their INSTALL.md file.</a></p>
 <h4 id="weechat">WeeChat</h4>
 <p>I recommend you to <code>/script install iset.pl</code> for easier configuring when you aren't following this.</p>
 <p>Put the .pem file somewhere where your WeeChat can access it, preferably <code>~/.weechat</code> or whenever your &quot;WeeChat home&quot; is and run the following commands in WeeChat:</p>

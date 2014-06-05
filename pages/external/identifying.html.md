@@ -137,6 +137,17 @@ config networks.<network>.certfile /full/path/to/pem.file
 
 **NOTE: This is server specific**. [ProgVal/Limnoria#612 is feature request for global certfiles.](https://github.com/ProgVal/Limnoria/issues/612)
 
+##### testing branch
+
+Since Limnoria **2014.06.04** global certificate is supported. You can use 
+the `version` command to check which version you are using.
+
+```
+config protocols.irc.certfile /full/path/to/pem.file
+```
+
+For instructions to [upgrade Limnoria, please see their INSTALL.md file.](https://github.com/ProgVal/Limnoria/blob/testing/INSTALL.md)
+
 #### WeeChat
 
 I recommend you to `/script install iset.pl` for easier configuring when 
