@@ -118,7 +118,10 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 </ul></li>
 </ul>
 <h5 id="windows-1">Windows</h5>
-<p><strong>TODO: Find out the PATHS and put those commands there.</strong></p>
+<p>If you followed my instructions with msysgit setup, you can now run the following and it works.</p>
+<pre><code>mkdir -p %appdata%\hexchat\certs
+cp YOURNICKNAMEHERE.pem %appdata%\hexchat\certs\client.pem</code></pre>
+<p>If you use portable HexChat (the option in setup), create a folder <code>certs</code> under the <code>config</code> directory and copy YOURNICKNAMEHERE.pem there and rename it to <code>client.pem</code>.</p>
 <p>You can now return to below the three *nix commands to the part which you skipped to check your settings.</p>
 <h4 id="limnoria-1">Limnoria</h4>
 <p>Insert your .pem file somewhere where the bot can read it and tell your bot to read use it while connecting with</p>

@@ -214,7 +214,17 @@ said previously, it won't work.
 
 ##### Windows
 
-**TODO: Find out the PATHS and put those commands there.**
+If you followed my instructions with msysgit setup, you can now run the 
+following and it works.
+
+```
+mkdir -p %appdata%\hexchat\certs
+cp YOURNICKNAMEHERE.pem %appdata%\hexchat\certs\client.pem
+```
+
+If you use portable HexChat (the option in setup), create a folder `certs` 
+under the `config` directory and copy YOURNICKNAMEHERE.pem there and 
+rename it to `client.pem`.
 
 You can now return to below the three \*nix commands to the part which 
 you skipped to check your settings.
