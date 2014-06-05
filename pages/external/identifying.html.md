@@ -67,6 +67,29 @@ work with most of networks.
     * I don't know any network that supports it.
 * This won't help you if services go down.
 
+<!--
+
+### Using SASL with your client or bouncer
+
+
+
+### HexChat
+
+
+
+### Limnoria
+
+
+
+### WeeChat
+
+
+
+### ZNC
+
+
+-->
+
 ## CertFP
 
 CertFP identifies you using SSL certificate which you must generate and 
