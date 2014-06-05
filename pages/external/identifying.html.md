@@ -161,11 +161,16 @@ how does it happen. I am going to tell about OpenSSL.
 
 #### Windows
 
-There is an [OpenSSL port for Windows](http://slproweb.com/products/Win32OpenSSL.html), 
-so openssl commands should work with it too.
+All commands here work mostly if you instll [msysgit](https://msysgit.github.io/) with the option below. Oh and you must also change 
+the paths.
 
-I list \*nix-like commands here, but only the openssl ones are important 
-and the other things can be done with Windows Explorer.
+Download it and run the installer. 
+
+**THIS IS THE MOST IMPORTANT PART!** — `Adjusting your PATH environment.
+
+* **`Use Git and optional Unix tools from the Windows Command Path`
+    * If you don't select this, you must reinstall or you aren't able to 
+    use all of the commands.
 
 ### Generating the certificate
 
