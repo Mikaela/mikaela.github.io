@@ -33,6 +33,7 @@ XX:XX:XX &lt; *sasl&gt; | PLAIN       | Plain text negotiation                  
 XX:XX:XX &lt; *sasl&gt; +-------------+----------------------------------------------------+</code></pre>
 <p>Some notes:</p>
 <ul class="incremental">
+<li><strong>You must use your accountname as username</strong>.</li>
 <li>PLAIN is plain text as it says, so if you use it like I do, you should use SSL.</li>
 <li>EXTERNAL is supposed to be used together with CertFP, but it doesn't work with most of networks.
 <ul class="incremental">
@@ -45,25 +46,41 @@ XX:XX:XX &lt; *sasl&gt; +-------------+-----------------------------------------
 
 ### Using SASL with your client or bouncer
 
-
+Remember that I use all of these methods (SASL, CertFP, username:password, 
+automatic command).
 
 ### HexChat
 
-
-
-### Limnoria
-
-
-
-### WeeChat
-
-
-
-### ZNC
-
-
--->
-
+Press `CTRL + S` or go to `HexChat --> 
+<p>Network list<code>and select the  network where you want to use SASL and click</code>Edit`.</p>
+<p>If you want to specify server specific username, uncheck the <code>Use global user information</code> checkbox.</p>
+<p>Change the <code>Login method:</code> from <code>Default</code> to `SASL (username + password) and type your username and password. If you don't uncheck the box, you must specify the username in network list.</p>
+<h3 id="limnoria">Limnoria</h3>
+<p>Limnoria supports SASL by default without any plugins.</p>
+<pre><code>config networks.&lt;network&gt;.sasl.username NSACCOUNTNAME
+config networks.&lt;network&gt;.sasl.password NSPASSWORD</code></pre>
+<h3 id="weechat">WeeChat</h3>
+<p>WeeChat supports SASL by default when you configure it. It can be configured globally or per network. You should do both.</p>
+<h4 id="global-configuration">Global configuration</h4>
+<pre><code>/set irc.server.default.ssl on
+/set irc.server_default.ssl_dhkey_size 1024
+/set irc.server_default.sasl.mechanism plain
+/set irc.server_default.sasl.username &lt;USERNAME&gt;</code></pre>
+<ol class="incremental" style="list-style-type: decimal">
+<li>Enables SSL by default for all connections unless otherwise specified which is in the next section. You do want this if you use the third command like I do which makes the password be sent in plain text.</li>
+<li>Fixes issues with connecting to freenode with SSL.</li>
+<li>Sets the password to be sent in plain text (this is why you want SSL). Plain text should be supported by every network that supports SASL.</li>
+<li>Sets the default SASL username in case you have mostly same account name in most of the networks which you are connected to.</li>
+</ol>
+<h4 id="network-specific-configuration">Network specific configuration</h4>
+<pre><code>/set irc.server.&lt;network&gt;.sasl_username &lt;USERNAME&gt;
+/set irc.server.&lt;network&gt;.sasl_password &lt;PASSWORD&gt;</code></pre>
+<ol class="incremental" style="list-style-type: decimal">
+<li>Sets the SASL username in case it's different that globally configured.</li>
+<li>Sets the password which is used with SASL.</li>
+</ol>
+<h3 id="znc">ZNC</h3>
+<p>--&gt;</p>
 <h2 id="certfp">CertFP</h2>
 <p>CertFP identifies you using SSL certificate which you must generate and add to your NickServ account.</p>
 <p>You can use this command at IRC to check if the network supports certfp.</p>
@@ -89,7 +106,7 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 <li>If you use something that wants username, uncheck the <code>Use global user informtion</code> or you must specify the username in the Network List and ZNC won't like it.</li>
 </ul></li>
 </ul>
-<h4 id="limnoria">Limnoria</h4>
+<h4 id="limnoria-1">Limnoria</h4>
 <p>Insert your .pem file somewhere where the bot can read it and tell your bot to read use it while connecting with</p>
 <pre><code>config networks.&lt;network&gt;.certfile /full/path/to/pem.file</code></pre>
 <p><strong>NOTE: This is server specific</strong>. <a href="https://github.com/ProgVal/Limnoria/issues/612">ProgVal/Limnoria#612 is feature request for global certfiles.</a></p>
@@ -97,7 +114,7 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 <p>Since Limnoria <strong>2014.06.04</strong> global certificate is supported. You can use the <code>version</code> command to check which version you are using.</p>
 <pre><code>config protocols.irc.certfile /full/path/to/pem.file</code></pre>
 <p>For instructions to <a href="https://github.com/ProgVal/Limnoria/blob/testing/INSTALL.md">upgrade Limnoria, please see their INSTALL.md file.</a></p>
-<h4 id="weechat">WeeChat</h4>
+<h4 id="weechat-1">WeeChat</h4>
 <p>I recommend you to <code>/script install iset.pl</code> for easier configuring when you aren't following this.</p>
 <p>Put the .pem file somewhere where your WeeChat can access it, preferably <code>~/.weechat</code> or whenever your &quot;WeeChat home&quot; is and run the following commands in WeeChat:</p>
 <pre><code>/set irc.server_default.ssl_cert %h/YOURNICKNAMEHERE.pem&quot;
@@ -110,7 +127,7 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 <li>Sets <code>dhkey_size</code> to <code>1024</code> (required by some networks like freenode).</li>
 <li>Disables verifying the certificates (required for self-signed certificates and I think that applies to our certificate too).</li>
 </ol>
-<h4 id="znc">ZNC</h4>
+<h4 id="znc-1">ZNC</h4>
 <p>Please read the both parts as you must add the certificate in webadmin or read ZNC documentation on how to add it manually.</p>
 <h5 id="webadmin">Webadmin</h5>
 <p>First login to your webadmin and if you are admin, go to the global settings. Check the checkbox <code>certauth</code>, scroll down and press &quot;Save&quot;.</p>

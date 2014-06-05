@@ -59,6 +59,7 @@ XX:XX:XX < *sasl> +-------------+-----------------------------------------------
 
 Some notes:
 
+* **You must use your accountname as username**.
 * PLAIN is plain text as it says, so if you use it like I do, you should 
 use SSL.
 * EXTERNAL is supposed to be used together with CertFP, but it doesn't 
@@ -71,19 +72,62 @@ work with most of networks.
 
 ### Using SASL with your client or bouncer
 
-
+Remember that I use all of these methods (SASL, CertFP, username:password, 
+automatic command).
 
 ### HexChat
 
+Press `CTRL + S` or go to `HexChat --> Network list` and select the 
+network where you want to use SASL and click `Edit`.
 
+If you want to specify server specific username, uncheck the `Use global user information` 
+checkbox.
+
+Change the `Login method:` from `Default` to `SASL (username + password) 
+and type your username and password. If you don't uncheck the box, you 
+must specify the username in network list.
 
 ### Limnoria
 
+Limnoria supports SASL by default without any plugins.
 
+```
+config networks.<network>.sasl.username NSACCOUNTNAME
+config networks.<network>.sasl.password NSPASSWORD
+```
 
 ### WeeChat
 
+WeeChat supports SASL by default when you configure it. It can be 
+configured globally or per network. You should do both.
 
+#### Global configuration
+
+```
+/set irc.server.default.ssl on
+/set irc.server_default.ssl_dhkey_size 1024
+/set irc.server_default.sasl.mechanism plain
+/set irc.server_default.sasl.username <USERNAME>
+```
+
+1. Enables SSL by default for all connections unless otherwise specified 
+which is in the next section. You do want this if you use the third 
+command like I do which makes the password be sent in plain text.
+2. Fixes issues with connecting to freenode with SSL.
+3. Sets the password to be sent in plain text (this is why you want SSL). 
+Plain text should be supported by every network that supports SASL.
+4. Sets the default SASL username in case you have mostly same account 
+name in most of the networks which you are connected to.
+
+#### Network specific configuration
+
+```
+/set irc.server.<network>.sasl_username <USERNAME>
+/set irc.server.<network>.sasl_password <PASSWORD>
+```
+
+1. Sets the SASL username in case it's different that globally configured.
+2. Sets the password which is used with SASL.
 
 ### ZNC
 
