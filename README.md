@@ -1,3 +1,7 @@
+**This branch does not accept pull request and nothing should happen here 
+after adding of this message. This is the repository from time before I 
+restarted from scrath and is only visible here for historical purpouses.**
+
 # My homepage
 
 This is my homepage with GH pages. This README file has been written only, because GitHub is annoying me with the following message.
