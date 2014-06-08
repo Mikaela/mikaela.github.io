@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8" />
 <!-- <meta http-equiv="refresh" content="60" /> -->
-<meta name="description" content="Insert description here" />
-<meta name="keywords" content="Insert keywords here" />
+<meta name="description" content="Embedded imgur albums." />
+<meta name="keywords" content="" />
 <meta name="author" content="Mikaela Suomalainen" />
-<link rel="canonical" href="https://">
-<title>Insert title here</title>
+<link rel="canonical" href="https://mkaysi.github.io/pages/photos.html">
+<title>Photos of me embedded from imgur</title>
 <link rel="stylesheet" type="text/css" href="../css.css" />
 </head>
 <body>
