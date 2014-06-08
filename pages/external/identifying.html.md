@@ -243,8 +243,8 @@ config networks.<network>.certfile /full/path/to/pem.file
 
 ##### testing branch
 
-Since Limnoria **2014.06.04** global certificate is supported. You can use 
-the `version` command to check which version you are using.
+Since Limnoria **2014.06.08** (master) global certificate is supported. 
+You can use the `version` command to check which version you are using.
 
 ```
 config protocols.irc.certfile /full/path/to/pem.file
