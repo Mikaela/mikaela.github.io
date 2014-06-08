@@ -175,7 +175,7 @@ Download it and run the installer.
 
 ### Generating the certificate
 
-Open terminal and run this command and replae YOURNICKNAMEHERE.pem with 
+Open terminal and run this command and replace YOURNICKNAMEHERE.pem with 
 your nickname or something else which makes you know what it is 
 (**DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT**):
 
