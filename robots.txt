@@ -1,0 +1,5 @@
+# robots.txt for https://mkaysi.github.io/
+User-agent: *
+Disallow: /pages/photos.html
+Disallow: /pages/photos.html.md
+Disallow: /pages/ext/ # This is just symlink to /pages/external/
