@@ -13,12 +13,12 @@
 <body>
 <hr/>
 ## Selfies
-<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/8b4EY/embed"></iframe>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/8b4EY/embed"></iframe>
 
 <hr/>
 ## Taken by others
 
-<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/pfCvJ/embed"></iframe>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/pfCvJ/embed"></iframe>
 <hr/>
 
 
