@@ -26,6 +26,16 @@ in common network that you will find below.
 I will use topics in format "name of the network / round robin if any <port>". With "+" in front of port, I mean SSL.
 The networks are in alphabedical order.
 
+### athemenet / irc.atheme.org +6697
+
+I am `Mikaela` at athemenet.
+
+## chatspike / irc.chatspike.net 6667
+
+I am `Mikaela` at chatspike.
+
+**NOTE: They have SSL issues.**
+
 ### foreverchat / irc.foreverchat.net +7029 
 
 I am `Mikaela` at foreverchat.
