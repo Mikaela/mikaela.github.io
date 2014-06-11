@@ -59,11 +59,15 @@ doesn't have services.
 
 ### oftc / irc.oftc.net +9999
 
-I am `Mikaela` at OFTC.
+I am `Mikaela` at oftc.
+
+### piratenet 
+
+I am `Mikaela` at piratenet.
 
 ### runehq / irc.runehq.com +6697
 
-I am `Mikaela` at RuneHQ.
+I am `Mikaela` at runehq.
 
 ## Other things
 
