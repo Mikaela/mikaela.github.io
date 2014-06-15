@@ -4,3 +4,4 @@ Disallow: /pages/photos.html
 Disallow: /pages/photos.html.md
 Disallow: /pages/ext/
 Disallow: /IRC/
+Disallow: /template/
