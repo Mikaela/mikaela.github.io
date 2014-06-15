@@ -1,2 +1,9 @@
 gems:
     - jekyll-sitemap
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/pages/photos.html"
+        - "/pages/photos.html.md"
+        - "/pages/ext/"
+        - "/IRC/"
