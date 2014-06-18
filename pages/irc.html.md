@@ -11,7 +11,57 @@
 </head>
 <body>
 
-**I am not going to explain what IRC is.**
+**I am going to bellieve that you already know what IRC is or if you 
+don't, you will go elsewhere to find it out before continuing.**
+
+## Important note to channel operators
+
+<!-- This applies to MRA (cis)het transphobic, transmisogynist etc. 
+people. If you aren't one, just skip this. -->
+
+> *You only get in fights about gender identity and bots.*
+
+As there have been issues with channel and network operators on their own 
+guidelines, I am promising the following to avoid issues.
+
+<hr/>
+
+**THINGS BELOW THIS NOTICE DON'T AFFECT CHANNELS/NETWORKS WHERE I AM 
+OP(ER).**
+
+* I won't comment when other people are misgendered or wrong pronouns are 
+used about them.
+* I will ignore lines with the word `guy`.
+    * If the line is somehow important, I might only ignore `guy`.
+    * Exception: The line is addressed only to me or small group including 
+    me.
+
+* Please refer to me with pronouns `she` or `they`.
+    * [Singular they (Wikipedia)](https://en.wikipedia.org/wiki/Gender-specific_and_gender-neutral_pronouns#Singular_they) has been used as gender 
+    neutral since 15th century (14XX).
+
+* If I am misgendered (see two previous lists) using misgendering words or 
+the following pronouns or variation of them, **I will take issue.**
+    * `he`
+    * `he/she`
+        * If you are referring to people as `he/she`, you are ignoring 
+        that non binary people exist.
+        * I have nothing to do with being `he`, I am not any less woman 
+        than any cis woman.
+        * This isn't gender neutral, as I said it excludes non binary 
+        people who don't use those pronouns.
+            * Please see If you are referring to people as `he/she`, 
+            you are ignoring that non binary people who don't use these
+            pronouns to refer to themselves exist.
+            * I have nothing to do with being `he`, I am not any less 
+            woman than any cis woman.
+    * `heshe`
+        * See previous.
+        * Also slur often used against \#GirlsLikeUs.
+
+**END OF CONDITIONAL THINGS (WHERE I OP(ER).**
+
+<hr/>
 
 ## Finding me at IRC
 
