@@ -50,11 +50,7 @@ the following pronouns or variation of them, **I will take issue.**
         than any cis woman.
         * This isn't gender neutral, as I said it excludes non binary 
         people who don't use those pronouns.
-            * Please see If you are referring to people as `he/she`, 
-            you are ignoring that non binary people who don't use these
-            pronouns to refer to themselves exist.
-            * I have nothing to do with being `he`, I am not any less 
-            woman than any cis woman.
+            * [Please see this link if you are referring to people as `he/she`](https://en.wikipedia.org/wiki/Gender-specific_and_gender-neutral_pronouns#Singular_they).
     * `heshe`
         * See previous.
         * Also slur often used against \#GirlsLikeUs.
