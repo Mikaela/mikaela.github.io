@@ -66,16 +66,19 @@ so these are untested and I wish someone will verify me that these work.
 1. Sets terminal charset.
 2. Sets outgoing charset as UTF-8.
 3. Disables fallback when received messages aren't UTF-8.
+4. Saves irssi config.
 
 ### WeeChat
 
 ```
 /set charset.default.decode ""
 /set charset.default.encode "UTF-8"
+/save
 ```
 
 1. Stops decoding/fallbacking to other charsets than what we send.
 2. Send UTF-8.
+3. Saves WeeChat config files.
 
 ### XChat
 

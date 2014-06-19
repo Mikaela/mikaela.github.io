@@ -63,13 +63,16 @@ UTF-8 in IRC
 <li>Sets terminal charset.</li>
 <li>Sets outgoing charset as UTF-8.</li>
 <li>Disables fallback when received messages aren't UTF-8.</li>
+<li>Saves irssi config.</li>
 </ol>
 <h3 id="weechat">WeeChat</h3>
 <pre><code>/set charset.default.decode &quot;&quot;
-/set charset.default.encode &quot;UTF-8&quot;</code></pre>
+/set charset.default.encode &quot;UTF-8&quot;
+/save</code></pre>
 <ol class="incremental" style="list-style-type: decimal">
 <li>Stops decoding/fallbacking to other charsets than what we send.</li>
 <li>Send UTF-8.</li>
+<li>Saves WeeChat config files.</li>
 </ol>
 <h3 id="xchat">XChat</h3>
 <p><strong>XChat defaults to weird charset that claims to be UTF-8 and confuses users as in reality it's not UTF-8!</strong></p>
