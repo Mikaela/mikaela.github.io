@@ -31,6 +31,7 @@ Not directly related to me:
 IRC:
 
 * <a href="pages/external/identifying.html" target="right">Auto-login</a>
+* <a href="pages/external/irc-utf-8.html" target="right">UTF-8</a>
 
 </body>
 </html>
