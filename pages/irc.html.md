@@ -127,13 +127,17 @@ than they are [Limnorias] to not make them target to anything.
 
 ### Templates which I use with ChanServ primarily on Atheme.
 
-I am op on some channels (I probably shouldn't, but try to tell that to 
-them) and I have made some templates to have flags easy to manage.
+As mentioned previously, I am op on some channels and use these templates 
+to make managing access list easier on networks using Atheme Services.
 
-As you can see from the embedded gist, they are bash scripts and they take 
-the channel name as argument when executed.
-
-<script src="https://gist.github.com/Mkaysi/597c03e41a20571e10af.js"></script>
+* [cstemplate](https://gist.github.com/Mkaysi/597c03e41a20571e10af)
+    * Only trusted people who are specified in the ACL will get voice or 
+    op status.
+* [cstemplate2](https://gist.github.com/Mkaysi/91cc5029ab842b9129fc)
+    * cstemplate updated for Atheme exttargets.
+    * Every registered user gets auto-voice.
+        * If voice is only given to trusted people/regulars or similar, 
+        please use cstemplate.
 
 </body>
 <script>
