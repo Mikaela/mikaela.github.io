@@ -17,12 +17,12 @@
 * The characters that you send are visible to everyone.
 * There is no unclearity what you say.
     * Example:
-        * **sain t?it?**
+        * *sain t?it?*
             * This can be understood two ways:
-                * **sain täitä**
-                    * **I got louses**
-                * **sain töitä**
-                    * **I got work**
+                * *sain täitä*
+                    * *I got louses*
+                * *sain töitä*
+                    * *I got work*
 * All of the characters that you need are in it.
 
 TODO: add other reasons.
