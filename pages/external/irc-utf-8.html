@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" /> <!-- <meta http-equiv="refresh" content="60" /> --> <meta name="description" content="Why to not use other charsets than UTF-8 in IRC and how to do it." /> <meta name="keywords" content="IRC,UTF-8,charset,Unicode,XChat,HexChat,irssi,WeeChat," /> <meta name="author" content="Mikaela Suomalainen" /> <link rel="canonical" href="https://mkaysi.github.io/pages/external/irc-utf-8.html">
+<title>
+UTF-8 in IRC
+</title>
+<link rel="stylesheet" type="text/css" href="../../css.css" />
+</head>
+<body>
+
+<h2 id="why-to-use-utf-8">Why to use UTF-8</h2>
+<ul class="incremental">
+<li>The characters that you send are visible to everyone.</li>
+<li>There is no unclearity what you say.
+<ul class="incremental">
+<li>Example:
+<ul class="incremental">
+<li><strong>sain t?it?</strong>
+<ul class="incremental">
+<li>This can be understood two ways:
+<ul class="incremental">
+<li><strong>sain täitä</strong>
+<ul class="incremental">
+<li><strong>I got louses</strong></li>
+</ul></li>
+<li><strong>sain töitä</strong>
+<ul class="incremental">
+<li><strong>I got work</strong></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>All of the characters that you need are in it.</li>
+</ul>
+<p>TODO: add other reasons.</p>
+<h3 id="why-to-disable-fallback.">Why to disable fallback.</h3>
+<ul class="incremental">
+<li>You know when people aren't sending UTF-8.
+<ul class="incremental">
+<li>You can tell them it.
+<ul class="incremental">
+<li>You can take action to their misbehavour.</li>
+</ul></li>
+</ul></li>
+<li>You aren't supporting depracated (by UTF-8) charsets.</li>
+</ul>
+<p>TODO: add other reasons.</p>
+<h2 id="how-to-use-utf-8.">How to use UTF-8.</h2>
+<h3 id="hexchat">HexChat</h3>
+<p>UTF-8 is used by default, but if your configuration is migrated from XChat you might not be using it.</p>
+<p>Open HexChat and there Network List (CTRL + S or search from the File menu.</p>
+<p>Edit network and ensure that the Character set says <strong>UTF-8 (Unicode).</strong></p>
+<p>&quot;IRC (Latin/Unicode hybrid)&quot; <strong>is not valid UTF-8</strong> and <strong>mustn't be used!</strong></p>
+<h3 id="irssi">irssi</h3>
+<p>I have copied these instructions from <a href="http://www.kapsi.fi/ohjeet/irssi-utf8.html">Kapsi's &quot;Irssi ja UTF-8&quot; guide</a> so these are untested and I wish someone will verify me that these work.</p>
+<pre><code>/set term_charset UTF-8
+/set recode_out_default_charset UTF-8
+/set recode_fallback &quot;&quot;
+/save</code></pre>
+<ol class="incremental" style="list-style-type: decimal">
+<li>Sets terminal charset.</li>
+<li>Sets outgoing charset as UTF-8.</li>
+<li>Disables fallback when received messages aren't UTF-8.</li>
+</ol>
+<h3 id="weechat">WeeChat</h3>
+<pre><code>/set charset.default.decode &quot;&quot;
+/set charset.default.encode &quot;UTF-8&quot;</code></pre>
+<ol class="incremental" style="list-style-type: decimal">
+<li>Stops decoding/fallbacking to other charsets than what we send.</li>
+<li>Send UTF-8.</li>
+</ol>
+<h3 id="xchat">XChat</h3>
+<p><strong>XChat defaults to weird charset that claims to be UTF-8 and confuses users as in reality it's not UTF-8!</strong></p>
+<p>Open server list from the file menu or press CTRL + S, edit network and select the network. Ensure that the charset says <strong>UTF-8 (Unicode)</strong>.</p>
+</body>
+</html>
+<!-- vim : set ft=markdown-->
+
+
