@@ -230,6 +230,10 @@ rename it to `client.pem`.
 You can now return to below the three \*nix commands to the part which 
 you skipped to check your settings.
 
+#### KVIrc
+
+[freenode has full instructions on doing this here.](https://freenode.net/certfp/certfp-kvirc.shtml)
+
 #### Limnoria
 
 Insert your .pem file somewhere where the bot can read it and tell your 
