@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" /> <!-- <meta http-equiv="refresh" content="60" /> --> <meta name="description" content="Installing ZNC directly from git without other instructions to confuse people." /> <meta name="keywords" content="ZNC installation git IRC bouncer" /> <meta name="author" content="Mikaela Suomalainen" /> <link rel="canonical" href="https://mkaysi.github.io/pages/external/zncinstall.html">
+<title>
+Installing ZNC from git
+</title>
+<link rel="stylesheet" type="text/css" href="../../css.css" />
+</head>
+<body>
+
+<p>This page tells you how to install ZNC from git. The package names are mainly for Debian based distributions, but you should be able to figure out what they are in other distributions and install them.</p>
+<p>**If you don't know <a href="http://wiki.znc.in">what znc is, click here.</a>. If you <a href="http://wiki.znc.in/Installation">are looking for the official installation instructions, click here.</a></p>
+<p>I am going to presume that you don't install ZNC globally, if you do, remove the <code>--PREFIX=$HOME/.local</code> from your configure command.</p>
+<h2 id="installing-requirements">Installing requirements</h2>
+<pre><code>sudo apt-get build-dep znc
+sudo apt-get install git swig libperl-dev python3-dev tcl-dev libsasl2-dev libgtest-dev libicu-dev</code></pre>
+<h2 id="actual-installation">Actual installation</h2>
+<p>Do not remove the &quot;znc&quot; directory!</p>
+<pre><code>git clone https://github.com/znc/znc.git
+cd znc
+./autogen.sh
+mkdir -p build
+cd build
+../configure --enable-debug --enable-perl --enable-python --enable-swig --enable-tcl --enable-cyrus --prefix=$HOME/.local
+make -j$(nproc)
+make install</code></pre>
+<h3 id="adding-znc-to-path">Adding ZNC to $PATH</h3>
+<ul class="incremental">
+<li>Check if ZNC is in your $PATH: <code>which znc</code>
+<ul class="incremental">
+<li>It should result something like <code>/home/znc/.local/bin/znc</code>
+<ul class="incremental">
+<li>If it says <code>znc not found</code> or gives wrong path, continue with thse instructions.</li>
+</ul></li>
+</ul></li>
+</ul>
+<pre><code>echo &#39;PATH=$HOME/.local/bin:$PATH&#39; &gt;&gt; ~/.$(echo $SHELL|cut -d/ -f3)rc
+source ~/.$(echo $SHELL|cut -d/ -f3)rc</code></pre>
+<p><code>which znc</code> should now give correct place.</p>
+<h3 id="ending">Ending</h3>
+<ul class="incremental">
+<li>Configure your settings with <code>znc --makeconf</code></li>
+<li>Start znc with <code>znc</code></li>
+<li>Connect to your ZNC using your IRC client.</li>
+</ul>
+<h2 id="upgrading">Upgrading</h2>
+<pre><code>cd znc
+git pull
+mkdir -p build
+cd build
+../configure --enable-debug --enable-perl --enable-python --enable-swig --enable-tcl --enable-cyrus --prefix=$HOME/.local
+make -j($nproc)
+make install</code></pre>
+<h3 id="error-with-make">Error with make</h3>
+<ul class="incremental">
+<li>If you are in build directory: <code>cd ..</code></li>
+<li>If you are in the directory where you git cloned the repository: <code>cd znc</code></li>
+</ul>
+<p>and continue</p>
+<pre><code>rm -rf build
+mkdir -p build
+cd build
+../configure --enable-debug --enable-perl --enable-python --enable-swig --enable-tcl --enable-cyrus --prefix=$HOME/.local
+make -j$(nproc)
+make install</code></pre>
+<p>If it doesn't work, try asking at <a href="https://kiwiirc.com/client/chat.freenode.net:+6697/#znc"><img src="https://kiwiirc.com/buttons/chat.freenode.net/znc.png" alt="#znc" /></a>.</p>
+<hr/>
+</body>
+</html>
+<!-- vim : set ft=markdown-->
+
+
