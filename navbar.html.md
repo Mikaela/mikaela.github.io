@@ -32,7 +32,7 @@ IRC:
 
 * <a href="pages/external/identifying.html" target="right">Auto-login</a>
 * <a href="pages/external/irc-utf-8.html" target="right">UTF-8</a>
-
+* <a href="pages/external/zncinstall.html" target="right">Installing ZNC</a>
 </body>
 </html>
 <!-- vim : set ft=html -->

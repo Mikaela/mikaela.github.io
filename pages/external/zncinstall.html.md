@@ -16,8 +16,8 @@ This page tells you how to install ZNC from git. The package names are
 mainly for Debian based distributions, but you should be able to figure 
 out what they are in other distributions and install them.
 
-**If you don't know [what znc is, click here.](http://wiki.znc.in). If you 
-[are looking for the official installation instructions, click here.](http://wiki.znc.in/Installation)
+**If you don't know [what znc is, click here.](http://wiki.znc.in) If you 
+[are looking for the official installation instructions, click here.](http://wiki.znc.in/Installation)**
 
 I am going to presume that you don't install ZNC globally, if you do, 
 remove the `--PREFIX=$HOME/.local` from your configure command.
