@@ -14,10 +14,6 @@ Email address: <input type="text" name="email">
 <input type="submit">
 </form>
 </p>
-
-<hr/>
-<p><a href="https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/gravatar.php">Source: https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/gravatar.php</a></p>
-<hr/>
 </body>
 </html>
 
@@ -43,4 +39,9 @@ echo "<p>";
 echo "<img src=$gravatar>";
 echo "</p>";
 }
+
+echo '<hr/>
+<p><a href="https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/gravatar.php">Source: https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/gravatar.php</a></p>
+<hr/>';
+
 ?>
