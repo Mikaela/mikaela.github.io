@@ -28,6 +28,9 @@ $email = strtolower( $email );
 
 $md5email = md5( $email );
 
+// Do nothing if our md5 is an empty string!
+if($md5email != "d41d8cd98f00b204e9800998ecf8427e") {
+
 echo "<p>md5<br> $md5email</p>";
 
 echo "<p>Link<br>";
@@ -36,4 +39,5 @@ echo "$gravatar</p>";
 echo "<p>";
 echo "<img src=$gravatar>";
 echo "</p>";
+}
 ?>
