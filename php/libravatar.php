@@ -42,9 +42,7 @@ echo "</p>";
 }
 
 echo '<hr/>
-<p><a href="https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/gravatar.
-php">Source: https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/gravatar
-.php</a></p>
+<p><a href="https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/libravatar.php">Source: https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/libravatar.php</a></p>
 <hr/>'
 
 ?>
