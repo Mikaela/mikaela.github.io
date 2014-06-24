@@ -15,6 +15,9 @@ Email address: <input type="text" name="email">
 </form>
 </p>
 
+<hr/>
+<p><a href="https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/gravatar.php">Source: https://github.com/Mkaysi/mkaysi.github.io/blob/master/php/gravatar.php</a></p>
+<hr/>
 </body>
 </html>
 
