@@ -34,7 +34,7 @@ Photos of me which other people have took.
 Me holding my PGP key fingerprints (to verify I own them for people who 
 require photo authentication).
 
-<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/N8Kwa/embed"></iframe>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/N8Kwa/embed"></iframe>
 
 <hr/>
 
@@ -42,7 +42,7 @@ require photo authentication).
 
 Things that I wear etc.
 
-<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/XqFg6/embed"></iframe>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/XqFg6/embed"></iframe>
 
 <hr/>
 ## Others
@@ -50,7 +50,7 @@ Things that I wear etc.
 Everyone and everything else than me. I ask for permission before 
 uploading.
 
-<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/XCV8k/embed"></iframe>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/XCV8k/embed"></iframe>
 
 <hr/>
 <script>
