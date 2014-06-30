@@ -8,10 +8,18 @@
 <link rel="canonical" href="https://mkaysi.github.io/pages/irc.html">
 <title>Where to find me at IRC?</title>
 <link rel="stylesheet" type="text/css" href="../css.css" />
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-40171169-1', 'mkaysi.github.io');
+ga('send', 'pageview');
+</script>
 </head>
 <body>
 
-**I am going to bellieve that you already know what IRC is or if you 
+**I am going to believe that you already know what IRC is or if you 
 don't, you will go elsewhere to find it out before continuing.**
 
 ## Important note to channel operators
@@ -114,6 +122,16 @@ I am `Mikaela` at oftc.
 
 I am `Mikaela` at piratenet.
 
+<!--
+
+### quakenet
+
+I am `Mikaela` at quakenet, but their services work differently from 
+other services so don't trust on it and this section isn't visible, 
+because quakenet enforces `+i`.
+
+-->
+
 ### runehq / irc.runehq.com +6697
 
 I am `Mikaela` at runehq.
@@ -140,15 +158,5 @@ to make managing access list easier on networks using Atheme Services.
         please use cstemplate.
 
 </body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-40171169-1', 'mkaysi.github.io');
-            ga('send', 'pageview');
-
-            </script>
 </html>
 <!-- vim : set ft=markdown-->
