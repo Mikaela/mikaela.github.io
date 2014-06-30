@@ -19,7 +19,7 @@ Size: <input type="text" name="size">
 <p>* marks required field. Only email address is required.</p>
 
 <p>Size can be anything from 1 to 2048. If it's empty, size is 
-80px.</p>
+80.</p>
 
 <p>For Steam profile pictures, set size as 184.</p>
 
