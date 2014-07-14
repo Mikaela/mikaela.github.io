@@ -10,22 +10,148 @@ How I configure my new systems
 <body>
 
 <p>On this page I try to explain how I usually configure new systems. This might be very Ubuntu/Debian based. I hope that someone finds this helpful and if there are (security) issues, people let me know.</p>
+<p>When I have configuration files, I will link to them instead of putting them on this page to avoid duplicating them and having outdated clones.</p>
+<p>It should also be said that when I give commands, they are usually ran as root..</p>
 <h2 id="ufw">ufw</h2>
-<h2 id="ssh">ssh</h2>
+<pre><code>ufw allow 113
+ufw allow 631
+ufw allow 100XX
+ufw limit 22
+ufw enable</code></pre>
+<ul class="incremental">
+<li>Allow all traffic to the following ports:
+<ul class="incremental">
+<li>113 - identd/authd (for IRC)</li>
+<li>631 - CUPS
+<ul class="incremental">
+<li>I don't know how else to allow LAN connections to pass it, I should learn direct iptables.
+<ul class="incremental">
+<li>In <a href="::1:631">CUPS settings</a> ensure that you don't have <code>Allow printing from the internet</code> checked.</li>
+</ul></li>
+</ul></li>
+<li>100XX
+<ul class="incremental">
+<li>My unstandard SSH port for routers which don't allow WAN port to be forwarded to different LAN port. Based on computer number.</li>
+</ul></li>
+</ul></li>
+<li>Limit traffoc to the following ports:
+<ul class="incremental">
+<li>22 - SSH
+<ul class="incremental">
+<li>I only keep this open to not break compatibility with my <code>~/.ssh/config</code> files and having ufw protecting it in addition to sshguard shouldn't hurt. (Sshguard is more sensitive though).</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="sshd">sshd</h2>
+<p><code>/etc/ssh/sshd_config</code></p>
+<ul class="incremental">
+<li>Under the <code>Port 22</code> line I add another port <code>Port 100XX</code> where the last two numbers depend on the computer number.</li>
+<li>I uncomment the both listenaddresses <code>::0</code> and <code>0.0.0.0</code>.</li>
+<li>I uncomment <code>Protocol 2</code></li>
+<li>I change <code>LogLevel</code> to <code>LogLevel VERBOSE</code></li>
+<li>I uncomment and change the line <code>PasswordAuthentication no</code> to this.
+<ul class="incremental">
+<li>So logging in without SSH keys is not allowed.</li>
+</ul></li>
+<li>I uncomment the line <code>Banner /etc/issue.net</code>
+<ul class="incremental">
+<li>So <code>/etc/issue.net</code> with content that you put there is shown to users who SSH before logging in.</li>
+</ul></li>
+</ul>
 <h2 id="sshguard">sshguard</h2>
-<h2 id="network--manager">network--manager</h2>
+<ul class="incremental">
+<li><code>apt-get update;apt-get install sshguard</code></li>
+</ul>
+<p>Sshguard should work out-of-the-box. This section should be below apt (because apt was never configured), but I will let it be here for now.</p>
+<h2 id="network-manager">network-manager</h2>
+<p>If you are going to use <code>interfaces</code> file, you must change the line <code>managed=false</code> to <code>managed=true</code> in <code>/etc/NetworkManager/NetworkManager.conf</code>. Otherwise you cannot connect to anywhere.</p>
+<p>The line <code>dns=dnsmasq</code> should also be commented there for dnsmasq.</p>
 <h2 id="interfaces">interfaces</h2>
+<p><strong>I only do this for devices which are connected by cable and I cannot get this to work with WLAN!</strong></p>
+<p>This configuration is unlikely to change, so I am going to paste it here.</p>
+<p><code>/etc/network/interfaces</code>:</p>
+<pre><code># interfaces(5) file used by ifup(8) and ifdown(8)
+
+auto lo
+iface lo inet loopback
+
+auto eth0
+allow-hotplug eth0
+iface eth0 inet static
+address 10.0.0.2
+netmask 255.0.0.0
+gateway 10.0.0.1
+dns-nameservers ::1 8.8.8.8 8.8.4.4
+iface eth0 inet6 auto</code></pre>
+<p>This works for ethernet for me. This does the following to <code>eth0</code>:</p>
+<ul class="incremental">
+<li>Sets IPv4
+<ul class="incremental">
+<li>address to 10.0.0.2</li>
+<li>netmask to 255.0.0.0</li>
+<li>gateway to 10.0.0.1</li>
+</ul></li>
+<li>nameservers to ::1, 8.8.8.8 and 8.8.4.4
+<ul class="incremental">
+<li>I don't have native IPv6 so I am using other IPv4 DNS servers.
+<ul class="incremental">
+<li><code>::1</code>?
+<ul class="incremental">
+<li>Local DNS cache (dnsmasq)</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="hosts">hosts</h2>
+<p><code>/etc/hosts</code></p>
+<p>This is mostly default hosts file. The only thing I have done is to map <code>::1</code> to <code>localhost</code> and <code>HOSTNAMEHERE</code>, because by default, localhost points only to IPv4 address <code>127.0.0.1</code>.</p>
+<p>As you can probably guess, <code>HOSTNAMEHERE</code> should be replaced with your <code>hostname</code>.</p>
+<pre><code>::1 localhost
+::1 HOSTNAMEHERE
+
+127.0.0.1   localhost
+127.0.1.1   HOSTNAMEHERE
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters</code></pre>
 <h2 id="apt">apt</h2>
 <h3 id="colours">colours</h3>
+<p>This is simply copy-pasting to root shell until sources.list.</p>
+<pre><code>echo &#39;APT::Color &quot;1&quot;;&#39; &gt; /etc/apt/apt.conf.d/99color</code></pre>
 <h3 id="progress-bar">progress bar</h3>
+<pre><code>echo &#39;Dpkg::Progress-Fancy &quot;1&quot;;&#39; &gt; /etc/apt/apt.conf.d/99progressbar</code></pre>
 <h3 id="sources.list">sources.list</h3>
+<p>I always replace the entries of default mirrors with <code>http.debian.net</code> or Ubuntu's <code>mirrors.txt</code>.</p>
+<p><a href="https://github.com/Mkaysi/shell-things/tree/gh-pages/sources.list">Link to my sources.list files.</a></p>
+<p><strong>Debian: replace <code>stable</code> or <code>testing</code> with the code name or you will encounter surprises when <code>testing</code> becomes <code>stable</code> and <code>unstable</code> becomes <code>testing</code>!</strong> <code>unstable</code> becoming <code>testing</code> shouldn't affect so much, but I warned you.</p>
 <h2 id="dnsmasq">dnsmasq</h2>
+<p><code>apt-get install dnsmasq</code> and it should start working. It's not used before you tell <code>resolv.conf</code> to use it and this is where <code>resolvconf</code> comes.</p>
 <h2 id="resolvconf">resolvconf</h2>
+<p><code>apt-get install resolvconf</code> and resolvconf should start keeping your <code>/etc/resolv.conf</code> in order. I usually modify the file <code>/etc/resolvconf/resolv/resolv.conf.d/head</code> and add my nameservers there so they will always be on top of nameserver list.</p>
+<p><a href="https://raw.githubusercontent.com/Mkaysi/shell-things/gh-pages/etc/resolvconf/resolv.conf.d/head">My /etc/resolvconf/resolv.conf.d/head.</a></p>
+<p>At time of writing this section <code>2014-07-14</code> I am still missing native IPv6, so I have IPv6 Google DNS commented and I don't recommend OpenDNS.</p>
 <h2 id="miredo">miredo</h2>
-<p>Teredo for Linux.</p>
+<p>Miredo should start working when installed, <code>apt-get install miredo</code>.</p>
+<p>Teredo for Linux. Native IPv4 or other tunnel than Teredo gets preferred even if you configure gai.conf below.</p>
 <h3 id="gai.conf">gai.conf</h3>
+<p>Uncomment (remove the <code>#</code> from the following lines except the last):</p>
+<pre><code>label ::1/128       0
+label ::/0          1
+label 2002::/16     2
+label ::/96         3
+label ::ffff:0:0/96 4
+label fec0::/10     5
+#label fc00::/7      6</code></pre>
+<p>This makes Teredo a little more prioritized, but Google Chrome still avoids it and with other browsers you don't get more than 7 points from IPv6 test. With actual tunnel you would get full points.</p>
 <h2 id="molly-guard">molly-guard</h2>
+<p><code>apt-get install molly-guard</code> and the commands to poweroff, reboot etc. start asking you for hostname if you are connected with SSH.</p>
+<p>I always uncomment line <code>ALWAYS_QUERY_HOSTNAME=true</code> in <code>/etc/molly-guard/rc</code>, because I am always poewring off wrong hosts even if I am on them locally.</p>
 <h2 id="oidentd">oidentd</h2>
+<p><code>apt-get install oidentd</code> and oidentd works. It doesn't necressarily need additional configuration unless you are public shell host or something.</p>
 <hr/>
 
 <script>
