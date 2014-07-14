@@ -89,6 +89,14 @@ Open server list from the file menu or press
 CTRL + S, edit network and select the network. Ensure that the charset 
 says **UTF-8 (Unicode)**.
 
+<script>
+var idcomments_acct = '2405e74b7c1c8062b1b2ea830f1a8bd0';
+var idcomments_post_id;
+var idcomments_post_url;
+</script>
+<span id="IDCommentsPostTitle" style="display:none"></span>
+<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+
 </body>
 </html>
 <!-- vim : set ft=markdown-->
