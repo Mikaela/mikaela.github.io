@@ -26,31 +26,34 @@ How to identify to services automatically
 <pre><code>/whois SaslServ SaslServ
 /msg SaslServ help</code></pre>
 <p>If the network does support SASL, you should see something like this which freenode gives:</p>
-<pre><code>XX:XX:XX -- [SaslServ] (SaslServ@services.): SASL Authentication Agent
-XX:XX:XX -- [SaslServ] services. (Atheme IRC Services)
-XX:XX:XX -- [SaslServ] is a Network Service
-XX:XX:XX -- [saslserv] End of WHOIS
-XX:XX:XX -- SaslServ: This service exists to identify connecting clients to the network. It has no public interface.</code></pre>
-<p>There are different mechanisms for use with SASL. I personally use them in this order with ZNC: <code>PLAIN DH-AES DH-BLOWFISH and EXTERNAL</code>.</p>
+<pre><code>[SaslServ] (SaslServ@services.): SASL Authentication Agent
+[SaslServ] services. (Atheme IRC Services)
+[SaslServ] is a Network Service
+[saslserv] End of WHOIS
+SaslServ: This service exists to identify connecting clients to the network. It has no public interface.</code></pre>
+<p>There are different mechanisms for use with SASL. I personally use only two of them with ZNC, <code>EXTERNAL PLAIN</code>.</p>
 <p>This is what ZNC 1.5-git-3b01efc says about them:</p>
-<pre><code>XX:XX:XX &lt; *sasl&gt; +-------------+----------------------------------------------------+
-XX:XX:XX &lt; *sasl&gt; | Mechanism   | Description                                        |
-XX:XX:XX &lt; *sasl&gt; +-------------+----------------------------------------------------+
-XX:XX:XX &lt; *sasl&gt; | EXTERNAL    | TLS certificate, for use with the *cert module     |
-XX:XX:XX &lt; *sasl&gt; | DH-BLOWFISH | Secure negotiation using the DH-BLOWFISH mechanism |
-XX:XX:XX &lt; *sasl&gt; | DH-AES      | More secure negotiation using the DH-AES mechanism |
-XX:XX:XX &lt; *sasl&gt; | PLAIN       | Plain text negotiation                             |
-XX:XX:XX &lt; *sasl&gt; +-------------+----------------------------------------------------+</code></pre>
+<pre><code>&lt; *sasl&gt; +-------------+----------------------------------------------------+
+&lt; *sasl&gt; | Mechanism   | Description                                        |
+&lt; *sasl&gt; +-------------+----------------------------------------------------+
+&lt; *sasl&gt; | EXTERNAL    | TLS certificate, for use with the *cert module     |
+&lt; *sasl&gt; | PLAIN       | Plain text negotiation                             |
+&lt; *sasl&gt; +-------------+----------------------------------------------------+</code></pre>
 <p>Some notes:</p>
 <ul class="incremental">
-<li><strong>You must use your accountname as username</strong>.</li>
-<li>PLAIN is plain text as it says, so if you use it like I do, you should use SSL.</li>
-<li>EXTERNAL is supposed to be used together with CertFP, but it doesn't work with most of networks.
+<li>ZNC has other supported Mechanisms too, those are only what I use.</li>
+<li><strong>You must use your accountname as username</strong>.
 <ul class="incremental">
-<li>It's not supported even by freenode.</li>
-<li>I don't know any network that supports it.</li>
+<li>Only applies to older services (and you can probably trust them to be actively used for years, so do this even if it's nor required).</li>
 </ul></li>
-<li>This won't help you if services go down.</li>
+<li>PLAIN is plain text as it says, so if you use it like I do, you should use SSL.
+<ul class="incremental">
+<li>This won't help you when services are down.</li>
+</ul></li>
+<li>EXTERNAL works together with CertFP and doesn't need username nor password. It tells server about certificate and identifies you before you are visible. Even if SASL EXTERNAL fails, your certificate will identify you.
+<ul class="incremental">
+<li>I recommend having <code>EXTERNAL</code> as primary SASL mechanism and <code>PLAIN</code> as secondary if supported by your client. This is supported by ZNC.</li>
+</ul></li>
 </ul>
 <h3 id="using-sasl-with-your-client-or-bouncer">Using SASL with your client or bouncer</h3>
 <p>Remember that I use all of these methods (SASL, CertFP, username:password, automatic command).</p>
@@ -62,6 +65,7 @@ XX:XX:XX &lt; *sasl&gt; +-------------+-----------------------------------------
 <p>Limnoria supports SASL by default without any plugins.</p>
 <pre><code>config networks.&lt;network&gt;.sasl.username NSACCOUNTNAME
 config networks.&lt;network&gt;.sasl.password NSPASSWORD</code></pre>
+<p><a href="https://github.com/ProgVal/Limnoria/issues/781">There is an feature request about SASL external.</a></p>
 <h3 id="weechat">WeeChat</h3>
 <p>WeeChat supports SASL by default when you configure it. It can be configured globally or per network. You should do both.</p>
 <h4 id="global-configuration">Global configuration</h4>
@@ -84,14 +88,17 @@ config networks.&lt;network&gt;.sasl.password NSPASSWORD</code></pre>
 </ol>
 <h3 id="znc">ZNC</h3>
 <pre><code>/znc loadmod sasl
-/znc *sasl mechanism plain dh-aes dh-blowfish external
+/znc *sasl mechanism external plain
 /znc *sasl requireauth no
 /znc *sasl set NSACCOUNTNAME NSPASSWORD</code></pre>
 <ol class="incremental" style="list-style-type: decimal">
 <li>Loads the sasl module.</li>
 <li>Sets the mechanism list (where others than plain are useless as if plain doesn't work, others most probably won't work either).</li>
 <li>Makes you able to connect to network even if SASL fails as I expect you to also have CertFP configured which will identify you when services return.</li>
-<li>Sets the details which ZNC uses to identify you.</li>
+<li>Sets the details which ZNC uses to identify you.
+<ul class="incremental">
+<li>Remember what I said about older services earlier.</li>
+</ul></li>
 </ol>
 <h2 id="certfp">CertFP</h2>
 <p>CertFP identifies you using SSL certificate which you must generate and add to your NickServ account.</p>
@@ -109,7 +116,7 @@ config networks.&lt;network&gt;.sasl.password NSPASSWORD</code></pre>
 </ul></li>
 </ul>
 <h3 id="generating-the-certificate">Generating the certificate</h3>
-<p>Open terminal and run this command and replace YOURNICKNAMEHERE.pem with your nickname or something else which makes you know what it is (<strong>DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT</strong>):</p>
+<p>Open terminal and run this command and replace YOURNICKNAMEHERE.pem with your nickname or something else which makes you know what it is (<strong>DO NOT SET PASSWORD FOR IT OR YOUR CLIENT MIGHT NOT BE ABLE TO USE IT</strong>): * Most of people are having ZNC and Limnoria starting automatically and asking password isn't a good idea with them. * If they asked passwords, your bot and ZNC would always be down if they crashed and cron or init-system or whatever asked for password…</p>
 <pre><code>openssl req -nodes -newkey rsa:4096 -keyout YOURNICKNAMEHERE.pem -x509 -days 3650 -out YOURNICKNAMEHERE.pem -subj &quot;/CN=Your Nickname&quot;</code></pre>
 <p>This gives us file <code>YOURNICKNAMEHERE.pem</code> which you must give to your IRC client which is valid for 10 years and must be regenerated at least every 10 years or whatever you specify in <code>-days</code>.</p>
 <p>Oh, and <strong>don't close your terminal yet</strong> as you will need it for HexChat.</p>
@@ -121,9 +128,8 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 <p>Now open your HexChat and press <code>CTRL + S</code> or go to <code>HexChat --&gt; Network list</code> and check the settings for the networks that you use.</p>
 <ul class="incremental">
 <li>Use SSL for all the servers on this network.</li>
-<li>Make sure that the login method <strong>IS NOT</strong> <code>SASL EXTERNAL (cert)</code>, as said previously, it won't work.
+<li>Note: if mechanism is SASL EXTERNAL, some services might not identify you using SASL. HexChat doesn't support multiple SASL mechanisms.
 <ul class="incremental">
-<li>It appears that HexChat started to want to use it when I added the certificate.</li>
 <li>If you use something that wants username, uncheck the <code>Use global user informtion</code> or you must specify the username in the Network List and ZNC won't like it.</li>
 </ul></li>
 </ul>
@@ -133,17 +139,15 @@ cp YOURNICKNAMEHERE.pem ~/.config/hexchat/certs/client.pem</code></pre>
 cp YOURNICKNAMEHERE.pem %appdata%\hexchat\certs\client.pem</code></pre>
 <p>If you use portable HexChat (the option in setup), create a folder <code>certs</code> under the <code>config</code> directory and copy YOURNICKNAMEHERE.pem there and rename it to <code>client.pem</code>.</p>
 <p>You can now return to below the three *nix commands to the part which you skipped to check your settings.</p>
-<h4 id="kvirc">KVIrc</h4>
-<p><a href="https://freenode.net/certfp/certfp-kvirc.shtml">freenode has full instructions on doing this here.</a></p>
 <h4 id="limnoria-1">Limnoria</h4>
-<p>Insert your .pem file somewhere where the bot can read it and tell your bot to read use it while connecting with</p>
-<pre><code>config networks.&lt;network&gt;.certfile /full/path/to/pem.file</code></pre>
-<p><strong>NOTE: This is server specific</strong>. <a href="https://github.com/ProgVal/Limnoria/issues/612">ProgVal/Limnoria#612 is feature request for global certfiles.</a></p>
-<h5 id="testing-branch">testing branch</h5>
-<p>Since Limnoria <strong>2014.06.08</strong> (master) global certificate is supported. You can use the <code>version</code> command to check which version you are using.</p>
+<p>Insert your .pem file somewhere where the bot can read it and tell your bot to use it while connecting with</p>
 <pre><code>config protocols.irc.certfile /full/path/to/pem.file</code></pre>
-<p>For instructions to <a href="https://github.com/ProgVal/Limnoria/blob/testing/INSTALL.md">upgrade Limnoria, please see their INSTALL.md file.</a></p>
-<h4 id="weechat-1">WeeChat</h4>
+<ul class="incremental">
+<li><a href="http://supybot.aperio.fr/doc/use/install.html">Limnoria's install/upgrade guide</a>
+<ul class="incremental">
+<li><a href="http://limnoria-doc.readthedocs.org/en/latest/use/install.html">Mirror</a> #### WeeChat</li>
+</ul></li>
+</ul>
 <p>I recommend you to <code>/script install iset.pl</code> for easier configuring when you aren't following this.</p>
 <p>Put the .pem file somewhere where your WeeChat can access it, preferably <code>~/.weechat</code> or whenever your &quot;WeeChat home&quot; is and run the following commands in WeeChat:</p>
 <pre><code>/set irc.server_default.ssl_cert %h/YOURNICKNAMEHERE.pem&quot;
@@ -159,6 +163,17 @@ cp YOURNICKNAMEHERE.pem %appdata%\hexchat\certs\client.pem</code></pre>
 <h4 id="znc-1">ZNC</h4>
 <p>Please read the both parts as you must add the certificate in webadmin or read ZNC documentation on how to add it manually.</p>
 <h5 id="webadmin">Webadmin</h5>
+<p>If you don't have webadmin loaded you have two options:</p>
+<ul class="incremental">
+<li>As admin (recommended): <code>/msg *status loadmod --type=global webadmin</code>
+<ul class="incremental">
+<li>Allows everyone to login to webadmin.</li>
+</ul></li>
+<li>As normal user (only if you aren't admin) <code>/msg *status loadmod -type=user webadmin</code>
+<ul class="incremental">
+<li>Allows only you to login to webadmin and you will get questions on why users cannot login there and you must either load it globally or tell them to do this and both just cause confusion.</li>
+</ul></li>
+</ul>
 <p>First login to your webadmin and if you are admin, go to the global settings. Check the checkbox <code>certauth</code>, scroll down and press &quot;Save&quot;.</p>
 <p>Then go to your settings and check the checkbox <code>cert</code>. You might also want to check the checkbox for <code>sasl</code> and <code>perform</code>. Scroll down and click &quot;Save and return&quot;.</p>
 <p>Now you should see <code>certauth</code> in global modules where you can specify the fingerprint of the pem file and your IRC client should be able to login to ZNC with it.</p>
@@ -166,33 +181,34 @@ cp YOURNICKNAMEHERE.pem %appdata%\hexchat\certs\client.pem</code></pre>
 <h5 id="irc">IRC</h5>
 <pre><code>/znc loadmod --type=global certauth
 /znc loadmod --type=user cert
+/znc loadmod --type=network perform
 /znc loadmod --type=user perform
 /znc loadmod --type=network sasl</code></pre>
 <p>This is everything that was done above except adding the certificate which you should do in the webadmin (see the two last paragraphs under webadmin on this page).</p>
 <h3 id="telling-nickserv-about-your-key">Telling NickServ about your key</h3>
 <p>NickServ wants to know the fingerprint which you can get with the following command:</p>
 <pre><code>openssl x509 -sha1 -noout -fingerprint -in YOURNICKNAMEHERE.pem | sed -e &#39;s/^.*=//;s/://g;y/ABCDEF/abcdef/&#39;</code></pre>
-<p>which returns your fingerprint (<strong>WHICH YOU MUST NOT SHARE WITH ANYONE</strong>)</p>
+<p>which returns your fingerprint (which is the only thing required to add your key to services database, but some networks show this in whois).</p>
 <pre><code>05dd01fedc1b821b796d0d785160f03e32f53fa8</code></pre>
 <p>Now you can tell to NickServ about it.</p>
 <pre><code>/msg NickServ CERT ADD 05dd01fedc1b821b796d0d785160f03e32f53fa8</code></pre>
 <p>(replace that with your own fingerprint!) And nickerv replies to you</p>
-<pre><code>14:13:39 -- NickServ: Added fingerprint 05dd01fedc1b821b796d0d785160f03e32f53fa8 to your fingerprint list.</code></pre>
+<pre><code>NickServ: Added fingerprint 05dd01fedc1b821b796d0d785160f03e32f53fa8 to your fingerprint list.</code></pre>
 <h3 id="testing">Testing</h3>
 <p>Now when you connect to freenode and have configured your IRC client to use your new certificate, you should get identified automatically and you should see your certificate by whoising yourself and running cert list with NickServ.</p>
 <pre><code>/WHOIS YOURNICK YOURNICK
 /MSG NickServ CERT LIST</code></pre>
 <p>replies</p>
 <pre><code>&lt;...&gt;
-XX:XX:XX -- [YOURNICK] has client certificate fingerprint 05dd01fedc1b821b796d0d785160f03e32f53fa8
+[YOURNICK] has client certificate fingerprint 05dd01fedc1b821b796d0d785160f03e32f53fa8
 &lt;...&gt;
-XX:XX:XX -- NickServ: Fingerprint list for YOURNICK:
-XX:XX:XX -- NickServ: - 05dd01fedc1b821b796d0d785160f03e32f53fa8$$
-XX:XX:XX -- NickServ: End of YOURNICK fingerprint list.</code></pre>
+NickServ: Fingerprint list for YOURNICK:
+NickServ: - 05dd01fedc1b821b796d0d785160f03e32f53fa8$$
+NickServ: End of YOURNICK fingerprint list.</code></pre>
 <h3 id="notes">Notes</h3>
 <ul class="incremental">
 <li>You must recreate your certificate as specified by the <code>-days</code> part in the openssl command.</li>
-<li>This will identify you with immediately so you are still visible to /monitor.</li>
+<li>This won't identify you immediately so you are still visible to /monitor.</li>
 <li>This will identify you after services return unlike other methods if you happen to be on splitted server without services.</li>
 <li>Supported networks which I am on:
 <ul class="incremental">
