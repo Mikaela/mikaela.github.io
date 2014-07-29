@@ -29,12 +29,16 @@ Photos of me which other people have took.
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/pfCvJ/embed"></iframe>
 <hr/>
 
+<!--
+
 ### PGP
 
 Me holding my PGP key fingerprints (to verify I own them for people who 
 require photo authentication).
 
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/N8Kwa/embed"></iframe>
+
+-->
 
 <hr/>
 
