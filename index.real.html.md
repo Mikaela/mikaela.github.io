@@ -11,21 +11,24 @@
 </head>
 <body>
 
-***#Trans woman ( #GirlsLikeUs ), #AS-person, #Feminist & #Linux user since 2008 with various distributions, likes #computers and #fantasy books.(Pronouns she/her)***
+***#GirlsLikeUs, #AS-person, #Feminist & #Linux user since 2008 with various distributions, likes #computers and #fantasy books. (Preferred pronouns: she/her/hers)***
 
 
 
 Welcome. This is my homepage doesn't mostly contain anything else than 
 links elsewhere which you can see in the sidebar.
 
+<!--
+
 * BitCoin: [1B9UengEXobBLeCRCMzVKiZZX11a8SRnaf](bitcoin:1B9UengEXobBLeCRCMzVKiZZX11a8SRnaf)
 * DogeCoin: [DHVB1rRedX6XEMZAi6hmUvWR1VUQsE2pXK](dogecoin:DHVB1rRedX6XEMZAi6hmUvWR1VUQsE2pXK)
+
+-->
 
 <hr/>
 **PGP/GPG**: 2910 4A46 C561 5BF9 78A0  83F2 **0C20 7F07** [***B2F3 2B67***](PGP/0xB2F32B67.txt)
 <hr/>
-<hr/>
-[Source: https://github.com/Mkaysi/mkaysi.github.io.git](https://github.com/Mkaysi/mkaysi.github.io)
+[Git repository of this website](https://github.com/Mkaysi/mkaysi.github.io)
 <hr/>
 </body>
 <script>
