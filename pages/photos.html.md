@@ -25,14 +25,15 @@
 
 ## Me
 
-### Selfies
+### [Selfies](https://imgur.com/a/8b4EY)
 
 Photos of me that I took by myself.
 
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/8b4EY/embed"></iframe>
 
 <hr/>
-### Taken by others
+
+### [Taken by others](https://imgur.com/a/pfCvJ)
 
 Photos of me which other people have took.
 
@@ -41,7 +42,7 @@ Photos of me which other people have took.
 
 <!--
 
-### PGP
+### [PGP](https://imgur.com/a/N8Kwa)
 
 Me holding my PGP key fingerprints (to verify I own them for people who 
 require photo authentication).
@@ -52,7 +53,7 @@ require photo authentication).
 
 <hr/>
 
-### Accessories
+### [Accessories](https://imgur.com/a/XqFg6)
 
 Things that I wear etc.
 
