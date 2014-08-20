@@ -43,7 +43,7 @@ if($md5email != "d41d8cd98f00b204e9800998ecf8427e") {
 echo "<p>md5<br> $md5email</p>";
 
 echo "<p>Link<br>";
-$gravatar = "https://gravatar.com/avatar/$md5email?s=$size.jpeg";
+$gravatar = "https://gravatar.com/avatar/$md5email?s=$size";
 echo "$gravatar</p>";
 echo "<p>";
 echo "<img src=$gravatar>";
