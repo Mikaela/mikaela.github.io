@@ -3,12 +3,10 @@
 <head>
 <meta charset="UTF-8" />
 <!-- <meta http-equiv="refresh" content="60" /> -->
-<meta name="description" content="This page contains most of my imgur albums.." />
 <meta name="keywords" content="" />
 <meta name="author" content="Mikaela Suomalainen" />
 <link rel="canonical" href="https://mkaysi.github.io/pages/photos.html">
-<title>Photo albums that are embedded from my imgur account.</title>
-<link rel="stylesheet" type="text/css" href="../css.css" />
+<title>pages/photos.html</title>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,29 +21,15 @@
 <body>
 <hr/>
 
-## Me
-
-### [Selfies](https://imgur.com/a/8b4EY)
-
-Photos of me that I took by myself.
-
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/8b4EY/embed"></iframe>
 
 <hr/>
 
-### [Taken by others](https://imgur.com/a/pfCvJ)
-
-Photos of me which other people have took.
-
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/pfCvJ/embed"></iframe>
+
 <hr/>
 
 <!--
-
-### [PGP](https://imgur.com/a/N8Kwa)
-
-Me holding my PGP key fingerprints (to verify I own them for people who 
-require photo authentication).
 
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/N8Kwa/embed"></iframe>
 
@@ -53,21 +37,11 @@ require photo authentication).
 
 <hr/>
 
-### [Accessories](https://imgur.com/a/XqFg6)
-
-Things that I wear etc.
-
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/XqFg6/embed"></iframe>
 
 <hr/>
-## Others
-
-Everyone and everything else than me. I ask for permission before 
-uploading.
 
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/XCV8k/embed"></iframe>
-
-For more photos of Tessu (the dog), see [Tessu album at Facebook.](https://www.facebook.com/mikaelahmsuomalainen/media_set?set=a.651823544912462.100002544672061&type=3)
 
 <hr/>
 </body>
