@@ -101,8 +101,6 @@ connection is `Ciblia` or `TDA_Anima` (The Dark Aeon Anima, do you know
 Final Fantasy X?) depending on my mood. My primary channel is also at 
 freenode.
 
-[![##Mkaysi](https://kiwiirc.com/buttons/chat.freenode.net/%23Mikaela.png)](https://kiwiirc.com/client/chat.freenode.net:+6697/##Mikaela)
-
 <!--
 ### irccloud / irc.irccloud.com +6697
 
