@@ -25,6 +25,8 @@ be a little more interesting:
     * photos of mostly me.
 * [paste](https://paste.mikaela.info)
     * pastebin (ZeroBin)
+* [pastebin](https://pastebin.mikaela.info)
+    * pastebin (Stikked)
 * [wiki](https://wiki.mikaela.info)
     * Wikitten which contains most of information that used to be herel
 
