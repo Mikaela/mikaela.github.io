@@ -24,12 +24,13 @@ be a little more interesting:
 * [gallery](https://gallery.mikaela.info)
     * photos of mostly me.
 * [paste](https://paste.mikaela.info)
-    * pastebin (ZeroBin)
-* [pastebin](https://pastebin.mikaela.info)
     * pastebin (Stikked)
 * [wiki](https://wiki.mikaela.info)
     * Wikitten which contains most of information that used to be herel
+* [zero](https://zero.mikaela.info)
+    * pastebin (ZeroBin)
 
+*paste & zero can also be accessed with pastebin & zerobin!*
 </body>
 </html>
 <!-- vim : set ft=markdown-->
