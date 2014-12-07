@@ -19,7 +19,7 @@ be a little more interesting:
 
 * [bot](https://bot.mikaela.info)
     * web interface of my primary IRC bot
-* [bot2](https://bot.mikaela.info)
+* [bot2](https://bot2.mikaela.info)
     * web interface of my secondary IRC bot
 * [gallery](https://gallery.mikaela.info)
     * photos of mostly me.
