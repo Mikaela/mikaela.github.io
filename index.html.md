@@ -17,6 +17,8 @@ various distributions, likes #computers and #fantasy books.***
 mikaela.info contains nothing interesting, but the following subdomains can
 be a little more interesting:
 
+* [www](https://www.mikaela.info/) / [tor.onion](http://x25kqpwrh6ztytlw.onion)
+    * reverse proxy to this page
 * [bot](https://bot.mikaela.info) / [tor.onion](http://mjltqllkii2pbosu.onion)
     * web interface of my primary IRC bot
 * [bot2](https://bot2.mikaela.info) / [tor.onion](http://l3kyuvv3ezxzguld.onion)
