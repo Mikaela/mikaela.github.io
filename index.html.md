@@ -17,8 +17,6 @@ various distributions, likes #computers and #fantasy books.***
 mikaela.info contains nothing interesting, but the following subdomains can
 be a little more interesting:
 
-* [www](https://www.mikaela.info/) / [tor.onion](http://x25kqpwrh6ztytlw.onion)
-    * reverse proxy to this page
 * [bot](https://bot.mikaela.info) / [tor.onion](http://mjltqllkii2pbosu.onion)
     * web interface of my primary IRC bot
 * [bot2](https://bot2.mikaela.info) / [tor.onion](http://l3kyuvv3ezxzguld.onion)
@@ -29,6 +27,8 @@ be a little more interesting:
     * pastebin (Stikked)
 * [wiki](https://wiki.mikaela.info) / [tor.onion](http://np32q5bveyvuv4fv.onion)
     * Wikitten which contains most of information that used to be herel
+* [www](https://www.mikaela.info/) / [tor.onion](http://x25kqpwrh6ztytlw.onion)
+    * reverse proxy to this page
 * [zero](https://zero.mikaela.info) / [tor.onion](http://vjplyzqvgu4vw6ll.onion)
     * pastebin (ZeroBin)
 
