@@ -4,99 +4,7 @@ https://keybase.io/mikaela
 
 I hereby claim:
 
-  * I am an admin of https://mkaysi.github.io
-  * I am mikaela (https://keybase.io/mikaela) on keybase.
-  * I have a public key with fingerprint 2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67
-
-To claim this, I am signing this object:
-
-{
-    "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.4.0"
-        },
-        "key": {
-            "fingerprint": "29104a46c5615bf978a083f20c207f07b2f32b67",
-            "host": "keybase.io",
-            "key_id": "0C207F07B2F32B67",
-            "uid": "f6592c0e050967553c04b4e5f475da00",
-            "username": "mikaela"
-        },
-        "merkle_root": {
-            "ctime": 1401134212,
-            "hash": "8afa4e2cd6f39a65a4a5049f2d2e2ec26eceeef94132ba6218ddc19e53d8997afede203e9fdbc91ef7b8be4336c264d208e1036e4d19b7fe6e9b1ebfaca7362d",
-            "seqno": 12084
-        },
-        "service": {
-            "hostname": "mkaysi.github.io",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
-    },
-    "ctime": 1401134236,
-    "expire_in": 157680000,
-    "prev": "4d8b0e93aeda0160b6ada43e09713a93f23575ad210d7eeef74b55c92ec9cbda",
-    "seqno": 4,
-    "tag": "signature"
-}
-
-with the aforementioned key, yielding the PGP signature:
-
------BEGIN PGP MESSAGE-----
-Version: GnuPG v1
-Comment: Homepage: http://mkaysi.github.io/
-Comment: Public key: http://mkaysi.github.io/PGP/0xB2F32B67.txt
-Comment: gpg --fetch-keys http://mkaysi.github.io/PGP/0xB2F32B67.txt
-Comment: Fingerprint = 2910 4A46 C561 5BF9 78A0 83F2 0C20 7F07 B2F3 2B67
-
-owNCWmg2MUFZJlNZaljNMAAB/P//////3v7///37//3/////////f/8d+/////+/
-77f+H99QAyvPCz3Rx4BlAnkI2iZlMT0BqabKYAAZRoZDTPVMmGhMNT1GAAABG0Qw
-CBmk9Rpsk09AJmpkzQj0am1DTZDSeITCaZpkwU/VDo0aAAA0A0NDQAAGhkAGgAAA
-DQAAAABpk0AAAAANAAAAAAaABoA0EUh6Kn5FP0KbNTU3kgTNR6npGIw0TEDQekMJ
-oyNAAxGmAJhBkNNMTTTAjQ0YmCYE9TJkGTQ00NGmJgTEYCMgIqn6ankaZJtU0/UJ
-qbSAMgNGhoAADTQNAaAYmRkyAADINAADQ00AMgMjQAaDTTQ00DQ0NAAAA1MkEo3p
-k0SfqgBoD1MQANNABpkABpoaADTQBo0PUaAAGmmgAABoGmTEGgAB6gGgA0AaNAXm
-HkFnYkkDhr03lzJe2ZGdF2lsMNFcMkxvfkAVxDMXFhwPjWhl5xQFn8Z7hkttOpO3
-ChE1RneTMQKQP3CB8u8hPS8yYc7mbUih50+kTbmEHjmQB8chAaLLAAwYVM1SIyqB
-MrqbOFTM1lUg6Jgg6Bv1SUPbokgwZgjMECIGaAZBBO2jW2nJ2WRjpOW+WCmnDfQz
-WSdqz2prk1SC3d/fy0C8JIr+aDz5GAsOswkKCRcm1kDQGWeCmGQHo25ha4I1RJ0S
-4gXId27IyzA3djTFSArEkwWocAcpa8j1NHmjWdDnWGGy7ElsaxAgprHCBydhgw3D
-cGRCBA6BR1FIZ6DBHzj38R4/MBDgl+DR7GIYmyKeEUmH8bgyjMsPnKWgIsusvQBt
-VylOODdDRCKQNd8Jo3BfpAx0DaZET0wQLCKws0wYSzTzVbVskB44yT1tl0CaqMKs
-w6J8l4gIjSCPsSB7t1Bk/PdqWpWnAPNys+aAYsQCBH+f6hvYSO/QPy2kVZ5RfI5p
-kvRlV8NnTabds6JUBfVQg2wCs328MJja8gTRkKjhZCgJGpcQqAaQllIBmJbAdpi5
-ICAaCkMKXAJgKEii1+LS5sBNxjs9bEDFhEnyFuv7Wrwdv2XRGwpFALtgITKJmA04
-piId33MOQlFqSTxyFAuYoE1zAkvPN5YQFKGiegy4dpdESlyxe6+p6ktdW7fkoevA
-dgQOtnkAQpSNAnMMY1Ik5Qio8stsv3ksCTUSoo0bRHh2QE4GHnB2A+CRnbABfw0q
-BIYGlTDtBWkGNwEx8lCgI4MbKPOoI3R0YKGUk5mScjAHaOsxVjMC1zVgOqKAc3VK
-9OmGJBrVqvasI6C81KoAMEu82Tksa2gFQyIEI31wyRHhIjjBxtaLf9GVCjzRDiSp
-hwzaoYvIaNZ/GwXqpQj30vBSw7NbCgrxmgSp1MQgXJZLKXYbDYfmeG9izLgXXfOM
-L8Dl19VRYv5TsykNhSiT01o6ynYCRTWuum16qz8/OoGkg/uLbF+KiKK5lmFX4eDg
-ety6Uhd7MPhq9H7c3cPmYxgDrWCQmHDAYExBiMGifpvsZZtmTmoCcSi1iwGqHyDx
-FoefzKFLP1Ev0UKqLW0ZDPhdjvdkB3AaiR7dNp/LhtD4WsA9gitvUdwPzQqdND/a
-zKeyL0VPpAOxrE32+Rp8hT6wlR4ynBN6V2UyFHyG8HLtfAJHJdAXueG8qxhMaPHa
-P8fJHREgZVHtFIQjwGbQqmXHcwgVJjlvf72bKCo3VUDnHMvJUI0PSatAzk+cmU8S
-hhpuLSy6x205WEEsAibJEZIQDIMd6Dwnrm3Wf6fwzp+NVzyuTK5NeXC0AEmOIdae
-0NGlQQoLERfhd37M+jQQtWcg/+LuSKcKEg1LGaYA
-=qb/h
------END PGP MESSAGE-----
-
-And finally, I am proving ownership of this host by posting or
-appending to this document.
-
-View my publicly-auditable identity here: https://keybase.io/mikaela
-
-==================================================================
-
-==================================================================
-https://keybase.io/mikaela
---------------------------------------------------------------------
-
-I hereby claim:
-
-  * I am an admin of http://mikaela.info
+  * I am an admin of https://mikaela.github.io
   * I am mikaela (https://keybase.io/mikaela) on keybase.
   * I have a public key with fingerprint 2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67
 
@@ -112,54 +20,53 @@ To claim this, I am signing this object:
             "username": "mikaela"
         },
         "service": {
-            "hostname": "mikaela.info",
-            "protocol": "http:"
+            "hostname": "mikaela.github.io",
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1405100846,
+    "ctime": 1418645509,
     "expire_in": 157680000,
-    "prev": "a7146bc5fde3ccd3bc23c2455b6f5d387093d70e3de598819d68285411d97898",
-    "seqno": 22,
+    "prev": "399db893511c4b626adb9e041bdd7254995b9a8b21c661969e161d073c489855",
+    "seqno": 37,
     "tag": "signature"
 }
 
 with the aforementioned key, yielding the PGP signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG v2.0.22 (GNU/Linux)
-Comment: Homepage: https://mkaysi.github.io/
-Comment: Public key: https://mkaysi.github.io/PGP/0xB2F32B67.txt
-Comment: gpg --fetch-keys https://mkaysi.github.io/PGP/0xB2F32B67.txt
+Version: GnuPG v2
+Comment: Homepage: http://mikaela.info/
+Comment: Public key: http://mikaela.info/PGP/0xB2F32B67.txt
+Comment: gpg --fetch-keys http://mikaela.info/PGP/0xB2F32B67.txt
 Comment: Fingerprint = 2910 4A46 C561 5BF9 78A0 83F2 0C20 7F07 B2F3 2B67
 
-owNCWmg2MUFZJlNZ1slI2wABeP///////3/f//37/929v//////727//ff//3/+/
-/3///v/AApXUWwsoMhIaBhpB4pp6aj00jTanlNpMmyDSeo9TQ00GT9U0eoaDGowJ
-pp6nogNAepoYjQbTUe1Q09NING1DCMm9EnqejU0xNpPagymhoeh6aZUKqn6U8E1N
-NpqaaegmEyGRtJ6AanqNNM0TNEejSaaZpoj1MBpoJ6h5RmpmoyNMAEzQAT00npqZ
-G0aTEwmmhgNCMJgGpo0xqPUQAAaGgA0AAAABpoABoAAAAAAA0ANGgAANAAAAAMmR
-oAAAAAaGgAapk000KZqepjRT1MnkjQBoyDRoAAB6jT1DQaAAGho0AaaAADIGgAAB
-oAAAaDQAABpoaAADjBBIiYEiO+ReJ415Rp4fy+SmbnwfHDkqqHQAt0n0qWFmGAmE
-SDdTCW2GJUsL81IJevlkiOJGxXFe5mfhwRgUBjeLE6Bq79IcQJUrjE+X2Oj2rK7U
-BuoxxKgTwDeLpMdqRMlhwpEaSesRZ1PTg5BqgxsEyLQ5kFKUhSFKkQAhEgQ1SUDi
-4UDHHjmzm/yJ3bOKZJcyKjAygGKE5ZZ2m5wCYmA9KiZQknWzwWlNkBgw6ShJGEF0
-SS4ZCEOtMaJWNPeusq5KIq6pHzTSf9cuA0YoOzOCIygVEmGV3hyLT+85kShB03zF
-Fy34ZIFkNvXbD1pVO7OEKKtfldZVwHazw4M5pGRRpndmVYXEUBCKoghg3OPzsidU
-XVDhpgz1VzFhIT5MkSLDr0UhLzI5qtZ2fMO6mGOLCotrjucy4KhYytlchUAbU/+l
-NsOseswtQ4xpcbPejqxA6ClD5e6+P79dH3CCWYT8g4bGplnH7WPziZ0J0PAfSrQ9
-UgD58AsJYXCsoLlJOWYd1UrjMmotDDKaC4RY1poBlWChQ0qe7mlU21oMsJUi8h2Y
-qAQj+8HP2pYIEhNFCjdOSw2zqscG4ApUBaAmV/CI0W4b00b97YhLStiozD6CI8zX
-NjahGJojpqgl5f49e/vQ8Sj60L3uIIOcEO03VDAUJA8gKPo9ShC1dOSUcGI1L6yj
-prEYDkIA7QoSNIu8HldQVHRVIp0weYomlAcUFITfE4K6C0Da9/hCfMEQCAoW4R1u
-OaUyiqHgC/Bzyy9WdYMA4TKdM6BAkQxsgQ+yisVnnJNubN2jeAUo6JiVkrC+6V4o
-88D7J2PmvHphPqFuN1lnhTXFrxoWLQluihW3Km+yQIf4sAjlsVhBQdjlIGFtVQyx
-KV+1vZJbTiNchIEiz76Lhe7AAZSjF01dhY7GIqXLILkUnU00zkD1WkiRqYjr/5yN
-gn/YaOkA/KMqVG3EquoeJ1/pM95WreRfVYP3DXdDyOZ9em9BkY0d49RWHlDbokVv
-JY0FwcCEqHxbH1RBkX+1cZE4kE8pRxGirJfF6WT/01R2cQMkBaTdOq1isw7+naPL
-jNDxtIzl09gmg/5kxV8LHAUtGhP9Z5dU927Ul8EYeVPEOhDtrQsgTZH/F3JFOFCQ
-1slI2w==
-=zRkq
+owNCWmg2MUFZJlNZbm3QuQABhH/////79/ft//3f3+//v/////5vf777+3f+/9tv
+v349/d/AApODbBjQqmoHqm0mGpgTNT0j9KZMNBoTR6JjUYIYmEwAAJ6Tyh6gDR6I
+yHqNM0yT1AxD1PU9BPTRoAnqemgJptExD9TQwaNUMpoaNNBoNAADQDQABoGgBoDR
+oAaADQGgAZANND1AAAaDQGgAAAANAABoEABoaAAMgABoGg0MhoAABoGgMg0ANGQA
+ZDQDQGgAGQAA0AGgABoGmjQCKeiaJptTEmmJkxT0mBNqeoyBoaGgNDagNNHqaGmg
+GmgZAAaBoyBoANANBoA0aGTEDQA0Bo00AD0OFRBC9ChVIMdm4t2KiDKXLdQrcLld
+9Ga06AbTsTGyZkSVAOeLInq1iggVH2sjD5fMBi3jqba6pvATuABJkL9oskYROacW
+QgbRsH+pjsBKbLGT+TS2bkB64QZWTCGWlG29vRnp6cCulszJRufqAoSTk26QpuBw
+iVBd0CQhvgVkija1NEByEEgkIgIAIoAJr6SqoJ2f9NJ17WwrbfzfcJW2s+lD2cAL
+2IFjhIh2ZV07zk5+EaeTQINKnNcklzmQwwMpQCMJzzc0iF2VoCC0ZlMilXd2bOC7
+h2zYpgYMFHV1agGYZWzB4rvvn7l5ZNni7c6QEiSgVvGli14tqos/WcFM9qoB00mD
+tTlBVUVllAYjIgqLRPvGADpERWOyPEs02hF1EVFUVFlQwuDKNSYCACgRAh8nnNvs
+Fel5/pPwAR+pyMB2lTLiWllzPGTB9rcBLH0VAbRQ9XaFDBTowNl+9FXnHEmBKHQc
+2PUQg0VcNXF16rc6oa3ulobwqcE8qU41AEgiOGFgXHHQoUJ9CrwotIBx/Oq/chPt
+HwLBDBiGOlcOYZuNdI9SdAiTkbAFU7SsRAyx3kw7dqzDayDEDl9PjVW4ujG8MuuD
+INZrSAlFSCH+dvwevgdJ812R79PRvXzYa1JGZp5riqoSla6CTg3d5HAmaJuWhuDY
+GUjGalwDVCBt4AWLwEkgFI7Vmih5JcknkSA/7DJxBNVgeBXy1nEGFnBcW+Mqe3Hr
+vgTEQDwEbvGiYxwrvQSjEVXJTRDlVPh0iJTDk2pGgDri0NZYlgCCnz1fw1FKgIeZ
+bS4lMBAk06vWzwXpcRtlzPWfOR20GzVnqJSP+Q9IpPxjD7/Znib2n0Zx3JowLC5s
+2L59OcaVre4ZbXPMNVSgzoTs/rj1TjIC78MyY/CIiePTFX0wddW9GaQoU5HdZdgb
+2Q1nefXqqrC2XMX2lPYiT9wQhQ1Mr0vfkQUpOnR1yhPA60oNbOeFsKC0ICS2n1J/
+XtwF8tmc4jm5UcBIAmm12s0/UlO6hTSL9w0jzH6Ikc4H8RoT5HinEOCZi23BrBmI
+qBg8jdMipiuhuaJgcTS8AfGWa+3IWIxvyZRxgSaX8Jw447ehHKoWgVpsJu70DReq
+MQAWpUl5ccLnDrRy4qY4VJanl/4u5IpwoSDc26Fy
+=0TtL
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
