@@ -6,7 +6,7 @@
 <!-- <meta name="description" content="" /> -->
 <meta name="author" content="Mikaela Suomalainen" />
 <link rel="canonical" href="http://mikaela.info/index.html">
-<title>Index</title>
+<title>Mikaela Suomalainen</title>
 <link rel="stylesheet" type="text/css" href="css.css" />
 </head>
 <body>
