@@ -23,6 +23,10 @@ be a little more interesting:
     * web interface of my secondary IRC bot
 * [paste](https://paste.mikaela.info) / [tor.onion](http://7oup7vkdk4cecwnr.onion)
     * pastebin (Stikked)
+* [sypybot](http://supybot.mikaela.info)
+    * Some information on Supybot.
+* [tumblr](http://tumblr.mikaela.info)
+    * My Tumblr which is a little inactive…
 * [wiki](https://wiki.mikaela.info) / [tor.onion](http://np32q5bveyvuv4fv.onion)
     * ~~Wikitten~~ Sphinx which contains most of information that used to
       be here.
