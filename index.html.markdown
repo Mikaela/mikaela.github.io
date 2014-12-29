@@ -11,6 +11,8 @@
 </head>
 <body>
 
+* * * * *
+
 ***#GirlsLikeUs, #AS-person, #Feminist & #Linux user since 2008 with
 various distributions, likes #computers and #fantasy books.***
 
@@ -36,5 +38,8 @@ be a little more interesting:
     * pastebin (ZeroBin)
 
 *paste & zero can also be accessed with pastebin & zerobin!*
+
+* * * * *
+
 </body>
 </html>
