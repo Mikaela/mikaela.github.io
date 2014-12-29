@@ -1,0 +1,7 @@
+language: ruby
+sudo: false
+script: "bundle exec jekyll build"
+notifications:
+    email: false
+matrix:
+    fast_finish: true
