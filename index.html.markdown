@@ -19,6 +19,8 @@ various distributions, likes #computers and #fantasy books.***
 This page is not very interesting, but the following two tables on
 *subdomains* and *off-domain links* can be a little more interesting.
 
+* * * * *
+
 | subdomain | onion | description |
 |:----------|:-----:|:------------|
 | [bot](https://bot.mikaela.info) | [Tor HS](http://mjltqllkii2pbosu.onion) | web interface of my primary IRC bot |
@@ -30,7 +32,21 @@ This page is not very interesting, but the following two tables on
 | [www](https://www.mikaela.info/) | [Tor HS](http://x25kqpwrh6ztytlw.onion) | reverse proxy to this page |
 | [zero](https://zero.mikaela.info) | [Tor HS](http://vjplyzqvgu4vw6ll.onion) | pastebin (ZeroBin)
 
-*The second table is coming soon! :)*
+* * * * *
+
+*This table just links to static content or places where I am even a little
+active.*
+
+| site | notes |
+|:----:|:------|
+| [Facebook](https://facebook.com/mikaelahmsuomalainen) | I only accept friend requests from people I know. If we know each other, please send message telling me about it including something like IRC nick, channel and network. |
+| [GitHub](https://github.com/Mikaela) | I used to have different account which is currently organization including forks where I don't contribute so actively. |
+| [Keybase](http://keybase.io/Mikaela) |   |
+| [Launchpad](https://launchpad.net/~mikaela) |   |
+| [LinkedIn](https://fi.linkedin.com/in/ciblia) | See Facebook |
+| [Open HUB](https://www.openhub.net/accounts/Mikaela) |   |
+| [Twitter](https://twitter.com/Mkaysi) | content mostly comes from Facebook |
+| [Ubuntu Wiki](https://wiki.ubuntu.com/mikaela)
 
 * * * * *
 
