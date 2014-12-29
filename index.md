@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8" />
-<meta name="description" content="Mikaela's homepage which is just link lists to subdomains and various internet accounts." />
-<meta name="author" content="Mikaela Suomalainen" />
-<link rel="canonical" href="http://mikaela.info/index.html">
-<title>Mikaela Suomalainen</title>
-<link rel="stylesheet" type="text/css" href="css.css" />
-</head>
-<body>
-
-* * * * *
+---
+layout: page
+title: Index
+permalink: /index/
+---
 
 ***[#GirlsLikeUs], [#AS]-person, [#Feminist] & [#Linux] user since 2008
 with various distributions, likes [#computers] and [#fantasy] books.***

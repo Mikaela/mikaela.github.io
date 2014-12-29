@@ -1,0 +1,16 @@
+# Site settings
+title: Mikaela Suomalainen
+description: > # this means to ignore newlines until "baseurl:"
+    Mikaela's homepage which is just link lists to subdomains and various internet accounts.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mikaela.info" # the base hostname & protocol for your site
+twitter_username: Mkaysi
+github_username:  Mikaela
+
+# Build settings
+markdown: kramdown
+input: GFM
+
+# Custom settings
+timezone: Europe/Helsinki
+encoding: utf-8
