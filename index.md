@@ -1,8 +1,7 @@
 ---
-layout: page
-title: Index
-permalink: /index/
+layout: default
 ---
+
 
 ***[#GirlsLikeUs], [#AS]-person, [#Feminist] & [#Linux] user since 2008
 with various distributions, likes [#computers] and [#fantasy] books.***
@@ -47,6 +46,3 @@ active.*
 | [Ubuntu Wiki](https://wiki.ubuntu.com/mikaela)
 
 * * * * *
-
-</body>
-</html>
