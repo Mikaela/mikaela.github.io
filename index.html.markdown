@@ -2,8 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<!-- <meta http-equiv="refresh" content="60" /> -->
-<!-- <meta name="description" content="" /> -->
+<meta name="description" content="Mikaela's homepage which is just link lists to subdomains and various internet accounts." />
 <meta name="author" content="Mikaela Suomalainen" />
 <link rel="canonical" href="http://mikaela.info/index.html">
 <title>Mikaela Suomalainen</title>
