@@ -28,7 +28,7 @@ This page is not very interesting, but the following two tables on
 * * * * *
 
 | subdomain | onion | description |
-|:----------|:-----:|:------------|
+|-----------|-------|-------------|
 | [bot](https://bot.mikaela.info) | [Tor HS](http://mjltqllkii2pbosu.onion) | web interface of my primary IRC bot |
 | [bot2](https://bot2.mikaela.info) | [Tor HS](http://l3kyuvv3ezxzguld.onion) | web interface of my secondary IRC bot |
 | [paste](https://paste.mikaela.info) | [Tor HS](http://7oup7vkdk4cecwnr.onion) | pastebin (Stikked) |
@@ -44,7 +44,7 @@ This page is not very interesting, but the following two tables on
 active.*
 
 | site | notes |
-|:----:|:------|
+|------|-------|
 | [Facebook](https://facebook.com/mikaelahmsuomalainen) | I only accept friend requests from people I know. If we know each other, please send message telling me about it including something like IRC nick, channel and network. |
 | [GitHub](https://github.com/Mikaela) | I used to have different account which is currently organization including forks where I don't contribute so actively. |
 | [Keybase](http://keybase.io/Mikaela) |   |
