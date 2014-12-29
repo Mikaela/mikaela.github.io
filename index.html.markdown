@@ -16,8 +16,8 @@
 ***#GirlsLikeUs, #AS-person, #Feminist & #Linux user since 2008 with
 various distributions, likes #computers and #fantasy books.***
 
-mikaela.info contains nothing interesting, but the following subdomains can
-be a little more interesting:
+This page is not very interesting, but the following two tables on
+*subdomains* and *off-domain links* can be a little more interesting.
 
 * [bot](https://bot.mikaela.info) / [tor.onion](http://mjltqllkii2pbosu.onion)
     * web interface of my primary IRC bot
