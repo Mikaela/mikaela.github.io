@@ -21,4 +21,4 @@ gems:
     - jekyll-sitemap
 sitemap:
     file: "/sitemap.xml"
-exclude: [PGP, PHP, keybase.txt]
+include: [PGP, PHP, keybase.txt]
