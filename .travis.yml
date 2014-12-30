@@ -1,6 +1,6 @@
 language: ruby
 sudo: false
-script: "set -e && bundle exec jekyll build && bundle exec htmlproof ./_site"
+script: "gem install github-pages jekyll-mentions jemoji jekyll-redirect-from jekyll-sitemap && set -e && bundle exec jekyll build && bundle exec htmlproof ./_site"
 rvm: 2.1
 notifications:
     email: false
