@@ -7,7 +7,8 @@ permalink: /links/
 * [Facebook](https://facebook.com/mikaelahmsuomalainen) 
     * I only accept friend requests from people I know. If we know each
       other, please send message telling me about it including something
-      like IRC nick, channel and network.
+      like IRC nick, channel and network. Follow button is available
+      for everyone though.
 * [GitHub](https://github.com/Mikaela)
     * I used to have different account which is currently organization
       including forks where I don't contribute so actively.
