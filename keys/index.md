@@ -27,9 +27,9 @@ trust as I still have met no one whom with to sign keys), but with your
 own responsibility\* you can verify the following DNS records:
 
 ```bash
-dig weechat-otr-key.mikaela.info TXT
-dig pgp.mikaela.info TXT
-dig gpg.mikaela.info TXT
+dig +short weechat-otr-key.mikaela.info TXT
+dig +short pgp.mikaela.info TXT
+dig +short gpg.mikaela.info TXT
 ```
 
 `pgp.` and `gpg.` should give you the same result.
