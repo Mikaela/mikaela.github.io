@@ -5,7 +5,7 @@ permalink: /subdomains/
 ---
 
 * [bot](https://bot.mikaela.info) / [Tor HS](http://mjltqllkii2pbosu.onion) 
-    *web interface of my primary IRC bot
+    * web interface of my primary IRC bot
 * [bot2](https://bot2.mikaela.info) / [Tor HS](http://l3kyuvv3ezxzguld.onion)
     * web interface of my secondary IRC bot
 * [paste](https://paste.mikaela.info) / [Tor HS](http://7oup7vkdk4cecwnr.onion)
