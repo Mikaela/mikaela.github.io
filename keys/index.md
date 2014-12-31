@@ -26,11 +26,11 @@ I should probably sign that table using PGP (but it wouldn't increase
 trust as I still have met no one whom with to sign keys), but with your
 own responsibility\* you can verify the following DNS records:
 
-<pre>
+```bash
 dig weechat-otr-key.mikaela.info TXT
 dig pgp.mikaela.info TXT
 dig gpg.mikaela.info TXT
-</pre>
+```
 
 `pgp.` and `gpg.` should give you the same result.
 
