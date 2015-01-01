@@ -76,3 +76,87 @@ View my publicly-auditable identity here: https://keybase.io/mikaela
 
 ==================================================================
 
+==================================================================
+https://keybase.io/mikaela
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mikaela.info
+  * I am mikaela (https://keybase.io/mikaela) on keybase.
+  * I have a public key with fingerprint 2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "29104a46c5615bf978a083f20c207f07b2f32b67",
+            "host": "keybase.io",
+            "key_id": "0c207f07b2f32b67",
+            "kid": "0101cc6e59604353632eb7ad3d6741065b235778b408982e49958a9fa75cedcb94dc0a",
+            "uid": "f6592c0e050967553c04b4e5f475da00",
+            "username": "mikaela"
+        },
+        "revoke": {
+            "sig_ids": [
+                "c3170f04358d6ac45dbdea2cc0330929a7d1d1ad5a4e7e51cd66fb6a97749cac0f"
+            ]
+        },
+        "service": {
+            "hostname": "mikaela.info",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1420133295,
+    "expire_in": 157680000,
+    "prev": "b88bee5ccbca956dc3bc11f9216ce123c7211e63af401b92375e25695e29905d",
+    "seqno": 41,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+Comment: Homepage: http://mikaela.info/
+Comment: Fingerprint = 2910 4A46 C561 5BF9 78A0 83F2 0C20 7F07 B2F3 2B67
+
+owNCWmg2MUFZJlNZA5xyaQABzn/////9f//////y//2//////+//979/+/f/+e//
++9/97/3AAvXHFu44zgdR6h6NTAh6ZJibRMjJpgTBDamMpppg0aExDRgCaG00aE9J
+mpp6nlNNoGphqbTUYAj9UG0E0NNHkE9JjImDRkaam9Q9UzJ6oVUyDRoAAABkAAAA
+aAAA0AZAAAAA0AAAAAAAAAAAAAAAGgAAEVPCGSeg0NTSjMkaAAAAAAAAAAAAAAAA
+AAAAAAAAAABoAAMgAAANU9CaJpoKZqPaU9T0aho8oaAANAaaGQAB6gAAA0NDQADR
+oAAA0eoaAAAyADQGgAAAGhoEQcjxj5JGGD6TEpb5J1Q9TJcYGgBGS5GgnPLHl8gB
+S74MC9KA9qmdODVS1kEtAp/pwnblF5wBMn9TKYbQXkZ7L0RVzReGSmVyIb++FnkW
+vEwIEeaoykGOsjZ2DQDB9j8c3cVJPc17UkU3ZnEtLqIGs1xtUeUCSGrDFc2KCKOb
+vJvIA5zEYjGIgSgMYygJV2Z0z1+JRcXR2/J8ueROSvMX1EX8i3MzClpI5FnSMpQz
+t3fCl3KF8iCCk22G0TjbzVROdm/nQFg3XmnlGwlkwrKzpkyVXCsIOlUUhYGhugxc
+JpCAeccwojupcGXEEAcCiGCzDQJAKgacUJQ1jEIpB0KfioBlxh5dYEnX825u6y5n
+0soSw2uMTxnhrEMyJ8RizMwRqKs+dD4CYZMUsVBXG6bgBgsUZxKM4dAhLpabAzow
+qWXQ2QsT7+t2SKn7Ndp6wwsZDpLKqULMrRmZMZWCooJYlAOBMxaxr/nOITJUL76W
+AWL+3pVl6Z0PArB5RrD4qE7TVcwjLkkoyhLE+gk1VPloI1FMv+OkXR431YdYN4tr
+T37s9Vj19bfiohaw8IFZ8tEvuZoBHSAQaUB2kWLRHNtDBQogZpAGjZAIwr/MSv3d
+ig2mtA8/LJfJJeJGt7XUP6pdgxmrrDJA6xZQxmJVcp0ti65xEyyPEQsReO2DLcdg
+I6IUyEOZ3dBehNS/azU2K4EMDrqVCYZjmvhYIQbCh5gYHCUeib/b8BQQBIdBqMzA
+7LQlkcoRhySCmsX8WIky0KVCST4QRVz0ifgyMcdeQd2A36jRDjQN6aGKPG9+mBdc
+RMRKoYjHtUQAwQpMeq1AkU7IMVb7L1/FSjxYp19IMwFSQRAZGgoInahR7ZuUMg5g
+C6P4cRL86Wn7KfBFnjpK5vdId2D+znoc0NEmXJq25I4c3m0TE+8voBSsWM3F7AEF
+hPt+1+D2TACUmhzhAEEm1WPkVpKDw31S7Dso5B6zTL4o26IzlJxTYdxqzKqsFCI3
+HtRyivRKr6q30bId7z2Ib+xzyzZIGDl+UbfjpTuw1ESAWPlqQcxIAxY+oUc2lkDm
+DiZYWjL6LO7pUgHwPEhG9r8EwSUBqCjCqyTYs5Fn0/WGpn5YJKoAp67iLx8JPP2V
+157T+QU0zMbfc8YUy/S8IVpMXX+L3aGvvTborGeiAR2cBFIJr84W320xv5vQCmf2
+UwKcOd/BZaQDzW+KNHiuCOdN2G5uLul6AdxNqBILE6qsAP/4H9ZSKmULNZ3ZCm/G
+gLQnpbemFwjcIzpGp32QT5rsNbtAiA+yYUU/d/4u5IpwoSAHOOTS
+=vq47
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mikaela
+
+==================================================================
+
