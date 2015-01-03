@@ -29,10 +29,7 @@ own responsibility\* you can verify the following DNS records:
 ```bash
 dig +short weechat-otr-key.mikaela.info TXT
 dig +short pgp.mikaela.info TXT
-dig +short gpg.mikaela.info TXT
 ```
-
-`pgp.` and `gpg.` should give you the same result.
 
 \* This site doesn't have DNSSEC (but you would be trusting ICANN) and
 cache of your DNS server can be poisoned to give wrong results and long
