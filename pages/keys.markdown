@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Keys
+title: Public keys
 permalink: /keys/
 ---
 
