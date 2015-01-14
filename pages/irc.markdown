@@ -8,7 +8,7 @@ I am on multiple IRC networks, but finding me should be easy. I am mostly using 
 Mikaela, Anima or Ciblia and I am on umode `-i`, so you should be able to find me easily with
 `/whois nick nick`. `/nickserv info nick` can also be helpful.
 
-To check that it's me, you can use OTR and check [my OTR key.](keys)
+To check that it's me, you can use OTR and check [my OTR key.](../keys)
 
 ## IRC. subdomain
 
