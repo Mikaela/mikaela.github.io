@@ -1,11 +1,13 @@
 # Site settings
-title: Mikaela's Jekyll
+title: Mikaela's website
 description: > # this means to ignore newlines until "baseurl:"
-    Insert good description here!
+    This site includes my blog, public keys and information on finding me
+	at IRC. There are also links to my different profiles and what possibly
+	more interesting subdomains there are.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mikaela.info" # the base hostname & protocol for your site
-#twitter_username: Mkaysi
-#github_username:  Mikaela
+twitter_username: Mkaysi
+github_username:  Mikaela
 
 # Build settings
 markdown: redcarpet
