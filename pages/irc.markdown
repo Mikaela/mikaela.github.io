@@ -26,5 +26,5 @@ going on and you should disconnect.
 *Note that this section is manually updated and might be missing some
 links.*
 
-* [Channels & Hostmask groups: A Basic howto]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %)
-* [Getting help from network operators when channel ops are away]({% post_url 2015-01-24-getting_help_with_channel_issues %)
+* [Channels & Hostmask groups: A Basic howto]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
+* [Getting help from network operators when channel ops are away]({% post_url 2015-01-24-getting_help_with_channel_issues %})
