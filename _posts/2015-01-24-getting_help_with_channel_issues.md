@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting help from network operators with channel issues when ops are away"
-category: [english, irc]
+category: [english]
 tags: [irc, english]
 ---
 

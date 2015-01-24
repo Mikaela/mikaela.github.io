@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Channels & Hostmask groups: A basic Howto"
-category: [english, irc]
+category: [english]
 tags: [irc, english]
 ---
 
