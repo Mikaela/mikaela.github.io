@@ -50,9 +50,13 @@ Some flags change their meaning if written with wrong case:
     * sync - sync the channel according to access list
     * clear - allows clearing akicks (+b flags), bans, flags, users
       (=kick everyone)
+* a - allows using protect/deprotect commands
+    * protect is sometimes also known as admin and is higher than op, but
+      lower than owner/founder. Combine with +O to make it automatic.
 
-So you don't want to accidentally confuse different letters. `+VHOR` aren't
-so dangerous and you can freely set them, but avoid confusing +r and +R.
+So you don't want to accidentally confuse different letters. `+VHO` aren't
+so dangerous and you can freely set them, but avoid confusing +r and +R and
+avoiding confusing +A and +a can also be a good idea.
 
 ## One last note
 
