@@ -31,7 +31,7 @@ The only thing that must be changed is `#channel`.
     * most of our alerts seem to be coming from opers who are accidentally
       using their priviledges and seeing access list of channel they have
       no access to.
-    *  `<@ChanServ> Mikaela ACCESS:LIST: #channel (oper override)`
+    *  `<ChanServ> Mikaela ACCESS:LIST: #channel (oper override)`
 * e - exempts from akick and allows unbanning yourself
 
 **NOTE THAT FLAGS ARE CASE-SENSITIVE**
