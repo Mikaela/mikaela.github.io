@@ -2,7 +2,7 @@
 layout: post
 title: "Getting help from network operators with channel issues when ops are away"
 category: [english]
-tags: [oper, irc, groupserv, hostserv]
+tags: [irc, english]
 ---
 
 In case you wish network operators to help you when your channel operators

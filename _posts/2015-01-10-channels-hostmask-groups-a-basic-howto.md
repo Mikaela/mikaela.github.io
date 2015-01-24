@@ -2,7 +2,7 @@
 layout: post
 title: "Channels & Hostmask groups: A basic Howto"
 category: [english]
-tags: [oper, irc, groupserv, hostserv]
+tags: [irc, english]
 ---
 
 @Annwenn got me opering at her network after long pause with my opering.
