@@ -29,7 +29,7 @@ trust as I still have met no one whom with to sign keys), but with your
 own responsibility\* you can verify the following DNS records:
 
 ```bash
-dig +short weechat-otr-key.mikaela.info TXT
+dig +short otr.mikaela.info TXT
 dig +short pgp.mikaela.info TXT
 ```
 
