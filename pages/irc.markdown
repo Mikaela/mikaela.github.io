@@ -4,17 +4,19 @@ title: IRC
 permalink: /irc/
 ---
 
-I am on multiple IRC networks, but finding me should be easy. I am mostly using nicks
-Mikaela, Anima or Ciblia and I am on umode `-i`, so you should be able to find me easily with
-`/whois nick nick`. `/nickserv info nick` can also be helpful.
+I am on multiple IRC networks, but finding me should be easy. I am mostly
+using nicks Mikaela, Anima or Ciblia and I am on umode `-i`, so you should
+be able to find me easily with `/whois nick nick`. `/nickserv info nick`
+can also be helpful.
 
 To check that it's me, you can use OTR and check [my OTR key.](../keys)
 
 ## IRC. subdomain
 
-[irc.mikaela.info](ircs://irc.mikaela.info:6697) currently points to [irc.queertech.systems](ircs://irc.queertech.systems:6697).
-It should give you some of the fingerprints below, otherwise there is MITM-attack
-going on and you should disconnect.
+[irc.mikaela.info](ircs://irc.mikaela.info:6697) is currently manually
+updated mirror of [irc.queertech.systems](ircs://irc.queertech.systems:6697)
+and it should give you some of the fingerprints below, otherwise there is
+MITM-attack going on and you **should disconnect**.
 
 * judith.queertech.systems
     * MD5 Fingerprint=`C6:82:79:7B:8E:55:4E:5E:4C:CD:D1:BC:99:41:70:4E`
