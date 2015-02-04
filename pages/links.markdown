@@ -17,6 +17,7 @@ permalink: /links/
 * [LinkedIn](https://fi.linkedin.com/in/ciblia)
     * See Facebook
 * [Open HUB](https://www.openhub.net/accounts/Mikaela)
+* [Together (Jolla forum)](https://together.jolla.com/users/6732/mikaela/)
 * [Twitter](https://twitter.com/Mkaysi) 
     * Content mostly comes from Facebook
 * [Ubuntu Wiki](https://wiki.ubuntu.com/mikaela)
