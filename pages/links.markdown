@@ -13,7 +13,7 @@ permalink: /links/
     * I used to have different account which is currently organization
       including forks where I don't contribute so actively.
 * [Keybase](http://keybase.io/Mikaela)
-* [Launchpad](https://launchpad.net/~mikaela)
+* [Launchpad](https://launchpad.net/~mikaela)
 * [LinkedIn](https://fi.linkedin.com/in/ciblia)
     * See Facebook
 * [Open HUB](https://www.openhub.net/accounts/Mikaela)
