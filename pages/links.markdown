@@ -4,6 +4,8 @@ title: Links
 permalink: /links/
 ---
 
+* [Bitbucket](http://bitbucket.org/Ciblia)
+    * very silent, I am more active with GitHub…
 * [Facebook](https://facebook.com/mikaelahmsuomalainen) 
     * I only accept friend requests from people I know. If we know each
       other, please send message telling me about it including something
