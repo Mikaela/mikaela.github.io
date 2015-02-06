@@ -12,7 +12,7 @@ permalink: /subdomains/
     * web interface of my secondary IRC bot
 * [Supybot](https://supybot.mikaela.info)
     * Some information on Supybot
-* [Tumblr](https://tumblr.mikaela.info)
+* [Tumblr](http://tumblr.mikaela.info)
     * My Tumblr which is a little inactive…
 * [zero](https://zero.mikaela.info) **DOWN**
     * pastebin (ZeroBin)
