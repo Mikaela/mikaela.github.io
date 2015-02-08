@@ -13,6 +13,8 @@ To check that it's me, you can use OTR and check [my OTR key.](../keys)
 
 ## IRC. subdomain
 
+* [webchat](../webchat)
+
 [irc.mikaela.info](ircs://irc.mikaela.info:6697) is currently manually
 updated mirror of [irc.queertech.systems](ircs://irc.queertech.systems:6697)
 and it should give you some of the fingerprints below, otherwise there is
