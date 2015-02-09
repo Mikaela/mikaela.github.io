@@ -64,7 +64,7 @@ ChanServ and have autovoice on the channel.
 
 ```
 /msg groupserv set !test channel #test
-/msg groupserv set !test joinflags +cvi
+/msg groupserv set !test joinflags +cviA
 /msg groupserv set !test open on
 ```
 
