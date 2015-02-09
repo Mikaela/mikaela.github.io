@@ -29,9 +29,9 @@ permalink: /links/
 ## Referral links
 
 * [DigitalOcean](https://www.digitalocean.com/?refcode=ed2a94e7eb56)
-    * "Everyone you refer gets $10 in credit. Once they’ve accumulated $25
+    * "*Everyone you refer gets $10 in credit. Once they’ve accumulated $25
       in billings, you get $25. There is no limit on the amount of credit
-      you can earn through referrals."
+      you can earn through referrals.*"
 * [LastPass](https://lastpass.com/f?884346)
-    * "For every friend that signs up for LastPass, you both get 1 month
-      free Premium (up to a limit of 2 years)!"
+    * "*For every friend that signs up for LastPass, you both get 1 month
+      free Premium (up to a limit of 2 years)!*"
