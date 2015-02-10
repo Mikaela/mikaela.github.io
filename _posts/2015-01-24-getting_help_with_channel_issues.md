@@ -63,8 +63,3 @@ avoiding confusing +A and +a can also be a good idea.
 `$oper` matches everyone who is opered and requires Atheme to have
 exttarget $oper loaded. Some other networks use different ways to add opers
 to be on access list.
-
-* queertech: `$oper` should work for you, but there is also `!netadmins`
-  which only includes netadmins and matches them even if they aren't
-  opered.
-* freenode: no `$oper`, it's adviced to use `*!*@freenode/staff/*`.
