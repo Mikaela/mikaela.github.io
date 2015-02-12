@@ -9,10 +9,20 @@ to communicate with me securely.
 
 ## Table
 
-| Type | Fingerprint |
-|------|-------------|
-| OTR | DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D |
-| PGP | 2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67 |
+<table border="1">
+    <tr>
+        <th>Type</th>
+        <th>Fingerprint</th>
+    </tr>
+    <tr>
+        <td>OTR</td>
+        <td>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</td>
+    </tr>
+    <tr>
+        <td>PGP</td>
+        <td>2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</td>
+    </tr>
+</table>
 
 <br/>
 
