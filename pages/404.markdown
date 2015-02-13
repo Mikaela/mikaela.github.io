@@ -1,0 +1,7 @@
+---
+layout: page
+permalink: /404.html
+---
+
+Page or file that you tried to reach doesn't appear to exist. Try checking
+the URL for spelling mistakes or [return to index.](/)
