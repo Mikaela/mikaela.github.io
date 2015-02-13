@@ -1,11 +1,11 @@
 language: ruby
 sudo: false
-script: "gem install html-proofer github-pages jekyll-mentions jemoji jekyll-redirect-from jekyll-sitemap && set -e && bundle exec jekyll build && bundle exec htmlproof ./_site"
-#rvm: 2.1
+script: "set -e && gem install github-pages && jekyll build"
+rvm: 2.1
 notifications:
-#    email: false
+    email: false
 matrix:
     fast_finish: true
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
