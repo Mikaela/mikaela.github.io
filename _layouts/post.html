@@ -29,7 +29,7 @@ layout: default
     <p id="post-meta">{{ tags_content }}</p>
   </article>
 
-% if page.comments %
+  {% if page.comments %}
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -43,6 +43,6 @@ layout: default
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-% endif %
+    {% endif %}
 
 </div>
