@@ -20,6 +20,8 @@ permalink: /links/
     * See Facebook
 * [Open HUB](https://www.openhub.net/accounts/Mikaela)
 * [Together (Jolla forum)](https://together.jolla.com/users/6732/mikaela/)
+* [Twitter](https://twitter.com/Inaneierase)
+    * Content mostly comes from Facebook
 * [Ubuntu Wiki](https://wiki.ubuntu.com/mikaela)
 
 * * * * *
