@@ -7,8 +7,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://mikaela.info" # the base hostname & protocol for your site
 # I prefer my GitHub being looked more than Twitter
-#twitter_username: Inaneierase
+twitter_username: Inaneierase
 github_username:  Mikaela
+facebook_username: mikaelahmsuomalainen
 
 # Build settings
 markdown: redcarpet
