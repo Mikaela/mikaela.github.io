@@ -26,11 +26,8 @@ to communicate with me securely.
 
 <br/>
 
-Note that my OTR key matches just WeeChat and is affected by [this issue].
-If you notice that my OTR key is different, please mention it to me and I will
-copy the correct key. If that doesn't help, don't think that you are talking to me.
-
-[this issue]:https://github.com/mmb/weechat-otr/issues/70
+Note that my OTR key matches just WeeChat, but I mostly use WeeChat for
+all protocols ([BitlBee](http://www.bitlbee.org/)).
 
 ## DNS TXT records
 
