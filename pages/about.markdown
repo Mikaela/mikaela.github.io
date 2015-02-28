@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about
+permalink: /about.html
 ---
 
 On this page I am trying to explain myself more or those things that you
