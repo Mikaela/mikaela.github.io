@@ -7,5 +7,5 @@ with various distributions.***
 
 [#GirlsLikeUs]:https://duckduckgo.com/?q=GirlsLikeUs
 [#AS]:https://duckduckgo.com/?q=AS
-[#Feminist]:https://duckduckgo.com/?q=Feminist
-[#Linux]:https://duckduckgo.com/?q=Linux
+[#Feminist]:http://everydayfeminism.com/2012/07/feminism-is-for-everyone/
+[#Linux]:http://www.linuxfoundation.org/what-is-linux
