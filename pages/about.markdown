@@ -10,7 +10,20 @@ overlap with different features.
 ## GirlsLikeUs — I am trans woman
 
 It simply means that I was incorrectly defined as boy at birth which I
-never was.
+never was. I didn't always know it, but around 14-15 Dysphoria really hit
+me.
+
+I was always different from boys and I have been always bullied and I
+became suicidal and depressed. I was diagnosed with AS which didn't so
+much, but finally I came to realization on who I am and started the
+progress to be recognized as myself.
+
+As the progress is too slow in Finland I ended up starting HRT by myself
+(like many (if not most) of us here do) and was on it for year before
+getting diagnosed and getting HRT officially.
+
+Many people have said that I am nowadays happier and smile more and other
+things like that and I know this is who I am.
 
 ## AS - Asperger's Syndrome
 
