@@ -15,7 +15,7 @@ different nick which is possible depending on network.*
 
 [my OTR key]:(../keys)
 
-### IRC-releated posts
+### IRC-related posts
 
 *Note that this section is manually updated and might be missing some
 links.*
