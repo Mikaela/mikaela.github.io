@@ -5,13 +5,13 @@ permalink: /irc/
 ---
 
 I am on multiple IRC networks and finding me on those should be easy as
-depending on network my channel list is mostly visible with
+(depending on network) my channel list is mostly visible with
 `/whois Mikaela Mikaela`. I also recommend checking
-`/msg NickServ info Mikaela`
+`/msg NickServ info Mikaela`.
 
-To verify that you are talking to me, I encourage you to check [my OTR key]
-which will also verify my identity even if I was using different nick
-which is possible depending on network.
+*To verify that you are talking to me, I encourage you to check
+[my OTR key] which will also verify my identity even if I was using
+different nick which is possible depending on network.*
 
 [my OTR key]:(../keys)
 
