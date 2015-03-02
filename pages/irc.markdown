@@ -4,11 +4,16 @@ title: IRC
 permalink: /irc/
 ---
 
-I am on multiple IRC networks, but finding me should be easy. I am mostly
-using nick Mikaela and I am on umode `-i`, so you should be able to find me
-easily with `/whois nick nick`. `/nickserv info nick` can also be helpful.
+I am on multiple IRC networks and finding me on those should be easy as
+depending on network my channel list is mostly visible with
+`/whois Mikaela Mikaela`. I also recommend checking
+`/msg NickServ info Mikaela`
 
-To check that it's me, you can use OTR and check [my OTR key.](../keys)
+To verify that you are talking to me, I encourage you to check [my OTR key]
+which will also verify my identity even if I was using different nick
+which is possible depending on network.
+
+[my OTR key]:(../keys)
 
 ### IRC-releated posts
 
