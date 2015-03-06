@@ -25,6 +25,29 @@ getting diagnosed and getting HRT officially.
 Many people have said that I am nowadays happier and smile more and other
 things like that and I know this is who I am.
 
+It's also not very nice when you separate sex and gender by saying "your
+gender can be female, but you are always biologically male" and it has
+been noted multiple times that gender is biological.
+
+* 2015-02-13: [Review article provides evidence on the biological nature
+  of gender identity](http://medicalxpress.com/news/2015-02-article-evidence-biological-nature-gender.html)
+* 2015-02-18: [Sex redefined](http://www.nature.com/news/sex-redefined-1.16943?WT.mc_id=FBK_NatureNews)
+    * *"So if the law requires that a person is male or female, should
+      that sex be assigned by anatomy, hormones, cells or chromosomes, and
+      what should be done if they clash? “My feeling is that since there
+      is not one biological parameter that takes over every other
+      parameter, at the end of the day, gender identity seems to be the
+      most reasonable parameter,” says Vilain. In other words, if you want
+      to know whether someone is male or female, it may be best just to
+      ask."*
+* 2015-03-03: [Gender Identity is Biological, Study Says](https://gma.yahoo.com/gender-identity-biological-study-says-090824140--abc-news-health.html)
+
+<!--
+* https://archive.today/tbCsx
+* https://archive.today/UBxOV
+* https://archive.today/qb7d5
+-->
+
 ## AS - Asperger's Syndrome
 
 I am AS-person and you might see it from the way I write and speak. I have
@@ -57,3 +80,8 @@ preferred Debian side. Maybe it's just that I have learned to use it.
 [Ubuntu Server]:http://www.ubuntu.com/server
 [Debian]:https://www.debian.org/
 [Fedora]:https://getfedora.org
+
+* * * * *
+
+*Please keep in mind that everything in this page is just my opinion and
+not all trans or AS or \<any group\> people are the exact same.*
