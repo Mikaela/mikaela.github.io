@@ -13,7 +13,7 @@ I am on multiple IRC networks and finding me on those should be easy as
 [my OTR key] which will also verify my identity even if I was using
 different nick which is possible depending on network.*
 
-[my OTR key]:(../keys)
+[my OTR key]: ../keys
 
 ### IRC-related posts
 
