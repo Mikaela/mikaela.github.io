@@ -72,8 +72,11 @@ There was one exception where I had scheduler appointment with the school
 social worker and I went there with my mother, but the school social
 worker was away with label on the door saying "if you had scheduled
 appointment, please contact me using Wilma (place to message teachers 
-etc.)" so we wasted time 50 minutes per trip from Kotka to Hamina and
-Hamina to Kotka.
+etc.)" so we wasted time 50 minutes per trip from [Kotka] to [Hamina] and
+[Hamina] to [Kotka].
+
+[Kotka]:http://www.kotka.fi/en/residents
+[Hamina]:http://hamina.fi/en/About%20Hamina
 
 * * * * *
 
@@ -93,6 +96,9 @@ either my next school that I have thought to be
 try to get to [Helsinki] or [Jyväsykylä] and study there as people have
 offered to help me find apartment either from there) or anywhere where I
 will work in the future if I ever will.
+
+[Helsinki]:http://www.hel.fi/www/helsinki/en
+[Jyväskylä]:http://www.hel.fi/www/helsinki/en
 
 The school also offered to also give remote tasks, but it was too late and
 I don't feel like I can do anything anymore as the school hasn't done
