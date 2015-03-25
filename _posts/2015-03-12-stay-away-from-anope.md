@@ -502,6 +502,8 @@ hout issues. I am not sure what is the official way of explaining "sending unkno
 * It's 2015-03-03 and I am being suicidal, because real life issues
   (school, gatekeeping, depression etc.) and I am looking for peer support
   channel for asexual people.
+    * Update on 2015-03-25: for more information about these real life
+      issues or the biggest ones, plase see [this post.]({% post_url 2015-03-25-leaving-bots-life.md %})
 * I find one and connect to network that I have never heard about and
   join the channel and it seems nice one. Sadly the network is controlled
   by Anope developers (even if I thought they were just at Teranova) and
