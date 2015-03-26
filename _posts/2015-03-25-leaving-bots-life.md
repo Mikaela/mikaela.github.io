@@ -36,7 +36,7 @@ the good that I might have done.
 
 ## A little on my life currently
 
-**TRIGGER WARNING: suicide, school bullying**
+**TRIGGER WARNING: suicide, school bullying, transphobia**
 
 I am 19 years old trans woman who also has Asperger's syndrome
 <s>studying for vocational qualification in business information
@@ -93,7 +93,7 @@ There is also another issue, me being scared of real work environment, but
 nothing can be done to it now and the fear will just be moved to trouble
 either my next school that I have thought to be
 [KyUAS](http://www.kyamk.fi/Frontpage) (but it seems likely that I will
-try to get to [Helsinki] or [Jyväsykylä] and study there as people have
+try to get to [Helsinki] or [Jyväskylä] and study there as people have
 offered to help me find apartment either from there) or anywhere where I
 will work in the future if I ever will.
 
