@@ -62,4 +62,4 @@ choises:
    `/set irc.server.NETWORK.ssl_verify off` **NOT RECOMMENDED**, see
    [this post].
 
-[this post]:../../02/24/znc160-ssl.html
+[this post]:{% post_url 2015-02-24-znc160-ssl %}
