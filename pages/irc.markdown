@@ -22,3 +22,6 @@ links.*
 
 * [Channels & Hostmask groups: A Basic howto]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
 * [Getting help from network operators when channel ops are away]({% post_url 2015-01-24-getting_help_with_channel_issues %})
+* [WeeChat: easy instructions for SASL]({% post_url 2015-03-26-weechat-sasl-simply %})
+* [Using umode -i]({% post_url 2015-03-26-umode--i %})
+* [Disabling DCC]({% post_url 2015-03-18-nodcc %})
