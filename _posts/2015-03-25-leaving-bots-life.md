@@ -34,6 +34,39 @@ I cannot read it any other way than that I am not wanted to the channel and
 no matter how many people I have helped, my issues are bigger issue than
 the good that I might have done.
 
+My contributions to Limnoria git:
+
+* OpenHUB
+    * [Limnoria](https://openhub.net/accounts/Mikaela/positions/170403)
+    * [Limnoria-doc](https://openhub.net/accounts/Mikaela/positions/170402)
+* GitHub *after coming out*
+    * [Limnoria](https://github.com/ProgVal/Limnoria/commits?author=Mikaela)
+    * [Limnoria-doc](https://github.com/Limnoria/Limnoria-doc/commits?author=Mikaela)
+* IRC
+    * [\#Limnoria](https://koti.kapsi.fi/~mikaela/pisg/Limnoria.html)
+    * [\#Supybot](https://koti.kapsi.fi/~mikaela/pisg/Supybot.html)
+
+These statistics are generated with pisg which is dead and this "today" is
+the day I left, 2015-03-25.
+
+I had permission from @ProgVal who is founder on \#Limnoria and op on
+\#Supybot to make these statistics and I haven't gotten any information
+about not having that permission anymore.
+
+```
+2014-11-03 13:22:52      Mikaela        I just noticed that you have unloaded WebStats and I am missing some kind of statistics :(
+2014-11-03 13:23:26      Mikaela        oh and do you have any reverse proxy for http://aperio.fr:7410/ and does Limnoria get the real IP?
+2014-11-03 13:46:02      Mikaela        would you be OK with http://koti.kapsi.fi/~mkaysi/pisg/Limnoria.html ? pisg with most of things stripped in config
+2014-11-03 16:40:29      pinkieval      WebStats is too resource consuming
+2014-11-03 16:40:58      pinkieval      Mikaela | oh and do you have any reverse proxy for http://aperio.fr:7410/ and does Limnoria get the real IP? => I don't know what you mean, but I don't have a reverse proxy
+2014-11-03 16:41:15      Mikaela        there is issue at github now
+2014-11-03 16:41:40      Mikaela        and you skipped at least two lines
+2014-11-03 16:42:03      pinkieval      I see
+2014-11-03 16:42:10      pinkieval      Mikaela | would you be OK with http://koti.kapsi.fi/~mkaysi/pisg/Limnoria.html ? => yes
+2014-11-03 16:42:49      Mikaela        :)
+2014-11-03 16:42:49      Mikaela        I tried too remove things that would use bad pronouns, other files in that directory are bad
+```
+
 ## A little on my life currently
 
 **TRIGGER WARNING: suicide, school bullying, transphobia**
@@ -108,3 +141,8 @@ How does this affect me? As people say, bullying leaves eternal scars and I
 am not someone who could stay away from school just for fun, I have talked
 about suicide daily and I have also just been talked out of it for the
 second time in two days. I don't believe I can live like this forever.
+
+* * * * *
+
+*This post has been edited after the original publishing, but you can find
+the changes from the [commit log here](https://github.com/Mikaela/mikaela.github.io/commits/master/_posts/2015-03-25-leaving-bots-life.md).
