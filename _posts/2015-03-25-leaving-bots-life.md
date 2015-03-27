@@ -15,12 +15,82 @@ Limnoria. It started escalating today as \#freenode had discussions on
 issues with freenode's staffers and while one issue was resolved, @ncoevoet
 decided that it's best that they leave the channel as they are "unwanted".
 
-Below is the problematic part of discussion from 2015-02-13:
+Below is the <s>problematic part of discussion</s> from 2015-02-13:
+
+*Many people asked what happened fully so here it is.*
 
 ```text
+[20:48:35] <Hasimir> hey Mikaela, how is the network command referred to in a plugin (like @network), is it supybot.network or config.network or something else?
+[20:49:00] <Mikaela> I have no idea what you mean
+[20:49:27] <Hasimir> basically I want to tweak a plugin to make a filename that refers to the network the bot is on
+[20:49:34] <Hasimir> so here ...
+[20:49:37] <Hasimir> @network
+[20:49:38] <Limnoria> freenode
+[20:49:48] <Hasimir> we get that
+[20:50:02] <Hasimir> but elsewhere, obviously something different
+[20:51:08] <Mikaela> @help network
+[20:51:08] <Limnoria> (network takes no arguments) -- Returns the network the bot is on. 
+[20:51:22] <Mikaela> so probably always the network where you call that
+[20:52:04] <Hasimir> but doesn't indicate whether it can be called by a script in relation to a user if the bot is on 2 or more networks
+[20:52:41] <Mikaela> I have no idea what you are talking bout and I am currently the worst person who to ask support
+[20:52:47] <Hasimir> heh
+[20:52:50] <Hasimir> that's cool
+[20:53:10] <Hasimir> I'll leave that bit for now then ...
+[20:53:42] <Hasimir> and yeah, I'm trying to expand the gpg auth options to include a method which makes it easier for end user scripting
+[20:54:33] <Hasimir> i.e. a method where the end user has a constant url to grab an encrypted token from, etc. (like nano's eauth and everify combo)
+[20:55:24] <Mikaela> I have no coding skills as you might remember
+[20:55:44] <Hasimir> actually, I'd kinda forgotten, my bad
+[20:56:15] <Mikaela> sorry, life is just being difficult again
+[20:56:29] <Hasimir> we'll manage ...
+[20:57:34] <Hasimir> all I need to do is make the url/filename unique and there are other ways
+[20:58:20] <Mikaela> it's that day tomorrow and I am crying because of it and Ialso was in arguing about intersex people and those surgeries
+[20:58:22] <Mikaela> me: it should be waited for intersex person to be old enough to decide what is the best for them
+[20:58:24] <Mikaela> they: doctors should decide the best possible action (that always translates to either cutting as girl unless there is enough material for boy)
+[20:58:26] <Mikaela> and the still didn't listen to me or click my links and there are really bad things in them
+[20:58:41] <Mikaela> " When he was 12, Bruce was given female hormones so his body would feminize. Then, at 18, he prepared for a vaginoplasty -- "designed to allow me "to have sex with my husband." "
+[20:59:17] <Mikaela> it's so much pain to be in body with wrong hormones and parts and they cut people without asking them to cause them that pain
+[20:59:38] <Mikaela> and while they are doing that, we must fight to be able to get the treatment we need
+[21:00:01] <Mikaela> I have had thoese around ten self-castration and suicide attempts, but are doctors doing nything? no, I had to be on illegal HRT for year
+[21:00:38] <Mikaela> and now they are not giving me papers to get myself legally recognized so when I graduate, I am unable to apply for next school
+[21:00:55] <Hasimir> aye, and there is a lot more variation than what society would call normal than most people think or suspect
+[21:01:31] <Hasimir> and endochrinal issues are ... complex
+[21:01:34] <Mikaela> I still haven't meet anyone normal
+[21:01:44] <Hasimir> neither have I  ;)
+[21:02:00] <Mikaela> but how I know this society, those people who make my school pain are normal
+[21:02:21] <Mikaela> I must use backdoor to canteen to even be able to get there without being shouted transphobic things
+[21:02:48] <Hasimir> but then I did take the name of a character described as a genetic eunuch as my handle ... albeit a sneaky and politically adept one
+[21:03:26] <Mikaela> I don't think I know that character
+[21:03:39] <Hasimir> from Frank Herbert's Dune
+[21:03:55] <Mikaela> oh, I see, I haven't read that
+[21:04:10] <Mikaela> I have lately been reading just The Wheel of Time and I am in prologue of book 10
+[21:04:15] <Hasimir> really good book, I highly recommend it
+[21:04:45] <Hasimir> oh lord, the Wheel of Neverending Time in which one fight lasts for 3 days and 7 volumes  ;)
+[21:05:43] <Hasimir> but if you love your fantasy novels ...
+[21:06:03] <Hasimir> the Fionnavar Trilogy by Guy Gavriel Kay is an absolute must read
+[21:06:09] <Mikaela> nothing else triggering in it than me hoping that some things would happen to me and there are some negative things there, but mostly it's just women thinking that the only thing men ever do is gossipping and men thinking the same about women
+[21:06:11] <Mikaela> :D
+[21:06:13] <Mikaela> yes, I love fantasy
+[21:06:36] <Mikaela> I just feel it differently nowadays and if something particulary touching happens, I might cry
+[21:06:42] <Hasimir> also the Chronicles of Amber by Roger Zelazny (whose novel, Lord of Light shared the 1968 Hugo award with Herbert's Dune)
+[21:06:58] <Mikaela> one example could be The Hunt Records by Tamora Pierce (if I recall the name correctly)
+[21:07:12] <Hasimir> then you'll really love Guy Gavriel Kay's work
+[21:07:16] <Mikaela> doesn't sound familiar either
+[21:07:41] <Mikaela> I must probably try sometime
+[21:08:00] <Hasimir> then there's the classics: the original Riftwar saga (Magician, Silverthorn and A Darkness at Sethanon)
+[21:08:02] <Mikaela> if I live that far
+[21:08:29] <Mikaela> i should probably write these names down somewhere
+[21:08:43] <Hasimir> do *not* let the scummy hole of school let you fall into that trap ...
+[21:09:06] <Hasimir> also, IRC logs serve as a good cheat sheet for the reading list ... ;)
+[21:09:11] <Mikaela> it's also doctors and everything else than school
+[21:09:17] <Mikaela> oh, yes
+[21:09:22] <Hasimir> hang on, let's make this easier ... PM?
+[21:09:55] <Mikaela> if you wish
+[21:16:46] <Mikaela> Hasimir: oh and you might be interested in #books,##literature
+[21:17:19] <Hasimir> oh my, I got into enough trouble when I stumbled onto ##chess ...
+[21:17:27] <Hasimir> and then #lichess
 [21:43:36] <niko> Mikaela: maybe there is more suitable channels for that than here
 [21:46:37] <Mikaela> niko: for what?
-[21:48:34] <niko> most of us are here for supybot/limnoria support etc, could you use another channel for your gender problem ?  
+[21:48:34] <niko> most of us are here for supybot/limnoria support etc, could you use another channel for your gender problem ?
 [21:49:41] <Mikaela> our CoC has always allowed offtopic talking and this is the channel where I was always open even before I came out. There aren't also active support questions at the moment. You can find the link in ,,(topic get 1)
 [21:49:43] <Limnoria> Help with using and developing for Limnoria, please see our CoC http://git.io/rh363Q
 [21:50:04] <Mikaela> true, most of that has moved to ##abgilpqt+ after it was founded and this stopped being the nice channel of ~5 people
