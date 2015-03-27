@@ -15,7 +15,7 @@ Limnoria. It started escalating today as \#freenode had discussions on
 issues with freenode's staffers and while one issue was resolved, @ncoevoet
 decided that it's best that they leave the channel as they are "unwanted".
 
-Below is the <s>problematic part of discussion</s> from 2015-02-13:
+Below is the <s>problematic part of</s> discussion from 2015-02-13:
 
 *Many people asked what happened fully so here it is.*
 
@@ -142,7 +142,7 @@ about not having that permission anymore.
 **TRIGGER WARNING: suicide, school bullying, transphobia**
 
 I am 19 years old trans woman who also has Asperger's syndrome
-<s>studying for vocational qualification in business information
+studying <s>for vocational qualification in business information
 technology</s> or would be studying if there wasn't one "small bullying
 issue." I haven't been at
 [Etelä-Kymenlaakso vocational college](http://ekami.fi/in-english) for
