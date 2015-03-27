@@ -19,6 +19,10 @@ Below is the <s>problematic part of</s> discussion from 2015-02-13:
 
 *Many people asked what happened fully so here it is.*
 
+*And people are telling me that this log is too long and they are unable
+to find the important part and the previous problematic part starts from
+`[21:43:36]`.*
+
 ```text
 [20:48:35] <Hasimir> hey Mikaela, how is the network command referred to in a plugin (like @network), is it supybot.network or config.network or something else?
 [20:49:00] <Mikaela> I have no idea what you mean
