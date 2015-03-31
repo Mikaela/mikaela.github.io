@@ -25,3 +25,4 @@ links.*
 * [WeeChat: easy instructions for SASL]({% post_url 2015-03-26-weechat-sasl-simply %})
 * [Using umode -i]({% post_url 2015-03-26-umode--i %})
 * [Disabling DCC]({% post_url 2015-03-18-nodcc %})
+* [Keep the ops opped]({% post_url 2015-04-01-keep-the-ops-opped %})
