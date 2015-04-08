@@ -7,10 +7,11 @@ permalink: /links/
 * [Bitbucket](http://bitbucket.org/Ciblia)
     * very silent, I am more active with GitHub…
 * [Facebook](https://facebook.com/mikaelahmsuomalainen) 
-    * I only accept friend requests from people I know. If we know each
-      other, please send message telling me about it including something
-      like IRC nick, channel and network. Follow button is available
-      for everyone though.
+    * I only previously accepted friend requests from people I knew
+      anywhere like IRC, but I have moved to just accepting all requests
+      as long as I have some kind of idea on the person and they seem sane.
+      If I know you at IRC or somewhere, sending message with mentioning of
+      that would be helpful.
 * [GitHub](https://github.com/Mikaela)
     * I used to have different account which is currently organization
       including forks where I don't contribute so actively.
