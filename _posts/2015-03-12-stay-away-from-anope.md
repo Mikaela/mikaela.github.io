@@ -17,10 +17,10 @@ is your most noisy people.**
 *All times are Europe/Helsinki which in these logs is UTC+2. I am also
 following Finnish law [Secrecy of correspondence] which allows me to
 publish private discussions that I am sender or receiver of. Same policy
-is followed in [freenode-harassement].*
+is followed in [freenode-harassment].*
 
 [Secrecy of correspondence]:https://en.wikipedia.org/wiki/Secrecy_of_correspondence
-[freenode-harassement]:https://github.com/Mikaela/freenode-harassement/
+[freenode-harassment]:https://github.com/Mikaela/freenode-harassment/
 
 **I am also removing logs to pastebins as those are mostly expired.**
 
