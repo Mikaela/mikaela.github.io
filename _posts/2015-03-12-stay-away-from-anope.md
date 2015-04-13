@@ -499,6 +499,8 @@ hout issues. I am not sure what is the official way of explaining "sending unkno
 
 ## Sorcerynet and the top secret IRCd change
 
+**TRIGGER WARNING: suicidality**
+
 * It's 2015-03-03 and I am being suicidal, because real life issues
   (school, gatekeeping, depression etc.) and I am looking for peer support
   channel for asexual people.
