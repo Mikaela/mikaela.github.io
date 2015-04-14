@@ -19,7 +19,8 @@ not do that or leave the channel at any time without specifying reason.*
 
 * **Use common sense.**
 * Be nice, no phobias or \*isms.
-    * Mind your language, not everyone is e.g. your brother ("bro")
+    * Mind your language, not everyone is e.g. your brother ("bro"), don't
+      swear or use slurs.
     * In case you aren't sure which pronouns to use about someone else,
       please use [singular they](https://en.wikipedia.org/wiki/Singular_they)
     * Clearly tell when links aren't safe for everyone by prefixing them
