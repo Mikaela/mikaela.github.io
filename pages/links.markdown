@@ -11,7 +11,9 @@ permalink: /links/
       anywhere like IRC, but I have moved to just accepting all requests
       as long as I have some kind of idea on the person and they seem sane.
       If I know you at IRC or somewhere, sending message with mentioning of
-      that would be helpful.
+      that would be helpful. **If you don't send me message telling me
+      where I know you and who you are there, you might have to wait for
+      a very long time...**
 * [GitHub](https://github.com/Mikaela)
     * I used to have different account which is currently organization
       including forks where I don't contribute so actively.
