@@ -1,0 +1,52 @@
+---
+layout: post
+comments: true
+title: "IRC over TLS is not pointless"
+category: [english]
+tags: [english, IRC, SSL, TLS]
+---
+
+*IRC over TLS is not pointless unless you only worry about things that you
+cannot affect at all. SSL is pointless, because of [POODLE].*
+
+I use IRC over TLS on all networks that support it (=other than IRCnet)
+and I also [verify the certificates]. TLS is used
+
+* between my client and bouncer
+    * when they both are on localhost it's not used and my bouncer only
+      listens for plain text connections only on `127.0.0.1` and `::1`.
+* between my bouncer and IRCd
+
+These are the points that I can affect. I cannot do anything to server
+links other than hope that the network operators know what they are doing
+and use TLS. I cannot affect whether other users use TLS or not or do they
+check the certificates or blindly accept whatever they are offered.
+
+As I use TLS everywhere where I can affect, I can be more sure that
+my discussions aren't so easily read on:
+
+* open WLAN
+* any router between me and the bouncer
+* any router between bouncer and the IRC server
+
+And like everyone else says, you cannot be sure on the server links
+or other people on the channels or queries. You can only make sure that
+**you** are using TLS.
+
+One example where TLS is very helpful even if you have no idea whether
+the other people use SSL is passwords:
+
+* your NickServ password isn't in plain text between you and the IRC
+  server, but you again cannot know if the IRC server sends it to other
+  IRC server(s) in plain text that are between the server where you are
+  connected to and services server.
+* your /OPER password in case you are IRC operator. Imagine being on
+  open WLAN or similar situation and transmitting your password in
+  plain text and someone else taking that password. What kind of "fun"
+  things they could do with it?
+
+*Now you can move into reading why [IRC over SSL is pointless]...*
+
+[POODLE]:https://en.wikipedia.org/wiki/POODLE
+[verify the certificates]:{% post_url 2015-02-24-znc160-ssl %}
+[IRC over SSL is pointless]:https://www.quakenet.org/articles/99-trust-is-not-transitive-or-why-irc-over-ssl-is-pointless
