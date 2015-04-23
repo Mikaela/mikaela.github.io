@@ -50,3 +50,23 @@ the other people use SSL is passwords:
 [POODLE]:https://en.wikipedia.org/wiki/POODLE
 [verify the certificates]:{% post_url 2015-02-24-znc160-ssl %}
 [IRC over SSL is pointless]:https://www.quakenet.org/articles/99-trust-is-not-transitive-or-why-irc-over-ssl-is-pointless
+
+## Addition: who is interested in my traffic?
+
+* Finland - Security Police & Defence Forces
+    * Currently law allowing Security Police and the Defence Forces to do
+      network monitoring without limitations is going to pass in the
+      parlament.
+* Sweden - National Defence Radio Establishment & Security Police & Police
+    * Sweden has monitored all traffic going through them since 2008
+      and most of Finnish traffic goes through them.
+    * 2015-04-23 https://en.wikipedia.org/w/index.php?title=National_Defence_Radio_Establishment&oldid=651267187#Legal_framework
+    * 2015-04-23 https://en.wikipedia.org/w/index.php?title=National_Defence_Radio_Establishment&oldid=651267187#Mass_surveillance
+    * 2015-04-23 (in Finnish) http://www.hackingthroughcomplexity.fi/2013/10/ruotsin-verkkovalvonta-latakon.html / https://archive.is/iYrsl
+* UK - GCHQ
+    * Cooperating with Sweden
+    * 2015-04-23 https://en.wikipedia.org/w/index.php?title=Government_Communications_Headquarters&oldid=656835589#2000s:_Coping_with_the_Internet
+* USA - NSA
+    * Cooperating with Sweden
+    * 2015-04-23 https://en.wikipedia.org/w/index.php?title=Global_surveillance_disclosures_(2013%E2%80%93present)&oldid=655974095
+* Many others? :(
