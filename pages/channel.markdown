@@ -30,7 +30,7 @@ not do that or leave the channel at any time without specifying reason.*
 * Don't bring bots to the channel without asking me first.
 * If you need help from channel op, ping them or PM them (keep in mind that
   they might not want PMs and block all PMs by default) or depending on
-  the network and your flags (if you are voided this probably works),
+  the network and your flags (if you are voiced this probably works),
   `/msg memoserv sendops #channel message here`.
     * If there are no ops present, ask network operators. They should be
       on the access list.
