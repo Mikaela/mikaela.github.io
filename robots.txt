@@ -3,6 +3,7 @@ Allow: /
 
 # I prefer search engines to not advertise these pages even if you can find
 # them here or in `_config.yml`.
+Deny: /404.html
 Deny: /bot.html
 Deny: /channel.html
 

@@ -29,6 +29,7 @@ sitemap:
     exclude:
         # Even if you can see the existence of these pages here, I don't
         # wish to get search engine attention to them.
+        - "/404.html"
         - "/bot.html"
         - "/channel.html"
 include: [PGP, PHP, keybase.txt, robots.txt]
