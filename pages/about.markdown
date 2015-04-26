@@ -48,6 +48,11 @@ been noted multiple times that gender is biological.
 * https://archive.today/qb7d5
 -->
 
+Oh, and even if I talk about my transness (and other things) openly here,
+I prefer that *you don't talk about me being trans/autist to anyone* and
+*let me tell by myself* if I see reason to do it. People interested enough
+can put my name to any search engine and find here sooner or later.
+
 ## AS - Asperger's Syndrome
 
 I am AS-person and you might see it from the way I write and speak. I have
