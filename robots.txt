@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /
 
-Disallow: /404.html
-Disallow: /bot.html
-Disallow: /channel.html
+Disallow: /404
+Disallow: /bot
+Disallow: /channel
 
 Sitemap: https://mikaela.info/sitemap.xml
