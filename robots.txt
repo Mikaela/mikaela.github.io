@@ -1,10 +1,8 @@
 User-agent: *
 Allow: /
 
-# I prefer search engines to not advertise these pages even if you can find
-# them here or in `_config.yml`.
-Deny: /404.html
-Deny: /bot.html
-Deny: /channel.html
+Disallow: /404.html
+Disallow: /bot.html
+Disallow: /channel.html
 
 Sitemap: https://mikaela.info/sitemap.xml
