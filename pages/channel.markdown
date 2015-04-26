@@ -8,14 +8,7 @@ in multiple networks.<br/>Definition of my channel: A) the channel links
 here in topic/entrymsg/URL B) I am the only founder C) B + there are
 no other rules.
 
-*I often feel that personal channels are useless and not so good invention,
-but they might have some uses like commit spam or spamming some RSS feeds.
-<br/>
-My current policy on joining them is joining channels of those people who
-join mine and are preferably voiced or higher, but I reserve the right to
-not do that or leave the channel at any time without specifying reason.*
-
-* [More about my bot here.](bot.html)
+* [More about my bot (which might or might not be on this channel) here.](bot.html)
 
 * **Use common sense.**
 * Be nice, no phobias or \*isms.
