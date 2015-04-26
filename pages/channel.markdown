@@ -4,9 +4,9 @@ permalink: /channel.html
 ---
 
 Rules of my IRC channels that may or may not exist with multiple names
-in multiple networks.<br/>Definition of my channel: I am the only founder
-and the channel doesn't have other rules than this.<br/>The channel should
-also link here in topic/entrymsg/URL.
+in multiple networks.<br/>Definition of my channel: A) the channel links
+here in topic/entrymsg/URL B) I am the only founder C) B + there are
+no other rules.
 
 *I often feel that personal channels are useless and not so good invention,
 but they might have some uses like commit spam or spamming some RSS feeds.
