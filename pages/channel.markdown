@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /channel.html
+sitemap: false
 ---
 
 Rules of my IRC channels that may or may not exist with multiple names

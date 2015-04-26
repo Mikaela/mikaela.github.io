@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /bot.html
+sitemap: false
 ---
 
 *Please read also [rules of my channels.](https://mikaela.info/channel.html)*

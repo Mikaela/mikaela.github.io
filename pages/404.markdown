@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /404.html
+sitemap: false
 ---
 
 Page or file that you tried to reach doesn't appear to exist. Try checking
