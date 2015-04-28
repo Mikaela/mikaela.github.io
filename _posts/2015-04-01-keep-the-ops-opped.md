@@ -10,16 +10,16 @@ tags: [irc, english]
 freenode's recommendations.*
 
 Is there an issue with your IRC channel needing op attention? Without
-having ops visible, they will very likely go to the network support channel
-instead of informing you or your ops.
+having ops visible, your users will very likely go to the network support
+channel instead of informing you or your ops.
 
 Without ops being visible, who are ops or how to alert them?
 
 * `/msg chanserv access #channel list`
     * requires whoising all ops to see if they are present
         * idle time gets reset by CTCP replies, OTR and possibly other
-          things. Freenode ops also base their judgement on are there ops
-          present to handle the issue on idletime of ops.
+          things. Freenode staffers also base their judgement on are there
+          ops present to handle the issue on idletime of ops.
     * new users most likely have no idea on the command
     * whois is rate-limited
 * `/msg memoserv sendops #channel help! X is spamming`
@@ -48,7 +48,5 @@ What if the services go down or netsplit and the same happens to your bot?
 You are out of luck unless you had the ops opped in which case the outage
 doesn't affect you that much at all.
 
-*Somewhat [rewritten] on 2015-04-28 13:25Z and now this looks even worse
-to my eyes...*
-
-[rewritten]:https://github.com/Mikaela/mikaela.github.io/commit/9a2498dab572efec07f11cf68ddddb29d792def1
+*Somewhat rewritten on 2015-04-28 13:25Z and now this looks even worse
+to my eyes... ([Changelog](https://github.com/Mikaela/mikaela.github.io/commits/master/_posts/2015-04-01-keep-the-ops-opped.md))*
