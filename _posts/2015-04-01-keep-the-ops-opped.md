@@ -48,5 +48,7 @@ What if the services go down or netsplit and the same happens to your bot?
 You are out of luck unless you had the ops opped in which case the outage
 doesn't affect you that much at all.
 
-*Somewhat rewritten on 2015-04-28 13:25Z and now this looks even worse
+*Somewhat [rewritten] on 2015-04-28 13:25Z and now this looks even worse
 to my eyes...*
+
+[rewritten]:https://github.com/Mikaela/mikaela.github.io/commit/9a2498dab572efec07f11cf68ddddb29d792def1
