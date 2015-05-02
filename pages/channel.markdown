@@ -37,3 +37,9 @@ Furher reading:
 
 * [Keep your ops opped!]({% post_url 2015-04-01-keep-the-ops-opped %})
 * [Blocking all PMs by default]({% post_url 2015-04-02-umode+g %})
+
+Changelog ([at GitHub:](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.markdown))
+
+* 2015-05-02: no \*isms --> no discrimination & cleaning
+* 2015-04-26: typo fixes, cleaning up
+* 2015-04-14: Initial version
