@@ -1,9 +1,10 @@
 # Site settings
 title: Mikaela's website
 description: > # this means to ignore newlines until "baseurl:"
-    This site includes my blog, public keys and information on finding me
-    at IRC. There are also links to my different profiles and possibly
-    more interesting subdomains.
+    Mikaela's blog, public keys, links, subdomains etc.
+    <br/><br/>*This website is licensed under the
+    [Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/)
+    by [Mikaela Suomalainen](https://mikaela.info/).*
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://mikaela.info" # the base hostname & protocol for your site
 # I prefer my GitHub being looked more than Twitter
