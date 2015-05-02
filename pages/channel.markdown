@@ -21,8 +21,8 @@ URL is not so good as many clients hide it somewhere.
     * Clearly tell when links aren't safe for everyone by prefixing them
       with `[NSFW]` or similar.
     * Respect boundaries, don't PM people without asking first.
-* Don't log the publicly channel.
-* Don't bring bots to the channel without asking me first.
+* Don't log the channel publicly.
+* Don't bring bots to the channel without asking ops first.
 * If you need help from channel op, ping them or PM them (keep in mind that
   they might not want PMs and block all PMs by default) or depending on
   the network and your flags (if you are voiced this probably works),
