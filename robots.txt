@@ -6,3 +6,4 @@ Disallow: /channel
 Disallow: /r/
 Sitemap: https://mikaela.info/sitemap.xml
 Sitemap: http://tumblr.mikaela.info/sitemap.xml
+Sitemap: https://mikaela.info/sitemaps.xml
