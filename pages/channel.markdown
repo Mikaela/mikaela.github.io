@@ -3,7 +3,10 @@ layout: page
 permalink: /channel.html
 sitemap: false
 excerpt: "Rules of my IRC channel. TL;DR: Use common sense, be nice, no discrimination, no public logging, don't bring bots without permission. Thanks ♥"
+redirect_from: /channel.en.html
 ---
+
+**[Suomeksi](channel.fi.html)**
 
 Rules of my IRC channels that may or may not exist with multiple names
 in multiple networks.<br/>The channels which use these rules should link
@@ -41,7 +44,7 @@ Furher reading:
 Changelog ([at GitHub:](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.markdown))
 
 * 2015-05-03: add TL;DR to meta description & remove weird feeling line &
-  fix language
+  fix language & Finnish translation
 * 2015-05-02: no \*isms --> no discrimination & cleaning
 * 2015-04-26: typo fixes, cleaning up
 * 2015-04-14: Initial version
