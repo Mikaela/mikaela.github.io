@@ -6,4 +6,7 @@
     <sitemap>
         <loc>http://tumblr.mikaela.info/sitemap1.xml</loc>
     </sitemap>
+    <sitemap>
+        <loc>https://sitemaps.mikaela.info/bot.mikaela.info.txt</loc>
+    </sitemap>
 </sitemapindex>
