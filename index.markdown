@@ -1,6 +1,6 @@
 ---
 layout: index
-excerpt: "Index with short biography and links to longer one. This excerpt has room for improvement."
+excerpt: "#GirlsLikeUs ♥ AS ♥ Feminist 🂱 Linux user since 2008 ♥ she/her/hers"
 ---
 
 ***[#GirlsLikeUs] ♥ [AS] ♥ [Feminist] 🂱 [Linux] user since 2008
