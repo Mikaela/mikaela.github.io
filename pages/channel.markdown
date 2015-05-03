@@ -2,7 +2,7 @@
 layout: page
 permalink: /channel.html
 sitemap: false
-excerpt: Rules of my IRC channel. TL;DR: Use common sense, be nice, no discrimination, no public logging, don't bring bots without permission. Thanks ♥
+excerpt: "Rules of my IRC channel. TL;DR: Use common sense, be nice, no discrimination, no public logging, don't bring bots without permission. Thanks ♥"
 ---
 
 Rules of my IRC channels that may or may not exist with multiple names

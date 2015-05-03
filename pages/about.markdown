@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about.html
-excerpt: A little about me on transness, Asperger's syndrome/autism, feminism & using Linux.
+excerpt: "A little about me on transness, Asperger's syndrome/autism, feminism & using Linux."
 ---
 
 On this page I am trying to explain myself more or those things that you

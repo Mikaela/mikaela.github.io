@@ -2,7 +2,7 @@
 layout: page
 title: IRC
 permalink: /irc/
-excerpt: Where do you find me at IRC and verify that it's me. Also includes my IRC related posts that are hopefully helpful and my policy on joining personal channels of other people (e.g. ##channels at freenode).
+excerpt: "Where do you find me at IRC and verify that it's me. Also includes my IRC related posts that are hopefully helpful and my policy on joining personal channels of other people (e.g. ##channels at freenode)."
 ---
 
 I am on multiple IRC networks and finding me on those should be easy as

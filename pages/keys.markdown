@@ -2,7 +2,7 @@
 layout: page
 title: Public keys
 permalink: /keys/
-excerpt: My public keys, OTR, PGP and how to check them from DNS TXT records of my subdomains.
+excerpt: "My public keys, OTR, PGP and how to check them from DNS TXT records of my subdomains."
 ---
 
 This page contains key fingerprints that might interest you if you wish

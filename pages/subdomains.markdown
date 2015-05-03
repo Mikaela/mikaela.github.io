@@ -2,7 +2,7 @@
 layout: page
 title: Subdomains
 permalink: /subdomains/
-excerpt: Subdomains that can be a little more interesting than this site is :(
+excerpt: "Subdomains that can be a little more interesting than this site is :("
 ---
 
 * [Bitbucket](https://bitbucket.mikaela.info)

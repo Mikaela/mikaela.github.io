@@ -2,7 +2,7 @@
 layout: page
 permalink: /bot.html
 sitemap: false
-excerpt: A little about my IRC bot. Useful links, why it doesn't reply to me, how to make it recognize me, what does it actually do?
+excerpt: "A little about my IRC bot. Useful links, why it doesn't reply to me, how to make it recognize me, what does it actually do?"
 ---
 
 *Please read also [rules of my channels.](https://mikaela.info/channel.html)*

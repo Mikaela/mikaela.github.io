@@ -2,7 +2,7 @@
 layout: page
 title: Links
 permalink: /links/
-excerpt: Links to my online accounts around the web and some referral links. Social media, FOSS, forums…
+excerpt: "Links to my online accounts around the web and some referral links. Social media, FOSS, forums…"
 ---
 
 * [Bitbucket](http://bitbucket.org/Ciblia)

@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
-excerpt: Blog index, posts in English and posts in Finnish — Blogin etusivu, postaukset englanniksi ja postaukset suomeksi.
+excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, postaukset englanniksi ja postaukset suomeksi."
 ---
 
 Posts in English:

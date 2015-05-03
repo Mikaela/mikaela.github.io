@@ -1,6 +1,6 @@
 ---
 layout: default
-excerpt: Index with short biography and links to longer one. This excerpt has room for improvement.
+excerpt: "Index with short biography and links to longer one. This excerpt has room for improvement."
 ---
 
 ***[#GirlsLikeUs] ♥ [AS] ♥ [Feminist] 🂱 [Linux] user since 2008

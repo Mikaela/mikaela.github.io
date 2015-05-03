@@ -2,7 +2,7 @@
 layout: page
 permalink: /404.html
 sitemap: false
-excerpt: 404, not found, don't bother clicking...
+excerpt: "404, not found, don't bother clicking..."
 ---
 
 Page or file that you tried to reach doesn't appear to exist. Try checking
