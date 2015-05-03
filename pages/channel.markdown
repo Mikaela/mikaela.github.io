@@ -30,8 +30,8 @@ URL is not so good as many clients hide it somewhere.
     * If there are no ops present, ask network operators. They should be
       on the access list.
 
-*These rules also affect (h)ops and higher, if you see them breaking these
-rules, please do say it.*
+*These rules also affect (h)ops (and higher), if you see them breaking
+these rules, please do say it.*
 
 Furher reading:
 
@@ -40,7 +40,8 @@ Furher reading:
 
 Changelog ([at GitHub:](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.markdown))
 
-* 2015-05-03: add TL;DR to meta description & remove weird feeling line
+* 2015-05-03: add TL;DR to meta description & remove weird feeling line &
+  fix language
 * 2015-05-02: no \*isms --> no discrimination & cleaning
 * 2015-04-26: typo fixes, cleaning up
 * 2015-04-14: Initial version
