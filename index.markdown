@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 excerpt: "Index with short biography and links to longer one. This excerpt has room for improvement."
 ---
 
