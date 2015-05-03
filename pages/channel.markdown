@@ -2,13 +2,13 @@
 layout: page
 permalink: /channel.html
 sitemap: false
+excerpt: Rules of my IRC channel. TL;DR: Use common sense, be nice, no discrimination, no public logging, don't bring bots without permission. Thanks ♥
 ---
 
 Rules of my IRC channels that may or may not exist with multiple names
 in multiple networks.<br/>The channels which use these rules should link
 to this page in ENTRYMSG (or other automatic msg by bot) or topic. Channel
 URL is not so good as many clients hide it somewhere.
-<br/>*Other people are also allowed to use these rules!*
 
 * [More about my bot (which might or might not be on this channel) here.](bot.html)
 
@@ -40,6 +40,7 @@ Furher reading:
 
 Changelog ([at GitHub:](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.markdown))
 
+* 2015-05-03: add TL;DR to meta description & remove weird feeling line
 * 2015-05-02: no \*isms --> no discrimination & cleaning
 * 2015-04-26: typo fixes, cleaning up
 * 2015-04-14: Initial version
