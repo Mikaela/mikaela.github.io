@@ -13,7 +13,7 @@ in multiple networks.<br/>The channels which use these rules should link
 to this page in ENTRYMSG (or other automatic msg by bot) or topic. Channel
 URL is not so good as many clients hide it somewhere.
 
-* [More about my bot (which might or might not be on this channel) here.](bot.html)
+*[More about my bot (which might or might not be on this channel) here.](bot.html)*
 
 * **Use common sense.**
 * Be nice, no discrimination
@@ -26,15 +26,19 @@ URL is not so good as many clients hide it somewhere.
     * Respect boundaries, don't PM people without asking first.
 * Don't log the channel publicly.
 * Don't bring bots to the channel without asking ops first.
-* If you need help from channel op, ping them or PM them (keep in mind that
-  they might not want PMs and block all PMs by default) or depending on
-  the network and your flags (if you are voiced this probably works),
-  `/msg memoserv sendops #channel message here`.
-    * If there are no ops present, ask network operators. They should be
-      on the access list.
+
 
 *These rules also affect (h)ops (and higher), if you see them breaking
 these rules, please do say it.*
+
+* If you need help from channel op...
+    * ping or PM them (but keep in mind they might be blocking all PMs)
+    * if the network supports it and you have correct flags,
+      `/msg memoserv sendops #channel <the issue>`
+    * `!ops` might work if the ops are highlighting on it or there is bot
+      handling it, but it's not as recommended as the other ways.
+    * if there are no ops present, try contacting the network operators,
+      they should have flags to help..
 
 Furher reading:
 
@@ -43,6 +47,7 @@ Furher reading:
 
 Changelog ([at GitHub:](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.markdown))
 
+* 2015-05-07: make getting help from ops a little more clear
 * 2015-05-03: add TL;DR to meta description & remove weird feeling line &
   fix language & Finnish translation
 * 2015-05-02: no \*isms --> no discrimination & cleaning
