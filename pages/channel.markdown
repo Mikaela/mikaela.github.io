@@ -38,14 +38,14 @@ these rules, please do say it.*
     * `!ops` might work if the ops are highlighting on it or there is bot
       handling it, but it's not as recommended as the other ways.
     * if there are no ops present, try contacting the network operators,
-      they should have flags to help..
+      they should have flags to help.
 
 Furher reading:
 
 * [Keep your ops opped!]({% post_url 2015-04-01-keep-the-ops-opped %})
 * [Blocking all PMs by default]({% post_url 2015-04-02-umode+g %})
 
-Changelog ([at GitHub:](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.markdown))
+Changelog ([at GitHub](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.markdown)):
 
 * 2015-05-07: make getting help from ops a little more clear
 * 2015-05-03: add TL;DR to meta description & remove weird feeling line &
