@@ -11,9 +11,8 @@ excerpt: "A little about my IRC bot. Useful links, why it doesn't reply to me, h
     * [Plugin documentation](https://bot.mikaela.info/plugindoc/)
 
 The bot doesn't allow people to register by themselves and it might be
-
 configured to A) only reply to identified users B) not reply on certain
-channel to anyone C) reply only to owner at certain channel. This might
+channel to anyone C) reply only to owner at certain channel. This may
 change without notice.
 
 Currently only ops on the channels it's on are registered and should be
@@ -43,3 +42,8 @@ but  listing the feeds automatically announced on the channel isn't
 possible [yet](https://github.com/ProgVal/Limnoria/issues/1085).
 
 It's also protecting channels from spam using the [AttackProtector plugin.](https://github.com/ProgVal/Supybot-plugins/tree/master/AttackProtector)
+
+The bot also has `ops` command for getting op attention, but it requires
+correct prefix to be used, check
+`/msg <bot> config channel <#channel> reply.whenaddressedby.chars`. The
+prefix can be different on different channels.
