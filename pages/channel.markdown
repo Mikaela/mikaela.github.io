@@ -33,7 +33,7 @@ these rules, please do say it.*
 
 * If you need help from channel op...
     * ping or PM them (but keep in mind they might be blocking all PMs)
-    * if the network supports it and you have correct flags,
+    * if the network supports it and you have correct flags (voice?),
       `/msg memoserv sendops #channel <the issue>`
     * `!ops` might work if the ops are highlighting on it or there is bot
       handling it, but it's not as recommended as the other ways.

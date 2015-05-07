@@ -48,4 +48,5 @@ Lisälukemista:
 
 Muutosloki ([GitHubissa](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.fi.markdown)):
 
+* 2015-05-07: Selvennetty avunpyytämistä opeilta
 * 2015-05-03: Käännetty (huonoksi) suomeksi
