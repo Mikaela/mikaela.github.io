@@ -7,7 +7,7 @@ tags: [english, IRC]
 ---
 
 *Yet another note-to-self post, but these links are confusing, how do you
-make proper irc:// or ircs:// link?*
+ make proper irc:// or ircs:// link?*
 
 I started wondering about the proper way to make irc/ircs links today and
 based on the following addresses
