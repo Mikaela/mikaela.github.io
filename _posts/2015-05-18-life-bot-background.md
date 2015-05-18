@@ -9,7 +9,7 @@ tags: [english, IRC, life, bots, love]
 *More on my life and a little background on bots; also trigger warning
 about probably everything...*
 
-Start with the [previous post on the subject](({% post_url 2015-03-25-leaving-bots-life %})...
+Start with the [previous post on the subject]({% post_url 2015-03-25-leaving-bots-life %})...
 
 So I have been away from school for months now and the fact that I won't
 graduate seems very sure. I haven't left home unless I have had too either
