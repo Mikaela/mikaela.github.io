@@ -29,7 +29,7 @@ could be a little more clear...
 * [Getting help from network operators when channel ops are away]({% post_url 2015-01-24-getting_help_with_channel_issues %})
 * [Disabling DCC]({% post_url 2015-03-18-nodcc %})
 * [WeeChat: easy instructions for SASL]({% post_url 2015-03-26-weechat-sasl-simply %})
-* [Using umode -iI]({% post_url 2015-03-26-umode--i %})
+* [Showing public channels in whois / umode -iI]({% post_url 2015-03-26-umode--i %})
 * [Keep the ops opped]({% post_url 2015-04-01-keep-the-ops-opped %})
 * [Using umode +g/blocking unauthorized PMs]({% post_url 2015-04-02-umode+g %})
     * [Part 2: I don't acknowledge your existense if you attempt to PM and I don't know you.]({% post_url 2015-05-10-umode+g2 %})
