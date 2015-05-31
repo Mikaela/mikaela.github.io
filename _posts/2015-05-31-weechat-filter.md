@@ -39,3 +39,8 @@ else alerts ops.
 With ignore you see nothing, with filter you just toggle your filters and
 see that someone who you had filtered joined on the channel and did
 something against the channel rules and you can easily take action.
+
+Further reading, check `/help filter`, you will enjoy at least
+the smart filter, `/filter add irc_smart * irc_smart_filter *` (hides
+joins/quits/parts/etc. unless the person has talked in X minutes configured
+in `/help irc.look.smart_filter_delay`).
