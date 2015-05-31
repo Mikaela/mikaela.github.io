@@ -29,7 +29,7 @@ links.*
     * [Forming irc:// or ircs:// links]({% post_url 2015-05-18-ircs_links %})
 * Oper
     * [Channels & Hostmask groups: A Basic howto]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
-    * [Stay away from Anope IRC Services]({% post_url 2015-03-12-stay-away-from-anope.md %})
+    * [Stay away from Anope IRC Services]({% post_url 2015-03-12-stay-away-from-anope %})
 * WeeChat
     * [Easy instructions for using SASL PLAIN]({% post_url 2015-03-26-weechat-sasl-simply %})
     * [Ignoring with /filter]({% post_url 2015-05-31-weechat-filter %})
