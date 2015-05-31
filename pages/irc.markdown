@@ -21,20 +21,21 @@ different nick which is possible depending on network.*
 *Note that this section is manually updated and might be missing some
 links.*
 
-These links try to be helpful and not related to specific clients without
-reason. WeeChat is an exception as their documentation on enabling SASL
-could be a little more clear...
-
-* [Channels & Hostmask groups: A Basic howto]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
-* [Getting help from network operators when channel ops are away]({% post_url 2015-01-24-getting_help_with_channel_issues %})
-* [Disabling DCC]({% post_url 2015-03-18-nodcc %})
-* [WeeChat: easy instructions for SASL]({% post_url 2015-03-26-weechat-sasl-simply %})
-* [Showing public channels in whois / umode -iI]({% post_url 2015-03-26-umode--i %})
-* [Keep the ops opped]({% post_url 2015-04-01-keep-the-ops-opped %})
-* [Using umode +g/blocking unauthorized PMs]({% post_url 2015-04-02-umode+g %})
-    * [Part 2: I don't acknowledge your existense if you attempt to PM and I don't know you.]({% post_url 2015-05-10-umode+g2 %})
-* [IRC over TLS is not pointless.]({% post_url 2015-04-22-IRC-over-TLS %})
-* [Forming irc:// or ircs:// links]({% post_url 2015-05-18-ircs_links %})
+* General
+    * [Getting help from network operators when channel ops are away]({% post_url 2015-01-24-getting_help_with_channel_issues %})
+    * [Disabling DCC]({% post_url 2015-03-18-nodcc %})
+    * [Keep the ops opped]({% post_url 2015-04-01-keep-the-ops-opped %})
+    * [IRC over TLS is not pointless.]({% post_url 2015-04-22-IRC-over-TLS %})
+    * [Forming irc:// or ircs:// links]({% post_url 2015-05-18-ircs_links %})
+* Oper
+    * [Channels & Hostmask groups: A Basic howto]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
+* WeeChat
+    * [WeeChat: easy instructions for SASL]({% post_url 2015-03-26-weechat-sasl-simply %})
+* User modes
+    * [Showing public channels in whois / umode -iI]({% post_url 2015-03-26-umode--i %})
+    * [Using umode +g/blocking unauthorized PMs]({% post_url 2015-04-02-umode+g %})
+        * [Part 2: I don't acknowledge your existense if you attempt to PM and I don't know you.]({% post_url 2015-05-10-umode+g2 %})
+* ZNC
 
 * * * * *
 
