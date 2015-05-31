@@ -7,7 +7,7 @@ tags: [english, IRC, WeeChat]
 ---
 
 *Everyone knows the `/ignore` command, but there is also `/filter` which
-I feel is superiour.`*
+I feel is superiour.*
 
 First, how do they differ?
 * Ignore removes all lines from the person you are ignoring permanently and
@@ -22,7 +22,7 @@ And how do you use it?
       the nick there.
     * The first `*` is buffer where the filter is used in and means simply
       "all buffers".
-    * `nick_*NICKHERE* means that you want to filter lines from
+    * `nick_*NICKHERE*` means that you want to filter lines from
       `*NICKHERE*`, the asterisks are important as it makes sure that the
       user doesn't change their nick to `NICKHERE_` who again wouldn't be
       filtered.
