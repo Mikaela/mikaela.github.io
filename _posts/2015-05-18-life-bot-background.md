@@ -54,7 +54,7 @@ write.
 I got affiliated with Supybot around 2011, first trying the stock Supybot,
 later Supybot git version, then gribble and finally Supybot-fr.
 
-On [2011-02-14])http://echelog.com/logs/browse/supybot/1297638000)
+On [2011-02-14](http://echelog.com/logs/browse/supybot/1297638000)
 @ProgVal asked me to translate it into Finnish and a little
 later it became Limnoria. There were also Italian and Hungarian
 translations at that time.
@@ -79,7 +79,7 @@ The dates are more unclear for this point of time, but I fell in love to
 them if they knew any ace channels I could wonder my feelings on and the
 answer was negative and after further talking, we ended up founding
 [##abgilpqt+ - a channel for everyone](https://abgilpqt.github.io/about/)
-(which has had it's own share of drama, so I won't discuss it here).
+(which has had it's own share of drama, that I won't discuss here).
 
 At some point after that on one night we were talking again and I don't
 remember what we were exactly talking about (and reading logs would hurt
