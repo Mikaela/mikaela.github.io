@@ -29,13 +29,17 @@ links.*
     * [Forming irc:// or ircs:// links]({% post_url 2015-05-18-ircs_links %})
 * Oper
     * [Channels & Hostmask groups: A Basic howto]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
+    * [Stay away from Anope IRC Services](% post_url 2015-03-12-stay-away-from-anope.md %})
 * WeeChat
-    * [WeeChat: easy instructions for SASL]({% post_url 2015-03-26-weechat-sasl-simply %})
+    * [Easy instructions for using SASL PLAIN]({% post_url 2015-03-26-weechat-sasl-simply %})
+    * [Ignoring with /filter]({% post_url 2015-05-31-weechat-filter %})
 * User modes
     * [Showing public channels in whois / umode -iI]({% post_url 2015-03-26-umode--i %})
     * [Using umode +g/blocking unauthorized PMs]({% post_url 2015-04-02-umode+g %})
         * [Part 2: I don't acknowledge your existense if you attempt to PM and I don't know you.]({% post_url 2015-05-10-umode+g2 %})
 * ZNC
+    * [ZNC 1.6.0 & SSL]({% post_url 2015-02-24-znc160-ssl %})
+    * [My config]({% post_url 2015-04-01-my-znc-config %})
 
 * * * * *
 
