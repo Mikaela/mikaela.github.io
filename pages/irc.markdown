@@ -37,6 +37,7 @@ links.*
     * [Showing public channels in whois / umode -iI]({% post_url 2015-03-26-umode--i %})
     * [Using umode +g/blocking unauthorized PMs]({% post_url 2015-04-02-umode+g %})
         * [Part 2: I won't acknowledge existence of your PM attempt unless I know you.]({% post_url 2015-05-10-umode+g2 %})
+    * [(Un)Setting umodes (broken from umode -iI)]({% post_url 2015-06-03-setting-umodes %})
 * ZNC
     * [ZNC 1.6.0 & SSL certificate verification]({% post_url 2015-02-24-znc160-ssl %})
     * [My config]({% post_url 2015-04-01-my-znc-config %})
