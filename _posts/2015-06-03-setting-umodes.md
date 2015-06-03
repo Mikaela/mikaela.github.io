@@ -28,10 +28,11 @@ client to (un)set them automatically.
     * now: `/set irc.server_default.command /mode $nick -iI+wRQxg`
     * [future?](https://github.com/weechat/weechat/issues/377) *write this
       if the future happens.*
-* ZNC: `/msg *status loadmod perform` and `/msg *perform add mode %nick% -iI+wRQxg`
+* ZNC: `/msg *status loadmod perform` and
+  `/msg *perform add mode %nick% -iI+wRQxg`
     * The same can also be done in webadmin and if you load perform for
-      user level, adding the command `mode %nick% -iI` will set umode -iI
-      on all networks.
+      user level, adding the command `mode %nick% -iI+wRQxg` will set
+      umode -iI+wrqXG on all networks.
 
 ### And what these umodes mean
 
