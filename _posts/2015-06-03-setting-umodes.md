@@ -38,7 +38,7 @@ client to (un)set them automatically.
 
 * i — invisible, hides your channel list from whois with ircd-seven and
   possibly some other ircds. Also hides you from /who of people who don't
-  share channels with you. [See also why I unset it here.](({% post_url 2015-03-26-umode--i %})
+  share channels with you. [See also why I unset it here.]({% post_url 2015-03-26-umode--i %})
 * I — On InspIRCd with [hidechans] module hides your channel list from
   whois.
 * w — receive wallops, less-important announcements from network operators
