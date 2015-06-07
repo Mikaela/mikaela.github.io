@@ -78,9 +78,15 @@ with Zaldaryn which doesn't have it specified.
 
 I am also using `systemd-networkd-wait-online.service`
 (`systemctl enable systemd-networkd-wait-online.service`) so
-`network.target` means that I have IP address before boot continues. There
-is 90 second timeout, but I still don't feel like trying this with wireless
-host as I would have 90 seconds longer boot time in new environments.
+`network.target` means that I have IP address before boot continues.
+<s>There is 90 second timeout, but I still don't feel like trying this with wireless host as I would have 90 seconds longer boot time in new
+environments.</s>
+
+*Update on 2015-06-07: on wireless hosts I am using Network Manager and
+it appears that `NetworkManager-wait-online.service`
+(`systemctl enable NetworkManager-wait-online.service)` works well
+and I shouldn't be in new environments so often that the 90 seconds timeout
+would cause more harm than good.*
 
 Currently the only thing using network.target for me is Reflector service
 from Archwiki which updates mirrorlist with the fastest last synced mirrors
