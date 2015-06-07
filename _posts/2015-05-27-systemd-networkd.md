@@ -67,6 +67,9 @@ says, you must use systemd-resolved for the DNS settings to do anything,
 but that is easy, just run as root (or prefix all three commands
 with `sudo`):
 
+*update on 2015-06-07: to use NTP, you use systemd-timesyncd which is
+enabled with `timedatectl set-ntp true`.*
+
 ```
 systemctl enable systemd-resolved && systemctl start systemd-resolved
 ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
