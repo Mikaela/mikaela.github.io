@@ -27,6 +27,7 @@ links.*
     * [Keep the ops opped]({% post_url 2015-04-01-keep-the-ops-opped %})
     * [IRC over TLS is not pointless.]({% post_url 2015-04-22-IRC-over-TLS %})
     * [Forming irc:// or ircs:// links]({% post_url 2015-05-18-ircs_links %})
+    * [Making channel secret or private]({% post_url 2015-06-08-private_secret_channels %})
 * Oper
     * [Channels & Hostmask groups: A Basic howto]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
     * [Stay away from Anope IRC Services]({% post_url 2015-03-12-stay-away-from-anope %})
