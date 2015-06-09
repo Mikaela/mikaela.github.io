@@ -32,8 +32,10 @@ SSL like you should.
 Then simply set your username and password
 
 ```
+/unset irc.server.NETWORK.sasl_mechanism
 /set irc.server.NETWORK.sasl_username REGISTERED_NICKNAME
 /set irc.server.NETWORK.sasl_password PASSWORD
+/save
 ```
 
 *Replace NETWORK with the name of network that you have in WeeChat, for
@@ -49,7 +51,10 @@ Change your address to use SSL port and enable SSL for the network:
 ```
 /set irc.server.freenode.addresses chat.freenode.net/6697
 /set irc.server.freenode.ssl on
+/save
 ```
+
+*Note: SSL does nothing until you `/reconnect`*
 
 *6697 is the [standard SSL port](https://tools.ietf.org/html/rfc7194).*
 
