@@ -20,7 +20,8 @@ mlock them with `/msg chanserv help set mlock`.
 * +p — depending on the network does the same, but on some networks such as
   freenode hides the channel only from whois (of those people who are umode
   -i). Keep in mind that you always see channels that you are on or share
-  with other people in whois.
+  with other people in whois. +p also prevents `/knock` (which is command
+  to request invite to the channel) on some IRCds.
 
 Other nice modes that you may be interested in are:
 
