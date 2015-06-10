@@ -42,6 +42,7 @@ links.*
 * ZNC
     * [ZNC 1.6.0 & SSL certificate verification]({% post_url 2015-02-24-znc160-ssl %})
     * [My config]({% post_url 2015-04-01-my-znc-config %})
+    * [Installing ZNC on Ubuntu using PPA]({% post_url 2015-05-10-znc-ubuntu %})
 
 * * * * *
 
