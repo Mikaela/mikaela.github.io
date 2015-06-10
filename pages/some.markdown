@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Links
-permalink: /links/
-excerpt: "Links to my online accounts around the web and some referral links. Social media, FOSS, forums…"
+title: SOME
+permalink: /some/
+redirect_from: /links/
+excerpt: "Links to my SOcial MEdia accounts and other accounts around the internet."
 ---
 
 * [Bitbucket](http://bitbucket.org/Ciblia)
     * very silent, I am more active with GitHub…
-* [Facebook](https://facebook.com/mikaelahmsuomalainen) 
+* [Facebook](https://facebook.com/mikaelahmsuomalainen)
     * I only previously accepted friend requests from people I knew
       anywhere like IRC, but I have moved to just accepting all requests
       as long as I have some kind of idea on the person and they seem sane.
