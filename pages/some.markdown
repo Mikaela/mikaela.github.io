@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Social Media
+title: Social media
 permalink: /some/
 redirect_from: /links/
 excerpt: "Links to my SOcial MEdia accounts and other accounts around the internet."
