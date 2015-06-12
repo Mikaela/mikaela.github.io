@@ -29,6 +29,11 @@ other ops can revert whatever was done.
 
 But there is still the question *what is an attack*?
 
+*Attack is a deliberate attempt to hurt someone* which again is unclear,
+but so I am told and I must probably use my judgement on it which again
+can results to mistakes, but those are reversible by other ops.
+
+<s>
 Trying to analyze logs of the previous case this happened, it looks like
 attack is at least:
 
@@ -43,15 +48,22 @@ attack is at least:
 * talking like the attacked one was attacking them
 
 * *additions welcome*
+</s>
 
 Attack seems to also be when the attacked one communicates being
 uncomfortable (which should be done clearly, but do they always remember
-that) or when third party tells the people to calm down, but other party
-still continues. I think the usual three warnings policy can be implemented
-here.
+that instead of getting defensive) or when third party tells the people to
+calm down, but other party still continues. <s>I think the usual three
+warnings policy can be implemented here.</s>
+
+One way to express uncomfortability or feeling attacked would be for
+example saying "I think that is disrespectful" or "I feel you are attacking
+me".
 
 Further reading would be the two policies from freenode and I currently
 don't feel like commenting them further as my opinions are known.
 
 * [Freenode's catalysts policy](https://freenode.net/catalysts.shtml)
 * [Freenode's channel guidelines](https://freenode.net/channel_guidelines.shtml)
+
+*Reviewed on 2015-06-12T08:51+0300 based on what others commented to me.*
