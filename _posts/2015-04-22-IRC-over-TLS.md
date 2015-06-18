@@ -15,6 +15,11 @@ cannot affect at all. SSL is pointless, because of [POODLE].*
 I use IRC over TLS on all networks that support it (=other than IRCnet)
 and I also [verify the certificates]. TLS is used
 
+*Update on 2015-06-18: I was told that IRCnet does have SSL on
+ssl.irc.atw-inter.net and ssl.rfc1459.ca, but server links are mostly
+unencrypted. I am not able to use those though as Finnish channels are
+mostly stupid and letting people only in from Finnish servers.*
+
 * between my client and bouncer
     * when they both are on localhost it's not used and my bouncer only
       listens for plain text connections only on `127.0.0.1` and `::1`.
