@@ -18,7 +18,7 @@ another popular fork, [Gribble].
 
 My role with [Limnoria] was Finnish translator and IRC support and I also
 made minor changes to make some default configuration variables more sane.
-Most of documentation since [Supybot] and before my leaving are also
+Most of [documentation] since [Supybot] and before my leaving is also
 written by me.
 
 * [Blog: Leaving Limnoria]({% post_url 2015-03-25-leaving-bots-life %})
@@ -27,6 +27,7 @@ written by me.
 [Supybot]:https://github.com/Supybot/Supybot
 [Limnoria]:https://github.com/ProgVal/Limnoria
 [Gribble]:https://github.com/nanotube/supybot_fixes
+[documentation]:https://limnoria-doc.readthedocs.org/en/latest/
 
 ## Usage
 
@@ -34,7 +35,7 @@ written by me.
 
 Use `list` command to get list of plugins, `list <plugin>` to get list of
 commands in plugin, `help <plugin> <command>` to get usage instructions
-for \<command\> in \<plugin\>.`
+for \<command\> in \<plugin\>.
 
 If the bot tells you `(X more messages)`, use the `more` command to see
 more output.
@@ -66,7 +67,7 @@ Requirements for getting account:
         * identd
 
 
-## Identifying
+### Identifying
 
 The bot requires users to have password, but I always set the password
 as something from pwgen as I primarily identify users based on NickServ
