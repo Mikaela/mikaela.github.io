@@ -106,3 +106,25 @@ The bot also has `ops` command for getting op attention, but it requires
 correct prefix to be used, check
 `/msg <bot> config channel <#channel> reply.whenaddressedby.chars`. The
 prefix can be different on different channels.
+
+## Issues you may encounter
+
+*For all known issues [see issue tracker of ProgVal/Limnoria](https://github.com/ProgVal/Limnoria/issues)
+this section only lists those that you are likely to see or that others
+have asked about from me.*
+
+* [Title is only told for the first link in a message](https://github.com/ProgVal/Limnoria/issues/152)
+* [Some commands using hostmasks behave weirdly](https://github.com/ProgVal/Limnoria/issues/281)
+* [Users cannot log out](https://github.com/ProgVal/Limnoria/issues/461)
+    * no idea why they would want to do that though.
+* [There is no way to add capabilities to group of users](https://github.com/ProgVal/Limnoria/issues/471)
+* [Users cannot change their usernames](https://github.com/ProgVal/Limnoria/issues/616)
+    * so ping me instead if you need it changed
+* [Meta descriptions for links aren't told](https://github.com/ProgVal/Limnoria/issues/650)
+    * these could be useful with news sites.
+* [DNS command doesn't mention CNAMEs/ALIASes](https://github.com/ProgVal/Limnoria/issues/864)
+* Internet whois is quite broken [1](https://github.com/ProgVal/Limnoria/issues/993) [2](https://github.com/ProgVal/Limnoria/issues/994)
+* [html/javascript redirects aren't followed](https://github.com/ProgVal/Limnoria/issues/1120)
+    * you will especially see this if you encounter links to my
+      "URL shortener"
+* [RSS: no announced feeds in web interface](https://github.com/ProgVal/Limnoria/issues/1085)
