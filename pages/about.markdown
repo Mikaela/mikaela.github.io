@@ -16,6 +16,8 @@ On this page I am trying to explain myself more or those things that you
 might wonder in my self-description. Some things that I explain here may
 overlap with different features.
 
+*For more material about these things, please see [GRSM links](/links2).*
+
 ## GirlsLikeUs — I am trans woman
 
 It simply means that I was incorrectly defined as boy at birth which I
@@ -37,25 +39,10 @@ things like that and I know this is who I am.
 It's also not very nice when you separate sex and gender by saying "your
 gender can be female, but you are always biologically male" and it has
 been noted multiple times that gender is biological.
+*[GRSM links](/links2)*
 
-* 2015-02-13: [Review article provides evidence on the biological nature
-  of gender identity](http://medicalxpress.com/news/2015-02-article-evidence-biological-nature-gender.html)
-* 2015-02-18: [Sex redefined](http://www.nature.com/news/sex-redefined-1.16943?WT.mc_id=FBK_NatureNews)
-    * *"So if the law requires that a person is male or female, should
-      that sex be assigned by anatomy, hormones, cells or chromosomes, and
-      what should be done if they clash? “My feeling is that since there
-      is not one biological parameter that takes over every other
-      parameter, at the end of the day, gender identity seems to be the
-      most reasonable parameter,” says Vilain. In other words, if you want
-      to know whether someone is male or female, it may be best just to
-      ask."*
-* 2015-03-03: [Gender Identity is Biological, Study Says](https://gma.yahoo.com/gender-identity-biological-study-says-090824140--abc-news-health.html)
-
-<!--
-* https://archive.today/tbCsx
-* https://archive.today/UBxOV
-* https://archive.today/qb7d5
--->
+*I feel this part doesn't transmit how being trans feels and some things
+should possibly be mentioned here...*
 
 ## AS - Asperger's Syndrome
 
@@ -65,6 +52,22 @@ for me to speak if I try to look into your eyes at the same time, so I am
 not trying to be impolite or anything, it's just easier to not look at you
 while I speak. Same applies to understanding your speaking.
 
+*This paragraph is stub -.-*
+
+## Ace
+
+I am demiromantic asexual. That means that I
+
+* can feel romantic attraction when I have formed close emotional bond
+  with someone regardless of gender.
+* don't feel sexual attraction.
+* can feel aesthetic attraction though.
+
+The Ace of Diamonds (🃁) that you can see in my biography is asexual slang
+and means *demiromantic asexual* or *demisexual*.
+
+*I feel I should type something more here, but I have no idea what...*
+
 ## Feminist
 
 I support equal rights for everyone and the right of self-definition (or
@@ -72,6 +75,8 @@ not requiring anyone to define themselves). Everyone should also be the one
 to choose what they do with their body (abortion, gender transition etc.)
 freely without complicated researchs and other people or society judging
 them.
+
+*This is basicaly everything, but shouldn't I also say something more?*
 
 ## Linux user
 
@@ -84,11 +89,23 @@ I have experience with [Fedora] and other distributions from that side too
 and I am not entirely lost while using them, but somehow I have always
 preferred Debian side. Maybe it's just that I have learned to use it.
 
+Lately I have also been using [Antergos] which is [Arch Linux] with one
+additional repo for things such as fonts and yaourt. I have always
+performed base install (no desktop environment with it) as I don't like
+the customizations that are made to desktop environments if I install them
+directly in installer. I use [MATE] as desktop environment and [SDDM]
+as display manager.
+
 [Ubuntu]:http://www.ubuntu.com/desktop
 [Ubuntu MATE]:https://ubuntu-mate.org/
 [Ubuntu Server]:http://www.ubuntu.com/server
 [Debian]:https://www.debian.org/
 [Fedora]:https://getfedora.org
+[Antergos]:http://antergos.com/
+[MATE]:http://mate-desktop.org/
+[SDDM]:https://github.com/sddm
+
+*Hah, this is the only part of the page I feel is enough descriptive...*
 
 * * * * *
 
