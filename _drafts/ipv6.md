@@ -39,7 +39,7 @@ connecting from single address and it can also increase latencies).
 
 IPv6 again is next version of the Internet Protocol and has enough
 addresses for all your devices and you don't need NAT anymore so you don't
-have to do port forwards (which didn't help you behing CGN anyway) anymore.
+have to do port forwards (which didn't help you behind CGN anyway) anymore.
 
 People have weird worries with it and many misunderstandings on privacy
 concerns.
@@ -52,7 +52,12 @@ be worried about how they can be used for spying you across the network.
 This is unrequired concern though as IPv6 privacy extensions should exist
 with all IPv6 capable systems (again including Windows which seems to be
 what people worry about the most). The privacy extensions generate random
-IPv6 address which has no MAC-address and is changed every few hours.
+IPv6 address which has no MAC-address and is changed over time.
+
+Antergos and Ubuntu MATE (and other Linux distributions?) seem to change
+it every 24 hours (controlled by `net.ipv6.conf.default.temp_prefered_lft`)
+and I believe it also gets changed by reconnecting to network or rebooting
+the system.
 
 On your IPv6-enabled system you should see three addresses:
 
