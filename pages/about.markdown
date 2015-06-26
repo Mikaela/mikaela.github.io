@@ -107,6 +107,18 @@ as display manager.
 
 *Hah, this is the only part of the page I feel is enough descriptive...*
 
+# Life
+
+This link list to life post on my blog shouldn't be here, but it has no
+better place, so where else should it be?
+
+* [2015-03-25: Leaving bot communities & a little on my life]({% post_url 2015-03-25-leaving-bots-life %})
+* [2015-04-03: Scum]({% post_url 2015-04-03-scum %})
+    * [2015-04-01: Saasta]({% post_url 2015-04-01-saasta %})
+* [2015-05-18: Somewhat more on my life & untold background of bots]({% post_url 2015-05-18-life-bot-background %})
+* [2015-06-16: Feelings and wounds of school bullying]({% post_url 2015-06-16-feelings %})
+
+
 * * * * *
 
 *Please keep in mind that everything in this page is just my opinion and
