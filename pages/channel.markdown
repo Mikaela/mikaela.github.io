@@ -8,10 +8,10 @@ redirect_from: /channel.en.html
 
 **[Suomeksi](channel.fi.html)**
 
-Rules of my IRC channels that may or may not exist with multiple names
-in multiple networks.<br/>The channels which use these rules should link
-to this page in ENTRYMSG (or other automatic msg by bot) or topic. Channel
-URL is not so good as many clients hide it somewhere.
+Rules of channel X in network Y.<br/>The channels which use these rules
+should link to this page in ENTRYMSG (or other automatic msg by bot) or
+topic. Channel URL is not so good as many clients hide it somewhere (which
+actually happens with everything else than topic)
 
 *[More about my bot (which might or might not be on this channel) here.](bot.html)*
 
@@ -24,6 +24,8 @@ URL is not so good as many clients hide it somewhere.
     * Clearly tell when links aren't safe for everyone by prefixing them
       with `[NSFW]` or similar.
     * Respect boundaries, don't PM people without asking first.
+        * *You may PM ops or ops may PM you if it's required for solving
+          potential channel issue peacefully.*
 * Don't log the channel publicly.
 * Don't bring bots to the channel without asking ops first.
 
@@ -47,6 +49,8 @@ Furher reading:
 
 Changelog ([at GitHub](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.markdown)):
 
+* 2015-06-28: more generalization & clarifying on PMing (on respecting
+  boundaries)
 * 2015-05-07: make getting help from ops a little more clear
 * 2015-05-03: add TL;DR to meta description & remove weird feeling line &
   fix language & Finnish translation
