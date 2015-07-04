@@ -5,7 +5,8 @@ title: "Chat"
 excerpt: "Webchat of my IRC channel."
 ---
 
-You must be registered to freenode IRC network for joining the channel.
+You must (usually) be registered to freenode IRC network for joining the
+channel (in order to reduce spam).
 * If you are registered, please write your registered nickname as Nickname
   and check the `I have a password` box and write your password to the
   `Password` box.
