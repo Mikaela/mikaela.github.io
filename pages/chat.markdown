@@ -3,6 +3,7 @@ layout: page
 permalink: /chat.html
 title: "Chat"
 excerpt: "Webchat of my IRC channel."
+redirect_from: /webchat.html
 ---
 
 You must (usually) be registered to freenode IRC network for joining the
