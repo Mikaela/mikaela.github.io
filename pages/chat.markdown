@@ -16,8 +16,8 @@ channel (in order to reduce spam).
   `VERIFY secretcode` from there and type `/join ##Mikaela` and you are on
   the channel and can use the above instructions next time.
 
-**Important: [channel rules]({ site.url }/channel)** and
-[a little about the bot]({ site.url })/bot).
+**Important: [channel rules]({{ site.url }}/channel)** and
+[a little about the bot]({{ site.url }}/bot).
 
 <iframe src="https://kiwiirc.com/client/chat.freenode.net:+6697/##Mikaela" style="border:0; width:100%; height:450px;"></iframe>
 
