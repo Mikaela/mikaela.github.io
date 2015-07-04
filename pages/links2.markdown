@@ -18,9 +18,7 @@ random and [improvements are welcome here.](https://github.com/Mikaela/mikaela.g
 
 ## IRC channels
 
-* Minority-specific
-    * [##asexuality at freenode](ircs://chat.freenode.net:6697/##asexuality)
-        * [webchat](https://kiwiirc.com/client/chat.freenode.net:+6697/##asexuality)
+<!-- * Minority-specific -->
 * All GRSM (Gender Romantic Sexual Minority) people
     * [##abgilpqt+ at freenode](ircs://chat.freenode.net:6697/##abgilpqt+)
         * [rules](https://abgilpqt.github.io)
