@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Extracting anxiety: black cdays of ##abgilpqt+"
+title: "Extracting anxiety: black days of ##abgilpqt+ to todays anxiety"
 category: [english]
 tags: [english]
 ---
@@ -26,7 +26,7 @@ tags: [english]
 
 > I also have no idea what they wish me to do with the original channel as the website for it starts by "We are a channel for gender, romantic and sexual minorities. Other people are also welcome to join and read, but keep in mind that they are a guest to our space." Maybe they want us to kban all cis hetero people and require everyone to be out as GRSM on the channel.
 
-> * The policy: https://mikaela.info/…/20…/06/11/trying-to-be-better-op.html 
+> * The policy https://mikaela.info/english/2015/06/11/trying-to-be-better-op.html
 
 > * The first channel: https://abgilpqt.github.io/ 
 
@@ -1608,8 +1608,735 @@ There was also afterwards removed blog post that has since been removed: https:/
 2015-04-09 15:33:45		[Mikaela back: gone 00:56:53]
 ```
 
-## yyyy-mm-dd ##asexuality
+## 2015-06-18 ##asexuality
 
-### yyyy-mm-dd to todays anxiety
+```
+[00:34:35] *** Quits: Lilac` (IaiLwM@cpc22-maid5-2-0-cust177.20-1.cable.virginm.net) (Remote host closed the connection)
+[01:51:41] <ProPuke> The app has been approved!
+[01:51:45] * ProPuke dances with Mikaela
+[01:53:03] * ProPuke bops cptmashek and alicesrainbow on the head
+[01:53:12] <cptmashek> Nya?
+[01:53:29] <ProPuke> HELLO!
+[01:53:33] <cptmashek> Hello ProPuke! 
+[01:53:47] <ProPuke> you new? :o
+[01:53:57] <cptmashek> Oh uh
+[01:53:59] *** cptmashek is now known as tenach
+[01:54:02] <ProPuke> ahh
+[01:54:10] * ProPuke bops tenach on the head again
+[01:54:10] <tenach> It keeps putting me back to that. :[
+[01:54:25] <tenach> Fixed
+[01:54:26] <tenach> xD
+[01:54:47] <tenach> Oh good, at least I remembered to group the nicks.
+[01:55:10] <tenach> How're you doing, ProPuke?
+[01:55:24] <ProPuke> I'm okay
+[01:55:25] <ProPuke> generally
+[01:55:26] <ProPuke> you?
+[01:56:05] <tenach> Ah, I'm doing generally well, which feels odd. xD
+[01:56:29] <ProPuke> :P
+[01:56:43] <tenach> Like, I'm not sick for the first time in ~8 months.
+[01:56:54] <tenach> I feel so happy and alive and I can breathe. ><
+[01:57:09] <tenach> Glorious oxygen for my poor body.
+[01:57:15] <ProPuke> these.. these are all good things
+[01:57:22] <tenach> XD
+[01:57:22] <ProPuke> was oxygen a previous problem?
+[01:57:40] <tenach> Lack of being able to breathe. Terrible congestion in my entire respiratory system.
+[01:57:53] <tenach> When I get sick, I get *really* sick. :(
+[01:57:54] <ProPuke> ahh
+[02:04:19] <ProPuke> we need to make a sacrifice to the gods
+[02:05:06] <ProPuke> hmm.. speaking of which, where's our fire-breathing dragon gone?
+[02:06:09] <ProPuke> (libbies)
+[02:06:33] *** Joins: gigglyfluff (~giggles@99-26-112-234.lightspeed.tukrga.sbcglobal.net)
+[02:06:33] *** ChanServ sets mode: +v gigglyfluff
+[02:18:19] *** Quits: gigglyfluff (~giggles@99-26-112-234.lightspeed.tukrga.sbcglobal.net) (Ping timeout: 255 seconds)
+[03:27:24] *** Joins: Euryale (~Euryale@unaffiliated/euryale)
+[03:27:37] <Euryale> Hello
+[03:27:49] * Euryale looks around and sees a couple of friendly faces
+[03:29:04] <ubsky> Hi 
+[03:31:39] <Euryale> I'm really worried about being alone
+[03:32:26] <Euryale> I have a partner but then medical /stuff/ happened and I lost all interest in sex and...
+[03:32:31] <Euryale> yeah...
+[03:33:05] <ubsky> I am not the person to ask :P
+[03:33:21] <ubsky> There are other people here who can help though 
+[03:33:21] <Euryale> aro?
+[03:33:22] <ubsky> Maybe 
+[03:33:44] <Euryale> see, that's the thing, too
+[03:34:10] <Euryale> my doctor can do things that should bring back my sexuality but I'm not sure if I /want/ that
+[03:35:13] <Euryale> but I do want companionship and I'm afraid of being alone and I feel like I really need the stability of a romantic relationship esp. since I'm disabled and I can't always take care of myself
+[03:37:01] <ubsky> I'm in the opposite situation and I guess I'm trying not to think about it 
+[03:37:29] <Euryale> oh, that really sucks
+[03:37:31] <ubsky> So I'll just leave for a bit 
+[03:37:48] <Euryale> I don't want to make you feel unsafe here or unwelcome
+[03:37:57] <ubsky> Yeah, I'll be back 
+[03:38:01] *** Quits: ubsky (~olligobbe@unaffiliated/olligobber) (Quit: Brb)
+[03:41:21] <Euryale> IDK what to do
+[03:45:04] <Euryale> stariae, are you there?
+[03:48:13] *** Joins: ubsky (~olligobbe@unaffiliated/olligobber)
+[03:48:13] *** ChanServ sets mode: +v ubsky
+[03:48:25] <ubsky> Ok, I sorted myself out 
+[03:49:12] <Euryale> ah, very good
+[03:49:25] <ubsky> Mostly 
+[03:49:33] <Euryale> that must be very frustrating
+[03:50:19] <ubsky> It's my depression making everything worse 
+[03:53:57] * ProPuke offers ubsky a hug
+[03:54:11] * ubsky hugs ProPuke 
+[03:54:44] <ubsky> Thanks 
+[03:55:37] <ProPuke> Euryale: do you feel like the sexual component is an important one to your relationship?
+[03:56:36] <Euryale> for me? no
+[03:56:47] <ProPuke> I mean you need mention it, but then trail off. I'm just wondering what the blanks are in between
+[03:56:56] <Euryale> I mean... some form of physical intimacy is, I suppose
+[03:57:13] <Euryale> but I'm still more than happy to cuddle and kiss and hold each other and all that stuff
+[03:57:31] <ProPuke> But for them?
+[03:57:51] <Euryale> they say they're okay but I worry that they're ignoring their own feelings because they don't want to lose me
+[03:58:43] <ubsky> Euryale: you're describing my girlfriend's situation 
+[03:58:48] * Euryale nods gently
+[03:59:37] <Euryale> I'm also afraid that if this relationship fails and I start another relationship with an asexual person and then for whatever reason my medical situation changes and I become sexual again...
+[03:59:48] <ubsky> But don't base your decision off me, your partner is probably different 
+[04:00:56] <ProPuke> Euryale: sounds like you do a lot of worrying
+[04:01:08] <Euryale> like... if it wasn't for the fear of being alone and my need for companionship I'd just be like 'fuck this, I'm done and good riddance' when it comes to sex but...
+[04:01:17] <Euryale> I /do/ do a lot of worrying
+[04:03:40] <ProPuke> Well, if you got thoughts and worries to get off your chest you're best talking through then with your partner
+[04:03:50] <ProPuke> *them
+[04:04:23] <ubsky> Depending on available services trained counsellors can help a lot 
+[04:04:46] <ProPuke> Being in a relationship because you're worried about being alone doesn't sound healthy to me, but hopefully that's not the only reason :P
+[04:05:20] <Euryale> of course not
+[04:05:23] <Euryale> I love my partner <3
+[04:05:27] <ProPuke> Heh
+[04:05:33] <ProPuke> Good to hear
+[04:05:42] <Euryale> and yeah, I have been talking with my partner about this stuff
+[04:05:48] <Euryale> mind if I stay?
+[04:06:16] <ubsky> Mostly this channel is full of quiet people 
+[04:06:30] <ProPuke> More the merrier
+[04:06:51] <ubsky> I don't mind 
+[04:06:56] * Euryale smiles gently
+[04:07:04] <Euryale> I love the cards in the topic
+[04:07:36] <ProPuke> Heh. You can thank Mikaela for that
+[04:19:05] <Triplefox> Hello
+[04:20:46] <ProPuke> Rawr Triplefox 
+[04:20:55] <Triplefox> Rawr
+[04:22:01] <ubsky> Meow 
+[04:23:04] <Euryale> hello
+[04:23:13] * Euryale yaps
+[04:23:45] <Euryale> I actually bark like a dog, IRL, because of disabilities
+[04:23:53] <Euryale> not all the time
+[04:23:56] <Euryale> ... though I used to
+[04:24:25] <Triplefox> I'm the quiet type, usually
+[04:25:15] <Euryale> ... that's one of the reasons I chose my nick. Euryale was renowned for her screams and shouts
+[04:38:13] *** Joins: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net)
+[04:38:14] <ProPuke> Heh
+[04:39:18] <ProPuke> Sleepy time!
+[04:41:17] <Triplefox> Nini ProPuke
+[04:41:49] <Triplefox> How goes Sennkestra
+[04:41:53] <ProPuke> o/
+[04:55:30] <tenach> Back.!
+[04:57:14] <Triplefox> Hi tenach
+[04:57:28] <tenach> How are you Triplefox?
+[04:57:46] <Triplefox> Pretty good, chilling after workout
+[04:58:21] <Triplefox> Got an interview tomorrow
+[05:01:19] <Triplefox> I am way more excited than anxious about this one
+[05:02:08] <Euryale> what kind of interview?
+[05:02:11] <Euryale> is it nervewracking?
+[05:03:23] <Triplefox> It's a casual game company looking for a studio lead... kind of a big position, but I tick a lot of the necessary boxes for experience
+[05:03:58] <Triplefox> The recruiter might use me to try to get other leads, that hasn't been clarified
+[05:04:20] <Euryale> oh wow, good luck!
+[05:04:27] <Triplefox> But either way it sounds like it will be interesting
+[05:05:18] <Triplefox> The studio is Funplus, they are hq'd in China...And their one big game to date is a Farmville clone
+[05:05:18] <tenach> Best of luck. :3
+[05:05:45] <Triplefox> Apparently they have funding to scale up and do new products
+[05:06:00] <tenach> I've seen their zombie game
+[05:06:46] <Triplefox> I guess I should do some more research
+[05:19:57] <Sennkestra> hihi
+[05:20:22] <Sennkestra> oh wow, good luck tomorrow!
+[05:21:16] <Triplefox> Thanks
+[05:22:53] <Triplefox> This farmville clone is well made but it's a terrible fit for mobile...too many interaction methods all at once
+[05:23:48] <Triplefox> I guess it's more for people who already play the Facebook version
+[07:10:24] <Mikaela> morning
+[07:18:18] <Triplefox> evening
+[07:59:00] <Mikaela> Euryale: would you like to apologize about your previous attack?
+[07:59:00] <Mikaela> znc-lokit/freenode/##abgilpqt+/2015-04-09.log:[01:56:17] <Euryale> you co-founded a channel for gender and sexual minorities yet you don't identify as a gender, or sexual minority even though you /are/
+[07:59:00] <Mikaela> I co-founder here too and I have issue with you imagining that you can decide that my identity as trans girl and demiromantic asexual is invalid on this pasted line.
+[08:03:21] *** Joins: nux_ (~nux@201-8-135-175.user.veloxzone.com.br)
+[08:03:35] *** Quits: nux_ (~nux@201-8-135-175.user.veloxzone.com.br) (Quit: Leaving)
+[08:28:06] <Euryale> Mikaela: I wish you'd drop it. And for the record I don't like being quoted out-of-context. For the record, I still have an issue with you running queer channel that marginalizes queer people in the name of being accepting of straights.
+[08:29:24] -ChanServ- Mikaela added Euryale to the AKICK list.
+[08:29:24] *** ChanServ sets mode: +b *!*@unaffiliated/euryale
+[08:29:24] *** Euryale was kicked by ChanServ (Banned: Deciding identities of other people for them ignoring the people entirely.)
+[08:31:24] <Mikaela> no idea what that means as the channel in question says "We are a channel for gender, romantic and sexual minorities. Other people are also welcome to join and read, but keep in mind that they are a guest to our space." <https://abgilpqt.github.io/>
+[08:31:25] <Dysforia> Title: ##abgilpqt+ @ freenode (at abgilpqt.github.io)
+[08:38:16] *** Joins: libbies (~libbies@unaffiliated/yeoz)
+[08:38:16] *** ChanServ sets mode: +o libbies
+[08:38:16] *** Dysforia sets mode: +o libbies
+[08:38:19] <libbies> rehi
+[08:38:26] <Mikaela>  hi
+[08:38:32] -ChanServ- libbies (yeoz) set flags +AOVeiortv on alicesrainbow
+[08:38:32] *** ChanServ sets mode: +o alicesrainbow
+[08:38:38] <Mikaela> we just had our first akick/kban earlier
+[08:38:44] <Mikaela> who is alicesrainbow ?
+[08:39:05] <libbies> why did you ban them?
+[08:39:14] <Mikaela>  https://zero.mikaela.info/?51f7d6084d39df03#4mGddcKxNZv23MeP8ML1YDR9y77JfX83+nXRyarncXA=
+[08:39:15] <Dysforia> Title: ZeroBin (at zero.mikaela.info)
+[08:43:27] <libbies> i have no idea what's going on there
+[08:43:42] <libbies> but i assume she didn't intend to invalidate your identity
+[08:43:49] <libbies> that's not something I could ever imagine her doing
+[08:44:06] <Mikaela> someone who attacked my identity elsewhere before came here and I asked them to apologize which they refused so I decided that the best action is to akick as my policy says.
+[08:44:55] <Mikaela> https://www.facebook.com/mikaelahmsuomalainen/posts/843811312380350 is more complete story which should probably have went to my blog instead
+[08:44:56] <Dysforia> Title: Kommentit (at www.facebook.com)
+[08:45:51] <libbies> in fact i read the line pretty much the opposite way
+[08:46:20] <libbies> the "even though you /are/" part
+[08:46:35] <libbies> you are those things, even if the externally it might not have been apparent
+[08:46:47] <libbies> so i think something might've been misunderstood?
+[08:47:33] <Mikaela> "you don't identify as"
+[08:47:33] <Mikaela> what gives them right to decide how I identify or don't as that is big lie
+[08:47:48] <libbies> i mean it still seems like a misunderstanding
+[08:48:17] <Mikaela> tell me how to read how I identify from "#GirlsLikeUs ♥ AS ♥ Feminist 🃁 Linux user since 2008 ♥ she/her/hers" which has had changes in those months but it has said #GirlsLikeUs since probably when I came out as trans
+[08:48:32] <libbies> well here's the thing
+[08:48:36] <Mikaela> I haven't still been apologized about attacking me and they didn't seem willing to do that
+[08:48:36] <libbies> she didn't have that context
+[08:48:41] <libbies> she followed someone else in
+[08:48:50] <libbies> and fell into the middle of something, iirc?
+[08:49:01] <libbies> can I apologize on her behalf?
+[08:49:07] <libbies> or let her back in so that she can apologize?
+[08:49:21] <Mikaela> even with no context, how could they make such claims?
+[08:49:21] <Mikaela> no and no
+[08:50:31] <Mikaela> I am very anxious about this and I feel suicide is better option again if my feelings are entirely ignored for someone who apparently thinks they are above everyone else and can decide who other people are for them
+[08:50:46] <stariae> i will say that just because things are on your site, that doesn't mean they're general knowledge. i've been here for a while and didn't even know you had a site until about fifteen minutes ago.
+[08:51:28] <libbies> again, it was just a straight up misunderstanding, something they can apologize for
+[08:52:11] <Mikaela> stariae: the attack happened on another channel where I am co-founder and they for whatever reason decided that I don't identify as trans girl or asexual without any reason
+[08:52:11] <Mikaela> libbies: I asked if they want to apologize and they said "no" ("I wish you'd drop it), dropping things won't help
+[08:52:30] <Triplefox> could we get more context for the original attack besides that one line
+[08:52:31] <Mikaela> this is like some people from https://mikaela.info/english/2015/06/16/feelings.html
+[08:52:32] <Dysforia> Title: Feelings or what is left unsaid about Kotkan keskuskoulu — Mikaela Suomalainen (at mikaela.info)
+[08:52:40] <Mikaela> Triplefox: sure, give me a moment
+[08:52:48] <libbies> Triplefox: it's more complex than logs can demonstrate unfortunately
+[08:52:58] <libbies> I was there, and there are a lot of hurt feelings all around
+[08:53:16] <Mikaela> Triplefox: may I suggeest you to read https://www.facebook.com/mikaelahmsuomalainen/posts/843811312380350 while waiting
+[08:53:18] <Dysforia> Title: Kommentit (at www.facebook.com)
+[08:53:35] <libbies> frankly any logs can only show a portion of the picture
+[08:54:06] <libbies> and really i'd prefer we didn't drag external drama into this channel
+[08:54:50] <Triplefox> i don't intend to reverse the decision, but i would like to know how mikaela thinks
+[08:56:30] <Mikaela> Triplefox: https://zero.mikaela.info/?da00feda882ea1c7#Td/eura66eIPCdQUWwXPNv/zQPpmWbGJVywGC3axcLI= https://github.com/Mikaela/mikaela.github.io/commit/711f4021dbabe56cf92ecca05a3caaf97a4804be
+[08:56:31] <Dysforia> Title: ZeroBin (at zero.mikaela.info)
+[08:57:24] <Mikaela> those are whole logs for two days and they appear to join on 22:01:28
+[08:59:59] <Triplefox> okay. that is some hot mess and i definitely don't want to be involved
+[09:00:22] <libbies> Triplefox: *nod*
+[09:00:56] <libbies> Mikaela: you know as well as I do that stuff happened external to the logs in the channel
+[09:01:17] <Mikaela> you want logs with pinkieval?
+[09:01:55] <Mikaela> those appear to be encrypted so I must find them elsewhere
+[09:01:58] <libbies> no
+[09:03:24] <Mikaela> https://zero.mikaela.info/?549a24abe4d091d8#8xIUULquIsVnRvbUxGP0XQYg8lYDKYkX8FqQfkILWUg=
+[09:03:25] <Dysforia> Title: ZeroBin (at zero.mikaela.info)
+[09:04:54] <Mikaela> we had already broken up like is said there but that still makes me cry
+[09:05:00] <libbies> i did not mean those logs
+[09:05:06] <Mikaela> why did you have to cheat me with whatever was their name?
+[09:05:15] <Mikaela> which logs?
+[09:05:15] <Mikaela> oh, foxiepaws of course
+[09:06:21] <Mikaela> https://zero.mikaela.info/?b4d5d6f622fc49e7#6anfsk77Zc81se/7OBJ9UGRdtzZb0Zelr2hvF2QUzLg=
+[09:06:22] <Dysforia> Title: ZeroBin (at zero.mikaela.info)
+[09:06:35] <libbies> sigh
+[09:06:47] <libbies> stop just linking logs, just stop
+[09:07:17] <libbies> and in fact, the stuff you share in those logs really don't help you
+[09:07:31] <Mikaela> Triplefox: that latest seems to be what you wanted, "but i would like to know how mikaela thinks"
+[09:07:57] <Mikaela> libbies: actually it does, it feels like I am finally getting these things out of me and people start hating me like they should and finally understanding how bad person I am
+[09:08:10] <libbies> jesus christ
+[09:08:14] <libbies> you're just depressed
+[09:08:48] <Triplefox> no, i kind of agree with that statement
+[09:08:52] <libbies> you are not a bad person, even if holding yourself hostage with threats of suicide is all sorts of fucked
+[09:08:57] <Triplefox> when i confess things i feel better about it
+[09:09:08] <libbies> seriously? can we not encourage self-loathing?
+[09:09:20] <libbies> it's straight up a symptom of depression/anxiety
+[09:09:20] <Triplefox> there's a difference
+[09:09:33] <libbies> *shake*
+[09:09:39] <libbies> it's one thing to recognize your flaws and work to fix them
+[09:09:51] <libbies> it's another to go on about how terrible you are and how unfixable your flaws are and why they make you horrible
+[09:10:10] <Triplefox> that's why i never respond to the latter
+[09:10:29] <Mikaela> I have no idea how to fix them, I have apologized to foxiepaws twice and I haven't seen kittengnu since then and I think they don't want to see me
+[09:10:48] <libbies> you keep doing this though
+[09:11:15] <libbies> throwing around threats of suicide around other suicide people is a massive trigger and it's the kind of thing people should rightfully avoid
+[09:11:20] <libbies> suicidal*
+[09:11:28] <Triplefox> that part, yeah, that i agree with
+[09:11:56] <Triplefox> it's bad for the space and i don't know what to do about it
+[09:13:22] <Mikaela> I don't know if I can affect it
+[09:35:22] -ChanServ- libbies (yeoz) set flags -Oeortv on alicesrainbow
+[09:35:22] *** ChanServ sets mode: -o+v alicesrainbow alicesrainbow
+[09:35:26] <libbies> <.<
+[09:35:30] <libbies> i set the wrong modes earlier
+[09:35:38] <libbies> why is the default not user ;__;
+[09:35:50] <Mikaela> what command did you use?
+[09:36:04] <Mikaela> it should just say "invalid arguments"
+[09:36:42] <libbies> --> /cs access ##asexuality add alicesrainbow
+[09:36:49] -ChanServ- libbies (yeoz) set flags +Oeortv on alicesrainbow
+[09:36:50] *** ChanServ sets mode: +o alicesrainbow
+[09:36:53] -ChanServ- libbies (yeoz) set flags -Oeortv on alicesrainbow
+[09:36:53] *** ChanServ sets mode: -o alicesrainbow
+[09:36:56] <libbies> yeah
+[09:37:01] <libbies> without any argument it makes them op
+[09:37:16] <Mikaela> weird, I have never used that command, but that doesn't sound like proper behaviour
+[09:37:37] <libbies> anyway i meant to do that --> /cs access ##asexuality add alicesrainbow user
+[09:37:40] <Mikaela> I just /cs flags ##asexuality whoever user
+[09:38:04] <libbies> i think that does the same thing?
+[09:38:12] <libbies> hmm
+[09:38:17] <libbies> idk, and i need to go to sleep
+[09:38:19] <libbies> nn
+[09:38:24] <Mikaela> it should, but I think access is some command from the past
+[09:38:24] <Mikaela> night
+[10:16:52] <alicesrainbow> morning - sorry if I caused any confusion here!
+[10:17:44] <Mikaela> morning, you did by becoming op without being known by me or any reason, but it's not your fault, it was Atheme misbehaving/
+[10:17:44] <Sennkestra> hihi
+[10:17:48] <Mikaela> cs help access
+[10:17:50] <Mikaela> ...
+[10:18:03] <Mikaela> I just thought if there is some default option somewhere
+[10:19:23] <Mikaela> haha, I see. The command is intented as quick way for managing ops
+[10:19:24] <Mikaela> 2015-06-18 10:17:57+0300 -- ChanServ: If the level field is specified, it specifies the
+[10:19:24] <Mikaela> 2015-06-18 10:17:57+0300 -- ChanServ: privileges to grant, see the FLAGS and TEMPLATE
+[10:19:24] <Mikaela> 2015-06-18 10:17:57+0300 -- ChanServ: help files. If not, the user will be given
+[10:19:24] <Mikaela> 2015-06-18 10:17:57+0300 -- ChanServ: privileges appropriate for day-to-day management
+[10:19:24] <Mikaela> 2015-06-18 10:17:57+0300 -- ChanServ: of the channel.
+[10:20:16] <alicesrainbow> no idea about any of that :) I'm ace and thought I'd check out the ace channel. hi! :)
+[10:20:44] <Mikaela> hi, welcome
+[10:21:53] <Triplefox> hello there
+[10:22:12] <Mikaela> today I learned http://www.damninteresting.com/the-association-of-the-dead/
+[10:22:14] <Dysforia> Title: The Association of the Dead • Damn Interesting (at www.damninteresting.com)
+[10:33:32] *** Quits: alicesrainbow (~ak@host31-53-136-56.range31-53.btcentralplus.com) (Quit: ZNC - http://znc.in)
+[10:37:46] *** Joins: alicesrainbow (~ak@host109-157-254-244.range109-157.btcentralplus.com)
+[10:37:46] *** ChanServ sets mode: +v alicesrainbow
+[10:56:30] *** Joins: ubskeur (~olligobbe@unaffiliated/olligobber)
+[10:56:30] *** ChanServ sets mode: +v ubskeur
+[12:11:23] *** Quits: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net) (Quit: Leaving.)
+[12:17:34] *** Quits: ubsky (~olligobbe@unaffiliated/olligobber) (Ping timeout: 252 seconds)
+[12:41:30] *** Joins: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net)
+[12:50:56] *** Quits: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net) (Ping timeout: 252 seconds)
+[12:51:39] *** Joins: gigglyfluff (~giggles@99-26-112-234.lightspeed.tukrga.sbcglobal.net)
+[12:51:46] *** ChanServ sets mode: +v gigglyfluff
+[13:07:27] *** Joins: ubsky (~olligobbe@unaffiliated/olligobber)
+[13:07:27] *** ChanServ sets mode: +v ubsky
+[13:43:49] *** Quits: gigglyfluff (~giggles@99-26-112-234.lightspeed.tukrga.sbcglobal.net) (Ping timeout: 272 seconds)
+[13:46:47] *** Joins: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net)
+[13:51:31] *** Quits: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net) (Ping timeout: 265 seconds)
+[14:47:23] *** Joins: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net)
+[14:51:56] *** Quits: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net) (Ping timeout: 252 seconds)
+[15:16:38] *** Joins: Jupiterian (~Jupiteria@95.146.91.214)
+[15:29:58] *** ChanServ sets mode: +v Jupiterian
+[15:47:58] *** Joins: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net)
+[15:52:43] *** Quits: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net) (Ping timeout: 256 seconds)
+[16:48:31] *** Joins: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net)
+[16:53:13] *** Quits: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net) (Ping timeout: 264 seconds)
+[17:10:22] *** Quits: ubskeur (~olligobbe@unaffiliated/olligobber) (Remote host closed the connection)
+[17:49:11] *** Joins: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net)
+[18:10:38] *** Quits: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net) (Quit: Leaving.)
+[18:11:22] *** Joins: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net)
+[18:11:45] *** Quits: Sennkestra (~Sennkestr@c-73-189-93-227.hsd1.ca.comcast.net) (Client Quit)
+[19:22:12] *** Joins: Lilac` (~IaiLwM@cpc22-maid5-2-0-cust177.20-1.cable.virginm.net)
+[19:22:12] *** ChanServ sets mode: +v Lilac`
+[21:19:26] *** Joins: Mikaela (mikaela@unaffiliated/mikaela)
+[21:21:06] *** ChanServ sets mode: +o Mikaela
+[21:21:14] *** Dysforia sets mode: +o Mikaela
+[21:21:14] *** Dysforia sets mode: +ov Mikaela Mikaela
+[21:21:14] *** Server sets mode: +Cgnt 
+[21:21:15] *** Server sets mode: +Cgnt 
+[23:28:42] *** Quits: Jupiterian (~Jupiteria@95.146.91.214) (Ping timeout: 265 seconds)
+```
+
+### 2015-06-30 to todays anxiety
+
+*This actually also takes in the previous day as I see nothing relevant in either day.*
+
+```
+==> 2015-06-29.log <==
+[00:48:11] <Ulrike> I am quite grumps today
+[00:52:07] <libbies> what:s wrong?
+[00:53:50] *** Quits: Lilac` (IaiL@cpc22-maid5-2-0-cust177.20-1.cable.virginm.net) (Remote host closed the connection)
+[00:59:29] <Ulrike> I've driven a total of 19 hours in the last 2 weekends. :p So I have driver grumps xD
+[01:00:17] <libbies> oic
+[01:11:05] <alicesrainbow> driving sucks where I live
+[01:23:37] *** Quits: AceofNope (~bekachu@50.44.232.214) (Quit: Leaving)
+[02:10:02] *** Joins: TheoryCat (user0000@unaffiliated/wye-naught/x-8734122)
+[02:10:02] *** ChanServ sets mode: +v TheoryCat
+[02:27:51] *** Joins: ubsky (~olligobbe@unaffiliated/olligobber)
+[02:27:51] *** ChanServ sets mode: +v ubsky
+[02:53:06] *** Quits: TheoryCat (user0000@unaffiliated/wye-naught/x-8734122) (Ping timeout: 265 seconds)
+[03:15:11] *** Joins: slacko225582 (~root@141-138-59-120.dsl.iskon.hr)
+[03:17:38] <slacko225582> what do you think about threesome sex
+[03:17:49] <slacko225582> is it unntaural?
+[03:21:52] *** Joins: ubskeur (~olligobbe@unaffiliated/olligobber)
+[03:21:52] *** ChanServ sets mode: +v ubskeur
+[03:32:34] <ProPuke> Why does natural matter?
+[03:33:23] <ProPuke> I like to think that as humans we're above all that nature malarkey :P
+[03:33:29] <slacko225582> because we come from nature
+[03:33:39] <ubskeur> ProPuke, https://www.youtube.com/watch?v=rsRXceiaIDY
+[03:33:40] <slacko225582> or do you think we come from god? 
+[03:33:40] <slacko225582> lol
+[03:33:42] <Dysforia> Title: Consumer Dictionary : Natural | The Checkout - YouTube (at www.youtube.com)
+[03:34:02] <ProPuke> I don't think it matters where we come from, in that context
+[03:34:26] <tenach> Hi hi!
+[03:34:51] <slacko225582> my question was: is threesome something that animals do? 
+[03:35:04] <slacko225582> i was offered threesome and i'm think weather to do it or not
+[03:36:22] <ProPuke> Well I wouldn't make decisions about whether to do things, based on whether animals do xD
+[03:36:36] <ProPuke> Animals do some pretty unrecommendable things :P
+[03:36:56] <ProPuke> I think the word "natural" is a misnomer here
+[03:37:31] <ubskeur> !def natural
+[03:37:35] <ubskeur> !define natural
+[03:37:36] <ubskeur> no
+[03:37:39] <ubskeur> bad bot :(
+[03:38:06] <ubskeur> "not made or caused by humankind" - not farmed, cut, or transported
+[03:38:24] <ubskeur> if it's in a shop, it's not natural
+[03:38:40] <slacko225582> there are no threesome shops :D
+[03:38:52] <ProPuke> being on theinternet is unnatural
+[03:38:52] <slacko225582> but i get your point, and i agree with you
+[03:39:06] <ubskeur> if it's a threesome with people, it was made by humankind and is not natural
+[03:39:25] <ubskeur> then again, that applies to all human activities
+[03:40:05] <ProPuke> are you comfortable with it? does it hurt anyone other people?
+[03:40:15] <ProPuke> if the answers are are mostly a yes and a no, you're fine
+[03:40:17] <ProPuke> go to town!
+[03:40:31] <ProPuke> -anyone
+[03:40:33] <slacko225582> i hope it won't hurt ME :d
+[03:40:38] <ProPuke> heh
+[03:41:24] <ProPuke> well take it slow if you do
+[03:41:30] <ProPuke> most things are better slower, anyway :P
+[03:42:22] <ProPuke> heh, ubskeur
+[03:42:43] <ProPuke> ahoy tenach o/
+[03:43:06] <tenach> How are you ProPuke? :3
+[03:43:47] <slacko225582> tenach, are you a girl?
+[03:43:47] <ProPuke> tired and slightly sweaty
+[03:44:05] <ProPuke> went out for a walk. was warmer than anticipated xD
+[03:45:25] <ProPuke> slacko225582: are you asexual or aromantic?
+[03:45:53] <ubskeur> I'm one of the reasons the topic says non aces are welcome
+[03:45:56] <ProPuke> heh
+[03:46:30] <ubskeur> though I didn't mean for it to end up there
+[03:46:31] <slacko225582> not sure what aromantic means
+[03:46:39] <ubskeur> sexual but not romantic?
+[03:46:47] <slacko225582> oh, that what i thought
+[03:46:58] <slacko225582> yeah, that would be me.
+[03:47:04] <ProPuke> heh
+[03:47:17] <ProPuke> interesting
+[03:47:18] <ubskeur> "An aromantic is a person who experiences little or no romantic attraction to others." - ace wiki
+[03:47:20] <tenach> ProPuke: Today is only slightly cooler than it has been... and we finally had a little bit of rain.
+[03:47:48] <ProPuke> ahh yeah, you're uk too aren't you?
+[03:48:04] <tenach> Nope. Northwestern contiguous USA.
+[03:48:10] <tenach> Similar weather, though.
+[03:48:12] <ProPuke> oh, lol
+[03:48:17] <ProPuke> getting people confused >.>
+[03:48:33] <slacko225582> in amsterdam similar weather
+[03:48:43] <ubskeur> I bet no one remembers where I'm from :P
+[03:48:55] <slacko225582> let me guess
+[03:49:01] <slacko225582> are you frome eu ?
+[03:49:04] <ProPuke> I'm gonna use up my guess again.. you're from the uk!
+[03:49:09] <ubskeur> both wrong
+[03:49:13] <ProPuke> aww
+[03:49:21] <ProPuke> I had a higher chance of being right that time
+[03:49:22] <slacko225582> asia?
+[03:49:23] <tenach> XD No worries ProPuke.
+[03:49:30] <ubskeur> define asia?
+[03:49:39] <slacko225582> east asia?
+[03:49:47] <ubskeur> still not sure
+[03:49:52] <slacko225582> japan?
+[03:49:57] <ubskeur> no
+[03:50:02] <slacko225582> am i at least close?
+[03:50:05] <ubskeur> yes
+[03:50:10] <slacko225582> korea?
+[03:50:10] <ubskeur> closer than eu
+[03:50:12] <ubskeur> no
+[03:50:14] <ProPuke> heh
+[03:50:19] <ProPuke> hmm..
+[03:50:23] <slacko225582> india?
+[03:50:24] <ProPuke> what about australiasia? :P
+[03:50:30] <ubskeur> ProPuke, yeah
+[03:50:34] <ProPuke> heh
+[03:50:34] <slacko225582> nice guess
+[03:50:38] <slacko225582> melbourne?
+[03:50:46] <ubskeur> tomorrow, yes
+[03:50:53] <ubskeur> today, no
+[03:50:55] <slacko225582> are you male of female?
+[03:51:06] <slacko225582> fellow traveler :D
+[03:51:19] <ubskeur> who cares
+[03:51:36] *** Quits: ubskeur (~olligobbe@unaffiliated/olligobber) (Read error: Connection reset by peer)
+[03:51:43] <ProPuke> aww
+[03:52:15] <slacko225582> anyone heard of croatia?
+[03:52:27] <tenach> Yep yep.
+[03:52:41] <slacko225582> been there?
+[03:52:44] <tenach> Not yet.
+[03:52:49] <slacko225582> i'm from croatia, but i live in amsterdam
+[03:54:03] <slacko225582> where are you from tenach
+[03:54:22] <tenach> I mentioned above already. I am in the United States.
+[03:54:52] <slacko225582> sry, i missed that
+[03:55:19] <ProPuke> did you move when you were young? what's amsterdam like in comparison?
+[03:55:22] *** Joins: ubsky[mob] (~olligobbe@unaffiliated/olligobber)
+[03:55:22] *** ChanServ sets mode: +v ubsky[mob]
+[03:55:32] <ProPuke> o/
+[03:57:33] <slacko225582> amsterdam compared to zagreb(capital of croatia) is like comparing new york to some little town in the middle of nowhere in texas 
+[03:57:44] <ProPuke> heh
+[03:57:58] <slacko225582> i moved when i turned 18. i'm on university here
+[03:58:03] <ProPuke> ahh
+[03:58:09] <ProPuke> must have been a bit of a shock
+[03:58:58] *** Quits: ubsky (~olligobbe@unaffiliated/olligobber) (Ping timeout: 248 seconds)
+[03:59:55] <slacko225582> sure, it was.but i lived in berlin untill age 6 so it was bigger shock for me when i moved to croatia 
+[04:00:13] <ProPuke> heh
+[04:00:16] <slacko225582> it's really beautiful county but so poor
+[04:00:19] <ProPuke> you've been around a bit, then
+[04:00:22] <ProPuke> :/
+[04:00:31] <slacko225582> and people are not as open minded as in western europe
+[04:00:47] <ProPuke> Mmm
+[04:00:50] <slacko225582> well, my parent moved a lot because of work
+[04:03:32] *** Joins: TheoryCat (wye_naught@unaffiliated/wye-naught/x-8734122)
+[04:03:44] *** Quits: slacko225582 (~root@141-138-59-120.dsl.iskon.hr) (Quit: Leaving)
+[04:03:46] *** ChanServ sets mode: +v TheoryCat
+[04:06:10] <ProPuke> meow TheoryCat
+[04:06:28] <TheoryCat> mew
+[04:06:30] <TheoryCat> Hey ProPuke 
+[04:12:15] <ProPuke> been up to much?
+[04:14:40] <TheoryCat> Not much. Just had a nap. 
+[04:14:53] <TheoryCat> You?
+[04:18:26] <TheoryCat> I also went to this meetup event where we practice giving a short speech.
+[04:18:45] <TheoryCat> I didn't realize that talking in front of people can be so nerve-wracking.
+[04:28:07] <ProPuke> heh
+[04:28:10] <ProPuke> sounds fun :P
+[04:28:15] <ProPuke> not much my end
+[04:28:36] <ProPuke> realised my tangent calculations aren't always correct, so reading up on that atm (yay, math -_-)
+[04:28:53] <TheoryCat> you're making a game? or a physics simulation?
+[04:29:52] <ProPuke> 3d engine
+[04:30:59] <ProPuke> but yeah - for normal mapping, noy physics
+[04:31:01] <ProPuke> *not
+[04:31:35] <TheoryCat> oh
+[04:31:47] <ProPuke> actually, it's probably the model that's wrong
+[04:31:52] <ProPuke> it's using flipped uv coords!
+[04:32:09] <ProPuke> I.. do not know how to counter that xD
+[04:33:17] <TheoryCat> Eh...geometry is confusing. I often confuse left and right.
+[04:33:22] <ProPuke> heh
+[04:33:29] <ProPuke> well this is basically the same thing xD
+[04:33:41] <TheoryCat> xD
+[04:35:24] <ProPuke> hmm
+[04:38:33] <ProPuke> I think.. that if one of the axis is mirrored, then if I recross the binormal and the tangent they will point opposite to the normal instead of toward, in which case I should flip one
+[04:38:48] <ProPuke> that sounds correct. maybe
+[04:40:29] <ProPuke> TheoryCat: you code @ all?
+[04:40:55] <TheoryCat> A little.
+[04:41:17] <TheoryCat> Nothing overly mathematical. 
+[04:41:39] <ProPuke> luckily I can justtry things until it looks good on the screen xD
+[04:41:55] <TheoryCat> I code mostly to process data and makes plots.
+[04:41:57] <ProPuke> I don't have to understand it too much, heh
+[04:42:03] <ProPuke> *nods*
+[04:42:18] <TheoryCat> Like multiplying matrices and calculating averages or smoothing signals.
+[04:42:28] <TheoryCat> MATLAB is nice :)
+[04:42:37] <ProPuke> that's not too far off, heh
+[04:42:49] <ProPuke> if they're 4x4 transform matrices :P
+[04:42:55] <TheoryCat> :o
+[04:43:34] <TheoryCat> Just two column vectors. Or a 3x3 matrix.
+[04:43:50] <ProPuke> 3d math is mainly just dotproducts, crossproducts, and 4x4 matrices. that's mostly it :P
+[04:43:51] <TheoryCat> I haven't dealt with tensors in a while, not since my mechanics and mechanical engineering courses.
+[04:44:00] <ProPuke> no idea what even is xD
+[04:44:15] <TheoryCat> Tensors describe physical properties with directions.
+[04:45:03] <ProPuke> so you can apply vector math to them?
+[04:45:08] <TheoryCat> Yeah.
+[04:45:34] <TheoryCat> For example, electron mobility (how fast an electron moves) is different along different directions in a crystal due to the arrangement of atoms.
+[04:45:42] <TheoryCat> You can describe electron mobility in a crystal using a tensor.
+[04:46:15] <TheoryCat> And then there are equations relating this to that, etc. And the math gets furry and hairy...
+[04:46:22] <TheoryCat> Matrices, matrices, everywhere!
+[04:46:23] <ProPuke> hmm.. sounds maybe like using a vector field?
+[04:46:31] <TheoryCat> Something like that.
+[04:46:33] <ProPuke> heh
+[04:46:49] <TheoryCat> It's been a while since I've taken an advanced materials/physics course. I forgot everything xD
+[04:47:26] <TheoryCat> I only use matrices to solve systems of equations now xD ... like a high schooler would.
+[04:47:38] <TheoryCat> pinv(M)*A in matlab.
+[04:47:41] <TheoryCat> lol
+[04:47:47] <ProPuke> *nods*
+[04:47:54] <ProPuke> I was never taught matrices @ school >.>
+[04:48:06] <ProPuke> the one major part of math I ended up needing
+[04:48:12] <TheoryCat> You can always learn it yourself.
+[04:48:27] <ProPuke> yeah, that's what ended up happening, heh
+[04:48:36] <TheoryCat> The only things you really need a school to learn are laboratory skills and people skills. Everything else is just reading textbooks and practice problems.
+[04:48:47] <ProPuke> they taught everything wrong, anyway
+[04:49:00] <TheoryCat> heh
+[04:49:19] <ProPuke> trig is about triangles eh? no it's bloody not
+[04:49:39] <TheoryCat> Oh...you mean high school math?
+[04:49:44] <ProPuke> yeah, heh
+[04:49:53] <ProPuke> I never bothered with anything past
+[04:50:23] <TheoryCat> Linear algebra course in university was fun. Proofs. Proofs. poooooooooof. And I never had to do a proof again.
+[04:51:03] <ProPuke> school put me off enough
+[04:51:03] <TheoryCat> ...until I went to grad school and took numerical analysis and PDE.
+[04:51:04] <ProPuke> tried about a month at college and left. bored to death
+[04:52:04] <TheoryCat> I'm thinking about switching to a coding career...engineering feels 'meh' for some reason...
+[04:52:16] <TheoryCat> I must be having a grass-is-greener syndrome.
+[04:52:27] <ProPuke> could be, heh
+[04:52:39] <ProPuke> for me I've only really got on with applied stuff
+[04:52:50] <ProPuke> otherwise it's boring
+[04:52:54] <ProPuke> and you don't learn when it's boring
+[04:52:54] <TheoryCat> I don't know...you guys can just build shit with bits.
+[04:53:05] <TheoryCat> We need to actually design and draft parts.
+[04:53:24] <TheoryCat> And I'm in an area that requires multi-million dollar equipment.
+[04:54:01] <ProPuke> you saying I don't design? :P
+[04:54:13] <TheoryCat> You do.
+[04:54:23] <TheoryCat> You just don't blow shit up when you screw up :p
+[04:54:30] <ProPuke> heh
+[04:54:43] <TheoryCat> Like the SpaceX explosion this weekend. "real engineering" gone wrong.
+[04:54:51] <ProPuke> once a bug in my code caused a kernel panic, and on reboot I'd lost my code xD
+[04:55:37] <ProPuke> and I may have accidentally taken a few servers down (not mine >.>)
+[04:55:47] <ProPuke> but yeah, heh. danger isn't too high :P
+[04:56:07] <TheoryCat> I must be a scaredy cat. I should switch to software lol
+[04:57:55] <TheoryCat> Anyway, I think I'm going to go get dinner...if I can only decide what to eat xD
+[04:58:44] <ProPuke> first test of new tangent calculations.. *segfault*
+[04:59:21] <ProPuke> I only changed vector math!
+[04:59:22] <ProPuke> good luck :S
+[05:02:38] *** Quits: ubsky[mob] (~olligobbe@unaffiliated/olligobber) (Read error: Connection reset by peer)
+[05:02:44] *** Joins: ubsky (~olligobbe@unaffiliated/olligobber)
+[05:02:44] *** ChanServ sets mode: +v ubsky
+[05:38:22] *** Joins: ubskeur (~olligobbe@unaffiliated/olligobber)
+[05:38:22] *** ChanServ sets mode: +v ubskeur
+[05:39:53] <ubskeur> o/
+[05:44:43] <ubskeur> I thought of something I forgot to pack and forgot it again...
+[05:52:00] <ProPuke> heh
+[05:52:29] <ProPuke> trying to preview the normal maps in blender bu it seems to preview them really weirdly with glsl shading
+[05:53:47] <ubskeur> "glsl shading"
+[05:53:56] <ProPuke> wrong channel, hah
+[05:54:02] <ubskeur> graphics library shader language shading
+[05:54:31] <ProPuke> blender has 2 shading modes for meshes in the editor view "multitexture" and "glsl"
+[05:54:40] <ProPuke> but yeah, reads weird xD
+[05:56:45] <ubskeur> ok, I'm satisfied that I remembered everything now
+[05:59:44] <ProPuke> and for some reason blender sets normal maps to objectspace by default, instead of texture
+[06:46:52] <ProPuke> I sleeps!
+[07:05:56] *** Parts: stariae (~iae@unaffiliated/terra-and-luna) ()
+[07:12:21] *** Quits: TheoryCat (wye_naught@unaffiliated/wye-naught/x-8734122) (Quit: Goodbye)
+[07:43:55] <Mikaela> !load Dict
+[07:43:56] <Dysforia> Error: You don't have the owner capability. If you think that you should have this capability, be sure that you are identified before trying again. The 'whoami' command can tell you if you're identified.
+[07:44:05] <Mikaela> !dict natural
+[07:44:19] <Mikaela> !auth
+[07:44:20] <Dysforia> You are now authenticated as Mikaela.
+[07:44:24] <Mikaela> !load Dict
+[07:44:24] <Dysforia> OK.
+[07:44:28] <Mikaela> !dict natural
+[07:44:31] <Dysforia> wn, gcide, moby-thesaurus, and foldoc responded: foldoc: NATURAL An integrated {4GL} from {Software AG}, Germany. The menu-driven version is SUPER/NATURAL. Natural 2 is a major upgrade to Natural 1. Version 2.1.7 in the MVS environment (June 1995, also available for Unix). Natural works with {DB2} and various other {databases}, but Natural and {Adabas} normally go together. There
+[07:44:32] <Dysforia> are many products available in the "Natural" family, including SuperNatural, Natural for Windows, Entire Connection (enables up/downloading and interaction with {Excel}) and Esperant. (1995-11-14) ; gcide: Natural \Nat"u*ral\ (?; 135), n. 1. A native; an aboriginal. [Obs.] --Sir W. Raleigh. [1913 Webster] 2. pl. Natural gifts, impulses, etc. [Obs.] --Fuller. [1913 Webster] 3. One born (37 more messages)
+[07:45:55] <Mikaela> ubskeur: I forbid you from calling !more multiple times or I will kick you...
+[07:46:06] <Mikaela> and that applies to others too
+[08:34:16] <ubskeur> ubskeur, I didn't call !more?
+[08:34:37] <ubskeur> Mikaela, ^
+[08:34:40] <ubskeur> I keep doing that
+[08:34:50] <ubskeur> using my own name instead of who I'm responding to
+[08:35:16] <Mikaela> that might cause issues with being noticed
+[08:35:32] <ubskeur> yeah
+[08:35:39] <Mikaela> but if you did use it you would "!more Mikaela" to "capture" the mores from me and then !more 36 times, but don't do it
+[08:35:57] <ubskeur> ...right
+[08:36:52] <ubskeur> telling me not to type !more and exactly how to not use !more is kinda making me think you want me to use !more
+[08:37:04] <Mikaela> I should learn to teach people
+[08:37:18] <Mikaela> that could be better with some other command, but I don't know what
+[08:39:51] <ubskeur> now to repack!
+[08:40:09] <Mikaela> !load Wikipedia
+[08:40:10] <Dysforia> OK.
+[08:40:19] <Mikaela> !wiki Euphoria
+[08:40:20] <Dysforia> Euphoria (/juːˈfɔəriə/; from Ancient Greek εὐφορία, from εὖ eu, "well", and φέρω pherō, "to bear") (semantically opposite of dysphoria) is medically recognized as a mental and emotional condition in which a person experiences intense feelings of well-being, elation, happiness, excitement and joy. Retrieved from <https://en.wikipedia.org/wiki/Euphoria>
+[08:40:32] <Mikaela> oh, that plugin doesn't have so long lines or anything
+[08:40:36] <Mikaela> hmm
+[08:40:36] <Mikaela> !wiki Natural
+[08:40:37] <Dysforia> "Nature" (Redirected from "Natural"): Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.
+[08:40:38] <Dysforia> Retrieved from <https://en.wikipedia.org/wiki/Nature>
+[08:40:42] <Mikaela> !unload Dict
+[08:40:42] <Dysforia> OK.
+[08:40:50] <Mikaela> thanks, you helped me fix it better way :)
+[08:41:24] <ubskeur> !wiki GLSL
+[08:41:25] <Dysforia> "OpenGL Shading Language" (Redirected from "GLSL"): OpenGL Shading Language (abbreviated: GLSL or GLslang), is a high-level shading language based on the syntax of the C programming language. It was created by the OpenGL ARB (OpenGL Architecture Review Board) to give developers more direct control of the graphics pipeline without having to use ARB assembly language or
+[08:41:26] <Dysforia> hardware-specific languages. Retrieved from <https://en.wikipedia.org/wiki/OpenGL_Shading_Language>
+[08:41:39] <ubskeur> cool
+[09:02:43] *** Joins: Lilac` (IaiL@cpc22-maid5-2-0-cust177.20-1.cable.virginm.net)
+[09:02:43] *** ChanServ sets mode: +v Lilac`
+[12:50:10] *** Quits: Lilac` (IaiL@cpc22-maid5-2-0-cust177.20-1.cable.virginm.net) (Remote host closed the connection)
+[14:31:39] <ubskeur> 5am start, night all
+[14:31:53] *** Quits: ubskeur (~olligobbe@unaffiliated/olligobber) (Quit: Leaving)
+[14:33:17] <Mikaela> night
+[15:09:53] *** Joins: Lilac` (~IaiLwM@cpc22-maid5-2-0-cust177.20-1.cable.virginm.net)
+[15:09:54] *** ChanServ sets mode: +v Lilac`
+[17:15:59] *** Joins: blackheath (73408d0a@gateway/web/cgi-irc/kiwiirc.com/ip.115.64.141.10)
+[17:17:02] *** Quits: blackheath (73408d0a@gateway/web/cgi-irc/kiwiirc.com/ip.115.64.141.10) (Client Quit)
+[19:44:57] <Dysforia> Announcement from my owner (Mikaela): A cry for help or suicide note, please use Google Translate. https://mikaela.info/finnish/2015/06/29/minusta.html
+[20:05:48] <libbies> I'm sorry that you're dealing with that stuff Mikaela :(
+[20:15:25] *** Quits: ProPuke (~neptune@2a01:4f8:130:64cc::2) (Remote host closed the connection)
+[21:22:01] *** Joins: ProPuke (~neptune@2a01:4f8:130:64cc::2)
+[21:22:01] *** ChanServ sets mode: +v ProPuke
+[21:28:10] <ProPuke> So the control panel I use on this server bugged and disabled every account on the box :S
+[21:28:36] <ProPuke> /etc/shadow had starred every account :S
+[22:49:51] *** Joins: ubsky[mob] (~olligobbe@unaffiliated/olligobber)
+[22:49:51] *** ChanServ sets mode: +v ubsky[mob]
+[22:53:19] *** Quits: ubsky (~olligobbe@unaffiliated/olligobber) (Ping timeout: 248 seconds)
+[22:54:55] <ubsky[mob]> Morning 
+[22:56:42] <Mikaela> hi
+[23:02:49] *** Joins: diablox (~diablox67@wmh38-2-82-227-206-35.fbx.proxad.net)
+[23:03:14] *** Quits: diablox (~diablox67@wmh38-2-82-227-206-35.fbx.proxad.net) (Client Quit)
+[23:03:59] *** Quits: ubsky[mob] (~olligobbe@unaffiliated/olligobber) (Ping timeout: 272 seconds)
+
+==> 2015-06-30.log <==
+[00:50:29] *** Joins: ubsky (~olligobbe@unaffiliated/olligobber)
+[00:50:29] *** ChanServ sets mode: +v ubsky
+[00:55:18] <ubsky> Meow 
+[00:55:21] *** Quits: Lilac` (~IaiLwM@cpc22-maid5-2-0-cust177.20-1.cable.virginm.net) (Remote host closed the connection)
+[01:06:51] *** Joins: nicoo (~nico@unaffiliated/nicoo)
+[01:06:51] *** ChanServ sets mode: +v nicoo
+[01:07:05] <nicoo> Ok, seems I wasn't on autojoin :o
+[01:07:52] <ubsky> Hehe 
+[01:10:17] <alicesrainbow> hiya :) 
+[01:17:51] <nicoo> Hi, ubsky & alicesrainbow
+[01:20:58] *** Quits: ubsky (~olligobbe@unaffiliated/olligobber) (Ping timeout: 276 seconds)
+[02:03:46] -ChanServ- libbies (yeoz) set flags -AFORVefiorstv on Mikaela
+[02:03:46] *** ChanServ sets mode: -o Mikaela
+[02:04:37] *** ChanServ sets mode: -b *!*@unaffiliated/euryale
+[02:04:38] -ChanServ- libbies (yeoz) removed Euryale from the AKICK list.
+[02:05:34] -ChanServ- libbies (yeoz) set flags +AVi on Mikaela
+[02:05:34] *** ChanServ sets mode: +v Mikaela
+[02:05:39] -ChanServ- libbies (yeoz) set flags +AVi on Euryale
+[02:06:28] -ChanServ- libbies (yeoz) set flags -AOVeiortv on Dysforia
+[02:06:28] *** ChanServ sets mode: -o Dysforia
+[02:06:35] -ChanServ- libbies (yeoz) set flags +AVi on Dysforia
+[02:06:38] *** ChanServ sets mode: +v Dysforia
+[02:09:30] *** Joins: Euryale (~Euryale@unaffiliated/euryale)
+[02:09:31] *** ChanServ sets mode: +v Euryale
+[02:09:41] <alicesrainbow> hi Euryale :)
+[02:09:51] <Euryale> hi alicesrainbow!
+[02:11:47] <alicesrainbow> how's it going? :) 
+[02:12:32] <nicoo> Euryale \o/
+[02:14:41] <Euryale> It's going okay. I'm in a bit of a funk today, though
+[02:14:53] <alicesrainbow> aw :( any reason, or just general meh?
+[02:15:42] <Euryale> general meh
+[02:15:57] <alicesrainbow> General Meh, the worst army officer in history
+[02:15:57] <Euryale> so much stuff going on in my life and I don't know where to start
+[02:16:37] <Euryale> I'm thinking of changing my psych meds or tapering them off but I don't want my sex drive to come back because quite frankly this works for me (I think)
+[02:16:44] <Euryale> ... but the rest isn't working so hot
+[02:17:05] <nicoo> ó_ò
+[02:18:16] <Euryale> you okay, nicoo?
+[02:19:10] *** Joins: stariae (~iae@unaffiliated/terra-and-luna)
+[02:19:11] *** ChanServ sets mode: +v stariae
+[02:19:55] <nicoo> Yesh
+[02:19:58] <nicoo> Sudden headache is unfun, though
+[02:20:10] <nicoo> Feels like the right side of my face is rubber :o
+[02:20:30] * ProPuke pokes nicoo's face
+[02:20:47] <nicoo> Which side? :>
+[02:21:20] <Euryale> both sides!
+[02:21:26] <Euryale> can't leave these things to chance
+[02:21:38] <alicesrainbow> oh no! I really hate those :(
+[02:21:56] <nicoo> :D
+[02:31:56] * nicoo handwaves
+[02:32:04] <nicoo> I think the headache is telling me to go sleep
+[02:32:14] <Euryale> goodnight nicoo 
+[02:32:19] * nicoo will try to drop by tomorrow :3
+[02:32:20] <stariae> nini
+[02:32:24] * nicoo snugs Euryale
+[02:32:28] * Euryale snugs nicoo 
+[02:32:36] * nicoo sighs happily :3
+[02:44:10] *** Quits: nicoo (~nico@unaffiliated/nicoo) (Ping timeout: 276 seconds)
+[03:59:31] *** Quits: Euryale (~Euryale@unaffiliated/euryale) (Quit: Leaving)
+[04:55:32] *** Joins: Euryale (~Euryale@unaffiliated/euryale)
+[04:55:32] *** ChanServ sets mode: +v Euryale
+[05:55:03] *** Joins: TheoryCat (user0000@unaffiliated/wye-naught/x-8734122)
+[05:55:03] *** ChanServ sets mode: +v TheoryCat
+[06:08:15] *** Quits: Euryale (~Euryale@unaffiliated/euryale) (Remote host closed the connection)
+[06:33:12] *** Quits: TheoryCat (user0000@unaffiliated/wye-naught/x-8734122) (Quit: Goodbye)
+[07:12:01] <Mikaela> if you wish for me to leave,  I leave
+[07:12:12] <Mikaela> usually defounders require mutual agreements
+[07:12:16] <Mikaela> +part
+[07:12:16] *** Parts: Dysforia (~DysforiaV@unaffiliated/mikaela/bot/dysforia) ("https://mikaela.info/")
+[07:13:56] *** Parts: Mikaela (mikaela@unaffiliated/mikaela) ()
+[07:14:05] *** Joins: Mikaela (mikaela@unaffiliated/mikaela)
+[07:14:05] *** ChanServ sets mode: +v Mikaela
+[07:14:05] *** Server sets mode: +Cgnt 
+[07:14:06] *** Server sets mode: +Cgnt 
+[07:15:11] *** Parts: Mikaela (mikaela@unaffiliated/mikaela) ()
+```
 
 ### so what is wrong
+
+That against previous agreement the akick is removed and the worst, co-founder is removed without any reason. That goes against all morals and basic rules of managing IRC channels.
+
+I have woken up to anxiety twice because of this, first I had nightmare of being told that I had been rude on the channel (which would still have to be told to me while awake with good explanation) and second time this morning that I finally type this I had nightmare of coding skills being required for being op (that makes no sense while awake).
