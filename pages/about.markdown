@@ -114,10 +114,11 @@ better place, so where else should it be?
 
 * [2015-03-25: Leaving bot communities & a little on my life]({% post_url 2015-03-25-leaving-bots-life %})
 * [2015-04-03: Scum]({% post_url 2015-04-03-scum %})
-    * [2015-04-01: Saasta]({% post_url 2015-04-01-saasta %})
+    * [2015-04-01: Saasta (same in Finnish)]({% post_url 2015-04-01-saasta %})
 * [2015-05-18: Somewhat more on my life & untold background of bots]({% post_url 2015-05-18-life-bot-background %})
 * [2015-06-16: Feelings and wounds of school bullying]({% post_url 2015-06-16-feelings %})
-
+* [2015-06-29: Google translated "suicide post"](https://translate.google.fi/translate?sl=fi&tl=en&js=y&prev=_t&hl=fi&ie=UTF-8&u=https%3A%2F%2Fmikaela.info%2Ffinnish%2F2015%2F06%2F29%2Fminusta.html&edit-text=)
+    * *I was at psychiatrical hospital after writing this.*
 
 * * * * *
 
