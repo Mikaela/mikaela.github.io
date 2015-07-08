@@ -61,7 +61,9 @@ Tell ChanServ the following three commands:
 
 The ! means "add these flags to everyone who currently matches the template
 exactly" so when you do this everyone who you have made xOP with
-`/msg chanserv someone xOP" gets opped or voiced automatically.
+`/msg chanserv someone xOP" gets opped or voiced automatically.<br/>
+*Note: templates including F (founder) are not automatically updated even
+with the !.*
 
 *Somewhat rewritten on 2015-04-28 13:25Z and now this looks even worse
 to my eyes... ([Changelog](https://github.com/Mikaela/mikaela.github.io/commits/master/_posts/2015-04-01-keep-the-ops-opped.md))*
