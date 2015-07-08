@@ -65,6 +65,12 @@ exactly" so when you do this everyone who you have made xOP with
 *Note: templates including F (founder) are not automatically updated even
 with the !.*
 
+Alternatively if you have been setting flags manually use
+`/msg chanserv flags #channel someone +O` to automatically op them. You
+must also do this to yourself if you are channel founder, for auto-voicing
+use +V. *Note: +o allows you to manually op/deop anyone, +v is the same,
+but for voice, so don't confuse the casing.*
+
 *Somewhat rewritten on 2015-04-28 13:25Z and now this looks even worse
 to my eyes... ([Changelog](https://github.com/Mikaela/mikaela.github.io/commits/master/_posts/2015-04-01-keep-the-ops-opped.md))*
 
