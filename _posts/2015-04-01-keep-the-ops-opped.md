@@ -4,10 +4,11 @@ comments: true
 title: "Keep the ops opped"
 category: [english]
 tags: [irc, english]
+redirect_from: /noops.html
 ---
 
 *Why I think that you should keep the ops opped instead of following
-freenode's recommendations.*
+ freenode's recommendations.*
 
 Is there an issue with your IRC channel needing op attention? Without
 having ops visible, your users will very likely go to the network support
@@ -48,5 +49,21 @@ What if the services go down or netsplit and the same happens to your bot?
 You are out of luck unless you had the ops opped in which case the outage
 doesn't affect you that much at all.
 
+## Fixing freenode
+
+Tell ChanServ the following three commands:
+
+```
+/msg chanserv template #channel AOP !+AeoOtvV
+/msg chanserv template #channel FOUNDER !+AFRefioOrstvV
+/msg chanserv template #channel VOP !+AvV
+```
+
+The ! means "add these flags to everyone who currently matches the template
+exactly" so when you do this everyone who you have made xOP with
+`/msg chanserv someone xOP" gets opped or voiced automatically.
+
 *Somewhat rewritten on 2015-04-28 13:25Z and now this looks even worse
 to my eyes... ([Changelog](https://github.com/Mikaela/mikaela.github.io/commits/master/_posts/2015-04-01-keep-the-ops-opped.md))*
+
+*2015-07-08: add fixing freenode.*
