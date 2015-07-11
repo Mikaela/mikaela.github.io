@@ -5,24 +5,30 @@ permalink: /blog/
 excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, postaukset englanniksi ja postaukset suomeksi."
 ---
 
-Posts in English:
+* [in Finnish / Suomeksi](#suomeksi)
+* [in English / Englanniksi](#in-english)
+
+## In English
 
 <ul>
   {% for post in site.categories.english %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
+      <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+        <p><em>{{ post.excerpt | strip_html }}</p></em>
     </li>
   {% endfor %}
 </ul>
 
-Postaukset suomeksi:
+* [in Finnish / Suomeksi](#suomeksi)
+* [in English / Englanniksi](#in-english)
+
+## Suomeksi
 
 <ul>
   {% for post in site.categories.finnish %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
+      <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+        <p><em>{{ post.excerpt | strip_html }}</p></em>
     </li>
   {% endfor %}
 </ul>
