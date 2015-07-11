@@ -11,6 +11,7 @@ Posts in English:
   {% for post in site.categories.english %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
@@ -21,6 +22,7 @@ Postaukset suomeksi:
   {% for post in site.categories.finnish %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
