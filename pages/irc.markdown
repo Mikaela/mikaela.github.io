@@ -16,6 +16,8 @@ different nick which is possible depending on network.*
 
 [my OTR key]: ../keys
 
+[![ircs://chat.freenode.net:6697/##mikaela](https://kiwiirc.com/buttons/chat.freenode.net/%23Mikaela.png)](https://kiwiirc.com/client/chat.freenode.net:+6697/##Mikaela)
+
 ### IRC-related posts
 
 *Note that this section is manually updated and might be missing some
