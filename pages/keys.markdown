@@ -8,27 +8,23 @@ excerpt: "My public keys, OTR, PGP and how to check them from DNS TXT records of
 This page contains key fingerprints that might interest you if you wish
 to communicate with me securely.
 
-## Table
-
-### PGP
+## Tables
 
 <table border="1">
     <tr>
-        <th>Fingerprint</th>
+        <th>PGP Fingerprint</th>
     </tr>
     <tr>
         <td>2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</td>
     </tr>
 </table>
 
-### OTR
-
 *WeeChat = IRC*
 
 <table border="1">
     <tr>
         <th>Account</th>
-        <th>Fingerprint</th>
+        <th>OTR Fingerprint</th>
     </tr>
     <tr>
         <td>dukgo</td>
