@@ -19,8 +19,6 @@ to communicate with me securely.
     </tr>
 </table>
 
-*WeeChat = IRC*
-
 <table border="1">
     <tr>
         <th>Account</th>
@@ -47,7 +45,7 @@ to communicate with me securely.
         <td>F0FFE3D6 ED8FCC66 A2AC0FAA 67FD41B4 EFBDEC97</td>
     </tr>
     <tr>
-        <td>WeeChat</td>
+        <td>IRC</td>
         <td>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</td>
     </tr>
 </table>
