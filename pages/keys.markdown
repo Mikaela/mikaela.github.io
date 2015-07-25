@@ -10,25 +10,53 @@ to communicate with me securely.
 
 ## Table
 
+### PGP
+
 <table border="1">
     <tr>
-        <th>Type</th>
         <th>Fingerprint</th>
     </tr>
     <tr>
-        <td>OTR</td>
-        <td>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</td>
-    </tr>
-    <tr>
-        <td>PGP</td>
         <td>2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</td>
     </tr>
 </table>
 
-<br/>
+### OTR
 
-Note that my OTR key matches just WeeChat, but I mostly use WeeChat for
-all protocols ([BitlBee](http://www.bitlbee.org/)).
+*WeeChat = IRC*
+
+<table border="1">
+    <tr>
+        <th>Account</th>
+        <th>Fingerprint</th>
+    </tr>
+    <tr>
+        <td>dukgo</td>
+        <td>73C54D94 8DE7222F 478EC02C D8FD95DA 0BD3A25D</td>
+    </tr>
+    <tr>
+        <td>facebook</td>
+        <td>A6131A37 FE646D22 3D2C374E F7653716 D700BB29</td>
+    </tr>
+    <tr>
+        <td>gmail</td>
+        <td>F13B431F C71FBA55 6B46D1E3 11273B58 C49D7118</td>
+    </tr>
+    <tr>
+        <td>jappix</td>
+        <td>AEBFF7FD 845CECE5 0D3B1DEC DC63281F 612B71EC</td>
+    </tr>
+    <tr>
+        <td>kapsi</td>
+        <td>F0FFE3D6 ED8FCC66 A2AC0FAA 67FD41B4 EFBDEC97</td>
+    </tr>
+    <tr>
+        <td>WeeChat</td>
+        <td>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</td>
+    </tr>
+</table>
+
+<br/>
 
 ## DNS TXT records
 
