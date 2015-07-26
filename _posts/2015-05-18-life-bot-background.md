@@ -55,7 +55,7 @@ I got affiliated with Supybot around 2011, first trying the stock Supybot,
 later Supybot git version, then gribble and finally Supybot-fr.
 
 On [2011-02-14](http://echelog.com/logs/browse/supybot/1297638000)
-@ProgVal asked me to translate it into Finnish and a little
+@ProgVal/pinkieval asked me to translate it into Finnish and a little
 later it became Limnoria. There were also Italian and Hungarian
 translations at that time.
 
@@ -75,7 +75,7 @@ orientation side I just "switched" from aromantic to (demi)romantic
 asexual.
 
 The dates are more unclear for this point of time, but I fell in love to
-@ProgVal and just kept it to myself for a long time. On 2014-03-20, I asked
+@ProgVal/pinkieval and just kept it to myself for a long time. On 2014-03-20, I asked
 them if they knew any ace channels I could wonder my feelings on and the
 answer was negative and after further talking, we ended up founding
 [##abgilpqt+ - a channel for everyone](https://abgilpqt.github.io/about/)
