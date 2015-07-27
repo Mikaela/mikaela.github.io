@@ -1,6 +1,6 @@
 language: ruby
 sudo: false
-script: "set -e && gem install github-pages && gem update && jekyll build --drafts"
+script: "set -e && gem install github-pages && jekyll build --drafts"
 rvm: 2.1
 notifications:
     email: false
