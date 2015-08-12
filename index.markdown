@@ -1,6 +1,6 @@
 ---
 layout: index
-excerpt: "#GirlsLikeUs ♥ AS ♥ Feminist 🃁 Linux user since 2008 ♥ she/her/hers"
+excerpt: "#GirlsLikeUs ♥ #Aspie ♥ #Feminist 🃁 #Linux user since 2008 ♥ she/her/hers"
 ---
 
-***[#GirlsLikeUs ♥ AS ♥ Feminist 🃁 Linux user since 2008 ♥ she/her/hers]({{ site.url }}/about)***
+***[#GirlsLikeUs ♥ #Aspie ♥ #Feminist 🃁 #Linux user since 2008 ♥ she/her/hers]({{ site.url }}/about)***
