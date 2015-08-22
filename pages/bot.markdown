@@ -45,8 +45,8 @@ the bot replies to everything *(without prefix)*.
     <tr>
         <td>prefix characters: <code>%</code> <code>+</code>
         <code>!</code></td>
-        <td>+ping</code> <code>%ping</code> <code>+ping</code></td>
-        <td>yes</td>
+        <td><code>+ping</code> <code>%ping</code> <code>+ping</code></td>
+        <td>Yes</td>
     </tr>
     <tr>
         <td>nick in the beginning and end</td>
@@ -54,11 +54,11 @@ the bot replies to everything *(without prefix)*.
         <td>Yes (not nick), but why?</td>
     </tr>
     <tr>
-        <td> prefix strings: <code>msb1</code> &  <code>msb2</code>
+        <td> prefix strings: <code>msb1</code> & <code>msb2</code>
         (for legacy reasons) and <code>__</code></td>
-        <td><code>msb1ping<code> <code>msb2ping</code>
+        <td><code>msb1ping</code> <code>msb2ping</code>
         <code>__ping</code></td>
-        <td>yes</td>
+        <td>Yes</td>
     </tr>
     <tr>
         <td>MessageParser (in the middle of line): <code>__</code> &
