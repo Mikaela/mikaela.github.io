@@ -66,7 +66,8 @@ the bot replies to everything *(without prefix)*.
         <td><code>Does the bot work? __ping</code> for single-worded
         commands and <code>what is Linux? __(wiki Linux)</code> for
         commands with multiple words.</td>
-         <td>**no**(too difficult, but possible)</td>
+         <td><strong><em>no</em></strong> (too difficult, but
+         possible)</td>
     </tr>
 </table>
 
@@ -80,15 +81,15 @@ commands. They can be used in channel (if you know the prefix) or PM.
     </tr>
     <tr>
         <td>Prefix characters</td>
-        <td><code>channel reply.whenaddressedby.chars</code></td>
+        <td><code>channel reply.whenAddressedBy.chars</code></td>
     </tr>
     <tr>
         <td>Nick (beginning & end)</td>
-        <td><code>channel reply.whenaddressedby.nick</code> &
-        <code>channel reply.whenaddressedby.nick.atend</code>
+        <td><code>channel reply.whenAddressedBy.nick</code> &
+        <code>channel reply.whenAddressedBy.nick.atEnd</code>
     </tr>
         <td>prefix strings</td>
-        <td><code>channel reply.whenaddressedby.strings</code>
+        <td><code>channel reply.whenAddressedBy.strings</code>
     </tr>
 </table>
 
@@ -164,9 +165,7 @@ possible [yet](https://github.com/ProgVal/Limnoria/issues/1085).
 It's also protecting channels from spam using the [AttackProtector plugin.](https://github.com/ProgVal/Supybot-plugins/tree/master/AttackProtector)
 
 The bot also has `ops` command for getting op attention, but it requires
-correct prefix to be used, check
-`/msg <bot> config channel <#channel> reply.whenaddressedby.chars`. The
-prefix can be different on different channels.
+correct prefix to be used.
 
 ## Issues you may encounter
 
