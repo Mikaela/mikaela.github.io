@@ -31,6 +31,27 @@ written by me.
 
 ## Usage
 
+### Addressing the bot
+
+* Currently the bot replies to the following globally:
+    * prefix characters: `%` `+` `!`
+        * `+ping` `%ping` `+ping`
+        * can be changed per-channel
+    * nick in the beginning and end
+        * `bot: ping` `ping, bot`
+    * prefix strings: `msb1` &  `msb2` (for legacy reasons) and `__`
+        * can be changed per-channel
+    * MessageParser (in the middle of line): `__` & `__()`
+        * Does the bot work?`__ping` for single-worded commands and
+        `what is Linux? __(wiki Linux)` for commands with multiple words.
+        * **I won't change this per channel.**
+
+* Checking the different channel-specific addressing methods:
+    * prefix characters: `channel reply.whenaddressedby.chars`
+    * nick in the beginning and end: `channel reply.whenaddressedby.nick`
+      `channel reply.whenaddressedby.nick.atend
+    * prefix strings: `channel reply.whenaddressedby.strings`
+
 ### Quick start
 
 Use `list` command to get list of plugins, `list <plugin>` to get list of
