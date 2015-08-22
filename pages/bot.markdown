@@ -40,29 +40,32 @@ the bot replies to everything *(without prefix)*.
     <tr>
         <th>Replies to</th>
         <th>Examples</th>
-        <th>Changeable per-channel>/th>
+        <th>Changeable per-channel</th>
     </tr>
     <tr>
-        <td>prefix characters: `%` `+` `!`</td>
-        <td>+ping` `%ping` `+ping`</td>
+        <td>prefix characters: <code>%</code> <code>+</code>
+        <code>!</code></td>
+        <td>+ping</code> <code>%ping</code> <code>+ping</code></td>
         <td>yes</td>
     </tr>
     <tr>
         <td>nick in the beginning and end</td>
-        <td>`bot: ping` `ping, bot`</td>
+        <td><code>bot: ping</code> <code>ping, bot</code></td>
         <td>Yes (not nick), but why?</td>
     </tr>
     <tr>
-        <td> prefix strings: `msb1` &  `msb2` (for legacy reasons) and
-        `__`</td>
-        <td>`msb1ping` `msb2ping` `__ping`</td>
+        <td> prefix strings: <code>msb1</code> &  <code>msb2</code>
+        (for legacy reasons) and <code>__</code></td>
+        <td><code>msb1ping<code> <code>msb2ping</code>
+        <code>__ping</code></td>
         <td>yes</td>
     </tr>
     <tr>
-        <td>MessageParser (in the middle of line): `__` & `__()`</td>
-        <td>`Does the bot work? __ping` for single-worded commands and
-        `what is Linux? __(wiki Linux)` for commands with multiple
-        words.</td>
+        <td>MessageParser (in the middle of line): <code>__</code> &
+        <code>__()</code></td>
+        <td><code>Does the bot work? __ping</code> for single-worded
+        commands and <code>what is Linux? __(wiki Linux)</code> for
+        commands with multiple words.</td>
          <td>**no**(too difficult, but possible)</td>
     </tr>
 </table>
@@ -77,15 +80,15 @@ commands. They can be used in channel (if you know the prefix) or PM.
     </tr>
     <tr>
         <td>Prefix characters</td>
-        <td>`channel reply.whenaddressedby.chars</td>
+        <td><code>channel reply.whenaddressedby.chars</code></td>
     </tr>
     <tr>
         <td>Nick (beginning & end)</td>
-        <td>`channel reply.whenaddressedby.nick` &
-        ` channel reply.whenaddressedby.nick.atend`
+        <td><code>channel reply.whenaddressedby.nick</code> &
+        <code>channel reply.whenaddressedby.nick.atend</code>
     </tr>
         <td>prefix strings</td>
-        <td>`channel reply.whenaddressedby.strings`
+        <td><code>channel reply.whenaddressedby.strings</code>
     </tr>
 </table>
 
