@@ -124,11 +124,8 @@ Requirements for getting account:
 
 * being op on channel where the bot is on or similar good reason
 * having NickServ account
-    * or on networks where there are no services hostmask that you can be
-      identified with
-        * static host
-        * identd
-
+    * or on networks where there are no services, identd and static host.
+        * identd alone is not enough.
 
 ### Identifying
 
@@ -149,7 +146,7 @@ account or hostmask.
 ## Channels
 
 List of the channels where the bot is on can be seen with /whois. However
-this list doesn't include secret/private channels (mode +sp).
+this list doesn't include secret/private channels (mode +s/+p).
 
 The bot can also be requested to join other channels, but I reserve the
 right to not join it anywhere or to not register specific channel ops
@@ -170,9 +167,20 @@ correct prefix to be used.
 
 ## Issues you may encounter
 
-*For all known issues [see issue tracker of ProgVal/Limnoria](https://github.com/ProgVal/Limnoria/issues)
-this section only lists those that you are likely to see or that others
-have asked about from me.*
+For all known issues, see the issue tracker link below relevant subtopic
+as this section only lists those that you are likely to see or that others
+have asked about from me.
+
+I am trying to run [the latest released version of Limnoria.](https://github.com/ProgVal/Limnoria/tags)
+
+External plugins are updated whenever I see need for it, but at least when
+I upgrade Limnoria.
+
+### Limnoria
+
+* Issue tracker: https://github.com/ProgVal/Limnoria/issues
+
+*Includes Limnoria core and [included plugins](https://github.com/ProgVal/Limnoria/tree/master/plugins).*
 
 * [Title is only told for the first link in a message](https://github.com/ProgVal/Limnoria/issues/152)
 * [Some commands using hostmasks behave weirdly](https://github.com/ProgVal/Limnoria/issues/281)
@@ -189,3 +197,16 @@ have asked about from me.*
     * you will especially see this if you encounter links to my
       "URL shortener"
 * [RSS: no announced feeds in web interface](https://github.com/ProgVal/Limnoria/issues/1085)
+
+## ProgVal/Supybot-plugins
+
+* Issue tracker: https://github.com/ProgVal/Supybot-plugins/issues
+
+*Includes plugins from @ProgVal's/pinkieval's [plugin repository.](https://github.com/ProgVal/Supybot-plugins)*
+
+* LinkRelay
+    * [Doesn't sync topics between relayed channels](https://github.com/ProgVal/Supybot-plugins/issues/31)
+    * [Status of user in the channel isn't shown](https://github.com/ProgVal/Supybot-plugins/issues/60)
+    * [What the bot says isn't relayed.](https://github.com/ProgVal/Supybot-plugins/issues/288)
+        * **This is currently the most visible issue on channels where
+          LinkRelay is used.**
