@@ -23,3 +23,9 @@ Connecting with WeeChat:
 8. `/save`
 
 *If you forget -ssl, `/set irc.server.WHATEVER.ssl on`*
+
+Webadmin:
+ * https://verdarik.mikaela.info:1234/ (invalid certificate, valid
+   fingerprints are on top of this page)
+ * https://znc.mikaela.info/ (CloudFlare, https only between you and
+   CloudFlare (aka not recommended or use only if you have to))
