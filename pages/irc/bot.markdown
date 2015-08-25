@@ -1,8 +1,9 @@
 ---
 layout: page
-permalink: /bot.html
+permalink: /irc/bot.html
 sitemap: false
 excerpt: "A little about my IRC bot. Useful links, why it doesn't reply to me, how to make it recognize me, what does it actually do?"
+redirect_from: /bot.html
 ---
 
 *Please read also [rules of my channels.](https://mikaela.info/channel.html)*

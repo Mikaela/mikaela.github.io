@@ -1,9 +1,11 @@
 ---
 layout: page
-permalink: /channel.fi.html
+permalink: /irc/channel.fi.html
 sitemap: false
 excerpt: "IRC-kanavieni säännöt. Lyhyesti: Käytä maalaisjärkeä, ole kiva, ei syrjintää, ei julkisia lokeja, älä tuo botteja ilman lupaa. Kiitos ♥"
-redirect_from: /kanava.html
+redirect_from: 
+  - /kanava.html
+  - /channel.fi.html
 ---
 
 **[In English](channel.html)**
