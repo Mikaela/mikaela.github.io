@@ -4,6 +4,8 @@ Disallow: /404
 Disallow: /bot
 Disallow: /channel
 Disallow: /links2
+Disallow: /irc/bot
+Disallow: /irc/channel
 Disallow: /r/
 Sitemap: https://mikaela.info/sitemap.xml
 Sitemap: https://mikaela.info/sitemaps.xml
