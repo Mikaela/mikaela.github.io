@@ -63,6 +63,6 @@ dig +short otr.mikaela.info TXT
 dig +short pgp.mikaela.info TXT
 ```
 
-\* This site doesn't have DNSSEC (but you would be trusting ICANN) and
-cache of your DNS server can be poisoned to give wrong results and long
-list of different risks that can be there…
+\* This site doesn't have DNSSEC and cache of your DNS server can be
+poisoned to give wrong results and long list of different risks that can
+be there…
