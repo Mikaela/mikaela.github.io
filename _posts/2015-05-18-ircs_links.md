@@ -12,8 +12,8 @@ tags: [english, IRC]
 I started wondering about the proper way to make irc/ircs links today and
 based on the following addresses
 
-* 2015-05-18 https://www.iana.org/assignments/uri-schemes/prov/ircs
-* 2015-05-18 https://tools.ietf.org/html/draft-butcher-irc-url-04
+* https://www.iana.org/assignments/uri-schemes/prov/ircs
+* https://tools.ietf.org/html/draft-butcher-irc-url-04
 
 I decide that the correct form which I will use is
 `ircs://irc.example.org:6697/#channel,##channel,!channel`.
