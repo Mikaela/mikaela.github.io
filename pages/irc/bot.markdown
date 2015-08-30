@@ -129,13 +129,14 @@ Requirements for getting account:
 
 ### Identifying
 
-The bot requires users to have password, but I always set the password
-as something from pwgen as I primarily identify users based on NickServ
-account or hostmask.
+*All users have a password in the bot, but I have made them invalid (by
+adding `!` in front of the hash in users.conf). If you have password set
+separately as said below, it will work.*
 
 * If you have a password, `/msg <bot> user identify username password`
-    * Passwords can be asked for me if needed, after getting one, change
-      it immediately with `/msg <bot> user set password OLDPASSWORD NEWPASSWORD`
+    * Passwords can be asked from me if needed. After getting one, change
+      it immediately with
+      `/msg <bot> user set password OLDPASSWORD NEWPASSWORD`
 * If you use NickServ account:
     * Use the `auth` command.
     * `/cycle` so extended-join sends your account name to the bot.
