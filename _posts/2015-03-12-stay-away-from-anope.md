@@ -536,7 +536,7 @@ hout issues. I am not sure what is the official way of explaining "sending unkno
 [17:19:43] <Adam> am trying to avoid a repeat on this move to inspircd which I am sure he will detest
 [17:20:20] <Adam> it certainly was the main falling out betweeen us, before that we talked sometimes
 [17:21:08] <Adam> the move was only announced on the 27th
-[17:22:18] <Mikaela> can I ask to join #GayCafe there and ask them about me?
+[17:22:18] <Mikaela> can I ask to join #FILTERED there and ask them about me?
 [17:22:28] <Adam> so you can understand atheme people appearing out of nowhere there makes me uneasy, i thought I had done a good job not mentioning it anywhere that might bring attention
 [17:22:30] <Mikaela> or would grepped logs of me be enough?
 [17:23:34] <Adam> fine if its totally unrelated them im sorry i jumped to the wrong conclusion
