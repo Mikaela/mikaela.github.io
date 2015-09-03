@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
     ***\#GirlsLikeUs ♥ \#Aspie ♥ \#Feminist 🃁 \#Linux user since 2008 ♥
     she/her/hers***
     <br/><br/>*This website is licensed under the
-    [Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/)
+    [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)
     by [Mikaela Suomalainen](https://mikaela.info/).*
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://mikaela.info" # the base hostname & protocol for your site
