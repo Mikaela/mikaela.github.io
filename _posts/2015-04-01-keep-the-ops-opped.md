@@ -22,7 +22,7 @@ Without ops being visible, who are ops or how to alert them?
           things. Freenode staffers also base their judgement on are there
           ops present to handle the issue on idletime of ops.
     * new users most likely have no idea on the command
-    * whois is rate-limited
+    * remote (=different server) whois is rate-limited
 * `/msg memoserv sendops #channel help! X is spamming`
     * requires +A flag which isn't mostly given to everyone
     * new users are unsure whether they have the flag if they even know
