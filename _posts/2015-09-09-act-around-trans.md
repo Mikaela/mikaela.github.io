@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "How to act around trans person?"
+title: "How to act around trans woman?"
 category: [english]
 tags: [english, trans]
 ---
