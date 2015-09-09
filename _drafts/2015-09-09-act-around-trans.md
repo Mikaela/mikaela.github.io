@@ -22,6 +22,6 @@ about my transness (or any other feature e.g. aspiness) as in this world
 that could make them think very differently about me or make me bullied
 even more or worse. Let me tell by myself if I see reason for it.
 
-And even if this should be obvious I sadly have to point that I don't
+And even if this should be obvious I sadly have to point out that I don't
 try to trick you believing that I am a woman, because I am a woman.
 Claiming that I was a man would be lying to you.
