@@ -194,10 +194,11 @@ I upgrade Limnoria.
     * these could be useful with news sites.
 * [DNS command doesn't mention CNAMEs/ALIASes](https://github.com/ProgVal/Limnoria/issues/864)
 * Internet whois is quite broken [1](https://github.com/ProgVal/Limnoria/issues/993) [2](https://github.com/ProgVal/Limnoria/issues/994)
+* [RSS: no announced feeds in web interface](https://github.com/ProgVal/Limnoria/issues/1085)
 * [html/javascript redirects aren't followed](https://github.com/ProgVal/Limnoria/issues/1120)
     * you will especially see this if you encounter links to my
       "URL shortener"
-* [RSS: no announced feeds in web interface](https://github.com/ProgVal/Limnoria/issues/1085)
+* [Google says: Error invalid resultSize](https://github.com/ProgVal/Limnoria/issues/1163)
 
 ## ProgVal/Supybot-plugins
 
