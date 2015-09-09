@@ -6,8 +6,6 @@ category: [english]
 tags: [english, trans]
 ---
 
-**OPINIONS WANTED BEFORE RELEASE/MOVING OUT OF _DRAFTS!**
-
 So you have discovered that I am trans? What should you do? It has nothing
 to do with you, so do nothing, just treat me like you would any other
 woman.
