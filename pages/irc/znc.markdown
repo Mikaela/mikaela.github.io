@@ -13,7 +13,7 @@ SHA256 Fingerprint=B6:A7:45:F9:39:BA:64:D0:EB:DD:3C:F5:EF:0A:E8:AB:35:24:98:2A:8
 
 Connecting with WeeChat:
 
-1. `/server add WHATEVER verdarik.mikaela.info/1234 -ssl`
+1. `/server add WHATEVER vardiera.mikaela.info/1234 -ssl`
 2. `/set irc.server.WHATEVER.ssl_verify on`
 3. `/set irc.server.WHATEVER.ssh_fingerprint b6a745f939ba64d0ebdd3cf5ef0ae8ab3524982a80bb082e748205825fb87830`
 4. `/set irc.server.WHATEVER.username username@OptionalClientID/network`
@@ -25,7 +25,7 @@ Connecting with WeeChat:
 *If you forget -ssl, `/set irc.server.WHATEVER.ssl on`*
 
 Webadmin:
- * https://verdarik.mikaela.info:1234/ (invalid certificate, valid
+ * https://vardiera.mikaela.info:1234/ (invalid certificate, valid
    fingerprints are on top of this page)
  * https://znc.mikaela.info/ (CloudFlare, https only between you and
    CloudFlare (aka not recommended or use only if you have to))
