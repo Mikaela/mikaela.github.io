@@ -15,7 +15,7 @@ Connecting with WeeChat:
 
 1. `/server add WHATEVER vardiera.mikaela.info/1234 -ssl`
 2. `/set irc.server.WHATEVER.ssl_verify on`
-3. `/set irc.server.WHATEVER.ssh_fingerprint b6a745f939ba64d0ebdd3cf5ef0ae8ab3524982a80bb082e748205825fb87830`
+3. `/set irc.server.WHATEVER.ssl_fingerprint b6a745f939ba64d0ebdd3cf5ef0ae8ab3524982a80bb082e748205825fb87830`
 4. `/set irc.server.WHATEVER.username username@OptionalClientID/network`
 5. `/set irc.server.WHATEVER.password password`
 6. `/set irc.server.WHATEVER.autoconnect on`
@@ -23,6 +23,13 @@ Connecting with WeeChat:
 8. `/save`
 
 *If you forget -ssl, `/set irc.server.WHATEVER.ssl on`*
+
+WeeChat users also want:
+* `/set irc.server_default.capabilities account-notify,away-notify,multi-prefix,server-time,znc.in/server-time-iso,cap-notify`
+    * reconnect after setting these. This list is from *1.4-dev (git:
+      v1.3-38-g0c8eac0) [compiled on Sep 10 2015 14:14:16]*.
+        * this version doesn't support `cap-notify`, but it's required for
+          ZNC to offer more complex capabilities (e.g. away-notify).
 
 Webadmin:
  * https://vardiera.mikaela.info:1234/ (invalid certificate, valid
