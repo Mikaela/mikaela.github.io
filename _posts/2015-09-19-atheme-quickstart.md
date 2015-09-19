@@ -73,7 +73,8 @@ could do anyway by being opped using services and "trusted users" have
 became regulars on channels I am on. If a flag doesn't exist on the network
 you are on, Atheme will just silently ignore it.*
 
-<script src="https://gist-it.appspot.com/Mikaela/gist/master/irc/atheme/cstemplate"></script>
+**You should see my cstemplate script here, but the embedding isn't
+working, to see it [please click here to go to the GitHub instance of it](https://github.com/Mikaela/gist/blob/master/irc/atheme/cstemplate).**
 
 Another example using my templates would be `/msg ChanServ flags #channel !channel-ops` which would give op permissions above to users in the
 !channel-ops group.
