@@ -63,9 +63,9 @@ First register the channel with `/msg ChanServ register #channel` while
 you are opped. Now you are free to setup the channel as you wish.
 
 I use the following templates, so I can e.g.
-`/msg chanserv flags someone op` instead of
-`/msg chanserv flags someone +vVhHoOirtAe`. You can also use the network
-defaults that you can see with `/msg chanserv template`.
+`/msg chanserv flags #channel someone op` instead of
+`/msg chanserv flags #channel someone +vVhHoOirtAe`. You can also use the
+network defaults that you can see with `/msg chanserv template`.
 
 *This is a bash scripts which is ran like `./cstemplate #channel` and
 copy-pasted to ChanServ. It basically allows ops to do everything they
@@ -76,7 +76,7 @@ you are on, Atheme will just silently ignore it.*
 **You should see my cstemplate script here, but the embedding isn't
 working, to see it [please click here to go to the GitHub instance of it](https://github.com/Mikaela/gist/blob/master/irc/atheme/cstemplate).**
 
-Another example using my templates would be `/msg ChanServ flags #channel !channel-ops` which would give op permissions above to users in the
+Another example using my templates would be `/msg ChanServ flags #channel !channel-ops op` which would give op permissions above to users in the
 !channel-ops group.
 
 
