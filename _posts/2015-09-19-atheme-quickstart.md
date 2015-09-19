@@ -112,6 +112,10 @@ there:
 
 * [Always add opers to access list (this is the $oper in my templates)]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
     * oops, did I just repeat previous post :smile:
+* [Keep the ops opped]({% post_url 2015-04-01-keep-the-ops-opped %)
+    * especially read this if you are at freenode or wondering why you
+      don't get automatically opped after registering the channel and
+      cycling while being identified!
 * `/msg NickServ help`
     * `/msg NickServ help set`
         * especially worth taking a look at: `emailmemos` & `enforce`
@@ -119,6 +123,10 @@ there:
     * `/msg ChanServ help set`
         * especially worth taking a look at: `guard`, `keeptopic`,
           `verbose`
+        * `/msg ChanServ help flags`
+            * what flags are available, what they do and managing them.
+        * `/msg ChanServ help template`
+            * official documentation for using templates.
 * `/msg GroupServ help`
     * `/msg GroupServ help flags`
     * `/msg GroupServ help set`
