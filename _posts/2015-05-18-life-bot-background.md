@@ -101,17 +101,44 @@ bed and my fmily thought I had gotten influenza which my father had around
 that time, but I was better on the next day.
 
 That is not the definition of poly or open relationship, that is cheating
-or betraying your partner. I am anxious while writing this and I am still
-damaged by what they did and I don't know if I will ever fully heal from
-that.
+or betraying your partner. I am anxious while writing this and I am
+still damaged by what they did <s>and I don't know if I will ever fully
+heal from that.</s> *I did, I am over them and don't feel pain when I
+hear their name or something related to them.*
 
 Some people might have heard that I have wondered if I was poly, it was
 because I didn't want to lose them, but the feelings were already lost,
-I was too broken and I am not poly and I won't ever be in relationship
-with poly person again and I will also avoid long distance relationships.
-I won't ever do that to another person and I won't let it happen to me
-again.
+I was too broken <s>and I am not poly and I won't ever be in relationship
+with poly person again</s> and I will also avoid long distance
+relationships. I won't ever do that to another person and I won't let it
+happen to me again.
 
-If I was in poly relationship, the other party would just use it as excuse
-to be as far from me as possible as anyone else is more beautiful or
-intelligent or allosexual or anything.
+<s>If I was in poly relationship, the other party would just use it as
+excuse to be as far from me as possible as anyone else is more beautiful or
+intelligent or allosexual or anything.</s> *That is not how it works.*
+
+*Times change, I strikethroughed some of the text above and wrote the part
+below during September. What happens will happen in the future, if it
+does. Below is how I introduced myself at the poly channel I was able
+to find.*
+
+```
+<Mikaela> Hi, I think I might be poly. I have bad experience with my ex in long distance relationship as I found out they were in another relationship and they didn't tell me anything about it, because (they change the reason) "I thought you would accept it" or "I didn't want to make you cry". I have since gotten over them and recently thinking and I don't know, maybe I am poly. I am having difficulties finding good
+<Mikaela> material that is meant to potentially poly people and I am a little lost with words and I think "open relationship", while being umbrella term, would describe me the best. From what I have understood the most important thing is COMMUNICATION and making rules with future partners, isn't it so? Is there anything I should especially read? I m currently not in relationship (there is one person, but we have
+<Mikaela> agreement to be just friends unless we meet IRL and he is OK with me possibly being poly and being just friends we haven't seen need to make rules) which possibly makes things easier as long as I discuss this with potential partners?
+<Mikaela> (sorry, it seems I wrote longer wall of text than I intented)
+<person1> Wait... Mikaela?
+<person1> Hihi Mikaela
+<Mikaela> I didn't expect to see you at freenode and the last time I have talked with you it was just about how much that ex had hurt me and I think I had also made request that you didn't talk about anything poly to me, but people change
+<Mikaela> hi
+<person1> People do
+<person2> sometimes there's a reason an ex is an ex. :p
+<person1> Well I've been here a few months now, I think since April
+<Mikaela> it took someone to point me as it not being only about me, but freedom of partner too and then long discussions everywhere including asexual peer support group where someone else was in poly relationship
+<Mikaela> yes, cheating is a good reason and also them being totally uncommunicable nowadays
+<person1> I would have tried but I respected your want for me not to speak of poly stuff
+<Mikaela> I also wasn't over the ex at that time so I wouldn't have listened to you
+<person1> Mmm, it was quite some time ago
+```
+
+*I hope no one minds me publishing this log with other nicks filtered as the discussion was only about me.*
