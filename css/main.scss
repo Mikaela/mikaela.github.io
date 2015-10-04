@@ -51,3 +51,16 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+#gravatar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    border: 1px solid black;
+}
+
+#bio {
+    text-align: center;
+    //font-weight: bold;
+    font-style: italic;
+}
