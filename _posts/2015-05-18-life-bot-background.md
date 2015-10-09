@@ -123,22 +123,22 @@ does. Below is how I introduced myself at the poly channel I was able
 to find.*
 
 <pre class="irclog">
-<Mikaela> Hi, I think I might be poly. I have bad experience with my ex in long distance relationship as I found out they were in another relationship and they didn't tell me anything about it, because (they change the reason) "I thought you would accept it" or "I didn't want to make you cry". I have since gotten over them and recently thinking and I don't know, maybe I am poly. I am having difficulties finding good
-<Mikaela> material that is meant to potentially poly people and I am a little lost with words and I think "open relationship", while being umbrella term, would describe me the best. From what I have understood the most important thing is COMMUNICATION and making rules with future partners, isn't it so? Is there anything I should especially read? I m currently not in relationship
-<Mikaela> which possibly makes things easier as long as I discuss this with potential partners?
-<Mikaela> (sorry, it seems I wrote longer wall of text than I intented)
-<person1> Wait... Mikaela?
-<person1> Hihi Mikaela
-<Mikaela> I didn't expect to see you at freenode and the last time I have talked with you it was just about how much that ex had hurt me and I think I had also made request that you didn't talk about anything poly to me, but people change
-<Mikaela> hi
-<person1> People do
-<person2> sometimes there's a reason an ex is an ex. :p
-<person1> Well I've been here a few months now, I think since April
-<Mikaela> it took someone to point me as it not being only about me, but freedom of partner too and then long discussions everywhere including asexual peer support group where someone else was in poly relationship
-<Mikaela> yes, cheating is a good reason and also them being totally uncommunicable nowadays
-<person1> I would have tried but I respected your want for me not to speak of poly stuff
-<Mikaela> I also wasn't over the ex at that time so I wouldn't have listened to you
-<person1> Mmm, it was quite some time ago
+&lt;Mikaela&gt; Hi, I think I might be poly. I have bad experience with my ex in long distance relationship as I found out they were in another relationship and they didn't tell me anything about it, because (they change the reason) "I thought you would accept it" or "I didn't want to make you cry". I have since gotten over them and recently thinking and I don't know, maybe I am poly. I am having difficulties finding good
+&lt;Mikaela&gt; material that is meant to potentially poly people and I am a little lost with words and I think "open relationship", while being umbrella term, would describe me the best. From what I have understood the most important thing is COMMUNICATION and making rules with future partners, isn't it so? Is there anything I should especially read? I m currently not in relationship
+&lt;Mikaela&gt; which possibly makes things easier as long as I discuss this with potential partners?
+&lt;Mikaela&gt; (sorry, it seems I wrote longer wall of text than I intented)
+&lt;person1&gt; Wait... Mikaela?
+&lt;person1&gt; Hihi Mikaela
+&lt;Mikaela&gt; I didn't expect to see you at freenode and the last time I have talked with you it was just about how much that ex had hurt me and I think I had also made request that you didn't talk about anything poly to me, but people change
+&lt;Mikaela&gt; hi
+&lt;person1&gt; People do
+&lt;person2&gt; sometimes there's a reason an ex is an ex. :p
+&lt;person1&gt; Well I've been here a few months now, I think since April
+&lt;Mikaela&gt; it took someone to point me as it not being only about me, but freedom of partner too and then long discussions everywhere including asexual peer support group where someone else was in poly relationship
+&lt;Mikaela&gt; yes, cheating is a good reason and also them being totally uncommunicable nowadays
+&lt;person1&gt; I would have tried but I respected your want for me not to speak of poly stuff
+&lt;Mikaela&gt; I also wasn't over the ex at that time so I wouldn't have listened to you
+&lt;person1&gt; Mmm, it was quite some time ago
 </pre>
 
 *The log has been edited a little afterwards and reference to third person
