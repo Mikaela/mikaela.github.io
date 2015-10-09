@@ -29,7 +29,7 @@ is followed in [freenode-harassment].*
 This log hasn't been cut before the kban to show that I said nothing on this
 channel yet at this point.
 
-```
+<pre class="irclog">
 [11:00:35] *** Joins: Mikaela (Mikaela@teranova-n8s1gp.113c.5rfa.1bc8.2001.IP)
 [11:00:36] *** Server sets mode: +Pfnrt *4:2
 [11:02:08] *** Mikaela is now known as Michaela
@@ -127,7 +127,7 @@ channel yet at this point.
 [17:58:38] *** Adam sets mode: -b *!*@teranova-fpb.1tl.159.69.IP
 [17:58:58] *** Adam sets mode: +b *!*@teranova-n8s1gp.113c.5rfa.1bc8.2001.IP
 [17:58:58] *** Mikaela was kicked by Adam ()
-```
+</pre>
 
 After this I am unbanned, but it's irrevelant to this post as I said
 nothing on the channel this time.
@@ -137,7 +137,7 @@ nothing on the channel this time.
 As many InspIRCd users are also using Anope this seemed like a good place to
 ask...
 
-```
+<pre class="irclog">
 [17:59:55] <Mikaela> does anyone have any idea why I was banned from #anope at teranova?
 [18:01:50] <Mikaela> Adam: are you the same Adam as at teranova and could comment ^^?
 [18:01:56] <AnneGwenn> Mikaela: last logs?
@@ -158,7 +158,7 @@ ask...
 [19:42:33] <grawity> ( probably because some people used to come there just to troll, I dunno ¯\_(ツ)_/¯ )
 [19:43:12] <Sheogorath> :D
 [19:44:16] <grawity> also I didn't even notice Adam had replied... need more coffee.
-```
+</pre>
 
 ### The following query
 
@@ -171,7 +171,7 @@ ask...
   services meaning `*Serv` ChanFix, Alis or anything beginning with `*`
   (ZNC modules) by default.
 
-```
+<pre class="irclog">
 [18:52:02] <Adam> sorry about earlier I was just a little angered over some comments you said in #inspircd before joining, I shouldnt have just banned you like that, apologies
 [18:52:30] <Mikaela> which comments exactly?
 [18:52:47] <Adam> (04:08:36) < Mikaela> I think I still prefer to Atheme. At least it's understandable and doesn't tell you that you must group on page that doesn't have anything releated to groups and Atheme's HostServ is clear instead of saying "no
@@ -443,14 +443,14 @@ ask...
 [20:20:41] <Mikaela> I don't think ignoring that 0.1% is OK             
 [20:21:06] <Mikaela> oh and the negative Anope discussion seems to be going on different channel than #atheme and it probably startd from my comments             
 [20:21:19] <Adam> im sure
-```
+</pre>
 
 ## Other bothering behaviour
 
 * This can probably be considered as misunderstanding etc.
   but these things bother me.
 
-```
+<pre class="irclog">
 2015-02-22.log-[16:11:58] <SaberUK> if you are using inspircd add <include file="conf/aliases/anope.conf.example"> to your inspircd config
 2015-02-22.log-[16:13:49] <Verbat> i'm using unreal
 2015-02-22.log-[16:14:11] <Moot> -> include "aliases/anope.conf";
@@ -476,9 +476,9 @@ hout issues. I am not sure what is the official way of explaining "sending unkno
 2015-02-22.log-[16:30:45] *** Joins: Florian (Florian@teranova-896pv6.hsi12.unitymediagroup.de)
 2015-02-22.log-[16:31:20] <Florian> Spricht hier einer zufällig Deutsch?
 2015-02-22.log-[16:37:03] <ctcp> i speak a litle Florian
-```
+</pre>
 
-```
+<pre class="irclog">
 2015-03-01.log-[14:52:25] <Moot> Hello, I don't receive any confirmation saying the memo was sent when I use the 'STAFF' option... But it's send and people receive it. Is it normal?
 2015-03-01.log-[15:16:13] <DukePyrolator> hmm, there is no code for it in the module. so its not a bug. its a missing feature :-)
 2015-03-01.log-[15:16:21] <Moot> yes i saw it
@@ -495,7 +495,7 @@ hout issues. I am not sure what is the official way of explaining "sending unkno
 2015-03-01.log:[16:26:41] <Mikaela> it's now at https://bugs.anope.org/view.php?id=1639 , I hope I am understandable
 2015-03-01.log:[16:27:29] <Mikaela> I must change that issue tracker to English, because that Finnish translation uses weird words that say nothing to me when thinking about bug tracking
 2015-03-01.log-[16:41:14] <Adam> we don't need to know that, though
-```
+</pre>
 
 ## Sorcerynet and the top secret IRCd change
 
@@ -515,7 +515,7 @@ hout issues. I am not sure what is the official way of explaining "sending unkno
   currently and it also supports IRCv3 which is basic requirement for me
   nowadays.
 
-```
+<pre class="irclog">
 [15:58:02] <Adam> how did you find sorcerynet?
 [15:58:53] <Adam> eg, what made you join it
 [16:58:03] <Mikaela> why do you ask?
@@ -578,7 +578,7 @@ hout issues. I am not sure what is the official way of explaining "sending unkno
 [17:40:19] <Adam> didnt occur to me there could possibly be any other reason
 [17:43:16] <Adam> I guess if you were around the last time I did something like this with sor maybe youd undersatnd more what I was trying to prevent, sigh
 [17:43:19] <Adam> anyway sorry, bye
-```
+</pre>
 
 ## The last straw
 
@@ -587,7 +587,7 @@ hout issues. I am not sure what is the official way of explaining "sending unkno
   ban me from there as that would be their style as that would be their
   style.
 
-```
+<pre class="irclog">
 [14:15:14] <Botox> anope: Adam 2.0: https://github.com/anope/anope/commit/fb17bc85ead8c1be6ebe1561f77865f083fdc000
 [14:15:14] <Botox> Redesign m_ldap to no longer rely on undefined behavior
 [14:15:14] <Botox> Accessing the same LDAP* from multiple threads at once is always
@@ -672,7 +672,7 @@ hout issues. I am not sure what is the official way of explaining "sending unkno
 [14:28:35] <Adam> i suppose I could change it and people who read it would learn hey maybe they are not the same
 [14:28:38] <Adam> but
 [14:28:44] <Adam> I dont want to
-```
+</pre>
 
 ## My contributions to Atheme and IRCv3
 

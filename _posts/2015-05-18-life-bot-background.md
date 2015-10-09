@@ -122,7 +122,7 @@ below during September. What happens will happen in the future, if it
 does. Below is how I introduced myself at the poly channel I was able
 to find.*
 
-```
+<pre class="irclog">
 <Mikaela> Hi, I think I might be poly. I have bad experience with my ex in long distance relationship as I found out they were in another relationship and they didn't tell me anything about it, because (they change the reason) "I thought you would accept it" or "I didn't want to make you cry". I have since gotten over them and recently thinking and I don't know, maybe I am poly. I am having difficulties finding good
 <Mikaela> material that is meant to potentially poly people and I am a little lost with words and I think "open relationship", while being umbrella term, would describe me the best. From what I have understood the most important thing is COMMUNICATION and making rules with future partners, isn't it so? Is there anything I should especially read? I m currently not in relationship
 <Mikaela> which possibly makes things easier as long as I discuss this with potential partners?
@@ -139,7 +139,7 @@ to find.*
 <person1> I would have tried but I respected your want for me not to speak of poly stuff
 <Mikaela> I also wasn't over the ex at that time so I wouldn't have listened to you
 <person1> Mmm, it was quite some time ago
-```
+</pre>
 
 *The log has been edited a little afterwards and reference to third person
  has been removed.*

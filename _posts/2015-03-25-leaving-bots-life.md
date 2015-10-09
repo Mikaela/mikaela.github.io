@@ -23,7 +23,7 @@ Below is the <s>problematic part of</s> discussion from 2015-02-13:
 to find the important part and the previous problematic part starts from
 `[21:43:36]`.*
 
-```text
+<pre class="irclog">
 [20:48:35] <Hasimir> hey Mikaela, how is the network command referred to in a plugin (like @network), is it supybot.network or config.network or something else?
 [20:49:00] <Mikaela> I have no idea what you mean
 [20:49:27] <Hasimir> basically I want to tweak a plugin to make a filename that refers to the network the bot is on
@@ -98,7 +98,7 @@ to find the important part and the previous problematic part starts from
 [21:49:41] <Mikaela> our CoC has always allowed offtopic talking and this is the channel where I was always open even before I came out. There aren't also active support questions at the moment. You can find the link in ,,(topic get 1)
 [21:49:43] <Limnoria> Help with using and developing for Limnoria, please see our CoC http://git.io/rh363Q
 [21:50:04] <Mikaela> true, most of that has moved to ##abgilpqt+ after it was founded and this stopped being the nice channel of ~5 people
-```
+</pre>
 
 Today it was nicely told me that it's not offtopic that is the issue, but
 it's "my ranting" or in other words, me as I am not neurotypical or cis
@@ -127,7 +127,7 @@ I had permission from @ProgVal who is founder on \#Limnoria and op on
 \#Supybot to make these statistics and I haven't gotten any information
 about not having that permission anymore.
 
-```
+<pre class="irclog">
 2014-11-03 13:22:52      Mikaela        I just noticed that you have unloaded WebStats and I am missing some kind of statistics :(
 2014-11-03 13:23:26      Mikaela        oh and do you have any reverse proxy for http://aperio.fr:7410/ and does Limnoria get the real IP?
 2014-11-03 13:46:02      Mikaela        would you be OK with http://koti.kapsi.fi/~mkaysi/pisg/Limnoria.html ? pisg with most of things stripped in config
@@ -139,7 +139,7 @@ about not having that permission anymore.
 2014-11-03 16:42:10      pinkieval      Mikaela | would you be OK with http://koti.kapsi.fi/~mkaysi/pisg/Limnoria.html ? => yes
 2014-11-03 16:42:49      Mikaela        :)
 2014-11-03 16:42:49      Mikaela        I tried too remove things that would use bad pronouns, other files in that directory are bad
-```
+</pre>
 
 ## A little on my life currently
 
