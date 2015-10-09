@@ -52,6 +52,7 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+// This is used in the index
 #gravatar {
     margin-left: auto;
     margin-right: auto;
@@ -59,8 +60,18 @@ $on-laptop:        800px;
     border: 1px solid black;
 }
 
+// This is the short bio in the index and all my profiles
 #bio {
     text-align: center;
     //font-weight: bold;
     font-style: italic;
+}
+
+// IRC logs should be formatted with this
+#irclog {
+    white-space: pre-wrap;
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
 }
