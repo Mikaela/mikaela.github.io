@@ -17,14 +17,14 @@ in [GNU Free Documentation License 1.3 or later].**
 
 TL;DR commands:
 
-```
+<pre>
 sudo pacman --needed -S reflector rsync curl
 cd /etc/systemd/system/
 sudo curl -LO https://github.com/Mikaela/shell-things/raw/master/etc/systemd/system/reflector.service
 sudo systemctl enable reflector
 sudo systemctl start reflector
 sudo pacman -Syu
-```
+</pre>
 
 (end of TL;DR and what you actually do)
 
