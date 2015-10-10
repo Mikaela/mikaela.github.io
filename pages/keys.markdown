@@ -10,7 +10,7 @@ to communicate with me securely.
 
 ## Tables
 
-<table border="1">
+<table>
     <tr>
         <th>PGP Fingerprint</th>
     </tr>
@@ -19,7 +19,7 @@ to communicate with me securely.
     </tr>
 </table>
 <br/>
-<table border="1">
+<table>
     <tr>
         <th>Account</th>
         <th>OTR Fingerprint</th>

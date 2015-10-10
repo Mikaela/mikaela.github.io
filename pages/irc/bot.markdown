@@ -37,7 +37,7 @@ written by me.
 The following table opens where the bot will reply to in channel. In PM
 the bot replies to everything *(without prefix)*.
 
-<table border="1">
+<table>
     <tr>
         <th>Replies to</th>
         <th>Examples</th>
@@ -75,7 +75,7 @@ the bot replies to everything *(without prefix)*.
 For checking the channel specific prefixes, refer to the following
 commands. They can be used in channel (if you know the prefix) or PM.
 
-<table border="1">
+<table>
     <tr>
         <th>Prefix</th>
         <th>Command</th>
@@ -86,7 +86,7 @@ commands. They can be used in channel (if you know the prefix) or PM.
     </tr>
     <tr>
         <td>Nick (beginning & end)</td>
-        <td><code>channel reply.whenAddressedBy.nick</code> &
+        <td><code>channel reply.whenAddressedBy.nick</code> and
         <code>channel reply.whenAddressedBy.nick.atEnd</code>
     </tr>
         <td>prefix strings</td>

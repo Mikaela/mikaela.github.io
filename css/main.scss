@@ -82,3 +82,8 @@ $on-laptop:        800px;
     border-radius: 3px;
     background-color: #eef;
 }
+
+// Tables belong to CSS, make the HTML5 validator happy
+table, td, th {
+    border: 1px solid black;
+}
