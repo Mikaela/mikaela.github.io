@@ -11,6 +11,7 @@ tags: [english, books, farseers, fitz, fool]
  I didn't remember there was anything gender related there, but there was
  and it's too good to not share.*
 
+<pre class="irclog">
 * Fitz: *warningly* Fool
 * Fool: Ah. Perhaps the truth is, I fear to show her my proof, lest ever
   afterwards she find all other men a disappointment. What does it matter
@@ -63,3 +64,4 @@ tags: [english, books, farseers, fitz, fool]
   you even ask? But I love you as a man loves another man ...
 * Fool: *jumps to fallen log crying dramatically* He loves me, he says!
   And I love him!
+</pre>
