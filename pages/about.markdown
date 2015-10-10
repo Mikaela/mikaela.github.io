@@ -7,10 +7,10 @@ excerpt: "A little about me on transness, Asperger's syndrome/autism, feminism, 
 <em>Even if I talk about these things openly here, I prefer that
 <strong>you don't talk about me being these minorities to anyone</strong>
 and <strong>let me tell by myself</strong> if I see reason to do it.
-People interested enough can put my name to any search engine and find here sooner or later.
+People interested enough can put my name to any search engine and find here sooner or later.</em>
 
-If you did out me, you would risk me being treated differently and possibly
-cause dangerous concequences.</em>
+<em>If you did out me, you would risk me being treated differently and
+possibly cause dangerous concequences.</em>
 
 On this page I am trying to explain myself more or those things that you
 might wonder in my self-description. Some things that I explain here may
