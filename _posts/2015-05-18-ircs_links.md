@@ -15,12 +15,11 @@ based on the following addresses
 * https://www.iana.org/assignments/uri-schemes/prov/ircs
 * https://tools.ietf.org/html/draft-butcher-irc-url-04
 
-I decide that the correct form which I will use is
-`ircs://irc.example.org:6697/#channel,##channel,!channel`.
-
-EDIT 2015-08-30: I haven't had issues with this, but apparently this
-isn't the proper way (https://tools.ietf.org/html/draft-butcher-irc-url-04)
-and the address would become
+EDIT 2015-08-30 & 2015-10-10: I got eaten by HTML5 validator, because of
+what was said above :frown: and the proper way how you make links without
+getting eaten by HTML5 validator is
+(https://tools.ietf.org/html/draft-butcher-irc-url-04) and the address
+would become
 `ircs://irc.example.org:6697/%23channel%2C%23%23channel%2C%21channel`.
 See [Percent-encoding at Wikipedia]. Thanks Mardeg at irc.mozilla.org.
 
