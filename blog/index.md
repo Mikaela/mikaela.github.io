@@ -9,30 +9,30 @@ excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, 
 
 ## In English
 
-<ul>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>What it's about</th>
+    </tr>
   {% for post in site.categories.english %}
-    <li>
-      <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
-    </li>
-<ul>
-    <li>
-        <p><em>{{ post.excerpt | strip_html }}</em></p>
-    </li>
-    </ul>
+    <tr>
+        <td><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></td>
+        <td><em>{{ post.excerpt | strip_html }}</em></td>
+    </tr>
   {% endfor %}
-</ul>
+</table>
 
 ## Suomeksi
 
-<ul>
+<table>
+    <tr>
+        <th>Otsikko</th>
+        <th>Mistä se kertoo</th>
+    </tr>
   {% for post in site.categories.finnish %}
-    <li>
-      <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
-    </li>
-<ul>
-    <li>
-        <p><em>{{ post.excerpt | strip_html }}</em></p>
-    </li>
-    </ul>
+    <tr>
+        <td><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></td>
+        <td><em>{{ post.excerpt | strip_html }}</em></td>
+    </tr>
   {% endfor %}
-</ul>
+</table>
