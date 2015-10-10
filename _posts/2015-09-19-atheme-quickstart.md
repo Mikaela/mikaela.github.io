@@ -111,7 +111,7 @@ there:
 ## Futher reading
 
 * [Always add opers to access list (this is the $oper in my templates)]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
-    * oops, did I just repeat previous post :smile:
+    * oops, did I just repeat previous post
 * [Keep the ops opped]({% post_url 2015-04-01-keep-the-ops-opped %})
     * especially read this if you are at freenode or wondering why you
       don't get automatically opped after registering the channel and
