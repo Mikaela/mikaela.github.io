@@ -89,6 +89,7 @@ commands. They can be used in channel (if you know the prefix) or PM.
         <td><code>channel reply.whenAddressedBy.nick</code> and
         <code>channel reply.whenAddressedBy.nick.atEnd</code>
     </tr>
+    <tr>
         <td>prefix strings</td>
         <td><code>channel reply.whenAddressedBy.strings</code>
     </tr>
@@ -177,7 +178,7 @@ I am trying to run [the latest released version of Limnoria.](https://github.com
 External plugins are updated whenever I see need for it, but at least when
 I upgrade Limnoria.
 
-### Limnoria
+### Limnoria issues
 
 * Issue tracker: https://github.com/ProgVal/Limnoria/issues
 
@@ -200,7 +201,7 @@ I upgrade Limnoria.
       "URL shortener"
 * [Google says: Error invalid resultSize](https://github.com/ProgVal/Limnoria/issues/1163)
 
-## ProgVal/Supybot-plugins
+## ProgVal/Supybot-plugins issues
 
 * Issue tracker: https://github.com/ProgVal/Supybot-plugins/issues
 
