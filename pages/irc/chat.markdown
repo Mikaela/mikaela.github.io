@@ -25,7 +25,7 @@ channel (in order to reduce spam).
 * [Freenode: automatic identification (SASL)](https://freenode.net/sasl)
   Kiwi users: `I have a password` and type the password.
 
-<iframe src="https://kiwiirc.com/client/chat.freenode.net:%2B6697/%23%23Mikaela" style="border:0; width:100%; height:450px;"></iframe>
+<iframe src="https://kiwiirc.com/client?settings=371cbadad7d7d75d5c73855f8ae4395d" style="border:0; width:100%; height:450px;"></iframe>
 
 * "Advanced" information:
     * network name: `freenode`
