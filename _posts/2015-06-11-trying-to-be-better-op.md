@@ -33,22 +33,20 @@ But there is still the question *what is an attack*?
 but so I am told and I must probably use my judgement on it which again
 can results to mistakes, but those are reversible by other ops.
 
-<s>
-Trying to analyze logs of the previous case this happened, it looks like
-attack is at least:
+<s>Trying to analyze logs of the previous case this happened, it looks like
+attack is at least:</s>
 
-* directly targeted to a person, not part of them, and not generally saying
+* <s>directly targeted to a person, not part of them, and not generally saying
   that some part of them makes or doesn't make them X and neither it's
-  generally talking about that part and oneself own experiences of them.
-    * the *not*-parts still feel like attacks reading this, but other ops
-      say that it's assertiveness.
-* talking about privilege for living in X where things are better and that
-  means that the attacked one cannot have any kinds of issues with anything
-  including mental health
-* talking like the attacked one was attacking them
+  generally talking about that part and oneself own experiences of them.</s>
+    * <s>the *not*-parts still feel like attacks reading this, but other ops
+      say that it's assertiveness.</s>
+* <s>talking about privilege for living in X where things are better and that
+  means that the attacked one cannot have any kinds of issues with anything</s>
+  <s>including mental health</s>
+* <s>talking like the attacked one was attacking them</s>
 
-* *additions welcome*
-</s>
+* <s>*additions welcome*</s>
 
 Attack seems to also be when the attacked one communicates being
 uncomfortable (which should be done clearly, but do they always remember
