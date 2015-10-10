@@ -25,11 +25,11 @@ channel (in order to reduce spam).
 * [Freenode: automatic identification (SASL)](https://freenode.net/sasl)
   Kiwi users: `I have a password` and type the password.
 
-<iframe src="https://kiwiirc.com/client/chat.freenode.net:+6697/##Mikaela" style="border:0; width:100%; height:450px;"></iframe>
+<iframe src="https://kiwiirc.com/client/chat.freenode.net:%2B6697/%23%23Mikaela" style="border:0; width:100%; height:450px;"></iframe>
 
 * "Advanced" information:
     * network name: `freenode`
     * address: `chat.freenode.net`
     * SSL port: `6697` *SSL is required for joining the channel*
     * channel: `##Mikaela`
-* [IRC link](ircs://chat.freenode.net:6697/##Mikaela)
+* [IRC link](ircs://chat.freenode.net:6697/%23%23Mikaela)
