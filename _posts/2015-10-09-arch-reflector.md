@@ -40,3 +40,13 @@ sudo pacman -Syu
 5. Check for updates & install them.
 
 Do check the service itself at https://github.com/Mikaela/shell-things/raw/master/etc/systemd/system/reflector.service !
+
+Bonus: edit `/etc/pacman.conf` and add the line:
+
+```
+NoExtract = etc/pacman.d/mirrorlist
+```
+
+so when you upgrade you won't get useless mirrorlist.pacnew file. **NOTE:**
+it's intented to be `etc/pacman.d/mirrorlist` without the initial `/`,
+because it's *relative*, not *absolute*, path.
