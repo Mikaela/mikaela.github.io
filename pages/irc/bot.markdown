@@ -200,6 +200,7 @@ I upgrade Limnoria.
     * you will especially see this if you encounter links to my
       "URL shortener"
 * [Google says: Error invalid resultSize](https://github.com/ProgVal/Limnoria/issues/1163)
+* [Web title & titlesnarfer are broken](https://github.com/ProgVal/Limnoria/issues/1173)
 
 ## ProgVal/Supybot-plugins issues
 
