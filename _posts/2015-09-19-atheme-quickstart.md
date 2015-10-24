@@ -4,6 +4,11 @@ comments: true
 title: "Quickstart with Atheme IRC Services (& forks) for end users"
 category: [english]
 tags: [english, irc, atheme]
+redirect_from: 
+  - /nickserv.html
+  - /chanserv.html
+  - /groupserv.html
+  - /atheme.html
 ---
 
 Atheme IRC Services is the most used IRC service package. However many
