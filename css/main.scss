@@ -87,3 +87,11 @@ $on-laptop:        800px;
 table, td, th {
     border: 1px solid black;
 }
+
+// Trying to make images look a little better
+img {
+     margin-left: auto;
+     margin-right: auto;
+     width: 6em;
+     border: 1px solid black;
+}
