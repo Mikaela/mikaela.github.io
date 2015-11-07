@@ -3,6 +3,7 @@ layout: page
 permalink: /irc/znc.html
 excerpt: "WIP - details on ZNC on my VPS"
 sitemap: false
+redirect_from: /znc.html
 ---
 
 ## ZNC
@@ -72,3 +73,9 @@ Read also [WeeChat page on ZNC wiki](http://wiki.znc.in/WeeChat). You want
 to read at least the *Enabling server-time & other IRCv3 capabilities* to
 make your experience smoother.
 
+### Webchat
+
+1. Check "I have a password" and type `username/network:password`.
+2. Click "Start...". Ignore the nick as it gets ignored by ZNC.
+
+<iframe src="https://kiwiirc.com/client/vardiera.mikaela.info:+1234/?nick=whatever?" style="border:0; width:100%; height:450px;"></iframe>
