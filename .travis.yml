@@ -1,5 +1,7 @@
 language: ruby
+
 sudo: false
+
 script:
   - gem install github-pages
   - jekyll build --drafts
@@ -7,10 +9,21 @@ script:
   - python2 -m pip install html5validator --user --upgrade
   - ~/.local/bin/html5validator --root _site/ --ignore 'Bad value “Content-Security-Policy” for attribute “http-equiv” on element “meta”.' --blacklist r
 rvm: 2.1
+
 notifications:
     email: false
+    # In hope Travis will be more reliable than Notifico...
+    irc:
+        channels:
+            # Encrypted in case this repo will be forked and Travis
+            # enabled for the fork(s).
+            # travis encrypt "ircs://irc.freenode.net:6697/##Mikaela" -r Mikaela/mikaela.github.io
+            - secure: "lhesEYTGkRQ1wpEnWxpno0I+9+bFH03okjDcIxolIirsmQFxDlWdLDDynODnomiwSJaqUJi2oOboSPwWG4Nh8tVoXQgqi8g7y3W8M1wTsDcdPa5Um7O/44hKcRQey0Sj3wa3RWytK3VywFwpoZPY8gOMvQtOwEXRF/AF7YOJ064="
+        use_notice: true
+
 matrix:
     fast_finish: true
+
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
