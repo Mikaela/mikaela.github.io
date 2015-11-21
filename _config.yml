@@ -22,7 +22,7 @@ timezone: Europe/Helsinki
 encoding: utf-8
 gems:
     - jekyll-mentions
-    - jemoji
+#    - jemoji
     - jekyll-redirect-from
     - jekyll-sitemap
 sitemap:
