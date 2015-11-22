@@ -19,6 +19,7 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 * [GitHub](https://github.com/Mikaela)
     * I used to have different account which is currently organization
       including forks where I don't contribute so actively.
+* [Google+](https://plus.google.com/102194700669991420126)
 * [Keybase](http://keybase.io/Mikaela)
 * [Launchpad](https://launchpad.net/~mikaela)
 * [LinkedIn](https://fi.linkedin.com/in/ciblia)
