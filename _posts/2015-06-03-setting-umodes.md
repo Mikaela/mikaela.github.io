@@ -36,6 +36,10 @@ client to (un)set them automatically.
 
 ### And what these umodes mean
 
+This list is what I want the umodes to mean when I set them automatically.
+For what the actual umodes are on your network, try `/quote help umode` or
+`/quote help umodes`.
+
 * i — invisible, hides your channel list from whois with ircd-seven and
   possibly some other ircds. Also hides you from /who of people who don't
   share channels with you. [See also why I unset it here.]({% post_url 2015-03-26-umode--i %})
@@ -51,3 +55,4 @@ client to (un)set them automatically.
 * g — caller-id, people must be `/accepted` or PMed before they can PM you.
   More detailed post about that [here]({% post_url 2015-04-02-umode+g %})
   and [part 2 here]({% post_url 2015-05-10-umode+g2 %}).
+* t — only users using SSL can PM.
