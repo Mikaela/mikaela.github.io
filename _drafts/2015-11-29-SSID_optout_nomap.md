@@ -24,7 +24,7 @@ Today I renamed my primary WLAN network (hereafter referred as SSID) to
           didn't do it, but instead their network was "hacked" which wasn't
           the case as they were using Windows 10 or Windows Phone.
 * `_nomap` opt out of Google Maps accuracy increaser & Mozilla Location
-  Services & others.
+  Services & WiGLE & others.
 
 While I think that MAC based opting out would be better than making SSID
 messy, most parties doing the mapping only accept SSID and I hope all
@@ -66,12 +66,15 @@ I don't like this and I don't doubt that there are people who would
 cause me (physical) harm (read the rest of this site/blog or then just be
 on common IRC channels and see as I make enemies).
 
-WiGLE doesn't accept `_nomap` yet or at least their note on opting out
-doesn't say so at the time of the writing, but hopefully they do in the
-future. In the meanwhile you can opt-out by sending email including MAC
-address of your access point.
-
 > WiGLE respects your privacy. To have records of your access point removed from our database, or if you have any questions or suggestions, send an email to: WiGLE-admin[at]WiGLE.net (please include BSSID (MAC) in removal requests). We're also on IRC: at WiGLE.net:6667
+
+To my opt-out response I received the following message implying that they
+do support `_nomap`/`_optout`:
+
+> Those networks delisted as requested. We periodically purge the
+  _optout / _nomap networks.
+
+> -bobzilla
 
 *I hope this blog post at least communicates what I am trying to say even
 if it looks very messy to me and I haven't even took any anxiety medicines
