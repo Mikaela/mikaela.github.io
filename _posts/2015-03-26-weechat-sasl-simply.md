@@ -4,6 +4,7 @@ comments: true
 title: "WeeChat: easy instructions for using SASL"
 category: [english]
 tags: [irc, english]
+redirect_from: /weechat-sasl.html
 ---
 
 This seems to confuse many WeeChat users, so I will try to explain it more

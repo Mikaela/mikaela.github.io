@@ -4,7 +4,9 @@ comments: true
 title: "WeeChat: ignoring with /filter"
 category: [english]
 tags: [english, IRC, WeeChat]
-redirect_from: /filter.html
+redirect_from:
+  - /filter.html
+  - /weechat-filter.html
 ---
 
 *Everyone knows the `/ignore` command, but there is also `/filter` which
