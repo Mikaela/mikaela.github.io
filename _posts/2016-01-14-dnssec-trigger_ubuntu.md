@@ -48,3 +48,6 @@ if it doesn't exist and restart networkmanager with `sudo systemctl restart Netw
 
 And when you `sudo reboot` you should see new dnssec-trigger tray icon in
 your tray bar or whatever it was called as.
+
+*Edit*: Arch users do remember do `systemctl enable dnssec-triggerd` and
+`systemctl enable unbound`.
