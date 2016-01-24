@@ -41,3 +41,8 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 * [LastPass](https://lastpass.com/f?884346)
     * "*For every friend that signs up for LastPass, you both get 1 month
       free Premium (up to a limit of 2 years)!*"
+* [Wolt](http://get.woltapp.com/93O1)
+    * "*Every time a new friend signs up to Wolt with your personal code
+      and makes their first order, they get a €5.00 discount and you get
+      €5.00 worth in credits. Happy sharing!*"
+        * `93O1`
