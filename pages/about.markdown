@@ -93,6 +93,29 @@ and means *demiromantic asexual* or *demisexual*.
 
 *I feel I should type something more here, but I have no idea what...*
 
+## Poly-curious
+
+*This part will get renamed and rewritten when I find out which I am if
+ ever and this doesn't read on the short bio as I consider it as irrelevant
+ there. People are more likely to seek for trans/aspie/ace people than
+ poly for some sort of peer support.*
+
+I might be poly, but I am not sure. If I am, that means that I can have
+multiple partners and that is some sort of requirement of asexuality as
+relationships between asexual and allosexual (person who feels at least
+average level of sexual attraction) are doomed to fail unless at least the
+allosexual is poly and can satisfy their sexual desires elsewhere.
+
+I think that if I am poly, the most suitable relationship type is possibly
+open relationship.
+
+Further reading:
+* [Polyamory at Wikipedia](https://en.wikipedia.org/wiki/Polyamory)
+* [Open relationship at Wikipedia](https://en.wikipedia.org/wiki/Open_relationship)
+* [More Than Two](https://www.morethantwo.com/)
+
+*Does this page have worse section?*
+
 ## Feminist
 
 I support equal rights for everyone and the right of self-definition (or
