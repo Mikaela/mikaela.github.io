@@ -105,21 +105,14 @@ them.
 
 ## Linux user
 
-I have been used Linux since 2008, I started with [Ubuntu] \(8.04) which I am
-still using. My preferred distribution is [Ubuntu MATE] or
-[Ubuntu Server], but I am also familiar with other distributions, mainly
+I have been used Linux since 2008, I started with [Ubuntu] \(8.04).
+My preferred distribution is [Ubuntu MATE] or [Arch Linux] or with servers
+[Debian], but I am also familiar with other distributions, mainly
 [Debian]-deriatives. 
 
 I have experience with [Fedora] and other distributions from that side too
 and I am not entirely lost while using them, but somehow I have always
 preferred Debian side. Maybe it's just that I have learned to use it.
-
-Lately I have also been using [Antergos] which is [Arch Linux] with one
-additional repo for things such as fonts and yaourt. I have always
-performed base install (no desktop environment with it) as I don't like
-the customizations that are made to desktop environments if I install them
-directly in installer. I use [MATE] as desktop environment and [SDDM]
-as display manager.
 
 [Ubuntu]:http://www.ubuntu.com/desktop
 [Ubuntu MATE]:https://ubuntu-mate.org/
@@ -132,7 +125,7 @@ as display manager.
 
 *Hah, this is the only part of the page I feel is enough descriptive...*
 
-# Life
+## Life
 
 This link list to life post on my blog shouldn't be here, but it has no
 better place, so where else should it be?
