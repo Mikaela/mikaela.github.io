@@ -14,4 +14,9 @@
  <!-- Help http://validator-search.verisignlabs.com/ -->
  <link rel="prefetch" href="https://prefetch.validatorsearch.verisignlabs.com" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+ <!-- Twitter card -->
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:site" content="@Inaneierase" />
+ <meta name="twitter:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+ <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | nstrip_html | strip_newlines }}{% endif %}" />
 </head>
