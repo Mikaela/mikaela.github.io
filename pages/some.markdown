@@ -19,6 +19,9 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 * [GitHub](https://github.com/Mikaela)
     * I used to have different account which is currently organization
       including forks where I don't contribute so actively.
+* [Goodreads](https://www.goodreads.com/user/show/11147845-mikaela-suomalainen)
+    * You should be asked *Where do I know you from or why we should be
+      friends?*, if you are unsure how to reply, check Facebook.
 * [Google+](https://plus.google.com/102194700669991420126)
 * [Keybase](http://keybase.io/Mikaela)
 * [Launchpad](https://launchpad.net/~mikaela)
