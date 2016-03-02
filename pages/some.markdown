@@ -44,6 +44,13 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 * [LastPass](https://lastpass.com/f?884346)
     * "*For every friend that signs up for LastPass, you both get 1 month
       free Premium (up to a limit of 2 years)!*"
+* [Uber](https://www.uber.com/invite/mikaelas351ue)
+    * "*All your friends who give the invite code when joining get their
+        first trip for free (value depends on the country). When they use
+        the code, you get automatically free drive (value 10€ at maximum)
+        when you use Uber for the next time. Offer is not valid for
+        UberTaxi.*
+        * (The above is free translation from Finnish to English.)
 * [Wolt](http://get.woltapp.com/93O1)
     * "*Every time a new friend signs up to Wolt with your personal code
       and makes their first order, they get a €5.00 discount and you get
