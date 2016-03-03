@@ -23,6 +23,7 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
     * You should be asked *Where do I know you from or why we should be
       friends?*, if you are unsure how to reply, check Facebook.
 * [Google+](https://plus.google.com/102194700669991420126)
+* [Instagram](https://www.instagram.com/mikaelahmsuomalainen/)
 * [Keybase](http://keybase.io/Mikaela)
 * [Launchpad](https://launchpad.net/~mikaela)
 * [LinkedIn](https://fi.linkedin.com/in/ciblia)
@@ -51,6 +52,7 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
         when you use Uber for the next time. Offer is not valid for
         UberTaxi.*
         * (The above is free translation from Finnish to English.)
+            * `mikaelas351ue`
 * [Wolt](http://get.woltapp.com/93O1)
     * "*Every time a new friend signs up to Wolt with your personal code
       and makes their first order, they get a €5.00 discount and you get
