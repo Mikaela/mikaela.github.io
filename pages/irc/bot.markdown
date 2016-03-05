@@ -18,8 +18,7 @@ that is still under active development and it has merged in features of
 another popular fork, [Gribble].
 
 My role with [Limnoria] was Finnish translator and IRC support and I also
-made minor changes to make some default configuration variables more sane.
-Most of [documentation] since [Supybot] and before my leaving is also
+made minor changes to make some default configuration variables more reasonable. Most of [documentation] since [Supybot] and before my leaving is also
 written by me.
 
 * [Blog: Leaving Limnoria]({% post_url 2015-03-25-leaving-bots-life %})
@@ -87,11 +86,11 @@ commands. They can be used in channel (if you know the prefix) or PM.
     <tr>
         <td>Nick (beginning & end)</td>
         <td><code>channel reply.whenAddressedBy.nick</code> and
-        <code>channel reply.whenAddressedBy.nick.atEnd</code>
+        <code>channel reply.whenAddressedBy.nick.atEnd</code></td>
     </tr>
     <tr>
         <td>prefix strings</td>
-        <td><code>channel reply.whenAddressedBy.strings</code>
+        <td><code>channel reply.whenAddressedBy.strings</code></td>
     </tr>
 </table>
 
