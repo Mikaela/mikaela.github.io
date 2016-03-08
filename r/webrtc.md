@@ -1,5 +1,5 @@
 ---
-redirect_to: https://fiidit.com/
+redirect_to: https://meet.jit.si/
 permalink: /r/webrtc.html
 sitemap: false
 ---
