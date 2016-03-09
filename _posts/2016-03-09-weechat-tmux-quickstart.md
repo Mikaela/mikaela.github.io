@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Short quickstat on tmux & WeeChat for GUIless support"
+title: "Short quickstart on tmux & WeeChat for GUIless support"
 category: [english]
 tags: [english, irc, tmux]
 ---
