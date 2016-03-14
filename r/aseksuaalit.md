@@ -1,5 +1,5 @@
 ---
-redirect_to: https://telegram.me/joinchat/Cc6XLAWZIJdtly_J2kZylQ
+redirect_to: https://telegram.me/aseksuaalit
 permalink: /r/aseksuaalit.html
 sitemap: false
 ---
