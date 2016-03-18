@@ -20,10 +20,10 @@ random and [improvements are welcome here.](https://github.com/Mikaela/mikaela.g
 
 <!-- * Minority-specific -->
 * All GRSM (Gender Romantic Sexual Minority) people
-    * [##abgilpqt+ at freenode](ircs://chat.freenode.net:6697/%23%23abgilpqt+)
+    * [##abgilpqt+ at freenode](/r/irc-abgilpqt+.html)
         * [rules](https://abgilpqt.github.io)
         * [webchat](https://abgilpqt.github.io/webchat)
-    * [#GayCafe at sorcerynet](ircs://irc.sorcery.net:6697/%23gaycafe)
+    * [#GayCafe at sorcerynet](/r/irc-gaycafe.html)
         * [webchat](https://kiwiirc.com/client/irc.sorcery.net:%2B6697/%23gaycafe)
 
 

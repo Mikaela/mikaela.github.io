@@ -32,4 +32,4 @@ channel (in order to reduce spam).
     * address: `chat.freenode.net`
     * SSL port: `6697` *SSL is required for joining the channel*
     * channel: `##Mikaela`
-* [IRC link](ircs://chat.freenode.net:6697/%23%23Mikaela)
+* [IRC link](/r/irc-mikaela.html)

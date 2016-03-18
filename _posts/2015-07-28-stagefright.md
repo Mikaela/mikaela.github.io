@@ -27,9 +27,8 @@ Tähän on kaksi minun tuntemaani tapaa
 
 ## MMS APN-osoitteen poistaminen
 
-Freenodessa kanavalla
-[#vapaakoodi](ircs://irc.freenode.net:6697/#vapaakoodi) mentiin pidemmälle
-ja poistettiin koko multimediaviestien APN-osoite.
+Freenodessa kanavalla [#vapaakoodi](/r/irc-vapaakoodi.html) mentiin
+pidemmälle ja poistettiin koko multimediaviestien APN-osoite.
 
 **VAROITUS: Et tämän jälkeen voi vastaanottaa multimediaviestejä ellet
 määritä APN-osoitetta uudelleen.**
