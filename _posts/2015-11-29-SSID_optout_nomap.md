@@ -4,6 +4,11 @@ comments: true
 title: "`SSID_optout_nomap`"
 category: [english]
 tags: [english, wlan, privacy, anxiety]
+redirect_from:
+  - /openwireless.html
+  - /openwireless5.html
+  - /openwireless_nomap.html
+  - /openwireless5_nomap.html
 ---
 
 *Anxiety is now focusing to WLAN mapping & key sharing and how easy it is
