@@ -1,5 +1,6 @@
 ---
 redirect_to: https://www.ellibslibrary.com/helmet
-permalink: /r/helmet-elibs.html
+permalink: /r/helmet-ellibs.html
+redirect_from: /r/helmet-elibs.html
 sitemap: false
 ---
