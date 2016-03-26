@@ -28,6 +28,11 @@ random and [improvements are welcome here.](https://github.com/Mikaela/mikaela.g
     * [#GayCafe at sorcerynet](/r/irc-gaycafe.html)
         * [webchat](https://kiwiirc.com/client/irc.sorcery.net:%2B6697/%23gaycafe)
 
+### Telegram
+
+* All GRSM (Gender Romantic Sexual Minority) people
+    * [abgilpqt+](https://telegram.me/abgilpqt)
+        * See ##abgilpqt+ at freenode (IRC) above.
 
 ### Trans
 
