@@ -14,6 +14,14 @@
 
       <div class="footer-col  footer-col-2">
         <ul class="social-media-list">
+          {% if site.facebook_username %}
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}">
+              <span class="username">FB:{{ site.facebook_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
@@ -24,6 +32,20 @@
               </span>
 
               <span class="username">{{ site.github_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+
+          <li>
+            <a href="/r/irc-mikaela.html">
+              <span class="username">IRC:##Mikaela@freenode</span>
+            </a>
+          </li>
+
+          {% if site.telegram_username %}
+          <li>
+            <a href="https://telegram.me/{{ site.telegram_username }}">
+              <span class="username">TG:{{ site.telegram_username }}</span>
             </a>
           </li>
           {% endif %}
@@ -39,22 +61,6 @@
               </span>
 
               <span class="username">{{ site.twitter_username }}</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.facebook_username %}
-          <li>
-            <a href="https://facebook.com/{{ site.facebook_username }}">
-              <span class="username">FB:{{ site.facebook_username }}</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.telegram_username %}
-          <li>
-            <a href="https://telegram.me/{{ site.telegram_username }}">
-              <span class="username">TG:{{ site.telegram_username }}</span>
             </a>
           </li>
           {% endif %}
