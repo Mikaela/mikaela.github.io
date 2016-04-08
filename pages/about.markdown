@@ -88,8 +88,9 @@ I am demiromantic asexual. That means that I
 * don't feel sexual attraction.
 * can feel aesthetic attraction though.
 
-The Ace of Diamonds (🃁) that you can see in my biography is asexual slang
-and means *demiromantic asexual* or *demisexual*.
+The Ace of Diamonds (🃁) that you can see in my biography means *demiromantic asexual* or *demisexual*. Ace is asexual slang and means asexual
+*(surprise!)* and the playing cards have been adopted into different
+orientations.
 
 *I feel I should type something more here, but I have no idea what...*
 
