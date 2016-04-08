@@ -9,6 +9,9 @@ excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, 
 
 ## In English
 
+*Please keep in mind that old blog posts might not reflect the current
+ reality or my opinions etc.*
+
 <table>
     <tr>
         <th>Title</th>
@@ -23,6 +26,9 @@ excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, 
 </table>
 
 ## Suomeksi
+
+*Pidäthän mielessä etteivät vanhat blogaukseni välttämättä heijasta
+ todellisuutta tai nykyisiä mielipiteitäni jne.*
 
 <table>
     <tr>

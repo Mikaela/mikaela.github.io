@@ -148,6 +148,9 @@ preferred Debian side. Maybe it's just that I have learned to use it.
 
 *Hah, this is the only part of the page I feel is enough descriptive...*
 
+*Update: every time I read this this seems to be outdated and is possibly
+ getting removed entirely sometime.*
+
 ## Life
 
 This link list to life post on my blog shouldn't be here, but it has no
