@@ -4,6 +4,7 @@ comments: true
 title: "Changing Display Manager (login screen) with Antergos"
 category: [english]
 tags: [arch, linux, display manager, antergos]
+redirect_from: /antergos-dm.html
 ---
 
 *Also applies to Arch & other distributions based on it, how do you change
