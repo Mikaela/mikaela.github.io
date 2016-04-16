@@ -8,8 +8,8 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 
 * [Bitbucket](http://bitbucket.org/Ciblia)
     * very silent, I am more active with GitHub…
-* [Diaspora](https://despora.de/u/mikaela)
-    * `mikaela@despora.de`, but I have no idea how active I will be.
+* [Diaspora](https://joindiaspora.con/u/ciblia)
+    * `ciblia@joindiaspora.com`, but I have no idea how active I will be.
 * [Facebook](https://facebook.com/mikaelahmsuomalainen)
     * I only previously accepted friend requests from people I knew
       anywhere like IRC, but I have moved to just accepting all requests
