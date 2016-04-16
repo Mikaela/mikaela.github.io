@@ -20,8 +20,11 @@ tags: [arch, linux, display manager, antergos]
 
 ## LightDM gtk greeter
 
-*Most of issues with LightDM seem to be caused by the Antergos greeter so
- I also tell how to change it to lightdm-gtk-greeter.*
+*Many lightdm issues are caused by greeter, so I am telling how to change
+ it.* ***However if you encounter issues with Antergos default greeter,
+ report them at [github.com/Antergos/antergos-packages/issues](https://github.com/Antergos/antergos-packages/issues?q=is:open+lightdm)!*** *If they
+ are already reported, give the issues a +1 from top right of the issue
+ details box (looks like +☺).*
 
 * `sudo pacman --needed -S lightdm lightdm-gtk-greeter accountsservice numlockx`
 
