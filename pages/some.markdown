@@ -10,6 +10,7 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
     * very silent, I am more active with GitHub…
 * [Diaspora](https://joindiaspora.con/u/ciblia)
     * `ciblia@joindiaspora.com`, but I have no idea how active I will be.
+      * *[invite link](https://joindiaspora.com/i/0d50c7e1cbed)*
 * [Facebook](https://facebook.com/mikaelahmsuomalainen)
     * I only previously accepted friend requests from people I knew
       anywhere like IRC, but I have moved to just accepting all requests
@@ -40,6 +41,12 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 
 ## Referral links
 
+* [Diaspora](https://joindiaspora.com/i/0d50c7e1cbed)
+    * You can register on joindiaspora.com which is invite-only, but
+      you could always register on [some other pod](https://podupti.me/)
+      without invite. All posts get propagated between servers no matter
+      which pod you and I use, just remember to add
+      `ciblia@joindiaspora.com`.
 * [DigitalOcean](https://www.digitalocean.com/?refcode=ed2a94e7eb56)
     * "*Everyone you refer gets $10 in credit. Once they’ve accumulated $25
       in billings, you get $25. There is no limit on the amount of credit
