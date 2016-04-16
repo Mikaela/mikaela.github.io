@@ -54,9 +54,6 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 * [LastPass](https://lastpass.com/f?884346)
     * "*For every friend that signs up for LastPass, you both get 1 month
       free Premium (up to a limit of 2 years)!*"
-* [Signal Desktop](http://l.aunch.us/tGdK5)
-    * From what I understand this gives no benefit to users clicking it,
-      but only moves me towards top of Signal Desktop waiting list faster.
 * [Uber](https://www.uber.com/invite/mikaelas351ue)
     * "*All your friends who give the invite code when joining get their
         first trip for free (value depends on the country). When they use
