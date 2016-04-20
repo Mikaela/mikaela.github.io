@@ -25,6 +25,10 @@ to communicate with me securely.
         <th>OTR Fingerprint</th>
     </tr>
     <tr>
+        <td>joindiaspora</td>
+        <td>5B1221E3 EFC72769 4140A9C0 A0886939 35B99F86</td>
+    </tr>
+    <tr>
         <td>dukgo</td>
         <td>73C54D94 8DE7222F 478EC02C D8FD95DA 0BD3A25D</td>
     </tr>
