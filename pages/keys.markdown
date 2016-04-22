@@ -20,7 +20,7 @@ to communicate with me securely.
         <td>2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</td>
     </tr>
 </table>
-
+<br/>
 *OTR*
 
 This table can be somewhat outdated as it doesn't include anything else
