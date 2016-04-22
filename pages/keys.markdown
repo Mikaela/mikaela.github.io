@@ -38,10 +38,6 @@ I use for connecting to XMPP too using also other types of encryption
         <th>OTR Fingerprint</th>
     </tr>
     <tr>
-        <td>joindiaspora</td>
-        <td>5B1221E3 EFC72769 4140A9C0 A0886939 35B99F86</td>
-    </tr>
-    <tr>
         <td>dukgo</td>
         <td>73C54D94 8DE7222F 478EC02C D8FD95DA 0BD3A25D</td>
     </tr>
@@ -50,24 +46,28 @@ I use for connecting to XMPP too using also other types of encryption
         <td>A6131A37 FE646D22 3D2C374E F7653716 D700BB29</td>
     </tr>
     <tr>
-        <td>old gmail</td>
+        <td>gmail</td>
+        <td>BBC9BD86 7E7E7D3F F0C16CB6 581A2EDC 984E95CD</td>
+    </tr>
+    <tr>
+        <td>gmail (<strong>OLD</strong>)</td>
         <td>F13B431F C71FBA55 6B46D1E3 11273B58 C49D7118</td>
     </tr>
     <tr>
-        <td>gmail</td>
-        <td>BBC9BD86 7E7E7D3F F0C16CB6 581A2EDC 984E95CD</td>
+        <td>IRC</td>
+        <td>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</td>
     </tr>
     <tr>
         <td>jappix</td>
         <td>AEBFF7FD 845CECE5 0D3B1DEC DC63281F 612B71EC</td>
     </tr>
     <tr>
-        <td>kapsi</td>
-        <td>F0FFE3D6 ED8FCC66 A2AC0FAA 67FD41B4 EFBDEC97</td>
+        <td>joindiaspora</td>
+        <td>5B1221E3 EFC72769 4140A9C0 A0886939 35B99F86</td>
     </tr>
     <tr>
-        <td>IRC</td>
-        <td>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</td>
+        <td>kapsi</td>
+        <td>F0FFE3D6 ED8FCC66 A2AC0FAA 67FD41B4 EFBDEC97</td>
     </tr>
 </table>
 
