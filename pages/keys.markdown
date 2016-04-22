@@ -10,6 +10,8 @@ to communicate with me securely.
 
 ## Tables
 
+*PGP*
+
 <table>
     <tr>
         <th>PGP Fingerprint</th>
@@ -18,7 +20,18 @@ to communicate with me securely.
         <td>2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</td>
     </tr>
 </table>
-<br/>
+
+*OTR*
+
+This table can be somewhat outdated as it doesn't include anything else
+than WeeChat (IRC) and BitlBee keys while I have other devices/software
+I use for connecting to XMPP too using also other types of encryption
+(mainly OMEMO, I guess).
+
+**The primary accounts I use from below are IRC, Joindiaspora.com and
+  Kapsi.fi. The others will be disappearing if I have to do reconfiguring
+  on software that currently has them as there are too many to manage.**
+
 <table>
     <tr>
         <th>Account</th>
@@ -62,15 +75,12 @@ to communicate with me securely.
 
 ## DNS TXT records
 
-I should probably sign that table using PGP (but it wouldn't increase
-trust as I still have met no one whom with to sign keys), but with your
-own responsibility\* you can verify the following DNS records:
+These keys can also be confirmed by checking DNS TXT records like below:
 
 ```bash
 dig +short otr.mikaela.info TXT
 dig +short pgp.mikaela.info TXT
 ```
 
-\* This site doesn't have DNSSEC and cache of your DNS server can be
-poisoned to give wrong results and long list of different risks that can
-be there…
+*For this to be secure you should run [dnssec-trigger](https://www.nlnetlabs.nl/projects/dnssec-trigger/)
+ or DNSSEC-validating resolver on your local device.*

@@ -6,6 +6,9 @@ redirect_from: /links/
 excerpt: "Links to my SOcial MEdia accounts and other accounts around the internet."
 ---
 
+*Notice on XMPP: I am not going to monitor any others than Diaspora & Kapsi
+ accounts, if you wish to contact me using it, use either of those.*
+
 * [Bitbucket](http://bitbucket.org/Ciblia)
     * very silent, I am more active with GitHub…
 * [Diaspora](https://joindiaspora.con/u/ciblia)
