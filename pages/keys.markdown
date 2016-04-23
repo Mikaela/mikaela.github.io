@@ -102,7 +102,7 @@ I use for connecting to XMPP too using also other types of encryption
         <td>d42beab6bd86c40f4fd66c71de9f7dcc7532970e4a8cbf9d4938c4f99eb46864</td>
     </tr>
 </table>
-
+<br/>
 
 ## DNS TXT records
 
