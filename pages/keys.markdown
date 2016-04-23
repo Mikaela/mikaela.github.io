@@ -73,12 +73,44 @@ I use for connecting to XMPP too using also other types of encryption
 
 <br/>
 
+*OMEMO*
+
+<table>
+    <tr>
+        <th>Account</th>
+        <th>Device/Software</th>
+        <th>OMEMO Fingerprint</th>
+    </tr>
+    <tr>
+        <td>Joindiaspora</td>
+        <td>GT-I9305/Conversations</td>
+        <td>46c8aa40f931e8bd5773f7d10e64a6e5845f79fe48f2d7543df19b9211057a46</td>
+    </tr>
+    <tr>
+        <td>Joindiaspora</td>
+        <td>Jolla/Conversations</td>
+        <td>bdc51478af93d61c8890c5e638cb658b3736cdb706309862ff5b48e4e74ab93b</td>
+    </tr>
+    <tr>
+        <td>Kapsi</td>
+        <td>GT-I9305/Conversations</td>
+        <td>36e6c716f099d4172bd06b4bf2cf6bd9e59bdbcfa55b2912a521b39d81c50e53</td>
+    </tr>
+    <tr>
+        <td>Kapsi</td>
+        <td>Jolla/Conversations</td>
+        <td>d42beab6bd86c40f4fd66c71de9f7dcc7532970e4a8cbf9d4938c4f99eb46864</td>
+    </tr>
+</table>
+
+
 ## DNS TXT records
 
 These keys can also be confirmed by checking DNS TXT records like below:
 
 ```bash
 dig +short otr.mikaela.info TXT
+dig +short omemo.mikaela.info TXT
 dig +short pgp.mikaela.info TXT
 ```
 
