@@ -1269,7 +1269,7 @@ In case you are interested in reading more about me, I suggest
   contains links to my-life-related posts where this one doesn't belong
   due to happening mostly online.
 * https://mikaela.info/irc for the previously mentioned IRC posts which
-  also include two posts about umode+g which explain why I am unhappy
+  also include two posts about umodeg which explain why I am unhappy
   with private messages which come without my explicit permission.
 * https://mikaela.info/blog for the other blog posts I have written about
   random subjects.

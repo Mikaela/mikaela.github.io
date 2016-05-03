@@ -74,4 +74,4 @@ mitään oikeaa kiusaamista ole koskaan ollutkaan ja kyseessä on aivan
 oma vikani, etten ymmärrä leikkiä/kannustusta/mitälie. Tämä siis on
 vastaukseni "eikö ole parempi keskustella rakentavassa hengessä, kuin
 joutua julkisesti arvosteltavaksi". Tämä ei ollut mahdollista kiusaajien
-kanssa ja verkkohäiriköihin IRCssä vastaukset tuntuvat olevan [umode +g](https://mikaela.info/english/2015/04/02/umode+g.html), [umode +g osa 2](https://mikaela.info/english/2015/05/10/umode+g2.html) ja [/filter](https://mikaela.info/english/2015/05/31/weechat-filter.html).
+kanssa ja verkkohäiriköihin IRCssä vastaukset tuntuvat olevan [umode +g](https://mikaela.info/english/2015/04/02/umodeg.html), [umode +g osa 2](https://mikaela.info/english/2015/05/10/umodeg2.html) ja [/filter](https://mikaela.info/english/2015/05/31/weechat-filter.html).

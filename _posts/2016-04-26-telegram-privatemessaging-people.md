@@ -54,6 +54,6 @@ for spam.
   groups..
 * Why I react so badly to spam or have written this (n addition to 30+ at
   time of writing blocks and spam reports)
-  [part1](https://mikaela.info/english/2015/04/02/umode+g.html),
-  [part2](https://mikaela.info/english/2015/05/10/umode+g2.html) &
+  [part1](https://mikaela.info/english/2015/04/02/umodeg.html),
+  [part2](https://mikaela.info/english/2015/05/10/umodeg2.html) &
   [request for Telegram that would decrease amount of spam reports](https://twitter.com/Inaneierase/status/719844660139700224).
