@@ -36,12 +36,12 @@ enough of this day, I guess.
 ### Antergos
 
 <pre class="irclog">
-[00:09:22] <Tiedemann> wireless?
-[00:24:48] <ringo32> mmmmm
-[00:38:46] <Tiedemann> works on my laptop and a mini-pc, both eth and 
+[00:09:22] &lt;Tiedemann&gt; wireless?
+[00:24:48] &lt;ringo32&gt; mmmmm
+[00:38:46] &lt;Tiedemann&gt; works on my laptop and a mini-pc, both eth and 
 wifi
-[00:39:44] <ringo32> dont know why
-[00:39:52] <ringo32> :/ also i dont like luks :)
+[00:39:44] &lt;ringo32&gt; dont know why
+[00:39:52] &lt;ringo32&gt; :/ also i dont like luks :)
 [00:43:28] *** Quits: Krands 
 (~krands@2a02:a03f:c0d:100:ea2a:eaff:fe3a:9c33) (Quit: Leaving)
 [00:53:22] *** Quits: skellington (~skellingt@152.238.83.155) (Ping 
@@ -118,21 +118,21 @@ everyone ^^)
 [05:29:17] *** Joins: bp0 (~bp@unaffiliated/bp0)
 [05:59:07] *** Joins: gluytium (~gluytium@li394-234.members.linode.com)
 [06:01:11] *** Aria22 is now known as Aria22|away
-[06:09:57] <SpacePirate> Wanting to add the Antergos repo to my arch 
+[06:09:57] &lt;SpacePirate&gt; Wanting to add the Antergos repo to my arch 
 /etc/pacman.conf file... but can't find the keyring... I tried going 
 here: 
 https://forum.antergos.com/topic/1933/is-it-possible-to-add-antergos-repo-to-arch/2 
 and the link that's listed there says "404 not found"
 [06:09:58] -FatalException- [http://is.gd/bugKhO] Is it possible to add 
 Antergos repo to Arch? | Antergos Community Forum
-[06:10:03] <SpacePirate> Did the package move?
-[06:11:27] <SpacePirate> If it did, where can I find it?
-[06:12:42] <SpacePirate> Oh wait... I think I found it...
+[06:10:03] &lt;SpacePirate&gt; Did the package move?
+[06:11:27] &lt;SpacePirate&gt; If it did, where can I find it?
+[06:12:42] &lt;SpacePirate&gt; Oh wait... I think I found it...
 [06:13:14] *** Aria22|away is now known as Aria
 [06:14:01] *** Aria is now known as Aria|away
 [06:50:28] *** Quits: s8321414 (~s8321414@150.117.138.97) (Quit: 
 Konversation terminated!)
-[07:04:59] <SpacePirate> yerp... found it... :3
+[07:04:59] &lt;SpacePirate&gt; yerp... found it... :3
 [07:06:13] *** nullstring is now known as Byan
 [07:11:13] *** Quits: SpacePirate 
 (~heyitk12@2604:6000:fbc4:3500:21e:4fff:fef9:4cb3) (Quit: Welp... My 
@@ -145,9 +145,9 @@ sleep. ZZZzzz…)
 (~Robert@97-81-179-113.dhcp.gwnt.ga.charter.com) (Changing host)
 [07:33:18] *** Joins: CountryfiedLinux 
 (~Robert@unaffiliated/countryfiedlinux)
-[07:34:06] <CountryfiedLinux> good evening
-[08:44:10] <Mikaela> mau
-[08:44:27] <Mikaela> I feel bad for everyone whose children have 
+[07:34:06] &lt;CountryfiedLinux&gt; good evening
+[08:44:10] &lt;Mikaela&gt; mau
+[08:44:27] &lt;Mikaela&gt; I feel bad for everyone whose children have 
 installed Antergos for them https://github.com/Antergos/Cnchi/issues/587
 [08:44:29] -FatalException- [http://is.gd/PE9KdF] Installing Antergos in 
 Brazilian Portuguese with LibreOffice opted-in doesn't work · Issue #587 
@@ -175,182 +175,182 @@ www.textualapp.com)
 terminated!)
 [11:56:00] *** Joins: mike-zal 
 (~michaldyb@acpu238.neoplus.adsl.tpnet.pl)
-[12:06:35] <cedra> if I wanted to just move from Antergos to Arch 
+[12:06:35] &lt;cedra&gt; if I wanted to just move from Antergos to Arch 
 completely, would I have to reinstall it or can I really just remove 
 [antergos] from the pacman.conf?
-[12:13:05] <ringo32> you are already on arch
-[12:13:08] <ringo32> cedra, 
-[12:13:32] <cedra> yeah but like, what's the actual difference
-[12:13:43] <ringo32> what is the differences ?
-[12:13:49] <cedra> except for the packages that it installs
-[12:14:03] <ringo32> antergos is not manjaro
-[12:14:15] <cedra> Never tried manjaro
-[12:14:51] <ringo32> Manjaro using own repo's and its quite suck to 
+[12:13:05] &lt;ringo32&gt; you are already on arch
+[12:13:08] &lt;ringo32&gt; cedra, 
+[12:13:32] &lt;cedra&gt; yeah but like, what's the actual difference
+[12:13:43] &lt;ringo32&gt; what is the differences ?
+[12:13:49] &lt;cedra&gt; except for the packages that it installs
+[12:14:03] &lt;ringo32&gt; antergos is not manjaro
+[12:14:15] &lt;cedra&gt; Never tried manjaro
+[12:14:51] &lt;ringo32&gt; Manjaro using own repo's and its quite suck to 
 revert to arch... Antergos is stil arch with a repo of there own but 
 most repos are arch
-[12:15:16] <cedra> right so it's just the antergos repo?
-[12:15:18] <ringo32> if arch is up2date antergos also
-[12:15:27] <ringo32> is just antergos repo with there things
-[12:15:32] <ringo32> is quite handy also
-[12:15:51] <cedra> Neat
-[12:16:13] <ringo32> nothing to bother to reinstall or remove something 
+[12:15:16] &lt;cedra&gt; right so it's just the antergos repo?
+[12:15:18] &lt;ringo32&gt; if arch is up2date antergos also
+[12:15:27] &lt;ringo32&gt; is just antergos repo with there things
+[12:15:32] &lt;ringo32&gt; is quite handy also
+[12:15:51] &lt;cedra&gt; Neat
+[12:16:13] &lt;ringo32&gt; nothing to bother to reinstall or remove something 
 dont see a point
-[12:16:15] <ringo32> ;)
-[12:29:07] <Teleuforia> <Kissaela> @cedra, reinstall
-[12:29:54] <cedra> why's that
-[12:30:19] <Teleuforia> <Kissaela> because that way there won't be 
+[12:16:15] &lt;ringo32&gt; ;)
+[12:29:07] &lt;Teleuforia&gt; &lt;Kissaela&gt; @cedra, reinstall
+[12:29:54] &lt;cedra&gt; why's that
+[12:30:19] &lt;Teleuforia&gt; &lt;Kissaela&gt; because that way there won't be 
 Antergos presets possibly causing issues.
-[12:33:29] <cedra> hm. are there any common instances in which that has 
+[12:33:29] &lt;cedra&gt; hm. are there any common instances in which that has 
 happened before?
-[12:34:19] <ringo32> why reinstall :)
-[12:34:30] <ringo32> Client: HexChat 2.12.0 • OS: ArchLinux • CPU: 
+[12:34:19] &lt;ringo32&gt; why reinstall :)
+[12:34:30] &lt;ringo32&gt; Client: HexChat 2.12.0 • OS: ArchLinux • CPU: 
 Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz (1,60GHz) • Memory: 
 Physical: 3,8 GiB Total (2,7 GiB Free) Swap: 3,7 GiB Total (3,7 GiB 
 Free) • Storage: 148,7 GB / 639,7 GB (491,0 GB Free) • VGA: NVIDIA 
 Corporation G84 [GeForce 8600 GT] @ Intel Corporation 82G33/G31/P35/P31 
 Express DRAM Controller • Uptime: 1h 26m 24s
-[12:34:41] <ringo32> what the hell is different  then :)
-[12:34:54] <Mikaela> I don't know, but if you ask them support for Arch, 
+[12:34:41] &lt;ringo32&gt; what the hell is different  then :)
+[12:34:54] &lt;Mikaela&gt; I don't know, but if you ask them support for Arch, 
 they will just hate Angergos users more and the topic forbids that. Also 
 if you just removed the Antergos repo, your system would still identify 
 as Antergos which would also read in the logs. 
-[12:35:06] <Mikaela> ringo32: lsb_release -sa
-[12:35:31] <ringo32> jugo@konoha ~ % lsb_release -sa
-[12:35:31] <ringo32> 1.4 Arch "Arch Linux" rolling n/a
-[12:35:31] <ringo32> ringo@konoha ~ % 
-[12:35:33] <cedra> But what if you change the kernel
-[12:35:43] <cedra> to like, for example, the libre version
-[12:35:59] <Jeannie> 
+[12:35:06] &lt;Mikaela&gt; ringo32: lsb_release -sa
+[12:35:31] &lt;ringo32&gt; jugo@konoha ~ % lsb_release -sa
+[12:35:31] &lt;ringo32&gt; 1.4 Arch "Arch Linux" rolling n/a
+[12:35:31] &lt;ringo32&gt; ringo@konoha ~ % 
+[12:35:33] &lt;cedra&gt; But what if you change the kernel
+[12:35:43] &lt;cedra&gt; to like, for example, the libre version
+[12:35:59] &lt;Jeannie&gt; 
 http://mirror.de.leaseweb.net/antergos/antergos/x86_64/
 [12:36:00] -FatalException- [http://is.gd/iEaWNC] 
 mirror.fra10.de.leaseweb.net | powered by LeaseWeb
-[12:36:08] <Jeannie> Look what's inside the antergos repo
-[12:36:16] <Jeannie> Everything else is arch
-[12:36:29] <ringo32> but reinstall wont help
-[12:36:31] <Mikaela> ringo32: Antergos identifies as Antergos unless you 
+[12:36:08] &lt;Jeannie&gt; Look what's inside the antergos repo
+[12:36:16] &lt;Jeannie&gt; Everything else is arch
+[12:36:29] &lt;ringo32&gt; but reinstall wont help
+[12:36:31] &lt;Mikaela&gt; ringo32: Antergos identifies as Antergos unless you 
 have old install, I think
-[12:36:35] <ringo32> dont fix if aint broken
-[12:36:43] <ringo32> ironic :p
-[12:36:58] <cedra> I really just have the antergos-welcome package
-[12:37:00] <Mikaela> or something has updated and changed it
-[12:37:01] <ringo32> lsb_release is just a easy edit
-[12:37:15] <Jeannie> My kernel identifies as 4.5.1-1 ARCH
-[12:37:19] <ringo32> switch it off
-[12:37:20] <Mikaela> ringo32: oh, that means you just chaged it, but are 
+[12:36:35] &lt;ringo32&gt; dont fix if aint broken
+[12:36:43] &lt;ringo32&gt; ironic :p
+[12:36:58] &lt;cedra&gt; I really just have the antergos-welcome package
+[12:37:00] &lt;Mikaela&gt; or something has updated and changed it
+[12:37:01] &lt;ringo32&gt; lsb_release is just a easy edit
+[12:37:15] &lt;Jeannie&gt; My kernel identifies as 4.5.1-1 ARCH
+[12:37:19] &lt;ringo32&gt; switch it off
+[12:37:20] &lt;Mikaela&gt; ringo32: oh, that means you just chaged it, but are 
 still running Antergos
-[12:37:32] <Mikaela> Jeannie: which is just because it comes from Arch 
+[12:37:32] &lt;Mikaela&gt; Jeannie: which is just because it comes from Arch 
 directly
-[12:37:35] <ringo32> antergos is stil arch
-[12:37:51] <ringo32> even antergos is an arch member ?
-[12:37:57] <ringo32> unlike manjaro is not
-[12:38:07] <Jeannie> Yes, and when I look at the antergos repo, I don't 
+[12:37:35] &lt;ringo32&gt; antergos is stil arch
+[12:37:51] &lt;ringo32&gt; even antergos is an arch member ?
+[12:37:57] &lt;ringo32&gt; unlike manjaro is not
+[12:38:07] &lt;Jeannie&gt; Yes, and when I look at the antergos repo, I don't 
 see tehnecessity for a reinstall if someone wants pure arch
 [12:38:33] *** ringo32 was kicked by Mikaela (first warning)
 [12:38:53] *** Joins: ringo32 (~ringo_man@unaffiliated/ringo32)
-[12:39:02] <ringo32> What is ...
-[12:39:10] <ringo32> kicked me for ..? fun ?
-[12:39:20] <cedra> Would it break something if I removed the 
+[12:39:02] &lt;ringo32&gt; What is ...
+[12:39:10] &lt;ringo32&gt; kicked me for ..? fun ?
+[12:39:20] &lt;cedra&gt; Would it break something if I removed the 
 antergos-keyring
-[12:39:36] <Mikaela> ringo32: Antergos is not Arch. 
-[12:39:46] <Jeannie> Antergos is arch
-[12:39:48] <ringo32> you dont have to kick me, 
-[12:39:57] <Jeannie> With a graphical installer and an additional repo
-[12:40:17] <ringo32> Mikaela,  who makes the cinnamon packages ?
-[12:40:25] <Mikaela> ringo32: how do I make the point across? 
-[12:41:05] <ringo32> what the mather... antergos does atleast support 
+[12:39:36] &lt;Mikaela&gt; ringo32: Antergos is not Arch. 
+[12:39:46] &lt;Jeannie&gt; Antergos is arch
+[12:39:48] &lt;ringo32&gt; you dont have to kick me, 
+[12:39:57] &lt;Jeannie&gt; With a graphical installer and an additional repo
+[12:40:17] &lt;ringo32&gt; Mikaela,  who makes the cinnamon packages ?
+[12:40:25] &lt;Mikaela&gt; ringo32: how do I make the point across? 
+[12:41:05] &lt;ringo32&gt; what the mather... antergos does atleast support 
 arch better
-[12:41:19] <Mikaela> Is Linux Mint Ubuntu? 
-[12:41:55] <ringo32> i think you set the balance rough
-[12:42:10] <Mikaela> ringo32: Is Linux Mint Ubuntu? 
+[12:41:19] &lt;Mikaela&gt; Is Linux Mint Ubuntu? 
+[12:41:55] &lt;ringo32&gt; i think you set the balance rough
+[12:42:10] &lt;Mikaela&gt; ringo32: Is Linux Mint Ubuntu? 
 [12:42:13] *** Joins: NuSuey 
 (uid3556@gateway/web/irccloud.com/x-fbzbctsdtiebcehv)
-[12:42:23] <Jeannie> Look at /etc/pacman.d/mirrorlist, and tell me which 
+[12:42:23] &lt;Jeannie&gt; Look at /etc/pacman.d/mirrorlist, and tell me which 
 servers that list points to
-[12:42:42] <Mikaela> Jeannie: Is Linux Mint Ubuntu? 
-[12:42:45] <ringo32> Mikaela,  look at the packager http://ix.io/yQB
+[12:42:42] &lt;Mikaela&gt; Jeannie: Is Linux Mint Ubuntu? 
+[12:42:45] &lt;ringo32&gt; Mikaela,  look at the packager http://ix.io/yQB
 [12:42:45] -FatalException- [http://is.gd/JPKaqO] (not a web page, 
 content type: text/plain)
-[12:42:53] <Jeannie> I don't care about *buntus
-[12:42:58] <ringo32> Antergos support arch atleast
-[12:43:04] <ringo32> where mint does not support ubuntu
-[12:43:13] <Jeannie> And when I look at my mirrorlist, I see that it  
+[12:42:53] &lt;Jeannie&gt; I don't care about *buntus
+[12:42:58] &lt;ringo32&gt; Antergos support arch atleast
+[12:43:04] &lt;ringo32&gt; where mint does not support ubuntu
+[12:43:13] &lt;Jeannie&gt; And when I look at my mirrorlist, I see that it  
 points to archinux mirrors
-[12:43:26] <ringo32> Manjaro does not support arch
-[12:43:35] <ringo32> there is the differences
-[12:43:36] <Mikaela> ringo32: last time I checked, Linux Mint used 
+[12:43:26] &lt;ringo32&gt; Manjaro does not support arch
+[12:43:35] &lt;ringo32&gt; there is the differences
+[12:43:36] &lt;Mikaela&gt; ringo32: last time I checked, Linux Mint used 
 Ubuntu repositories
-[12:43:52] <Jeannie> When I run uname -r, I see I run an arch kernel
-[12:44:20] <Jeannie> So If I use archlinux package mirrors nad an 
+[12:43:52] &lt;Jeannie&gt; When I run uname -r, I see I run an arch kernel
+[12:44:20] &lt;Jeannie&gt; So If I use archlinux package mirrors nad an 
 archlinuix kernel, which OS am I running?
-[12:44:45] <Mikaela> 2016-05-01 12:42:45+0300 < ringo32> Mikaela,  look 
-at the packager http://ix.io/yQB ==> so? MATE packager is the maintainer 
+[12:44:45] &lt;Mikaela&gt; 2016-05-01 12:42:45+0300 &lt; ringo32&gt; Mikaela,  look 
+at the packager http://ix.io/yQB ==&gt; so? MATE packager is the maintainer 
 of Ubuntu MATE last time I checked.
 [12:44:45] -FatalException- [http://is.gd/JPKaqO] (not a web page, 
 content type: text/plain)
-[12:45:32] <ringo32> Nevermind
-[12:45:49] <Jeannie> MATE 1.14
-[12:45:51] <ringo32> you dont see my point 
-[12:46:27] <Jeannie> I whish Wimpress would get his ass in motion and 
+[12:45:32] &lt;ringo32&gt; Nevermind
+[12:45:49] &lt;Jeannie&gt; MATE 1.14
+[12:45:51] &lt;ringo32&gt; you dont see my point 
+[12:46:27] &lt;Jeannie&gt; I whish Wimpress would get his ass in motion and 
 update the arch packages intead of messing around with ubuntu mate 16.04
-[12:46:51] <ringo32> its arch-based sure
-[12:47:06] <ringo32> but also i dont see a point to move out to arch 
+[12:46:51] &lt;ringo32&gt; its arch-based sure
+[12:47:06] &lt;ringo32&gt; but also i dont see a point to move out to arch 
 also
-[12:47:28] <ringo32> you are also direct on the arch repo's
-[12:47:35] <Jeannie> So the fact that the Arch MATE maintainer maintains 
+[12:47:28] &lt;ringo32&gt; you are also direct on the arch repo's
+[12:47:35] &lt;Jeannie&gt; So the fact that the Arch MATE maintainer maintains 
 Ubuntu MATE too proves that antergos is not arch?
-[12:48:03] <ringo32> at the end if arch breaks antergos breaks as well
-[12:48:36] <Mikaela> I give up. Don't come crying to me on Arch 
+[12:48:03] &lt;ringo32&gt; at the end if arch breaks antergos breaks as well
+[12:48:36] &lt;Mikaela&gt; I give up. Don't come crying to me on Arch 
 communities hating you for not using Arch.
-[12:48:53] <Mikaela> ringo32: most of times when Antergos breaks nothing 
+[12:48:53] &lt;Mikaela&gt; ringo32: most of times when Antergos breaks nothing 
 happens at Arch
-[12:49:21] <Jeannie> Which ARCH branch are you referring to with these 
+[12:49:21] &lt;Jeannie&gt; Which ARCH branch are you referring to with these 
 breakages?
-[12:49:29] <Mikaela> stable
-[12:49:36] <Jeannie> So
-[12:50:02] <Jeannie> If I use arch mirror servers  in my antergos, arch 
+[12:49:29] &lt;Mikaela&gt; stable
+[12:49:36] &lt;Jeannie&gt; So
+[12:50:02] &lt;Jeannie&gt; If I use arch mirror servers  in my antergos, arch 
 stable breaks and antergos doees not
-[12:50:15] <Jeannie> ?
-[12:50:47] <Mikaela> If you use Antegos and Antergos breaks, in most of 
+[12:50:15] &lt;Jeannie&gt; ?
+[12:50:47] &lt;Mikaela&gt; If you use Antegos and Antergos breaks, in most of 
 cases it has been something from Antergos repo breaking. Nothing happens 
 at Arch as it doesn't use Antergos repository as it's not Antergos.
-[12:50:47] <ringo32> Mikaela,  just say your are on arch Wtf is so 
+[12:50:47] &lt;ringo32&gt; Mikaela,  just say your are on arch Wtf is so 
 dificult
-[12:51:23] <ringo32> what breaks is webkitgreeter
-[12:51:31] <ringo32> thats the antergos story
-[12:51:45] <ringo32> or the extentions mayby further ?
-[12:51:54] <Mikaela> ringo32: Yes, I can say that as I am vanilla Arch 
+[12:51:23] &lt;ringo32&gt; what breaks is webkitgreeter
+[12:51:31] &lt;ringo32&gt; thats the antergos story
+[12:51:45] &lt;ringo32&gt; or the extentions mayby further ?
+[12:51:54] &lt;Mikaela&gt; ringo32: Yes, I can say that as I am vanilla Arch 
 user and am here just of kindness. Nothing forces me to be be here or 
 help Antergos at all. However if you have installed using Antergos iso, 
 you are Antergos user, not vanilla Arch.
-[12:52:04] <ringo32> thinks kernel related is not really antergos
-[12:52:18] <Jeannie> O
-[12:52:20] <ringo32> i know your point
-[12:52:32] <ringo32> its not vanila arch....
-[12:52:51] <cedra> so if I were to remove the antergos-keyring, it would 
+[12:52:04] &lt;ringo32&gt; thinks kernel related is not really antergos
+[12:52:18] &lt;Jeannie&gt; O
+[12:52:20] &lt;ringo32&gt; i know your point
+[12:52:32] &lt;ringo32&gt; its not vanila arch....
+[12:52:51] &lt;cedra&gt; so if I were to remove the antergos-keyring, it would 
 just break installing stuff from the antergos repo
-[12:52:51] <ringo32> everything can breaks and such things, is also 
+[12:52:51] &lt;ringo32&gt; everything can breaks and such things, is also 
 personal on users
-[12:53:15] <Jeannie> If you use a third party repo, aur packages or a 
+[12:53:15] &lt;Jeannie&gt; If you use a third party repo, aur packages or a 
 local repo, it's no vanilal arch either
-[12:53:24] <Jeannie> Does thsi make the system not arch anymore?
-[12:53:53] <ringo32> Mikaela,  on manjaro i uses 'unstable' repo and 
+[12:53:24] &lt;Jeannie&gt; Does thsi make the system not arch anymore?
+[12:53:53] &lt;ringo32&gt; Mikaela,  on manjaro i uses 'unstable' repo and 
 users from stable broke his system by update its also personal what you 
 using
-[12:54:30] <ringo32> sort of breakages or issues can be personal also
-[12:54:41] <Mikaela> I said that I don't care, just go to #archlinux
-[12:54:47] <ringo32> but i dont see a point to remove everything to have 
+[12:54:30] &lt;ringo32&gt; sort of breakages or issues can be personal also
+[12:54:41] &lt;Mikaela&gt; I said that I don't care, just go to #archlinux
+[12:54:47] &lt;ringo32&gt; but i dont see a point to remove everything to have 
 arch =-)
-[12:55:03] <ringo32> i see addiditional repo's as a surplus
-[12:55:19] <ringo32> i got a few atleast
-[12:55:37] <cedra> What was that about some presets or something, 
+[12:55:03] &lt;ringo32&gt; i see addiditional repo's as a surplus
+[12:55:19] &lt;ringo32&gt; i got a few atleast
+[12:55:37] &lt;cedra&gt; What was that about some presets or something, 
 someone mentioned that they can conflict with stuff
-[12:55:39] <ringo32> but its rude to kick without explain
-[12:56:19] <Mikaela> ringo32: I did explain that Antergos is not Arch, 
+[12:55:39] &lt;ringo32&gt; but its rude to kick without explain
+[12:56:19] &lt;Mikaela&gt; ringo32: I did explain that Antergos is not Arch, 
 but you aren't willing to understand that so I just suggest you go to 
 #ArchLinux and make them hate you.
-[12:56:27] <ringo32> but kicking is rude
-[12:56:35] <ringo32> did i use rude words?
-[12:57:08] <ringo32> is not you have to kick on personal opinion... vs 
+[12:56:27] &lt;ringo32&gt; but kicking is rude
+[12:56:35] &lt;ringo32&gt; did i use rude words?
+[12:57:08] &lt;ringo32&gt; is not you have to kick on personal opinion... vs 
 other personal 
 [12:57:11] *** Parts: ringo32 (~ringo_man@unaffiliated/ringo32) 
 (requested by Mikaela (Sorry, I didn't understand you wanted removing 
@@ -358,25 +358,25 @@ instead of kick. Next time I can also give you kban and then akick, if
 that is what you really wish. However I would just suggest you to drop 
 the subject.))
 [12:58:02] * Jeannie shakes her head in disbelief
-[13:04:53] <Jeannie> Is the registration for the Antergos forum broken?
-[13:05:14] <Mikaela> not that I know of unless you use PrivacyBadger 
+[13:04:53] &lt;Jeannie&gt; Is the registration for the Antergos forum broken?
+[13:05:14] &lt;Mikaela&gt; not that I know of unless you use PrivacyBadger 
 which is blocking auth0.com
-[13:05:58] <Jeannie> I have been clicking on pictures with cookies, road 
+[13:05:58] &lt;Jeannie&gt; I have been clicking on pictures with cookies, road 
 signs or house numbers for 6 minutes now
-[13:06:04] <Jeannie> Infinite loopback
-[13:06:26] <Mikaela> @karasu0, @lots0logs: are you aware of any forum 
+[13:06:04] &lt;Jeannie&gt; Infinite loopback
+[13:06:26] &lt;Mikaela&gt; @karasu0, @lots0logs: are you aware of any forum 
 issues?
-[13:09:28] <Jeannie> Registration/login is not working
-[13:09:32] <Jeannie> at all
-[13:09:55] <Mikaela> what if you try another browser with default 
+[13:09:28] &lt;Jeannie&gt; Registration/login is not working
+[13:09:32] &lt;Jeannie&gt; at all
+[13:09:55] &lt;Mikaela&gt; what if you try another browser with default 
 setings or incognito mode?
-[13:10:21] <Mikaela> logging in works for me
-[13:10:22] <Jeannie> Not at all
-[13:10:37] <Jeannie> neither with Firefox nor with Pale Moon nor with 
+[13:10:21] &lt;Mikaela&gt; logging in works for me
+[13:10:22] &lt;Jeannie&gt; Not at all
+[13:10:37] &lt;Jeannie&gt; neither with Firefox nor with Pale Moon nor with 
 Chromium
-[13:11:09] <Mikaela> any adblockers or similar?
-[13:11:12] <Jeannie> Even password recovery mails don't arrive
-[13:12:35] <Jeannie> Yay, password recovery now results in an http 500 
+[13:11:09] &lt;Mikaela&gt; any adblockers or similar?
+[13:11:12] &lt;Jeannie&gt; Even password recovery mails don't arrive
+[13:12:35] &lt;Jeannie&gt; Yay, password recovery now results in an http 500 
 error
 [13:13:00] *** Parts: Jeannie (~Jeannie@unaffiliated/jeannie) 
 ("Leaving")
@@ -387,59 +387,59 @@ terminated!)
 (~Jarco@ptr-2hj4tblege78oojrzdmw6esfj.ip6.access.telenet.be)
 [13:31:26] *** Aria|away is now known as Aria
 [13:32:00] *** Aria is now known as Aria22
-[13:33:34] <Teleuforia> <kerbingamer376> internet still broken...
+[13:33:34] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; internet still broken...
 [13:34:07] *** Joins: mike-zal 
 (~michaldyb@acpu238.neoplus.adsl.tpnet.pl)
-[13:34:56] <Teleuforia> <kerbingamer376> I've had to relocate to my 
+[13:34:56] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; I've had to relocate to my 
 chromebook for nearly everthing
-[13:35:04] <Teleuforia> <kerbingamer376> think it's a hardware issue
-[13:38:48] <cedra> what's this Teleuforia thing
-[13:39:35] <Teleuforia> <Kissaela> __telegram
-[13:39:36] <Euforia> 
+[13:35:04] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; think it's a hardware issue
+[13:38:48] &lt;cedra&gt; what's this Teleuforia thing
+[13:39:35] &lt;Teleuforia&gt; &lt;Kissaela&gt; __telegram
+[13:39:36] &lt;Euforia&gt; 
 https://forum.antergos.com/topic/4244/irc-has-branched-out-to-telegram
 [13:39:37] -FatalException- [http://is.gd/5P67ZX] IRC has branched out 
 to Telegram! | Antergos Community Forum
-[13:40:42] <cedra> Oh so it's for phones
-[13:41:00] <Teleuforia> <kerbingamer376> having my Chromebook constantly 
+[13:40:42] &lt;cedra&gt; Oh so it's for phones
+[13:41:00] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; having my Chromebook constantly 
 open on my desk is a pain
-[13:41:38] <Teleuforia> <Kissaela> @cedra, any platform, 
+[13:41:38] &lt;Teleuforia&gt; &lt;Kissaela&gt; @cedra, any platform, 
 https://telegram.org/download and you will find telegram-desktop-bin if 
 you check the AUR
 [13:41:38] -FatalException- [http://is.gd/6EGXaL] Telegram Messenger on 
 the App Store
-[13:42:01] <Teleuforia> <kerbingamer376> and people who like emoji I
-[13:42:04] <Teleuforia> <Kissaela> difference to IRC is that you see all 
+[13:42:01] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; and people who like emoji I
+[13:42:04] &lt;Teleuforia&gt; &lt;Kissaela&gt; difference to IRC is that you see all 
 lines that happen even if you are offline
-[13:42:24] <cedra> so a ZNC
-[13:42:54] <Teleuforia> <kerbingamer376> * needs to debug his wireless 
+[13:42:24] &lt;cedra&gt; so a ZNC
+[13:42:54] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * needs to debug his wireless 
 problems *
-[13:43:00] <Teleuforia> <kerbingamer376> * or fix his wired connection *
-[13:43:03] <Teleuforia> <Kissaela> no, more line WhatsApp for bigger 
+[13:43:00] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * or fix his wired connection *
+[13:43:03] &lt;Teleuforia&gt; &lt;Kissaela&gt; no, more line WhatsApp for bigger 
 groups, entirely different protocom
-[13:43:04] <Teleuforia> <Kissaela> __(wiki Telegram (Software))
-[13:43:06] <Euforia> Not found, or page malformed.
-[13:43:14] <cedra> okay
-[13:43:21] <cedra> Neat
-[13:43:21] <Teleuforia> <Kissaela> __luck Telegram
-[13:43:21] <Euforia> luck <an alias, at least 1 argument>
-[13:43:38] <Teleuforia> <Kissaela> __(luck Telegram)
-[13:43:39] <Euforia> https://telegram.org/ | Telegram logo. a new era 
+[13:43:04] &lt;Teleuforia&gt; &lt;Kissaela&gt; __(wiki Telegram (Software))
+[13:43:06] &lt;Euforia&gt; Not found, or page malformed.
+[13:43:14] &lt;cedra&gt; okay
+[13:43:21] &lt;cedra&gt; Neat
+[13:43:21] &lt;Teleuforia&gt; &lt;Kissaela&gt; __luck Telegram
+[13:43:21] &lt;Euforia&gt; luck &lt;an alias, at least 1 argument&gt;
+[13:43:38] &lt;Teleuforia&gt; &lt;Kissaela&gt; __(luck Telegram)
+[13:43:39] &lt;Euforia&gt; https://telegram.org/ | Telegram logo. a new era 
 ... Telegram messages are heavily encrypted and can self-destruct. ... 
 Telegram delivers messages faster than any other application.
 [13:43:39] -FatalException- [http://is.gd/JLhh36] Telegram Messenger
-[13:44:02] <Teleuforia> <Kissaela> bad explanation
-[13:44:23] <Teleuforia> <kerbingamer376> yay
-[13:44:36] <Teleuforia> <kerbingamer376> My stupid mini wifi dongle plan 
+[13:44:02] &lt;Teleuforia&gt; &lt;Kissaela&gt; bad explanation
+[13:44:23] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; yay
+[13:44:36] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; My stupid mini wifi dongle plan 
 worked
-[13:44:41] <Teleuforia> <kerbingamer376> I got internet
-[13:44:47] <Teleuforia> <kerbingamer376> kinda
-[13:45:37] <Teleuforia> <kerbingamer376> * goes to plug his raspberry pi 
+[13:44:41] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; I got internet
+[13:44:47] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; kinda
+[13:45:37] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * goes to plug his raspberry pi 
 into his router *
-[13:45:48] <Teleuforia> <kerbingamer376> * hopes that ssh is on by 
+[13:45:48] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * hopes that ssh is on by 
 default *
-[13:47:37] <Teleuforia> <kerbingamer376> now where has that power supply 
+[13:47:37] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; now where has that power supply 
 gone?
-[13:55:34] <Teleuforia> <kerbingamer376> yay my wired is back?
+[13:55:34] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; yay my wired is back?
 [14:01:47] *** Joins: Chioque (~Chioque@kbu-181-169.tm.net.my)
 [14:08:24] *** Joins: ringo32 (~ringo_man@unaffiliated/ringo32)
 [14:11:28] *** Quits: FatalException 
@@ -456,10 +456,10 @@ closed the connection)
 (~FatalExce@unaffiliated/yoshi2889/bot/fatalexception)
 [14:12:13] *** ChanServ sets mode: +v FatalException
 [14:12:13] *** Euforia sets mode: +v FatalException
-[14:16:17] <Teleuforia> <kerbingamer376> yay
-[14:16:25] <Teleuforia> <kerbingamer376> my wireless is back and my pi 
+[14:16:17] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; yay
+[14:16:25] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; my wireless is back and my pi 
 is running
-[14:16:33] <Teleuforia> <kerbingamer376> wired, not wireless
+[14:16:33] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; wired, not wireless
 [14:17:48] *** Quits: Chioque (~Chioque@kbu-181-169.tm.net.my) (Quit: 
 leaving)
 [14:32:29] *** telephone_ is now known as telephone
@@ -496,9 +496,9 @@ closed for inactivity)
 (~alexandro@unaffiliated/alexandros-c/x-1684531)
 [15:52:48] *** Joins: Zeld0c 
 (5664ff6b@gateway/web/freenode/ip.86.100.255.107)
-[15:54:08] <Zeld0c> Internet doesn't work, browsers say "dns probe no 
+[15:54:08] &lt;Zeld0c&gt; Internet doesn't work, browsers say "dns probe no 
 internet". Tried resetting with ifconfig, but didn't fix anything
-[15:58:30] <Tiedemann> just reinstalled a Dell optiplex thingy (don't 
+[15:58:30] &lt;Tiedemann&gt; just reinstalled a Dell optiplex thingy (don't 
 worry, got it for free) and got the same problem. networkmanager won't 
 start. no problem on my 4 other machines with Antergos though
 [16:00:46] *** Quits: Zeld0c 
@@ -507,220 +507,220 @@ seconds)
 [16:09:21] *** Quits: swipe_ (~swipe@146.125.199.146.dyn.plus.net) (Ping 
 timeout: 246 seconds)
 [16:12:10] *** Joins: swipe_ (~swipe@146.125.199.146.dyn.plus.net)
-[16:14:21] <Teleuforia> <Kissaela> systemctl status NetworkManager
-[16:16:51] <Tiedemann> eh
-[16:16:59] <Tiedemann> not installed :P
-[16:17:23] <Tiedemann> only the addons
+[16:14:21] &lt;Teleuforia&gt; &lt;Kissaela&gt; systemctl status NetworkManager
+[16:16:51] &lt;Tiedemann&gt; eh
+[16:16:59] &lt;Tiedemann&gt; not installed :P
+[16:17:23] &lt;Tiedemann&gt; only the addons
 [16:19:02] *** Quits: swipe_ (~swipe@146.125.199.146.dyn.plus.net) (Ping 
 timeout: 260 seconds)
-[16:20:48] <Teleuforia> <Kissaela> that explains why it doesn't start :P
-[16:23:40] <Tiedemann> yeah but it worries me why the other packages got 
+[16:20:48] &lt;Teleuforia&gt; &lt;Kissaela&gt; that explains why it doesn't start :P
+[16:23:40] &lt;Tiedemann&gt; yeah but it worries me why the other packages got 
 installed though (like networkmanager-openvpn)
-[16:34:07] <Tiedemann> missing jansson, libndp, libnewt, libpgm, 
+[16:34:07] &lt;Tiedemann&gt; missing jansson, libndp, libnewt, libpgm, 
 libsodium, libteam, slang and zeromq before I can install it manually
-[16:40:31] <Tiedemann> working now, installing the packages manually
-[16:55:00] <Teleuforia> <Yoshi2889> Hello
-[16:55:45] <Tiedemann> hello
+[16:40:31] &lt;Tiedemann&gt; working now, installing the packages manually
+[16:55:00] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Hello
+[16:55:45] &lt;Tiedemann&gt; hello
 [16:56:17] *** Quits: s8321414 (~s8321414@140.127.73.61) (Quit: 
 Konversation terminated!)
-[17:00:05] <NanoSector> Can't wait for my Moto 360 to come in tomorrow
-[17:00:49] <Teleuforia> <mohandash> (Sticker, 512x344) 
+[17:00:05] &lt;NanoSector&gt; Can't wait for my Moto 360 to come in tomorrow
+[17:00:49] &lt;Teleuforia&gt; &lt;mohandash&gt; (Sticker, 512x344) 
 https://teleuforia.mikaela.info/Cr0wb0GR/file_259.webp
 [17:00:49] -FatalException- [http://is.gd/EKTyCT] (not a web page, 
 content type: image/webp)
 [17:00:57] *** Joins: Calinou (~quassel@unaffiliated/calinou)
-[17:01:12] <Teleuforia> <Yoshi2889> Heh
-[17:01:24] <Calinou> hi
-[17:01:29] <Calinou> trying out Antergos KDE in VirtualBox :)
-[17:01:41] <Calinou> found how to make it boot, using iomem=relaxed in 
+[17:01:12] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Heh
+[17:01:24] &lt;Calinou&gt; hi
+[17:01:29] &lt;Calinou&gt; trying out Antergos KDE in VirtualBox :)
+[17:01:41] &lt;Calinou&gt; found how to make it boot, using iomem=relaxed in 
 kernel command line
-[17:02:01] <Teleuforia> <Yoshi2889> Hi
-[17:02:45] <Teleuforia> <Yoshi2889> Yes, vbox is buggy
-[17:02:54] <Calinou> I plan to install Antergos on bare metal later
-[17:03:00] <Calinou> but need Windows somewhere (virtual machine maybe)
-[17:03:16] <Calinou> for running Adobe CC, what would you recommend? 
+[17:02:01] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Hi
+[17:02:45] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Yes, vbox is buggy
+[17:02:54] &lt;Calinou&gt; I plan to install Antergos on bare metal later
+[17:03:00] &lt;Calinou&gt; but need Windows somewhere (virtual machine maybe)
+[17:03:16] &lt;Calinou&gt; for running Adobe CC, what would you recommend? 
 using VirtualBox Windows guest or KVM/QEMU?
-[17:03:19] <Calinou> which one would be faster
-[17:03:28] <Teleuforia> <Yoshi2889> KVM
-[17:03:47] <Teleuforia> <Yoshi2889> VBox maybe has faster graphics 
+[17:03:19] &lt;Calinou&gt; which one would be faster
+[17:03:28] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; KVM
+[17:03:47] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; VBox maybe has faster graphics 
 performance
-[17:04:02] <Teleuforia> <Yoshi2889> KVM excels in nearly everything else
+[17:04:02] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; KVM excels in nearly everything else
 [17:04:17] *** Joins: FirePowi (~powi@powi.fr)
-[17:04:28] <Calinou> yeah I've seen Phoronix benchmarks
-[17:04:59] <Calinou> however there's a small concern, I'll occasionally 
+[17:04:28] &lt;Calinou&gt; yeah I've seen Phoronix benchmarks
+[17:04:59] &lt;Calinou&gt; however there's a small concern, I'll occasionally 
 use Premiere/After Effects
-[17:05:04] <Calinou> is that even usable at low resolutions in a VM?
-[17:05:09] <Calinou> nothing very intense
-[17:05:21] <Teleuforia> <Yoshi2889> It'll be usable
-[17:05:28] <Teleuforia> <Yoshi2889> Maybe a tad slow
-[17:05:32] <Calinou> I have an i7
-[17:05:36] <Teleuforia> <Yoshi2889> Why not dual boot
-[17:05:37] <Calinou> both desktop and laptop :)
-[17:05:46] <Teleuforia> <Yoshi2889> Nice
-[17:05:49] <Calinou> maybe but dual booting is hard with UEFI and such
-[17:05:55] <Calinou> I tried once, failed, I could boot only Fedora
-[17:06:07] <Calinou> Windows was still physically present on the device 
+[17:05:04] &lt;Calinou&gt; is that even usable at low resolutions in a VM?
+[17:05:09] &lt;Calinou&gt; nothing very intense
+[17:05:21] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; It'll be usable
+[17:05:28] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Maybe a tad slow
+[17:05:32] &lt;Calinou&gt; I have an i7
+[17:05:36] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Why not dual boot
+[17:05:37] &lt;Calinou&gt; both desktop and laptop :)
+[17:05:46] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Nice
+[17:05:49] &lt;Calinou&gt; maybe but dual booting is hard with UEFI and such
+[17:05:55] &lt;Calinou&gt; I tried once, failed, I could boot only Fedora
+[17:06:07] &lt;Calinou&gt; Windows was still physically present on the device 
 though
-[17:06:08] <Teleuforia> <Yoshi2889> Not really
-[17:06:21] <Calinou> I guess Antergos supports UEFI dual boot?
-[17:06:53] <Teleuforia> <Yoshi2889> Resize Windows partition, mount ESP 
+[17:06:08] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Not really
+[17:06:21] &lt;Calinou&gt; I guess Antergos supports UEFI dual boot?
+[17:06:53] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Resize Windows partition, mount ESP 
 in the right spot and create a partition for antergos
-[17:07:15] <Calinou> I'll probably dual boot only on laptop, since it's 
+[17:07:15] &lt;Calinou&gt; I'll probably dual boot only on laptop, since it's 
 my main machine for uni
-[17:08:49] <Teleuforia> <Yoshi2889> :)
-[17:09:45] <Calinou> also how recent are Antergos packages compared to 
+[17:08:49] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; :)
+[17:09:45] &lt;Calinou&gt; also how recent are Antergos packages compared to 
 Arch? and what about stability? is it as stable?
-[17:10:04] <Calinou> (never used Arch btw)
-[17:10:10] <Calinou> but I'm a seasoned GNU/Linux user
-[17:10:14] <Teleuforia> <Yoshi2889> Antergos packages are as recent as 
+[17:10:04] &lt;Calinou&gt; (never used Arch btw)
+[17:10:10] &lt;Calinou&gt; but I'm a seasoned GNU/Linux user
+[17:10:14] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Antergos packages are as recent as 
 Arch's
-[17:10:37] <Teleuforia> <Yoshi2889> And it's as stable as you want it to
-[17:11:15] <Calinou> is upgrading packages weekly safe?
-[17:11:22] <Calinou> say, I upgrade on weekends so that I can fix stuff 
+[17:10:37] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; And it's as stable as you want it to
+[17:11:15] &lt;Calinou&gt; is upgrading packages weekly safe?
+[17:11:22] &lt;Calinou&gt; say, I upgrade on weekends so that I can fix stuff 
 up if it breaks
-[17:11:31] <Teleuforia> <Yoshi2889> Yes
+[17:11:31] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Yes
 [17:11:32] *** Quits: mike-zal 
 (~michaldyb@acpu238.neoplus.adsl.tpnet.pl) (Read error: Connection reset 
 by peer)
-[17:11:37] <Calinou> ok :)
-[17:11:50] <Teleuforia> <Yoshi2889> Just read the Arch Linux front-page
-[17:11:59] <Calinou> installation in VM is almost complete, I will see 
+[17:11:37] &lt;Calinou&gt; ok :)
+[17:11:50] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Just read the Arch Linux front-page
+[17:11:59] &lt;Calinou&gt; installation in VM is almost complete, I will see 
 how KDE looks now :p
-[17:12:06] <Teleuforia> <Yoshi2889> :)
-[17:12:11] <Calinou> (I almost never used KDE too, but would like to get 
+[17:12:06] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; :)
+[17:12:11] &lt;Calinou&gt; (I almost never used KDE too, but would like to get 
 into it)
-[17:12:17] <Calinou> been an Xfce user for 3.5 years
-[17:12:28] <Teleuforia> <Yoshi2889> Everyone's KDE is unique
-[17:12:34] <Teleuforia> <Yoshi2889> So many options
-[17:12:36] <Calinou> are there good themes for it?
-[17:12:41] <Calinou> especially dark ones (partially or fully)
+[17:12:17] &lt;Calinou&gt; been an Xfce user for 3.5 years
+[17:12:28] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Everyone's KDE is unique
+[17:12:34] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; So many options
+[17:12:36] &lt;Calinou&gt; are there good themes for it?
+[17:12:41] &lt;Calinou&gt; especially dark ones (partially or fully)
 [17:12:51] *** Joins: mike-zal 
 (~michaldyb@acpu238.neoplus.adsl.tpnet.pl)
-[17:12:53] <Teleuforia> <Yoshi2889> Papirus is nice
-[17:13:13] <Teleuforia> <Yoshi2889> It has a dark variant
-[17:14:23] <Calinou> hmm, looking at Papirus, but I don't see dark 
+[17:12:53] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Papirus is nice
+[17:13:13] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; It has a dark variant
+[17:14:23] &lt;Calinou&gt; hmm, looking at Papirus, but I don't see dark 
 variants for KDE in screenshots
-[17:14:36] <Calinou> I see a GTK theme for it though
-[17:14:49] <Calinou> this? 
+[17:14:36] &lt;Calinou&gt; I see a GTK theme for it though
+[17:14:49] &lt;Calinou&gt; this? 
 https://github.com/varlesh/papirus-suite/tree/master/kde-pack/plasma-themes
 [17:14:50] -FatalException- [http://is.gd/6u94Wh] 
 papirus-suite/kde-pack/plasma-themes at master · varlesh/papirus-suite · 
 GitHub
-[17:15:21] <Teleuforia> <Yoshi2889> Yes, that
-[17:17:24] <Calinou> gah, I seem to have encountered a bug in VirtualBox 
+[17:15:21] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Yes, that
+[17:17:24] &lt;Calinou&gt; gah, I seem to have encountered a bug in VirtualBox 
 after installing
 [17:17:25] *** Joins: CountryfiedLinux 
 (~Robert@unaffiliated/countryfiedlinux)
-[17:17:37] <Calinou> I've set iomem=relaxed in boot options, it boots, 
+[17:17:37] &lt;Calinou&gt; I've set iomem=relaxed in boot options, it boots, 
 but my mouse cursor isn't visible and I only see KDE's background
-[17:17:53] <Calinou> nevermind, it works now
-[17:17:57] <Calinou> it was just a bit slow to set up
-[17:17:59] <Teleuforia> <Yoshi2889> Welcome to the buggy world of vbox
-[17:18:04] <CountryfiedLinux> good morning
-[17:18:11] <Teleuforia> <Yoshi2889> Hey
-[17:18:29] <Calinou> KDE 5 is quite pretty
-[17:18:37] <Calinou> compared to say... Debian/Fedora Xfce :D
-[17:18:40] <Calinou> those are so ugly
-[17:18:43] <Calinou> especially Fedora
-[17:19:38] <Teleuforia> <Yoshi2889> XFCE is okay IMO
-[17:19:49] <Calinou> only Xubuntu really looks decent out of the box
-[17:20:01] <CountryfiedLinux> I'm on Windows 10 due to my mic audio 
+[17:17:53] &lt;Calinou&gt; nevermind, it works now
+[17:17:57] &lt;Calinou&gt; it was just a bit slow to set up
+[17:17:59] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Welcome to the buggy world of vbox
+[17:18:04] &lt;CountryfiedLinux&gt; good morning
+[17:18:11] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Hey
+[17:18:29] &lt;Calinou&gt; KDE 5 is quite pretty
+[17:18:37] &lt;Calinou&gt; compared to say... Debian/Fedora Xfce :D
+[17:18:40] &lt;Calinou&gt; those are so ugly
+[17:18:43] &lt;Calinou&gt; especially Fedora
+[17:19:38] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; XFCE is okay IMO
+[17:19:49] &lt;Calinou&gt; only Xubuntu really looks decent out of the box
+[17:20:01] &lt;CountryfiedLinux&gt; I'm on Windows 10 due to my mic audio 
 recording lowering during recordings on Linux.
-[17:20:47] <Teleuforia> <Yoshi2889> Xubuntu looks nice
-[17:20:49] <Calinou> ok, going to install Antergos on desktop maybe :)
-[17:27:14] <Calinou> Antergos can be installed in UEFI+GPT mode, right?
-[17:27:28] <Calinou> do I need to pre-partition my drive using gparted 
+[17:20:47] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Xubuntu looks nice
+[17:20:49] &lt;Calinou&gt; ok, going to install Antergos on desktop maybe :)
+[17:27:14] &lt;Calinou&gt; Antergos can be installed in UEFI+GPT mode, right?
+[17:27:28] &lt;Calinou&gt; do I need to pre-partition my drive using gparted 
 if I want GPT partitions?
-[17:29:49] <Tiedemann> you don't need to as it should fix it itself
-[17:30:11] <Tiedemann> you can edit partitions from the installer anyway 
+[17:29:49] &lt;Tiedemann&gt; you don't need to as it should fix it itself
+[17:30:11] &lt;Tiedemann&gt; you can edit partitions from the installer anyway 
 though
-[17:30:18] <Calinou> I'm writing the ISO to an USB stick in GPT/UEFI 
+[17:30:18] &lt;Calinou&gt; I'm writing the ISO to an USB stick in GPT/UEFI 
 mode
-[17:35:37] <Teleuforia> <kerbingamer376> * Wonders what to do with his 
+[17:35:37] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * Wonders what to do with his 
 raspberry pi now It's configured *
-[17:37:08] <FutureSuture> Antergos doesn't come with lsb-release 
+[17:37:08] &lt;FutureSuture&gt; Antergos doesn't come with lsb-release 
 installed. Means Steam won't see that you're using Antergos and just put 
 you down as generic Linux if you get the Steam Survey.
-[17:37:37] <Teleuforia> <Yoshi2889> @kerbingamer376, Pi-hole, media 
+[17:37:37] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; @kerbingamer376, Pi-hole, media 
 Center
-[17:38:09] <Teleuforia> <kerbingamer376> It's running minibian, and is 
+[17:38:09] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; It's running minibian, and is 
 plugged into my router
-[17:38:24] <Teleuforia> <kerbingamer376> It'd be good as a server for 
+[17:38:24] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; It'd be good as a server for 
 something
-[17:38:28] <Teleuforia> <kerbingamer376> but what thing?
-[17:46:05] <Calinou> hi FutureSuture :P
-[17:46:36] <Calinou> kerbingamer376: my brother has a Raspberry Pi 1, he 
+[17:38:28] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; but what thing?
+[17:46:05] &lt;Calinou&gt; hi FutureSuture :P
+[17:46:36] &lt;Calinou&gt; kerbingamer376: my brother has a Raspberry Pi 1, he 
 bought it just before the Raspberry Pi 2 release :p
-[17:46:49] <Teleuforia> <kerbingamer376> same
-[17:47:18] <Teleuforia> <kerbingamer376> and then I got a HAT display 
+[17:46:49] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; same
+[17:47:18] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; and then I got a HAT display 
 and found it didn't fit...
-[17:47:37] <Teleuforia> <kerbingamer376> so I got a pi 2, and my pi 1 is 
+[17:47:37] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; so I got a pi 2, and my pi 1 is 
 going to be a server for a yet unknown thing
-[17:47:53] <Teleuforia> <kerbingamer376> that's not minecraft, although 
+[17:47:53] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; that's not minecraft, although 
 everyone seems to do that
-[17:48:00] <Calinou> open source game servers?
-[17:48:04] <Calinou> Minetest would be too heavy probably
-[17:48:10] <Teleuforia> <kerbingamer376> Wesnoth?
-[17:48:13] <Calinou> Sauerbraten/Red Eclipse/Tesseract should go just 
+[17:48:00] &lt;Calinou&gt; open source game servers?
+[17:48:04] &lt;Calinou&gt; Minetest would be too heavy probably
+[17:48:10] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; Wesnoth?
+[17:48:13] &lt;Calinou&gt; Sauerbraten/Red Eclipse/Tesseract should go just 
 fine
-[17:48:17] <Calinou> they use near zero CPU
+[17:48:17] &lt;Calinou&gt; they use near zero CPU
 [17:48:19] *** Quits: opalepatrick 
 (~opalepatr@242.104.125.91.dyn.plus.net) (Remote host closed the 
 connection)
-[17:48:21] <Teleuforia> <kerbingamer376> that has an official server 
+[17:48:21] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; that has an official server 
 though
-[17:48:39] <Teleuforia> <kerbingamer376> I was thinking about putting a 
+[17:48:39] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; I was thinking about putting a 
 pokedex database on it
-[17:49:08] <Calinou> if you have significant bandwidth, mirror some 
+[17:49:08] &lt;Calinou&gt; if you have significant bandwidth, mirror some 
 software, or seed torrents of open source software :p
-[17:49:12] <Calinou> I don't :(
-[17:49:15] <Teleuforia> <kerbingamer376> and then writing a scope to 
+[17:49:12] &lt;Calinou&gt; I don't :(
+[17:49:15] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; and then writing a scope to 
 view info from it
-[17:49:15] <Calinou> only 100 KB/s up
-[17:49:22] <Teleuforia> <kerbingamer376> ouch
-[17:49:28] <Teleuforia> <kerbingamer376> mine's 1mb/s
-[17:49:38] <Teleuforia> <kerbingamer376> but limited to 10GB a month
-[17:49:49] <Teleuforia> <kerbingamer376> a scope for ubuntu phone
-[17:49:56] <Teleuforia> <kerbingamer376> which I don't have yet
-[17:49:57] <Calinou> mine is unlimited
-[17:50:04] <Calinou> can download at 1.2 MB/s, quite ok
-[17:50:08] <Calinou> but upload is only 100 KB/s
+[17:49:15] &lt;Calinou&gt; only 100 KB/s up
+[17:49:22] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; ouch
+[17:49:28] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; mine's 1mb/s
+[17:49:38] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; but limited to 10GB a month
+[17:49:49] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; a scope for ubuntu phone
+[17:49:56] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; which I don't have yet
+[17:49:57] &lt;Calinou&gt; mine is unlimited
+[17:50:04] &lt;Calinou&gt; can download at 1.2 MB/s, quite ok
+[17:50:08] &lt;Calinou&gt; but upload is only 100 KB/s
 [17:50:17] *** Joins: opalepatrick 
 (~opalepatr@242.104.125.91.dyn.plus.net)
-[17:53:09] <Teleuforia> <Yoshi2889> 150Mbit/15 hwre
-[17:53:29] <Teleuforia> <Yoshi2889> Translates to roughly 18MBps/2MBps
+[17:53:09] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; 150Mbit/15 hwre
+[17:53:29] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Translates to roughly 18MBps/2MBps
 [17:53:35] *** Quits: NuSuey 
 (uid3556@gateway/web/irccloud.com/x-ywcuwmhzrrayqbqp) (Quit: Connection 
 closed for inactivity)
-[17:54:11] <Teleuforia> <xikuuky> @Yoshi2889, Isn't that the same as 
+[17:54:11] &lt;Teleuforia&gt; &lt;xikuuky&gt; @Yoshi2889, Isn't that the same as 
 6MBps?
-[17:54:25] <Calinou> in France you can get 925 Mb/s down, 240 Mb/s up 
+[17:54:25] &lt;Calinou&gt; in France you can get 925 Mb/s down, 240 Mb/s up 
 for €43/month
-[17:54:27] <Calinou> unmetered
-[17:54:35] <Teleuforia> <kerbingamer376> I'm in the UK
-[17:54:44] <Teleuforia> <Yoshi2889> @xikuuky, Where are you getting that 
+[17:54:27] &lt;Calinou&gt; unmetered
+[17:54:35] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; I'm in the UK
+[17:54:44] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; @xikuuky, Where are you getting that 
 from?
-[17:54:45] <Teleuforia> <kerbingamer376> and I had what I have, but 
+[17:54:45] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; and I had what I have, but 
 unlimited
-[17:54:48] <Teleuforia> <Yoshi2889> NL here
-[17:54:54] <Teleuforia> <kerbingamer376> but the connection was terrible
-[17:55:47] <Teleuforia> <xikuuky> @Yoshi2889, Yeah you're right. I can't 
+[17:54:48] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; NL here
+[17:54:54] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; but the connection was terrible
+[17:55:47] &lt;Teleuforia&gt; &lt;xikuuky&gt; @Yoshi2889, Yeah you're right. I can't 
 do math today sorry ( ≧Д≦)
-[17:56:05] <Teleuforia> <Yoshi2889> Lol
-[17:56:34] <Teleuforia> <xikuuky> Are group links allowed here?
-[17:56:41] <Teleuforia> <Yoshi2889> I guess
-[17:57:08] <Teleuforia> <xikuuky> Cool
-[17:57:40] <Calinou> how fast is KDE 5 by the way?
-[17:57:45] <Calinou> does it feel smooth on i7s? :P
-[17:57:48] <Teleuforia> <Yoshi2889> Not very
-[17:57:53] <Teleuforia> <Yoshi2889> Yes it will
-[17:57:58] <Calinou> ok, that's what matters
-[17:58:01] <Calinou> I use Atom anyway
-[17:58:08] <Calinou> which isn't speed champion, but it is fast enough 
+[17:56:05] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Lol
+[17:56:34] &lt;Teleuforia&gt; &lt;xikuuky&gt; Are group links allowed here?
+[17:56:41] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; I guess
+[17:57:08] &lt;Teleuforia&gt; &lt;xikuuky&gt; Cool
+[17:57:40] &lt;Calinou&gt; how fast is KDE 5 by the way?
+[17:57:45] &lt;Calinou&gt; does it feel smooth on i7s? :P
+[17:57:48] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Not very
+[17:57:53] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Yes it will
+[17:57:58] &lt;Calinou&gt; ok, that's what matters
+[17:58:01] &lt;Calinou&gt; I use Atom anyway
+[17:58:08] &lt;Calinou&gt; which isn't speed champion, but it is fast enough 
 for what I do
 [18:02:16] *** Joins: mjayk 
 (~mjayk@cpc65322-bagu12-2-0-cust395.1-3.cable.virginm.net)
-[18:04:36] <Teleuforia> <Kissaela> @xikuuky, depends
+[18:04:36] &lt;Teleuforia&gt; &lt;Kissaela&gt; @xikuuky, depends
 [18:06:24] *** Joins: allien 
 (~allien@static-84-42-162-78.net.upcbroadband.cz)
 [18:06:24] *** Quits: allien 
@@ -729,78 +729,78 @@ for what I do
 [18:16:49] *** Quits: mjayk 
 (~mjayk@cpc65322-bagu12-2-0-cust395.1-3.cable.virginm.net) (Remote host 
 closed the connection)
-[18:17:24] <Teleuforia> <kerbingamer376> * needs something to use his pi 
+[18:17:24] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * needs something to use his pi 
 as a server for *
-[18:23:42] <Teleuforia> <kerbingamer376> * googles for "open source 
+[18:23:42] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * googles for "open source 
 multiplayer games" *
-[18:23:53] <Teleuforia> <kerbingamer376> * dosn't really like shooters *
-[18:23:55] <Teleuforia> <Kissaela> minetest, ottd
-[18:24:14] <Teleuforia> <kerbingamer376> ottd is cool
-[18:24:23] <Teleuforia> <kerbingamer376> I don't know how multiplayer 
+[18:23:53] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * dosn't really like shooters *
+[18:23:55] &lt;Teleuforia&gt; &lt;Kissaela&gt; minetest, ottd
+[18:24:14] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; ottd is cool
+[18:24:23] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; I don't know how multiplayer 
 works
-[18:25:20] <Teleuforia> <kerbingamer376> how would mutiplayer work on 
+[18:25:20] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; how would mutiplayer work on 
 ttd?
-[18:26:42] <Teleuforia> <kerbingamer376> looks cool
-[18:26:53] <Teleuforia> <kerbingamer376> * looks for a raspberry pi 
+[18:26:42] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; looks cool
+[18:26:53] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * looks for a raspberry pi 
 build of the server *
-[18:29:25] <Teleuforia> <kerbingamer376> * can't remember how to play *
+[18:29:25] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * can't remember how to play *
 [18:38:10] *** Quits: CountryfiedLinux 
 (~Robert@unaffiliated/countryfiedlinux) (Quit: Leaving)
-[18:44:09] <Aria22> guys, what's Telegram like? So far i've only been 
+[18:44:09] &lt;Aria22&gt; guys, what's Telegram like? So far i've only been 
 using WhatsApp.. none of my friends are on Telegram
-[18:44:31] <Teleuforia> <kerbingamer376> I use it so much, I've never 
+[18:44:31] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; I use it so much, I've never 
 touched watsapp
-[18:45:22] <Teleuforia> <xikuuky> @Aria22, It feels similar but it has 
+[18:45:22] &lt;Teleuforia&gt; &lt;xikuuky&gt; @Aria22, It feels similar but it has 
 stickers and more media types, channels, and large groups. It is also 
 faster and more secure
-[18:46:15] <Aria22> How did you get your friends on Telegram?
-[18:46:25] <Teleuforia> <kerbingamer376> I just asked them
-[18:46:36] <Teleuforia> <kerbingamer376> they just said, "yeah sure"
-[18:46:40] <Teleuforia> <xikuuky> @Aria22, They didn't, I made a ton of 
+[18:46:15] &lt;Aria22&gt; How did you get your friends on Telegram?
+[18:46:25] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; I just asked them
+[18:46:36] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; they just said, "yeah sure"
+[18:46:40] &lt;Teleuforia&gt; &lt;xikuuky&gt; @Aria22, They didn't, I made a ton of 
 friends here
-[18:46:46] <Teleuforia> <kerbingamer376> Same
-[18:52:38] <Calinou> hi, I installed Antergos on my PC in UEFI+GPT with 
+[18:46:46] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; Same
+[18:52:38] &lt;Calinou&gt; hi, I installed Antergos on my PC in UEFI+GPT with 
 manual partitioning
-[18:52:45] <Calinou> now it's stuck in a boot loop whenever the SSD is 
+[18:52:45] &lt;Calinou&gt; now it's stuck in a boot loop whenever the SSD is 
 plugged
-[18:52:55] <Calinou> the PC tries to access UEFI, then reboots, 
+[18:52:55] &lt;Calinou&gt; the PC tries to access UEFI, then reboots, 
 indefinitely
-[18:53:01] <Calinou> even if I press the key to go to UEFI
-[18:53:13] <Calinou> tried switching UEFIs around (I have two on my 
+[18:53:01] &lt;Calinou&gt; even if I press the key to go to UEFI
+[18:53:13] &lt;Calinou&gt; tried switching UEFIs around (I have two on my 
 motherboard)
-[18:53:36] <Calinou> Aria22: here my friends use Telegram, thankfully
-[18:53:41] <Calinou> WhatsApp and Skype are evil :)
-[18:54:17] <Teleuforia> <xikuuky> @Calinou, Agreed
-[18:54:23] <Aria22> Calinou: I agree with you on that...
-[18:54:25] <Aria22> So is Facebook
-[18:54:29] <Calinou> anyway I have a pretty bad problem :(
-[18:54:33] <Calinou> not sure if I bricked the motherboard
-[18:54:40] <Calinou> I did make an UEFI partition properly, the 
+[18:53:36] &lt;Calinou&gt; Aria22: here my friends use Telegram, thankfully
+[18:53:41] &lt;Calinou&gt; WhatsApp and Skype are evil :)
+[18:54:17] &lt;Teleuforia&gt; &lt;xikuuky&gt; @Calinou, Agreed
+[18:54:23] &lt;Aria22&gt; Calinou: I agree with you on that...
+[18:54:25] &lt;Aria22&gt; So is Facebook
+[18:54:29] &lt;Calinou&gt; anyway I have a pretty bad problem :(
+[18:54:33] &lt;Calinou&gt; not sure if I bricked the motherboard
+[18:54:40] &lt;Calinou&gt; I did make an UEFI partition properly, the 
 partition manager told me all was OK
-[18:54:53] <Calinou> thing is, if I unplug SSD, I can eventually get to 
+[18:54:53] &lt;Calinou&gt; thing is, if I unplug SSD, I can eventually get to 
 boot, with "no media found" message
-[18:55:06] <Calinou> but then how do I reinstall Antergos on SSD (say, 
+[18:55:06] &lt;Calinou&gt; but then how do I reinstall Antergos on SSD (say, 
 in BIOS mode)?
-[18:55:11] <Calinou> since I don't think I can hotplug it
-[18:55:32] <Calinou> motherboard is a MSI Z77 MPower by the way
-[18:55:35] <Aria22> That goes far beyond what I know.. *waits for 
+[18:55:11] &lt;Calinou&gt; since I don't think I can hotplug it
+[18:55:32] &lt;Calinou&gt; motherboard is a MSI Z77 MPower by the way
+[18:55:35] &lt;Aria22&gt; That goes far beyond what I know.. *waits for 
 someone else to answer*
-[18:55:46] <Calinou> at least I have my laptop for now, so I'm not left 
+[18:55:46] &lt;Calinou&gt; at least I have my laptop for now, so I'm not left 
 PC-less
-[18:55:52] <Teleuforia> <kerbingamer376> * has never used ufei in his 
+[18:55:52] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; * has never used ufei in his 
 life *
-[18:56:05] <Teleuforia> <kerbingamer376> uefi I mean
-[18:56:29] <Teleuforia> <kerbingamer376> allways used bios mode
-[18:57:24] <Calinou> I was able to boot in UEFI mode with Debian and 
+[18:56:05] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; uefi I mean
+[18:56:29] &lt;Teleuforia&gt; &lt;kerbingamer376&gt; allways used bios mode
+[18:57:24] &lt;Calinou&gt; I was able to boot in UEFI mode with Debian and 
 Fedora
-[18:57:45] <Calinou> my hardware is not very recent, the CPU is an 
+[18:57:45] &lt;Calinou&gt; my hardware is not very recent, the CPU is an 
 i7-2600K, it's not like it's too recent
-[19:02:43] <Calinou> guess I'll ask on forums as well
-[19:06:25] <Aria22> Calinou: Maybe the SSD is broken, not the 
+[19:02:43] &lt;Calinou&gt; guess I'll ask on forums as well
+[19:06:25] &lt;Aria22&gt; Calinou: Maybe the SSD is broken, not the 
 motherboard?
-[19:06:42] <Calinou> Aria22: I would be very surprised... I installed 
+[19:06:42] &lt;Calinou&gt; Aria22: I would be very surprised... I installed 
 Antergos on it just fine, without any errors in the process
-[19:07:31] <Calinou> I will try unplugging it, installing Antergos on 
+[19:07:31] &lt;Calinou&gt; I will try unplugging it, installing Antergos on 
 HDD, and see if it boots
 [19:07:52] *** Quits: mike-zal 
 (~michaldyb@acpu238.neoplus.adsl.tpnet.pl) (Ping timeout: 252 seconds)
@@ -808,9 +808,9 @@ HDD, and see if it boots
 (~SuchAnti@antispammeta/doge/bot/suchantispam)
 [19:09:11] *** Joins: mike-zal 
 (~michaldyb@acpu238.neoplus.adsl.tpnet.pl)
-[19:12:28] <Calinou> I'm now installing it on my secondary HDD, to see 
+[19:12:28] &lt;Calinou&gt; I'm now installing it on my secondary HDD, to see 
 if it's a SSD problem
-[19:22:53] <Calinou> done, asked on forums
+[19:22:53] &lt;Calinou&gt; done, asked on forums
 [19:23:13] *** Joins: Noxbru (~Noxbru@2.155.143.203.dyn.user.ono.com)
 [19:49:40] *** Quits: ringo32 (~ringo_man@unaffiliated/ringo32) (Ping 
 timeout: 252 seconds)
@@ -822,7 +822,7 @@ Odch�z�m)
 [20:45:28] *** Quits: TitoN- (~titon@c83-250-44-242.bredband.comhem.se) 
 (Ping timeout: 268 seconds)
 [20:55:31] *** Joins: Jurij (~Jurij@94.145.50.52)
-[20:56:22] <Jurij> Can someone here answer questions about this guide: 
+[20:56:22] &lt;Jurij&gt; Can someone here answer questions about this guide: 
 https://antergos.com/wiki/hardware/graphics/bumblebee-for-nvidia-optimus/ 
 ??
 [20:56:23] -FatalException- [http://is.gd/96N5eB] Bumblebee for NVIDIA 
@@ -832,50 +832,50 @@ closed the connection)
 [21:03:08] *** Quits: Jurij (~Jurij@94.145.50.52) (Quit: Jurij)
 [21:20:10] *** Quits: gluytium (~gluytium@li394-234.members.linode.com) 
 (Max SendQ exceeded)
-[21:26:56] <Calinou> hey, I successfully installed Antergos :D
-[21:29:55] <NanoSector> nice :)
+[21:26:56] &lt;Calinou&gt; hey, I successfully installed Antergos :D
+[21:29:55] &lt;NanoSector&gt; nice :)
 [21:31:46] *** Joins: just_ (~just@93.100.176.120)
-[21:32:34] <Calinou> loving it so far
-[21:32:45] <Calinou> everything works out of the box, NVIDIA driver 
+[21:32:34] &lt;Calinou&gt; loving it so far
+[21:32:45] &lt;Calinou&gt; everything works out of the box, NVIDIA driver 
 preinstalled, can install software from AUR...
-[21:32:53] <Calinou> KDE renders fonts as well as a Mac too, when set 
+[21:32:53] &lt;Calinou&gt; KDE renders fonts as well as a Mac too, when set 
 right
-[21:41:17] <Calinou> wow, Node.js 6.0.0 is already in repositories, 
+[21:41:17] &lt;Calinou&gt; wow, Node.js 6.0.0 is already in repositories, 
 that's quite fast
 [21:56:37] *** Quits: mike-zal 
 (~michaldyb@acpu238.neoplus.adsl.tpnet.pl) (Quit: Konversation 
 terminated!)
 [22:03:24] *** Joins: Jurij (~Jurij@0x5e913234.adsl.cybercity.dk)
 [22:03:52] *** Parts: Jurij (~Jurij@0x5e913234.adsl.cybercity.dk) ()
-[22:04:30] <NanoSector> !pkg nodejs
-[22:04:31] <FatalException> nodejs - Evented I/O for V8 javascript -- 
+[22:04:30] &lt;NanoSector&gt; !pkg nodejs
+[22:04:31] &lt;FatalException&gt; nodejs - Evented I/O for V8 javascript -- 
 version 6.0.0-1 - 
 https://www.archlinux.org/packages/community/x86_64/nodejs
-[22:04:35] <NanoSector> yup, that's fast
+[22:04:35] &lt;NanoSector&gt; yup, that's fast
 [22:17:21] *** Joins: Jurij (~Jurij@0x5e913234.adsl.cybercity.dk)
-[22:18:38] <Jurij> I want to edit Steam so that it would start with 
+[22:18:38] &lt;Jurij&gt; I want to edit Steam so that it would start with 
 optirun (Bumblebee) automatically when I click on the icon (GNOME 3 
 dock). I tried finding the .desktop, but there isn't one. What do I do 
 now?
-[22:20:14] <NanoSector> it should be in /usr/share/applications/
-[22:20:28] <NanoSector> though there is a gnome3 extension to launch 
+[22:20:14] &lt;NanoSector&gt; it should be in /usr/share/applications/
+[22:20:28] &lt;NanoSector&gt; though there is a gnome3 extension to launch 
 apps with optirun/primusrun
-[22:20:33] <NanoSector> it's called optirun
-[22:22:10] <Jurij> Ohhh so that's where it is. I was looking in 
+[22:20:33] &lt;NanoSector&gt; it's called optirun
+[22:22:10] &lt;Jurij&gt; Ohhh so that's where it is. I was looking in 
 /.local/share/applications
-[22:22:16] <Jurij> Thank you!
-[22:23:08] <NanoSector> np :)
+[22:22:16] &lt;Jurij&gt; Thank you!
+[22:23:08] &lt;NanoSector&gt; np :)
 [22:24:14] *** Quits: alexandros_c 
 (~alexandro@unaffiliated/alexandros-c/x-1684531) (Quit: rebooting)
-[22:24:33] <Calinou> installed more stuff... the games I play are in AUR 
+[22:24:33] &lt;Calinou&gt; installed more stuff... the games I play are in AUR 
 :)
-[22:24:39] <Calinou> even Git versions, like Minetest
-[22:27:31] <NanoSector> :)
-[22:28:05] <Calinou> btw I worked on French Cnchi translation a while 
+[22:24:39] &lt;Calinou&gt; even Git versions, like Minetest
+[22:27:31] &lt;NanoSector&gt; :)
+[22:28:05] &lt;Calinou&gt; btw I worked on French Cnchi translation a while 
 ago
-[22:28:07] <Calinou> I should check it again, some strings aren't 
+[22:28:07] &lt;Calinou&gt; I should check it again, some strings aren't 
 translated
-[22:28:15] <Calinou> also, very good work on Cnchi, the manual 
+[22:28:15] &lt;Calinou&gt; also, very good work on Cnchi, the manual 
 partitioner is excellent
 [22:32:21] *** Joins: mike-zal 
 (~michaldyb@acpu238.neoplus.adsl.tpnet.pl)
@@ -886,9 +886,9 @@ partitioner is excellent
 [22:33:19] *** Joins: alexandros_c 
 (~alexandro@unaffiliated/alexandros-c/x-1684531)
 [22:33:32] *** Quits: just_ (~just@93.100.176.120) (Quit: Leaving)
-[22:45:21] <Calinou> hmm, I've had Dolphin close while I was working 
+[22:45:21] &lt;Calinou&gt; hmm, I've had Dolphin close while I was working 
 with it, but no crash dialog appeared
-[22:45:26] <Calinou> did not click the close button or press Alt+F4
+[22:45:26] &lt;Calinou&gt; did not click the close button or press Alt+F4
 [22:58:05] *** Quits: Jurij (~Jurij@0x5e913234.adsl.cybercity.dk) (Quit: 
 Jurij)
 [23:21:12] *** Joins: robertduq 
@@ -898,67 +898,67 @@ Jurij)
 Konversation terminated!)
 [23:42:51] *** Quits: robertduq 
 (98ede2d9@gateway/web/freenode/ip.152.237.226.217) (Quit: Page closed)
-[23:43:42] <ringo32> !
-[23:44:16] <NanoSector> ?
-[23:47:08] <ringo32> bored further on pff
-[23:47:36] <NanoSector> :)
-[23:48:25] <ringo32> must make a new antergos iso because 2016,04 has no 
+[23:43:42] &lt;ringo32&gt; !
+[23:44:16] &lt;NanoSector&gt; ?
+[23:47:08] &lt;ringo32&gt; bored further on pff
+[23:47:36] &lt;NanoSector&gt; :)
+[23:48:25] &lt;ringo32&gt; must make a new antergos iso because 2016,04 has no 
 networkmanager
-[23:48:26] <ringo32> pff
-[23:48:36] <ringo32> need a new snapshot
-[23:48:57] <ringo32> got one from december i think
-[23:52:43] <MichaelTunnell> yea Arch is crazy fast . . . Cinnamon 3.0.1 
+[23:48:26] &lt;ringo32&gt; pff
+[23:48:36] &lt;ringo32&gt; need a new snapshot
+[23:48:57] &lt;ringo32&gt; got one from december i think
+[23:52:43] &lt;MichaelTunnell&gt; yea Arch is crazy fast . . . Cinnamon 3.0.1 
 was released on April 25th and Arch had it on April 25th
-[23:53:19] <MichaelTunnell> ringo32: what? it has a networkmanager, it 
+[23:53:19] &lt;MichaelTunnell&gt; ringo32: what? it has a networkmanager, it 
 couldn't install without a network
-[23:54:02] <MichaelTunnell> Calinou: that's odd, Dolphin is usually the 
+[23:54:02] &lt;MichaelTunnell&gt; Calinou: that's odd, Dolphin is usually the 
 most reliable for me.
-[23:54:29] <MichaelTunnell> did it happen only the once?
-[23:55:03] <ringo32> i find it odd also :)
+[23:54:29] &lt;MichaelTunnell&gt; did it happen only the once?
+[23:55:03] &lt;ringo32&gt; i find it odd also :)
 [23:55:03] *** Joins: sonicpp (~jan@havhav.seb.rev-fortech.cz)
-[23:55:07] <Tiedemann> MichaelTunnell, I think he means that it doesn't 
+[23:55:07] &lt;Tiedemann&gt; MichaelTunnell, I think he means that it doesn't 
 install the network manager. It does install the openvpn package etc. 
 though so no clue how it is possible that it is missing
-[23:55:27] <ringo32> pacman -Qs networkmanager  gives other things
-[23:55:32] <ringo32> but not networkmanager
-[23:55:39] <ringo32> in gnome-boxes
-[23:56:02] <ringo32> also systemctl list-unit-files | grep Network
-[23:56:08] <ringo32> does not show it
-[23:56:26] <ringo32> compared a bit with my own system also, i choosed 
+[23:55:27] &lt;ringo32&gt; pacman -Qs networkmanager  gives other things
+[23:55:32] &lt;ringo32&gt; but not networkmanager
+[23:55:39] &lt;ringo32&gt; in gnome-boxes
+[23:56:02] &lt;ringo32&gt; also systemctl list-unit-files | grep Network
+[23:56:08] &lt;ringo32&gt; does not show it
+[23:56:26] &lt;ringo32&gt; compared a bit with my own system also, i choosed 
 Xfce
-[23:56:35] <Tiedemann> and my beloved xfce 
+[23:56:35] &lt;Tiedemann&gt; and my beloved xfce 
 </pre>
 
 ### Antergos ops
 
 <pre class="irclog">
-[05:12:11] <Wyn> @karasu0 https://github.com/Antergos/Cnchi/pull/588
+[05:12:11] &lt;Wyn&gt; @karasu0 https://github.com/Antergos/Cnchi/pull/588
 [05:12:13] -FatalException- [http://is.gd/T45QqK] Tell the user where 
 the log file is stored. by Wyn10 · Pull Request #588 · Antergos/Cnchi · 
 GitHub
-[12:59:56] <Teleuforia> <Kissaela> I should probably also talk here.
-[13:00:23] <Teleuforia> <Kissaela> We have users who think it's a good 
+[12:59:56] &lt;Teleuforia&gt; &lt;Kissaela&gt; I should probably also talk here.
+[13:00:23] &lt;Teleuforia&gt; &lt;Kissaela&gt; We have users who think it's a good 
 idea to edit /etc/lsb_release or whatever it is to say they are using 
 Arch Linux Rolling and then go to Arch Linux support channels.
-[13:00:48] <Teleuforia> <Kissaela> I have tried to communicate that that 
+[13:00:48] &lt;Teleuforia&gt; &lt;Kissaela&gt; I have tried to communicate that that 
 is a bad idea and only makes Arch communities hate them and Antergos in 
 general even more, but they aren't willing to listen.
-[13:01:06] <Teleuforia> <Kissaela> I am also sadly not emotionless 
+[13:01:06] &lt;Teleuforia&gt; &lt;Kissaela&gt; I am also sadly not emotionless 
 machine and ended up first kicking and then removing one user.
-[13:02:33] <Teleuforia> <Kissaela> I also stated that I don't care 
+[13:02:33] &lt;Teleuforia&gt; &lt;Kissaela&gt; I also stated that I don't care 
 anymore, people can call their Antergos Arch as much as they want and I 
 don't care ops doing that either, they can only hurt themselves and 
 Antergos. I have used vanilla Arch for a long time possibly even before 
 I became Antergos op and I do it because of kindness just like the 
 bridge bot between IRC and Telegram which is only getting negative 
 feedback.
-[13:03:29] <Teleuforia> <Kissaela> It shouldn't also come as surprise 
+[13:03:29] &lt;Teleuforia&gt; &lt;Kissaela&gt; It shouldn't also come as surprise 
 that I am not mentally healthy and that I also have my limits. I wish 
 there were multiple people present at all times who could handle the 
 matter more peacefully.
-[13:03:42] <Teleuforia> <Kissaela> @karasu0 @Yoshi2889 @RottNKorpse 
+[13:03:42] &lt;Teleuforia&gt; &lt;Kissaela&gt; @karasu0 @Yoshi2889 @RottNKorpse 
 @lots0logs Wyn
-[13:07:14] <Teleuforia> <Kissaela> I guess forums are going to have long 
+[13:07:14] &lt;Teleuforia&gt; &lt;Kissaela&gt; I guess forums are going to have long 
 preach against me soon, but whatever
 [14:11:28] *** Quits: FatalException 
 (~FatalExce@unaffiliated/yoshi2889/bot/fatalexception) (Remote host 
@@ -972,186 +972,186 @@ closed the connection)
 [14:12:13] *** Joins: FatalException 
 (~FatalExce@unaffiliated/yoshi2889/bot/fatalexception)
 [14:12:13] *** ChanServ sets mode: +v FatalException
-[18:23:50] <Wyn> @Kissaela You can only do so much against stubborn 
+[18:23:50] &lt;Wyn&gt; @Kissaela You can only do so much against stubborn 
 users, don't put that on yourself.  But kicking the user is not what you 
 should be doing, at all.  You are secondly pushing that user to go into 
 the Arch channels by kicking this person.  If the telegram bot is 
 getting "only" negative feedback, what is the feedback you have 
 received?
-[18:24:02] <Wyn> Should not be doing*.
-[18:24:32] <Teleuforia> <Kissaela> I cannot prevent users from doing 
+[18:24:02] &lt;Wyn&gt; Should not be doing*.
+[18:24:32] &lt;Teleuforia&gt; &lt;Kissaela&gt; I cannot prevent users from doing 
 what they wish and as I have said, I am not emotionless machine.
-[18:25:00] <Teleuforia> <Kissaela> The feedback I have gotten is that 
+[18:25:00] &lt;Teleuforia&gt; &lt;Kissaela&gt; The feedback I have gotten is that 
 Telegram is horribly insecure and Antergos shjouldn't use it and promote 
 propietary server software.
-[18:29:39] <Wyn> @Kissaela It does not give you a right the kick 
+[18:29:39] &lt;Wyn&gt; @Kissaela It does not give you a right the kick 
 ringo32.  You simply kicked without a discussion, and he's literally one 
 of the more positive people on the channel.
-[18:30:21] <Teleuforia> <Yoshi2889> @Kissaela, IRC isnt more secure
-[18:33:41] <NanoSector> Your kick doesn't make sense either
-[18:34:15] <Teleuforia> <Kissaela> Do you wish that I leave Antergos or 
+[18:30:21] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; @Kissaela, IRC isnt more secure
+[18:33:41] &lt;NanoSector&gt; Your kick doesn't make sense either
+[18:34:15] &lt;Teleuforia&gt; &lt;Kissaela&gt; Do you wish that I leave Antergos or 
 what do you want me to do?
-[18:34:28] <Teleuforia> <Kissaela> Is everyone else allowed to feel 
+[18:34:28] &lt;Teleuforia&gt; &lt;Kissaela&gt; Is everyone else allowed to feel 
 aggressive sometimes when they are angry, but not me?
-[18:34:29] <Teleuforia> <Kissaela> Why?
-[18:34:35] <NanoSector> I don't want you to do anything
-[18:34:49] <NanoSector> I'm just saying it doesn't make sense
-[18:34:52] <Teleuforia> <Kissaela> @Yoshi2889, IRC doesn't store 
+[18:34:29] &lt;Teleuforia&gt; &lt;Kissaela&gt; Why?
+[18:34:35] &lt;NanoSector&gt; I don't want you to do anything
+[18:34:49] &lt;NanoSector&gt; I'm just saying it doesn't make sense
+[18:34:52] &lt;Teleuforia&gt; &lt;Kissaela&gt; @Yoshi2889, IRC doesn't store 
 conversations anywhere which is safe assumption. Telegram does.
-[18:35:03] <Teleuforia> <Kissaela> It does make perfect sense as I was 
+[18:35:03] &lt;Teleuforia&gt; &lt;Kissaela&gt; It does make perfect sense as I was 
 angry and I am angry at you now.
-[18:36:31] <NanoSector> Why, because i told you your kick doesn't make 
+[18:36:31] &lt;NanoSector&gt; Why, because i told you your kick doesn't make 
 sense?
-[18:36:56] <Teleuforia> <Kissaela> Can someone explain to NanoSector 
+[18:36:56] &lt;Teleuforia&gt; &lt;Kissaela&gt; Can someone explain to NanoSector 
 that when people are angry they make inreasonable things?
-[18:37:25] <NanoSector> "I am angry at you now"
-[18:37:35] <Teleuforia> <Kissaela> yes, because you cannot understand
-[18:37:47] <NanoSector> Yes, i can
-[18:38:55] <Teleuforia> <Yoshi2889> Ringo tried having a mature 
+[18:37:25] &lt;NanoSector&gt; "I am angry at you now"
+[18:37:35] &lt;Teleuforia&gt; &lt;Kissaela&gt; yes, because you cannot understand
+[18:37:47] &lt;NanoSector&gt; Yes, i can
+[18:38:55] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Ringo tried having a mature 
 discussion
-[18:39:09] <Teleuforia> <Yoshi2889> You kicked him for that
-[18:39:11] <Teleuforia> <Yoshi2889> Why?
-[18:39:50] <Teleuforia> <Yoshi2889> Why did you even get angry at him, I 
+[18:39:09] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; You kicked him for that
+[18:39:11] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Why?
+[18:39:50] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Why did you even get angry at him, I 
 have the logs in front of me and don't see anything wrong
-[18:40:13] <Teleuforia> <Kissaela> No, I kicked him for getting angry 
+[18:40:13] &lt;Teleuforia&gt; &lt;Kissaela&gt; No, I kicked him for getting angry 
 for them repeating endlessly "Antergos is Arch" and "I can edit 
 lsb_release so it says Arch and go to ask Arch for support"
-[18:40:31] <Teleuforia> <Yoshi2889> Why did that make you angry?
-[18:40:43] <Teleuforia> <Kissaela> because it's stupid and I have told 
+[18:40:31] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Why did that make you angry?
+[18:40:43] &lt;Teleuforia&gt; &lt;Kissaela&gt; because it's stupid and I have told 
 them multiple times
-[18:41:06] <Teleuforia> <Yoshi2889> You could simply have said that you 
+[18:41:06] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; You could simply have said that you 
 do not want such things in the channel
-[18:41:25] <Teleuforia> <Kissaela> and they would have went directly to 
+[18:41:25] &lt;Teleuforia&gt; &lt;Kissaela&gt; and they would have went directly to 
 Arch channels
-[18:41:26] <Teleuforia> <Yoshi2889> That it is against the rules
-[18:42:02] <Teleuforia> <Kissaela> I don't think it has been documented 
+[18:41:26] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; That it is against the rules
+[18:42:02] &lt;Teleuforia&gt; &lt;Kissaela&gt; I don't think it has been documented 
 in the rules and I consider kicks as warning, as more action would have 
 been remove
-[18:42:07] <Teleuforia> <Yoshi2889> If he then still wouldn't have shut 
+[18:42:07] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; If he then still wouldn't have shut 
 up about it you could've kicked him for ignoring the warning
-[18:42:28] <Teleuforia> <Yoshi2889> Kicks aren't warnings, IMO
-[18:42:40] <Teleuforia> <Kissaela> they have been since IRC was invented
-[18:43:05] <Teleuforia> <Yoshi2889> In the SMF team I'd have my 
+[18:42:28] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Kicks aren't warnings, IMO
+[18:42:40] &lt;Teleuforia&gt; &lt;Kissaela&gt; they have been since IRC was invented
+[18:43:05] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; In the SMF team I'd have my 
 moderation powers suspended for an action like this
-[18:43:17] <Teleuforia> <Yoshi2889> And where is that said?
-[18:43:18] <Teleuforia> <Kissaela> bye
-[18:43:29] <Teleuforia> <Kissaela> I am leaving to cry somewhere now and 
+[18:43:17] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; And where is that said?
+[18:43:18] &lt;Teleuforia&gt; &lt;Kissaela&gt; bye
+[18:43:29] &lt;Teleuforia&gt; &lt;Kissaela&gt; I am leaving to cry somewhere now and 
 if I decide to jump under metro thamk yourself of it
-[18:43:48] <Teleuforia> <Yoshi2889> Stop being such a drama queen
-[18:47:58] <Wyn> reading this is embarrassing more then anything...like 
+[18:43:48] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; Stop being such a drama queen
+[18:47:58] &lt;Wyn&gt; reading this is embarrassing more then anything...like 
 we already have enough on our plate regarding community activity
-[18:51:32] <Teleuforia> <Yoshi2889> It sure is embarrassing
+[18:51:32] &lt;Teleuforia&gt; &lt;Yoshi2889&gt; It sure is embarrassing
 [19:08:25] *** Joins: SuchAntiSpam 
 (~SuchAnti@antispammeta/doge/bot/suchantispam)
 [19:08:25] *** ChanServ sets mode: +v SuchAntiSpam
-[23:22:02] <MichaelTunnell> um ok wow so lets address this.
-[23:22:28] <MichaelTunnell> Mikaela: a kick is not a warning . . . a 
+[23:22:02] &lt;MichaelTunnell&gt; um ok wow so lets address this.
+[23:22:28] &lt;MichaelTunnell&gt; Mikaela: a kick is not a warning . . . a 
 "hey this is a warning, don't do blah", that's a warning.
-[23:22:44] <MichaelTunnell> a kick is "GTFO but you can come back". Ban 
+[23:22:44] &lt;MichaelTunnell&gt; a kick is "GTFO but you can come back". Ban 
 is GTFO forever.
-[23:23:28] <NanoSector> yes, that is how i see kicks as well
-[23:23:48] <MichaelTunnell> Antergos IS Arch technically speaking and if 
+[23:23:28] &lt;NanoSector&gt; yes, that is how i see kicks as well
+[23:23:48] &lt;MichaelTunnell&gt; Antergos IS Arch technically speaking and if 
 someone goes through the effort to try and solve their problem before 
 asking in the Arch channels the Arch channels will be fine with helping 
 Antergos users. I have discussed this with people in the Arch channels.
-[23:24:28] <MichaelTunnell> the issue is Antergos brands itself as "for 
+[23:24:28] &lt;MichaelTunnell&gt; the issue is Antergos brands itself as "for 
 everyone" which is not true and thus brings in people who won't put any 
 real effort in and then asking Arch channels without putting in effort . 
 . . that is what they hate.
-[23:24:40] <NanoSector> you do mean that we try to solve their problem 
+[23:24:40] &lt;NanoSector&gt; you do mean that we try to solve their problem 
 first, right?
-[23:24:54] <MichaelTunnell> I left helping in the Arch channel because I 
+[23:24:54] &lt;MichaelTunnell&gt; I left helping in the Arch channel because I 
 got sick of the Manjaro people yelling at me for not helping with a 
 distro I wasn't even using.
-[23:25:06] <MichaelTunnell> NanoSector: that's what I meant to say yes
-[23:25:10] <NanoSector> aight
-[23:25:19] <NanoSector> i didn't know that, but that's cool
-[23:26:31] <MichaelTunnell> so yea the Arch channel does not hate people 
+[23:25:06] &lt;MichaelTunnell&gt; NanoSector: that's what I meant to say yes
+[23:25:10] &lt;NanoSector&gt; aight
+[23:25:19] &lt;NanoSector&gt; i didn't know that, but that's cool
+[23:26:31] &lt;MichaelTunnell&gt; so yea the Arch channel does not hate people 
 for asking help with Antergos, they hate it when people ask for help 
 when they've not attempted to solve it themselves. Arch is all about 
 "solve it yourself" first so that is perfectly reasonable stance.
-[23:26:53] <NanoSector> that sounds reasonable indeed
-[23:27:00] <Wyn> MichaelTunnell: also address this with Mikaela: 
-<@Teleuforia> <Kissaela> I am leaving to cry somewhere now and if I 
+[23:26:53] &lt;NanoSector&gt; that sounds reasonable indeed
+[23:27:00] &lt;Wyn&gt; MichaelTunnell: also address this with Mikaela: 
+&lt;@Teleuforia&gt; &lt;Kissaela&gt; I am leaving to cry somewhere now and if I 
 decide to jump under metro thamk yourself of it
-[23:27:18] <NanoSector> yes, that was uncalled for
-[23:27:30] <Wyn> this type of stuff shouldnt be said here at all
-[23:27:33] <MichaelTunnell> kicking people because you disagree with 
+[23:27:18] &lt;NanoSector&gt; yes, that was uncalled for
+[23:27:30] &lt;Wyn&gt; this type of stuff shouldnt be said here at all
+[23:27:33] &lt;MichaelTunnell&gt; kicking people because you disagree with 
 Antergos being Arch or not, is absurd and not acceptable. IT is NEVER 
 acceptable to kick someone just because of a difference of opinion.
-[23:28:11] <NanoSector> MichaelTunnell, i did try to explain exactly 
+[23:28:11] &lt;NanoSector&gt; MichaelTunnell, i did try to explain exactly 
 that
-[23:28:56] <MichaelTunnell> Mikaela:  you are certainly entitled to be 
+[23:28:56] &lt;MichaelTunnell&gt; Mikaela:  you are certainly entitled to be 
 angry but you have power in this community, power that others do not so 
 NO you do NOT have the right to invoke that power just because you are 
 angry. If you become angry and want to not continue the conversation 
 then, leave the conversation.
-[23:29:24] <NanoSector> and that is easier said than done
-[23:29:45] <NanoSector> but just count to 10 before replying, it helps
-[23:29:46] <MichaelTunnell> NanoSector: certainly, I agree. I have had 
+[23:29:24] &lt;NanoSector&gt; and that is easier said than done
+[23:29:45] &lt;NanoSector&gt; but just count to 10 before replying, it helps
+[23:29:46] &lt;MichaelTunnell&gt; NanoSector: certainly, I agree. I have had 
 to stop myself on multiple occasions but the thing is, I always stop 
 myself.
-[23:29:56] <NanoSector> yes, i am guilty of that too
-[23:30:09] <NanoSector> but sometimes i don't stop
-[23:31:15] <MichaelTunnell> Mikaela: in relation to the leaving to cry. 
+[23:29:56] &lt;NanoSector&gt; yes, i am guilty of that too
+[23:30:09] &lt;NanoSector&gt; but sometimes i don't stop
+[23:31:15] &lt;MichaelTunnell&gt; Mikaela: in relation to the leaving to cry. 
 That is unfortunate and I wish nothing but the best for you. However, 
 you made a mistake and that is that. You have to just deal with the 
 mistake and try to make up for it.
-[23:31:23] <NanoSector> either way i wasn't trying to pick a fight with 
+[23:31:23] &lt;NanoSector&gt; either way i wasn't trying to pick a fight with 
 the convo today or even try to make anyone angry
-[23:31:47] <MichaelTunnell> NanoSector: I know, I'm just responding to 
+[23:31:47] &lt;MichaelTunnell&gt; NanoSector: I know, I'm just responding to 
 the parts where I think I should.
-[23:32:23] <NanoSector> yes, that's fine, i'm just outputting my 
+[23:32:23] &lt;NanoSector&gt; yes, that's fine, i'm just outputting my 
 thoughts
-[23:32:40] <MichaelTunnell> Telegram does have less security in a very 
+[23:32:40] &lt;MichaelTunnell&gt; Telegram does have less security in a very 
 very nice sense of having a central server. That's why I want the bot 
 renamed to Telegram something so people know it's happening immediately. 
 If they want to leave the chat because of it then that is fine.
-[23:33:07] <MichaelTunnell> Telegram was a fantastic idea to be added to 
+[23:33:07] &lt;MichaelTunnell&gt; Telegram was a fantastic idea to be added to 
 the channels and it has brought more activity from Antergos team in, 
 that by itself is worth it for the channel.
-[23:33:15] <NanoSector> doesn't freenode have central servers as well, 
+[23:33:15] &lt;NanoSector&gt; doesn't freenode have central servers as well, 
 though?
-[23:33:28] <NanoSector> even though they supposedly don't store messages
-[23:33:40] <Wyn> I brought up the bot being renamed to Telegram as well.
-[23:33:43] <MichaelTunnell> NanoSector: I think so but I can't guarantee 
+[23:33:28] &lt;NanoSector&gt; even though they supposedly don't store messages
+[23:33:40] &lt;Wyn&gt; I brought up the bot being renamed to Telegram as well.
+[23:33:43] &lt;MichaelTunnell&gt; NanoSector: I think so but I can't guarantee 
 on the message part
-[23:34:07] <NanoSector> either way it's irrelevant, they're both not 
+[23:34:07] &lt;NanoSector&gt; either way it's irrelevant, they're both not 
 secure as anyone could just join and publish the logs somewhere
-[23:34:17] <MichaelTunnell> NanoSector: agreed
-[23:34:41] <MichaelTunnell> which is why I want it obvious and then 
+[23:34:17] &lt;MichaelTunnell&gt; NanoSector: agreed
+[23:34:41] &lt;MichaelTunnell&gt; which is why I want it obvious and then 
 users can decide to care or not. This way we never have to care. :)
-[23:34:49] <NanoSector> true
-[23:35:04] <Wyn> thats what i said 2+ weeks ago lul
-[23:36:19] <MichaelTunnell> that final thing I will comment on. Mikaela 
+[23:34:49] &lt;NanoSector&gt; true
+[23:35:04] &lt;Wyn&gt; thats what i said 2+ weeks ago lul
+[23:36:19] &lt;MichaelTunnell&gt; that final thing I will comment on. Mikaela 
 telling people to blame themselves for a terrible decision of suicide is 
 appalling and not remotely acceptable. If you do decide to do it, which 
 of course I hope you don't because that would be awful . . . but if you 
 do, that would be your decision, not anyone here or in the main channel.
-[23:36:39] <MichaelTunnell> yes there are people who are vile assholes 
+[23:36:39] &lt;MichaelTunnell&gt; yes there are people who are vile assholes 
 in some places but that's not us so to say that is offensive to us.
-[23:37:26] <MichaelTunnell> well at least it is offensive to me . . . I 
+[23:37:26] &lt;MichaelTunnell&gt; well at least it is offensive to me . . . I 
 can't speak for everyone but I'd comfortable with assuming they agree.
-[23:38:39] <NanoSector> i felt bad and kind of angry because i was the 
+[23:38:39] &lt;NanoSector&gt; i felt bad and kind of angry because i was the 
 one being blamed while i didn't intend any harm
-[23:39:36] <NanoSector> so, apologies for my drama queen comment
-[23:40:49] <MichaelTunnell> NanoSector: I understand. I would feel the 
+[23:39:36] &lt;NanoSector&gt; so, apologies for my drama queen comment
+[23:40:49] &lt;MichaelTunnell&gt; NanoSector: I understand. I would feel the 
 same. I hate to hear people talking about killing themselves. I know 
 people who have done it and it is something I'll never truly get over 
 but to blame others for that action is appalling to me.
-[23:41:11] <NanoSector> :(
-[23:41:42] <MichaelTunnell> I often try to help those who express such 
+[23:41:11] &lt;NanoSector&gt; :(
+[23:41:42] &lt;MichaelTunnell&gt; I often try to help those who express such 
 comments but I'm not a doctor so I can't truly do anything but listen 
 and I always try to be there for people who want me to be but even then 
 that's not enough.
-[23:42:46] <MichaelTunnell> I realize that and I couldn't help the 
+[23:42:46] &lt;MichaelTunnell&gt; I realize that and I couldn't help the 
 person who I knew that did it but that does not mean it was my fault or 
 anyone else's so that kind of statement infuriates me. In the most, 
 understanding and sympathetic way possible.
-[23:42:54] <NanoSector> you're doing your best MichaelTunnell
-[23:43:10] <MichaelTunnell> All problems are temporary problems and 
+[23:42:54] &lt;NanoSector&gt; you're doing your best MichaelTunnell
+[23:43:10] &lt;MichaelTunnell&gt; All problems are temporary problems and 
 suicide is a permanent solution to temporary problems.
-[23:44:14] <MichaelTunnell> NanoSector: I like to think so
+[23:44:14] &lt;MichaelTunnell&gt; NanoSector: I like to think so
 </pre>
 
 ## 2016-05-02
@@ -1220,6 +1220,8 @@ return to Antergos and the drama number three.
 > 
 > J.
 
+* [Antergos irc forum problems @ Antergos Community Forum](https://forum.antergos.com/topic/4407/antergos-irc-forum-problems/10)
+
 Flashback to drama #1, you should by now have a good idea on what
 happened and in case you know me or my blog, you don't need to have
 the facts, but I must probably explain them to new readers.
@@ -1265,11 +1267,11 @@ more.
 
 In case you are interested in reading more about me, I suggest
 
-* https://mikaela.info/about which is my about page and in the bottom
-  contains links to my-life-related posts where this one doesn't belong
-  due to happening mostly online.
-* https://mikaela.info/irc for the previously mentioned IRC posts which
-  also include two posts about umodeg which explain why I am unhappy
-  with private messages which come without my explicit permission.
-* https://mikaela.info/blog for the other blog posts I have written about
-  random subjects.
+* [/about](/about) which is my about page and in the bottom contains
+  links to my-life-related posts where this one doesn't belong due to
+  happening mostly online.
+* [/irc](/irc) for the previously mentioned IRC posts which also include
+  two posts about umode+g which explain why I am unhappy with private
+  messages which come without my explicit permission.
+* [/blog](/blog) for the other blog posts I have written about random
+  subjects.
