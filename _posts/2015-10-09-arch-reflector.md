@@ -4,7 +4,10 @@ comments: true
 title: "Using reflector in Arch my way"
 category: [english]
 tags: [arch, linux, reflector, mirrors]
-redirect_from: /reflector.html
+redirect_from:
+  - /reflector.html
+  - /arch-reflector.html
+  - /antergos-reflector.html
 ---
 
 *Reflector is a tool that checks the most recently upgraded Arch Linux
