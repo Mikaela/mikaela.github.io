@@ -157,6 +157,8 @@ preferred Debian side. Maybe it's just that I have learned to use it.
 This link list to life post on my blog shouldn't be here, but it has no
 better place, so where else should it be?
 
+*Time of writing in YYYY-MM-DD (ISO 8601): title or what it's about.*
+
 * [2015-03-25: Leaving bot communities & a little on my life]({% post_url 2015-03-25-leaving-bots-life %})
 * [2015-04-03: Scum]({% post_url 2015-04-03-scum %})
     * [2015-04-01: Saasta (same in Finnish)]({% post_url 2015-04-01-saasta %})
