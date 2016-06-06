@@ -16,7 +16,7 @@ different nick which is possible depending on network.*
 
 [my OTR key]: ../keys
 
-[![ircs://chat.freenode.net:6697/%23%23mikaela](https://kiwiirc.com/buttons/chat.freenode.net/%23Mikaela.png)](https://kiwiirc.com/client/chat.freenode.net:%2B6697/%23%23Mikaela) [Telegram invite link (there is a bot bridging IRC & Telegram)](https://telegram.me/joinchat/Cc6XLD5gkdODzM4UdNdrvw)
+[![ircs://chat.freenode.net:6697/%23%23mikaela](https://kiwiirc.com/buttons/chat.freenode.net/%23Mikaela.png)](https://kiwiirc.com/client/chat.freenode.net:%2B6697/%23%23Mikaela) [Public Telegram group link (there is a bot bridging IRC & Telegram)](https://telegram.me/MikaelaDotInfo)
 
 ### IRC-related posts
 
