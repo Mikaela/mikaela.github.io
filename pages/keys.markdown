@@ -23,14 +23,11 @@ to communicate with me securely.
 <br/>
 *OTR*
 
-This table can be somewhat outdated as it doesn't include anything else
-than WeeChat (IRC) and BitlBee keys while I have other devices/software
-I use for connecting to XMPP too using also other types of encryption
-(mainly OMEMO, I guess).
-
-**The primary accounts I use from below are IRC, Joindiaspora.com and
-  Kapsi.fi. The others will be disappearing if I have to do reconfiguring
-  on software that currently has them as there are too many to manage.**
+OTR is impossible with three clients fighting for the messages, so I only
+support it with IRC (which currently has no other *good* choice *and* where
+I have only single client (WeeChat) which my phone also connects to) and
+even if some of the XMPP clients talks it, I would appreciate you using
+OMEMO instead.
 
 <table>
     <tr>
@@ -38,42 +35,19 @@ I use for connecting to XMPP too using also other types of encryption
         <th>OTR Fingerprint</th>
     </tr>
     <tr>
-        <td>dukgo</td>
-        <td>73C54D94 8DE7222F 478EC02C D8FD95DA 0BD3A25D</td>
-    </tr>
-    <tr>
-        <td>facebook</td>
-        <td>A6131A37 FE646D22 3D2C374E F7653716 D700BB29</td>
-    </tr>
-    <tr>
-        <td>gmail</td>
-        <td>BBC9BD86 7E7E7D3F F0C16CB6 581A2EDC 984E95CD</td>
-    </tr>
-    <tr>
-        <td>gmail (<em>OLD</em>)</td>
-        <td>F13B431F C71FBA55 6B46D1E3 11273B58 C49D7118</td>
-    </tr>
-    <tr>
-        <td><strong>IRC</strong></td>
-        <td><strong>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</strong></td>
-    </tr>
-    <tr>
-        <td>jappix</td>
-        <td>AEBFF7FD 845CECE5 0D3B1DEC DC63281F 612B71EC</td>
-    </tr>
-    <tr>
-        <td><strong>joindiaspora</strong></td>
-        <td><strong>5B1221E3 EFC72769 4140A9C0 A0886939 35B99F86</strong></td>
-    </tr>
-    <tr>
-        <td><strong>kapsi</strong></td>
-        <td><strong>F0FFE3D6 ED8FCC66 A2AC0FAA 67FD41B4 EFBDEC97</strong></td>
+        <td>IRC</td>
+        <td>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</td>
     </tr>
 </table>
 
 <br/>
 
 *OMEMO*
+
+My desktop clients are missing until I can securely get the fingerprints
+out of them without relaying another client to get them. This will happen
+when [omemo/gajim-omemo#61](https://github.com/omemo/gajim-omemo/pull/61)
+gets merged.
 
 <table>
     <tr>
