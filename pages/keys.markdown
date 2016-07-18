@@ -44,11 +44,6 @@ OMEMO instead.
 
 *OMEMO*
 
-My desktop clients are missing until I can securely get the fingerprints
-out of them without relaying another client to get them. This will happen
-when [omemo/gajim-omemo#61](https://github.com/omemo/gajim-omemo/pull/61)
-gets merged.
-
 <table>
     <tr>
         <th>Account</th>
@@ -66,6 +61,11 @@ gets merged.
         <td>bdc51478af93d61c8890c5e638cb658b3736cdb706309862ff5b48e4e74ab93b</td>
     </tr>
     <tr>
+        <td>Joindiaspora</td>
+        <td>sedric/gajim</td>
+        <td>5BE02080 79C94E5F 15986BE6 F96C2C25 734D5212 2C9F65F2 15DB5CE1 57434B4D</td>
+    </tr>
+    <tr>
         <td>Kapsi</td>
         <td>GT-I9305/Conversations</td>
         <td>36e6c716f099d4172bd06b4bf2cf6bd9e59bdbcfa55b2912a521b39d81c50e53</td>
@@ -74,6 +74,11 @@ gets merged.
         <td>Kapsi</td>
         <td>Jolla/Conversations</td>
         <td>d42beab6bd86c40f4fd66c71de9f7dcc7532970e4a8cbf9d4938c4f99eb46864</td>
+    </tr>
+    <tr>
+        <td>Kapsi</td>
+        <td>sedric/Gajim</td>
+        <td>506148B5 CC48623E 5F01E7C6 68F08FF5 8BB02D2A DA7449C2 E24F2BC2 0A054F6B</td>
     </tr>
 </table>
 <br/>
