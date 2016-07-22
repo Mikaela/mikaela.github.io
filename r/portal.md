@@ -1,5 +1,5 @@
 ---
-redirect_to: http://www.finlex.fi/fi/laki/alkup/2002/20020563
+redirect_to: https://support.ingress.com/hc/articles/207343987-Candidate-Portal-criteria
 permalink: /r/portal.html
 redirect_from: /r/ingressportal.html
 sitemap: false
