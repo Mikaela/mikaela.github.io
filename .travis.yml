@@ -1,32 +1,33 @@
-language: ruby
+# Trusty beta has everything I need in the mega image.
+sudo: required
+dist: trusty
 
-sudo: false
+language: python
+python:
+ - "3.5"
 
-script:
-  - gem install github-pages
+# install Java 8 as required by vnu.jar
+before_install:
+ - sudo apt-get update
+ - sudo apt-get install oracle-java8-installer
+ - sudo update-java-alternatives -s java-8-oracle
+ - gem install github-pages
+
+install:
+ - pip install html5validator
+
+script: 
   - jekyll build --drafts --profile
-  - python2 --version && python2 -m pip --version
-  - python2 -m pip install html5validator --user --upgrade
-  - ~/.local/bin/html5validator --root _site/ --ignore 'Bad value “Content-Security-Policy” for attribute “http-equiv” on element “meta”.' --blacklist r
-rvm: 2.1
-
-notifications:
-    email: false
-    # In hope Travis will be more reliable than Notifico...
-    #irc:
-        #channels:
-            # Encrypted in case this repo will be forked and Travis
-            # enabled for the fork(s).
-            # travis encrypt "ircs://vardiera.mikaela.info:1234/##Mikaela" -r Mikaela/mikaela.github.io
-            #- secure: "UDwZ1hvnoCUv6IDYGZK48yRxWUdi7Vnpgwxe6jegVklP3aQ29OSSPe29V/eNtLWeAe54eAVEQ6B5McBLwQ0neLqKbk8rWKQEtkD9XopvGD7FoEodhSqjDduvnPjsLxIv2kMzmYiQVfRXjM+mJvebhURv2Ft5auFdvNZsv+fVrWc="
-            # Mikaela@travis/freenode:...
-            #password: secure: "KUD79eyo+UO7IHxpuF7lG1SZcvcnMB8Mhy5rRS3SAkidjXrZ2HyZzBOs/ElUecwEjZBKBxxD+sXCdXD4SZo4eDsabXB0ZN9TeyB+SQjfLpaqFRLTNNkqfGBD5XkIkW7VgfhG/67GpIUvg+6rHzsUeqK/7quMfw/I44PTEmQbLmQ="
-            #use_notice: false
-            #skip_join: true
-
-matrix:
-    fast_finish: true
+  - html5validator --root _site/ --blacklist r
 
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+notifications:
+  irc:
+    channels:
+      # To be encrypted if issues arise
+      - "ircs://chat.freenode.net:6697/##Mikaela"
+    # I would prefer to use notifications, but TeleIRC doesn't direct them.
+    use_notice: false
