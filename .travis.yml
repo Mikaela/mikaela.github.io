@@ -13,16 +13,16 @@ rvm: 2.1
 notifications:
     email: false
     # In hope Travis will be more reliable than Notifico...
-    irc:
-        channels:
+    #irc:
+        #channels:
             # Encrypted in case this repo will be forked and Travis
             # enabled for the fork(s).
             # travis encrypt "ircs://vardiera.mikaela.info:1234/##Mikaela" -r Mikaela/mikaela.github.io
-            - secure: "UDwZ1hvnoCUv6IDYGZK48yRxWUdi7Vnpgwxe6jegVklP3aQ29OSSPe29V/eNtLWeAe54eAVEQ6B5McBLwQ0neLqKbk8rWKQEtkD9XopvGD7FoEodhSqjDduvnPjsLxIv2kMzmYiQVfRXjM+mJvebhURv2Ft5auFdvNZsv+fVrWc="
+            #- secure: "UDwZ1hvnoCUv6IDYGZK48yRxWUdi7Vnpgwxe6jegVklP3aQ29OSSPe29V/eNtLWeAe54eAVEQ6B5McBLwQ0neLqKbk8rWKQEtkD9XopvGD7FoEodhSqjDduvnPjsLxIv2kMzmYiQVfRXjM+mJvebhURv2Ft5auFdvNZsv+fVrWc="
             # Mikaela@travis/freenode:...
-            password: secure: "KUD79eyo+UO7IHxpuF7lG1SZcvcnMB8Mhy5rRS3SAkidjXrZ2HyZzBOs/ElUecwEjZBKBxxD+sXCdXD4SZo4eDsabXB0ZN9TeyB+SQjfLpaqFRLTNNkqfGBD5XkIkW7VgfhG/67GpIUvg+6rHzsUeqK/7quMfw/I44PTEmQbLmQ="
-            use_notice: false
-            skip_join: true
+            #password: secure: "KUD79eyo+UO7IHxpuF7lG1SZcvcnMB8Mhy5rRS3SAkidjXrZ2HyZzBOs/ElUecwEjZBKBxxD+sXCdXD4SZo4eDsabXB0ZN9TeyB+SQjfLpaqFRLTNNkqfGBD5XkIkW7VgfhG/67GpIUvg+6rHzsUeqK/7quMfw/I44PTEmQbLmQ="
+            #use_notice: false
+            #skip_join: true
 
 matrix:
     fast_finish: true
