@@ -54,6 +54,8 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
     * "*Everyone you refer gets $10 in credit. Once they’ve accumulated $25
       in billings, you get $25. There is no limit on the amount of credit
       you can earn through referrals.*"
+* [Foodora](https://bnc.lt/YR5e/4zjo1gF4ev)
+    * *Hi, this is 5€ for your first purhace* or something like that.
 * [LastPass](https://lastpass.com/f?884346)
     * "*For every friend that signs up for LastPass, you both get 1 month
       free Premium (up to a limit of 2 years)!*"
