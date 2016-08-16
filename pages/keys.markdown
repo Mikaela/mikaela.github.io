@@ -11,6 +11,9 @@ excerpt: "My public keys, OTR, PGP and how to check them from DNS TXT records of
 This page contains key fingerprints that might interest you if you wish
 to communicate with me securely.
 
+*If you wish to verify these fingerprints without CloudFlare in the middle,
+ [check this page at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
+
 ## Tables
 
 *PGP*
