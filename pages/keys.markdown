@@ -59,12 +59,11 @@ OMEMO instead.
     <tr>
         <td>Joindiaspora</td>
         <td>GT-I9305/Conversations</td>
-        <td>46c8aa40f931e8bd5773f7d10e64a6e5845f79fe48f2d7543df19b9211057a46</td>
-    </tr>
+        <td>46C8AA40 F931E8BD 5773F7D1 0E64A6E5 845F79FE 48F2D754 3DF19B92 11057A46</tr>
     <tr>
         <td>Joindiaspora</td>
         <td>Jolla/Conversations</td>
-        <td>bdc51478af93d61c8890c5e638cb658b3736cdb706309862ff5b48e4e74ab93b</td>
+        <td>BDC51478 AF93D61C 8890C5E6 38CB658B 3736CDB7 06309862 FF5B48E4 E74AB93B</td>
     </tr>
     <tr>
         <td>Joindiaspora</td>
@@ -84,13 +83,12 @@ OMEMO instead.
     <tr>
         <td>Kapsi</td>
         <td>GT-I9305/Conversations</td>
-        <td>36e6c716f099d4172bd06b4bf2cf6bd9e59bdbcfa55b2912a521b39d81c50e53</td>
+        <td>36E6C716 F099D417 2BD06B4B F2CF6BD9 E59BDBCF A55B2912 A521B39D 81C50E53</td>
     </tr>
     <tr>
         <td>Kapsi</td>
         <td>Jolla/Conversations</td>
-        <td>d42beab6bd86c40f4fd66c71de9f7dcc7532970e4a8cbf9d4938c4f99eb46864</td>
-    </tr>
+        <td>D42BEAB6 BD86C40F 4FD66C71 DE9F7DCC 7532970E 4A8CBF9D 4938C4F9 9EB46864</tr>
     <tr>
         <td>Kapsi</td>
         <td>sedric/Gajim</td>
