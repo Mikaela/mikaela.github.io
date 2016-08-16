@@ -67,17 +67,17 @@ OMEMO instead.
     </tr>
     <tr>
         <td>Joindiaspora</td>
-        <td>sedric/gajim</td>
+        <td>Sedric/Gajim</td>
         <td>5BE02080 79C94E5F 15986BE6 F96C2C25 734D5212 2C9F65F2 15DB5CE1 57434B4D</td>
     </tr>
     <tr>
         <td>Joindiaspora</td>
-        <td>zaldaryn/gajim</td>
+        <td>Zaldaryn/Gajim</td>
         <td>16108077 0CF235EA 626955E8 F651E534 A7AC4B98 822879F8 9BFD6685 CA1DCF3A</td>
     </tr>
     <tr>
         <td>Joindiaspora</td>
-        <td>sedric_w10/gajim</td>
+        <td>Sedric_W10/Gajim</td>
         <td>92A42B79 60475A6E 8E5489FE 3B593A39 42F4756E CF4B852C F5C348C8 23F67972</td>
     </tr>
     <tr>
@@ -91,18 +91,18 @@ OMEMO instead.
         <td>D42BEAB6 BD86C40F 4FD66C71 DE9F7DCC 7532970E 4A8CBF9D 4938C4F9 9EB46864</tr>
     <tr>
         <td>Kapsi</td>
-        <td>sedric/Gajim</td>
+        <td>Sedric/Gajim</td>
         <td>506148B5 CC48623E 5F01E7C6 68F08FF5 8BB02D2A DA7449C2 E24F2BC2 0A054F6B</td>
     </tr>
 
     <tr>
         <td>Kapsi</td>
-        <td>zaldaryn/Gajim</td>
+        <td>Zaldaryn/Gajim</td>
         <td>7459B635 5822ABEF DA13120D 3C670691 431D35AB 28C8E69F 952395E1 CD036C43</td>
     </tr>
     <tr>
         <td>Kapsi</td>
-        <td>sedric_w10/Gajim</td>
+        <td>Sedric_W10/Gajim</td>
         <td>9792DD09 4D553A08 32E1C277 4504FC84 283391F9 5E6A98AA 03135AC3 01A8CD23</td>
     </tr>
 </table>
