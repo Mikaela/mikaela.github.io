@@ -2,6 +2,9 @@
 layout: page
 title: Public keys
 permalink: /keys/
+redirect_from:
+  - /omemo.html
+  - /otr.html
 excerpt: "My public keys, OTR, PGP and how to check them from DNS TXT records of my subdomains."
 ---
 
@@ -81,17 +84,3 @@ OMEMO instead.
         <td>506148B5 CC48623E 5F01E7C6 68F08FF5 8BB02D2A DA7449C2 E24F2BC2 0A054F6B</td>
     </tr>
 </table>
-<br/>
-
-## DNS TXT records
-
-These keys can also be confirmed by checking DNS TXT records like below:
-
-```bash
-dig +short otr.mikaela.info TXT
-dig +short omemo.mikaela.info TXT
-dig +short pgp.mikaela.info TXT
-```
-
-*For this to be secure you should run [dnssec-trigger](https://www.nlnetlabs.nl/projects/dnssec-trigger/)
- or DNSSEC-validating resolver on your local device.*
