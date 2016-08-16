@@ -5,7 +5,7 @@ permalink: /keys/
 redirect_from:
   - /omemo.html
   - /otr.html
-excerpt: "My public key fingerprints (OTR, OMEMO PGP) for secure communication with me."
+excerpt: "My public key fingerprints (PGP, OTR & OMEMO) for secure communication with me."
 ---
 
 This page contains key fingerprints that might interest you if you wish
