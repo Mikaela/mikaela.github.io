@@ -5,7 +5,7 @@ permalink: /keys/
 redirect_from:
   - /omemo.html
   - /otr.html
-excerpt: "My public keys, OTR, PGP and how to check them from DNS TXT records of my subdomains."
+excerpt: "My public key fingerprints (OTR, OMEMO PGP) for secure communication with me."
 ---
 
 This page contains key fingerprints that might interest you if you wish
