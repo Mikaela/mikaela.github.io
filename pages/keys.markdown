@@ -59,7 +59,8 @@ OMEMO instead.
     <tr>
         <td>Joindiaspora</td>
         <td>GT-I9305/Conversations</td>
-        <td>46C8AA40 F931E8BD 5773F7D1 0E64A6E5 845F79FE 48F2D754 3DF19B92 11057A46</tr>
+        <td>46C8AA40 F931E8BD 5773F7D1 0E64A6E5 845F79FE 48F2D754 3DF19B92 11057A46</td>
+    </tr>
     <tr>
         <td>Joindiaspora</td>
         <td>Jolla/Conversations</td>
@@ -88,13 +89,13 @@ OMEMO instead.
     <tr>
         <td>Kapsi</td>
         <td>Jolla/Conversations</td>
-        <td>D42BEAB6 BD86C40F 4FD66C71 DE9F7DCC 7532970E 4A8CBF9D 4938C4F9 9EB46864</tr>
+        <td>D42BEAB6 BD86C40F 4FD66C71 DE9F7DCC 7532970E 4A8CBF9D 4938C4F9 9EB46864</td>
+    </tr>
     <tr>
         <td>Kapsi</td>
         <td>Sedric/Gajim</td>
         <td>506148B5 CC48623E 5F01E7C6 68F08FF5 8BB02D2A DA7449C2 E24F2BC2 0A054F6B</td>
     </tr>
-
     <tr>
         <td>Kapsi</td>
         <td>Zaldaryn/Gajim</td>
