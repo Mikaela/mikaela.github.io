@@ -58,8 +58,8 @@ OMEMO instead.
     </tr>
     <tr>
         <td>Joindiaspora</td>
-        <td>GT-I9305/Conversations</td>
-        <td>46C8AA40 F931E8BD 5773F7D1 0E64A6E5 845F79FE 48F2D754 3DF19B92 11057A46</td>
+        <td>ONEPLUS A3003/Conversations</td>
+        <td>F341AD7C B2AC665B 1ACC1F2D E38D45E3 FAB05EA1 547719E7 620DA8EA 6458E91F</td>
     </tr>
     <tr>
         <td>Joindiaspora</td>
@@ -83,8 +83,8 @@ OMEMO instead.
     </tr>
     <tr>
         <td>Kapsi</td>
-        <td>GT-I9305/Conversations</td>
-        <td>36E6C716 F099D417 2BD06B4B F2CF6BD9 E59BDBCF A55B2912 A521B39D 81C50E53</td>
+        <td>ONEPLUS A3003/Conversations</td>
+    <td>373EC2F8 F75D4717 2374B9D6 5D8DAA6E 8F07DF41 52808ABB 59942E92 5F6A8D4F</td>
     </tr>
     <tr>
         <td>Kapsi</td>
