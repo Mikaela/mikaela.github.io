@@ -8,7 +8,9 @@ redirect_from: /telegram.html
 ---
 
 *This should be obvious, but is apparently not as at time of writing I have
- blocked and reported around 30 people for spam.*
+ blocked and reported around 95 people for spam.*
+
+*The number has been last updated on 2016-09-05.*
 
 ## Rules applying to everyone
 
