@@ -46,3 +46,22 @@ redirect_from:
  are always surprised when they hear of this phenomeon...*
 
 * * * * *
+
+<blockquote class="twitter-tweet" data-lang="fi"><p lang="en" dir="ltr"><a href="https://twitter.com/telegram">@telegram</a> Why group foundership cannot be transferred either manually or automatically to some admin?</p>&mdash; Mikaela Suomalainen (@Inaneierase) <a href="https://twitter.com/Inaneierase/status/774572918206558208">10. syyskuuta 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+*There were the two Antergos groups that I had to remove in order to get
+out of that poisonous environment, founder in one peer support group got
+tired and removed the group after it was migrated elsewhere safely and
+Finnish Ingress Cross Faction group was removed by the owner.*
+
+*Atheme would manage this by allowing the founder to make someone else
+founder or if the founder account was removed, moving the founder access to
+whoever was marked as successor or had the highest flags.*
+
+*When someone removes their Telegram accounts, I have understood that the
+groups stay, but everyone who was there at that moment becomes irreversibly
+some kind of admin being able to remove everyone joining after that
+moment.*
+
+* * * * *
