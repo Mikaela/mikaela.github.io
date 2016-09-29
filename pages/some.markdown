@@ -2,7 +2,9 @@
 layout: page
 title: Social media
 permalink: /some/
-redirect_from: /links/
+redirect_from:
+  - /links/
+  - /irc/chat.html
 excerpt: "Links to my SOcial MEdia accounts and other accounts around the internet."
 ---
 
@@ -32,13 +34,11 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 * [Instagram](https://www.instagram.com/mikaelahmsuomalainen/)
 * [Keybase](http://keybase.io/Mikaela)
 * [Launchpad](https://launchpad.net/~mikaela)
-* [LinkedIn](https://fi.linkedin.com/in/ciblia)
-    * See Facebook
 * [Open HUB](https://www.openhub.net/accounts/Mikaela)
 * [Together (Jolla forum)](https://together.jolla.com/users/6732/mikaela/)
 * [Twitter](https://twitter.com/Inaneierase)
-    * Content mostly comes from Facebook
-* [Ubuntu Wiki](https://wiki.ubuntu.com/mikaela)
+* [Ubuntu Wiki](https://wiki.ubuntu.com/mikaela) *that is horribly outdated
+and I should update-*
 
 * * * * *
 
