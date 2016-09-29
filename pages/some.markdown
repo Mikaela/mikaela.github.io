@@ -77,7 +77,9 @@ and I should update-*
 
 * [IRC](/irc)
     * *This one has it's own page on this domain.*
-* [Matrix/Riot](https://matrix.to/#/@ciblia:matrix.org)
+* [Matrix/Riot](https://matrix.to/#/@Ciblia:matrix.org)
+    * *Apparently Matrix is currently case-sensitive and the C must be
+      a capital letter. This page had it wrong for one day.*
     * [Bridged IRC channel](/r/matrixroom)
         * *This is mainly RSS feed reader.*
 * [Messenger](https://m.me/mikaelahmsuomalainen)
