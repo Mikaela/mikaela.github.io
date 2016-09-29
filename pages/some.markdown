@@ -72,3 +72,19 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
       and makes their first order, they get a €5.00 discount and you get
       €5.00 worth in credits. Happy sharing!*"
         * `93O1`
+
+## Contact
+
+* [IRC](/irc)
+    * *This one has it's own page on this domain.*
+* [Matrix/Riot](https://matrix.to/#/@ciblia:matrix.org)
+    * [Bridged IRC channel](https://matrix.to/#/#freenode_##Mikaela:matrix.org)
+        * *This is mainly RSS feed reader.*
+* [Messenger](https://m.me/mikaelahmsuomalainen)
+    * *Even if it's owned by Facebook, here I probably have the highest
+      chance of seeing at least your first message unless you trigger
+      Facebook's spam algorithm. In other protocols I might be more
+      suspicious letting you contact me, but Messenger always shows
+      the first message.*
+* [XMPP](https://xmpp.org/about)
+    * `ciblia@joindiaspora.com`
