@@ -65,3 +65,17 @@ some kind of admin being able to remove everyone joining after that
 moment.*
 
 * * * * *
+
+<blockquote class="twitter-tweet" data-lang="fi"><p lang="en" dir="ltr">Shouldn&#39;t you update your <a href="https://twitter.com/hashtag/changelogs?src=hash">#changelogs</a> always when you release, <a href="https://twitter.com/telegram">@Telegram</a> ? It&#39;s been over month and a few releases since the last update...</p>&mdash; Mikaela Suomalainen (@Inaneierase) <a href="https://twitter.com/Inaneierase/status/779662120724168704">24. syyskuuta 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+* * * * *
+
+<blockquote class="twitter-tweet" data-lang="fi"><p lang="en" dir="ltr">Shouldn&#39;t you update your <a href="https://twitter.com/hashtag/changelogs?src=hash">#changelogs</a> always when you release, <a href="https://twitter.com/telegram">@Telegram</a> ? It&#39;s been over month and a few releases since the last update...</p>&mdash; Mikaela Suomalainen (@Inaneierase) <a href="https://twitter.com/Inaneierase/status/779662120724168704">24. syyskuuta 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+*The last edit on this page happened on 2016-09-29T15:47+0300 unless they
+ bother replying in which case I probably won't update this text which
+ I wrote before any replies. If you see Telegram reply below my text, 
+ have updated this. I don't think I will get a reply based on their
+ earlier replying activity...*
