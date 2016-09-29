@@ -78,7 +78,7 @@ and I should update-*
 * [IRC](/irc)
     * *This one has it's own page on this domain.*
 * [Matrix/Riot](https://matrix.to/#/@ciblia:matrix.org)
-    * [Bridged IRC channel](https://matrix.to/#/#freenode_##Mikaela:matrix.org)
+    * [Bridged IRC channel](/r/matrixroom)
         * *This is mainly RSS feed reader.*
 * [Messenger](https://m.me/mikaelahmsuomalainen)
     * *Even if it's owned by Facebook, here I probably have the highest
