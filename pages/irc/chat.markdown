@@ -24,7 +24,6 @@ channel (in order to reduce spam).
 * [Freenode FAQ: user registration](https://freenode.net/faq.shtml#userregistration)
 * [Freenode: automatic identification (SASL)](https://freenode.net/sasl)
   Kiwi users: `I have a password` and type the password.
-* [Telegram invite link (there is a bot bridging IRC & Telegram)](https://telegram.me/joinchat/Cc6XLD5gkdODzM4UdNdrvw)
 
 <iframe src="https://kiwiirc.com/client?settings=371cbadad7d7d75d5c73855f8ae4395d" style="border:0; width:100%; height:450px;"></iframe>
 
