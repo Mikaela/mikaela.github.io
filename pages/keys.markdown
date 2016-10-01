@@ -107,3 +107,27 @@ OMEMO instead.
         <td>9792DD09 4D553A08 32E1C277 4504FC84 283391F9 5E6A98AA 03135AC3 01A8CD23</td>
     </tr>
 </table>
+<br/>
+
+*Kontalk*
+
+I think it's currently using OpenPGP and if I notice that changing to
+OMEMO, I will be updating this. It's probably enough special to have it's
+own table as it tries to challenge WhatsApp and Signal working the same
+way even if it's basically just another XMPP client.
+
+<table>
+    <tr>
+        <th>Device</th>
+        <th>Fingerprint</th>
+    </tr>
+    <tr>
+        <td>OnePlus3</td>
+        <td>⁠⁠⁠573E E59C F865 7476 6618 769C 5DB5 4E7B 20D3 2D41</td>
+    </tr>
+    <tr>
+        <td>Jolla</td>
+        <td>⁠⁠6D32 FF74 A1AC 87AE 37 5129 E0BA 21B0 E071 F352</td>
+    </tr>
+</table>
+<br/>
