@@ -11,7 +11,7 @@ redirect_from: /whytelegram.html
 *I get often asked why do I use Telegram even if it's known to have bad
  crypto. The answer is that crypto doesn't always matter.*
 
-***[Please read why I removed my Telegram account!]({% post_url 2016-09-29-why-not-telegram %}***
+***[Please read why I removed my Telegram account!]({% post_url 2016-09-29-why-not-telegram %})***
 
 The main reason is usernames, I can take one and share it to people for
 them to contact me instead of giving my phone number to everyone. This
