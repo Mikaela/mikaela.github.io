@@ -54,9 +54,10 @@ became suicidal and depressed. I was diagnosed with AS which didn't so
 much, but finally I came to realization on who I am and started the
 progress to be recognized as myself.
 
-As the progress is too slow in Finland I ended up starting HRT by myself
-(like many (if not most) of us here do) and was on it for year before
-getting diagnosed and getting HRT officially.
+As the progress is too slow in Finland I ended up starting HRT 
+([Hormone Replacement Therapy](https://en.wikipedia.org/wiki/Hormone_replacement_therapy))
+by myself (like many (if not most) of us here do) and was on it for year
+before getting diagnosed and getting HRT officially.
 
 Many people have said that I am nowadays happier and smile more and other
 things like that and I know this is who I am.
