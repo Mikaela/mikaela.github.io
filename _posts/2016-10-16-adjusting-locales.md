@@ -4,6 +4,9 @@ comments: true
 title: "Note to self: adjusting locales & why"
 category: [english]
 tags: [english, linux, locale]
+redirect_from:
+  - /locale.html
+  - /locales.html
 ---
 
 *I have started using my devices in en_GB, but on PCs that can have issues
