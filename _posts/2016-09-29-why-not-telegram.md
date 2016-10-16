@@ -63,8 +63,8 @@ some thinking and I won't be updating this page.
 * * * * *
 
 I almost forgot, you can remove your Telegram account at
-https://telegram.org/deactivate . You are asked your phone number in
-international format and then security code sent to *Telegram* and you
-are asked for optional feedback before leaving and final confirmation. When
-you confirm, you are logged out of all Telegram clients and your account
-is gone. However your groups stay as ghosts.
+[Telegram.org/deactivate](https://telegram.org/deactivate) . You are asked
+your phone number in international format and then security code sent t
+*Telegram* and you are asked for optional feedback before leaving and
+final confirmation. When you confirm, you are logged out of all Telegram
+clients and your account is gone. However your groups stay as ghosts.
