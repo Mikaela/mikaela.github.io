@@ -28,7 +28,8 @@ services packages. More about that:
 
 PLAIN is simple "login using username and password" mechanism that sends
 the username and password in plaintext which isn't an issue if you also use
-SSL like you should.
+SSL (like you should) and trust the server (and
+**use different password everywhere**).
 
 Then simply set your username and password
 
