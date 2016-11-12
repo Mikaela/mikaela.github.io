@@ -13,7 +13,7 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 
 * [Bitbucket](http://bitbucket.org/Ciblia)
     * very silent, I am more active with GitHub…
-* [Diaspora](https://joindiaspora.con/u/ciblia)
+* [Diaspora](https://joindiaspora.com/u/ciblia)
     * `ciblia@joindiaspora.com`, but I have no idea how active I will be.
       * *[invite link](https://joindiaspora.com/i/0d50c7e1cbed)*
 * [Facebook](https://facebook.com/mikaelahmsuomalainen)
