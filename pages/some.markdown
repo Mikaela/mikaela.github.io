@@ -56,7 +56,7 @@ and I should update-*
       you can earn through referrals.*"
 * [Foodora](https://bnc.lt/YR5e/4zjo1gF4ev)
     * *Hi, this is 5€ for your first purhace* or something like that.
-* [LastPass](https://lastpass.com/f?884346)
+* [LastPass](https://lastpass.eu/f?884346)
     * "*For every friend that signs up for LastPass, you both get 1 month
       free Premium (up to a limit of 2 years)!*"
 * [Uber](https://www.uber.com/invite/mikaelas351ue)
