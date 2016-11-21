@@ -5,7 +5,7 @@ permalink: /keys/
 redirect_from:
   - /omemo.html
   - /otr.html
-excerpt: "My public key fingerprints (PGP, OTR & OMEMO) for secure communication with me."
+excerpt: "My public key fingerprints (that I think can be put here, if I am missing something, tell me) for secure communication with me."
 ---
 
 This page contains key fingerprints that might interest you if you wish
@@ -14,9 +14,7 @@ to communicate with me securely.
 *If you wish to verify these fingerprints without CloudFlare in the middle,
  [check this page at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
 
-## Tables
-
-*PGP*
+## PGP
 
 <table>
     <tr>
@@ -26,8 +24,8 @@ to communicate with me securely.
         <td>2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</td>
     </tr>
 </table>
-<br/>
-*OTR*
+
+## OTR
 
 OTR is impossible with three clients fighting for the messages, so I only
 support it with IRC (which currently has no other *good* choice *and* where
@@ -48,7 +46,7 @@ OMEMO instead.
 
 <br/>
 
-*OMEMO*
+## OMEMO
 
 <table>
     <tr>
@@ -107,9 +105,8 @@ OMEMO instead.
         <td>9792DD09 4D553A08 32E1C277 4504FC84 283391F9 5E6A98AA 03135AC3 01A8CD23</td>
     </tr>
 </table>
-<br/>
 
-*Kontalk*
+## Kontalk
 
 I think it's currently using OpenPGP and if I notice that changing to
 OMEMO, I will be updating this. It's probably enough special to have it's
@@ -130,4 +127,37 @@ way even if it's basically just another XMPP client.
         <td>⁠⁠6D32 FF74 A1AC 87AE 37 5129 E0BA 21B0 E071 F352</td>
     </tr>
 </table>
-<br/>
+
+## Wire
+
+I have understood that Wire fingerprints don't change by
+themselves and aren't tied to specific chat (unlike WhatsApp,
+Signal & co), so I think I can list them here, but if that
+proves to not be the case, Wire will get removed from here.
+
+<table>
+    <tr>
+        <th>Device</th>
+        <th>Fingerprint</th>
+    </tr>
+    <tr>
+        <td>OnePlus3</td>
+        <td>⁠⁠⁠62 97 5a d8 2b 54 80 34 47 2d 80 65 19 a0 e0 77<br/>
+            45 38 1c 52 c8 6e 62 d9 23 cb 86 87 9d e5 6c d6</td>
+    </tr>
+    <tr>
+        <td>Sedric Arch</td>
+        <td>⁠⁠b8 ef cb c4 55 9c de 0f c2 83 53 87 23 8e 95 15<br/>
+            74 ad 1e 0e e3 90 72 c4 91 b9 e8 46 59 86 12 14</td>
+    </tr>
+    <tr>
+        <td>Sedric Windows</td>
+        <td>⁠ac d5 bc 4f 52 8b b9 f2 78 c6 eb e1 86 d5 d4 37<br/>
+            e4 61 a3 b6 ac 81 94 93 35 22 93 46 f1 5b 27 d3</td>
+    </tr>
+    <tr>
+        <td>Zaldaryn</td>
+        <td>⁠⁠40 68 e5 4e ac 99 50 09 49 1f 70 14 ae bf 53 5d<br/>
+            52 fa f8 82 51 a8 3a fc a5 82 ab 04 c7 f1 01 da</td>
+    </tr>
+</table>
