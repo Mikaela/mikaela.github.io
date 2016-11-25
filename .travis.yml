@@ -8,8 +8,9 @@ python:
 
 # install Java 8 as required by vnu.jar
 before_install:
- - sudo apt-get update
- - sudo apt-get install oracle-java8-installer
+ - sudo rm /etc/profile.d/jdk.sh
+ - sudo apt-get -y update
+ - sudo apt-get -y install oracle-java8-installer
  - sudo update-java-alternatives -s java-8-oracle
  - gem install github-pages
 
@@ -29,5 +30,4 @@ notifications:
     channels:
       # To be encrypted if issues arise
       - "ircs://chat.freenode.net:6697/##Mikaela"
-    # I would prefer to use notifications, but TeleIRC doesn't direct them.
-    use_notice: false
+    use_notice: true
