@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="https://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg">
-  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} ~~ {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | nstrip_html | strip_newlines }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -17,12 +17,12 @@
  <!-- Twitter card -->
  <meta name="twitter:card" content="summary" />
  <meta name="twitter:site" content="@Inaneierase" />
- <meta name="twitter:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+ <meta name="twitter:title" content="{% if page.title %}{{ page.title }} ~~ {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | nstrip_html | strip_newlines }}{% endif %}" />
  <meta name="twitter:image" content="https://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg"/>
  <!-- Facebook -->
  <meta property="fb:app_id" content="1550553165222890" />
- <meta name="og:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+ <meta name="og:title" content="{% if page.title %}{{ page.title }} ~~ {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
  <meta name="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | nstrip_html | strip_newlines }}{% endif %}" />
  <meta name="og:site_name" content="MikaeladDotInfo" />
  <meta name="og:image" content="https://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg"/>
