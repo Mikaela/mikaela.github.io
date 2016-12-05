@@ -80,43 +80,31 @@ while I speak. Same applies to understanding your speaking.
 
 *This paragraph is stub -.-*
 
-## Ace
+## Ace & Relationship Anarchist
 
-I am demiromantic asexual. That means that I
+*I am asexual and possibly relationship anarchist, but it will be seen*
 
-* can feel romantic attraction when I have formed close emotional bond
-  with someone regardless of gender.
-* don't feel sexual attraction.
-* can feel aesthetic attraction though.
+I used to define myself as poly-curios (not sure if poly or not) and
+demiromantic (the ace of diamonds playing card is their symbol shared by
+demisexuals) which means only forming romantic attraction after forming
+close emotional bond with the person
 
-The Ace of Diamonds (🃁) that you can see in my biography means *demiromantic asexual* or *demisexual*. Ace is asexual slang and means asexual
-*(surprise!)* and the playing cards have been adopted into different
-orientations.
+At some point I started wondering does touching and caring have to be
+limited into relationship and found 
+[Romantic Asexual, or Touch Hunger?](https://abnormaldiversity.blogspot.fi/2012/12/romantic-asexual-or-touch-hunger.html?) which made sense and made
+me think that there is no romanticity, just sensuality and in the bottom
+relationship anarchy. As what is the difference between friend and partner,
+what prevents you from (consentually) cuddling or having sex with friends?
+What prevents you from loving your friends and is loving so different from
+liking and don't you sometimes use the words interchangeably? What prevents
+you from doing all the things you wish to do with your partner with some
+friend? What if love comes after you stop for especially looking for one
+or multiple people to call as partner(s)?
 
-*I feel I should type something more here, but I have no idea what...*
+*I am not so sure about this as I might seem in typing this, but what will
+happen will be seen when it happens.*
 
-## Poly-curious
-
-*This part will get renamed and rewritten when I find out which I am if
- ever and this doesn't read on the short bio as I consider it as irrelevant
- there. People are more likely to seek for trans/aspie/ace people than
- poly for some sort of peer support.*
-
-I might be poly, but I am not sure. If I am, that means that I can have
-multiple partners and that is some sort of requirement of asexuality as
-relationships between asexual and allosexual (person who feels at least
-average level of sexual attraction) are doomed to fail unless at least the
-allosexual is poly and can satisfy their sexual desires elsewhere.
-
-I think that if I am poly, the most suitable relationship type is possibly
-open relationship.
-
-Further reading:
-* [Polyamory at Wikipedia](https://en.wikipedia.org/wiki/Polyamory)
-* [Open relationship at Wikipedia](https://en.wikipedia.org/wiki/Open_relationship)
-* [More Than Two](https://www.morethantwo.com/)
-
-*Does this page have worse section?*
+* [Relationship anarcy at Wikipedia](https://en.wikipedia.org/wiki/Relationship_anarchy)
 
 ## Feminist
 
