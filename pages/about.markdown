@@ -80,9 +80,13 @@ while I speak. Same applies to understanding your speaking.
 
 *This paragraph is stub -.-*
 
+* [How to understand Autism at Wikihow](http://www.wikihow.com/Understand-Autism)
+    * Might apply more to children, but it's a feature so one won't simply
+      get healed from it.
+
 ## Ace & Relationship Anarchist
 
-*I am asexual and possibly relationship anarchist, but it will be seen*
+*I am asexual and possibly relationship anarchist, but it will be seen...*
 
 I used to define myself as poly-curios (not sure if poly or not) and
 demiromantic (the ace of diamonds playing card is their symbol shared by
