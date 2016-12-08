@@ -88,10 +88,10 @@ while I speak. Same applies to understanding your speaking.
 
 *I am asexual and possibly relationship anarchist, but it will be seen...*
 
-I used to define myself as poly-curios (not sure if poly or not) and
-demiromantic (the ace of diamonds playing card is their symbol shared by
-demisexuals) which means only forming romantic attraction after forming
-close emotional bond with the person
+I used to define myself as poly-curiuos (wondering if I am poly (capable of having simultaneous close romantic relationships with two or more people)
+or not) and demiromantic (the ace of diamonds playing card is their symbol
+shared by demisexuals) which means only forming romantic attraction after
+forming close emotional bond with the person
 
 At some point I started wondering does touching and caring have to be
 limited into relationship and found 
