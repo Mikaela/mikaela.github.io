@@ -43,7 +43,7 @@ thus I don't think it should be on this page, so it's commented.
 
 -->
 
-## GirlsLikeUs — I am trans woman
+## GirlsLikeUs — I am a trans woman
 
 It simply means that I was incorrectly defined as boy at birth which I
 never was. I didn't always know it, but around 14-15 Dysphoria really hit
@@ -67,6 +67,8 @@ gender can be female, but you are always biologically male" and it has
 been noted multiple times that gender is biological.
 *[GRSM links](/links2)*
 
+* [How to respect a Transgender person at WikiHow](http://www.wikihow.com/Respect-a-Transgender-Person)
+
 *I feel this part doesn't transmit how being trans feels and some things
 should possibly be mentioned here...*
 
@@ -80,7 +82,7 @@ while I speak. Same applies to understanding your speaking.
 
 *This paragraph is stub -.-*
 
-* [How to understand Autism at Wikihow](http://www.wikihow.com/Understand-Autism)
+* [How to understand Autism at WikiHow](http://www.wikihow.com/Understand-Autism)
     * Might apply more to children, but it's a feature so one won't simply
       get healed from it.
 
@@ -109,6 +111,7 @@ or multiple people to call as partner(s)?
 happen will be seen when it happens.*
 
 * [Relationship anarcy at Wikipedia](https://en.wikipedia.org/wiki/Relationship_anarchy)
+* [How to understand asexual people at WikiHow](http://www.wikihow.com/Understand-Asexual-People)
 
 ## Feminist
 
