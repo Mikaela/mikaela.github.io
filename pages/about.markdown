@@ -18,31 +18,6 @@ overlap with different features.
 
 *For more material about these things, please see [GRSM links](/links2).*
 
-<!--
-
-## TL;DR
-
-I am a [trans woman] (and I have a [penis]). I am also [asexual] (which
-means that I am not interested in sex with anyone) and aspie (which means
-that I have [Asperger's syndrome].
-
-[trans woman]:https://en.wikipedia.org/wiki/Trans_woman
-[penis]:https://en.wikipedia.org/wiki/Penis#Humans
-[asexual]:https://en.wikipedia.org/wiki/Asexuality
-[Asperger's syndrome]:https://en.wikipedia.org/wiki/Asperger_syndrome
-
-Another thing is that I am [poly]-curious, so I might be [poly], but I
-don't know yet, so all [relationships should be open]. If it turns out
-that I am not [poly], I will just break up.
-
-[poly]:https://en.wikipedia.org/wiki/Polyamory
-[relationships should be open]:https://en.wikipedia.org/wiki/Open_relationship
-
-*If this looks familiar, it's improved version of my old OKC profile and
-thus I don't think it should be on this page, so it's commented.
-
--->
-
 ## GirlsLikeUs — I am a trans woman
 
 It simply means that I was incorrectly defined as boy at birth which I
