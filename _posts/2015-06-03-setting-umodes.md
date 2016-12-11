@@ -18,21 +18,28 @@ an example.*
 ## Automatic umodes
 
 Umodes aren't remembered across connections so you must configure your
-client to (un)set them automatically.
+client to (un)set them automatically. **Your umodes won't be change this
+way until you reconnect!**
 
 *These examples use the umodes that I am using at the time of writing.*
 
 * HexChat: Open network list, select network and click `edit`, open tab
   `Connect commands`, click `add` and type `umode -iI+wRQxg`.
 * WeeChat
-    * now: `/set irc.server_default.command /mode $nick -iI+wRQxg`
-    * [future?](https://github.com/weechat/weechat/issues/377) *write this
-      if the future happens.*
-* ZNC: `/msg *status loadmod perform` and
-  `/msg *perform add mode %nick% -iI+wRQxg`
-    * The same can also be done in webadmin and if you load perform for
-      user level, adding the command `mode %nick% -iI+wRQxg` will set
-      umode -iI+wrqXG on all networks.
+    * Old way: `/set irc.server_default.command /mode $nick -iI+wRQxg`
+    * Modern way (1.7+): `/set irc.server_default.usermode -iI+wRQxg`
+    * *For setting umodes only for one network instead of them all
+      replace server_default with server.name, e.g.*
+        * `/set irc.server.freenode.usermode -iI+wRQxg`
+* ZNC:
+    * Traditional way: `/msg *status loadmod perform` and
+      `/msg *perform add mode %nick% -iI+wRQxg`
+        * The same can also be done in webadmin and if you load perform for
+          user level, adding the command `mode %nick% -iI+wRQxg` will set
+          umode -iI+wrqXG on all networks.
+        * The modes will apply to all networks if you load it on user
+          level or only the invidual network on network level.
+    * Modern way: [ZNC issue #1221](https://github.com/znc/znc/issues/1221)
 
 ### And what these umodes mean
 
@@ -51,7 +58,7 @@ For what the actual umodes are on your network, try `/quote help umode` or
 * R — block PMs from unidentified users (who tend to be spambots and if
   they aren't, they can identify to services).
 * Q — block channel redirects on Charybdis (mode +f or banforward).
-* x — activates IRCd based uncloaking even if it's [not that reliable](https://gist.github.com/maxteufel/1e2cf7ada079c271bd3c)
+* x — activates IRCd based uncloaking even if it's [not that reliable.](https://gist.github.com/maxteufel/1e2cf7ada079c271bd3c)
 * g — caller-id, people must be `/accepted` or PMed before they can PM you.
   More detailed post about that [here]({% post_url 2015-04-02-umodeg %})
   and [part 2 here]({% post_url 2015-05-10-umodeg2 %}).
