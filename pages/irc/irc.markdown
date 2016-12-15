@@ -1,6 +1,7 @@
 ---
 layout: page
 title: IRC
+navigation: true
 permalink: /irc/
 excerpt: "Where do you find me at IRC and verify that it's me. Also includes my IRC related posts that are hopefully helpful and my policy on joining personal channels of other people (e.g. ##channels at freenode)."
 ---

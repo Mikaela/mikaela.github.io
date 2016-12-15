@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Social media
+navigation: true
 permalink: /some/
 redirect_from:
   - /links/

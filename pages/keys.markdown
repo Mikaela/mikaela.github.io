@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Public keys
+navigation: true
 permalink: /keys/
 redirect_from:
   - /omemo.html
