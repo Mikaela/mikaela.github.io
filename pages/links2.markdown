@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Rainbowy links
 permalink: /links2/
 excerpt: "Some kind of linklist on some minorities"
 sitemap: false
@@ -8,6 +9,8 @@ sitemap: false
 *This page has some kind of link list on minorities which mostly somehow
 affect me and is probably always under construction. The order is somewhat
 random and [improvements are welcome here.](https://github.com/Mikaela/mikaela.github.io/edit/master/pages/links2.markdown)*
+
+*This page is also in need of attention.*
 
 ## In English
 

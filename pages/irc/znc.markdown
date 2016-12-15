@@ -1,5 +1,6 @@
 ---
 layout: page
+title: The ZNC instance which I am running
 permalink: /irc/znc.html
 excerpt: "WIP - details on ZNC on my VPS"
 sitemap: false

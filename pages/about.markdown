@@ -1,4 +1,5 @@
 ---
+title: About me
 layout: page
 permalink: /about.html
 excerpt: "A little about me on transness, Asperger's syndrome/autism, feminism, asexuality & using Linux."

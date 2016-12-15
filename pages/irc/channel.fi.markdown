@@ -1,5 +1,6 @@
 ---
 layout: page
+title: IRC-kanavien ja muiden sellaisten säännöt
 permalink: /irc/channel.fi.html
 sitemap: false
 excerpt: "IRC-kanavieni säännöt. Lyhyesti: Käytä maalaisjärkeä, ole kiva, ei syrjintää, ei julkisia lokeja, älä tuo botteja ilman lupaa. Kiitos ♥"
