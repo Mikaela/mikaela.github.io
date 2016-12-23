@@ -41,9 +41,52 @@ way even if it's basically just another XMPP client.
     </tr>
 </table>
 
+
 ## Matrix
 
-*Coming soon...*
+<table>
+    <tr>
+        <th>name</th>
+        <th>ID</th>
+        <th>key</th>
+    </tr>
+    <tr>
+        <td>Phone#1</td>
+        <td>QHBQGFWLDB</td>
+        <td>9+HDA0PNl6L1Orm34hOXdccis9oYoxxp0gJAmVKORQ8</td>
+    </tr>
+    <tr>
+        <td>Phone#2</td>
+        <td><em>Not in use currently</em></td>
+        <td><em>Not in use currently</em></td>
+    </tr>
+    <tr>
+        <td>Rbtpzn (riot-web)</td>
+        <td>PHKMAHOITL</td>
+        <td>Dx4uVBhBL9v3ZZ4zZAx7Fb8epmf/tCmQ0xLASkUMSro</td>
+    </tr>
+    <tr>
+        <td>Sedric_Arch (staging/nativefier)</td>
+        <td>YPDXTLVVUI</td>
+        <td>hMQHJRVXS9EB5pOFtzRJ/2bnsSmlh5r9k8RZZBAuPX8</td>
+    </tr>
+    <tr>
+        <td>Sedric_Windows (staging/nativefier)</td>
+        <td>CDAGCOTJTF</td>
+        <td>Y+Dg6V3o8YcRWtwReua+YohYE18JgEsrZVyEPajte80</td>
+    </tr>
+    <tr>
+        <td>Terasar (staging/nativefier)</td>
+        <td><em>Currently unavailable for checking fingerprint...</em></td>
+        <td><em>Currently unavailable for checking fingerprint...</em></td>
+    </tr>
+    <tr>
+        <td>Zaldaryn (staging/nativefier)</td>
+        <td>NVNFLHNRML</td>
+        <td>Pc8nUTl79IBcVwpc5x8XWw6C2N0kfuEAmTHTfXFkAt4</td>
+    </tr>
+</table>
+
 
 ## OMEMO/XMPP
 
@@ -105,6 +148,7 @@ way even if it's basically just another XMPP client.
     </tr>
 </table>
 
+
 ## OTR
 
 OTR is impossible with three clients fighting for the messages, so I only
@@ -124,6 +168,7 @@ OMEMO instead.
     </tr>
 </table>
 
+
 ## PGP
 
 <table>
@@ -134,6 +179,7 @@ OMEMO instead.
         <td>2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</td>
     </tr>
 </table>
+
 
 ## Wire
 
