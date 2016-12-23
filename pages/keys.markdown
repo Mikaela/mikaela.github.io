@@ -4,8 +4,12 @@ title: Public keys
 navigation: true
 permalink: /keys/
 redirect_from:
+  - /kontalk.html
+  - /matrix.html
   - /omemo.html
   - /otr.html
+  - /pgp.html
+  - /wire.html
 excerpt: "My public key fingerprints (that I think can be put here, if I am missing something, tell me) for secure communication with me."
 ---
 
@@ -15,39 +19,33 @@ to communicate with me securely.
 *If you wish to verify these fingerprints without CloudFlare in the middle,
  [check this page at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
 
-## PGP
+## Kontalk
+
+I think it's currently using OpenPGP and if I notice that changing to
+OMEMO, I will be updating this. It's probably enough special to have it's
+own table as it tries to challenge WhatsApp and Signal working the same
+way even if it's basically just another XMPP client.
 
 <table>
     <tr>
-        <th>PGP Fingerprint</th>
+        <th>Device</th>
+        <th>Fingerprint</th>
     </tr>
     <tr>
-        <td>2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</td>
+        <td>OnePlus3</td>
+        <td>⁠⁠⁠573E E59C F865 7476 6618 769C 5DB5 4E7B 20D3 2D41</td>
+    </tr>
+    <tr>
+        <td>Jolla</td>
+        <td><em>Not in use, but I have no idea how to remove account</em></td>
     </tr>
 </table>
 
-## OTR
+## Matrix
 
-OTR is impossible with three clients fighting for the messages, so I only
-support it with IRC (which currently has no other *good* choice *and* where
-I have only single client (WeeChat) which my phone also connects to) and
-even if some of the XMPP clients talks it, I would appreciate you using
-OMEMO instead.
+*Coming soon...*
 
-<table>
-    <tr>
-        <th>Account</th>
-        <th>OTR Fingerprint</th>
-    </tr>
-    <tr>
-        <td>IRC</td>
-        <td>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</td>
-    </tr>
-</table>
-
-<br/>
-
-## OMEMO
+## OMEMO/XMPP
 
 <table>
     <tr>
@@ -107,25 +105,33 @@ OMEMO instead.
     </tr>
 </table>
 
-## Kontalk
+## OTR
 
-I think it's currently using OpenPGP and if I notice that changing to
-OMEMO, I will be updating this. It's probably enough special to have it's
-own table as it tries to challenge WhatsApp and Signal working the same
-way even if it's basically just another XMPP client.
+OTR is impossible with three clients fighting for the messages, so I only
+support it with IRC (which currently has no other *good* choice *and* where
+I have only single client (WeeChat) which my phone also connects to) and
+even if some of the XMPP clients talks it, I would appreciate you using
+OMEMO instead.
 
 <table>
     <tr>
-        <th>Device</th>
-        <th>Fingerprint</th>
+        <th>Account</th>
+        <th>OTR Fingerprint</th>
     </tr>
     <tr>
-        <td>OnePlus3</td>
-        <td>⁠⁠⁠573E E59C F865 7476 6618 769C 5DB5 4E7B 20D3 2D41</td>
+        <td>IRC</td>
+        <td>DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D</td>
+    </tr>
+</table>
+
+## PGP
+
+<table>
+    <tr>
+        <th>PGP Fingerprint</th>
     </tr>
     <tr>
-        <td>Jolla</td>
-        <td>⁠⁠6D32 FF74 A1AC 87AE 37 5129 E0BA 21B0 E071 F352</td>
+        <td>2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</td>
     </tr>
 </table>
 
