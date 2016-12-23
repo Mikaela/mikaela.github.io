@@ -57,8 +57,8 @@ way even if it's basically just another XMPP client.
     </tr>
     <tr>
         <td>Phone#2</td>
-        <td><em>Not in use currently</em></td>
-        <td><em>Not in use currently</em></td>
+        <td>QRCVQFSTDB</td>
+        <td>1hKNJtKpv/S1ceqY4xqiJkiNf5pid7nDw4oi1aUYA40</td>
     </tr>
     <tr>
         <td>Rbtpzn (riot-web)</td>
