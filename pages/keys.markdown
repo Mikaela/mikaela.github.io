@@ -4,7 +4,6 @@ title: Public keys
 navigation: true
 permalink: /keys/
 redirect_from:
-  - /kontalk.html
   - /matrix.html
   - /omemo.html
   - /otr.html
@@ -18,29 +17,6 @@ to communicate with me securely.
 
 *If you wish to verify these fingerprints without CloudFlare in the middle,
  [check this page at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
-
-## Kontalk
-
-I think it's currently using OpenPGP and if I notice that changing to
-OMEMO, I will be updating this. It's probably enough special to have it's
-own table as it tries to challenge WhatsApp and Signal working the same
-way even if it's basically just another XMPP client.
-
-<table>
-    <tr>
-        <th>Device</th>
-        <th>Fingerprint</th>
-    </tr>
-    <tr>
-        <td>OnePlus3</td>
-        <td>⁠⁠⁠573E E59C F865 7476 6618 769C 5DB5 4E7B 20D3 2D41</td>
-    </tr>
-    <tr>
-        <td>Jolla</td>
-        <td><em>Not in use, but I have no idea how to remove account</em></td>
-    </tr>
-</table>
-
 
 ## Matrix
 
@@ -103,11 +79,6 @@ way even if it's basically just another XMPP client.
     </tr>
     <tr>
         <td>Joindiaspora</td>
-        <td>Jolla/Conversations</td>
-        <td>BDC51478 AF93D61C 8890C5E6 38CB658B 3736CDB7 06309862 FF5B48E4 E74AB93B</td>
-    </tr>
-    <tr>
-        <td>Joindiaspora</td>
         <td>Sedric/Gajim</td>
         <td>5BE02080 79C94E5F 15986BE6 F96C2C25 734D5212 2C9F65F2 15DB5CE1 57434B4D</td>
     </tr>
@@ -125,11 +96,6 @@ way even if it's basically just another XMPP client.
         <td>Kapsi</td>
         <td>ONEPLUS A3003/Conversations</td>
     <td>373EC2F8 F75D4717 2374B9D6 5D8DAA6E 8F07DF41 52808ABB 59942E92 5F6A8D4F</td>
-    </tr>
-    <tr>
-        <td>Kapsi</td>
-        <td>Jolla/Conversations</td>
-        <td>D42BEAB6 BD86C40F 4FD66C71 DE9F7DCC 7532970E 4A8CBF9D 4938C4F9 9EB46864</td>
     </tr>
     <tr>
         <td>Kapsi</td>
