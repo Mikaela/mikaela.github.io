@@ -42,19 +42,19 @@ to communicate with me securely.
         <td>Dx4uVBhBL9v3ZZ4zZAx7Fb8epmf/tCmQ0xLASkUMSro</td>
     </tr>
     <tr>
-        <td>Sedric_Arch (staging/nativefier)</td>
-        <td>YPDXTLVVUI</td>
-        <td>hMQHJRVXS9EB5pOFtzRJ/2bnsSmlh5r9k8RZZBAuPX8</td>
+        <td>Sedric_Arch (riot-web)</td>
+        <td>CFZDICQFIU</td>
+        <td>DEOnYtRLYTwK/e47Z0vJUv+b1B7U6qrrIrEy0bJ/Pmo</td>
     </tr>
     <tr>
-        <td>Sedric_Windows (staging/nativefier)</td>
-        <td>CDAGCOTJTF</td>
-        <td>Y+Dg6V3o8YcRWtwReua+YohYE18JgEsrZVyEPajte80</td>
+        <td>Sedric_Windows (riot-web)</td>
+        <td>KGPNUZOCFJ</td>
+        <td>pE2hYRW6lJXD7QZDTz4AfQrHl3Xdf5vC7jf6Wlyrbt8</td>
     </tr>
     <tr>
-        <td>Terasar (staging/nativefier)</td>
-        <td><em>Currently unavailable for checking fingerprint...</em></td>
-        <td><em>Currently unavailable for checking fingerprint...</em></td>
+        <td>Terasar (riot-web)</td>
+        <td>LSNGCKDHOX</td>
+        <td>Iww9rg9iVvdSKfLqajuB+nJAN1nWHh6BEebDrx5og+Q</td>
     </tr>
     <tr>
         <td>Zaldaryn (staging/nativefier)</td>
