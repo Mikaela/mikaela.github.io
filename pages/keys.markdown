@@ -43,8 +43,8 @@ to communicate with me securely.
     </tr>
     <tr>
         <td>Sedric_Arch (riot-web)</td>
-        <td>NIEBSLDPOZ</td>
-        <td>ZxZfDZl9qw4ahN3TRBZc66ayXwZZNxMEaqH08I3777M</td>
+        <td>KROYWETYVY</td>
+        <td>ziXjbKcdh5G9lNuhJIqnudJWVTtQkr86Qs</td>
     </tr>
     <tr>
         <td>Sedric_Windows (riot-web)</td>
