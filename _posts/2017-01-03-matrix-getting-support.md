@@ -25,7 +25,7 @@ to replace this in the future.
 
 The main Matrix room is `#matrix:matrix.org`, but it's a little busy and
 it can be easier to ask in more specific room where you are often directed
-to. It's bridged to `#matrix-irc` at freenode.
+to. It's bridged to `#matrix` at freenode.
 
 ## Clients
 
