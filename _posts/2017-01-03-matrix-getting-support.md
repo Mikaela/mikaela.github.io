@@ -47,6 +47,12 @@ Other rooms exist for other clients:
     * Not to be confused with `#freenode_#weechat:matrix.org` which is
       for the WeeChat IRC client itself.
 
+And while they are not clients, I think they should be mentioned:
+
+* `#e2e:matrix.org` for End-to-end crypto in Matrix
+* `#megolm:matrix.org` for end-to-end-encryption test
+    * Main address not set, so I am using the matrix.org one.
+
 ## Bridges & Integrations
 
 Room for 3rd party network bridging in general is `#bridges:matrix.org`
