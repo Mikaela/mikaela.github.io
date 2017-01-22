@@ -44,7 +44,7 @@ to communicate with me securely.
     <tr>
         <td>Sedric_Arch (riot-web)</td>
         <td>KROYWETYVY</td>
-        <td>ziXjbKcdh5G9lNuhJIqnudJWVTtQkr86Qs</td>
+        <td>ziXjbKcdh5G9lNuhJIqnudJWVTtQkr86Qs/ro4JttdU</td>
     </tr>
     <tr>
         <td>Sedric_Windows (riot-web)</td>
