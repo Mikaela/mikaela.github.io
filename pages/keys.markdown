@@ -20,7 +20,6 @@ to communicate with me securely.
 
 ## Matrix
 
-
 ### Disroot.org
 
 <table>
@@ -35,13 +34,12 @@ to communicate with me securely.
         <td>hMR/31x9PLYxdlhGIfxVWTckgjbWBoo03UfZSqsUq6U</td>
     </tr>
     <tr>
-        <td>Terasar_Arch (nativefier riot.im/develop))</td>
+        <td>Terasar_Arch (nativefier riot.im/develop)</td>
         <td>IHLFIMVUUG</td>
         <td>/x5Bd4RT+Y1RSF2maLD8yLCGyArdJ4e8M8SSLQdWc7w</td>
     </tr>
-    <tr>
 </table>
-<br/>
+
 
 ### Matrix.org
 
@@ -82,7 +80,7 @@ to communicate with me securely.
         <td>Pc8nUTl79IBcVwpc5x8XWw6C2N0kfuEAmTHTfXFkAt4</td>
     </tr>
 </table>
-<br/>
+
 
 ## OMEMO/XMPP
 
