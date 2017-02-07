@@ -81,6 +81,7 @@ to communicate with me securely.
     </tr>
 </table>
 
+<!--
 
 ## OMEMO/XMPP
 
@@ -132,6 +133,7 @@ to communicate with me securely.
     </tr>
 </table>
 
+-->
 
 ## OTR
 
@@ -152,7 +154,6 @@ OMEMO instead.
     </tr>
 </table>
 
-
 ## PGP
 
 <table>
@@ -163,7 +164,6 @@ OMEMO instead.
         <td><a href="/PGP/0xB2F32B67.txt">2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</a></td>
     </tr>
 </table>
-
 
 ## Wire
 
