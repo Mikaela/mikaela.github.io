@@ -29,14 +29,14 @@ to communicate with me securely.
         <th>key</th>
     </tr>
     <tr>
-        <td>Jolla</td>
-        <td>XGEUMDSIRP</td>
-        <td>hMR/31x9PLYxdlhGIfxVWTckgjbWBoo03UfZSqsUq6U</td>
+        <td>ONEPLUS A3003</td>
+        <td>BMAQHUVPLT</td>
+        <td>VxmzN9P25Y1WoPiFKXJRtnF8XTv9/je6rkJUJ0QeFBw</td>
     </tr>
     <tr>
-        <td>Terasar_Arch (nativefier riot.im/develop)</td>
-        <td>IHLFIMVUUG</td>
-        <td>/x5Bd4RT+Y1RSF2maLD8yLCGyArdJ4e8M8SSLQdWc7w</td>
+        <td>Terasar_Arch (nativefier chat.disroot.org) [2017-02-12T19:42+0200]</td>
+        <td>WYYVNNJAOF</td>
+        <td>URtb7d/Ye2PXexEQitrX5PmWIg9KzYW28xG5KqwHi3I</td>
     </tr>
 </table>
 
@@ -50,9 +50,9 @@ to communicate with me securely.
         <th>key</th>
     </tr>
     <tr>
-        <td>Phone#1</td>
-        <td>UVZSBCUVMJ</td>
-        <td>5M8sQLVFEhXdSHPuvjjuh68BSOATEGU+sjTuyYwIKHI</td>
+        <td>Jolla</td>
+        <td>VXKQRYQXOS</td>
+        <td>xD3B/5KDeyc2vfZbFqyMO0iVQq6w4KNRAIjDeNQeA7g</td>
     </tr>
     <tr>
         <td>Rbtpzn (riot-web)</td>
