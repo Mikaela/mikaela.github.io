@@ -81,59 +81,58 @@ to communicate with me securely.
     </tr>
 </table>
 
-<!--
 
 ## OMEMO/XMPP
 
+### Disroot.org
+
 <table>
     <tr>
-        <th>Account</th>
         <th>Device/Software</th>
         <th>OMEMO Fingerprint</th>
     </tr>
     <tr>
-        <td>Joindiaspora</td>
+        <td>ONEPLUS A3003/Conversations</td>
+        <td>2EA2F539 70885E52 04E3CE14 29F344C0 A21EADE6 33603290 6F0165BE D3BBEC1C</td>
+    </tr>
+    <tr>
+        <td>Sedric/Gajim</td>
+        <td>4EA259D3 D547EABE 68A42831 92906A76 B99EEFDC E042AA6B BE7B57BE 507D0A4C</td>
+    </tr>
+</table>
+
+
+### Joindiaspora.com
+
+<table>
+    <tr>
+        <th>Device/Software</th>
+        <th>OMEMO Fingerprint</th>
+    </tr>
+    <tr>
         <td>ONEPLUS A3003/Conversations</td>
         <td>F341AD7C B2AC665B 1ACC1F2D E38D45E3 FAB05EA1 547719E7 620DA8EA 6458E91F</td>
     </tr>
     <tr>
-        <td>Joindiaspora</td>
         <td>Sedric/Gajim</td>
         <td>5BE02080 79C94E5F 15986BE6 F96C2C25 734D5212 2C9F65F2 15DB5CE1 57434B4D</td>
     </tr>
+</table>
+
+
+### Kapsi.fi
+
+<table>
     <tr>
-        <td>Joindiaspora</td>
-        <td>Zaldaryn/Gajim</td>
-        <td>16108077 0CF235EA 626955E8 F651E534 A7AC4B98 822879F8 9BFD6685 CA1DCF3A</td>
+        <th>Device/Software</th>
+        <th>OMEMO Fingerprint</th>
     </tr>
     <tr>
-        <td>Joindiaspora</td>
-        <td>Sedric_W10/Gajim</td>
-        <td>92A42B79 60475A6E 8E5489FE 3B593A39 42F4756E CF4B852C F5C348C8 23F67972</td>
-    </tr>
-    <tr>
-        <td>Kapsi</td>
         <td>ONEPLUS A3003/Conversations</td>
-    <td>373EC2F8 F75D4717 2374B9D6 5D8DAA6E 8F07DF41 52808ABB 59942E92 5F6A8D4F</td>
-    </tr>
-    <tr>
-        <td>Kapsi</td>
-        <td>Sedric/Gajim</td>
-        <td>506148B5 CC48623E 5F01E7C6 68F08FF5 8BB02D2A DA7449C2 E24F2BC2 0A054F6B</td>
-    </tr>
-    <tr>
-        <td>Kapsi</td>
-        <td>Zaldaryn/Gajim</td>
-        <td>7459B635 5822ABEF DA13120D 3C670691 431D35AB 28C8E69F 952395E1 CD036C43</td>
-    </tr>
-    <tr>
-        <td>Kapsi</td>
-        <td>Sedric_W10/Gajim</td>
-        <td>9792DD09 4D553A08 32E1C277 4504FC84 283391F9 5E6A98AA 03135AC3 01A8CD23</td>
+        <td>373EC2F8 F75D4717 2374B9D6 5D8DAA6E 8F07DF41 52808ABB 59942E92 5F6A8D4F</td>
     </tr>
 </table>
 
--->
 
 ## OTR
 
