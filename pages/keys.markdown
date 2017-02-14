@@ -18,6 +18,8 @@ to communicate with me securely.
 *If you wish to verify these fingerprints without CloudFlare in the middle,
  [check this page at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
 
+<!--
+
 ## Matrix
 
 ### Disroot.org
@@ -81,6 +83,7 @@ to communicate with me securely.
     </tr>
 </table>
 
+-->
 
 ## OMEMO/XMPP
 
