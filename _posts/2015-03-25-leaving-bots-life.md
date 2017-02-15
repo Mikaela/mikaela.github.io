@@ -1,10 +1,12 @@
 ---
 layout: post
 comments: true
-title: "Leaving bot communities and little on my life currently"
+title: "Little on my life currently"
 category: [english]
 tags: [irc, english, life]
 ---
+
+<!--
 
 Today I decided to leave all communities that had anything to do with bots,
 mainly because of the Limnoria channels.
@@ -142,6 +144,8 @@ about not having that permission anymore.
 </pre>
 
 ## A little on my life currently
+
+<-->
 
 **TRIGGER WARNING: suicide, school bullying, transphobia**
 

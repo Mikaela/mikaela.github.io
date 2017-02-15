@@ -46,6 +46,8 @@ and there wouldn't have been any use in that as they didn't care about
 their behaviour anyway and it would have been my fault anyway for sitting
 there or annoying them just for existing.
 
+<!--
+
 * * * * *
 
 Then the bots and this is possibly the most triggering thing I am going to
@@ -143,3 +145,5 @@ to find.*
 
 *The log has been edited a little afterwards and reference to third person
  has been removed.*
+
+ -->
