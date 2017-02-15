@@ -94,6 +94,10 @@ to communicate with me securely.
         <th>Device/Software</th>
         <th>OMEMO Fingerprint</th>
     </tr>
+        <tr>
+        <td>Jolla/Conversations</td>
+        <td>BFB9F16B B4C8CAA9 577A2C26 1F6287A5 5EA0F0F5 A08F2927 096DBBA2 958BBD76</td>
+    </tr>
     <tr>
         <td>ONEPLUS A3003/Conversations</td>
         <td>2EA2F539 70885E52 04E3CE14 29F344C0 A21EADE6 33603290 6F0165BE D3BBEC1C</td>
