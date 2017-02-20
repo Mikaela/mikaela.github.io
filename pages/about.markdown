@@ -83,6 +83,9 @@ you from doing all the things you wish to do with your partner with some
 friend? What if love comes after you stop for especially looking for one
 or multiple people to call as partner(s)?
 
+However labels such as partner still appear to be necressary with unique
+relationships based on their development or otherwise I am not understood.
+
 *I am not so sure about this as I might seem in typing this, but what will
 happen will be seen when it happens.*
 
