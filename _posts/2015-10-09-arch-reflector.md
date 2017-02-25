@@ -33,7 +33,7 @@ sudo pacman -Syu
 (end of TL;DR and what you actually do)
 
 1. Install reflector itself, additional depedency of rsync to rank the
-   mirrors by speed, and url which you use in the second command
+   mirrors by speed, and curl which you use in the second command
 2. to download my reflector.service
     * differences to Arch Wiki version: requires network-online.target
       so you don't have to enable any wait-online services and uses only
