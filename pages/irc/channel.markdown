@@ -49,7 +49,7 @@ these rules, please do say it.*
 Furher reading:
 
 * [Keep your ops opped!]({% post_url 2015-04-01-keep-the-ops-opped %})
-* [Blocking all PMs by default]({% post_url 2015-04-02-umode+g %})
+* [Blocking all PMs by default]({% post_url 2015-04-02-umodeg %})
 
 Changelog ([at GitHub](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.markdown)):
 
