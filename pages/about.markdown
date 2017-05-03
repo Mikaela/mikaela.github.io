@@ -145,6 +145,8 @@ better place, so where else should it be?
 * [2015-11-03: I moved to Lauttasaari, Helsinki]({% post_url 2015-11-03-moving %})
     * way too positive for this section, but where else...
 * [2015-11-21: Email to Legal Affairs Committee on how trans law must be based on the right of self-definition](https://translate.google.fi/translate?sl=fi&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https%3A%2F%2Fmikaela.info%2Ffinnish%2F2015%2F11%2F21%2Fsahkopostia-lakivaliokunnalle-translaki.html&edit-text=)
+* [2017-04-18: Google Translated dance lesson trauma](https://translate.google.com/translate?sl=fi&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https%3A%2F%2Fmikaela.info%2Ffinnish%2F2017%2F04%2F18%2Ftanssitunti.html&edit-text=)
+* [2017-04-30: After trans process and AvPD, everything is OK]({% post_url 2017-04-30-post-trans %})
 
 * * * * *
 
