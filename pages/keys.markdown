@@ -13,16 +13,15 @@ excerpt: "My public key fingerprints (that I think can be put here, if I am miss
 ---
 
 This page contains key fingerprints that might interest you if you wish
-to communicate with me securely.
+to communicate with me securely. In case I have multiple accounts
+with some protocols, I only list those which I mainly care about.
 
 *If you wish to verify these fingerprints without CloudFlare in the middle,
  [check this page at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
 
-<!--
-
 ## Matrix
 
-### Disroot.org
+*My 3PIDs are currently linked to `at mikaela colon disroot dot org`.*
 
 <table>
     <tr>
@@ -36,54 +35,21 @@ to communicate with me securely.
         <td>VxmzN9P25Y1WoPiFKXJRtnF8XTv9/je6rkJUJ0QeFBw</td>
     </tr>
     <tr>
-        <td>Terasar_Arch (nativefier chat.disroot.org) [2017-02-12T19:42+0200]</td>
-        <td>WYYVNNJAOF</td>
-        <td>URtb7d/Ye2PXexEQitrX5PmWIg9KzYW28xG5KqwHi3I</td>
+        <td>Sedric_Arch_chat.disroot.org-nativefier</td>
+        <td>UJMDNJWHII</td>
+        <td>h71/eO+J84F40OOp/LeTVcdGPrxU7qbvvbMiBmNJ9Mc</td>
     </tr>
-</table>
-
-
-### Matrix.org
-
-<table>
     <tr>
-        <th>name</th>
-        <th>ID</th>
-        <th>key</th>
+        <td>Zaldaryn</td>
+        <td>KZLLEPLWVT</td>
+        <td>Ce33TV4sNpCMBh1ohMeiiej+WvDxSxZZn0qj0+rueKY</td>
     </tr>
     <tr>
         <td>Jolla</td>
-        <td>VXKQRYQXOS</td>
-        <td>xD3B/5KDeyc2vfZbFqyMO0iVQq6w4KNRAIjDeNQeA7g</td>
-    </tr>
-    <tr>
-        <td>Rbtpzn (riot-web)</td>
-        <td>PHKMAHOITL</td>
-        <td>Dx4uVBhBL9v3ZZ4zZAx7Fb8epmf/tCmQ0xLASkUMSro</td>
-    </tr>
-    <tr>
-        <td>Sedric_Arch (riot-web)</td>
-        <td>KROYWETYVY</td>
-        <td>ziXjbKcdh5G9lNuhJIqnudJWVTtQkr86Qs/ro4JttdU</td>
-    </tr>
-    <tr>
-        <td>Sedric_Windows (riot-web)</td>
-        <td>KGPNUZOCFJ</td>
-        <td>pE2hYRW6lJXD7QZDTz4AfQrHl3Xdf5vC7jf6Wlyrbt8</td>
-    </tr>
-    <tr>
-        <td>Terasar (riot-web)</td>
-        <td>LSNGCKDHOX</td>
-        <td>Iww9rg9iVvdSKfLqajuB+nJAN1nWHh6BEebDrx5og+Q</td>
-    </tr>
-    <tr>
-        <td>Zaldaryn (staging/nativefier)</td>
-        <td>NVNFLHNRML</td>
-        <td>Pc8nUTl79IBcVwpc5x8XWw6C2N0kfuEAmTHTfXFkAt4</td>
+        <td>ZQCUUGCYGQ</td>
+        <td>F0SRn9mtp0EmfCcDIncCuyNH11n/yrOovA0WuibC61g</td>
     </tr>
 </table>
-
--->
 
 ## OMEMO/XMPP
 
@@ -108,6 +74,7 @@ to communicate with me securely.
     </tr>
 </table>
 
+<!--
 
 ### Joindiaspora.com
 
@@ -140,6 +107,7 @@ to communicate with me securely.
     </tr>
 </table>
 
+-->
 
 ## OTR
 
