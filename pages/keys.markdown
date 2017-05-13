@@ -49,6 +49,11 @@ with some protocols, I only list those which I mainly care about.
         <td>ZQCUUGCYGQ</td>
         <td>F0SRn9mtp0EmfCcDIncCuyNH11n/yrOovA0WuibC61g</td>
     </tr>
+    <tr>
+        <td>Sedric_Windows</td>
+        <td>ECIZOFNVQH</td>
+        <td>pTZqqWA2jXxIUqbDq+HOBKu1bmLAImvXTG7zvcrmruo</td>
+    </tr>
 </table>
 
 ## OMEMO/XMPP
