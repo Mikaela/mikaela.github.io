@@ -35,9 +35,9 @@ with some protocols, I only list those which I mainly care about.
         <td>VxmzN9P25Y1WoPiFKXJRtnF8XTv9/je6rkJUJ0QeFBw</td>
     </tr>
     <tr>
-        <td>Sedric_Arch_chat.disroot.org-nativefier</td>
-        <td>UJMDNJWHII</td>
-        <td>h71/eO+J84F40OOp/LeTVcdGPrxU7qbvvbMiBmNJ9Mc</td>
+        <td>Sedric_Arch_nativefier-staging</td>
+        <td>MZFHHEFQPQ</td>
+        <td>DDiuIRAcUta5jF8gs03L9yudQdo1k+BWemovU5ciDRU</td>
     </tr>
     <tr>
         <td>Sedric_Arch_nativefier-customtags</td>
