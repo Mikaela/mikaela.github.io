@@ -40,6 +40,11 @@ with some protocols, I only list those which I mainly care about.
         <td>h71/eO+J84F40OOp/LeTVcdGPrxU7qbvvbMiBmNJ9Mc</td>
     </tr>
     <tr>
+        <td>Sedric_Arch_nativefier-customtags</td>
+        <td>XPHDDTWGPA</td>
+        <td>vE0qjTt9BhLWzdn64FQqk73L4n3rTVUVS6MstCa724w</td>
+    </tr>
+    <tr>
         <td>Zaldaryn</td>
         <td>KZLLEPLWVT</td>
         <td>Ce33TV4sNpCMBh1ohMeiiej+WvDxSxZZn0qj0+rueKY</td>
