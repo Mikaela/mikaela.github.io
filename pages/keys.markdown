@@ -35,6 +35,11 @@ with some protocols, I only list those which I mainly care about.
         <td>VxmzN9P25Y1WoPiFKXJRtnF8XTv9/je6rkJUJ0QeFBw</td>
     </tr>
     <tr>
+        <td>Sedric_Arch</td>
+        <td>HBOCBHZWOK</td>
+        <td>V3ViSFSOuJguU86UfC2TlSzSdSiieZjb5oWF6n1/5/8</td>
+    </tr>
+    <tr>
         <td>Sedric_Arch_nativefier-staging</td>
         <td>MZFHHEFQPQ</td>
         <td>DDiuIRAcUta5jF8gs03L9yudQdo1k+BWemovU5ciDRU</td>
