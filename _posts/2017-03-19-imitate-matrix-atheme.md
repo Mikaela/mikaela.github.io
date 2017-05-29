@@ -4,7 +4,7 @@ comments: true
 title: "Imitating Matrix moderator at IRC using Atheme services"
 category: [english]
 tags: [Matrix, ChanServ, room, channel, moderator, op]
-redirect_from:
+redirect_from: /mxmod.html
 ---
 
 *This post should probably be outside of my blog, but I cannot think of
