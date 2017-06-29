@@ -19,6 +19,8 @@ with some protocols, I only list those which I mainly care about.
 *If you wish to verify these fingerprints without CloudFlare in the middle,
  [check this page at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
 
+<!--
+
 ## Matrix
 
 *My 3PIDs are currently linked to `at mikaela colon disroot dot org`.*
@@ -31,8 +33,8 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     <tr>
         <td>ONEPLUS A3003</td>
-        <td>BMAQHUVPLT</td>
-        <td>VxmzN9P25Y1WoPiFKXJRtnF8XTv9/je6rkJUJ0QeFBw</td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Sedric_Arch</td>
@@ -65,6 +67,8 @@ with some protocols, I only list those which I mainly care about.
         <td>pTZqqWA2jXxIUqbDq+HOBKu1bmLAImvXTG7zvcrmruo</td>
     </tr>
 </table>
+
+-->
 
 ## OMEMO/XMPP
 
