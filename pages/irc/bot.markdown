@@ -9,6 +9,8 @@ redirect_from: /bot.html
 
 *Please read also [rules of my channels.](https://mikaela.info/channel.html)*
 
+***This page is more or less outdated.***
+
 * [Web interface](https://bot.mikaela.info)
     * [Plugin documentation](https://bot.mikaela.info/plugindoc/)
 
@@ -19,11 +21,9 @@ that is still under active development and it has merged in features of
 another popular fork, [Gribble].
 
 My role with [Limnoria] was Finnish translator and IRC support and I also
-made minor changes to make some default configuration variables more reasonable. Most of [documentation] since [Supybot] and before my leaving is also
-written by me.
-
-* [Blog: Leaving Limnoria]({% post_url 2015-03-25-leaving-bots-life %})
-* [Blog: My background on Limnoria]({% post_url 2015-05-18-life-bot-background %})
+made minor changes to make some default configuration variables more
+reasonable. Most of [documentation] since [Supybot] and before my leaving
+is also written by me.
 
 [Supybot]:https://github.com/Supybot/Supybot
 [Limnoria]:https://github.com/ProgVal/Limnoria
