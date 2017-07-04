@@ -3,7 +3,7 @@ layout: page
 title: IRC
 navigation: true
 permalink: /irc/
-excerpt: "Where do you find me at IRC and verify that it's me. Also includes my IRC related posts that are hopefully helpful and my policy on joining personal channels of other people (e.g. ##channels at freenode)."
+excerpt: "Where do you find me at IRC and verify that it's me. Also includes my IRC related posts that are hopefully helpful."
 ---
 
 I am on multiple IRC networks and finding me on those should be easy as
@@ -47,17 +47,3 @@ links.*
     * [ZNC 1.6.0 & SSL certificate verification]({% post_url 2015-02-24-znc160-ssl %})
     * [My config]({% post_url 2015-04-01-my-znc-config %})
     * [Installing ZNC on Ubuntu using PPA]({% post_url 2015-05-10-znc-ubuntu %})
-
-* * * * *
-
-**My policy on joining personal channels**.
-
-*If you have no idea what this section means, this most likely doesn't
-concern you. (Hint: For example `##nickname` channels at freenode.)*
-
-I often feel that personal channels are useless and not so good invention,
-but they might have some uses like commit spam or spamming some RSS feeds.
-
-My current policy on joining them is joining channels of those people who
-join mine and are preferably voiced or higher, but I reserve the right to
-not do that or leave the channel at any time without specifying reason.
