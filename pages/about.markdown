@@ -62,6 +62,11 @@ while I speak. Same applies to understanding your speaking.
     * Might apply more to children, but it's a feature so one won't simply
       get healed from it.
 
+*I have afterwards learned that I am also a [Higly Sensitive Person (HSP](https://en.wikipedia.org/wiki/Sensory_processing_sensitivity), but it
+ overlaps with autism a little and I don't know what to start typing it and
+ it's piece of information that would mainly interest another HSP like
+ many other things on this page, so I am just leaving it here.*
+
 ## Ace & Relationship Anarchist
 
 *I am asexual and possibly relationship anarchist, but it will be seen...*
