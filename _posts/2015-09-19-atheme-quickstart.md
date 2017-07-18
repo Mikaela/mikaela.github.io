@@ -4,7 +4,7 @@ comments: true
 title: "Quickstart with Atheme IRC Services (& forks) for end users"
 category: [english]
 tags: [english, irc, atheme]
-redirect_from: 
+redirect_from:
   - /nickserv.html
   - /chanserv.html
   - /groupserv.html
@@ -43,6 +43,16 @@ beginning:
   for NickServ password.
 * KiwiIRC: Check "I have a password" and type your passsword there. Ensure
   that you specified a nick that is grouped to your account.
+* Matrix: in the admin room (direct chat with the appservice-irc), say
+  `!storepass password` to have the password send with PASS on connect.
+  In case of freenode use `!storepass nick:password` and/or see more
+  information at [matrix-appservice-irc wiki].
+    * [IRC networks with Matrix bridge]
+    * [Matrix bridge end-user FAQ register/identify section]
+
+[matrix-appservice-irc wiki]:https://github.com/matrix-org/matrix-appservice-irc/wiki/
+[IRC networks with Matrix bridge]:https://github.com/matrix-org/matrix-appservice-irc/wiki/Bridged-IRC-networks
+[Matrix bridge end-user FAQ register/identify section]:https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ#how-do-i-registeridentify-to-nickserv
 
 ## HostServ
 
