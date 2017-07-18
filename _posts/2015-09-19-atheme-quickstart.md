@@ -36,9 +36,9 @@ Now you should be successfully identified and should configure automatic
 identification, I cannot help with it so much, but I can point you to
 beginning:
 
-* [freenode's SASL instructions](https://freenode.net/sasl)
+* [freenode's SASL instructions](https://freenode.net/kb/answer/sasl)
 * [My instructions for SASL with WeeChat]({% post_url 2015-03-26-weechat-sasl-simply %})
-* [DuckDuckGo YOURCLIENTHERE SASL](https://duckduckgo.com/?q=YOURCLIENTHERE%20SASL)
+* [Searx YOURCLIENTHERE SASL](https://search.disroot.org/?q=YOURCLIENTHERE+SASL)
 * IRCCloud: edit network and go to advanced settings and you will see box
   for NickServ password.
 * KiwiIRC: Check "I have a password" and type your passsword there. Ensure
