@@ -19,8 +19,6 @@ with some protocols, I only list those which I mainly care about.
 *If you wish to verify these fingerprints without CloudFlare in the middle,
  [check this page at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
 
-<!--
-
 ## Matrix
 
 *My 3PIDs are currently linked to `at mikaela colon disroot dot org`.*
@@ -32,43 +30,36 @@ with some protocols, I only list those which I mainly care about.
         <th>key</th>
     </tr>
     <tr>
-        <td>ONEPLUS A3003</td>
-        <td></td>
-        <td></td>
+        <td>Phone#1 (2017-06-29)</td>
+        <td>ZOJJEASEDZ</td>
+        <td>rTlr YG0f ldKZ cMdu wViH xcDy WLEE ya8+ kel7 JE10 +88</td>
     </tr>
     <tr>
         <td>Sedric_Arch</td>
         <td>HBOCBHZWOK</td>
-        <td>V3ViSFSOuJguU86UfC2TlSzSdSiieZjb5oWF6n1/5/8</td>
+        <td>V3Vi SFSO uJgu U86U fC2T lSzS dSii eZjb 5oWF 6n1/ 5/8</td>
     </tr>
     <tr>
         <td>Sedric_Arch_nativefier-staging</td>
         <td>MZFHHEFQPQ</td>
-        <td>DDiuIRAcUta5jF8gs03L9yudQdo1k+BWemovU5ciDRU</td>
+        <td>DDiu IRAc Uta5 jF8g s03L 9yud Qdo1 k+BW emov U5ci DRU</td>
     </tr>
     <tr>
         <td>Sedric_Arch_nativefier-customtags</td>
         <td>XPHDDTWGPA</td>
-        <td>vE0qjTt9BhLWzdn64FQqk73L4n3rTVUVS6MstCa724w</td>
+        <td>vE0q jTt9 BhLW zdn6 4FQq k73L 4n3r TVUV S6Ms tCa7 24w</td>
     </tr>
     <tr>
         <td>Zaldaryn</td>
         <td>KZLLEPLWVT</td>
-        <td>Ce33TV4sNpCMBh1ohMeiiej+WvDxSxZZn0qj0+rueKY</td>
-    </tr>
-    <tr>
-        <td>Jolla</td>
-        <td>ZQCUUGCYGQ</td>
-        <td>F0SRn9mtp0EmfCcDIncCuyNH11n/yrOovA0WuibC61g</td>
+        <td>Ce33 TV4s NpCM Bh1o hMei iej+ WvDx SxZZ n0qj 0+ru eKY</td>
     </tr>
     <tr>
         <td>Sedric_Windows</td>
         <td>ECIZOFNVQH</td>
-        <td>pTZqqWA2jXxIUqbDq+HOBKu1bmLAImvXTG7zvcrmruo</td>
+        <td>pTZq qWA2 jXxI UqbD q+HO BKu1 bmLA ImvX TG7z vcrm ruo</td>
     </tr>
 </table>
-
--->
 
 ## OMEMO/XMPP
 
