@@ -82,6 +82,10 @@ with some protocols, I only list those which I mainly care about.
         <td>Sedric/Gajim</td>
         <td>4EA259D3 D547EABE 68A42831 92906A76 B99EEFDC E042AA6B BE7B57BE 507D0A4C</td>
     </tr>
+    <tr>
+        <td>Zaldaryn/Gajim</td>
+        <td>43D691D4 1C1D2198 0399F310 52605FC5 8C35FAD5 46879BB8 CBCC9262 947E207D</td>
+    </tr>
 </table>
 
 <!--
