@@ -4,6 +4,9 @@ comments: true
 title: "Why I recommend TeleIRC instead of TeleMatrix"
 category: [english]
 tags: [irc, english, Matrix]
+redirect_from:
+  - /teleirc.html
+  - /telematrix.html
 ---
 
 *FAQ at SailfishOS Fan Club: why everything was made worse for Matrix users?*
