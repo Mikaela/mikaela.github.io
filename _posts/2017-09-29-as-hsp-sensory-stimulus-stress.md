@@ -104,7 +104,7 @@ be the most difficult part of this post.
  on business information technology though) and this is based on my lived
  experience (even if I only heard of highly sensitive people this year and
  was told that I am one by my therapist) and what I have understood from
- talking with professionals, reading books, watchine documentaries etc.*
+ talking with professionals, reading books, watching documentaries etc.*
 
 When I previously talked with my therapist on the subject, I explained that
 it's like there is a battery that is drained by sensory stimulus stress
@@ -206,6 +206,9 @@ therapist to ease the situation.
       what the actual reason was. I think I haven't ever had an issue
       with motion other than having the motorical clumsiness that I think
       is part of diagnostic criteria from autism.
+
+*Addition: the TL;DR of the above list could probably be put into one word.
+ Stim!*
 
 And now I think I am actually finished with a few hours spend typing this
 and just moving onto the 209th line in Vim. In the end I only want to say
