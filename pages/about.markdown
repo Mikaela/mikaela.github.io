@@ -71,10 +71,11 @@ while I speak. Same applies to understanding your speaking.
 
 *I am asexual and possibly relationship anarchist, but it will be seen...*
 
-I used to define myself as poly-curiuos (wondering if I am poly (capable of having simultaneous close romantic relationships with two or more people)
-or not) and demiromantic (the ace of diamonds playing card is their symbol
-shared by demisexuals) which means only forming romantic attraction after
-forming close emotional bond with the person
+I used to define myself as poly-curiuos (wondering if I am poly (capable
+of having simultaneous close romantic relationships with two or more
+people or not) and demiromantic (the ace of diamonds playing card is their
+symbol shared by demisexuals) which means only forming romantic attraction
+after forming close emotional bond with the person
 
 At some point I started wondering does touching and caring have to be
 limited into relationship and found 
@@ -87,6 +88,12 @@ liking and don't you sometimes use the words interchangeably? What prevents
 you from doing all the things you wish to do with your partner with some
 friend? What if love comes after you stop for especially looking for one
 or multiple people to call as partner(s)?
+
+I have found a word for this, *quoiromantic* (aka *wtfromantic* or
+*whatromantic*) and I think I can still use the ace of diamonds symbol
+as *demisensual* is the closest to describe my relationship with
+touch (meaning that I might like it after there is some sort of a emotional
+bond).
 
 However labels such as partner still appear to be necessary with unique
 relationships based on their development or otherwise I am not understood.
