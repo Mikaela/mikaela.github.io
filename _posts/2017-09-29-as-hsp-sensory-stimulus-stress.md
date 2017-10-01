@@ -60,7 +60,7 @@ amount of new people who were interested about the party.
 
 I had had too much of draining events, so at some point I left quietly
 explaining to activist outside how I was leaving as I had had too much
-of sensory stimuluss streaa and I possibly started crying at that point, I
+of sensory stimuluss stress and I possibly started crying at that point, I
 am not sure.
 
 I am sure that I was crying when I encountered another activist going to
@@ -87,7 +87,7 @@ tram stop where she continued elsewhere with my grandmother.
 
 Returning home I had again had too much, this time I didn't cry, but I
 think panic attack was close as I was using a full bus which I reached
-through full shopping centre that was havomg some sort of a shopping party.
+through full shopping centre that was having some sort of a shopping party.
 
 I survived by focusing on my breathing and listening to music with
 wireless earbud/microphone as it wasn't so long bus trip. And then it's
