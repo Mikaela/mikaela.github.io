@@ -1,5 +1,5 @@
 ---
-redirect_to: https://riot.im/app/#/room/#aseksuaalit:matrix.org
+redirect_to: https://t.me/joinchat/EahHW0PaCcmyYM4d8-gb3Q
 permalink: /r/aseksuaalit.html
 sitemap: false
 ---
