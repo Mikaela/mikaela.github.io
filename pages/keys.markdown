@@ -153,6 +153,8 @@ OMEMO instead.
     </tr>
 </table>
 
+<!--
+
 ## Wire
 
 I have understood that Wire fingerprints don't change by
@@ -186,3 +188,5 @@ proves to not be the case, Wire will get removed from here.
             52 fa f8 82 51 a8 3a fc a5 82 ab 04 c7 f1 01 da</td>
     </tr>
 </table>
+
+-->
