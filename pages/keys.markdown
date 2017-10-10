@@ -76,7 +76,7 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     <tr>
         <td>ONEPLUS A3003/Conversations</td>
-        <td>2EA2F539 70885E52 04E3CE14 29F344C0 A21EADE6 33603290 6F0165BE D3BBEC1C</td>
+        <td>B22FF020 C37F32B0 AB049759 27466191 EE685632 134F4A75 A3B97D56 4A7F6D5F</td>
     </tr>
     <tr>
         <td>Sedric/Gajim</td>
