@@ -30,9 +30,9 @@ with some protocols, I only list those which I mainly care about.
         <th>key</th>
     </tr>
     <tr>
-        <td>Phone#1 (2017-10-10)</td>
-        <td>MNHPCMKGCY</td>
-        <td>bRxF uh+C kmF0 TGbb 50dG 1dUi GmDd b0BL zg6s Yuv1 xwg</td>
+        <td>Phone#1 (2017-10-11)</td>
+        <td>JOMIFFAFLN</td>
+        <td>yyct aEtB qMlS xvev yf1e 0oRX LWGq hvSB ckgE 8dHj LkA</td>
     </tr>
     <tr>
         <td>Sedric_Arch</td>
@@ -76,7 +76,7 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     <tr>
         <td>ONEPLUS A3003/Conversations</td>
-        <td>B22FF020 C37F32B0 AB049759 27466191 EE685632 134F4A75 A3B97D56 4A7F6D5F</td>
+        <td>mikaela@disroot.org: A16A397A 8A4C5122 D3687C76 94E39B2D 64078F0C 14B9BC90 1BF64701 BAF09C54</td>
     </tr>
     <tr>
         <td>Sedric/Gajim</td>
