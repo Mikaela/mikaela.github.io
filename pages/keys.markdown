@@ -51,8 +51,8 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     <tr>
         <td>Zaldaryn</td>
-        <td>KZLLEPLWVT</td>
-        <td>Ce33 TV4s NpCM Bh1o hMei iej+ WvDx SxZZ n0qj 0+ru eKY</td>
+        <td>OEOAUVSUHU</td>
+        <td>Egda nZxq D6IU H1KB wbNt RuPe Nbru FjUx 0o+J X9js hy4</td>
     </tr>
     <tr>
         <td>Sedric_Windows</td>
@@ -84,7 +84,7 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     <tr>
         <td>Zaldaryn/Gajim</td>
-        <td>43D691D4 1C1D2198 0399F310 52605FC5 8C35FAD5 46879BB8 CBCC9262 947E207D</td>
+        <td>074E7143 A1B9655A DC33C849 AC8F5232 043D0B61 510F4FA8 EF525BFB FF5E3871</td>
     </tr>
 </table>
 
