@@ -70,10 +70,6 @@ with some protocols, I only list those which I mainly care about.
         <th>Device/Software</th>
         <th>OMEMO Fingerprint</th>
     </tr>
-        <tr>
-        <td>Jolla/Conversations</td>
-        <td>BFB9F16B B4C8CAA9 577A2C26 1F6287A5 5EA0F0F5 A08F2927 096DBBA2 958BBD76</td>
-    </tr>
     <tr>
         <td>ONEPLUS A3003/Conversations</td>
         <td>mikaela@disroot.org: A16A397A 8A4C5122 D3687C76 94E39B2D 64078F0C 14B9BC90 1BF64701 BAF09C54</td>
