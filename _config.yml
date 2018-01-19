@@ -19,7 +19,7 @@ redcarpet:
 # Custom settings
 timezone: Europe/Helsinki
 encoding: utf-8
-gems:
+plugins:
     - jekyll-feed
 #    - jekyll-mentions
     - jekyll-redirect-from
