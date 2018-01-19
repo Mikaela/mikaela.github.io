@@ -71,16 +71,29 @@ with some protocols, I only list those which I mainly care about.
         <th>OMEMO Fingerprint</th>
     </tr>
     <tr>
-        <td>ONEPLUS A3003/Conversations</td>
-        <td>mikaela@disroot.org: A16A397A 8A4C5122 D3687C76 94E39B2D 64078F0C 14B9BC90 1BF64701 BAF09C54</td>
-    </tr>
-    <tr>
         <td>Sedric/Gajim</td>
         <td>4EA259D3 D547EABE 68A42831 92906A76 B99EEFDC E042AA6B BE7B57BE 507D0A4C</td>
     </tr>
     <tr>
         <td>Zaldaryn/Gajim</td>
         <td>074E7143 A1B9655A DC33C849 AC8F5232 043D0B61 510F4FA8 EF525BFB FF5E3871</td>
+    </tr>
+</table>
+
+### Blesmrt.net
+
+<table>
+    <tr>
+        <th>Device/Software</th>
+        <th>OMEMO Fingerprint</th>
+    </tr>
+    <tr>
+        <td>ONEPLUS A3003/Conversations</td>
+        <td>26FE3A4C BBCF52D0 452A2DFA 166820A2 AAB68AEB 5A42DC86 13957741 952B4973</td>
+    </tr>
+    <tr>
+        <td>Sedric/Gajim</td>
+        <td>92B8D1C6 2BA2B932 8C2C0628 F9EE1742 D9E83134 3CE0D2B8 3309181F 9DCEA779</td>
     </tr>
 </table>
 
