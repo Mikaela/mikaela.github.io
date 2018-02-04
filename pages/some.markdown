@@ -74,7 +74,10 @@ and I should update-*
       €5.00 worth in credits. Happy sharing!*"
         * `93O1`
 
+<!--
+
 ## Contact
+
 
 * [IRC](/irc)
     * *This one has it's own page on this domain.*
@@ -91,3 +94,5 @@ and I should update-*
       the first message.*
 * [XMPP](https://xmpp.org/about)
     * `ciblia@joindiaspora.com`
+
+-->
