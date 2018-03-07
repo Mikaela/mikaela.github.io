@@ -89,7 +89,7 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     <tr>
         <td>ONEPLUS A3003/Conversations</td>
-        <td>26FE3A4C BBCF52D0 452A2DFA 166820A2 AAB68AEB 5A42DC86 13957741 952B4973</td>
+        <td>FA60F9E5 5F9E99AE 5F922385 600985B5 826B7EEE 678DD1AA A50A8588 7B2A7523</td>
     </tr>
     <tr>
         <td>Sedric/Gajim</td>
