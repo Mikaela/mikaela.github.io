@@ -21,7 +21,7 @@ timezone: Europe/Helsinki
 encoding: utf-8
 plugins:
     - jekyll-feed
-#    - jekyll-mentions
+    - jekyll-mentions
     - jekyll-redirect-from
     - jekyll-sitemap
 sitemap:
