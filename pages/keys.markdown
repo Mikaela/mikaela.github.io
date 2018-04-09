@@ -63,6 +63,8 @@ with some protocols, I only list those which I mainly care about.
 
 ## OMEMO/XMPP
 
+<!--
+
 ### Disroot.org
 
 <table>
@@ -79,6 +81,8 @@ with some protocols, I only list those which I mainly care about.
         <td>074E7143 A1B9655A DC33C849 AC8F5232 043D0B61 510F4FA8 EF525BFB FF5E3871</td>
     </tr>
 </table>
+
+-->
 
 ### Blesmrt.net
 
