@@ -26,7 +26,7 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 * [Goodreads](https://www.goodreads.com/user/show/11147845-mikaela-suomalainen)
     * You should be asked *Where do I know you from or why we should be
       friends?*, if you are unsure how to reply, check Facebook.
-* [Instagram](https://www.instagram.com/mikaelahmsuomalainen/)
+* [Instagram](https://www.instagram.com/ciblia_/)
 * [Keybase](http://keybase.io/Mikaela)
 * [Open HUB](https://www.openhub.net/accounts/Mikaela)
 * [Together (Jolla forum)](https://together.jolla.com/users/6732/mikaela/)
