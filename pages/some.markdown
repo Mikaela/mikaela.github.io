@@ -12,12 +12,7 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 *Notice on XMPP: I am not going to monitor any others than Diaspora & Kapsi
  accounts, if you wish to contact me using it, use either of those.*
 
-* [Bitbucket](http://bitbucket.org/Ciblia)
-    * very silent, I am more active with GitHub…
-* [Diaspora](https://joindiaspora.com/u/ciblia)
-    * `ciblia@joindiaspora.com`, but I have no idea how active I will be.
-      * *[invite link](https://joindiaspora.com/i/0d50c7e1cbed)*
-* [Facebook](https://facebook.com/mikaelahmsuomalainen)
+* [Facebook Messenger](https://m.me/mikaelahmsuomalainen)
     * I only previously accepted friend requests from people I knew
       anywhere like IRC, but I have moved to just accepting all requests
       as long as I have some kind of idea on the person and they seem sane.
@@ -31,10 +26,8 @@ excerpt: "Links to my SOcial MEdia accounts and other accounts around the intern
 * [Goodreads](https://www.goodreads.com/user/show/11147845-mikaela-suomalainen)
     * You should be asked *Where do I know you from or why we should be
       friends?*, if you are unsure how to reply, check Facebook.
-* [Google+](https://plus.google.com/102194700669991420126)
 * [Instagram](https://www.instagram.com/mikaelahmsuomalainen/)
 * [Keybase](http://keybase.io/Mikaela)
-* [Launchpad](https://launchpad.net/~mikaela)
 * [Open HUB](https://www.openhub.net/accounts/Mikaela)
 * [Together (Jolla forum)](https://together.jolla.com/users/6732/mikaela/)
 * [Twitter](https://twitter.com/Inaneierase)
@@ -73,26 +66,3 @@ and I should update-*
       and makes their first order, they get a €5.00 discount and you get
       €5.00 worth in credits. Happy sharing!*"
         * `93O1`
-
-<!--
-
-## Contact
-
-
-* [IRC](/irc)
-    * *This one has it's own page on this domain.*
-* [Matrix/Riot](https://matrix.to/#/@Ciblia:matrix.org)
-    * *Apparently Matrix is currently case-sensitive and the C must be
-      a capital letter. This page had it wrong for one day.*
-    * [Bridged IRC channel](/r/matrixroom)
-        * *This is mainly RSS feed reader.*
-* [Messenger](https://m.me/mikaelahmsuomalainen)
-    * *Even if it's owned by Facebook, here I probably have the highest
-      chance of seeing at least your first message unless you trigger
-      Facebook's spam algorithm. In other protocols I might be more
-      suspicious letting you contact me, but Messenger always shows
-      the first message.*
-* [XMPP](https://xmpp.org/about)
-    * `ciblia@joindiaspora.com`
-
--->
