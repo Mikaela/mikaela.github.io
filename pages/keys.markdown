@@ -96,8 +96,8 @@ with some protocols, I only list those which I mainly care about.
         <td>FA60F9E5 5F9E99AE 5F922385 600985B5 826B7EEE 678DD1AA A50A8588 7B2A7523</td>
     </tr>
     <tr>
-        <td>Jolla/Conversations</td>
-        <td>B48F83EE 6CC91842 A85023B4 C60CE068 5E5E7571 96EED698 00E2CB9E 9A96DF69</td>
+        <td>Jolla/Conversations Legacy</td>
+        <td>15F93AD5 0EC2E3AC B69671AD 856C979D 752DB7D4 0F79F7EF 023AA929 F464125B</td>
     </tr>
     <tr>
         <td>Sedric/Gajim</td>
