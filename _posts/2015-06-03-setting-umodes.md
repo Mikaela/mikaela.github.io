@@ -60,6 +60,5 @@ For what the actual umodes are on your network, try `/quote help umode` or
 * Q — block channel redirects on Charybdis (mode +f or banforward).
 * x — activates IRCd based uncloaking even if it's [not that reliable.](https://gist.github.com/maxteufel/1e2cf7ada079c271bd3c)
 * g — caller-id, people must be `/accepted` or PMed before they can PM you.
-  More detailed post about that [here]({% post_url 2015-04-02-umodeg %})
-  and [part 2 here]({% post_url 2015-05-10-umodeg2 %}).
+  More detailed post about that [here]({% post_url 2015-04-02-umodeg %}).
 * t — only users using SSL can PM.
