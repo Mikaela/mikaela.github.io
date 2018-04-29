@@ -5,6 +5,7 @@ title: "How to private message people on Telegram without getting reported for s
 category: [english]
 tags: [telegram, english, spam]
 redirect_from: /telegramspam.html
+published: false
 ---
 
 *This should be obvious, but is apparently not as at time of writing I have

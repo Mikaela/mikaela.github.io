@@ -7,6 +7,7 @@ tags: [Matrix, support, help]
 redirect_from:
   - /matrixhelp.html
   - /matrixsupport.html
+published: false
 ---
 
 *Matrix has many clients and servers and other projects and finding the

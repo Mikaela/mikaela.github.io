@@ -4,6 +4,7 @@ comments: true
 title: "Trying to be a better op"
 category: [english]
 tags: [english, irc]
+published: false
 ---
 
 *If ops are attacked, the channel is also hurt as much as if users were

@@ -4,6 +4,7 @@ comments: true
 title: "The three days of dramas with Antergos"
 category: [english]
 tags: [english, IRC]
+published: false
 ---
 
 *I am not emotionless robot and I am able to make mistakes like anyone

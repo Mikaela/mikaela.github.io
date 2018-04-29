@@ -4,6 +4,7 @@ comments: true
 title: "Note to self on partitioning"
 category: [english]
 tags: [english]
+published: false
 ---
 
 This post is mainly for me to document this. I usually have only / and

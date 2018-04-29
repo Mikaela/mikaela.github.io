@@ -5,6 +5,7 @@ title: "Telegrams second chance"
 category: [english]
 tags: [telegram, english, esperanto]
 redirect_from: /telegram.html
+published: false
 ---
 
 *I have blogged about Telegram a lot and I thought I would end it to

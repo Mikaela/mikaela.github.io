@@ -4,6 +4,7 @@ comments: true
 title: "Why not Telegram or why I left it"
 category: [english]
 tags: [english, Telegram, feminism]
+published: false
 ---
 
 *You might have read my post on [why I use Telegram] or something else

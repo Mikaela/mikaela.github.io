@@ -4,6 +4,7 @@ comments: true
 title: "My systemd-networkd setup"
 category: [english]
 tags: [english, systemd-networkd]
+published: false
 ---
 
 *This is happy post so probably useless, but my blog is always so

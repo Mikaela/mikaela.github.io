@@ -4,6 +4,7 @@ comments: true
 title: "My ZNC config"
 category: [english]
 tags: [irc, english]
+published: false
 ---
 
 Some time ago I thought that I could write about this (or at least my

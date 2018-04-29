@@ -4,6 +4,7 @@ comments: true
 title: "Stay away from Anope IRC Services"
 category: [english]
 tags: [irc, english]
+published: false
 ---
 
 This post is my experiences with developers of Anope IRC Services and with

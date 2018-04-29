@@ -4,6 +4,7 @@ comments: true
 title: "ChatSpike-style IRC network management"
 category: [english]
 tags: [english, IRC]
+published: false
 ---
 
 ChatSpike is the IRC network that is home to InspIRC and you might have
