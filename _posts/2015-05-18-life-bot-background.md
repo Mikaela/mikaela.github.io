@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title: "A little more on my life & background on bots"
+title: "A little more on my life"
 category: [english]
-tags: [english, IRC, life, bots, love]
+tags: [english, life, love]
 ---
 
 *More on my life and a little background on bots; also trigger warning
@@ -45,105 +45,3 @@ I was too anxious even without them, so I didn't tell the adult anything
 and there wouldn't have been any use in that as they didn't care about
 their behaviour anyway and it would have been my fault anyway for sitting
 there or annoying them just for existing.
-
-<!--
-
-* * * * *
-
-Then the bots and this is possibly the most triggering thing I am going to
-write.
-
-I got affiliated with Supybot around 2011, first trying the stock Supybot,
-later Supybot git version, then gribble and finally Supybot-fr.
-
-On [2011-02-14](http://echelog.com/logs/browse/supybot/1297638000)
-@ProgVal/pinkieval asked me to translate it into Finnish and a little
-later it became Limnoria. There were also Italian and Hungarian
-translations at that time.
-
-Then there was nothing special for longer time other than IRC support
-and whatever you can find from the git history with the exception of
-offtopic chat which was tolerated at \#Limnoria at the time it was founded.
-
-I was depressed and suicidal (& dysphoric even if I didn't know the word at
-that time) and was often talked out of it there and long
-time later I learned who I was and came out as trans around 2013-10-22
-(nick Mikaela registered at freenode) and later started HRT by myself
-on 2013-12-30 and this is where what I am typing about begins...
-
-After starting HRT, I started having other feelings than dysphoria,
-anxiety, depression, suicidality etc. including romantic ones, on sexual
-orientation side I just "switched" from aromantic to (demi)romantic
-asexual.
-
-The dates are more unclear for this point of time, but I fell in love to
-@ProgVal/pinkieval and just kept it to myself for a long time. On 2014-03-20, I asked
-them if they knew any ace channels I could wonder my feelings on and the
-answer was negative and after further talking, we ended up founding
-[##abgilpqt+ - a channel for everyone](https://abgilpqt.github.io/about/)
-(which has had it's own share of drama, that I won't discuss here).
-
-At some point after that on one night we were talking again and I don't
-remember what we were exactly talking about (and reading logs would hurt
-far too much as you will learn later), and there was something I wasn't
-willing to say as I thought that they would hate me after it (they will
-hate me after this post, but I must open somewhere) and I said that I loved
-them. They apologized for not loving me (who would ever love me anyway),
-but within week on one night while I was sleeping I had gotten messages
-that they said that they loved me and were stupid for not realizing it.
-
-We were in long distance relationship for about year, dreaming about
-meeting each other in real life, taling about everything every day,
-but then I learned that they were in open relationship without telling me
-and the other relationship was formed after our one.
-
-I asked them about it and only got response that they didn't tell me about
-it so I wouldn't cry, which I did and next day I was unable to rise from
-bed and my fmily thought I had gotten influenza which my father had around
-that time, but I was better on the next day.
-
-That is not the definition of poly or open relationship, that is cheating
-or betraying your partner. I am anxious while writing this and I am
-still damaged by what they did <s>and I don't know if I will ever fully
-heal from that.</s> *I did, I am over them and don't feel pain when I
-hear their name or something related to them.*
-
-Some people might have heard that I have wondered if I was poly, it was
-because I didn't want to lose them, but the feelings were already lost,
-I was too broken <s>and I am not poly and I won't ever be in relationship
-with poly person again</s> and I will also avoid long distance
-relationships. I won't ever do that to another person and I won't let it
-happen to me again.
-
-<s>If I was in poly relationship, the other party would just use it as
-excuse to be as far from me as possible as anyone else is more beautiful or
-intelligent or allosexual or anything.</s> *That is not how it works.*
-
-*Times change, I strikethroughed some of the text above and wrote the part
-below during September. What happens will happen in the future, if it
-does. Below is how I introduced myself at the poly channel I was able
-to find.*
-
-<pre class="irclog">
-&lt;Mikaela&gt; Hi, I think I might be poly. I have bad experience with my ex in long distance relationship as I found out they were in another relationship and they didn't tell me anything about it, because (they change the reason) "I thought you would accept it" or "I didn't want to make you cry". I have since gotten over them and recently thinking and I don't know, maybe I am poly. I am having difficulties finding good
-&lt;Mikaela&gt; material that is meant to potentially poly people and I am a little lost with words and I think "open relationship", while being umbrella term, would describe me the best. From what I have understood the most important thing is COMMUNICATION and making rules with future partners, isn't it so? Is there anything I should especially read? I m currently not in relationship
-&lt;Mikaela&gt; which possibly makes things easier as long as I discuss this with potential partners?
-&lt;Mikaela&gt; (sorry, it seems I wrote longer wall of text than I intented)
-&lt;person1&gt; Wait... Mikaela?
-&lt;person1&gt; Hihi Mikaela
-&lt;Mikaela&gt; I didn't expect to see you at freenode and the last time I have talked with you it was just about how much that ex had hurt me and I think I had also made request that you didn't talk about anything poly to me, but people change
-&lt;Mikaela&gt; hi
-&lt;person1&gt; People do
-&lt;person2&gt; sometimes there's a reason an ex is an ex. :p
-&lt;person1&gt; Well I've been here a few months now, I think since April
-&lt;Mikaela&gt; it took someone to point me as it not being only about me, but freedom of partner too and then long discussions everywhere including asexual peer support group where someone else was in poly relationship
-&lt;Mikaela&gt; yes, cheating is a good reason and also them being totally uncommunicable nowadays
-&lt;person1&gt; I would have tried but I respected your want for me not to speak of poly stuff
-&lt;Mikaela&gt; I also wasn't over the ex at that time so I wouldn't have listened to you
-&lt;person1&gt; Mmm, it was quite some time ago
-</pre>
-
-*The log has been edited a little afterwards and reference to third person
- has been removed.*
-
- -->
