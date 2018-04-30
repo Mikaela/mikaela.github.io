@@ -35,17 +35,17 @@ with some protocols, I only list those which I mainly care about.
         <td>rJva gMvF CzJM rgMe zafR 9YMx JqVC uLKK jUpQ NQpM 1OE</td>
     </tr>
     <tr>
-        <td>Sedric_Arch</td>
-        <td>HBOCBHZWOK</td>
-        <td>V3Vi SFSO uJgu U86U fC2T lSzS dSii eZjb 5oWF 6n1/ 5/8</td>
+        <td>Sedric_Ubuntu_Flatpak-20180430</td>
+        <td>DHIUMYCGUN</td>
+        <td>jJTx FL+1 Jrpz 9CiC Lm4O AsaN X7ST TD6H qOmx /0jT W54</td>
     </tr>
     <tr>
-        <td>Sedric_Arch_nativefier-staging</td>
+        <td>Sedric_Ubuntu_nativefier-staging</td>
         <td>MZFHHEFQPQ</td>
         <td>DDiu IRAc Uta5 jF8g s03L 9yud Qdo1 k+BW emov U5ci DRU</td>
     </tr>
     <tr>
-        <td>Sedric_Arch_nativefier-develop</td>
+        <td>Sedric_Ubuntu_nativefier-develop</td>
         <td>NXORSGQBVR</td>
         <td>ajMU o422 krqd fW52 +/j1 Mjj2 QtLm mAup NJqX Bz2z hmM</td>
     </tr>
@@ -190,8 +190,8 @@ proves to not be the case, Wire will get removed from here.
             45 38 1c 52 c8 6e 62 d9 23 cb 86 87 9d e5 6c d6</td>
     </tr>
     <tr>
-        <td>Sedric Arch</td>
-        <td>⁠⁠b8 ef cb c4 55 9c de 0f c2 83 53 87 23 8e 95 15<br/>
+        <td>Sedric Ubuntu</td>
+        <t>⁠⁠b8 ef cb c4 55 9c de 0f c2 83 53 87 23 8e 95 15<br/>
             74 ad 1e 0e e3 90 72 c4 91 b9 e8 46 59 86 12 14</td>
     </tr>
     <tr>
