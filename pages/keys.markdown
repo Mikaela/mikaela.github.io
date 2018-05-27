@@ -104,8 +104,12 @@ with some protocols, I only list those which I mainly care about.
         <td>92B8D1C6 2BA2B932 8C2C0628 F9EE1742 D9E83134 3CE0D2B8 3309181F 9DCEA779</td>
     </tr>
     <tr>
-        <td>Sedric/Dino</td>
+        <td>Sedric/Dino-snap</td>
         <td>209e9851 a62a8b6d 283fd0a2 efaaac72 1e0ff389 f6570767 2fe70b60 2e402b64</td>
+    </tr>
+    <tr>
+        <td>Sedric/Dino-flatpak</td>
+        <td>2d45d85b 86002fca 473c7d62 b294e885 6861fc04 ec106394 9ecfae20 057c8317</td>
     </tr>
 </table>
 
