@@ -7,6 +7,7 @@ tags: [english, Telegram, tweets, private, messages, harassment]
 redirect_from:
   - /telegramtweets.html
   - /telegram-tweets.html
+published: false
 ---
 
 *I seem to have to tweet to Telegram often and as I refer to those tweets
