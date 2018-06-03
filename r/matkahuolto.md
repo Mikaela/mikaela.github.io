@@ -1,5 +1,5 @@
 ---
-redirect_to: https://liput.matkahuolto.fi/
+redirect_to: https://www.matkakeisari.fi/
 permalink: /r/matkahuolto.html
 sitemap: false
 ---
