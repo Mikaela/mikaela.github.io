@@ -16,8 +16,7 @@ This page contains key fingerprints that might interest you if you wish
 to communicate with me securely. In case I have multiple accounts
 with some protocols, I only list those which I mainly care about.
 
-*If you wish to verify these fingerprints without CloudFlare in the middle,
- [check this page at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
+*If you wish to verify these fingerprints [at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
 
 ## Matrix
 
@@ -102,6 +101,10 @@ with some protocols, I only list those which I mainly care about.
     <tr>
         <td>Sedric/Gajim</td>
         <td>92B8D1C6 2BA2B932 8C2C0628 F9EE1742 D9E83134 3CE0D2B8 3309181F 9DCEA779</td>
+    </tr>
+    <tr>
+        <td>Sedric/Flatpak</td>
+        <td>29E1BAF1 305F20CC 463F292E FA7D7898 7001762B 74D76759 573E05FB 5426BB27</td>
     </tr>
     <tr>
         <td>Sedric/Dino-snap</td>
