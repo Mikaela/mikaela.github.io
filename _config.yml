@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://mikaela.info" # the base hostname & protocol for your site
 twitter_username: Inaneierase
 github_username:  Mikaela
-facebook_username: mikaelahmsuomalainen
+#facebook_username: mikaelahmsuomalainen
 
 # Build settings
 markdown: kramdown
