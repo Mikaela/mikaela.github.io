@@ -16,7 +16,8 @@ This page contains key fingerprints that might interest you if you wish
 to communicate with me securely. In case I have multiple accounts
 with some protocols, I only list those which I mainly care about.
 
-*If you wish to verify these fingerprints [at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
+* *If you wish to verify these fingerprints [at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
+    * *[gitea.blesmrt.net mirror](https://gitea.blesmrt.net/mikaela/mikaela-info/src/branch/master/pages/keys.markdown)*
 
 ## Matrix
 
