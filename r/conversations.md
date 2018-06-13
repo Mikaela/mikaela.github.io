@@ -1,5 +1,5 @@
 ---
-redirect_to: https://f-droid.org/repository/browse/?fdfilter=conversations&fdid=eu.siacs.conversations
+redirect_to: https://f-droid.org/app/eu.siacs.conversations
 permalink: /r/conversations.html
 sitemap: false
 ---
