@@ -67,7 +67,9 @@ with some protocols, I only list those which I mainly care about.
 
 ## OMEMO/XMPP
 
-### Blesmrt.net
+### blesmrt.net
+
+* `xmpp COLON mikaela AT blesmrt DOT net`
 
 <table>
     <tr>
