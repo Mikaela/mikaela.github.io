@@ -19,6 +19,8 @@ with some protocols, I only list those which I mainly care about.
 * *If you wish to verify these fingerprints [at GitHub directly.](https://github.com/Mikaela/mikaela.github.io/blob/master/pages/keys.markdown)*
     * *[gitea.blesmrt.net mirror](https://gitea.blesmrt.net/mikaela/mikaela-info/src/branch/master/pages/keys.markdown)*
 
+<!--
+
 ## Matrix
 
 *My 3PIDs are currently linked to `at mikaela colon disroot dot org`.*
@@ -60,6 +62,8 @@ with some protocols, I only list those which I mainly care about.
         <td>pTZq qWA2 jXxI UqbD q+HO BKu1 bmLA ImvX TG7z vcrm ruo</td>
     </tr>
 </table>
+
+-->
 
 ## OMEMO/XMPP
 
