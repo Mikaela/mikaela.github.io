@@ -67,27 +67,6 @@ with some protocols, I only list those which I mainly care about.
 
 ## OMEMO/XMPP
 
-<!--
-
-### Disroot.org
-
-<table>
-    <tr>
-        <th>Device/Software</th>
-        <th>OMEMO Fingerprint</th>
-    </tr>
-    <tr>
-        <td>Sedric/Gajim</td>
-        <td>4EA259D3 D547EABE 68A42831 92906A76 B99EEFDC E042AA6B BE7B57BE 507D0A4C</td>
-    </tr>
-    <tr>
-        <td>Zaldaryn/Gajim</td>
-        <td>074E7143 A1B9655A DC33C849 AC8F5232 043D0B61 510F4FA8 EF525BFB FF5E3871</td>
-    </tr>
-</table>
-
--->
-
 ### Blesmrt.net
 
 <table>
@@ -120,41 +99,6 @@ with some protocols, I only list those which I mainly care about.
         <td>2d45d85b 86002fca 473c7d62 b294e885 6861fc04 ec106394 9ecfae20 057c8317</td>
     </tr>
 </table>
-
-<!--
-
-### Joindiaspora.com
-
-<table>
-    <tr>
-        <th>Device/Software</th>
-        <th>OMEMO Fingerprint</th>
-    </tr>
-    <tr>
-        <td>ONEPLUS A3003/Conversations</td>
-        <td>F341AD7C B2AC665B 1ACC1F2D E38D45E3 FAB05EA1 547719E7 620DA8EA 6458E91F</td>
-    </tr>
-    <tr>
-        <td>Sedric/Gajim</td>
-        <td>5BE02080 79C94E5F 15986BE6 F96C2C25 734D5212 2C9F65F2 15DB5CE1 57434B4D</td>
-    </tr>
-</table>
-
-
-### Kapsi.fi
-
-<table>
-    <tr>
-        <th>Device/Software</th>
-        <th>OMEMO Fingerprint</th>
-    </tr>
-    <tr>
-        <td>ONEPLUS A3003/Conversations</td>
-        <td>373EC2F8 F75D4717 2374B9D6 5D8DAA6E 8F07DF41 52808ABB 59942E92 5F6A8D4F</td>
-    </tr>
-</table>
-
--->
 
 ## OTR
 
