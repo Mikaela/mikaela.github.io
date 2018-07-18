@@ -100,6 +100,10 @@ with some protocols, I only list those which I mainly care about.
         <td>Sedric/Dino-flatpak</td>
         <td>2d45d85b 86002fca 473c7d62 b294e885 6861fc04 ec106394 9ecfae20 057c8317</td>
     </tr>
+	<tr>
+        <td>Sedric/WindowsP</td>
+        <td>B0633DBF D5FEA7C3 7AAD60B6 220827A6 D7321F28 9D1DC030 19D3B1E3 4674565F</td>
+    </tr>
 </table>
 
 ## OTR
