@@ -86,22 +86,10 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     <tr>
         <td>Sedric/Gajim</td>
-        <td>92B8D1C6 2BA2B932 8C2C0628 F9EE1742 D9E83134 3CE0D2B8 3309181F 9DCEA779</td>
-    </tr>
-    <tr>
-        <td>Sedric/Flatpak</td>
         <td>29E1BAF1 305F20CC 463F292E FA7D7898 7001762B 74D76759 573E05FB 5426BB27</td>
     </tr>
-    <tr>
-        <td>Sedric/Dino-snap</td>
-        <td>209e9851 a62a8b6d 283fd0a2 efaaac72 1e0ff389 f6570767 2fe70b60 2e402b64</td>
-    </tr>
-    <tr>
-        <td>Sedric/Dino-flatpak</td>
-        <td>2d45d85b 86002fca 473c7d62 b294e885 6861fc04 ec106394 9ecfae20 057c8317</td>
-    </tr>
 	<tr>
-        <td>Sedric/WindowsP</td>
+        <td>Sedric-Zaldaryn/WindowsP</td>
         <td>B0633DBF D5FEA7C3 7AAD60B6 220827A6 D7321F28 9D1DC030 19D3B1E3 4674565F</td>
     </tr>
 </table>
