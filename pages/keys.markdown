@@ -86,7 +86,11 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     <tr>
         <td>Sedric/Gajim</td>
-        <td>29E1BAF1 305F20CC 463F292E FA7D7898 7001762B 74D76759 573E05FB 5426BB27</td>
+        <td>92B8D1C6 2BA2B932 8C2C0628 F9EE1742 D9E83134 3CE0D2B8 3309181F 9DCEA779</td>
+    </tr>
+    <tr>
+        <td>Sedric/Gajim-flatpak</td>
+        <td>F06AE7B9 A4B1D4DC 79A5DED7 5A04D6A3 51B548D3 6A56E2CE 42493EB7 947C1E69</td>
     </tr>
 	<tr>
         <td>Sedric-Zaldaryn/WindowsP</td>
