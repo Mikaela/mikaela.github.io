@@ -1,4 +1,5 @@
 ---
+layout: null
 permalink: /or/duckduckgo.html
 redirect_from:
   - /or/ddg.html

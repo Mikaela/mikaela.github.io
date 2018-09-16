@@ -1,4 +1,5 @@
 ---
+layout: null
 permalink: /or/ahmia.html
 sitemap: false
 ---

@@ -1,4 +1,5 @@
 ---
+layout: null
 permalink: /or/cloudflaredns.html
 sitemap: false
 ---

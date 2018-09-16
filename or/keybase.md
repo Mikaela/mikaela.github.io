@@ -1,4 +1,5 @@
 ---
+layout: null
 permalink: /or/keybase.html
 sitemap: false
 ---

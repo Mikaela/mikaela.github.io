@@ -1,4 +1,5 @@
 ---
+layout: null
 permalink: /or/tordebian.html
 redirect_from:
   - /or/torubuntu.html
