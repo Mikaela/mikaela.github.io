@@ -19,7 +19,7 @@ install:
 
 script: 
   - jekyll build --drafts --profile
-  - html5validator --root _site/ --blacklist r
+  - html5validator --root _site/ --blacklist r or
 
 env:
   global:
