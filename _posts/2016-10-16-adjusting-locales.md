@@ -13,7 +13,7 @@ redirect_from:
  with different types of different locales unless some things are borrowed
  from other locales.*
 
-`% sudo localectl set-locale LANG=en_GB.UTF-8 LC_TIME=en_DK.UTF-8 LC_MONETARY=fi_FI.UTF-8 LC_NAME=fi_FI.UTF-8 LC_TELEPHONE=fi_FI.UTF-8`
+`% sudo localectl set-locale LANG=en_GB.utf8 LC_TIME=en_DK.utf8 LC_MONETARY=fi_FI.utf8 LC_NAME=fi_FI.utf8 LC_TELEPHONE=fi_FI.utf8`
 
 * LANG is the language and defaults for other variables if they are unset
   and as I said I prefer en_GB which is better in Europe for matching the
