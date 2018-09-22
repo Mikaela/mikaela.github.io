@@ -1,0 +1,64 @@
+---
+layout: page
+title: Browser extensions I often end up installing
+permalink: /browser-extensions.html
+sitemap: false
+excerpt: "List of links to browser extensions I often end up installing in new environments while missing access to sync."
+redirect_from:
+  - /firefox.html
+  - /firefox-extensions.html
+  - /firefox-addons.html
+  - /chrome.html
+  - /chromium.html
+---
+
+## Firefox containers
+
+* [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
+* [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/)
+* [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
+
+## Privacy
+
+* [Firefox: Cookie Autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
+    * [Chrome](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)
+* [Firefox: HTTPS Everywhere](https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/)
+    * [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
+* [Firefox: Privacy Badger](https://addons.mozilla.org/en-GB/firefox/addon/privacy-badger17/)
+    * [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
+* [Firefox: Decentraleyes](https://addons.mozilla.org/en-GB/firefox/addon/decentraleyes/)
+    * [Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
+    * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
+
+## Passwords
+
+* [Firefox: Bitwarden](https://addons.mozilla.org/en-GB/firefox/addon/bitwarden-password-manager/)
+    * [Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+
+## Misc
+
+* [Firefox: IPvFoo](https://addons.mozilla.org/en-GB/firefox/addon/ipvfoo-pmarks/)
+    * [Chrome](https://chrome.google.com/webstore/detail/ipvfoo/ecanpcehffngcegjmadlcijfolapggal)
+* [Firefox: Detect CloudFlare](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare/)
+
+* Firefox "about:config", "layout.css.devPixelsPerPx" to "1.25" or "2.0" on macOS Retina to increase font size.
+
+* [Firefox: Mind The Time](https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/)
+    * [Chrome equivalent: Webtime tracker](https://chrome.google.com/webstore/detail/webtime-tracker/ppaojnbmmaigjmlpjaldnkgnklhicppk)
+
+* [Chrome: RSS](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
+
+## Firefox Dictionaries
+
+* [Esperanto](https://addons.mozilla.org/en-US/firefox/addon/esperanta-vortaro/)
+* [UK English](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/)
+* [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-spell-checking-dictionar/)
+* [Swedish](https://addons.mozilla.org/en-US/firefox/addon/g%C3%B6rans-hemmasnickrade-ordli/)
+
+## Tor
+
+* [Firefox: Privacy Pass](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)
+    * [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi)
+    * May reduce captchas with CloudFlare.
+* [Firefox: Healthy.Onion](https://addons.mozilla.org/en-US/firefox/addon/healthy-onion/)
+    * **Only for Tor Browser** or other browser going through Tor all the time as it redirects clearnet addresses to Tor .onion hidden services that cannot be accessed outside of Tor.
