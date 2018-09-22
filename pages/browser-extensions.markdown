@@ -39,6 +39,7 @@ redirect_from:
 
 * [Firefox: IPvFoo](https://addons.mozilla.org/en-GB/firefox/addon/ipvfoo-pmarks/)
     * [Chrome](https://chrome.google.com/webstore/detail/ipvfoo/ecanpcehffngcegjmadlcijfolapggal)
+
 * [Firefox: Detect CloudFlare](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare/)
 
 * Firefox "about:config", "layout.css.devPixelsPerPx" to "1.25" or "2.0" on macOS Retina to increase font size.
@@ -47,6 +48,14 @@ redirect_from:
     * [Chrome equivalent: Webtime tracker](https://chrome.google.com/webstore/detail/webtime-tracker/ppaojnbmmaigjmlpjaldnkgnklhicppk)
 
 * [Chrome: RSS](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
+
+* [Firefox: IPFS Companion](https://addons.mozilla.org/en-US/firefox/addon/ipfs-companion/)
+    * [Chrome](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)
+    * At the time of writing, 2018-09-22, I consider IPFS as
+      **incompatible with Tor Browser** as Tor browser would use the local
+      IPFS daemon, which **is not using Tor** and thus the IPFS network
+      **could see your real IP** especially if not many nodes are
+      requesting the fetched content.
 
 ## Firefox Dictionaries
 
