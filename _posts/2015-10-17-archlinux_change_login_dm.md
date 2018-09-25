@@ -1,13 +1,15 @@
 ---
 layout: post
 comments: true
-title: "Changing Display Manager (login screen) with Antergos"
+title: "Changing Display Manager (login screen) with Arch Linux"
 category: [english]
-tags: [arch, linux, display manager, antergos]
-redirect_from: /antergos-dm.html
+tags: [arch, linux, display manager]
+redirect_from:
+  - /antergos-dm.html
+  - /english/2015/10/17/antergos_change_login_dm.html
 ---
 
-*Also applies to Arch & other distributions based on it, how do you change
+*Also applies to other distributions based on it, how do you change
  the display manager, aka login screen.*
 
 * `--needed` makes pacman not install packages that are already installed.
@@ -20,12 +22,6 @@ redirect_from: /antergos-dm.html
   support for `sudo passwd -de user` [sddm/sddm#472](https://github.com/sddm/sddm/issues/472)
 
 ## LightDM gtk greeter
-
-*Many lightdm issues are caused by greeter, so I am telling how to change
- it.* ***However if you encounter issues with Antergos default greeter,
- report them at [github.com/Antergos/antergos-packages/issues](https://github.com/Antergos/antergos-packages/issues?q=is:open+lightdm)!*** *If they
- are already reported, give the issues a +1 from top right of the issue
- details box (looks like +☺).*
 
 * `sudo pacman --needed -S lightdm lightdm-gtk-greeter accountsservice numlockx`
 
