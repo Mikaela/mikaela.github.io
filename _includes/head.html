@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/master/avatar.jpeg">
+  <link rel="icon" href="{{site.avatar}}">
   <title>{% if page.title %}{{ page.title }} ~~ {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | nstrip_html | strip_newlines }}{% endif %}">
 
@@ -19,12 +19,12 @@
  <meta name="twitter:site" content="@Inaneierase" />
  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} ~~ {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | nstrip_html | strip_newlines }}{% endif %}" />
- <meta name="twitter:image" content="https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/master/avatar.jpeg"/>
+ <meta name="twitter:image" content="{{site.avatar}}"/>
  <!-- Facebook -->
  <meta property="fb:app_id" content="1550553165222890" />
  <meta name="og:title" content="{% if page.title %}{{ page.title }} ~~ {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
  <meta name="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | nstrip_html | strip_newlines }}{% endif %}" />
  <meta name="og:site_name" content="MikaeladDotInfo" />
- <meta name="og:image" content="https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/master/avatar.jpeg"/>
+ <meta name="og:image" content="{{site.avatar}}"/>
  <meta name="flattr:id" content="7j1ne6">
 </head>

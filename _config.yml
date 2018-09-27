@@ -28,6 +28,8 @@ sitemap:
     file: "/sitemap.xml"
 include: [PGP, PHP, keybase.txt, robots.txt]
 
+avatar: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/master/avatar.jpeg
+
 # {{ipfs}}/IPFSHASHHERE to get ipfs link via gateway. Hopefully future
 # proof letting me simply swap the link here instead of changing it
 # everywhere in case I will start using it.
