@@ -3,8 +3,27 @@ layout: post
 comments: true
 title: "dnscrypt-proxy v2 on Debian/Ubuntu quickly, dirtily"
 category: [english]
-tags: [english, FIXME]
+tags: [english, dnscrypt, dns, dnscrypt-proxy]
+redirect_from:
+  - /dnscrypt.html
+  - /dnscrypt-proxy.html
 ---
+
+*DNSCrypt-proxy encrypts DNS queries that would otherwise go in plaintext
+ ensuring that they won't be seen or modified by anyone in the middle. It
+ works as a localhost DNS server sending queries to configured DNS
+ resolvers.*
+
+I guess I should also say why you would want dnscrypt v1 vs v2. v1 which is in most of repos uses broken resolver by default and only supports one
+resolver while v2 can use multiple ones and compares them for which is the
+best one.
+
+This post is on getting v2 to Debian Stable and Ubuntu pre 18.10 which
+contain v1 and I don't know a better way to do this.
+
+FIXING THIS POST IS HEAVILY WORK IN PROGRESS!"
+
+* * * * *
 
 *This is very hastily written and ~~may~~ will contain errors and will
 hopefully be fixed soonish*
