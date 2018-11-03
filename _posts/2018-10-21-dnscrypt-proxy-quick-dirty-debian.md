@@ -14,36 +14,58 @@ redirect_from:
  works as a localhost DNS server sending queries to configured DNS
  resolvers.*
 
-I guess I should also say why you would want dnscrypt v1 vs v2. v1 which is in most of repos uses broken resolver by default and only supports one
-resolver while v2 can use multiple ones and compares them for which is the
-best one.
+I guess I should also say why you would want dnscrypt v1 vs v2. V1 which
+is in most of repos currently uses broken resolver by default and only
+supports one resolver at a time, while v2 can use multiple of them while
+comparing them for the best ones.
 
 This post is on getting v2 to Debian Stable and Ubuntu pre 18.10 which
-contain v1 and I don't know a better way to do this.
+contain v1 and I (sadly) don't know a better way to do this.
 
-FIXING THIS POST IS HEAVILY WORK IN PROGRESS!"
+In order to check which version your distro has available, check the
+dnscrypt-proxy search page for your distribution:
+
+* [Debian](https://packages.debian.org/dnscrypt-proxy)
+    * 2018-11-03: the version in *stretch (stable)* is `1.9.4-1` which has
+      the issues why I wrote this post.
+* [Ubuntu](https://packages.ubuntu.com/dnscrypt-proxy)
+    * 2018-11-03: I cannot find dnscrypt-proxy from Ubuntu at all, while I
+      am sure it previously had the Debian version 1.
 
 * * * * *
 
-*This is very hastily written and ~~may~~ will contain errors and will
-hopefully be fixed soonish*
+1. Update your local apt cache `sudo apt update` and install curl that will
+be used for downloading the package from Debian `sudo apt-get install curl`
 
-1. `sudo apt-get install curl`
+Check the version number at [Debian's dnscrypt-proxy package download page](https://packages.debian.org/sid/amd64/dnscrypt-proxy/download and fix it below):
 
-As at the time of writing Debian Stable and Ubuntu include old
-dnscrypt-proxy v1 which doesn't work by default download a new version from
-Debian unstable (which you aren't supposed to do, but it has worked for me
-on multiple systems):
+2: download the package`curl -LO https://deb.debian.org/debian/pool/main/d/dnscrypt-proxy/dnscrypt-proxy_2.0.16-2_amd64.deb`
 
-Check the version number at https://packages.debian.org/sid/amd64/dnscrypt-proxy/download and fix it below:
+**WARNING: This part is not supported by either Debian or Ubuntu, you are
+  taking a package from another distribution and attempting to install it
+  on another.**
 
-`curl -LO https://deb.debian.org/debian/pool/main/d/dnscrypt-proxy/dnscrypt-proxy_2.0.16-2_amd64.deb`
+**WARNING: Usually when you use apt, it will verify package signatures and
+  ensure that the package hasn't been tampered with. I have no idea how to
+  do that with direct downloads (if it's even possible) so you will be
+  trusting the Debian repository mirror or CDN blindly.**
 
-`sudo dpkg -i dnscrypt-proxy<TAB>`
+3. install the package you downloaded: `sudo dpkg -i dnscrypt-proxy<TAB>`
+   (TAB (above capslock) automatically completes rest of the filename for
+   you).
+   1. In case there was a problem, attmept `sudo apt-get install -f` to fix
+      broken package depedencies. **Remember to check that what it suggests
+      looks reasonable!** If it asks to remove dnscrypt-proxy, you are out
+      of luck and should do that instead of attempting to replace important
+      system components from another distribution (creating
+      "Frankendebian").
 
-Hopefully dnscrypt-proxy is now running, check `journalctl -u dnscrypt-proxy`, there should be a line like `Oct 21 14:08:15 sedric dnscrypt-proxy[1120]: [2018-10-21 14:08:15] [NOTICE] Wiring systemd TCP socket #0, dnscrypt-proxy.socket, 127.0.2.1:53`
+Hopefully dnscrypt-proxy is now running, check
+`journalctl -u dnscrypt-proxy`, there should be a line saying
+`[NOTICE] Wiring systemd TCP socket #0, dnscrypt-proxy.socket, 127.0.2.1:53`
 
-Edit `/etc/NetworkManager/NetworkManager.conf`, it should say say `dns=none`
+Edit `/etc/NetworkManager/NetworkManager.conf` to avoid overlapping
+resolvers breaking each other, it should say say `dns=none`
 e.g.:
 
 ```
@@ -52,7 +74,8 @@ plugins=ifupdown,keyfile
 dns=none
 ```
 
-if it doesn't say dns=none, fix it and restart `systemctl restart NetworkManager`
+if it doesn't say dns=none, fix it and restart it with:
+`systemctl restart NetworkManager`
 
 Edit your /etc/resolv.conf, for example:
 
@@ -72,12 +95,21 @@ options edns0 single-request-reopen
 #search mikaela.info
 ```
 
-Nameserver is the host where dnscrypt-proxy says to listen on, options are
-from dnscrypt-proxy documentation and search is domains that are
-automatically searched for if you don't use FQDN, e.g. `ssh machine` in
-my (uncommented) config would turn into `ssh machine.mikaela.info`.
+Nameserver is the host where dnscrypt-proxy said to be listening on in
+journalctl, options are from dnscrypt-proxy documentation and search means
+domains that are automatically searched for if you don't use fully
+qualified domain names, e.g. `ssh machine` in my (uncommented) config
+would turn into `ssh machine.mikaela.info`.
 
-I hope I remember everything, but this is a bit hasty writing and the GPG
-signature or anything isn't verified and I hope I will fix this later...
+You should also tell dhclient to not touch resolv.conf or you may get many
+files into `/etc` beginning with names `resolv.conf.dhclient-new.`
+according to
+[Debian wiki](https://wiki.debian.org/resolv.conf#Stop_dhclient_from_modifying_.2Fetc.2Fresolv.conf) which gives the following two commands and
+[Debian bug 860928](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=860928):
 
-for the curious my dnscrypt-proxy config https://github.com/Mikaela/shell-things/tree/master/etc/dnscrypt-proxy
+```bash
+echo 'make_resolv_conf() { :; }' > /etc/dhcp/dhclient-enter-hooks.d/leave_my_resolv_conf_alone
+chmod 755 /etc/dhcp/dhclient-enter-hooks.d/leave_my_resolv_conf_alone
+```
+
+For the curious my dnscrypt-proxy config: https://github.com/Mikaela/shell-things/tree/master/etc/dnscrypt-proxy
