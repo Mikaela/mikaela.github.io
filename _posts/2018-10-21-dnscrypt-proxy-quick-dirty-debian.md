@@ -37,7 +37,8 @@ dnscrypt-proxy search page for your distribution:
 1. Update your local apt cache `sudo apt update` and install curl that will
 be used for downloading the package from Debian `sudo apt-get install curl`
 
-Check the version number at [Debian's dnscrypt-proxy package download page](https://packages.debian.org/sid/amd64/dnscrypt-proxy/download and fix it below):
+Check the version number at [Debian's dnscrypt-proxy package download page](https://packages.debian.org/sid/amd64/dnscrypt-proxy/download) and fix it
+below:
 
 2: download the package`curl -LO https://deb.debian.org/debian/pool/main/d/dnscrypt-proxy/dnscrypt-proxy_2.0.16-2_amd64.deb`
 
