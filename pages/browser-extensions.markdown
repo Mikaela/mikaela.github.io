@@ -56,6 +56,10 @@ redirect_from:
       IPFS daemon, which **is not using Tor** and thus the IPFS network
       **could see your real IP** especially if not many nodes are
       requesting the fetched content.
+* [Firefox: Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+* [Firefox: Foxy Proxy](https://addons.mozilla.org/fi/firefox/addon/foxyproxy-standard/)
+    * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
+    * Onions to Tor, I2P to I2P. [My rules]({{site.ipfs}}/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
 
 ## Firefox Dictionaries
 
