@@ -1,6 +1,4 @@
-# Trusty beta has everything I need in the mega image.
 sudo: required
-dist: trusty
 
 language: python
 python:
