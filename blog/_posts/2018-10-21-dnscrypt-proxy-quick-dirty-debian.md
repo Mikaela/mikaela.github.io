@@ -7,6 +7,7 @@ tags: [english, dnscrypt, dns, dnscrypt-proxy]
 redirect_from:
   - /dnscrypt.html
   - /dnscrypt-proxy.html
+  - /english/2018/10/21/dnscrypt-proxy-quick-dirty-debian.html
 ---
 
 *DNSCrypt-proxy encrypts DNS queries that would otherwise go in plaintext

@@ -4,6 +4,7 @@ comments: true
 title: "Autism or High Sensitivity: Sensory stimulus stress"
 category: [english]
 tags: [irc, english]
+redirect_from: /english/2017/09/29/as-hsp-sensory-stimulus-stress.html
 ---
 
 *Sensory stimulus stress (aistiärsykestressi) is a word that you hear from

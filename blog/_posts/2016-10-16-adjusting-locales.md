@@ -7,6 +7,7 @@ tags: [english, linux, locale]
 redirect_from:
   - /locale.html
   - /locales.html
+  - /english/2016/10/16/adjusting-locales.html
 ---
 
 *I have started using my devices in en_GB, but on PCs that can have issues

@@ -5,8 +5,9 @@ title: "IRC over TLS is not pointless"
 category: [english]
 tags: [english, IRC, SSL, TLS]
 redirect_from:
-- /irctls/
-- /ircssl/
+  - /irctls/
+  - /ircssl/
+  - /english/2015/04/22/IRC-over-TLS.html
 ---
 
 *IRC over TLS is not pointless unless you only worry about things that you

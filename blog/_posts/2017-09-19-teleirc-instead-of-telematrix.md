@@ -7,6 +7,7 @@ tags: [irc, english, Matrix]
 redirect_from:
   - /teleirc.html
   - /telematrix.html
+  - /english/2017/09/19/teleirc-instead-of-telematrix.html
 ---
 
 *FAQ at SailfishOS Fan Club: why everything was made worse for Matrix users?*

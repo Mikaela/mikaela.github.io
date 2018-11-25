@@ -8,6 +8,7 @@ redirect_from:
   - /reflector.html
   - /arch-reflector.html
   - /antergos-reflector.html
+  - /english/2015/10/09/arch-reflector.html
 ---
 
 *Reflector is a tool that checks the most recently upgraded Arch Linux

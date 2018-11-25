@@ -4,6 +4,7 @@ comments: true
 title: "Getting help from network operators with channel issues when ops are away"
 category: [english]
 tags: [irc, english]
+redirect_from: /english/2015/01/24/getting_help_with_channel_issues.html
 ---
 
 In case you wish network operators to help you when your channel operators

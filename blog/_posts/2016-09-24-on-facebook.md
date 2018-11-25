@@ -4,6 +4,7 @@ comments: true
 title: "On Facebook/my SOME policy"
 category: [english]
 tags: [english, SOME, facebook]
+redirect_from: /english/2016/09/24/on-facebook.html
 ---
 
 *My wellbeing is more imporant than whatever you do at SOME and I reserve

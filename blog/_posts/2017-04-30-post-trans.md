@@ -4,6 +4,7 @@ comments: true
 title: "Post trans process, orchiectomy"
 category: [english]
 tags: [english, life, buddhism]
+redirect_from: /english/2017/04/30/post-trans.html
 ---
 
 *A little confusing flood of what my fingers brought up on the last past

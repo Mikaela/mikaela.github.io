@@ -4,6 +4,7 @@ comments: true
 title: "irc & ircs links"
 category: [english]
 tags: [english, IRC]
+redirect_from: /english/2015/05/18/ircs_links.html
 ---
 
 *Yet another note-to-self post, but these links are confusing, how do you

@@ -4,6 +4,7 @@ comments: true
 title: "Stagefright rajoitusmahdollisuudet"
 category: [finnish]
 tags: [finnish, ficora, android]
+redirect_from: /finnish/2015/07/28/stagefright.html
 ---
 
 *Stagefright on haavoittuvuus Androidissa, jolla haittakoodia voi ajaa

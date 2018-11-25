@@ -4,6 +4,7 @@ comments: true
 title: "Short quickstart on tmux & WeeChat for GUIless support"
 category: [english]
 tags: [english, irc, tmux]
+redirect_from: /english/2016/03/09/weechat-tmux-quickstart.html
 ---
 
 *Sometimes you don't have GUI when you need remote support, luckily you

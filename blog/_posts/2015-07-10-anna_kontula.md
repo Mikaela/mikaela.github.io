@@ -4,6 +4,7 @@ comments: true
 title: "RE: Kontula ja häpeän ruoska"
 category: [finnish]
 tags: [finnish]
+redirect_from: /finnish/2015/07/10/anna_kontula.html
 ---
 
 *En yleensä puhu blogissani muien asioista, mutta tämä aihe menee liian

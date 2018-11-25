@@ -4,6 +4,7 @@ comments: true
 title: "Autostarting tmux + WeeChat"
 category: [english]
 tags: [english, irc, tmux, cron, weechat]
+redirect_from: /english/2016/03/14/autostart-tmux-weechat.html
 ---
 
 *This is another note-to-self post, but I think other people might also

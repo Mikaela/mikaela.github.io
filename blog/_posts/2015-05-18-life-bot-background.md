@@ -4,6 +4,7 @@ comments: true
 title: "A little more on my life"
 category: [english]
 tags: [english, life, love]
+redirect_from: /english/2015/05/18/life-bot-background.html
 ---
 
 *More on my life and a little background on bots; also trigger warning

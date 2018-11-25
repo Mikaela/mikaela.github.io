@@ -4,6 +4,7 @@ comments: true
 title: "Tanssitunti"
 category: [finnish]
 tags: [finnish, life, Kotka, keskuskoulu, talvi, liikunta]
+redirect_from: /finnish/2017/04/18/tanssitunti.html
 ---
 
 *Minusta tuntuu, että tästä pitäisi kirjoittaa nyt ja koska git/blogi ei
@@ -43,5 +44,5 @@ Lisää aiheesta:
  riippumattoman muunmoassa domainista ja polusta, mutta nyt en jaksa vaan
  siirryn ajankohtaisempaan blogaukseen.*
 
-* https://mikaela.info/english/2015/06/16/feelings.html
+* https://mikaela.info/blog/english/2015/06/16/feelings.html
 * https://mikaela.info/about#life

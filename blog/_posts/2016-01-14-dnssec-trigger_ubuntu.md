@@ -4,6 +4,7 @@ comments: true
 title: "dnssec-trigger on Ubuntu (MATE 16.04)"
 category: [english]
 tags: [IPv6, english]
+redirect_from: /english/2016/01/14/dnssec-trigger_ubuntu.html
 ---
 
 *I haven't ever gotten dnssec-trigger to work, but today based on IRC

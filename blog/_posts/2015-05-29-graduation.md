@@ -4,6 +4,7 @@ comments: true
 title: "Graduation"
 category: [english]
 tags: [english, life]
+redirect_from: /english/2015/05/29/graduation.html
 ---
 
 As my blog is so full of suicidality and depression and how I won't

@@ -4,6 +4,7 @@ comments: true
 title: "Channels & Hostmask groups: A basic Howto"
 category: [english]
 tags: [irc, english]
+redirect_from: /english/2015/01/10/channels-hostmask-groups-a-basic-howto.html
 ---
 
 @Annwenn got me opering at her network after long pause with my opering.

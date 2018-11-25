@@ -4,7 +4,9 @@ comments: true
 title: "Keep the ops opped"
 category: [english]
 tags: [irc, english]
-redirect_from: /noops.html
+redirect_from:
+  - /noops.html
+  - /english/2015/04/01/keep-the-ops-opped.html
 ---
 
 *Why I think that you should keep the ops opped instead of following

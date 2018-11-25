@@ -4,6 +4,7 @@ comments: true
 title: "(Un)Setting umodes"
 category: [english]
 tags: [english, IRC, HexChat, ZNC]
+redirect_from: /english/2015/06/03/setting-umodes.html
 ---
 
 *As I have written more about umodes than I thought, I am breaking the

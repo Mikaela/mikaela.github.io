@@ -4,7 +4,9 @@ comments: true
 title: "How to act around trans woman?"
 category: [english]
 tags: [english, trans]
-redirect_from: /1.html
+redirect_from:
+  - /1.html
+  - /english/2015/09/09/act-around-trans.html
 ---
 
 So you have discovered that I am trans? What should you do? It has nothing

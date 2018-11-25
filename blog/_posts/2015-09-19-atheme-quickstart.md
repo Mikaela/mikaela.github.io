@@ -9,6 +9,7 @@ redirect_from:
   - /chanserv.html
   - /groupserv.html
   - /atheme.html
+  - /english/2015/09/19/atheme-quickstart.html
 ---
 
 Atheme IRC Services is the most used IRC service package. However many

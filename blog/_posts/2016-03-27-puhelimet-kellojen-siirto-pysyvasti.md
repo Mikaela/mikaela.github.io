@@ -4,6 +4,7 @@ comments: true
 title: "Mitä puhelimet tekisivät jos kelloja siirrettäisiin pysyvästi"
 category: [finnish]
 tags: [finnish, kellot, puhelimet, kellojen siirto, kesäaika, talviaika, normaaliaika]
+redirect_from: /finnish/2016/03/27/puhelimet-kellojen-siirto-pysyvasti.html
 ---
 
 *En tiedä ajatteleeko tai pelkääkö kukaan tätä seurausta kellojen siirrosta
