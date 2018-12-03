@@ -114,4 +114,19 @@ echo 'make_resolv_conf() { :; }' > /etc/dhcp/dhclient-enter-hooks.d/leave_my_res
 chmod 755 /etc/dhcp/dhclient-enter-hooks.d/leave_my_resolv_conf_alone
 ```
 
-For the curious my dnscrypt-proxy config: https://github.com/Mikaela/shell-things/tree/master/etc/dnscrypt-proxy
+* * * * *
+
+**WARNING from 2018-10-21!** It appears that the cache and log directories
+of dnscrypt-proxy don't sometimes get created automatically (at least on
+Debian GNU/Linux 9.6 (stretch).
+
+If this happens to you or you would like to be sure to get them:
+
+```
+sudo mkdir -p /var/cache/dnscrypt-proxy/ /var/log/dnscrypt-proxy/
+sudo chown -R _dnscrypt-proxy:nogroup /var/cache/dnscrypt-proxy /var/log/dnscrypt-proxy
+```
+
+* * * * *
+
+For the curious my dnscrypt-proxy config [is in my shell-things repository](https://github.com/Mikaela/shell-things/tree/master/etc/dnscrypt-proxy) [mirror](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/dnscrypt-proxy).
