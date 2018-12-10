@@ -50,6 +50,10 @@ with some protocols, I only list those which I mainly care about.
         <td>Sedric-Zaldaryn/WindowsP</td>
         <td>B0633DBF D5FEA7C3 7AAD60B6 220827A6 D7321F28 9D1DC030 19D3B1E3 4674565F</td>
     </tr>
+    <tr>
+        <td>Nokia 1/Conversations</td>
+        <td>BE1E4E24 ECBD7DC4 0C3C4119 AE575B45 7DFDFD7D F11F14A0 79070F76 1CA66138</td>
+    </tr>
 </table>
 
 ## OTR
