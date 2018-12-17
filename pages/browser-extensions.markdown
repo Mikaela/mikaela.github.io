@@ -12,6 +12,8 @@ redirect_from:
   - /chromium.html
 ---
 
+* [Ecosia search engine at Mycroft Project](https://mycroftproject.com/search-engines.html?name=ecosia.org)
+
 ## Firefox containers
 
 * [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
@@ -40,9 +42,15 @@ redirect_from:
 * [Firefox: IPvFoo](https://addons.mozilla.org/en-GB/firefox/addon/ipvfoo-pmarks/)
     * [Chrome](https://chrome.google.com/webstore/detail/ipvfoo/ecanpcehffngcegjmadlcijfolapggal)
 
-* [Firefox: Detect CloudFlare](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare/)
+<!-- * [Firefox: Detect CloudFlare](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare/) -->
 
-* Firefox "about:config", "layout.css.devPixelsPerPx" to "1.25" or "2.0" on macOS Retina to increase font size.
+* Firefox "about:config":
+    * `layout.css.devPixelsPerPx` to `1.25` or `2.0` on macOS Retina to increase font size.
+    * `privacy.resistFingerprinting` = `true` multiple effects to make your
+    browser appear less unique, the ones I have found/understood:
+        * warns if `intl.accept_languages` is not `en-US, en` .
+        * starts the browser with common size (I love this on big displays).
+        * spoofs the user-agent as the latest Firefox ESR version.
 
 * [Firefox: Mind The Time](https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/)
     * [Chrome equivalent: Webtime tracker](https://chrome.google.com/webstore/detail/webtime-tracker/ppaojnbmmaigjmlpjaldnkgnklhicppk)
@@ -61,6 +69,8 @@ redirect_from:
     * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
     * Onions to Tor, I2P to I2P. [My rules]({{site.ipfs}}/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
 * [Firefox: Tab Counter](https://addons.mozilla.org/en-US/firefox/addon/tab-counter-webext/)
+* [Firefox: Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/)
+* [Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/fi/firefox/addon/text-contrast-for-dark-themes/)
 
 ## Firefox Dictionaries
 
