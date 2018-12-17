@@ -44,10 +44,10 @@ and I should update-*
       without invite. All posts get propagated between servers no matter
       which pod you and I use, just remember to add
       `ciblia@joindiaspora.com`.
-* [DigitalOcean](https://www.digitalocean.com/?refcode=ed2a94e7eb56)
-    * "*Everyone you refer gets $10 in credit. Once they’ve accumulated $25
-      in billings, you get $25. There is no limit on the amount of credit
-      you can earn through referrals.*"
+* [DigitalOcean](https://m.do.co/c/ed2a94e7eb56)
+    * "*Everyone you refer gets $100 in credit over 60 days. Once they’ve
+      spent $25 with us, you'll get $25. There is no limit to the amount
+      of credit you can earn through referrals.*"
 * [Foodora](https://bnc.lt/YR5e/4zjo1gF4ev)
     * *Hi, this is 5€ for your first purhace* or something like that.
 * [LastPass](https://lastpass.eu/f?884346)
