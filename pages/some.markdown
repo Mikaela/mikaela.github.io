@@ -49,7 +49,7 @@ and I should update-*
       spent $25 with us, you'll get $25. There is no limit to the amount
       of credit you can earn through referrals.*"
 * [Foodora](https://bnc.lt/YR5e/4zjo1gF4ev)
-    * *Hi, this is 5€ for your first purhace* or something like that.
+    * *Hi, this is 5€ for your first purchase* or something like that.
 * [LastPass](https://lastpass.eu/f?884346)
     * "*For every friend that signs up for LastPass, you both get 1 month
       free Premium (up to a limit of 2 years)!*"
