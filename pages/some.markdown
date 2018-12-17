@@ -47,3 +47,7 @@ and I should update-*
       and makes their first order, they get a €5.00 discount and you get
       €5.00 worth in credits. Happy sharing!*"
         * `93O1`
+* [N26](https://n26.com/r/mikaelas0922)
+    * `mikaelas0922`
+* [Revolut](https://revolut.com/r/mikaeldmt)
+* [TransferWise](https://transferwise.com/u/mikaelas18)
