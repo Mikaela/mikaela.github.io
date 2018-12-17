@@ -38,29 +38,10 @@ and I should update-*
 
 ## Referral links
 
-* [Diaspora](https://joindiaspora.com/i/0d50c7e1cbed)
-    * You can register on joindiaspora.com which is invite-only, but
-      you could always register on [some other pod](https://podupti.me/)
-      without invite. All posts get propagated between servers no matter
-      which pod you and I use, just remember to add
-      `ciblia@joindiaspora.com`.
 * [DigitalOcean](https://m.do.co/c/ed2a94e7eb56)
     * "*Everyone you refer gets $100 in credit over 60 days. Once they’ve
       spent $25 with us, you'll get $25. There is no limit to the amount
       of credit you can earn through referrals.*"
-* [Foodora](https://bnc.lt/YR5e/4zjo1gF4ev)
-    * *Hi, this is 5€ for your first purhace* or something like that.
-* [LastPass](https://lastpass.eu/f?884346)
-    * "*For every friend that signs up for LastPass, you both get 1 month
-      free Premium (up to a limit of 2 years)!*"
-* [Uber](https://www.uber.com/invite/mikaelas351ue)
-    * "*All your friends who give the invite code when joining get their
-        first trip for free (value depends on the country). When they use
-        the code, you get automatically free drive (value 10€ at maximum)
-        when you use Uber for the next time. Offer is not valid for
-        UberTaxi.*
-        * (The above is free translation from Finnish to English.)
-            * `mikaelas351ue`
 * [Wolt](http://get.woltapp.com/93O1)
     * "*Every time a new friend signs up to Wolt with your personal code
       and makes their first order, they get a €5.00 discount and you get
