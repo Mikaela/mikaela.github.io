@@ -31,6 +31,9 @@ redirect_from:
 * [Firefox: Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
     * [Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
     * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
+* [Firefox: Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)
+    * Copied from [PrivacyTools.io](https://privacytools.io), cleans Google
+      results links.
 
 ## Passwords
 
@@ -72,6 +75,7 @@ redirect_from:
 * [Firefox: Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/)
 * [Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)
 * [Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)
+Name[zh_CN]=红移
     * I especially like *nicer dark* with Memrise.
 
 ## Firefox Dictionaries
