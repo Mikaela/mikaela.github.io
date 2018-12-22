@@ -24,22 +24,22 @@ redirect_from:
 
 * [Firefox: Cookie Autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
     * [Chrome](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)
-* [Firefox: HTTPS Everywhere](https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/)
+* [Firefox: HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
     * [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
-* [Firefox: Privacy Badger](https://addons.mozilla.org/en-GB/firefox/addon/privacy-badger17/)
+* [Firefox: Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
     * [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
-* [Firefox: Decentraleyes](https://addons.mozilla.org/en-GB/firefox/addon/decentraleyes/)
+* [Firefox: Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
     * [Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
     * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
 
 ## Passwords
 
-* [Firefox: Bitwarden](https://addons.mozilla.org/en-GB/firefox/addon/bitwarden-password-manager/)
+* [Firefox: Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
     * [Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
 
 ## Misc
 
-* [Firefox: IPvFoo](https://addons.mozilla.org/en-GB/firefox/addon/ipvfoo-pmarks/)
+* [Firefox: IPvFoo](https://addons.mozilla.org/en-US/firefox/addon/ipvfoo-pmarks/)
     * [Chrome](https://chrome.google.com/webstore/detail/ipvfoo/ecanpcehffngcegjmadlcijfolapggal)
 
 <!-- * [Firefox: Detect CloudFlare](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare/) -->
@@ -65,12 +65,14 @@ redirect_from:
       **could see your real IP** especially if not many nodes are
       requesting the fetched content.
 * [Firefox: Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
-* [Firefox: Foxy Proxy](https://addons.mozilla.org/fi/firefox/addon/foxyproxy-standard/)
+* [Firefox: Foxy Proxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
     * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
     * Onions to Tor, I2P to I2P. [My rules]({{site.ipfs}}/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
 * [Firefox: Tab Counter](https://addons.mozilla.org/en-US/firefox/addon/tab-counter-webext/)
 * [Firefox: Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/)
-* [Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/fi/firefox/addon/text-contrast-for-dark-themes/)
+* [Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)
+* [Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)
+    * I especially like *nicer dark* with Memrise.
 
 ## Firefox Dictionaries
 
