@@ -1,5 +1,5 @@
 ---
-redirect_to: http://ingress.wikia.com/wiki/Ingress
+redirect_to: https://ingress.wikia.com/wiki/Ingress
 permalink: /r/ingress.html
 sitemap: false
 ---

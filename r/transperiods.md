@@ -1,5 +1,5 @@
 ---
-redirect_to: http://www.theestablishment.co/2016/05/31/yes-trans-women-can-get-period-symptoms/
+redirect_to: https://medium.com/the-establishment/yes-trans-women-can-get-period-symptoms-e43a43979e8c
 permalink: /r/transperiods.html
 sitemap: false
 ---
