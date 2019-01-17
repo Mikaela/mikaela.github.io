@@ -86,3 +86,20 @@ do support `_nomap`/`_optout`:
 if it looks very messy to me and I haven't even took any anxiety medicines
 last night or today so my head should be working a lot better than it
 currently does.*
+
+* * * * *
+
+2019-01-17: I don't know how to start updating this post, but I would
+like to add a few things ~three years later:
+
+* There is no need for the `_optout` part since 2016, see e.g. [KrebsonSecurity](https://krebsonsecurity.com/2016/05/microsoft-disables-wi-fi-sense-on-windows-10/).
+* Christian Haschek's blog showed me that people are actually doing checking
+  WLAN locations from WiGLE and it's not only my mental health or anxiety
+  more than three years ago.
+    * [The curious case of the Raspberry Pi in the network closet](https://blog.haschek.at/2018/the-curious-case-of-the-RasPi-in-our-network.html)
+* I nowadays represent 5 GHz networks as `SSID_fast_nomap`, because fast
+  is  more obvious to not technical people wondering which one to pick
+  compared to the number, but in public places I drop the `_nomap` as SSID
+  works as a free advertisement.
+    * I think I copied this idea from someone at IRC, but I have forgotten
+      whom and it's possible they wouldn't even wish to be attributed.
