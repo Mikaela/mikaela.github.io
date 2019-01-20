@@ -19,7 +19,7 @@ Today I renamed my primary WLAN network (hereafter referred as SSID) to
 `SSID_optout_nomap`.
 
 * `_optout` when included in WLAN network name should opt your network out
-  of Microsoft's [WiFi Sense](http://windows.microsoft.com/en-us/windows-10/wi-fi-sense-faq).
+  of Microsoft's [WiFi Sense](https://windows.microsoft.com/en-us/windows-10/wi-fi-sense-faq).
     * TL;DR: when enabled all your Facebook/Outlook/Skype contacts can
       connect to your encrypted WLAN without knowing the password (which
       they don't get).

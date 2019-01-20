@@ -17,7 +17,7 @@ I am 19 years old trans woman who also has Asperger's syndrome
 studying <s>for vocational qualification in business information
 technology</s> or would be studying if there wasn't one "small bullying
 issue." I haven't been at
-[Etelä-Kymenlaakso vocational college](http://ekami.fi/in-english) for
+[Etelä-Kymenlaakso vocational college](https://ekami.fi/in-english) for
 month and more.
 
 It started some time ago when I went there and it was mainly in three
@@ -50,8 +50,8 @@ appointment, please contact me using Wilma (place to message teachers
 etc.)" so we wasted time 50 minutes per trip from [Kotka] to [Hamina] and
 [Hamina] to [Kotka].
 
-[Kotka]:http://www.kotka.fi/en/residents
-[Hamina]:http://hamina.fi/en/About%20Hamina
+[Kotka]:https://www.kotka.fi/en/residents
+[Hamina]:https://hamina.fi/en/
 
 * * * * *
 
@@ -70,13 +70,13 @@ and drinking energy drinks.
 There is also another issue, me being scared of real work environment, but
 nothing can be done to it now and the fear will just be moved to trouble
 either my next school that I have thought to be
-[KyUAS](http://www.kyamk.fi/Frontpage) (but it seems likely that I will
+[KyUAS](https://www.kyamk.fi/Frontpage) (but it seems likely that I will
 try to get to [Helsinki] or [Jyväskylä] and study there as people have
 offered to help me find apartment either from there) or anywhere where I
 will work in the future if I ever will.
 
-[Helsinki]:http://www.hel.fi/www/helsinki/en
-[Jyväskylä]:http://www.hel.fi/www/helsinki/en
+[Helsinki]:https://www.hel.fi/www/helsinki/en
+[Jyväskylä]:https://www.hel.fi/www/helsinki/en
 
 The school also offered to also give remote tasks, but it was too late and
 I don't feel like I can do anything anymore as the school hasn't done

@@ -110,8 +110,8 @@ These also answer by giving you link to the paste.
 * tmux
     * [my ~/.tmux/tmux.conf](https://github.com/Mikaela/shell-things/blob/master/conf/tmux.conf)
     * Hawk Host Blog *which was very helpful to me when I started using tmux.*
-        * [TMUX – The Terminal Multiplexer (Part 1)](http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/)
-        * [TMUX – The Terminal Multiplexer (Part 2)](http://blog.hawkhost.com/2010/07/02/tmux-%E2%80%93-the-terminal-multiplexer-part-2/)
+        * [TMUX – The Terminal Multiplexer (Part 1)](https://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/)
+        * [TMUX – The Terminal Multiplexer (Part 2)](https://blog.hawkhost.com/2010/07/02/tmux-%E2%80%93-the-terminal-multiplexer-part-2/)
     * `man tmux`
 * WeeChat
     * [WeeChat documentation index (multiple languages](https://weechat.org/doc/)

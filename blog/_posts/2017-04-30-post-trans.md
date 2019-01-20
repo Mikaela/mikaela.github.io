@@ -38,7 +38,7 @@ time mentally suffering from depression, AvPD (it was confirmed and I
 healed, but that later in this post), anxiety and everything. Thus everyone
 thought that I wouldn't have mental resources for the full genital surgery.
 
-If I recall correctly, I was complaining about this at [Transtukipiste](http://transtukipiste.fi/in-english/)
+If I recall correctly, I was complaining about this at [Transtukipiste](https://transtukipiste.fi/in-english/)
 (Trans support point, runs peer support groups and supports trans people
 otherwise) coffee evening and somehow I ended up wondering if I should
 try getting orchiectomy and someone encouraged me to ask. Could this have
@@ -138,7 +138,7 @@ future won't be like I think so why be stuck in imaginary future on my
 worseness?
 
 The books I read are *How To Be An Adult in Relationships* by
-*David Richo* (thanks to [attachment styles - a primer at the dirty normal](http://www.thedirtynormal.com/blog/2010/06/21/attachment-styles-a-primer/)
+*David Richo* (thanks to [attachment styles - a primer at the dirty normal](https://www.thedirtynormal.com/blog/2010/06/21/attachment-styles-a-primer/)
 which recommends a different book with similar name, so happy accident
 happened), *The Way Things Are* by *Lama Ole Nydahl* and *Living Dharma* by
 *Lama Yeshe Losaf*. I am also reading more books about the subject, those

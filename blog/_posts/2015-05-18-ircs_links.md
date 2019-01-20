@@ -37,4 +37,4 @@ best to me and I am against using channel keys as there are better ways
 to keep channel private (such as restricted or +i and +I to authorized
 people) and server passwords aren't used anywhere where I would encounter
 them, other than forwarding the password to NickServ, but that is depracted
-by [SASL](http://ircv3.net/specs/extensions/sasl-3.1.html).
+by [SASL](https://ircv3.net/specs/extensions/sasl-3.1.html).

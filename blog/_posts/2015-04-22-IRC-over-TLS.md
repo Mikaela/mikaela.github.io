@@ -71,7 +71,7 @@ the other people use SSL is passwords:
       and most of Finnish traffic goes through them.
     * 2015-04-23 https://en.wikipedia.org/w/index.php?title=National_Defence_Radio_Establishment&oldid=651267187#Legal_framework
     * 2015-04-23 https://en.wikipedia.org/w/index.php?title=National_Defence_Radio_Establishment&oldid=651267187#Mass_surveillance
-    * 2015-04-23 (in Finnish) http://www.hackingthroughcomplexity.fi/2013/10/ruotsin-verkkovalvonta-latakon.html / https://archive.is/iYrsl
+    * 2015-04-23 (in Finnish) https://www.hackingthroughcomplexity.fi/2013/10/ruotsin-verkkovalvonta-latakon.html / https://archive.is/iYrsl
 * UK - GCHQ
     * Cooperating with Sweden
     * 2015-04-23 https://en.wikipedia.org/w/index.php?title=Government_Communications_Headquarters&oldid=656835589#2000s:_Coping_with_the_Internet

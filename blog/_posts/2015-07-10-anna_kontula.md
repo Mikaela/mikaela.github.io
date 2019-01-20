@@ -32,7 +32,7 @@ paikoilta, joissa voin avautua ongelmistani.
 [freenode-harassment:ia GitHubissa](https://github.com/Mikaela/freenode-harassment)
 (Selkeämmin luettava versio (kaikki yhdessä tiedostossa) löytyy
 klikkaamalla "Mikaela/freenode-harassment" tekstin alla olevan viivan
-alapuolelta löytyvää `http://sprunge.us/` -alkuista linkkiä) ja lisää
+alapuolelta löytyvää `https://sprunge.us/` -alkuista linkkiä) ja lisää
 ongelmistani löytyy [tämän sivun linkkilistasta](https://mikaela.info/about#life).*
 
 Minulle on sanottu, että tämä on eri asia, koska kyseessä on julkinen

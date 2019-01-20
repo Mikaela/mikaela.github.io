@@ -12,7 +12,7 @@ redirect_from: /english/2015/05/10/znc-ubuntu.html
  guide, but with this you should be able to upgrade too.*
 
 **This is not the official install guide, if you are looking for that,
-[click here.](http://wiki.znc.in/Installation)** *You will find these
+[click here.](https://wiki.znc.in/Installation)** *You will find these
 same instructions there too though.*
 
 Step 0: If you had already installed ZNC from source, go to the source
@@ -39,5 +39,5 @@ on where you told it to listen.
 
 You might also want to read:
 
-* [FAQ](http://wiki.znc.in/FAQ)
-    * [Automatic restart in case of X (crontab)](http://wiki.znc.in/FAQ#How_can_I_restart_ZNC_automatically_.28in_case_of_a_machine_reboot.2C_crash.2C_etc..29.3F)
+* [FAQ](https://wiki.znc.in/FAQ)
+    * [Automatic restart in case of X (crontab)](https://wiki.znc.in/FAQ#How_can_I_restart_ZNC_automatically_.28in_case_of_a_machine_reboot.2C_crash.2C_etc..29.3F)

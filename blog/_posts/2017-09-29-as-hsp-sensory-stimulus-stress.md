@@ -219,8 +219,8 @@ people on autism spectrum, there is at least one of us in mostly every
 IRC channel that you can find.
 
 I think I should also link to
-[Wikipedia: Sensory processing sensitivity](https://en.wikipedia.org/wiki/Sensory_processing_sensitivity) and [HSPerson.com](http://hsperson.com/) and
-why not to [their self/tests](http://www.hsperson.com/test/highly-sensitive-test/)
+[Wikipedia: Sensory processing sensitivity](https://en.wikipedia.org/wiki/Sensory_processing_sensitivity) and [HSPerson.com](https://hsperson.com/) and
+why not to [their self/tests](https://www.hsperson.com/test/highly-sensitive-test/)
 in case you are like me and haven't encountered it before or haven't
 thought that it has anything to do with you.
 
@@ -229,7 +229,7 @@ find information about it easily while High Sensitivity is very unknown.
 
 Oh, the *Highly Sensitive Person* book didn't comment much on on autism
 or that one person might be both, so I want to link you to their blog
-[About High Sensitivity, Autism, and Neurodiversity](http://hsperson.com/about-high-sensitivity-autism-and-neurodiversity/).
+[About High Sensitivity, Autism, and Neurodiversity](https://hsperson.com/about-high-sensitivity-autism-and-neurodiversity/).
 
 And now I am finally going to end typing this at 230 lines, I hope that
 this post was any help or at least not negative or including misinformation

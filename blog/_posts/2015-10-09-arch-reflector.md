@@ -18,7 +18,7 @@ redirect_from:
 in [GNU Free Documentation License 1.3 or later].**
 
 [ArchWiki page on reflector]:https://wiki.archlinux.org/index.php/Reflector
-[GNU Free Documentation License 1.3 or later]:http://www.gnu.org/copyleft/fdl.html
+[GNU Free Documentation License 1.3 or later]:https://www.gnu.org/copyleft/fdl.html
 
 TL;DR commands:
 

@@ -58,8 +58,8 @@ and the rest of the world hates you).
 Sources/thanks:
 
 * [Arch Wiki: Locale, LC_TIME](https://wiki.archlinux.org/index.php/locale#LC_TIME:_date_and_time_format)
-* [Locale Helper: en_GB](http://lh.2xlibre.net/locale/en_GB/)
-* [Locale Helper_ fi_FI](http://lh.2xlibre.net/locale/fi_FI/)
+* [Locale Helper: en_GB](https://lh.2xlibre.net/locale/en_GB/)
+* [Locale Helper_ fi_FI](https://lh.2xlibre.net/locale/fi_FI/)
 * [Wikipedia: UTF-8](https://en.wikipedia.org/wiki/UTF-8)
     * Random misplaced advice on disabling charset fallback in your
       IRC client and being UTF-8 only so you see when someone is not

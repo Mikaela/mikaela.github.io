@@ -46,8 +46,8 @@ käyttöön liittyvästä APN:stä, APN-Protokolla, jolla voidaan ottaa IPv6
 käyttöön. Se pitäisi olla IPv4/IPv6 ja asetuksen vaihtamisen jälkeen
 mobiilidata tulee katkaista ja ottaa uudelleen käyttöön. Lisätietoja:
 
-* [Elisan IPv6-ohjeet](http://elisa.fi/ipv6)
-* [DNA:n IPv6-laiteohjeet](http://dna.fi/ipv6-laitteet)
+* [Elisan IPv6-ohjeet](https://elisa.fi/ipv6)
+* [DNA:n IPv6-laiteohjeet](https://dna.fi/ipv6-laitteet)
 
 * * * * *
 
