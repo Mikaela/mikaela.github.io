@@ -75,7 +75,6 @@ redirect_from:
 * [Firefox: Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/)
 * [Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)
 * [Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)
-Name[zh_CN]=红移
     * I especially like *nicer dark* with Memrise.
 
 ## Firefox Dictionaries
