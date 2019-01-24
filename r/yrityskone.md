@@ -1,4 +1,5 @@
 ---
+layout: null
 permalink: /r/yrityskone.html
 sitemap: false
 ---
