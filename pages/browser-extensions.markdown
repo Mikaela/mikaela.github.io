@@ -20,6 +20,22 @@ redirect_from:
 * [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/)
 * [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 
+## Firefox about:config
+
+* `layout.css.devPixelsPerPx` to `1.25` or `2.0` on macOS Retina to increase font size.
+* `privacy.resistFingerprinting` = `true` multiple effects to make your
+  browser appear less unique, the ones I have found/understood:
+    * warns if `intl.accept_languages` is not `en-US, en` .
+    * starts the browser with common size (I love this on big displays).
+    * spoofs the user-agent as the latest Firefox ESR version.
+* `intl.accept_languages` to `en-US, en`
+    * see above.
+
+## Passwords
+
+* [Firefox: Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+    * [Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+
 ## Privacy
 
 * [Firefox: Cookie Autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
@@ -35,28 +51,34 @@ redirect_from:
     * Copied from [PrivacyTools.io](https://privacytools.io), cleans Google
       results links.
 
+### Tor
+
+* [Firefox: Privacy Pass](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)
+    * [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi)
+    * May reduce captchas with CloudFlare.
+* [Firefox: Healthy.Onion](https://addons.mozilla.org/en-US/firefox/addon/healthy-onion/)
+    * **Only for Tor Browser** or other browser going through Tor all the
+      time as it redirects clearnet addresses to Tor .onion hidden
+      services that cannot be accessed outside of Tor. 
+
+## Productivity
+
+* [Firefox: Mind The Time](https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/)
+    * [Chrome equivalent: Webtime tracker](https://chrome.google.com/webstore/detail/webtime-tracker/ppaojnbmmaigjmlpjaldnkgnklhicppk)
+* [Chrome: Nudge by Siempo](https://chrome.google.com/webstore/detail/nudge-by-siempo/hjoookglknijcfdlbcfnehfhicbknemj)
+    * Firefox coming soon™
+
 ## Passwords
 
 * [Firefox: Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
     * [Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+
 
 ## Misc
 
 * [Firefox: IPvFoo](https://addons.mozilla.org/en-US/firefox/addon/ipvfoo-pmarks/)
     * [Chrome](https://chrome.google.com/webstore/detail/ipvfoo/ecanpcehffngcegjmadlcijfolapggal)
 
-<!-- * [Firefox: Detect CloudFlare](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare/) -->
-
-* Firefox "about:config":
-    * `layout.css.devPixelsPerPx` to `1.25` or `2.0` on macOS Retina to increase font size.
-    * `privacy.resistFingerprinting` = `true` multiple effects to make your
-    browser appear less unique, the ones I have found/understood:
-        * warns if `intl.accept_languages` is not `en-US, en` .
-        * starts the browser with common size (I love this on big displays).
-        * spoofs the user-agent as the latest Firefox ESR version.
-
-* [Firefox: Mind The Time](https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/)
-    * [Chrome equivalent: Webtime tracker](https://chrome.google.com/webstore/detail/webtime-tracker/ppaojnbmmaigjmlpjaldnkgnklhicppk)
 
 * [Chrome: RSS](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
 
@@ -83,11 +105,3 @@ redirect_from:
 * [UK English](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/)
 * [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-spell-checking-dictionar/)
 * [Swedish](https://addons.mozilla.org/en-US/firefox/addon/g%C3%B6rans-hemmasnickrade-ordli/)
-
-## Tor
-
-* [Firefox: Privacy Pass](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)
-    * [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi)
-    * May reduce captchas with CloudFlare.
-* [Firefox: Healthy.Onion](https://addons.mozilla.org/en-US/firefox/addon/healthy-onion/)
-    * **Only for Tor Browser** or other browser going through Tor all the time as it redirects clearnet addresses to Tor .onion hidden services that cannot be accessed outside of Tor.
