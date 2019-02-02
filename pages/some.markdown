@@ -11,7 +11,7 @@ redirect_from:
 excerpt: "Links to my my referral links around the internet."
 ---
 
-Looking for my social media accounts? They have moved to the [index](/index.html).
+Looking for my social media accounts? They have moved to the [index](/index.html#web).
 
 * [Wolt](http://get.woltapp.com/93O1)
     * "*Every time a new friend signs up to Wolt with your personal code
