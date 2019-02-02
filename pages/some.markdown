@@ -1,29 +1,17 @@
 ---
 layout: page
-title: Social media
+title: Reflinks
 navigation: true
-permalink: /some/
+permalink: /reflinks/
 redirect_from:
+  - /some/
   - /links/
   - /irc/chat.html
-excerpt: "Links to my SOcial MEdia accounts and other accounts around the internet."
+  - /referrallinks/
+excerpt: "Links to my my referral links around the internet."
 ---
 
-*Notice on XMPP: check the keys page on which account I am using.*
-
-* [GitHub](https://github.com/Mikaela)
-* [Goodreads](https://www.goodreads.com/user/show/11147845-mikaela-suomalainen)
-    * You should be asked *Where do I know you from or why we should be
-      friends?*
-* [Keybase](http://keybase.io/Mikaela)
-* [Open HUB](https://www.openhub.net/accounts/Mikaela)
-* [Together (Jolla forum)](https://together.jolla.com/users/6732/mikaela/)
-* [Ubuntu Wiki](https://wiki.ubuntu.com/mikaela) *that is horribly outdated
-and I should update-*
-
-* * * * *
-
-## Referral links
+Looking for my social media accounts? They have moved to the [index](/index.html).
 
 * [Wolt](http://get.woltapp.com/93O1)
     * "*Every time a new friend signs up to Wolt with your personal code
