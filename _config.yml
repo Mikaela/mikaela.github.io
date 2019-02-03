@@ -26,7 +26,7 @@ plugins:
     - jekyll-sitemap
 sitemap:
     file: "/sitemap.xml"
-include: [PGP, PHP, keybase.txt, robots.txt]
+include: [PGP, PHP, keybase.txt, robots.txt, avatar.jpeg]
 
 avatar: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/master/avatar.jpeg
 
