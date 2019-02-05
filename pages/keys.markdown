@@ -54,6 +54,10 @@ with some protocols, I only list those which I mainly care about.
         <td>Nokia 1/Conversations</td>
         <td>BE1E4E24 ECBD7DC4 0C3C4119 AE575B45 7DFDFD7D F11F14A0 79070F76 1CA66138</td>
     </tr>
+    <tr>
+        <td>Sedric/Dino (flatpak)</td>
+        <td>3674D5A5 D7F6FEC4 E08BF0D7 B755DD66 7A67B836 8BDC89E4 B7FBDF0B E1DDC521</td>
+    </tr>
 </table>
 
 ## OTR
