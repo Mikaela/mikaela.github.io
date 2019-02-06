@@ -68,12 +68,6 @@ redirect_from:
 * [Chrome: Nudge by Siempo](https://chrome.google.com/webstore/detail/nudge-by-siempo/hjoookglknijcfdlbcfnehfhicbknemj)
     * Firefox coming soon™
 
-## Passwords
-
-* [Firefox: Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
-    * [Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
-
-
 ## Misc
 
 * [Firefox: IPvFoo](https://addons.mozilla.org/en-US/firefox/addon/ipvfoo-pmarks/)
