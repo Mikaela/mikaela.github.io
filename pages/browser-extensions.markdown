@@ -19,6 +19,10 @@ redirect_from:
 * [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 * [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/)
 * [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
+* [Temporary containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/)
+    * Especially in Automatic mode it renders Cookie Autodelete unnecessary
+      in my opinion and is likely more secure.
+
 
 ## Firefox about:config
 
