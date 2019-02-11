@@ -19,3 +19,14 @@ Sitemaps:
   sites. I am not sure how it works when there are multiple domains, so
   I am keeping all sitemaps in robots.txt and sitemaps.xml on bottom
   of it. Same will possibly happen with other domains.
+
+IPFS:
+
+I am using [IPFS](https://ipfs.io/) for some embeds on this site. If you
+would like to help me host them:
+
+```
+ipfs pin add QmbRqyJteL8qyYefSMgVBWUEKoXRNQL7q61xhcJeoRr35h Qma7jaHDBkGk6aEuJEbbCaqgykUrn1X8XhtZ2nMbrYgVKv
+```
+
+These hashes are the 250x250 and 128x128 avatar/icon (2019-02-11).
