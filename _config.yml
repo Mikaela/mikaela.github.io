@@ -28,7 +28,8 @@ sitemap:
     file: "/sitemap.xml"
 include: [PGP, PHP, keybase.txt, robots.txt, avatar.jpeg]
 
-avatar: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/master/avatar.jpeg
+avatar: https://cloudflare-ipfs.com/ipfs/QmbRqyJteL8qyYefSMgVBWUEKoXRNQL7q61xhcJeoRr35h/250x250.jpg
+icon: https://cloudflare-ipfs.com/ipfs/Qma7jaHDBkGk6aEuJEbbCaqgykUrn1X8XhtZ2nMbrYgVKv/128x128.jpg
 
 # {{site.ipfs}}/IPFSHASHHERE to get ipfs link via gateway. Hopefully future
 # proof letting me simply swap the link here instead of changing it
