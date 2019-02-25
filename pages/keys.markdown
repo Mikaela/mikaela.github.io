@@ -58,6 +58,10 @@ with some protocols, I only list those which I mainly care about.
         <td>Sedric/Dino (flatpak)</td>
         <td>3674D5A5 D7F6FEC4 E08BF0D7 B755DD66 7A67B836 8BDC89E4 B7FBDF0B E1DDC521</td>
     </tr>
+    <tr>
+        <td>i9305/Conversations</td>
+        <td>607139AE 1B5C8F53 AC8B9A84 9F45F9AC 0B781A3B C2616A18 C34E90A4 A2FC1860</td>
+    </tr>
 </table>
 
 ## OTR
