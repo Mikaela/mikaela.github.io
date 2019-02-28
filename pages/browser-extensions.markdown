@@ -22,6 +22,7 @@ redirect_from:
 * [Temporary containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/)
     * Especially in Automatic mode it renders Cookie Autodelete unnecessary
       in my opinion and is likely more secure.
+    * **READ THE FINE MANUAL ON THAT PAGE!**
 
 ## Firefox language packs
 
