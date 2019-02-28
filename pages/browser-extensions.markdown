@@ -102,6 +102,9 @@ redirect_from:
 * [Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)
 * [Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)
     * I especially like *nicer dark* with Memrise.
+* [Firefox: RSS feed preview](https://addons.mozilla.org/en-US/firefox/addon/feed-preview/)
+* [Firefox: PeerTubeify](https://addons.mozilla.org/en-US/firefox/addon/feed-preview/)
+    * [Chrome: PeerTubeify](https://chrome.google.com/webstore/detail/peertubeify/gegmikcnabpilimgelhabaledkcikdab)
 
 ## Firefox Dictionaries
 
