@@ -23,6 +23,12 @@ redirect_from:
     * Especially in Automatic mode it renders Cookie Autodelete unnecessary
       in my opinion and is likely more secure.
 
+## Firefox language packs
+
+* [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-cz-language-pack/)
+* [English-US](https://addons.mozilla.org/en-US/firefox/addon/english-us-language-pack/)
+* [Esperanto](https://addons.mozilla.org/en-US/firefox/addon/esperanto-language-pack/)
+* [Finnish](https://addons.mozilla.org/en-US/firefox/addon/finnish-language-pack/)
 
 ## Firefox about:config
 
