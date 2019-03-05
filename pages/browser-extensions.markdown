@@ -96,10 +96,7 @@ redirect_from:
 
 * [Firefox: IPvFoo](https://addons.mozilla.org/en-US/firefox/addon/ipvfoo-pmarks/)
     * [Chrome](https://chrome.google.com/webstore/detail/ipvfoo/ecanpcehffngcegjmadlcijfolapggal)
-
-
 * [Chrome: RSS](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
-
 * [Firefox: IPFS Companion](https://addons.mozilla.org/en-US/firefox/addon/ipfs-companion/)
     * [Chrome](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)
     * At the time of writing, 2018-09-22, I consider IPFS as
@@ -107,18 +104,31 @@ redirect_from:
       IPFS daemon, which **is not using Tor** and thus the IPFS network
       **could see your real IP** especially if not many nodes are
       requesting the fetched content.
-* [Firefox: Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
 * [Firefox: Foxy Proxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
     * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
     * Onions to Tor, I2P to I2P. [My rules]({{site.ipfs}}/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
 * [Firefox: Tab Counter](https://addons.mozilla.org/en-US/firefox/addon/tab-counter-webext/)
 * [Firefox: Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/)
-* [Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)
-* [Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)
     * I especially like *nicer dark* with Memrise.
 * [Firefox: RSS feed preview](https://addons.mozilla.org/en-US/firefox/addon/feed-preview/)
+* [Firefox: Duolingo Boost](https://addons.mozilla.org/en-US/firefox/addon/duolingo-boost/)
+    * [Chrome: Duolingo Boost](https://chrome.google.com/webstore/detail/duolingo-boost/mgecoicpalmpphlgfkdepgpofjcnggkn)
+    * [Bitbucket](https://bitbucket.org/Richdark/duolingo-boost/)
+
+## Usability
+
+* [Firefox: Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+* [Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)
+* [Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)
+* [Firefox: Zenfox (Solarized themes)](https://addons.mozilla.org/en-us/firefox/addon/zen-fox/)
+
+## Videos
+
 * [Firefox: PeerTubeify](https://addons.mozilla.org/en-US/firefox/addon/feed-preview/)
     * [Chrome: PeerTubeify](https://chrome.google.com/webstore/detail/peertubeify/gegmikcnabpilimgelhabaledkcikdab)
+* [Firefox: Alternate Tube Redirector](https://addons.mozilla.org/en-US/firefox/addon/alternate-tube-redirector/)
+    * to redirect YouTube videos to https://invidio.us/
+    * [GitLab](https://gitlab.com/2vek/alternate-tube-redirector/)
 
 ## Firefox Dictionaries
 
