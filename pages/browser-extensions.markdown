@@ -49,7 +49,7 @@ redirect_from:
 * `network.trr.bootstrapAddress` DNS server to use for resolving the DoH
   name, e.g. `84.200.70.40` (Resolver 2 of [DNS.watch](https://dns.watch/)
   in Germany)
-* `network.trr.mode` 3 to enforce DoH which is [required by Firefox ESNI](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289#c5)
+* `network.trr.mode` 3 to enforce DoH which is [required by Firefox ESNI](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289)
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
   `https://mozilla.cloudflare-dns.com/dns-query` or
