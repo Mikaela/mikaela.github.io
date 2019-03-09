@@ -18,5 +18,7 @@ Disallow: /r/
 Noindex: /r/
 Disallow: /or/
 Noindex: /or/
+Disallow: /reflinks
+Noindex: /reflinks
 Sitemap: https://mikaela.info/sitemap.xml
 Sitemap: https://mikaela.info/sitemaps.xml
