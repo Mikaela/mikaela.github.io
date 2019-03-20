@@ -41,6 +41,7 @@ redirect_from:
     * spoofs the user-agent as the latest Firefox ESR version.
 * `intl.accept_languages` to `en-US, en`
     * see above.
+* `extensions.pocket.enabled` to `false` so the Pocket integration goes away
 * `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
     * Requires DoH, see the next section!
 
@@ -48,12 +49,28 @@ redirect_from:
 
 * `network.trr.bootstrapAddress` DNS server to use for resolving the DoH
   name, e.g. `84.200.70.40` (Resolver 2 of [DNS.watch](https://dns.watch/)
-  in Germany)
-* `network.trr.mode` 3 to enforce DoH which is [required by Firefox ESNI](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289)
+  in Germany) or `149.112.112.112` (Resolver 2 of [Quad9](https://quad9.net))
+* `network.trr.mode` 2 to prefer DoH, but fallback to system resolver (or 3 to enforce DoH without fallback)
+    * [DoH is required by Firefox ESNI support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI which would still leak which
+      sites you visit.
+    * I have ended up to recommending 2 as otherwise the DoH server going
+      down stops DNS from working on your Firefox entirely, which may be
+      more of a problem than unencrypted SNI as not everyone supports it.
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
-  `https://mozilla.cloudflare-dns.com/dns-query` or
+  `https://mozilla.cloudflare-dns.com/dns-query` or `https://dns.quad9.net/dns-query` or
   [check curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS#publicly-available-servers)
+
+Some notes:
+* You can confirm TRR working by visiting `about:networking#dns` where
+you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
+* Quad9 became my preferred resolver through anxiety about other options
+  being small (and possibly more likely to go down) or commercial while
+  Quad9 is non-profit organization and 2019-03-20 apparently the default
+  fallback resolver of dnscrypt-proxy (at least in Debian).
+* Quad9 while having filtering of malicious domains should be easy to figure
+  out as the problem if something doesn't work on my computers as due to the
+  previously mentioned bug I am mainly using it on Firefox.
 
 ## Passwords
 
