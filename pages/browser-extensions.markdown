@@ -91,6 +91,10 @@ you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
 * [Firefox: Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)
     * Copied from [PrivacyTools.io](https://privacytools.io), cleans Google
       results links.
+* [Firefox: True Sight](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare-plus/)
+    * This is a CDN detector and it being a privacy extension can be debated
+      but I just feel like putting it here. I will still say that not all
+      CDNs are bad (IPFS).
 
 ### Tor
 
