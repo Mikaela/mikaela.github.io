@@ -1,5 +1,5 @@
 ---
-redirect_to: https://muclumbus.jabbercat.org/
+redirect_to: https://search.jabber.network/
 permalink: /r/xmpp.html
 redirect_from:
   - /r/xmppmuc.html
