@@ -1,5 +1,5 @@
 ---
-redirect_to: https://github.com/matrix-org/matrix.to/issues/24<Paste>
+redirect_to: https://github.com/matrix-org/matrix.to/issues/24
 permalink: /r/matrix.html
 redirect_from:
   - /r/matrixto.html
