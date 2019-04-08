@@ -47,6 +47,11 @@ redirect_from:
 * `intl.accept_languages` to `en-US, en`
     * see above.
 * `extensions.pocket.enabled` to `false` so the Pocket integration goes away
+* On Linux `widget.content.gtk-theme-override` (a string that has to be created by
+  user) to `Adwaita:light` so text boxes in dark themes become readable,
+  thank you [Dovydas Venckus](https://www.dovydasvenckus.com/linux/2018/08/20/fix-firefox-dark-input-fields-on-gnome/)
+    * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315)
+
 * `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
     * Requires DoH, see the next section!
 
@@ -124,6 +129,8 @@ you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
     * [Chrome](https://chrome.google.com/webstore/detail/ipvfoo/ecanpcehffngcegjmadlcijfolapggal)
 * [Chrome: RSS](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
 * [Firefox: IPFS Companion](https://addons.mozilla.org/en-US/firefox/addon/ipfs-companion/)
+    * [Firefox: beta channel of IPFS Companion](https://bafybeibjozlsoxzrxsoklis775aglnwpal2hjl42ippo57jdwiv6zoij7m.ipfs.dweb.link/)
+        * doesn't sync automatically with Firefox Sync.
     * [Chrome](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)
     * At the time of writing, 2018-09-22, I consider IPFS as
       **incompatible with Tor Browser** as Tor browser would use the local
@@ -144,7 +151,7 @@ you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
 ## Usability
 
 * [Firefox: Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
-* [Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)
+* ~~[Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)~~ see *about:config section*
 * [Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)
 * [Firefox: Zenfox (Solarized themes)](https://addons.mozilla.org/en-us/firefox/addon/zen-fox/)
 
