@@ -62,7 +62,7 @@ redirect_from:
   in Germany) or `149.112.112.112` (Resolver 2 of [Quad9](https://quad9.net))
 * `network.trr.mode` 2 to prefer DoH, but fallback to system resolver (or 3 to enforce DoH without fallback)
     * [DoH is required by Firefox ESNI support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI which would still leak which
-      sites you visit.
+      sites you visit. [Another bug about ESNI + Android DoT](https://bugzilla.mozilla.org/show_bug.cgi?id=1542754#c3)
     * I have ended up to recommending 2 as otherwise the DoH server going
       down stops DNS from working on your Firefox entirely, which may be
       more of a problem than unencrypted SNI as not everyone supports it.
