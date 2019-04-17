@@ -45,8 +45,12 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     -->
     <tr>
-        <td>Sedric-Zaldaryn/Gajim-flatpak</td>
+        <td>Rbtpzn-Zaldaryn/Gajim-flatpak</td>
         <td>F06AE7B9 A4B1D4DC 79A5DED7 5A04D6A3 51B548D3 6A56E2CE 42493EB7 947C1E69</td>
+    </tr>
+    <tr>
+        <td>Sedric/flatpak</td>
+        <td>70DC890E D35F14AB 9102AE69 C680EDC0 F0EB3CE4 AA5BFD93 8CD13229 F81DF33B</td>
     </tr>
     <!--
 	<tr>
