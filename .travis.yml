@@ -10,7 +10,7 @@ before_install:
  - sudo apt-get -y update
  - sudo apt-get -y install oracle-java8-installer
  - sudo update-java-alternatives -s java-8-oracle
- - gem install github-pages
+ - gem install github-pages jekyll-theme-midnight
 
 install:
  - pip install html5validator
