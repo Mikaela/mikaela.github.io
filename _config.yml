@@ -32,13 +32,12 @@ include: [PGP, PHP, keybase.txt, robots.txt, avatar.jpeg]
 avatar: https://ipns.co/ipfs/QmbRqyJteL8qyYefSMgVBWUEKoXRNQL7q61xhcJeoRr35h/250x250.jpg
 icon: https://ipns.co/ipfs/Qma7jaHDBkGk6aEuJEbbCaqgykUrn1X8XhtZ2nMbrYgVKv/128x128.jpg
 
-# {{site.ipfs}}/IPFSHASHHERE to get ipfs link via gateway. Hopefully future
-# proof letting me simply swap the link here instead of changing it
-# everywhere in case I will start using it.
+# {{site.ipfsGateway}}/ipfs/IPFSHASHHERE to get ipfs link via gateway.
+# Hopefully future proof letting me simply swap the link here instead of
+# changing it everywhere.
 # IMPORTANT! When adding content, either add a directory with
 # `ipfs add -r` OR SINGLE FILE `ipfs add -w file` so a new directory gets
 # created for the content and when it's used, the filename and type are
 # remembered which may be helpful with media files or embeds.
-ipfs: https://ipns.co/ipfs
-# IPNS is also a thing
-ipns: https://ipns.co/ipns
+# Note: no trailing slash after the URL, only https://domain.tld
+ipfsGateway: https://ipns.co

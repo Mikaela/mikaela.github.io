@@ -139,7 +139,7 @@ you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
       requesting the fetched content.
 * [Firefox: Foxy Proxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
     * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
-    * Onions to Tor, I2P to I2P. [My rules]({{site.ipfs}}/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
+    * Onions to Tor, I2P to I2P. [My rules]({{site.ipfsGateway}}/ipfs/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
 * [Firefox: Tab Counter](https://addons.mozilla.org/en-US/firefox/addon/tab-counter-webext/)
 * [Firefox: Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/)
     * I especially like *nicer dark* with Memrise.
