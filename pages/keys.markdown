@@ -74,12 +74,39 @@ with some protocols, I only list those which I mainly care about.
     -->
 </table>
 
+## Matrix
+
+`@mikaela:privacytools.io`
+
+<table>
+    <tr>
+        <th>Device name</th>
+        <th>ID</th>
+        <th>Fingerprint</th>
+    </tr>
+    <tr>
+        <td>20190413-Sedric</td>
+        <td><code>SYUZHGKRDF</code></td>
+        <td><code>00LQ edzK 6woQ JWMj CGb2 bIvW HGqS mnGE OdlX +RsQ uqo</code></td>
+    </tr>
+    <tr>
+        <td>20190414-SGS3</td>
+        <td><code>XIRWUXMDDX</code></td>
+        <td><code>u7t6//qwcflIbyhOL091aUslf+iG8mVlcg6jmSNw3N8</code></td>
+    </tr>
+    <tr>
+        <td>20190426-Nokia1</code></td>
+        <td><code>FQKPLOCFLM</code></td>
+        <td><code>AYTcp3flv9J/uFhVVF+3q+coOZvWd+lkesFQ6mYF61Y</code></td>
+    </tr>
+</table>
+
 ## OTR
 
-OTR is impossible with three clients fighting for the messages, so I only
+OTR is impossible with multiple clients fighting for the messages, so I only
 support it with IRC (which currently has no other *good* choice *and* where
 I have only single client (WeeChat) which my phone also connects to) and
-even if some of the XMPP clients talks it, I would appreciate you using
+even if some of the XMPP clients talk it, I would appreciate you using
 OMEMO instead.
 
 <table>
