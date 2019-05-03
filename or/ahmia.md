@@ -5,3 +5,5 @@ sitemap: false
 ---
 
 http://msydqstlz2kzerdg.onion/
+
+Proof: https://ahmia.fi/

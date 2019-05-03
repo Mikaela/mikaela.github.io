@@ -6,3 +6,7 @@ sitemap: false
 ---
 
 https://facebookcorewwwi.onion/
+
+Proof: https://blog.torproject.org/facebook-hidden-services-and-https-certs
+       https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237
+         https://facebookcorewwwi.onion/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237

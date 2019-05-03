@@ -6,3 +6,5 @@ sitemap: false
 ---
 
 http://yz7lpwfhhzcdyc5y.onion/
+
+Proof: https://onion.torproject.org/

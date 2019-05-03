@@ -10,3 +10,5 @@ sitemap: false
 ---
 
 http://qrmfuxwgyzk5jdjz.onion/docs/debian.html.en
+
+Proof: https://onion.torproject.org/
