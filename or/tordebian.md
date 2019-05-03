@@ -9,4 +9,4 @@ redirect_from:
 sitemap: false
 ---
 
-http://expyuzz4wqqyqhjn.onion/docs/debian.html.en
+http://qrmfuxwgyzk5jdjz.onion/docs/debian.html.en
