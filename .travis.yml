@@ -1,15 +1,13 @@
-sudo: required
-
 language: python
 python:
- - "3.5"
+ - "2.7"
 
-# install Java 8 as required by vnu.jar
+addons:
+  apt:
+    packages:
+      - openjdk-8-jre  # install Java8 as required by vnu.jar
+
 before_install:
- - sudo rm -f /etc/profile.d/jdk.sh
- - sudo apt-get -y update
- - sudo apt-get -y install oracle-java8-installer
- - sudo update-java-alternatives -s java-8-oracle
  - gem install github-pages jekyll-theme-midnight
 
 install:
@@ -22,10 +20,3 @@ script:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-
-notifications:
-  irc:
-    channels:
-      # To be encrypted if issues arise
-      - "ircs://chat.freenode.net:6697/##Mikaela"
-    use_notice: true
