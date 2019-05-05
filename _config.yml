@@ -29,8 +29,8 @@ sitemap:
     file: "/sitemap.xml"
 include: [PGP, PHP, keybase.txt, robots.txt, avatar.jpeg]
 
-avatar: https://ipns.co/ipfs/QmbRqyJteL8qyYefSMgVBWUEKoXRNQL7q61xhcJeoRr35h/250x250.jpg
-icon: https://ipns.co/ipfs/Qma7jaHDBkGk6aEuJEbbCaqgykUrn1X8XhtZ2nMbrYgVKv/128x128.jpg
+avatar: https://eu.siderus.io/ipfs/QmbRqyJteL8qyYefSMgVBWUEKoXRNQL7q61xhcJeoRr35h/250x250.jpg
+icon: https://eu.siderus.io/ipfs/Qma7jaHDBkGk6aEuJEbbCaqgykUrn1X8XhtZ2nMbrYgVKv/128x128.jpg
 
 # {{site.ipfsGateway}}/ipfs/IPFSHASHHERE to get ipfs link via gateway.
 # Hopefully future proof letting me simply swap the link here instead of
@@ -40,4 +40,4 @@ icon: https://ipns.co/ipfs/Qma7jaHDBkGk6aEuJEbbCaqgykUrn1X8XhtZ2nMbrYgVKv/128x12
 # created for the content and when it's used, the filename and type are
 # remembered which may be helpful with media files or embeds.
 # Note: no trailing slash after the URL, only https://domain.tld
-ipfsGateway: https://ipns.co
+ipfsGateway: https://eu.siderus.io
