@@ -15,7 +15,7 @@ install:
 
 script: 
   - jekyll build --drafts --profile
-  - html5validator --root _site/ --also-check-css --blacklist r or
+  - html5validator --root _site/ --also-check-css --blacklist r or ir
 
 env:
   global:
