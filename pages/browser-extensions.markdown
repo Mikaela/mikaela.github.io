@@ -39,6 +39,8 @@ redirect_from:
     * warns if `intl.accept_languages` is not `en-US, en` .
     * starts the browser with common size (I love this on big displays).
     * spoofs the user-agent as the latest Firefox ESR version.
+    * [Firefox's protection against fingerprinting](https://support.mozilla.org/en-US/kb/firefox-protection-against-fingerprinting)
+      has the upstream list.
 * `privacy.trackingprotection.cryptomining.enabled` = `true` so cryptomining
   on some websites gets blocked and won't waste resources.
 * `privacy.trackingprotection.fingerprinting.enabled` = `true` I am not
