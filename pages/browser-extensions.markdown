@@ -34,6 +34,10 @@ redirect_from:
 ## Firefox about:config
 
 * `layout.css.devPixelsPerPx` to `1.25` or `2.0` on macOS Retina to increase font size.
+* `privacy.firstparty.isolate` to `true` for preventing domains from
+  accessing each other's data.
+    * If something breaks, it's most likely related to this. I am yet to
+      test if this breaks Finnish strong electric authentication.
 * `privacy.resistFingerprinting` = `true` multiple effects to make your
   browser appear less unique, the ones I have found/understood:
     * warns if `intl.accept_languages` is not `en-US, en` .
@@ -53,7 +57,7 @@ redirect_from:
   user) to `Adwaita:light` so text boxes in dark themes become readable,
   thank you [Dovydas Venckus](https://www.dovydasvenckus.com/linux/2018/08/20/fix-firefox-dark-input-fields-on-gnome/)
     * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315)
-
+* `image.animation_mode` to `none` in order to stop gifs everywhere.
 * `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
     * Requires DoH, see the next section!
 
