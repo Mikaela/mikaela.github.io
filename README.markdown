@@ -11,6 +11,8 @@ Directories:
 * pages/ — normal pages
 * php/ — php scripts that haven't found their way anywhere else
 * r/ — redirects, some kind of personal URL shorrtener
+* or/ — same, but not redirecting and for Tor Onion Services
+* ir/ — same, but for I2P eepsites
 
 Sitemaps:
 
