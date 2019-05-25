@@ -92,6 +92,23 @@ you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
   out as the problem if something doesn't work on my computers as due to the
   previously mentioned bug I am mainly using it on Firefox.
 
+#### SSDs
+
+This information is from [Arch Wiki on Firefox tweaks](https://wiki.archlinux.org/index.php/Firefox/Tweaks)
+
+* `browser.cache.disk.enable` to `false` to only cache to RAM.
+* (`browser.cache.memory.enable` to `true` which should be default)
+* `browser.sessionstore.interval` to `600000` in order to only store open session every ten minutes (instead of 15 seconds) in case of crashes.
+    * alternatively `browser.sessionstore.resume_from_crash` to `false` to not store the session data for crash recovery at all. I think this may be the more healthy option with all the information flood and dozens of tabs.
+
+Why?
+
+> Every object loaded (html page, jpeg image, css stylesheet, gif banner) is saved in the Firefox cache for future use without the need to download it again. It is estimated that only a fraction of these objects will be reused, usually about 30%. This because of very short object expiration time, updates or simply user behavior (loading new pages instead of returning to the ones already visited). The Firefox cache is divided into memory and disk cache and the latter results in frequent disk writes: newly loaded objects are written to memory and older objects are removed.
+
+> Firefox stores the current session status (opened urls, cookies, history and form data) to the disk on a regular basis. It is used to recover a previous session in case of crash. The default setting is to save the session every 15 seconds, resulting in frequent disk access.
+
+and this is the reason why Firefox is at times accused of killing SSDs.
+
 ## Passwords
 
 * [Firefox: Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
