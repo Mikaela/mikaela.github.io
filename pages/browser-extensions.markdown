@@ -57,9 +57,13 @@ redirect_from:
   user) to `Adwaita:light` so text boxes in dark themes become readable,
   thank you [Dovydas Venckus](https://www.dovydasvenckus.com/linux/2018/08/20/fix-firefox-dark-input-fields-on-gnome/)
     * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315)
-* `image.animation_mode` to `none` in order to stop gifs everywhere.
+* `image.animation_mode` to `once` in order to have gifs play once and
+  then stop everywhere (`none` to never have them play).
+* `geo.wifi.uri` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
 * `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
     * Requires DoH, see the next section!
+
+Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/show_bug.cgi?id=1497263) ?
 
 #### DNS over HTTPS
 
@@ -74,7 +78,7 @@ redirect_from:
       more of a problem than unencrypted SNI as not everyone supports it.
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
-  `https://mozilla.cloudflare-dns.com/dns-query` or `https://dns.quad9.net/dns-query` or
+  `https://dns.quad9.net/dns-query` or
   [check curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS#publicly-available-servers)
 
 Some notes:
@@ -95,22 +99,31 @@ you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
 
 ## Privacy
 
-* [Firefox: Cookie Autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
-    * [Chrome](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)
+* ~~[Firefox: Cookie Autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)~~
+    * ~~[Chrome](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)~~
 * [Firefox: HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
     * [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
-* [Firefox: Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
-    * [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
+* ~~[Firefox: Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)~~
+    * ~~[Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)~~
 * [Firefox: Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
     * [Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
     * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
-* [Firefox: Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)
+    * [µMatrix users](https://git.synz.io/Synzvato/decentraleyes/wikis/Frequently-Asked-Questions#for-umatrix-and-ublock-origin-non-easy-mode-users)
+* ~~[Firefox: Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)~~
     * Copied from [PrivacyTools.io](https://privacytools.io), cleans Google
       results links.
 * [Firefox: True Sight](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare-plus/)
     * This is a CDN detector and it being a privacy extension can be debated
       but I just feel like putting it here. I will still say that not all
       CDNs are bad (IPFS).
+* [Firefox: µMatrix](https://addons.mozilla.org/firefox/addon/umatrix/)
+    * [Chrome](https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf)
+    * It can easily replace Cookie Autodelete (block cookies for global scope), Privacy Badger (by default), NoScript and possibly others.
+    * Quick usage: click top half of red boxes to allow blocked content or allow everything from that domain by cliking top half of the domain box. Click the lock to remember this. For global changes, press the asterisk to have it affect everywhere by default and see the first link below.
+    * Reading I recommend:
+        * [How to block 1st party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default) and I suggest adapting it to block cookies too so Cookie Autodelete becomes unnecessary.
+        * [Ruleset recipes](https://github.com/gorhill/uMatrix/wiki/Ruleset-recipes)
+        * [A lot of other instructions in the wiki](https://github.com/gorhill/uMatrix/wiki)
 
 ### Tor
 
