@@ -101,6 +101,35 @@ with some protocols, I only list those which I mainly care about.
     </tr>
 </table>
 
+## Wire
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Wire device</th>
+        <th>ID</th>
+        <th>Fingerprint</th>
+    </tr>
+    <tr>
+        <td>Sedric</td>
+        <td>Wire Linux</td>
+        <td><code>51 12 38 05 39 92 F9 59</code></td>
+        <td><code>41 97 e0 b9 0c b5 3d d8 3a 46 59 e8 2e ba cb 64 61 36 4a 0e e8 c3 a0 08 f6 79 92 06 95 08 f6 2e</code></td>
+    </tr>
+    <tr>
+        <td>Nokia 1</td>
+        <td>HMD Global Nokia 1</td>
+        <td><code>46 82 D6 7F 7C 10 E8 AE</code></td>
+        <td><code>e2 d5 8b 67 f6 a8 15 9c c0 7a 9b 57 aa 55 55 8c 9b 14 55 a1 c1 ad b4 8b 42 fb 95 84 5c 42 d4 e5</code></td>
+    </tr>
+    <tr>
+        <td>SGS III</td>
+        <td>samsung GT-I9305</td>
+        <td><code>92 D7 96 E0 8C 1E 29 17</code></td>
+        <td><code>0a 23 ae aa 5f 78 f8 6d 3b 74 18 df c9 9c 74 cc 50 61 25 01 8d 51 e4 f1 8a 98 16 2e c9 ab 9f 0a</code></td>
+    </tr>
+</table>
+
 ## OTR
 
 OTR is impossible with multiple clients fighting for the messages, so I only
