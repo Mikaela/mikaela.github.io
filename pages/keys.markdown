@@ -128,6 +128,12 @@ with some protocols, I only list those which I mainly care about.
         <td><code>92 D7 96 E0 8C 1E 29 17</code></td>
         <td><code>0a 23 ae aa 5f 78 f8 6d 3b 74 18 df c9 9c 74 cc 50 61 25 01 8d 51 e4 f1 8a 98 16 2e c9 ab 9f 0a</code></td>
     </tr>
+    <tr>
+        <td>Zaldaryn</td>
+        <td>Wire Linux</td>
+        <td><code>7B 67 B5 01 77 EE 62 2A</code></td>
+        <td><code>af 1b 11 b7 17 6e d7 39 46 27 31 d1 ed 1a 33 b1 9b 63 09 f1 ad 27 32 6f 47 d9 95 03 a9 ca 01 7d</code></td>
+    </tr>
 </table>
 
 ## OTR
