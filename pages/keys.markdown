@@ -89,15 +89,22 @@ with some protocols, I only list those which I mainly care about.
         <td><code>SYUZHGKRDF</code></td>
         <td><code>00LQ edzK 6woQ JWMj CGb2 bIvW HGqS mnGE OdlX +RsQ uqo</code></td>
     </tr>
+<!--
     <tr>
-        <td>20190414-SGS3</td>
-        <td><code>XIRWUXMDDX</code></td>
-        <td><code>u7t6//qwcflIbyhOL091aUslf+iG8mVlcg6jmSNw3N8</code></td>
+        <td>SGS3</td>
+        <td><code></code></td>
+        <td><code></code></td>
     </tr>
     <tr>
-        <td>20190426-Nokia1</code></td>
-        <td><code>FQKPLOCFLM</code></td>
-        <td><code>AYTcp3flv9J/uFhVVF+3q+coOZvWd+lkesFQ6mYF61Y</code></td>
+        <td>Nokia1</code></td>
+        <td><code></code></td>
+        <td><code></code></td>
+    </tr>
+-->
+    <tr>
+        <td>20190530-Zaldaryn</td>
+        <td><code>UEBHSUWLOC</code></td>
+        <td><code>MrnG FXve PRvK lANF +C+E jRTc a3a7 lTRZ FJWl mHVf /EA</code></td>
     </tr>
 </table>
 
