@@ -28,50 +28,65 @@ with some protocols, I only list those which I mainly care about.
 <table>
     <tr>
         <th>Device/Software</th>
+        <th>Device ID</th>
         <th>OMEMO Fingerprint</th>
     </tr>
     <!--
     <tr>
         <td>ONEPLUS A3003/Conversations</td>
+        <td></td>
         <td>FA60F9E5 5F9E99AE 5F922385 600985B5 826B7EEE 678DD1AA A50A8588 7B2A7523</td>
     </tr>
     <tr>
         <td>Jolla/Conversations Legacy</td>
+        <td></td>
         <td>15F93AD5 0EC2E3AC B69671AD 856C979D 752DB7D4 0F79F7EF 023AA929 F464125B</td>
     </tr>
     <tr>
         <td>Sedric/Gajim</td>
+        <td></td>
         <td>92B8D1C6 2BA2B932 8C2C0628 F9EE1742 D9E83134 3CE0D2B8 3309181F 9DCEA779</td>
     </tr>
     -->
     <tr>
         <td>Rbtpzn-Zaldaryn/Gajim-flatpak</td>
+        <td></td>
         <td><code>F06AE7B9 A4B1D4DC 79A5DED7 5A04D6A3 51B548D3 6A56E2CE 42493EB7 947C1E69</code></td>
     </tr>
     <tr>
         <td>Sedric/flatpak</td>
+        <td></td>
         <td><code>70DC890E D35F14AB 9102AE69 C680EDC0 F0EB3CE4 AA5BFD93 8CD13229 F81DF33B</code></td>
     </tr>
     <!--
 	<tr>
         <td>Sedric-Zaldaryn/WindowsP</td>
+        <td></td>
         <td>B0633DBF D5FEA7C3 7AAD60B6 220827A6 D7321F28 9D1DC030 19D3B1E3 4674565F</td>
     </tr>
     -->
     <tr>
         <td>Nokia 1/Conversations</td>
+        <td></td>
         <td><code>BE1E4E24 ECBD7DC4 0C3C4119 AE575B45 7DFDFD7D F11F14A0 79070F76 1CA66138</code></td>
     </tr>
     <!--
     <tr>
         <td>Sedric/Dino (flatpak)</td>
+        <td></td>
         <td>3674D5A5 D7F6FEC4 E08BF0D7 B755DD66 7A67B836 8BDC89E4 B7FBDF0B E1DDC521</td>
     </tr>
     <tr>
         <td>i9305/Conversations</td>
+        <td></td>
         <td>607139AE 1B5C8F53 AC8B9A84 9F45F9AC 0B781A3B C2616A18 C34E90A4 A2FC1860</td>
     </tr>
     -->
+    <tr>
+        <td>Zaldaryn/flatpak</td>
+        <td>1608725341</td>
+        <td><code>705F8434 A44D8C50 9F119351 34100882 939D605E 9B2CC359 01F1C8F2 30EA4A21</code></td>
+    </tr>
 </table>
 
 ## Matrix
