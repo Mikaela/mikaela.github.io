@@ -24,6 +24,7 @@ with some protocols, I only list those which I mainly care about.
 ### blesmrt.net
 
 * `xmpp COLON mikaela AT blesmrt DOT net`
+* Also experimentally available as a QR code at [`/keybase/public/mikaela/OMEMO-qr`](https://keybase.pub/mikaela/OMEMO-qr/).
 
 <table>
     <tr>
