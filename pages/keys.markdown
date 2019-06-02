@@ -122,6 +122,11 @@ with some protocols, I only list those which I mainly care about.
         <td><code>UEBHSUWLOC</code></td>
         <td><code>MrnG FXve PRvK lANF +C+E jRTc a3a7 lTRZ FJWl mHVf /EA</code></td>
     </tr>
+    <tr>
+        <td>20190602-Zaldaryn-nheko-flatpak</td>
+        <td><code>MTFFVHKIAN</code></td>
+        <td><code>UTvo Kiz/ AzQm /pK4 CNXH 0aV7 ig4v PkIv iIkx agc/ jes</code></td>
+    </tr>
 </table>
 
 ## Wire
