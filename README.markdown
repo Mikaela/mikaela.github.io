@@ -28,13 +28,12 @@ I am using [IPFS](https://ipfs.io/) for some embeds on this site. If you
 would like to help me host them:
 
 ```
-ipfs pin add QmbRqyJteL8qyYefSMgVBWUEKoXRNQL7q61xhcJeoRr35h Qma7jaHDBkGk6aEuJEbbCaqgykUrn1X8XhtZ2nMbrYgVKv QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz
+ipfs pin add QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz Qmf4MkLJPvG2sjEGu8g4fE25Ui9MDnYHXXaM2C5uo5XUkx
 ```
 
 These hashes are:
-* 250x250 avatar
-* 128x128 icon (2019-02-11).
 * foxyproxy.json
+* avatar/favicon
 
 There is also IPFS.csv in this directory listing current and previous hashes
 and where they have been used in.
