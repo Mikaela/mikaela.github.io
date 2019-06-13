@@ -32,50 +32,28 @@ with some protocols, I only list those which I mainly care about.
         <th>Device ID</th>
         <th>OMEMO Fingerprint</th>
     </tr>
-    <!--
     <tr>
-        <td>ONEPLUS A3003/Conversations</td>
-        <td></td>
-        <td>FA60F9E5 5F9E99AE 5F922385 600985B5 826B7EEE 678DD1AA A50A8588 7B2A7523</td>
-    </tr>
-    <tr>
-        <td>Jolla/Conversations Legacy</td>
-        <td></td>
-        <td>15F93AD5 0EC2E3AC B69671AD 856C979D 752DB7D4 0F79F7EF 023AA929 F464125B</td>
-    </tr>
-    <tr>
-        <td>Sedric/Gajim</td>
-        <td></td>
-        <td>92B8D1C6 2BA2B932 8C2C0628 F9EE1742 D9E83134 3CE0D2B8 3309181F 9DCEA779</td>
-    </tr>
-    -->
-    <tr>
-        <td>Rbtpzn-Zaldaryn/Gajim-flatpak</td>
+        <td>Rbtpzn/Gajim-flatpak</td>
         <td></td>
         <td><code>F06AE7B9 A4B1D4DC 79A5DED7 5A04D6A3 51B548D3 6A56E2CE 42493EB7 947C1E69</code></td>
     </tr>
     <tr>
-        <td>Sedric/flatpak</td>
+        <td>Sedric/Gajim-flatpak</td>
         <td></td>
         <td><code>70DC890E D35F14AB 9102AE69 C680EDC0 F0EB3CE4 AA5BFD93 8CD13229 F81DF33B</code></td>
     </tr>
-    <!--
-	<tr>
-        <td>Sedric-Zaldaryn/WindowsP</td>
-        <td></td>
-        <td>B0633DBF D5FEA7C3 7AAD60B6 220827A6 D7321F28 9D1DC030 19D3B1E3 4674565F</td>
-    </tr>
-    -->
     <tr>
         <td>Nokia 1/Conversations</td>
         <td></td>
         <td><code>BE1E4E24 ECBD7DC4 0C3C4119 AE575B45 7DFDFD7D F11F14A0 79070F76 1CA66138</code></td>
     </tr>
+<!--
     <tr>
         <td>Sedric/Dino (flatpak)</td>
         <td></td>
-        <td>09968155 4C7C6180 8B5D5F97 E64A0824 7C20CDC8 2766610A 725ED846 4D886C10</td>
+        <td><code>09968155 4C7C6180 8B5D5F97 E64A0824 7C20CDC8 2766610A 725ED846 4D886C10</code></td>
     </tr>
+-->
     <tr>
         <td>Zaldaryn/flatpak</td>
         <td>1608725341</td>
@@ -84,7 +62,12 @@ with some protocols, I only list those which I mainly care about.
     <tr>
         <td>i9305/Conversations</td>
         <td></td>
-        <td>9BE97E63 618C6532 9A8E1A9F 2F069BDF 1362FB10 5B4630A1 0104510A 1EC56034</td>
+        <td><code>9BE97E63 618C6532 9A8E1A9F 2F069BDF 1362FB10 5B4630A1 0104510A 1EC56034</code></td>
+    </tr>
+    <tr>
+        <td>Sedric/Dino</td>
+        <td></td>
+        <td><code>207282A2 24863B08 D2903416 537B21F9 97169B91 58D6F0E2 F94AC3C4 DA357B1C</code></td>
     </tr>
 </table>
 
