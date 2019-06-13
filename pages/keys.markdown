@@ -71,13 +71,11 @@ with some protocols, I only list those which I mainly care about.
         <td></td>
         <td><code>BE1E4E24 ECBD7DC4 0C3C4119 AE575B45 7DFDFD7D F11F14A0 79070F76 1CA66138</code></td>
     </tr>
-    <!--
     <tr>
         <td>Sedric/Dino (flatpak)</td>
         <td></td>
-        <td>3674D5A5 D7F6FEC4 E08BF0D7 B755DD66 7A67B836 8BDC89E4 B7FBDF0B E1DDC521</td>
+        <td>09968155 4C7C6180 8B5D5F97 E64A0824 7C20CDC8 2766610A 725ED846 4D886C10</td>
     </tr>
-    -->
     <tr>
         <td>Zaldaryn/flatpak</td>
         <td>1608725341</td>
