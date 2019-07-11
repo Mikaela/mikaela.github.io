@@ -4,6 +4,9 @@ comments: true
 title: "Android 9 Private DNS behaviour with 853 blocked & DoT server comparsion"
 category: [english]
 tags: [english, Android, DNS-over-TLS, DNS, security, privacy]
+redirect_from:
+  - /dns.html
+  - /dot.html
 ---
 
 *Since I first heard of Android 9 Private DNS I wondered how it will work
