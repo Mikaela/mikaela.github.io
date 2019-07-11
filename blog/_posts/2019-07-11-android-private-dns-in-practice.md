@@ -14,11 +14,12 @@ tags: [english, Android, DNS-over-TLS, DNS, security, privacy]
 Notes/disclaimers:
 * Phone: Nokia 1 (TA-1047) running Android 9 (Go Edition)
     * I think I got the update on 9th of July
-* Language: Finnish (and as I am typing in English
+    * Language: Finnish (and as I am typing in English I may accidentally
+      invent my own words)
 * In all tests mobile data was disabled to not cause confusing results.
-* As Private DNS is technically DNS over TLS I am calling it as DoT.
-* Enabled from Settings, Network & Internet, Advanced settings, Private DNS
-* I am using [dns.quad9.net](https://quad9.net/) as hostname.
+* As Private DNS is technically DNS over TLS, I am calling it as DoT.
+  * In Android 9 it's enabled from Settings, Network & Internet, Advanced settings, Private DNS
+    * I am using [dns.quad9.net](https://quad9.net/) as hostname.
 * Automatic mode connects to the DNS server port 853 without validating
   certificate, "Hostname of private DNS provider" (which I call as the
   manual mode) also validates the certificate and disallows downgrading.
@@ -34,18 +35,18 @@ Notes/disclaimers:
 
 * * * * *
 
-Test: automatic mode without DoT capable server from DHCP; the setting
+Test: *automatic mode without DoT capable server from DHCP*; the setting
 says "automatic".
 
 * * * * *
 
-Test: DoT with port 853 blocked; Android reports that the WLAN network has
+Test: *DoT with port 853 blocked*; Android reports that the WLAN network has
 no internet connectivity until I disable private DNS and toggle WLAN. I
 tested this in Helsinki metro.
 
 * * * * *
 
-Test: automatic mode with DoT capable server from DHCP; Android says that
+Test: *automatic mode with DoT capable server from DHCP*; Android says that
 DoT is "enabled". For this test I configured a WLAN AP to use [Quad9](https://quad9.net/)
 DNS servers `149.112.112.112` and `9.9.9.9`. 
 
@@ -69,7 +70,7 @@ my index:
 
 * * * * *
 
-Bonus test: DoT + DoH via the [Intra app](https://getintra.org/#!/)
+Bonus test: *DoT + DoH via the [Intra app](https://getintra.org/)*
 configured to use server `https://149.112.112.112/dns-query` in Helsinki
 metro; Android claims that the network has no connectivity and shows the x
 on the WLAN symbol in the statusbar, but everything works regardless.
@@ -79,7 +80,7 @@ would have been unable to resolve that name due to DoT being blocked.
 
 * * * * *
 
-Test: DoT + Captive Portal; I get the captive portal prompt asking me to
+Test: *DoT + Captive Portal*; I get the captive portal prompt asking me to
 login to the network as usual, so I guess Android handles captive portal
 separately from DoT which is a good thing in my opinion as otherwise that
 feature would likely be too confusing or difficult for many people to use.
@@ -114,10 +115,13 @@ The options [judging by DNSPrivacy.org](https://dnsprivacy.org/wiki/display/DP/D
     to Cisco/OpenDNS without realizing that the DoT requirement dropped them out
     already) that I haven't yet encountered
   * [FAQ](https://quad9.net/faq/)
-  * supports DNS over HTTPS (for Firefox which at the time of typing requires
+  * supports DNS over HTTPS (I need it for Firefox which at the time of typing requires
     DoH for ESNI support)
-  * has a node in Finland
+  * has a node in Finland (see TREX under regional providers)
   * I have heard that they plan a network map (Adguard on the bottom has it)
+    and I hope to see it soon, because I would have no idea they have a node
+    in Finland without knowing about TREX and having performed DNS leak test
+    (see TREX under regional providers for more details on both).
 * Cloudflare
   * for-profit company
   * too big for my taste and possibly getting even bigger if Firefox starts
@@ -159,10 +163,15 @@ Then there are regional providers like:
     my circles
 * [CZ.NIC Otevřené DNSSEC Validující Resolvery](https://www.nic.cz/odvr/) for Czech users
   * has DNSSEC, DoT & DoH
-  * probably wouldn't make much sense to use from Finland
+  * probably wouldn't make much sense to use from Finland (or anywhere
+    else far from Czech Republic, I imagine all the neighbouring countries would also have their
+    own equivalent regardless of CZ.NIC being so big name (you have heard of e.g. [Turris Omnia](https://en.wikipedia.org/wiki/Turris_Omnia)?))
   * (thus I promote centralization, but) a regional not-anycasted DNS server
     may be impractical while traveling as your DNS would always go through
-    home and possibly be slower than it could be
+    home and possibly be slower than it could be. As a counter argument it
+    wouldn't hurt that much or be difficult to change, but would you
+    remember to do it while traveling (I guess I would) and would your
+    family members remember that?
 
 And the golden option of hosting your own DNS. (It's actually easy with
 Unbound, I haven't tried DoH/DoT hosting though!)
