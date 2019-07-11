@@ -154,6 +154,7 @@ The options [judging by DNSPrivacy.org](https://dnsprivacy.org/wiki/display/DP/D
   * based in Cyprus (EU)
   * [Adguard DNS page including FAQ](https://adguard.com/en/adguard-dns/overview.html)
     * no server in Finland
+  * appears to be using Cloudflare, which is a minus point.
 
 Then there are regional providers like:
 
