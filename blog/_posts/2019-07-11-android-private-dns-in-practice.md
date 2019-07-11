@@ -161,7 +161,8 @@ Then there are regional providers like:
       by TREX is a plus for Quad9 in my eyes as it's
   * often recommended for Finnish users instead of Google DNS by people in
     my circles
-* [CZ.NIC Otevřené DNSSEC Validující Resolvery](https://www.nic.cz/odvr/) for Czech users
+* [CZ.NIC Open DNSSEC Validating Resolvers](https://www.nic.cz/odvr/) for Czech users
+  (English readers: enable cookies and click "English")
   * has DNSSEC, DoT & DoH
   * probably wouldn't make much sense to use from Finland (or anywhere
     else far from Czech Republic, I imagine all the neighbouring countries would also have their
