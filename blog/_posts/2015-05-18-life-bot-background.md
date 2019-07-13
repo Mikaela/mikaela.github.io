@@ -10,10 +10,10 @@ redirect_from: /english/2015/05/18/life-bot-background.html
 *More on my life and a little background on bots; also trigger warning
 about probably everything...*
 
-Start with the [previous post on the subject]({% post_url 2015-03-25-leaving-bots-life %})...
+Start with the [previous post on the subject]({% post_url blog/2015-03-25-leaving-bots-life %})...
 
 *Update:
-[I graduated on 2015-05-29.]({% post_url 2015-05-29-graduation %})*
+[I graduated on 2015-05-29.]({% post_url blog/2015-05-29-graduation %})*
 
 So I have been away from school for months now and the fact that I won't
 graduate seems very sure. I haven't left home unless I have had too either

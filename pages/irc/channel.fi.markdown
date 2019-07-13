@@ -48,8 +48,8 @@ jos näet heidän rikkovan näitä sääntöjä, sano se.*
 
 Lisälukemista:
 
-* [Pidä opit oppeina (englanniksi)]({% post_url 2015-04-01-keep-the-ops-opped %})
-* [Kaikkien yksityisviestien estäminen oletuksena (enlanniksi)]({% post_url 2015-04-02-umodeg %})
+* [Pidä opit oppeina (englanniksi)]({% post_url blog/2015-04-01-keep-the-ops-opped %})
+* [Kaikkien yksityisviestien estäminen oletuksena (enlanniksi)]({% post_url blog/2015-04-02-umodeg %})
 
 Muutosloki ([GitHubissa](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/channel.fi.markdown)):
 

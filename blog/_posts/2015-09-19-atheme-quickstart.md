@@ -38,7 +38,7 @@ identification, I cannot help with it so much, but I can point you to
 beginning:
 
 * [freenode's SASL instructions](https://freenode.net/kb/answer/sasl)
-* [My instructions for SASL with WeeChat]({% post_url 2015-03-26-weechat-sasl-simply %})
+* [My instructions for SASL with WeeChat]({% post_url blog/2015-03-26-weechat-sasl-simply %})
 * [Searx YOURCLIENTHERE SASL](https://search.disroot.org/?q=YOURCLIENTHERE+SASL)
 * IRCCloud: edit network and go to advanced settings and you will see box
   for NickServ password.
@@ -126,9 +126,9 @@ there:
 
 ## Futher reading
 
-* [Always add opers to access list (this is the $oper in my templates)]({% post_url 2015-01-10-channels-hostmask-groups-a-basic-howto %})
+* [Always add opers to access list (this is the $oper in my templates)]({% post_url blog/2015-01-10-channels-hostmask-groups-a-basic-howto %})
     * oops, did I just repeat previous post
-* [Keep the ops opped]({% post_url 2015-04-01-keep-the-ops-opped %})
+* [Keep the ops opped]({% post_url blog/2015-04-01-keep-the-ops-opped %})
     * especially read this if you are at freenode or wondering why you
       don't get automatically opped after registering the channel and
       cycling while being identified!
