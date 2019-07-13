@@ -57,7 +57,7 @@ the other people use SSL is passwords:
 *Now you can move into reading why [IRC over SSL is pointless]...*
 
 [POODLE]:https://en.wikipedia.org/wiki/POODLE
-[verify the certificates]:{% post_url 2015-02-24-znc160-ssl %}
+[verify the certificates]:{% post_url blog/2015-02-24-znc160-ssl %}
 [IRC over SSL is pointless]:https://www.quakenet.org/articles/99-trust-is-not-transitive-or-why-irc-over-ssl-is-pointless
 
 ## Addition: who is interested in my traffic?

@@ -56,7 +56,7 @@ etc.)" so we wasted time 50 minutes per trip from [Kotka] to [Hamina] and
 * * * * *
 
 *Update:
-[I graduated on 2015-05-29.]({% post_url 2015-05-29-graduation %})*
+[I graduated on 2015-05-29.]({% post_url blog/2015-05-29-graduation %})*
 
 I would graduate in summer without this issue and the only thing I have
 missing is work training. As I don't have work training place I was doing
