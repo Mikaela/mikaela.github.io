@@ -17,9 +17,10 @@ redirect_from:
 ## Firefox containers
 
 * [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
+    * nice when clicking Facebook links even while not being a Facebook user
 * [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/)
 * [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
-* [Temporary containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/)
+* ~~[Temporary containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/)~~ I am not just learning to use this properly
     * Especially in Automatic mode it renders Cookie Autodelete unnecessary
       in my opinion and is likely more secure.
     * **READ THE FINE MANUAL ON THAT PAGE!**
@@ -34,10 +35,11 @@ redirect_from:
 ## Firefox about:config
 
 * `layout.css.devPixelsPerPx` to `1.25` or `2.0` on macOS Retina to increase font size.
+    * Warning: very likely increases fingerprintability
 * `privacy.firstparty.isolate` to `true` for preventing domains from
   accessing each other's data.
-    * If something breaks, it's most likely related to this. I am yet to
-      test if this breaks Finnish strong electric authentication.
+    * If something breaks, it's most likely related to this. ~~I am yet to
+      test if this~~ Surprisingly it doesn't break~~s~~ Finnish strong electric authentication.
 * `privacy.resistFingerprinting` = `true` multiple effects to make your
   browser appear less unique, the ones I have found/understood:
     * warns if `intl.accept_languages` is not `en-US, en` .
@@ -45,6 +47,7 @@ redirect_from:
     * spoofs the user-agent as the latest Firefox ESR version.
     * [Firefox's protection against fingerprinting](https://support.mozilla.org/en-US/kb/firefox-protection-against-fingerprinting)
       has the upstream list.
+        * [A better list under section 4500: RFP (RESIST FINGERPRINTING)](https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js)
 * `privacy.trackingprotection.cryptomining.enabled` = `true` so cryptomining
   on some websites gets blocked and won't waste resources.
 * `privacy.trackingprotection.fingerprinting.enabled` = `true` I am not
@@ -68,8 +71,7 @@ Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/sh
 #### DNS over HTTPS
 
 * `network.trr.bootstrapAddress` DNS server to use for resolving the DoH
-  name, e.g. `84.200.70.40` (Resolver 2 of [DNS.watch](https://dns.watch/)
-  in Germany) or `149.112.112.112` (Resolver 2 of [Quad9](https://quad9.net))
+  name, e.g. `149.112.112.112` (Resolver 2 of [Quad9](https://quad9.net))
 * `network.trr.mode` 2 to prefer DoH, but fallback to system resolver (or 3 to enforce DoH without fallback)
     * [DoH is required by Firefox ESNI support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI which would still leak which
       sites you visit. [Another bug about ESNI + Android DoT](https://bugzilla.mozilla.org/show_bug.cgi?id=1542754#c3)
@@ -78,7 +80,7 @@ Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/sh
       more of a problem than unencrypted SNI as not everyone supports it.
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
-  `https://dns.quad9.net/dns-query` or
+  `https://dns.quad9.net/dns-query` or `https://149.112.112.112/dns-query` (removes the need for `network.trr.bootstrapAddress` and allows ǹetwork.trr.mode` `3`?) or
   [check curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS#publicly-available-servers)
 
 Some notes:
@@ -91,6 +93,7 @@ you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
 * Quad9 while having filtering of malicious domains should be easy to figure
   out as the problem if something doesn't work on my computers as due to the
   previously mentioned bug I am mainly using it on Firefox.
+* [While investingating how Android 9 Private DNS works, I also wrote a DNS provider comparsion here]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
 
 #### SSDs
 
@@ -128,11 +131,11 @@ and this is the reason why Firefox is at times accused of killing SSDs.
     * [µMatrix users](https://git.synz.io/Synzvato/decentraleyes/wikis/Frequently-Asked-Questions#for-umatrix-and-ublock-origin-non-easy-mode-users)
 * ~~[Firefox: Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)~~
     * Copied from [PrivacyTools.io](https://privacytools.io), cleans Google
-      results links.
-* [Firefox: True Sight](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare-plus/)
+      results links. I am not actually using Google Search, so it's useless for me.
+* ~~[Firefox: True Sight](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare-plus/)~~
     * This is a CDN detector and it being a privacy extension can be debated
       but I just feel like putting it here. I will still say that not all
-      CDNs are bad (IPFS).
+      CDNs are bad (IPFS). I mostly don't have it enabled
 * [Firefox: µMatrix](https://addons.mozilla.org/firefox/addon/umatrix/)
     * [Chrome](https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf)
     * It can easily replace Cookie Autodelete (block cookies for global scope), Privacy Badger (by default), NoScript and possibly others.
@@ -147,28 +150,30 @@ and this is the reason why Firefox is at times accused of killing SSDs.
 * [Firefox: Privacy Pass](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)
     * [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi)
     * May reduce captchas with CloudFlare.
-* [Firefox: Healthy.Onion](https://addons.mozilla.org/en-US/firefox/addon/healthy-onion/)
+* ~~[Firefox: Healthy.Onion](https://addons.mozilla.org/en-US/firefox/addon/healthy-onion/)~~
     * **Only for Tor Browser** or other browser going through Tor all the
       time as it redirects clearnet addresses to Tor .onion hidden
       services that cannot be accessed outside of Tor. 
+    * I cannot figure out how to edit the list and I keep getting stuck with some dead onions. Due to these issues I am also unsure on trusting it.
 
 ## Productivity
 
 * [Firefox: Mind The Time](https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/)
     * [Chrome equivalent: Webtime tracker](https://chrome.google.com/webstore/detail/webtime-tracker/ppaojnbmmaigjmlpjaldnkgnklhicppk)
-* [Firefox: Nudge by Siempo](https://addons.mozilla.org/en-US/firefox/addon/nudge-by-siempo/)
+* ~~[Firefox: Nudge by Siempo](https://addons.mozilla.org/en-US/firefox/addon/nudge-by-siempo/)~~ Pulled from AMO?
     * [Chrome: Nudge by Siempo](https://chrome.google.com/webstore/detail/nudge-by-siempo/hjoookglknijcfdlbcfnehfhicbknemj)
 
 ## Misc
 
 * [Firefox: IPvFoo](https://addons.mozilla.org/en-US/firefox/addon/ipvfoo-pmarks/)
     * [Chrome](https://chrome.google.com/webstore/detail/ipvfoo/ecanpcehffngcegjmadlcijfolapggal)
-* [Chrome: RSS](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
+* [Firefox: RSS feed preview](https://addons.mozilla.org/en-US/firefox/addon/feed-preview/)
+    * [Chrome: RSS](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
 * [Firefox: IPFS Companion](https://addons.mozilla.org/en-US/firefox/addon/ipfs-companion/)
     * [Firefox: beta channel of IPFS Companion](https://bafybeibjozlsoxzrxsoklis775aglnwpal2hjl42ippo57jdwiv6zoij7m.ipfs.dweb.link/)
         * doesn't sync automatically with Firefox Sync.
     * [Chrome](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)
-    * At the time of writing, 2018-09-22, I consider IPFS as
+    * At the time of writing, 2019-07-13, I consider IPFS as
       **incompatible with Tor Browser** as Tor browser would use the local
       IPFS daemon, which **is not using Tor** and thus the IPFS network
       **could see your real IP** especially if not many nodes are
@@ -178,18 +183,19 @@ and this is the reason why Firefox is at times accused of killing SSDs.
     * Onions to Tor, I2P to I2P. [My rules]({{site.ipfsGateway}}/ipfs/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
 * [Firefox: Tab Counter](https://addons.mozilla.org/en-US/firefox/addon/tab-counter-webext/)
 * [Firefox: Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/)
-    * I especially like *nicer dark* with Memrise.
-* [Firefox: RSS feed preview](https://addons.mozilla.org/en-US/firefox/addon/feed-preview/)
 * [Firefox: Duolingo Boost](https://addons.mozilla.org/en-US/firefox/addon/duolingo-boost/)
     * [Chrome: Duolingo Boost](https://chrome.google.com/webstore/detail/duolingo-boost/mgecoicpalmpphlgfkdepgpofjcnggkn)
     * [Bitbucket](https://bitbucket.org/Richdark/duolingo-boost/)
+* [Firefox: Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
 
 ## Usability
 
 * [Firefox: Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
 * ~~[Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)~~ see *about:config section*
-* [Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)
-* [Firefox: Zenfox (Solarized themes)](https://addons.mozilla.org/en-us/firefox/addon/zen-fox/)
+* ~~[Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)~~ ViolentMonkey + Grayscale
+    * I especially like *nicer dark* with Memrise. 
+* ~~[Firefox: Zenfox (Solarized themes)](https://addons.mozilla.org/en-us/firefox/addon/zen-fox/)~~ Breaks the buttons in find in page CTRL + F
+* [Firefox: Grayscale](https://addons.mozilla.org/en-US/firefox/addon/grayscalefortabs/)
 
 ## Videos
 
@@ -205,3 +211,5 @@ and this is the reason why Firefox is at times accused of killing SSDs.
 * [UK English](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/)
 * [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-spell-checking-dictionar/)
 * [Swedish](https://addons.mozilla.org/en-US/firefox/addon/g%C3%B6rans-hemmasnickrade-ordli/)
+
+Changelog: [GitHub.com commits](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/browser-extensions.markdown) | [gitea.blesmrt.net commits](https://gitea.blesmrt.net/mikaela/mikaela-info/commits/branch/master/pages/browser-extensions.markdown)
