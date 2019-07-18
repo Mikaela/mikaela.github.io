@@ -28,7 +28,7 @@ I am using [IPFS](https://ipfs.io/) for some embeds on this site. If you
 would like to help me host them:
 
 ```
-ipfs pin add QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz Qmf4MkLJPvG2sjEGu8g4fE25Ui9MDnYHXXaM2C5uo5XUkx
+ipfs pin add QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD
 ```
 
 These hashes are:

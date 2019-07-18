@@ -29,8 +29,8 @@ sitemap:
     file: "/sitemap.xml"
 include: [PGP, PHP, keybase.txt, robots.txt, avatar.jpeg]
 
-avatar: https://ipfs.privacytools.io/ipfs/Qmf4MkLJPvG2sjEGu8g4fE25Ui9MDnYHXXaM2C5uo5XUkx/250.jpg
-icon: https://ipfs.privacytools.io/ipfs/Qmf4MkLJPvG2sjEGu8g4fE25Ui9MDnYHXXaM2C5uo5XUkx/128.jpg
+avatar: https://ipfs.privacytools.io/ipfs/QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD/250.png
+icon: https://ipfs.privacytools.io/ipfs/QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD/128.png
 
 # {{site.ipfsGateway}}/ipfs/IPFSHASHHERE to get ipfs link via gateway.
 # Hopefully future proof letting me simply swap the link here instead of
