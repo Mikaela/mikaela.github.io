@@ -101,7 +101,8 @@ Nameserver is the host where dnscrypt-proxy said to be listening on in
 journalctl, options are from dnscrypt-proxy documentation and search means
 domains that are automatically searched for if you don't use fully
 qualified domain names, e.g. `ssh machine` in my (uncommented) config
-would turn into `ssh machine.mikaela.info`.
+would turn into `ssh machine.mikaela.info`. Update: I find this a privacy
+leakage (whenever NXDOMAIN happens), which is why I nowadays have it commented.
 
 You should also tell dhclient to not touch resolv.conf or you may get many
 files into `/etc` beginning with names `resolv.conf.dhclient-new.`
@@ -130,3 +131,35 @@ sudo chown -R _dnscrypt-proxy:nogroup /var/cache/dnscrypt-proxy /var/log/dnscryp
 * * * * *
 
 For the curious my dnscrypt-proxy config [is in my shell-things repository](https://github.com/Mikaela/shell-things/tree/master/etc/dnscrypt-proxy) [mirror](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/dnscrypt-proxy).
+
+* * * * *
+
+## 2019-07-22 update
+
+I have also started performing local DNSSEC validation by running Unbound
+in front of DNSCrypt-proxy, so my queries go resolv.conf -> Unbound ->
+dnscrypt-proxy -> configured resolvers. This has the advantage that if the
+resolver didn't perform DNSSEC validation or lied about performing it, the
+protection by DNSSEC would still be received.
+
+The steps are simple:
+
+1. `sudo apt install unbound`
+    * You should see a file `/etc/unbound/unbound.conf.d/root-auto-trust-anchor-file.conf`
+      which simply says `server:` and on another line after intending
+      `auto-trust-anchor-file: "/var/lib/unbound/root.key"` (the path varies
+      by distribution) which means it's performing DNSSEC validation with
+      those trust anchors.
+2. `sudo nano /etc/unbound/unbound.conf.d/dnscrypt-proxy.conf`
+
+```
+do-not-query-localhost: no
+forward-zone:
+    name: "."
+    forward-addr: 127.0.2.1@53
+```
+
+3. `sudo systemctl restart unbound`
+4. Ensure `/etc/resolv.conf` points to `127.0.0.1` and optionally `::1`
+instead of `127.0.2.1` where dnscrypt-proxy runs by default. For more
+details, CTRL + F for resolv.conf or chattr.
