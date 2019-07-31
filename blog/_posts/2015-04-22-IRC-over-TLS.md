@@ -54,11 +54,12 @@ the other people use SSL is passwords:
   plain text and someone else taking that password. What kind of "fun"
   things they could do with it?
 
-*Now you can move into reading why [IRC over SSL is pointless]...*
+*Now you can move into reading why [IRC over SSL is pointless], [web.archive.org]...*
 
 [POODLE]:https://en.wikipedia.org/wiki/POODLE
 [verify the certificates]:{% post_url blog/2015-02-24-znc160-ssl %}
 [IRC over SSL is pointless]:https://www.quakenet.org/articles/99-trust-is-not-transitive-or-why-irc-over-ssl-is-pointless
+[web.archive.org]:https://web.archive.org/web/20130425123002/http://www.quakenet.org/articles/99-trust-is-not-transitive-or-why-irc-over-ssl-is-pointless
 
 ## Addition: who is interested in my traffic?
 
