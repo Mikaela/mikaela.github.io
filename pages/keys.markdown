@@ -78,6 +78,10 @@ with some protocols, I only list those which I mainly care about.
 
 ## Matrix
 
+***This section tends to be always outdated due to Matrix client situation
+and as I don't recommend it for anything requiring privacy or other than
+public team chat, I am going to remove this section in near future.***
+
 `@mikaela:privacytools.io`
 
 <table>
