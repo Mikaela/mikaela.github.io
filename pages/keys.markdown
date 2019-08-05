@@ -47,6 +47,11 @@ with some protocols, I only list those which I mainly care about.
         <td><code></code></td>
         <td><code>BE1E4E24 ECBD7DC4 0C3C4119 AE575B45 7DFDFD7D F11F14A0 79070F76 1CA66138</code></td>
     </tr>
+    <tr>
+        <td>Nokia 1/Atalk</td>
+        <td><code></code></td>
+        <td><code>B6EFB430 FDA7F58F 52BD8A7D 0BB42F7F 8E344624 7B28D6EA 8CA80B53 D856DC2C</code></td>
+    </tr>
 <!--
     <tr>
         <td>Sedric/Dino (flatpak)</td>
@@ -59,11 +64,13 @@ with some protocols, I only list those which I mainly care about.
         <td><code>1608725341</code></td>
         <td><code>705F8434 A44D8C50 9F119351 34100882 939D605E 9B2CC359 01F1C8F2 30EA4A21</code></td>
     </tr>
+<!--
     <tr>
         <td>i9305/Conversations</td>
         <td><code></code></td>
         <td><code>9BE97E63 618C6532 9A8E1A9F 2F069BDF 1362FB10 5B4630A1 0104510A 1EC56034</code></td>
     </tr>
+-->
     <tr>
         <td>Sedric/Dino</td>
         <td><code></code></td>
