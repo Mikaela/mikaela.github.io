@@ -14,9 +14,9 @@
 
   <link rel="stylesheet" href="{{ "{{base}}/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/blog/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - in English" href="{{ "/blog/feed.en.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - Suomeksi" href="{{ "/blog/feed.fi.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "{{base}}/blog/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - in English" href="{{ "{{base}}/blog/feed.en.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - Suomeksi" href="{{ "{{base}}/blog/feed.fi.xml" | prepend: site.baseurl | prepend: site.url }}" />
  <!-- Help http://validator-search.verisignlabs.com/ -->
  <link rel="prefetch" href="https://prefetch.validatorsearch.verisignlabs.com" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
