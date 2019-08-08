@@ -1,11 +1,5 @@
-<!-- Cloudflare recommends these for IPFS at https://developers.cloudflare.com/distributed-web/ipfs-gateway/updating-for-ipfs/ -->
-
 {% assign depth = page.url | split: '/' | size | minus: 1 %}
 {% if    depth <= 1 %}{% assign base = '.' %}
 {% elsif depth == 2 %}{% assign base = '..' %}
 {% elsif depth == 3 %}{% assign base = '../..' %}
 {% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
-
-<!-- if anything has to link to root, it should use `{%- include base.html -%}`
-     and normal `/css/main.css` etc. should become `{{base}}/css/main.css`
-     says the page above. base.html ends here. -->
