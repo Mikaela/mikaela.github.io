@@ -1,10 +1,13 @@
 ---
 layout: null
 permalink: /or/gist.html
+redirect_from:
+  - /r/ormirror.html
+  - /r/0ormirror.html
 sitemap: false
 ---
 
-https://gist.github.com/Mikaela/fcd36d19cc7082a8f8cd507b94a0f1c6
+https://gitea.blesmrt.net/mikaela/ormirror
 
 Mirror of this directory for easier cloning without all the irrelevant
 history.
