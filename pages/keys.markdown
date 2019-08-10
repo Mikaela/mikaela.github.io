@@ -78,53 +78,41 @@ with some protocols, I only list those which I mainly care about.
     </tr>
     <tr>
         <td>Sedric/Windows/Gajim</td>
-        <td>1851265680</td>
+        <td><code>1851265680</code></td>
         <td><code>2CA4A344 03A525F8 4CD75F47 69334B00 FECD2B6C 0D697F77 21BEB4D5 04AB5130</code></td>
     </tr>
 </table>
 
 ## Matrix
 
-***This section tends to be always outdated due to Matrix client situation
-and as I don't recommend it for anything requiring privacy or other than
-public team chat, I am going to remove this section in near future.***
+I have [multiple privacy concerns related to Matrix/Riot](https://github.com/privacytoolsIO/privacytools.io/issues/1049)
+such as [it storing messages forever](https://github.com/matrix-org/matrix-doc/issues/447)
+and as it may be possible to break the encryption in the future allowing the
+server owner or attacker gaining access to the server database to read the
+messages in the future, I recommend against communicating private matters
+there.
 
-`@mikaela:privacytools.io`
+Another reason why I don't list my key fingerprints here is that
+[Riot randomly erases the keys by itself](https://github.com/vector-im/riot-web/issues/9169)
+so I don't have energy to keep updating the list. Matrix is also missing
+functioning established cross-platform clients with all the features.
 
-<table>
-    <tr>
-        <th>Device name</th>
-        <th>ID</th>
-        <th>Fingerprint</th>
-    </tr>
-    <tr>
-        <td>20190413-Sedric</td>
-        <td><code>SYUZHGKRDF</code></td>
-        <td><code>00LQ edzK 6woQ JWMj CGb2 bIvW HGqS mnGE OdlX +RsQ uqo</code></td>
-    </tr>
-<!--
-    <tr>
-        <td>SGS3</td>
-        <td><code></code></td>
-        <td><code></code></td>
-    </tr>
-    <tr>
-        <td>Nokia1</code></td>
-        <td><code></code></td>
-        <td><code></code></td>
-    </tr>
--->
-    <tr>
-        <td>20190530-Zaldaryn</td>
-        <td><code>UEBHSUWLOC</code></td>
-        <td><code>MrnG FXve PRvK lANF +C+E jRTc a3a7 lTRZ FJWl mHVf /EA</code></td>
-    </tr>
-    <tr>
-        <td>20190602-Zaldaryn-nheko-flatpak</td>
-        <td><code>MTFFVHKIAN</code></td>
-        <td><code>UTvo Kiz/ AzQm /pK4 CNXH 0aV7 ig4v PkIv iIkx agc/ jes</code></td>
-    </tr>
-</table>
+* Riot key erasing issue above.
+* Integration manager cannot be changed, resulting the need of using
+  multiple Riot Web instances while web browsers at times remove data.
+* Riot uses Electron.
+* Riot Android is very resource intensive and performs badly on Nokia 1
+  (TA-1047).
+* RiotX is too early in development to be usable due to various issues.
+
+When these issues are fixed and the fingerprints are as easy to publish on
+this page as XMPP and Wire ones, please contact me. Alternatively if Matrix
+succeeds at cross-signing making this page useless, I will be happy to hear
+that.
+
+Meanwhile, if you insist using Matrix, please at least coordinate emoji
+verification with me on XMPP, Wire, Keybase or Signal. I won't bother with
+fingerprint comparsion in case of Matrix.
 
 ## Wire
 
