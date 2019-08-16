@@ -1,5 +1,5 @@
 ---
-redirect_to: https://raw.githubusercontent.com/Mikaela/gist/master/irc/hexchat/servlist.conf
+redirect_to: https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/irc/hexchat/servlist.conf
 permalink: /r/servlist.conf.html
 sitemap: false
 ---
