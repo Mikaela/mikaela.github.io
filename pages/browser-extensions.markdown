@@ -72,13 +72,13 @@ Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/sh
 
 * `network.trr.bootstrapAddress` DNS server to use for resolving the DoH
   name, e.g. `149.112.112.112` (Resolver 2 of [Quad9](https://quad9.net))
-* `network.trr.mode` depends, 2 to prefer DoH, but fallback to system resolver (or 3 to enforce DoH without fallback). ***If there is system encrypted DNS, just take 1 to maybe benefit from eSNI while likely benefiting from system DNS cache without ESNI.***
+* `network.trr.mode` depends, 2 to prefer DoH, but fallback to system resolver (or 3 to enforce DoH without fallback). ***If there is system encrypted DNS, just take 5 to at least benefit from the system DNS cache.***
     * [DoH is required by Firefox ESNI support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI which would still leak which
       sites you visit. [Another bug about ESNI + Android DoT](https://bugzilla.mozilla.org/show_bug.cgi?id=1542754#c3)
     * I have ended up to recommending 2 as otherwise the DoH server going
       down stops DNS from working on your Firefox entirely, which may be
       more of a problem than unencrypted SNI as not everyone supports it.
-        * since then I have decided that 1 is the best option, because otherwise it goes past ***my*** Unbound setup. I hope Mozilla/Firefox will fix the two bugs linked above, so I don't have to choose between DNS under my control vs encrypted SNI.
+        * since then I have decided that 5 is the best option, because otherwise it goes past ***my*** Unbound setup. I hope Mozilla/Firefox will fix the two bugs linked above, so I don't have to choose between DNS under my control vs encrypted SNI.
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
   `https://dns.quad9.net/dns-query` or `https://149.112.112.112/dns-query` (removes the need for `network.trr.bootstrapAddress` and allows ǹetwork.trr.mode` `3`?) or
