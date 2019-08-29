@@ -138,7 +138,7 @@ future won't be like I think so why be stuck in imaginary future on my
 worseness?
 
 The books I read are *How To Be An Adult in Relationships* by
-*David Richo* (thanks to [attachment styles - a primer at the dirty normal](https://web.archive.org/web/20170613034808/http://www.thedirtynormal.com/blog/2010/06/21/attachment-styles-a-primer/)
+*David Richo* (thanks to [attachment styles - a primer at the dirty normal](https://www.thedirtynormal.com/post/2010/06/21/attachment-styles-a-primer/)
 which recommends a different book with similar name, so happy accident
 happened), *The Way Things Are* by *Lama Ole Nydahl* and *Living Dharma* by
 *Lama Yeshe Losaf*. I am also reading more books about the subject, those
