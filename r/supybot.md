@@ -1,5 +1,5 @@
 ---
-redirect_to: https://github.com/Mkaysi/limnoria/blob/gh-pages/Supybot.markdown
+redirect_to: https://gitea.blesmrt.net/mikaela/Limnoria/src/branch/master/Supybot.markdown
 permalink: /r/supybot.html
 sitemap: false
 ---
