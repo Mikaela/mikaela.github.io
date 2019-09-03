@@ -81,6 +81,11 @@ with some protocols, I only list those which I mainly care about.
         <td><code>1851265680</code></td>
         <td><code>2CA4A344 03A525F8 4CD75F47 69334B00 FECD2B6C 0D697F77 21BEB4D5 04AB5130</code></td>
     </tr>
+    <tr>
+        <td>Zaldaryn/Dino</td>
+        <td><code></code></td>
+        <td><code>CC333B95 659E8BE1 D4E9A2B5 55DF7D21 C51B1FBA 52A7CC4F F7CBB069 9AAACD70</code></td>
+    </tr>
 </table>
 
 ## Matrix
