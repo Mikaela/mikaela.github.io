@@ -16,14 +16,39 @@ redirect_from:
 
 ## Firefox containers
 
-* [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
-    * nice when clicking Facebook links even while not being a Facebook user
-* [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/)
-* [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
-* ~~[Temporary containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/)~~ I am not just learning to use this properly
-    * Especially in Automatic mode it renders Cookie Autodelete unnecessary
-      in my opinion and is likely more secure.
-    * **READ THE FINE MANUAL ON THAT PAGE!**
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Link</th>
+        <th>Source</th>
+        <th>Comment</th>
+    </tr>
+    <tr>
+        <td>Facebook Container</td>
+        <td>https://addons.mozilla.org/en-US/firefox/addon/facebook-container/</td>
+        <td>TBD</td>
+        <td>nice when clicking Facebook links even while not being a Facebook user</td>
+    </tr>
+    <tr>
+        <td>Google Container</td>
+        <td>https://addons.mozilla.org/en-US/firefox/addon/google-container/</td>
+        <td>TBD</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Firefox Multi Account Containers</td>
+        <td>https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers</td>
+        <td>TBD</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>~~Temporary Containers~~</td>
+        <td>https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/</td>
+        <td>TBD</td>
+        <td>I am not just learning to use this properly. <br/>Especially in Automatic mode it renders Cookie Autodelete unnecessary in my opinion and is likely more secure.</td>
+    </tr>
+</table>
+
 
 ## Firefox language packs
 
