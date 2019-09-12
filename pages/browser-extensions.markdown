@@ -140,8 +140,20 @@ and this is the reason why Firefox is at times accused of killing SSDs.
 
 ## Passwords
 
-* [Firefox: Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
-    * [Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Firefox</th>
+        <th>Chromium</th>
+        <th>Source</th>
+    </tr>
+    <tr>
+        <td>Bitwarden</td>
+        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/">Firefox Add-ons</a></td>
+        <td><a href="https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb">Chrome Web Store</a></td>
+        <td>TBD</td>
+    </tr>
+</table>
 
 ## Privacy
 
