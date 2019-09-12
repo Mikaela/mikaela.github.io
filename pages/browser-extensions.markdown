@@ -25,25 +25,25 @@ redirect_from:
     </tr>
     <tr>
         <td>Facebook Container</td>
-        <td>https://addons.mozilla.org/en-US/firefox/addon/facebook-container/</td>
+        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Firefox Add-ons</a></td>
         <td>TBD</td>
         <td>nice when clicking Facebook links even while not being a Facebook user</td>
     </tr>
     <tr>
         <td>Google Container</td>
-        <td>https://addons.mozilla.org/en-US/firefox/addon/google-container/</td>
+        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/google-container/">Firefox Add-ons</a></td>
         <td>TBD</td>
         <td></td>
     </tr>
     <tr>
         <td>Firefox Multi Account Containers</td>
-        <td>https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers</td>
+        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers">Firefox Add-ons</a></td>
         <td>TBD</td>
         <td></td>
     </tr>
     <tr>
-        <td>~~Temporary Containers~~</td>
-        <td>https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/</td>
+        <td><s>Temporary Containers</s></td>
+        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/">Firefox Add-ons</a></td>
         <td>TBD</td>
         <td>I am not just learning to use this properly. <br/>Especially in Automatic mode it renders Cookie Autodelete unnecessary in my opinion and is likely more secure.</td>
     </tr>
