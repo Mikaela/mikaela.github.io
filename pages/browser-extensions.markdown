@@ -70,18 +70,22 @@ redirect_from:
 
 ## Privacy
 
-* [Firefox: HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
+* [HTTPS Everywhere], [source code]
+    * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
     * [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
-* [Firefox: Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+* [Privacy Badger], [source code]
+    * [Firefox: Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
     * [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
-* [Firefox: Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+* [Decentraleyes], source
+    * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
     * [Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
-    * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
+        * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
     * [µMatrix users](https://git.synz.io/Synzvato/decentraleyes/wikis/Frequently-Asked-Questions#for-umatrix-and-ublock-origin-non-easy-mode-users)
-* ~~[Firefox: True Sight](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare-plus/)~~
-    * This is a CDN detector and it being a privacy extension can be debated
-      but I just feel like putting it here. I will still say that not all
-      CDNs are bad (IPFS). I mostly don't have it enabled
+* True Sight, source
+    * ~~[Firefox: True Sight](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare-plus/)~~
+        * This is a CDN detector and it being a privacy extension can be debated
+          but I just feel like putting it here. I will still say that not all
+          CDNs are bad (IPFS). I mostly don't have it enabled
 * [Firefox: µMatrix](https://addons.mozilla.org/firefox/addon/umatrix/)
     * [Chrome](https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf)
     * It can easily replace Cookie Autodelete (block cookies for global scope), Privacy Badger (by default), NoScript and possibly others.
