@@ -41,12 +41,6 @@ redirect_from:
         <td>TBD</td>
         <td></td>
     </tr>
-    <tr>
-        <td><s>Temporary Containers</s></td>
-        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/">Firefox Add-ons</a></td>
-        <td>TBD</td>
-        <td>I am not just learning to use this properly. <br/>Especially in Automatic mode it renders Cookie Autodelete unnecessary in my opinion and is likely more secure.</td>
-    </tr>
 </table>
 
 ## Firefox language packs
@@ -76,19 +70,14 @@ redirect_from:
 
 ## Privacy
 
-* ~~[Firefox: Cookie Autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)~~
-    * ~~[Chrome](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)~~
 * [Firefox: HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
     * [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
-* ~~[Firefox: Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)~~
-    * ~~[Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)~~
+* [Firefox: Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+    * [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
 * [Firefox: Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
     * [Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
     * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
     * [µMatrix users](https://git.synz.io/Synzvato/decentraleyes/wikis/Frequently-Asked-Questions#for-umatrix-and-ublock-origin-non-easy-mode-users)
-* ~~[Firefox: Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/)~~
-    * Copied from [PrivacyTools.io](https://privacytools.io), cleans Google
-      results links. I am not actually using Google Search, so it's useless for me.
 * ~~[Firefox: True Sight](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare-plus/)~~
     * This is a CDN detector and it being a privacy extension can be debated
       but I just feel like putting it here. I will still say that not all
@@ -107,18 +96,11 @@ redirect_from:
 * [Firefox: Privacy Pass](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)
     * [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi)
     * May reduce captchas with CloudFlare.
-* ~~[Firefox: Healthy.Onion](https://addons.mozilla.org/en-US/firefox/addon/healthy-onion/)~~
-    * **Only for Tor Browser** or other browser going through Tor all the
-      time as it redirects clearnet addresses to Tor .onion hidden
-      services that cannot be accessed outside of Tor. 
-    * I cannot figure out how to edit the list and I keep getting stuck with some dead onions. Due to these issues I am also unsure on trusting it.
 
 ## Productivity
 
 * [Firefox: Mind The Time](https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/)
     * [Chrome equivalent: Webtime tracker](https://chrome.google.com/webstore/detail/webtime-tracker/ppaojnbmmaigjmlpjaldnkgnklhicppk)
-* ~~[Firefox: Nudge by Siempo](https://addons.mozilla.org/en-US/firefox/addon/nudge-by-siempo/)~~ Pulled from AMO?
-    * [Chrome: Nudge by Siempo](https://chrome.google.com/webstore/detail/nudge-by-siempo/hjoookglknijcfdlbcfnehfhicbknemj)
 
 ## Misc
 
@@ -148,19 +130,11 @@ redirect_from:
 ## Usability
 
 * [Firefox: Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
-* ~~[Firefox: Text Contrast for Dark Themes](https://addons.mozilla.org/en-US/firefox/addon/text-contrast-for-dark-themes/)~~ see *about:config section*
-* ~~[Firefox: Dark Mode (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/)~~ ViolentMonkey + Grayscale
-    * I especially like *nicer dark* with Memrise. 
-* ~~[Firefox: Zenfox (Solarized themes)](https://addons.mozilla.org/en-us/firefox/addon/zen-fox/)~~ Breaks the buttons in find in page CTRL + F
 * [Firefox: Grayscale](https://addons.mozilla.org/en-US/firefox/addon/grayscalefortabs/)
 
 ## Videos
 
-* [Firefox: PeerTubeify](https://addons.mozilla.org/en-US/firefox/addon/feed-preview/)
-    * [Chrome: PeerTubeify](https://chrome.google.com/webstore/detail/peertubeify/gegmikcnabpilimgelhabaledkcikdab)
-* [Firefox: Alternate Tube Redirector](https://addons.mozilla.org/en-US/firefox/addon/alternate-tube-redirector/)
-    * to redirect YouTube videos to https://invidio.us/
-    * [GitLab](https://gitlab.com/2vek/alternate-tube-redirector/)
+*empty*
 
 ## Firefox Dictionaries
 
