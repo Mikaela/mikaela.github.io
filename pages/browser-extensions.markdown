@@ -49,7 +49,6 @@ redirect_from:
     </tr>
 </table>
 
-
 ## Firefox language packs
 
 * [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-cz-language-pack/)
@@ -57,86 +56,6 @@ redirect_from:
 * [Esperanto](https://addons.mozilla.org/en-US/firefox/addon/esperanto-language-pack/)
 * [Finnish](https://addons.mozilla.org/en-US/firefox/addon/finnish-language-pack/)
 
-## Firefox about:config
-
-* `layout.css.devPixelsPerPx` to `1.25` or `2.0` on macOS Retina to increase font size.
-    * Warning: very likely increases fingerprintability
-* `privacy.firstparty.isolate` to `true` for preventing domains from
-  accessing each other's data.
-    * If something breaks, it's most likely related to this. ~~I am yet to
-      test if this~~ Surprisingly it doesn't break~~s~~ Finnish strong electric authentication.
-* `privacy.resistFingerprinting` = `true` multiple effects to make your
-  browser appear less unique, the ones I have found/understood:
-    * warns if `intl.accept_languages` is not `en-US, en` .
-    * starts the browser with common size (I love this on big displays).
-    * spoofs the user-agent as the latest Firefox ESR version.
-    * [Firefox's protection against fingerprinting](https://support.mozilla.org/en-US/kb/firefox-protection-against-fingerprinting)
-      has the upstream list.
-        * [A better list under section 4500: RFP (RESIST FINGERPRINTING)](https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js)
-* `privacy.trackingprotection.cryptomining.enabled` = `true` so cryptomining
-  on some websites gets blocked and won't waste resources.
-* `privacy.trackingprotection.fingerprinting.enabled` = `true` I am not
-  entirely sure what this does, but as I already recommend
-  `privacy.resistFingerprinting`, why not?
-* `intl.accept_languages` to `en-US, en`
-    * see above.
-* `extensions.pocket.enabled` to `false` so the Pocket integration goes away
-* On Linux `widget.content.gtk-theme-override` (a string that has to be created by
-  user) to `Adwaita:light` so text boxes in dark themes become readable,
-  thank you [Dovydas Venckus](https://www.dovydasvenckus.com/linux/2018/08/20/fix-firefox-dark-input-fields-on-gnome/)
-    * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315)
-* `image.animation_mode` to `once` in order to have gifs play once and
-  then stop everywhere (`none` to never have them play).
-* `geo.wifi.uri` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
-* `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
-    * Requires DoH, see the next section!
-
-Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/show_bug.cgi?id=1497263) ?
-
-#### DNS over HTTPS
-
-* `network.trr.bootstrapAddress` DNS server to use for resolving the DoH
-  name, e.g. `149.112.112.112` (Resolver 2 of [Quad9](https://quad9.net))
-* `network.trr.mode` depends, 2 to prefer DoH, but fallback to system resolver (or 3 to enforce DoH without fallback). ***If there is system encrypted DNS, just take 5 to at least benefit from the system DNS cache.***
-    * [DoH is required by Firefox ESNI support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI which would still leak which
-      sites you visit. [Another bug about ESNI + Android DoT](https://bugzilla.mozilla.org/show_bug.cgi?id=1542754#c3)
-    * I have ended up to recommending 2 as otherwise the DoH server going
-      down stops DNS from working on your Firefox entirely, which may be
-      more of a problem than unencrypted SNI as not everyone supports it.
-        * since then I have decided that 5 is the best option, because otherwise it goes past ***my*** Unbound setup. I hope Mozilla/Firefox will fix the two bugs linked above, so I don't have to choose between DNS under my control vs encrypted SNI.
-* `network.trr.early-AAAA` `true` to hopefully prefer IPv6
-* `network.trr.uri` for the actual resolver address, e.g.
-  `https://dns.quad9.net/dns-query` or `https://149.112.112.112/dns-query` (removes the need for `network.trr.bootstrapAddress` and allows ǹetwork.trr.mode` `3`?) or
-  [check curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS#publicly-available-servers)
-
-Some notes:
-* You can confirm TRR working by visiting `about:networking#dns` where
-you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
-* Quad9 became my preferred resolver through anxiety about other options
-  being small (and possibly more likely to go down) or commercial while
-  Quad9 is non-profit organization and 2019-03-20 apparently the default
-  fallback resolver of dnscrypt-proxy (at least in Debian).
-* Quad9 while having filtering of malicious domains should be easy to figure
-  out as the problem if something doesn't work on my computers as due to the
-  previously mentioned bug I am mainly using it on Firefox.
-* [While investingating how Android 9 Private DNS works, I also wrote a DNS provider comparsion here]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
-
-#### SSDs
-
-This information is from [Arch Wiki on Firefox tweaks](https://wiki.archlinux.org/index.php/Firefox/Tweaks)
-
-* `browser.cache.disk.enable` to `false` to only cache to RAM.
-* (`browser.cache.memory.enable` to `true` which should be default)
-* `browser.sessionstore.interval` to `600000` in order to only store open session every ten minutes (instead of 15 seconds) in case of crashes.
-    * alternatively `browser.sessionstore.resume_from_crash` to `false` to not store the session data for crash recovery at all. I think this may be the more healthy option with all the information flood and dozens of tabs.
-
-Why?
-
-> Every object loaded (html page, jpeg image, css stylesheet, gif banner) is saved in the Firefox cache for future use without the need to download it again. It is estimated that only a fraction of these objects will be reused, usually about 30%. This because of very short object expiration time, updates or simply user behavior (loading new pages instead of returning to the ones already visited). The Firefox cache is divided into memory and disk cache and the latter results in frequent disk writes: newly loaded objects are written to memory and older objects are removed.
-
-> Firefox stores the current session status (opened urls, cookies, history and form data) to the disk on a regular basis. It is used to recover a previous session in case of crash. The default setting is to save the session every 15 seconds, resulting in frequent disk access.
-
-and this is the reason why Firefox is at times accused of killing SSDs.
 
 ## Passwords
 
@@ -249,5 +168,90 @@ and this is the reason why Firefox is at times accused of killing SSDs.
 * [UK English](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/)
 * [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-spell-checking-dictionar/)
 * [Swedish](https://addons.mozilla.org/en-US/firefox/addon/g%C3%B6rans-hemmasnickrade-ordli/)
+
+* * * * *
+
+## Firefox about:config
+
+* `layout.css.devPixelsPerPx` to `1.25` or `2.0` on macOS Retina to increase font size.
+    * Warning: very likely increases fingerprintability
+* `privacy.firstparty.isolate` to `true` for preventing domains from
+  accessing each other's data.
+    * If something breaks, it's most likely related to this. ~~I am yet to
+      test if this~~ Surprisingly it doesn't break~~s~~ Finnish strong electric authentication.
+* `privacy.resistFingerprinting` = `true` multiple effects to make your
+  browser appear less unique, the ones I have found/understood:
+    * warns if `intl.accept_languages` is not `en-US, en` .
+    * starts the browser with common size (I love this on big displays).
+    * spoofs the user-agent as the latest Firefox ESR version.
+    * [Firefox's protection against fingerprinting](https://support.mozilla.org/en-US/kb/firefox-protection-against-fingerprinting)
+      has the upstream list.
+        * [A better list under section 4500: RFP (RESIST FINGERPRINTING)](https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js)
+* `privacy.trackingprotection.cryptomining.enabled` = `true` so cryptomining
+  on some websites gets blocked and won't waste resources.
+* `privacy.trackingprotection.fingerprinting.enabled` = `true` I am not
+  entirely sure what this does, but as I already recommend
+  `privacy.resistFingerprinting`, why not?
+* `intl.accept_languages` to `en-US, en`
+    * see above.
+* `extensions.pocket.enabled` to `false` so the Pocket integration goes away
+* On Linux `widget.content.gtk-theme-override` (a string that has to be created by
+  user) to `Adwaita:light` so text boxes in dark themes become readable,
+  thank you [Dovydas Venckus](https://www.dovydasvenckus.com/linux/2018/08/20/fix-firefox-dark-input-fields-on-gnome/)
+    * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315)
+* `image.animation_mode` to `once` in order to have gifs play once and
+  then stop everywhere (`none` to never have them play).
+* `geo.wifi.uri` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
+* `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
+    * Requires DoH, see the next section!
+
+Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/show_bug.cgi?id=1497263) ?
+
+#### DNS over HTTPS
+
+* `network.trr.bootstrapAddress` DNS server to use for resolving the DoH
+  name, e.g. `149.112.112.112` (Resolver 2 of [Quad9](https://quad9.net))
+* `network.trr.mode` depends, 2 to prefer DoH, but fallback to system resolver (or 3 to enforce DoH without fallback). ***If there is system encrypted DNS, just take 5 to at least benefit from the system DNS cache.***
+    * [DoH is required by Firefox ESNI support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI which would still leak which
+      sites you visit. [Another bug about ESNI + Android DoT](https://bugzilla.mozilla.org/show_bug.cgi?id=1542754#c3)
+    * I have ended up to recommending 2 as otherwise the DoH server going
+      down stops DNS from working on your Firefox entirely, which may be
+      more of a problem than unencrypted SNI as not everyone supports it.
+        * since then I have decided that 5 is the best option, because otherwise it goes past ***my*** Unbound setup. I hope Mozilla/Firefox will fix the two bugs linked above, so I don't have to choose between DNS under my control vs encrypted SNI.
+* `network.trr.early-AAAA` `true` to hopefully prefer IPv6
+* `network.trr.uri` for the actual resolver address, e.g.
+  `https://dns.quad9.net/dns-query` or `https://149.112.112.112/dns-query` (removes the need for `network.trr.bootstrapAddress` and allows ǹetwork.trr.mode` `3`?) or
+  [check curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS#publicly-available-servers)
+
+Some notes:
+* You can confirm TRR working by visiting `about:networking#dns` where
+you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
+* Quad9 became my preferred resolver through anxiety about other options
+  being small (and possibly more likely to go down) or commercial while
+  Quad9 is non-profit organization and 2019-03-20 apparently the default
+  fallback resolver of dnscrypt-proxy (at least in Debian).
+* Quad9 while having filtering of malicious domains should be easy to figure
+  out as the problem if something doesn't work on my computers as due to the
+  previously mentioned bug I am mainly using it on Firefox.
+* [While investingating how Android 9 Private DNS works, I also wrote a DNS provider comparsion here]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
+
+#### SSDs
+
+This information is from [Arch Wiki on Firefox tweaks](https://wiki.archlinux.org/index.php/Firefox/Tweaks)
+
+* `browser.cache.disk.enable` to `false` to only cache to RAM.
+* (`browser.cache.memory.enable` to `true` which should be default)
+* `browser.sessionstore.interval` to `600000` in order to only store open session every ten minutes (instead of 15 seconds) in case of crashes.
+    * alternatively `browser.sessionstore.resume_from_crash` to `false` to not store the session data for crash recovery at all. I think this may be the more healthy option with all the information flood and dozens of tabs.
+
+Why?
+
+> Every object loaded (html page, jpeg image, css stylesheet, gif banner) is saved in the Firefox cache for future use without the need to download it again. It is estimated that only a fraction of these objects will be reused, usually about 30%. This because of very short object expiration time, updates or simply user behavior (loading new pages instead of returning to the ones already visited). The Firefox cache is divided into memory and disk cache and the latter results in frequent disk writes: newly loaded objects are written to memory and older objects are removed.
+
+> Firefox stores the current session status (opened urls, cookies, history and form data) to the disk on a regular basis. It is used to recover a previous session in case of crash. The default setting is to save the session every 15 seconds, resulting in frequent disk access.
+
+and this is the reason why Firefox is at times accused of killing SSDs.
+
+* * * * *
 
 Changelog: [GitHub.com commits](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/browser-extensions.markdown) | [gitea.blesmrt.net commits](https://gitea.blesmrt.net/mikaela/mikaela-info/commits/branch/master/pages/browser-extensions.markdown)
