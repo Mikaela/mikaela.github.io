@@ -24,6 +24,9 @@ associated mainly with autism, they are also part of high sensitivity
 and I cannot separate what causes which trait for me. They have some
 overlap and some conflicts that are interesting to me.
 
+*UPDATE: Asperger's Syndrome is being removed from the diagnostics manuals
+ leaving only Autism Spectrum Disorder.*
+
 * * * * *
 
 2017-09-19
