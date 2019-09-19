@@ -199,7 +199,7 @@ Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/sh
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
   `https://dns.quad9.net/dns-query` or `https://149.112.112.112/dns-query` (removes the need for `network.trr.bootstrapAddress` and allows ǹetwork.trr.mode` `3`?) or
-  [check curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS#publicly-available-servers)
+  [check privacytools.io DNS section](https://www.privacytools.io/providers/dns/#icanndns)
 
 Some notes:
 * You can confirm TRR working by visiting `about:networking#dns` where
