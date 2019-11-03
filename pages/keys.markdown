@@ -21,10 +21,11 @@ with some protocols, I only list those which I mainly care about.
 
 ## OMEMO/XMPP
 
-### blesmrt.net
+### disroot.org
 
 * `xmpp COLON mikaela AT blesmrt DOT net`
 * Also experimentally available as a QR code at [`/keybase/public/mikaela/OMEMO-qr`](https://keybase.pub/mikaela/OMEMO-qr/).
+* Public/big groups to be separate from blesmrt.net, so I have a killswitch when I am overwhelmed by amount of groups
 
 <table>
     <tr>
@@ -33,58 +34,58 @@ with some protocols, I only list those which I mainly care about.
         <th>OMEMO Fingerprint</th>
     </tr>
     <tr>
-        <td>Rbtpzn/Gajim-flatpak</td>
+        <td></td>
         <td><code></code></td>
-        <td><code>F06AE7B9 A4B1D4DC 79A5DED7 5A04D6A3 51B548D3 6A56E2CE 42493EB7 947C1E69</code></td>
+        <td></code></td>
     </tr>
     <tr>
-        <td>Sedric/Gajim-flatpak</td>
-        <td><code>607810435</code></td>
-        <td><code>70DC890E D35F14AB 9102AE69 C680EDC0 F0EB3CE4 AA5BFD93 8CD13229 F81DF33B</code></td>
-    </tr>
-    <tr>
-        <td>Nokia 1/Conversations</td>
+        <td></td>
         <td><code></code></td>
-        <td><code>BE1E4E24 ECBD7DC4 0C3C4119 AE575B45 7DFDFD7D F11F14A0 79070F76 1CA66138</code></td>
+        <td></code></td>
     </tr>
     <tr>
-        <td>Nokia 1/Atalk</td>
+        <td></td>
         <td><code></code></td>
-        <td><code>B6EFB430 FDA7F58F 52BD8A7D 0BB42F7F 8E344624 7B28D6EA 8CA80B53 D856DC2C</code></td>
+        <td></code></td>
     </tr>
-<!--
     <tr>
-        <td>Sedric/Dino (flatpak)</td>
+        <td></td>
         <td><code></code></td>
-        <td><code>09968155 4C7C6180 8B5D5F97 E64A0824 7C20CDC8 2766610A 725ED846 4D886C10</code></td>
+        <td></code></td>
     </tr>
--->
+</table>
+
+### blesmrt.net
+
+* `xmpp COLON mikaela AT blesmrt DOT net`
+* Also experimentally available as a QR code at [`/keybase/public/mikaela/OMEMO-qr`](https://keybase.pub/mikaela/OMEMO-qr/).
+* Goal: Private/small groups and friends separately for when big groups feel too overwhelming with activity.
+
+<table>
     <tr>
-        <td>Zaldaryn/flatpak</td>
-        <td><code>1608725341</code></td>
-        <td><code>705F8434 A44D8C50 9F119351 34100882 939D605E 9B2CC359 01F1C8F2 30EA4A21</code></td>
+        <th>Device/Software</th>
+        <th>Device ID</th>
+        <th>OMEMO Fingerprint</th>
     </tr>
-<!--
     <tr>
-        <td>i9305/Conversations</td>
+        <td></td>
         <td><code></code></td>
-        <td><code>9BE97E63 618C6532 9A8E1A9F 2F069BDF 1362FB10 5B4630A1 0104510A 1EC56034</code></td>
+        <td></code></td>
     </tr>
--->
     <tr>
-        <td>Sedric/Dino</td>
+        <td></td>
         <td><code></code></td>
-        <td><code>207282A2 24863B08 D2903416 537B21F9 97169B91 58D6F0E2 F94AC3C4 DA357B1C</code></td>
+        <td></code></td>
     </tr>
     <tr>
-        <td>Sedric/Windows/Gajim</td>
-        <td><code>1851265680</code></td>
-        <td><code>2CA4A344 03A525F8 4CD75F47 69334B00 FECD2B6C 0D697F77 21BEB4D5 04AB5130</code></td>
-    </tr>
-    <tr>
-        <td>Zaldaryn/Dino</td>
+        <td></td>
         <td><code></code></td>
-        <td><code>CC333B95 659E8BE1 D4E9A2B5 55DF7D21 C51B1FBA 52A7CC4F F7CBB069 9AAACD70</code></td>
+        <td></code></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><code></code></td>
+        <td></code></td>
     </tr>
 </table>
 
