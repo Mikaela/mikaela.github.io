@@ -21,40 +21,6 @@ with some protocols, I only list those which I mainly care about.
 
 ## OMEMO/XMPP
 
-### disroot.org
-
-* `xmpp COLON mikaela AT blesmrt DOT net`
-* Also experimentally available as a QR code at [`/keybase/public/mikaela/OMEMO-qr`](https://keybase.pub/mikaela/OMEMO-qr/).
-* Public/big groups to be separate from blesmrt.net, so I have a killswitch when I am overwhelmed by amount of groups
-
-<table>
-    <tr>
-        <th>Device/Software</th>
-        <th>Device ID</th>
-        <th>OMEMO Fingerprint</th>
-    </tr>
-    <tr>
-        <td></td>
-        <td><code></code></td>
-        <td></code></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><code></code></td>
-        <td></code></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><code></code></td>
-        <td></code></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><code></code></td>
-        <td></code></td>
-    </tr>
-</table>
-
 ### blesmrt.net
 
 * `xmpp COLON mikaela AT blesmrt DOT net`
@@ -68,24 +34,60 @@ with some protocols, I only list those which I mainly care about.
         <th>OMEMO Fingerprint</th>
     </tr>
     <tr>
-        <td></td>
+        <td>Nokia 1 / Conversations</td>
         <td><code></code></td>
-        <td></code></td>
+        <td><code>a991b61f 361d4a9a 3c5a7387 8ccc6e89 b4111e79 8406e62f 3cc65d0f 2c8d3656</code></td>
     </tr>
     <tr>
-        <td></td>
+        <td>Galaxy S III / Conversations</td>
         <td><code></code></td>
-        <td></code></td>
+        <td><code>9193b9d0 1576e1f4 7cd23d22 c044c3c1 6bc6cd16 d3de9299 e43b2483 d8104b17</code></td>
     </tr>
     <tr>
-        <td></td>
+        <td>Sedric / Dino</td>
         <td><code></code></td>
-        <td></code></td>
+        <td><code>9846018741a8da62ea42a7428a82af5851b635875ac915b7c067127715cedd50</code></td>
     </tr>
     <tr>
-        <td></td>
+        <td>Sedric / Gajim</td>
+        <td><code>1645280364</code></td>
+        <td><code>67EFE1B3 D6F9A526 B9604EAC 307AD1B6
+263B3E9F 2A16F60A 509516B9 2D93C24F</code></td>
+    </tr>
+</table>
+
+### disroot.org
+
+* `xmpp COLON mikaela AT blesmrt DOT net`
+* Also experimentally available as a QR code at [`/keybase/public/mikaela/OMEMO-qr`](https://keybase.pub/mikaela/OMEMO-qr/).
+* Public/big groups to be separate from blesmrt.net, so I have a killswitch when I am overwhelmed by amount of groups
+
+<table>
+    <tr>
+        <th>Device/Software</th>
+        <th>Device ID</th>
+        <th>OMEMO Fingerprint</th>
+    </tr>
+    <tr>
+        <td>Nokia 1 / Conversations</td>
         <td><code></code></td>
-        <td></code></td>
+        <td><code>3e003b4a 28a379f3 cd39396d de6a6659 15a80652 80cd3184 755614f2 e129aa01</code></td>
+    </tr>
+    <tr>
+        <td>Galaxy S III / Conversations</td>
+        <td><code></code></td>
+        <td><code>5bbcc81a 8f0965e2 f5c57cbb 04a6160b d04f5b3c 36b95bd5 4df44938 4bc03011</code></td>
+    </tr>
+    <tr>
+        <td>Sedric / Dino</td>
+        <td><code></code></td>
+        <td><code>5a28be1683e13f1ea443a6bcd82087474c50329105607bdc9631fb8e3338fb25</code></td>
+    </tr>
+    <tr>
+        <td>Sedric / Gajim</td>
+        <td><code>1924141481</code></td>
+        <td><code>4BDA6162 80E54D8B 7FF5D7D5 9C4F9520
+26A3D4E8 4963D001 AC707E5D 7938D667</code></td>
     </tr>
 </table>
 
