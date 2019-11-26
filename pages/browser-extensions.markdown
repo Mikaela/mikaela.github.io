@@ -43,13 +43,28 @@ redirect_from:
     </tr>
 </table>
 
+Others:
+
+* Twitter https://addons.mozilla.org/en-US/firefox/addon/twitter-container/
+    * pointless for me as I don't use Twitter and Invidition gives me Nitter links instead
+* Amazon https://addons.mozilla.org/en-US/firefox/addon/contain-amazon/
+    * untested
+* Reddit https://addons.mozilla.org/en-US/firefox/addon/contain-reddit/
+    * shrug, not tested, would rather take something like Invidition for a frontend
+* Git https://addons.mozilla.org/en-US/firefox/addon/contain-git/
+    * not sure if there is point
+* alternative Google https://addons.mozilla.org/en-US/firefox/addon/google-contain-integrations/
+    * worth trying, I haven't tested it.
+
 ## Firefox language packs
 
 * [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-cz-language-pack/)
 * [English-US](https://addons.mozilla.org/en-US/firefox/addon/english-us-language-pack/)
 * [Esperanto](https://addons.mozilla.org/en-US/firefox/addon/esperanto-language-pack/)
+* Estonian?
 * [Finnish](https://addons.mozilla.org/en-US/firefox/addon/finnish-language-pack/)
-
+* Spanish?
+* Swedish?
 
 ## Passwords
 
@@ -76,7 +91,7 @@ redirect_from:
 * [Privacy Badger], [source code]
     * [Firefox: Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
     * [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
-* [Decentraleyes], source
+* [Decentraleyes], source - candidate for removal
     * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
     * [Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
         * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
@@ -94,6 +109,9 @@ redirect_from:
         * [How to block 1st party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default) and I suggest adapting it to block cookies too so Cookie Autodelete becomes unnecessary.
         * [Ruleset recipes](https://github.com/gorhill/uMatrix/wiki/Ruleset-recipes)
         * [A lot of other instructions in the wiki](https://github.com/gorhill/uMatrix/wiki)
+* Snowflake to help censored users (won't increase user privacy), requires WebRTC
+    * https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/
+    * https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie
 
 ### Tor
 
@@ -125,23 +143,38 @@ redirect_from:
     * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
     * Onions to Tor, I2P to I2P. [My rules]({{site.ipfsGateway}}/ipfs/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
 * [Firefox: Tab Counter](https://addons.mozilla.org/en-US/firefox/addon/tab-counter-webext/)
-* [Firefox: Lightbeam](https://addons.mozilla.org/en-US/firefox/addon/lightbeam/)
 * [Firefox: Duolingo Boost](https://addons.mozilla.org/en-US/firefox/addon/duolingo-boost/)
     * [Chrome: Duolingo Boost](https://chrome.google.com/webstore/detail/duolingo-boost/mgecoicpalmpphlgfkdepgpofjcnggkn)
     * [Bitbucket](https://bitbucket.org/Richdark/duolingo-boost/)
 * [Firefox: Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+* Verify-Me for rel=me verifications (Indieweb)
+    * https://addons.mozilla.org/en-US/firefox/addon/verify-me/
+    * https://chrome.google.com/webstore/detail/verify-me/nnefkajddpfponfnmaflddipljfdlcjb
 
 ## Usability
 
 * [Firefox: Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
 * [Firefox: Grayscale](https://addons.mozilla.org/en-US/firefox/addon/grayscalefortabs/)
+* Simplify Gmail
+    * https://addons.mozilla.org/en-US/firefox/addon/simplifygmail/
+* Stylus
+    * https://addons.mozilla.org/en-US/firefox/addon/styl-us/
+    * https://github.com/cquanu/github-dark
+*  Tab Suspender
+    * https://addons.mozilla.org/en-US/firefox/addon/ff-tab-suspender/
 
 ## Videos
 
-*empty*
+* Inviition - YouTube to Invidious and Twitter to Nitter
+    * https://addons.mozilla.org/en-US/firefox/addon/invidition/
 
 ## Firefox Dictionaries
 
+TODO: Sort this list.
+
+* Estonian?
+* Spanish?
+* Swedish?
 * [Esperanto](https://addons.mozilla.org/en-US/firefox/addon/esperanta-vortaro/)
 * [UK English](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/)
 * [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-spell-checking-dictionar/)
