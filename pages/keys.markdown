@@ -183,6 +183,6 @@ OMEMO instead.
         <th>PGP Fingerprint</th>
     </tr>
     <tr>
-        <td><a href="/PGP/0xB2F32B67.txt">2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67</a></td>
+        <td><a href="/PGP/0xBAE30723.txt">69FF 455A 869F 9031 A691  E0F1 9939 2F62 BAE3 0723</a></td>
     </tr>
 </table>
