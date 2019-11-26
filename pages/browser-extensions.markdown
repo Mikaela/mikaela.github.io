@@ -198,6 +198,7 @@ TODO: Sort this list.
     * [Firefox's protection against fingerprinting](https://support.mozilla.org/en-US/kb/firefox-protection-against-fingerprinting)
       has the upstream list.
         * [A better list under section 4500: RFP (RESIST FINGERPRINTING)](https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js)
+    * NOTE: I have stopped using this as it breaks [TTS](https://bugzilla.mozilla.org/show_bug.cgi?id=1333641) amongst other things such as breaking audio captchas.
 * `privacy.trackingprotection.cryptomining.enabled` = `true` so cryptomining
   on some websites gets blocked and won't waste resources.
 * `privacy.trackingprotection.fingerprinting.enabled` = `true` I am not
@@ -213,6 +214,9 @@ TODO: Sort this list.
 * `image.animation_mode` to `once` in order to have gifs play once and
   then stop everywhere (`none` to never have them play).
 * `geo.wifi.uri` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
+* `network.IDN_show_punycode` to true in order to see punycode instead of UTF-8 in case of spoofing attempt
+* `ui.systemUsesDarkTheme` missing context
+*  `extensions.webextensions.restrictedDomains` - protected domains where extensions aren't allowed
 * `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
     * Requires DoH, see the next section!
 
