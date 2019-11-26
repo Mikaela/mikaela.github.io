@@ -33,6 +33,6 @@ the `expire` command in `--edit-key` and the key is valid again when the
 update is reimported to gpg keyrings by other people.
 
 Keybase note: To publish the key `keybase pgp select --multi` (where multi
-is required for multiple PGP keys per account` and to submit changes to it,
+is required for multiple PGP keys per account and to submit changes to it,
 `keybase pgp update --all` (where --all is again necessary only if you have
 multiple keys).
