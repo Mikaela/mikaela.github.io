@@ -14,3 +14,9 @@ about (as /setlanguage/xx[<-beta>] is so difficult to remember?)
 * https://t.me/setlanguage/sv-beta
 
 Suggestion: send the link to yourself in private.
+
+* * * * *
+
+Now it's also note to self on themes that I like
+
+* https://t.me/addtheme/sempiternal
