@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Public keys
-navigation: true
+navigation: false
 permalink: /keys/
 redirect_from:
   - /matrix.html
@@ -9,8 +9,12 @@ redirect_from:
   - /otr.html
   - /pgp.html
   - /wire.html
+redirect_to: /keys.txt
 excerpt: "My public key fingerprints (that I think can be put here, if I am missing something, tell me) for secure communication with me."
 ---
+
+***NOTE: I HAVE MOVED TO KEYS.TXT (.ASC) INSTEAD, DON'T TOUCH THIS FILE
+   UNLESS YOUR INTENTION IS TO RM IT!***
 
 This page contains key fingerprints that might interest you if you wish
 to communicate with me securely. In case I have multiple accounts
