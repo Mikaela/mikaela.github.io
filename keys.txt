@@ -38,13 +38,29 @@ Sedric / Dino
 Sedric / Gajim
 1924141481
 4BDA6162 80E54D8B 7FF5D7D5 9C4F9520
-26A3D4E8 4963D001 AC707E5D 7938D667>
+26A3D4E8 4963D001 AC707E5D 7938D667
 
 * * * * *
 
 MATRIX
 
-TO-BE-DONE
+This section is likely to stay incomplete until some mechanism of copying
+fingerprints of verified devices is implemented.
+https://github.com/vector-im/riot-web/issues/2735
+Hope that cross-signing gets implemented soon.
+https://github.com/vector-im/riot-web/issues/2714
+
+@mikaela:privacytools.io (personal)
+
+Riot Desktop on Sedric (Linux)
+VMDCIMTFHO
+X5i9 BRxu C3WY H0v0 mJ97 8CQS lHpB mF0Q usBb rjUQ irE
+
+@mikaela:feneas.org (currently used for work try-out-practice)
+
+sedric-profile-20191127
+NYDCBCUCKG
+dhxM AP5/ 8us4 yC+u zsOL 90KH eKF5 t/aN HctY 9EOo yYM
 
 * * * * *
 
@@ -83,8 +99,8 @@ DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXd5rWgAKCRCZOS9iuuMH
-IwhJAPsEWnQdR7LgLgdnPvrh+o9w1nGYiW4oniZ7v1cUXFOPUgEAn2evxjD+4cdY
-f3SW55bIO736K+/qLCng0zkK+DffBQE=
-=tOdF
+iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXd5xVQAKCRCZOS9iuuMH
+I6dEAP4n1tldTnOIQ1hbAsYUq97DZNmCEzh0LuoqdNw2iQ4SCwD6At1rBdXZh+YW
+beIadC5zmQp5bBX4l9CkSq9YcdkRwAs=
+=R0CY
 -----END PGP SIGNATURE-----
