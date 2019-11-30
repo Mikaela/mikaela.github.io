@@ -5,6 +5,7 @@ redirect_from:
   - /r/gnupg.html
   - /r/clawsmail.html
   - /r/claws-mail.html
+  - /r/wkd.html
 sitemap: false
 ---
 
@@ -70,3 +71,24 @@ it the PGP signature comes after it and in my opinion looks a bit cleaner
 with the signature ending to an empty line.
 
 * * * * *
+
+Setting up GPG WKD (Web Key Directory), mostly stripped/adjusted from
+https://keyserver.mattrude.com/guides/web-key-directory/
+
+Requires a control over domain/.well-known and email under that domain.
+
+1. cd into site root
+2. `mkdir -p .well-known/openpgpkey/hu`
+3. `touch .well-known/openpgpkey/policy`
+4. `gpg --list-keys --with-wkd <search-that-matches-your-key>`
+5. `gpg --no-armor --export <YourKeyID> > .well-known/openpgpkey/hu/<YourWKD>`
+6. repeat 5. for `+git` address and similar if applicable
+7. in Jekyll `_config.yml` ensure existence of `include: [.well-known]` if
+   applicable.
+8. deploy
+9. test with `gpg -v --auto-key-locate clear,wkd,nodefault --locate-key email@example.net`
+
+NOTE: The empty `policy` goes to the `openpgpkey` directory, not `hu` (I
+initially failed at this part)
+
+NOTE: only one key/WKD/email.
