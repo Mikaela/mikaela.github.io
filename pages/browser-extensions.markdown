@@ -27,19 +27,19 @@ https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link
     </tr>
     <tr>
         <td>Facebook Container</td>
-        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Firefox Add-ons</a></td>
+        <td><a href="https://addons.mozilla.org/firefox/addon/facebook-container/">Firefox Add-ons</a></td>
         <td>TBD</td>
         <td>nice when clicking Facebook links even while not being a Facebook user</td>
     </tr>
     <tr>
         <td>Google Container</td>
-        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/google-container/">Firefox Add-ons</a></td>
+        <td><a href="https://addons.mozilla.org/firefox/addon/google-container/">Firefox Add-ons</a></td>
         <td>TBD</td>
         <td></td>
     </tr>
     <tr>
         <td>Firefox Multi Account Containers</td>
-        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers">Firefox Add-ons</a></td>
+        <td><a href="https://addons.mozilla.org/firefox/addon/multi-account-containers">Firefox Add-ons</a></td>
         <td>TBD</td>
         <td></td>
     </tr>
@@ -47,24 +47,24 @@ https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link
 
 Others:
 
-* Twitter https://addons.mozilla.org/en-US/firefox/addon/twitter-container/
+* Twitter https://addons.mozilla.org/firefox/addon/twitter-container/
     * pointless for me as I don't use Twitter and Invidition gives me Nitter links instead
-* Amazon https://addons.mozilla.org/en-US/firefox/addon/contain-amazon/
+* Amazon https://addons.mozilla.org/firefox/addon/contain-amazon/
     * untested
-* Reddit https://addons.mozilla.org/en-US/firefox/addon/contain-reddit/
+* Reddit https://addons.mozilla.org/firefox/addon/contain-reddit/
     * shrug, not tested, would rather take something like Invidition for a frontend
-* Git https://addons.mozilla.org/en-US/firefox/addon/contain-git/
+* Git https://addons.mozilla.org/firefox/addon/contain-git/
     * not sure if there is point
-* alternative Google https://addons.mozilla.org/en-US/firefox/addon/google-contain-integrations/
+* alternative Google https://addons.mozilla.org/firefox/addon/google-contain-integrations/
     * worth trying, I haven't tested it.
 
 ## Firefox language packs
 
-* [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-cz-language-pack/)
-* [English-US](https://addons.mozilla.org/en-US/firefox/addon/english-us-language-pack/)
-* [Esperanto](https://addons.mozilla.org/en-US/firefox/addon/esperanto-language-pack/)
+* [Czech](https://addons.mozilla.org/firefox/addon/czech-cz-language-pack/)
+* [English-US](https://addons.mozilla.org/firefox/addon/english-us-language-pack/)
+* [Esperanto](https://addons.mozilla.org/firefox/addon/esperanto-language-pack/)
 * Estonian?
-* [Finnish](https://addons.mozilla.org/en-US/firefox/addon/finnish-language-pack/)
+* [Finnish](https://addons.mozilla.org/firefox/addon/finnish-language-pack/)
 * Spanish?
 * Swedish?
 
@@ -79,7 +79,7 @@ Others:
     </tr>
     <tr>
         <td>Bitwarden</td>
-        <td><a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/">Firefox Add-ons</a></td>
+        <td><a href="https://addons.mozilla.org/firefox/addon/bitwarden-password-manager/">Firefox Add-ons</a></td>
         <td><a href="https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb">Chrome Web Store</a></td>
         <td>TBD</td>
     </tr>
@@ -88,18 +88,18 @@ Others:
 ## Privacy
 
 * [HTTPS Everywhere], [source code]
-    * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
+    * [Firefox](https://addons.mozilla.org/firefox/addon/https-everywhere/)
     * [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
 * [Privacy Badger], [source code]
-    * [Firefox: Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+    * [Firefox: Privacy Badger](https://addons.mozilla.org/firefox/addon/privacy-badger17/)
     * [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
 * [Decentraleyes], source - candidate for removal
-    * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+    * [Firefox](https://addons.mozilla.org/firefox/addon/decentraleyes/)
     * [Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
         * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
     * [µMatrix users](https://git.synz.io/Synzvato/decentraleyes/wikis/Frequently-Asked-Questions#for-umatrix-and-ublock-origin-non-easy-mode-users)
 * True Sight, source
-    * ~~[Firefox: True Sight](https://addons.mozilla.org/en-US/firefox/addon/detect-cloudflare-plus/)~~
+    * ~~[Firefox: True Sight](https://addons.mozilla.org/firefox/addon/detect-cloudflare-plus/)~~
         * This is a CDN detector and it being a privacy extension can be debated
           but I just feel like putting it here. I will still say that not all
           CDNs are bad (IPFS). I mostly don't have it enabled
@@ -112,27 +112,27 @@ Others:
         * [Ruleset recipes](https://github.com/gorhill/uMatrix/wiki/Ruleset-recipes)
         * [A lot of other instructions in the wiki](https://github.com/gorhill/uMatrix/wiki)
 * Snowflake to help censored users (won't increase user privacy), requires WebRTC
-    * https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/
+    * https://addons.mozilla.org/firefox/addon/torproject-snowflake/
     * https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie
 
 ### Tor
 
-* [Firefox: Privacy Pass](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)
+* [Firefox: Privacy Pass](https://addons.mozilla.org/firefox/addon/privacy-pass/)
     * [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi)
     * May reduce captchas with CloudFlare.
 
 ## Productivity
 
-* [Firefox: Mind The Time](https://addons.mozilla.org/en-US/firefox/addon/mind-the-time/)
+* [Firefox: Mind The Time](https://addons.mozilla.org/firefox/addon/mind-the-time/)
     * [Chrome equivalent: Webtime tracker](https://chrome.google.com/webstore/detail/webtime-tracker/ppaojnbmmaigjmlpjaldnkgnklhicppk)
 
 ## Misc
 
-* [Firefox: IPvFoo](https://addons.mozilla.org/en-US/firefox/addon/ipvfoo-pmarks/)
+* [Firefox: IPvFoo](https://addons.mozilla.org/firefox/addon/ipvfoo-pmarks/)
     * [Chrome](https://chrome.google.com/webstore/detail/ipvfoo/ecanpcehffngcegjmadlcijfolapggal)
-* [Firefox: RSS feed preview](https://addons.mozilla.org/en-US/firefox/addon/feed-preview/)
+* [Firefox: RSS feed preview](https://addons.mozilla.org/firefox/addon/feed-preview/)
     * [Chrome: RSS](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
-* [Firefox: IPFS Companion](https://addons.mozilla.org/en-US/firefox/addon/ipfs-companion/)
+* [Firefox: IPFS Companion](https://addons.mozilla.org/firefox/addon/ipfs-companion/)
     * [Firefox: beta channel of IPFS Companion](https://bafybeibjozlsoxzrxsoklis775aglnwpal2hjl42ippo57jdwiv6zoij7m.ipfs.dweb.link/)
         * doesn't sync automatically with Firefox Sync.
     * [Chrome](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)
@@ -141,34 +141,34 @@ Others:
       IPFS daemon, which **is not using Tor** and thus the IPFS network
       **could see your real IP** especially if not many nodes are
       requesting the fetched content.
-* [Firefox: Foxy Proxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
+* [Firefox: Foxy Proxy](https://addons.mozilla.org/firefox/addon/foxyproxy-standard/)
     * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
     * Onions to Tor, I2P to I2P. [My rules]({{site.ipfsGateway}}/ipfs/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
-* [Firefox: Tab Counter](https://addons.mozilla.org/en-US/firefox/addon/tab-counter-webext/)
-* [Firefox: Duolingo Boost](https://addons.mozilla.org/en-US/firefox/addon/duolingo-boost/)
+* [Firefox: Tab Counter](https://addons.mozilla.org/firefox/addon/tab-counter-webext/)
+* [Firefox: Duolingo Boost](https://addons.mozilla.org/firefox/addon/duolingo-boost/)
     * [Chrome: Duolingo Boost](https://chrome.google.com/webstore/detail/duolingo-boost/mgecoicpalmpphlgfkdepgpofjcnggkn)
     * [Bitbucket](https://bitbucket.org/Richdark/duolingo-boost/)
-* [Firefox: Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+* [Firefox: Violentmonkey](https://addons.mozilla.org/firefox/addon/violentmonkey/)
 * Verify-Me for rel=me verifications (Indieweb)
-    * https://addons.mozilla.org/en-US/firefox/addon/verify-me/
+    * https://addons.mozilla.org/firefox/addon/verify-me/
     * https://chrome.google.com/webstore/detail/verify-me/nnefkajddpfponfnmaflddipljfdlcjb
 
 ## Usability
 
-* [Firefox: Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
-* [Firefox: Grayscale](https://addons.mozilla.org/en-US/firefox/addon/grayscalefortabs/)
+* [Firefox: Tree Style Tab](https://addons.mozilla.org/firefox/addon/tree-style-tab/)
+* [Firefox: Grayscale](https://addons.mozilla.org/firefox/addon/grayscalefortabs/)
 * Simplify Gmail
-    * https://addons.mozilla.org/en-US/firefox/addon/simplifygmail/
+    * https://addons.mozilla.org/firefox/addon/simplifygmail/
 * Stylus
-    * https://addons.mozilla.org/en-US/firefox/addon/styl-us/
+    * https://addons.mozilla.org/firefox/addon/styl-us/
     * https://github.com/cquanu/github-dark
 *  Tab Suspender
-    * https://addons.mozilla.org/en-US/firefox/addon/ff-tab-suspender/
+    * https://addons.mozilla.org/firefox/addon/ff-tab-suspender/
 
 ## Videos
 
 * Inviition - YouTube to Invidious and Twitter to Nitter
-    * https://addons.mozilla.org/en-US/firefox/addon/invidition/
+    * https://addons.mozilla.org/firefox/addon/invidition/
 
 ## Firefox Dictionaries
 
@@ -177,10 +177,10 @@ TODO: Sort this list.
 * Estonian?
 * Spanish?
 * Swedish?
-* [Esperanto](https://addons.mozilla.org/en-US/firefox/addon/esperanta-vortaro/)
-* [UK English](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/)
-* [Czech](https://addons.mozilla.org/en-US/firefox/addon/czech-spell-checking-dictionar/)
-* [Swedish](https://addons.mozilla.org/en-US/firefox/addon/g%C3%B6rans-hemmasnickrade-ordli/)
+* [Esperanto](https://addons.mozilla.org/firefox/addon/esperanta-vortaro/)
+* [UK English](https://addons.mozilla.org/firefox/addon/british-english-dictionary-2/)
+* [Czech](https://addons.mozilla.org/firefox/addon/czech-spell-checking-dictionar/)
+* [Swedish](https://addons.mozilla.org/firefox/addon/g%C3%B6rans-hemmasnickrade-ordli/)
 
 * * * * *
 
@@ -197,7 +197,7 @@ TODO: Sort this list.
     * warns if `intl.accept_languages` is not `en-US, en` .
     * starts the browser with common size (I love this on big displays).
     * spoofs the user-agent as the latest Firefox ESR version.
-    * [Firefox's protection against fingerprinting](https://support.mozilla.org/en-US/kb/firefox-protection-against-fingerprinting)
+    * [Firefox's protection against fingerprinting](https://support.mozilla.org/kb/firefox-protection-against-fingerprinting)
       has the upstream list.
         * [A better list under section 4500: RFP (RESIST FINGERPRINTING)](https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js)
     * NOTE: I have stopped using this as it breaks [TTS](https://bugzilla.mozilla.org/show_bug.cgi?id=1333641) amongst other things such as breaking audio captchas.
