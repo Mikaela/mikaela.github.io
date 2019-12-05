@@ -19,4 +19,5 @@ Suggestion: send the link to yourself in private.
 
 Now it's also note to self on themes that I like
 
-* https://t.me/addtheme/sempiternal
+* Desktop: https://t.me/addtheme/sempiternal
+* Android: https://t.me/pbThemes/238 (C04)
