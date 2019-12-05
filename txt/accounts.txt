@@ -1,0 +1,101 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+
+PGP-signed list of my accounts for benefit of those who require them before
+following or similar. It is also for my benefit so I can check somewhere
+easily where I should be updating my accounts. Referral links have
+also moved here from their own page as alone they seem a bit spammy to me.
+
+If something is missing and you aren't certain if it's me, please feel free
+to ask for updates.
+
+I cannot guarantee actively checking or following all of this huge list.
+
+## Books
+
+https://www.goodreads.com/user/show/11147845-mikaela-suomalainen
+
+## Development
+
+https://codeberg.org/Mikaela
+https://git.feneas.org/mikaela
+https://gitea.blesmrt.net/mikaela
+https://dev.gajim.org/Mikaela
+https://github.com/Mikaela
+https://git.frostnerd.com/Mikaela
+https://gitlab.com/Mikaela
+https://launchpad.net/~mikaela
+https://git.nixnet.xyz/mikaela
+https://www.openhub.net/accounts/Mikaela
+https://git.piraattipuolue.fi/mikaela
+https://git.privacytools.io/Mikaela
+
+
+## Forums
+
+https://together.jolla.com/users/6732/mikaela/Mikaela
+https://foorumi.piraattipuolue.fi/memberlist.php?mode=viewprofile&u=875
+https://forum.privacytools.io/u/Mikaela/Mikaela
+
+## Gaming
+
+https://steamcommunity.com/id/Ciblia
+
+## Instant Messaging
+
+xmpp:mikaela@blesmrt.net - private messages, small groups, friends
+xmpp:mikaela@disroot.org - bigger groups so I can switch one account off and have peace if I get overwhelmed
+
+### Team chat
+
+https://keybase.io/Mikaela
+@Ciblia:matrix.org - not in use, holds ownerships in some rooms
+@mikaela:privacytools.io - main account
+@mikaela:feneas.org - used in work try-out practice
+
+## Language learning
+
+https://duolingo.com/Ciblia
+https://www.memrise.com/user/Ciblia
+
+## Misc
+
+http://get.woltapp.com/93O1
+
+## Money
+
+https://liberapay.com/Mikaela/
+https://n26.com/r/mikaelas0922
+https://opencollective.com/mikaela
+https://revolut.com/r/mikaeldmt
+https://transferwise.com/u/mikaelas18
+
+## Social media
+
+https://hub.disroot.org/channel/mikaela
+https://www.linkedin.com/in/mikaelahmsuomalainen/
+https://mastodon.partipirate.org/@mikaela
+https://social.privacytools.io/@mikaela
+https://www.minds.com/ciblia?referrer=ciblia
+https://pixelfed.dk/Mikaela
+https://social.libre.fi/mikaela@mikaela@social.libre.fi
+
+## Web people
+
+https://piraattipuolue.fi/ihmiset/mikaela-suomalainen
+
+## Wikis
+
+Warning: anyone can edit these.
+
+https://indieweb.org/User:Mikaela.info
+https://wiki.piraattipuolue.fi/K%C3%A4ytt%C3%A4j%C3%A4:Mikaela
+
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXekQ5wAKCRCZOS9iuuMH
+I5aFAP4s3K97gnJ+CqigKYGoJh76ufw1A24tDY24/sb8RTPlfwD+OyoCJFwoE3GB
+K0wlSZLccwWz2FYO54cHtSW2kZx/uAM=
+=O82l
+-----END PGP SIGNATURE-----

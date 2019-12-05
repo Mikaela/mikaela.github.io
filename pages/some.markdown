@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Reflinks
-navigation: true
+navigation: false
 permalink: /reflinks/
 redirect_from:
   - /some/
   - /links/
   - /irc/chat.html
   - /referrallinks/
+redirect_to: /txt/accounts.txt
 excerpt: "Links to my my referral links around the internet."
 ---
 
