@@ -12,6 +12,8 @@ redirect_from:
   - /chromium.html
 ---
 
+https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link to use
+
 * [Ecosia search engine at Mycroft Project](https://mycroftproject.com/search-engines.html?name=ecosia.org)
 
 ## Firefox containers
