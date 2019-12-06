@@ -164,6 +164,9 @@ Others:
     * https://github.com/cquanu/github-dark
 *  Tab Suspender
     * https://addons.mozilla.org/firefox/addon/ff-tab-suspender/
+* Dark Mode *sigh*
+    * https://addons.mozilla.org/firefox/addon/dark-mode-webextension/
+    * https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj
 
 ## Videos
 
