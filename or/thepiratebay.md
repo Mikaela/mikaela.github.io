@@ -5,6 +5,6 @@ redirect_from: /or/tpb.html
 sitemap: false
 ---
 
-http://uj3wazyk5u4hnvtk.onion/
+http://piratebayztemzmv.onion/
 
 Proof: Linked at https://thepiratebay.org/
