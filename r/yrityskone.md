@@ -19,3 +19,5 @@ https://www.marseus.com/
 
 Czech Republic in Czech
 https://www.gigacomputer.cz/
+
+Katso myös /r/puhelin
