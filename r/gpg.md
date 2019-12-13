@@ -62,7 +62,11 @@ https://mikaela.info/
 My other hats have like:
 
 ```
-other hat, please fill this
+Mikaela Suomalainen
+position, where, wwwpage
+email address
+xxx xxx xxxx
+C69C B030 AECD C8A4 2301  D6B8 DC18 9FE6 FA9B D685
 
 ```
 
