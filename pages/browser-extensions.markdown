@@ -204,6 +204,8 @@ TODO: Sort this list.
       has the upstream list.
         * [A better list under section 4500: RFP (RESIST FINGERPRINTING)](https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js)
     * NOTE: I have stopped using this as it breaks [TTS](https://bugzilla.mozilla.org/show_bug.cgi?id=1333641) amongst other things such as breaking audio captchas.
+* `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
+  used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
 * `privacy.trackingprotection.cryptomining.enabled` = `true` so cryptomining
   on some websites gets blocked and won't waste resources.
 * `privacy.trackingprotection.fingerprinting.enabled` = `true` I am not
