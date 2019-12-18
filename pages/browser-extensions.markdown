@@ -206,13 +206,8 @@ TODO: Sort this list.
     * NOTE: I have stopped using this as it breaks [TTS](https://bugzilla.mozilla.org/show_bug.cgi?id=1333641) amongst other things such as breaking audio captchas.
 * `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
   used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
-* `privacy.trackingprotection.cryptomining.enabled` = `true` so cryptomining
-  on some websites gets blocked and won't waste resources.
-* `privacy.trackingprotection.fingerprinting.enabled` = `true` I am not
-  entirely sure what this does, but as I already recommend
-  `privacy.resistFingerprinting`, why not?
 * `intl.accept_languages` to `en-US, en`
-    * see above.
+    * see privacy.resistfingerprinting, however this is incompatible with my language policy.
 * `extensions.pocket.enabled` to `false` so the Pocket integration goes away
 * On Linux `widget.content.gtk-theme-override` (a string that has to be created by
   user) to `Adwaita:light` so text boxes in dark themes become readable,
