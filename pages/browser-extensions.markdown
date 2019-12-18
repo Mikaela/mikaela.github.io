@@ -144,7 +144,7 @@ Others:
 * [Firefox: Foxy Proxy](https://addons.mozilla.org/firefox/addon/foxyproxy-standard/)
     * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
     * Onions to Tor, I2P to I2P. [My rules]({{site.ipfsGateway}}/ipfs/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
-* [Firefox: Tab Counter](https://addons.mozilla.org/firefox/addon/tab-counter-webext/)
+* [Firefox: Foxy Tab](https://addons.mozilla.org/firefox/addon/foxytab/)
 * [Firefox: Duolingo Boost](https://addons.mozilla.org/firefox/addon/duolingo-boost/)
     * [Chrome: Duolingo Boost](https://chrome.google.com/webstore/detail/duolingo-boost/mgecoicpalmpphlgfkdepgpofjcnggkn)
     * [Bitbucket](https://bitbucket.org/Richdark/duolingo-boost/)
