@@ -47,3 +47,4 @@ random and [improvements are welcome here.](https://github.com/Mikaela/mikaela.g
       parameter,” says Vilain. In other words, if you want to know whether
       someone is male or female, it may be best just to ask.*
 * [Gender identity is biological study says](https://gma.yahoo.com/gender-identity-biological-study-says-090824140--abc-news-health.html)
+* [Stop Using Phony Science to Justify Transphobia - Scientific American Blog Network](https://blogs.scientificamerican.com/voices/stop-using-phony-science-to-justify-transphobia/)
