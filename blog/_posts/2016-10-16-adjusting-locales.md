@@ -71,3 +71,13 @@ Sources/thanks:
     * You should read it or at least be aware of it especially if you are
       in contact with people from other countries and even more if you
       are in international communities!
+
+* * * * *
+
+2019-12-27: I don't see LANGUAGE mentioned here, but it was blocking me
+from changing language of GNOME and `sudo dpkg-reconfigure locales` in the
+end gave me `*** update-locale: Warning: LANGUAGE (en_US:en) is not compatible with LANG (fi_FI.UTF-8). Disabling it.`.
+
+Either I was wrong on it being list of fallback languages I wish to use, or
+GNOME has different view on it, but as I think I have seen errors related
+to it before, I will drop `LANGUAGE` from the variables I set.
