@@ -21,3 +21,8 @@ Now it's also note to self on themes that I like
 
 * Desktop: https://t.me/addtheme/sempiternal
 * Android: https://t.me/pbThemes/238 (C04)
+
+These may be mobile-only
+
+* Red AMOLED https://t.me/addtheme/abtred
+* https://t.me/addtheme/DefinitelyPurple
