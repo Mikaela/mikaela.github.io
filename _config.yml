@@ -29,8 +29,8 @@ sitemap:
     file: "/sitemap.xml"
 include: [PGP, PHP, keybase.txt, robots.txt, avatar.jpeg, .well-known]
 
-avatar: https://eu.siderus.io/ipfs/QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD/250.png
-icon: https://eu.siderus.io/ipfs/QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD/128.png
+avatar: https://gateway.ipfs.io/ipfs/QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD/250.png
+icon: https://gateway.ipfs.io/ipfs/QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD/128.png
 
 # {{site.ipfsGateway}}/ipfs/IPFSHASHHERE to get ipfs link via gateway.
 # Hopefully future proof letting me simply swap the link here instead of
@@ -40,10 +40,5 @@ icon: https://eu.siderus.io/ipfs/QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD/
 # created for the content and when it's used, the filename and type are
 # remembered which may be helpful with media files or embeds.
 # Note: no trailing slash after the URL, only https://domain.tld
-ipfsGateway: https://eu.siderus.io
+ipfsGateway: https://gateway.ipfs.io
 
-# eu.siderus.io is used, because they care about IPFS (being based around
-# it) and they have a specific subdomain for getting European host.
-# I cannot help them using Cloudflare (use IPFS Companion) and other
-# alternatives possibly didn't care about IPFS as much or would require me
-# to use a provider outside of the Europe.
