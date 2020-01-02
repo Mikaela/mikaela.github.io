@@ -1,6 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
+
 PGP clearsigned file containing my other keys than PGP (see /index.html)
 
 * * * * *
@@ -52,9 +53,13 @@ https://github.com/vector-im/riot-web/issues/2714
 
 @mikaela:privacytools.io (personal)
 
-Riot Desktop on Sedric (Linux)
+Flatpak/Riot@Sedric-20190810
 VMDCIMTFHO
 X5i9 BRxu C3WY H0v0 mJ97 8CQS lHpB mF0Q usBb rjUQ irE
+
+Flatpak/Riot@Zaldaryn-20200102
+YAYSVYTEHH
+xfYn 9Ac5 hFMq XnFO Vl+j QNfp H0kY rh17 Nnh1 sQ4d ZQE
 
 @mikaela:feneas.org (currently used for work try-out-practice)
 
@@ -99,8 +104,8 @@ DA0CFDDE E05BE012 B2E726B5 0789F4E2 E7DB582D
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXd5xVQAKCRCZOS9iuuMH
-I6dEAP4n1tldTnOIQ1hbAsYUq97DZNmCEzh0LuoqdNw2iQ4SCwD6At1rBdXZh+YW
-beIadC5zmQp5bBX4l9CkSq9YcdkRwAs=
-=R0CY
+iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXg36bAAKCRCZOS9iuuMH
+I/bEAQDq3l3guzdxDR8Owkw1/JTKmWjIjbWcAfWo4nyEi3T0NAD9GEQG66SChHHq
+AMu1k3Y3J692bD7IDdUOilkW1a592ww=
+=AHiV
 -----END PGP SIGNATURE-----
