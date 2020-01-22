@@ -23,11 +23,13 @@ Note the keyid and edit it
 
 ```
 gpg2 --edit-key KEYID
-adduid # here fill your name and details as asked
+adduid # here fill your name and details as asked no comments\*
 1 # to select the uid the first command generated
 deluid # to delete the uid which doesn't contain your name
 save
 ```
+
+*\* Comments are considered harmful https://debian-administration.org/users/dkg/weblog/97
 
 Then you are ready to publish the public key however you generally publish
 it, preferably in multiple places from where some recognise revokation
