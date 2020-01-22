@@ -2,6 +2,7 @@
 layout: null
 permalink: /r/gpg.html
 redirect_from:
+  - /r/gpg.html
   - /r/gnupg.html
   - /r/clawsmail.html
   - /r/claws-mail.html
@@ -15,13 +16,13 @@ To create an Ed25519 key, or whatever will be the default version in the
 future as defined by your GPG version:
 
 ```
-gpg --quick-gen-key address@domain.example future-default
+gpg2 --quick-gen-key address@domain.example future-default
 ```
 
 Note the keyid and edit it
 
 ```
-gpg --edit-key KEYID
+gpg2 --edit-key KEYID
 adduid # here fill your name and details as asked
 1 # to select the uid the first command generated
 deluid # to delete the uid which doesn't contain your name
