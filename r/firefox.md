@@ -1,5 +1,5 @@
 ---
-redirect_to: https://www.mozilla.org/en-US/firefox/all/
+redirect_to: https://releases.mozilla.org/pub/firefox/releases/
 permalink: /r/firefox.html
 sitemap: false
 ---
