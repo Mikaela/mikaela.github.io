@@ -101,14 +101,14 @@ Sedric/Windows/Firefox/app.wire.com
 ID: eb 9b 7b 1b f5 39 e6 bf
 Fingerprint: 56 33 4c db 45 7c fb 86 5a c9 05 17 2b c3 88 3b 33 b8 e8 57 38 ad 4a 0b 88 5b 5c 1d 58 f2 fb a3
 
-Kincarron/app.wire.com
+Kincarron/Wire Flatpak
 ID: DB D4 A2 0E 44 36 90 26
 Fingerprint: 98 8d 01 a6 59 6e 5f 52 91 68 a0 3f 73 85 e9 aa 02 01 e1 bf 75 87 42 31 b5 2f ac c8 79 40 39 9b
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXjKkOwAKCRCZOS9iuuMH
-I4a9AP9+pWOW8fb+7y/ATUtyNFd/0artWMu1xOaiayORgLO5HgEAxO/PNGFOjk5H
-rQOjL0vcr658B7w882jc725DXRNTQwU=
-=HZuc
+iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXjQG8AAKCRCZOS9iuuMH
+IylWAP9DxwImS7F9nYvZyXT7EbzfYq68ld/21HzzCxzeKHOxqgEA2XhvVU2ecRlN
+c1wZKRI0VbWACTVBZ6hYlf/acEISdww=
+=/AH4
 -----END PGP SIGNATURE-----
