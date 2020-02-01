@@ -66,6 +66,10 @@ Flatpak/Riot@Zaldaryn-20200102
 YAYSVYTEHH
 xfYn 9Ac5 hFMq XnFO Vl+j QNfp H0kY rh17 Nnh1 sQ4d ZQE
 
+Flatpak/Riot@Kincarron-20200201
+KMVPODKSWL
++my1 rU7+ B4WR y0Fy LlkK O1Mx 0I2v nf8L e0av H9Mw aXw
+
 @mikaela:feneas.org (currently used for work try-out-practice)
 
 sedric-profile-20191127
@@ -107,8 +111,8 @@ Fingerprint: 98 8d 01 a6 59 6e 5f 52 91 68 a0 3f 73 85 e9 aa 02 01 e1 bf 75 87 4
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXjQG8AAKCRCZOS9iuuMH
-IylWAP9DxwImS7F9nYvZyXT7EbzfYq68ld/21HzzCxzeKHOxqgEA2XhvVU2ecRlN
-c1wZKRI0VbWACTVBZ6hYlf/acEISdww=
-=/AH4
+iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXjVEUAAKCRCZOS9iuuMH
+IyPgAQCBu2IMS5zS2fYT2KqvQjMyLoRBWRJW5Y4+ENcZmfU3RwD/VRksHbhkbyB1
+yG+XrFsKeoUBoouOZEXCAIa/+K8oLgs=
+=XSAv
 -----END PGP SIGNATURE-----
