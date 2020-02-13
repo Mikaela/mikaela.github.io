@@ -27,6 +27,9 @@ Sedric / Gajim
 Kincarron / Dino
 fa0181376af9ea6e072360470ce3cf167f8a023d51a15dfaecf3c90a9fd06f2d
 
+Zaldaryn/Dino
+c7d194dfd5ac1bb3800b3bd3bb025049836f0862d7ba61c757bb37bd806f5549
+
 XMPP/DISROOT.ORG
 
 Public/big groups to be separate from blesmrt.net, so I have a killswitch
@@ -45,6 +48,9 @@ Sedric / Gajim
 
 Kincarron/Dino
 a20ad8b7c47c9ca9d33ad62bda449d15afdb3c75f1bb96477b47c66bc402590a
+
+Zaldaryn/Dino
+2aeb3cd9d1ea49742991685b99d24f91299c3ef913fdaed003181a42b077226c
 
 * * * * *
 
@@ -111,8 +117,8 @@ Fingerprint: 98 8d 01 a6 59 6e 5f 52 91 68 a0 3f 73 85 e9 aa 02 01 e1 bf 75 87 4
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXjVEUAAKCRCZOS9iuuMH
-IyPgAQCBu2IMS5zS2fYT2KqvQjMyLoRBWRJW5Y4+ENcZmfU3RwD/VRksHbhkbyB1
-yG+XrFsKeoUBoouOZEXCAIa/+K8oLgs=
-=XSAv
+iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXkV7oAAKCRCZOS9iuuMH
+IxiqAP92xYEooMAcuSRF+IXQPCoaonVwLAuca/RL6x20hhmTSAEA15VhiGqj/oLe
+HZiFdSJJeIfgQOlUUXPOpmVHKreLowA=
+=XcQr
 -----END PGP SIGNATURE-----
