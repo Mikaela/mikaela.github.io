@@ -6,5 +6,6 @@ redirect_from:
   - /r/jabberxmpp.html
   - /r/jabbermatrix.html
   - /r/matrixmpp
+  - /r/bifrost
 sitemap: false
 ---
