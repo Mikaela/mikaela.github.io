@@ -2,7 +2,6 @@
 layout: null
 permalink: /r/gpg.html
 redirect_from:
-  - /r/gpg.html
   - /r/gnupg.html
   - /r/clawsmail.html
   - /r/claws-mail.html
