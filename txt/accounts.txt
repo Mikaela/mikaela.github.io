@@ -29,14 +29,12 @@ https://launchpad.net/~mikaela
 https://git.nixnet.xyz/mikaela
 https://www.openhub.net/accounts/Mikaela
 https://git.piraattipuolue.fi/mikaela
-https://git.privacytools.io/Mikaela
 
 
 ## Forums
 
 https://together.jolla.com/users/6732/mikaela/Mikaela
 https://foorumi.piraattipuolue.fi/memberlist.php?mode=viewprofile&u=875
-https://forum.privacytools.io/u/Mikaela/Mikaela
 
 ## Gaming
 
@@ -51,8 +49,7 @@ xmpp:mikaela@disroot.org - bigger groups so I can switch one account off and hav
 
 https://keybase.io/Mikaela
 @Ciblia:matrix.org - not in use, holds ownerships in some rooms
-@mikaela:privacytools.io - main account
-@mikaela:feneas.org - used in work try-out practice
+@mikaela:feneas.org - mainish account
 
 ## Language learning
 
@@ -76,9 +73,7 @@ https://transferwise.com/u/mikaelas18
 https://hub.disroot.org/channel/mikaela
 https://www.linkedin.com/in/mikaelahmsuomalainen/
 https://mastodon.partipirate.org/@mikaela
-https://social.privacytools.io/@mikaela
 https://www.minds.com/ciblia?referrer=ciblia
-https://pixelfed.dk/Mikaela
 https://social.libre.fi/mikaela@mikaela@social.libre.fi
 
 ## Web people
@@ -94,8 +89,8 @@ https://wiki.piraattipuolue.fi/K%C3%A4ytt%C3%A4j%C3%A4:Mikaela
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXekQ5wAKCRCZOS9iuuMH
-I5aFAP4s3K97gnJ+CqigKYGoJh76ufw1A24tDY24/sb8RTPlfwD+OyoCJFwoE3GB
-K0wlSZLccwWz2FYO54cHtSW2kZx/uAM=
-=O82l
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXpxYUBUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByP/KwEAhnFCPNeTurbVqHNZm98aerBZJwK/
+H9uhBKhWGHFj3AkBAMvgov+T9aLb6MXC9+4qQvWaQXolfimjx2mKD6+WOW0M
+=+b6n
 -----END PGP SIGNATURE-----

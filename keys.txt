@@ -1,6 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
+
 PGP clearsigned file containing my other keys than PGP (see /index.html)
 
 * * * * *
@@ -71,21 +72,7 @@ https://github.com/vector-im/riot-web/issues/2735
 Hope that cross-signing gets implemented soon.
 https://github.com/vector-im/riot-web/issues/2714
 
-@mikaela:privacytools.io (personal)
-
-Flatpak/Riot@Sedric-20190810
-VMDCIMTFHO
-X5i9 BRxu C3WY H0v0 mJ97 8CQS lHpB mF0Q usBb rjUQ irE
-
-Flatpak/Riot@Zaldaryn-20200102
-YAYSVYTEHH
-xfYn 9Ac5 hFMq XnFO Vl+j QNfp H0kY rh17 Nnh1 sQ4d ZQE
-
-Flatpak/Riot@Kincarron-20200201
-KMVPODKSWL
-+my1 rU7+ B4WR y0Fy LlkK O1Mx 0I2v nf8L e0av H9Mw aXw
-
-@mikaela:feneas.org (currently used for work try-out-practice)
+@mikaela:feneas.org
 
 sedric-profile-20191127
 NYDCBCUCKG
@@ -126,8 +113,8 @@ Fingerprint: 98 8d 01 a6 59 6e 5f 52 91 68 a0 3f 73 85 e9 aa 02 01 e1 bf 75 87 4
 
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXnEMqBUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByO79wEAoYNydwDfYSQ8dmixeXhuspKtL9CJ
-jOtutAfDZCTI/aoBAJ4wkOvgyBZ9OmemU/qUVP+VmP6BVNDhf6rElj0/b9QL
-=qiZj
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXpxYPhUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByOXdQD5AaQuBeohDQHCtLei1htZ34SsNO5E
+CaPGlGvBOqu83z0A/11wXV7YvNVlE+45/H0tvVqYqeayl6eLTGzpYo3aAagM
+=vF6d
 -----END PGP SIGNATURE-----
