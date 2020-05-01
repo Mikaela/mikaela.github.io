@@ -1,7 +1,6 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-
 PGP clearsigned file containing my other keys than PGP (see /index.html)
 
 * * * * *
@@ -11,19 +10,18 @@ detach-sign))
 
 XMPP/BLESMRT.NET
 
+xmpp:mikaela@blesmrt.net?omemo-sid-949680264=654b755c3ba00c29b4fe5cc967d84651b78d4de46045e4064a68a5a4d24dfe08;omemo-sid-1119046728=fa0181376af9ea6e072360470ce3cf167f8a023d51a15dfaecf3c90a9fd06f2d;omemo-sid-663989252=9248a467e732370ebf151dafd018d5ea7d4aae454e4ba57db8327b375d24f50e;omemo-sid-1381502797=794679d7ed50c694cb989b060e3381b5cd9fe47c8bcdd494d9a6fb2c98372075
+
 Private/small groups and friends separately for when big groups feel too
 overwhelming with activity.
 
 Nokia 1 / Conversations
-a991b61f 361d4a9a 3c5a7387 8ccc6e89 b4111e79 8406e62f 3cc65d0f 2c8d3656
+949680264
+654b755c3ba00c29b4fe5cc967d84651b78d4de46045e4064a68a5a4d24dfe08
 
 Sedric / Dino
-9846018741a8da62ea42a7428a82af5851b635875ac915b7c067127715cedd50
-
-Sedric / Gajim
-1645280364
-67EFE1B3 D6F9A526 B9604EAC 307AD1B6
-263B3E9F 2A16F60A 509516B9 2D93C24F
+663989252
+9248a467e732370ebf151dafd018d5ea7d4aae454e4ba57db8327b375d24f50e
 
 Kincarron / Dino
 fa0181376af9ea6e072360470ce3cf167f8a023d51a15dfaecf3c90a9fd06f2d
@@ -37,14 +35,18 @@ CD9FE47C 8BCDD494 D9A6FB2C 98372075
 
 XMPP/DISROOT.ORG
 
+xmpp:mikaela@disroot.org?omemo-sid-594554226=c672f87b2d81eaacc2a979bcf6ba243e4107c5f51dd464367f03193eb75ecc00;omemo-sid-1071028935=a20ad8b7c47c9ca9d33ad62bda449d15afdb3c75f1bb96477b47c66bc402590a;omemo-sid-1961814220=0f1766316c5ce442c94cfabf8242bf153f5cf631380e023e697f17bce1f9a94b;omemo-sid-511993204=3b903aee73e6aaef0c01e5aa565a2be90f7407c8dbdbccf80b5d9d2726f7bd5f
+
 Public/big groups to be separate from blesmrt.net, so I have a killswitch
 when I am overwhelmed by amount/activity of groups.
 
 Nokia 1 / Conversations
-3e003b4a 28a379f3 cd39396d de6a6659 15a80652 80cd3184 755614f2 e129aa01
+594554226
+c672f87b2d81eaacc2a979bcf6ba243e4107c5f51dd464367f03193eb75ecc00
 
 Sedric / Dino
-5a28be1683e13f1ea443a6bcd82087474c50329105607bdc9631fb8e3338fb25
+1961814220
+0f1766316c5ce442c94cfabf8242bf153f5cf631380e023e697f17bce1f9a94b
 
 Sedric / Gajim
 1924141481
@@ -52,6 +54,7 @@ Sedric / Gajim
 26A3D4E8 4963D001 AC707E5D 7938D667
 
 Kincarron/Dino
+1071028935
 a20ad8b7c47c9ca9d33ad62bda449d15afdb3c75f1bb96477b47c66bc402590a
 
 Zaldaryn/Dino
@@ -110,11 +113,10 @@ Fingerprint: 56 33 4c db 45 7c fb 86 5a c9 05 17 2b c3 88 3b 33 b8 e8 57 38 ad 4
 Kincarron/Wire Flatpak
 ID: DB D4 A2 0E 44 36 90 26
 Fingerprint: 98 8d 01 a6 59 6e 5f 52 91 68 a0 3f 73 85 e9 aa 02 01 e1 bf 75 87 42 31 b5 2f ac c8 79 40 39 9b
-
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXpxYPhUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByOXdQD5AaQuBeohDQHCtLei1htZ34SsNO5E
-CaPGlGvBOqu83z0A/11wXV7YvNVlE+45/H0tvVqYqeayl6eLTGzpYo3aAagM
-=vF6d
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXqx1CBUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByO0RgEAhk5Do0WH/Cx1mB4OtbOhyJbK1Wbd
+HuYPXtg83FmMYBABANO33GF47mvLW+TSd2D34wv2tZSkXZysPStimCUTjUAD
+=Mjiy
 -----END PGP SIGNATURE-----
