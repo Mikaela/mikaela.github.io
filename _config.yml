@@ -43,4 +43,4 @@ icon: https://bafybeia5vajmcurh2ffyounq24hak2lmhyctlmarlnulyylz3hfkbhjzfq.ipfs.d
 ipfsGateway: https://gateway.ipfs.io
 # I am not sure how to use this, but I want it to exist anyway
 #   Remember: `ipfs cid base32 <the usual hash>`
-ipfsSubdomainGateway: .ipfs.dweb.link/
+ipfsSubdomainGateway: ipfs.dweb.link

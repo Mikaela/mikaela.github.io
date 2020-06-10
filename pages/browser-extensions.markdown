@@ -143,7 +143,7 @@ Others:
       requesting the fetched content.
 * [Firefox: Foxy Proxy](https://addons.mozilla.org/firefox/addon/foxyproxy-standard/)
     * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
-    * Onions to Tor, I2P to I2P. [My rules]({{site.ipfsGateway}}/ipfs/QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz/foxyproxy.json)
+    * Onions to Tor, I2P to I2P. [My rules](https://bafybeia7yeie5a6arstytabl6bfhacmidcy4yhht3e6dfrrq4gi2gry4pu.{{site.ipfsSubdomainGateway}}/foxyproxy.json)
 * [Firefox: Foxy Tab](https://addons.mozilla.org/firefox/addon/foxytab/)
 * [Firefox: Duolingo Boost](https://addons.mozilla.org/firefox/addon/duolingo-boost/)
     * [Chrome: Duolingo Boost](https://chrome.google.com/webstore/detail/duolingo-boost/mgecoicpalmpphlgfkdepgpofjcnggkn)
