@@ -1,8 +1,8 @@
-hash,content,used,where,date
-QmbRqyJteL8qyYefSMgVBWUEKoXRNQL7q61xhcJeoRr35h,250x250 avatar,no,,2019-02-11
-Qma7jaHDBkGk6aEuJEbbCaqgykUrn1X8XhtZ2nMbrYgVKv,128x128 avatar,no,,2019-02-11
-QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz,foxyproxy.json,yes,browser-extensions,2018-11-13
-Qmf4MkLJPvG2sjEGu8g4fE25Ui9MDnYHXXaM2C5uo5XUkx,avatar,no,index favicon,2019-06-02
-QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD,avatar-20190602 with trans filter,yes,index favicon,2019-07-18
-QmPsVGJG5XyZz4ed4DLUf4StE7w8bTA5EhyNPbitoS4zt8/,Jami QR+asc,yes,"index, jami section",2019-09-18
-QmRnE8hWT9DRBLvLXZ8GC4E1evMrwpFwBU1agFJkhyQFqT,Janikan tarina,yes,r/janika,2019-09-13
+hash,base32,content,used,embed,where,date
+QmbRqyJteL8qyYefSMgVBWUEKoXRNQL7q61xhcJeoRr35h,,250x250 avatar,no,,,2019-02-11
+Qma7jaHDBkGk6aEuJEbbCaqgykUrn1X8XhtZ2nMbrYgVKv,,128x128 avatar,no,,,2019-02-11
+QmQUc6SmBS8jgvceRLjFsVJNy2NrikDotcQVFxHeRwtQRz,bafybeia7yeie5a6arstytabl6bfhacmidcy4yhht3e6dfrrq4gi2gry4pu,foxyproxy.json,yes,,browser-extensions,2018-11-13
+Qmf4MkLJPvG2sjEGu8g4fE25Ui9MDnYHXXaM2C5uo5XUkx,,avatar,no,,index favicon,2019-06-02
+QmQLRBFm5aa2GmmvR4FhHV7mAVjeKieEBrJaSCekyHZtbD,bafybeia5vajmcurh2ffyounq24hak2lmhyctlmarlnulyylz3hfkbhjzfq,avatar-20190602 with trans filter,yes,yes,index favicon,2019-07-18
+QmPsVGJG5XyZz4ed4DLUf4StE7w8bTA5EhyNPbitoS4zt8,bafybeiawyibtmpxvgzv7ge3vlase5rjrxnea4rqr2ndeso2bs6wibe4pue,Jami QR+asc,yes,,"index, jami section",2019-09-18
+QmRnE8hWT9DRBLvLXZ8GC4E1evMrwpFwBU1agFJkhyQFqT,bafybeibtebp2pve6x5ajv3h7leuhsz4s4alholyahi74vr7mlpob3ajqji,Janikan tarina,yes,,r/janika,2019-09-13
