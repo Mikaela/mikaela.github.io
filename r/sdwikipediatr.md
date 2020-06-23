@@ -4,7 +4,6 @@ permalink: /r/sdwikipediatr.html
 redirect_from:
   - /r/sdtr.wikipedia.html
   - /r/sdtrwikipedia.html
-  - /r/sdwikipediatr.html
   - /r/sdwikipedia.tr.html
 sitemap: false
 ---
