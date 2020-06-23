@@ -5,7 +5,6 @@ permalink: /r/wikipediatr.html
 redirect_from:
   - /r/tr.wikipedia.html
   - /r/trwikipedia.html
-  - /r/wikipediatr.html
   - /r/wikipedia.tr.html
 sitemap: false
 ---
