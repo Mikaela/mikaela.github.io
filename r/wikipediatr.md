@@ -1,7 +1,7 @@
 ---
 layout: null
 redirect_to: https://tr.wikipedia-on-ipfs.org/wiki/
-permalink: /r/wikipedia.html
+permalink: /r/wikipediatr.html
 redirect_from:
   - /r/tr.wikipedia.html
   - /r/trwikipedia.html
