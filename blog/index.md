@@ -6,7 +6,7 @@ permalink: /blog/
 excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, postaukset englanniksi ja postaukset suomeksi."
 ---
 
-* [Posts in Finnish / Suomenieliset kirjoitukset](#suomeksi)
+* [Posts in Finnish / Suomenkieliset kirjoitukset](#suomeksi)
 
 ## In English
 
