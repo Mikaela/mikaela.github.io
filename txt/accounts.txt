@@ -29,7 +29,7 @@ https://launchpad.net/~mikaela
 https://git.nixnet.xyz/mikaela
 https://www.openhub.net/accounts/Mikaela
 https://git.piraattipuolue.fi/mikaela
-
+https://git.snopyta.org/mikaela?tab=activity
 
 ## Forums
 
@@ -70,11 +70,8 @@ https://transferwise.com/u/mikaelas18
 
 ## Social media
 
-https://hub.disroot.org/channel/mikaela
 https://www.linkedin.com/in/mikaelahmsuomalainen/
-https://mastodon.partipirate.org/@mikaela
-https://www.minds.com/ciblia?referrer=ciblia
-https://social.libre.fi/mikaela@mikaela@social.libre.fi
+https://social.libre.fi/mikaela@mikaela@social.libre.fi - 502 Bad Gateway on 2020-07-11, would be deleted otherwise
 
 ## Web people
 
@@ -89,8 +86,8 @@ https://wiki.piraattipuolue.fi/K%C3%A4ytt%C3%A4j%C3%A4:Mikaela
 
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXpxYUBUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByP/KwEAhnFCPNeTurbVqHNZm98aerBZJwK/
-H9uhBKhWGHFj3AkBAMvgov+T9aLb6MXC9+4qQvWaQXolfimjx2mKD6+WOW0M
-=+b6n
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXwmiOBUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByNKagEAsMrLiaW37+wlWQB1hGf0X1RECmvh
+Jg7xNXssLrUPaOYA/iVaPInApy5XaFWzR3RxumjI42q8xWeCmuWkNscTVgIM
+=0wYj
 -----END PGP SIGNATURE-----
