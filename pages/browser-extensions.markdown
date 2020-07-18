@@ -26,37 +26,12 @@ https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link
         <th>Comment</th>
     </tr>
     <tr>
-        <td>Facebook Container</td>
-        <td><a href="https://addons.mozilla.org/firefox/addon/facebook-container/">Firefox Add-ons</a></td>
-        <td>TBD</td>
-        <td>nice when clicking Facebook links even while not being a Facebook user</td>
-    </tr>
-    <tr>
-        <td>Google Container</td>
-        <td><a href="https://addons.mozilla.org/firefox/addon/google-container/">Firefox Add-ons</a></td>
-        <td>TBD</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>Firefox Multi Account Containers</td>
         <td><a href="https://addons.mozilla.org/firefox/addon/multi-account-containers">Firefox Add-ons</a></td>
         <td>TBD</td>
         <td></td>
     </tr>
 </table>
-
-Others:
-
-* Twitter https://addons.mozilla.org/firefox/addon/twitter-container/
-    * pointless for me as I don't use Twitter and Invidition gives me Nitter links instead
-* Amazon https://addons.mozilla.org/firefox/addon/contain-amazon/
-    * untested
-* Reddit https://addons.mozilla.org/firefox/addon/contain-reddit/
-    * shrug, not tested, would rather take something like Invidition for a frontend
-* Git https://addons.mozilla.org/firefox/addon/contain-git/
-    * not sure if there is point
-* alternative Google https://addons.mozilla.org/firefox/addon/google-contain-integrations/
-    * worth trying, I haven't tested it.
 
 ## Firefox language packs
 
@@ -88,21 +63,8 @@ Others:
 ## Privacy
 
 * [HTTPS Everywhere], [source code]
-    * [Firefox](https://addons.mozilla.org/firefox/addon/https-everywhere/)
+    * <s>[Firefox](https://addons.mozilla.org/firefox/addon/https-everywhere/)</s> `dom.security.https_only_mode` `true`
     * [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
-* [Privacy Badger], [source code]
-    * [Firefox: Privacy Badger](https://addons.mozilla.org/firefox/addon/privacy-badger17/)
-    * [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
-* [Decentraleyes], source - candidate for removal
-    * [Firefox](https://addons.mozilla.org/firefox/addon/decentraleyes/)
-    * [Chrome](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
-        * [Chrome HTTPS Everywhere fix page](https://decentraleyes.org/configure-https-everywhere/)
-    * [µMatrix users](https://git.synz.io/Synzvato/decentraleyes/wikis/Frequently-Asked-Questions#for-umatrix-and-ublock-origin-non-easy-mode-users)
-* True Sight, source
-    * ~~[Firefox: True Sight](https://addons.mozilla.org/firefox/addon/detect-cloudflare-plus/)~~
-        * This is a CDN detector and it being a privacy extension can be debated
-          but I just feel like putting it here. I will still say that not all
-          CDNs are bad (IPFS). I mostly don't have it enabled
 * [Firefox: µMatrix](https://addons.mozilla.org/firefox/addon/umatrix/)
     * [Chrome](https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf)
     * It can easily replace Cookie Autodelete (block cookies for global scope), Privacy Badger (by default), NoScript and possibly others.
@@ -114,12 +76,6 @@ Others:
 * Snowflake to help censored users (won't increase user privacy), requires WebRTC
     * https://addons.mozilla.org/firefox/addon/torproject-snowflake/
     * https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie
-
-### Tor
-
-* [Firefox: Privacy Pass](https://addons.mozilla.org/firefox/addon/privacy-pass/)
-    * [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi)
-    * May reduce captchas with CloudFlare.
 
 ## Productivity
 
@@ -145,10 +101,6 @@ Others:
     * [Chrome?](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
     * Onions to Tor, I2P to I2P. [My rules](https://bafybeia7yeie5a6arstytabl6bfhacmidcy4yhht3e6dfrrq4gi2gry4pu.{{site.ipfsSubdomainGateway}}/foxyproxy.json)
 * [Firefox: Foxy Tab](https://addons.mozilla.org/firefox/addon/foxytab/)
-* [Firefox: Duolingo Boost](https://addons.mozilla.org/firefox/addon/duolingo-boost/)
-    * [Chrome: Duolingo Boost](https://chrome.google.com/webstore/detail/duolingo-boost/mgecoicpalmpphlgfkdepgpofjcnggkn)
-    * [Bitbucket](https://bitbucket.org/Richdark/duolingo-boost/)
-* [Firefox: Violentmonkey](https://addons.mozilla.org/firefox/addon/violentmonkey/)
 * Verify-Me for rel=me verifications (Indieweb)
     * https://addons.mozilla.org/firefox/addon/verify-me/
     * https://chrome.google.com/webstore/detail/verify-me/nnefkajddpfponfnmaflddipljfdlcjb
@@ -156,17 +108,8 @@ Others:
 ## Usability
 
 * [Firefox: Tree Style Tab](https://addons.mozilla.org/firefox/addon/tree-style-tab/)
-* [Firefox: Grayscale](https://addons.mozilla.org/firefox/addon/grayscalefortabs/)
-* Simplify Gmail
-    * https://addons.mozilla.org/firefox/addon/simplifygmail/
-* Stylus
-    * https://addons.mozilla.org/firefox/addon/styl-us/
-    * https://github.com/cquanu/github-dark
 *  Tab Suspender
     * https://addons.mozilla.org/firefox/addon/ff-tab-suspender/
-* Dark Mode *sigh*
-    * https://addons.mozilla.org/firefox/addon/dark-mode-webextension/
-    * https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj
 
 ## Videos
 
@@ -189,25 +132,10 @@ TODO: Sort this list.
 
 ## Firefox about:config
 
-* `layout.css.devPixelsPerPx` to `1.25` or `2.0` on macOS Retina to increase font size.
-    * Warning: very likely increases fingerprintability
 * `privacy.firstparty.isolate` to `true` for preventing domains from
   accessing each other's data.
-    * If something breaks, it's most likely related to this. ~~I am yet to
-      test if this~~ Surprisingly it doesn't break~~s~~ Finnish strong electric authentication.
-* `privacy.resistFingerprinting` = `true` multiple effects to make your
-  browser appear less unique, the ones I have found/understood:
-    * warns if `intl.accept_languages` is not `en-US, en` .
-    * starts the browser with common size (I love this on big displays).
-    * spoofs the user-agent as the latest Firefox ESR version.
-    * [Firefox's protection against fingerprinting](https://support.mozilla.org/kb/firefox-protection-against-fingerprinting)
-      has the upstream list.
-        * [A better list under section 4500: RFP (RESIST FINGERPRINTING)](https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js)
-    * NOTE: I have stopped using this as it breaks [TTS](https://bugzilla.mozilla.org/show_bug.cgi?id=1333641) amongst other things such as breaking audio captchas.
 * `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
   used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
-* `intl.accept_languages` to `en-US, en`
-    * see privacy.resistfingerprinting, however this is incompatible with my language policy.
 * `extensions.pocket.enabled` to `false` so the Pocket integration goes away
 * On Linux `widget.content.gtk-theme-override` (a string that has to be created by
   user) to `Adwaita:light` so text boxes in dark themes become readable,
@@ -215,10 +143,7 @@ TODO: Sort this list.
     * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315)
 * `image.animation_mode` to `once` in order to have gifs play once and
   then stop everywhere (`none` to never have them play).
-* `geo.wifi.uri` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
 * `network.IDN_show_punycode` to true in order to see punycode instead of UTF-8 in case of spoofing attempt
-* `ui.systemUsesDarkTheme` missing context
-*  `extensions.webextensions.restrictedDomains` - protected domains where extensions aren't allowed
 * `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
     * Requires DoH, see the next section!
 
