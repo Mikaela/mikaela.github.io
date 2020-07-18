@@ -149,6 +149,7 @@ TODO: Sort this list.
 * `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful.
 * `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
     * Requires DoH, see the next section!
+* `reader.parse-on-load.force-enabled` to `true` in order to allow reader use to be used on ~all websites and devices (regardless of low RAM?)
 
 Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/show_bug.cgi?id=1497263) ?
 
