@@ -134,6 +134,8 @@ TODO: Sort this list.
 
 * `privacy.firstparty.isolate` to `true` for preventing domains from
   accessing each other's data.
+* `dom.security.https_only_mode` to `true` to force HTTPS and not need HTTPS Everywhere
+  * [Breaks IPFS companion subdomain gateway redirect](https://github.com/ipfs-shipyard/ipfs-companion/issues/855), see also [Firefox bug 1220810 Consider hardcoding localhost names to the loopback address](https://bugzilla.mozilla.org/show_bug.cgi?id=1220810#c23)
 * `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
   used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
 * `extensions.pocket.enabled` to `false` so the Pocket integration goes away
