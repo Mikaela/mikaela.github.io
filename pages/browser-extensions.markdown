@@ -62,6 +62,9 @@ https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link
 
 ## Privacy
 
+* [Behave!](https://github.com/mindedsecurity/behave) - reveals portscanning performed by websites (detects IPFS).
+  * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/behave/)
+  * [Chrome](https://chrome.google.com/webstore/detail/mppjbkhgconmemoeagfbgilblohhcica/)
 * [HTTPS Everywhere], [source code]
     * <s>[Firefox](https://addons.mozilla.org/firefox/addon/https-everywhere/)</s> `dom.security.https_only_mode` `true`
     * [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
@@ -110,6 +113,8 @@ https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link
 * [Firefox: Tree Style Tab](https://addons.mozilla.org/firefox/addon/tree-style-tab/)
 *  Tab Suspender
     * https://addons.mozilla.org/firefox/addon/ff-tab-suspender/
+* [Dark Background and light text (GitHub)](https://github.com/m-khvoinitsky/dark-background-light-text-extension)
+  * [Firefox](https://addons.mozilla.org/firefox/addon/dark-background-light-text/)
 
 ## Videos
 
