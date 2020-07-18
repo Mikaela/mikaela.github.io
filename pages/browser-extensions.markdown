@@ -43,6 +43,11 @@ https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link
 * Spanish?
 * Swedish?
 
+## Instant Messaging
+
+* [Radical](https://github.com/stoically/radical) - Element, Matrix.org client as webextensions
+  * [Firefox](https://addons.mozilla.org/firefox/addon/radical-web)
+
 ## Passwords
 
 <table>
