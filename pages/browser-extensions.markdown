@@ -156,6 +156,7 @@ TODO: Sort this list.
 * `image.animation_mode` to `once` in order to have gifs play once and
   then stop everywhere (`none` to never have them play).
 * `media.peerconnection.enabled` to `false` in order to disable WebRTC (potential IP leaker, will break VoIP/calls, but those are better outside of Firefox anyway)
+  * `media.navigator.enabled` to `false` in order to also hide cameras and microphones from websites.
 * `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful.
 * `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
     * Requires DoH, see the next section!
