@@ -123,7 +123,7 @@ https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link
 
 ## Videos
 
-* Inviition - YouTube to Invidious and Twitter to Nitter
+* Invdition - YouTube to Invidious and Twitter to Nitter
     * https://addons.mozilla.org/firefox/addon/invidition/
 
 ## Firefox Dictionaries
@@ -177,8 +177,8 @@ Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/sh
         * since then I have decided that 5 is the best option, because otherwise it goes past ***my*** Unbound setup. I hope Mozilla/Firefox will fix the two bugs linked above, so I don't have to choose between DNS under my control vs encrypted SNI.
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
-  `https://dns.quad9.net/dns-query` or `https://149.112.112.112/dns-query` (removes the need for `network.trr.bootstrapAddress` and allows ǹetwork.trr.mode` `3`?) or
-  [check privacytools.io DNS section](https://www.privacytools.io/providers/dns/#icanndns)
+  `https://dns.quad9.net/dns-query` or `https://149.112.112.112/dns-query` (removes the need for `network.trr.bootstrapAddress` and allows `network.trr.mode` `3`?) or
+  [check privacytools.io DNS section](https://www.privacytools.io/providers/dns/)
 
 Some notes:
 * You can confirm TRR working by visiting `about:networking#dns` where
