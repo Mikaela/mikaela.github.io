@@ -146,6 +146,8 @@ TODO: Sort this list.
   accessing each other's data.
 * `dom.security.https_only_mode` to `true` to force HTTPS and not need HTTPS Everywhere
   * [Breaks IPFS companion subdomain gateway redirect](https://github.com/ipfs-shipyard/ipfs-companion/issues/855), see also [Firefox bug 1220810 Consider hardcoding localhost names to the loopback address](https://bugzilla.mozilla.org/show_bug.cgi?id=1220810#c23)
+* `security.certerrors.mitm.auto_enable_enterprise_roots` to `false` in order to not trust system CA store in case of enterprise MITM
+* `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. *I am not sure if this is a good idea.*
 * `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
   used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
 * `extensions.pocket.enabled` to `false` so the Pocket integration goes away
@@ -158,9 +160,10 @@ TODO: Sort this list.
 * `media.peerconnection.enabled` to `false` in order to disable WebRTC (potential IP leaker, will break VoIP/calls, but those are better outside of Firefox anyway)
   * `media.navigator.enabled` to `false` in order to also hide cameras and microphones from websites.
 * `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful.
+* `reader.parse-on-load.force-enabled` to `true` in order to allow reader use to be used on ~all websites and devices (regardless of low RAM?)
+*  `toolkit.telemetry.server` to empty in order to not send telemetry (which may be blocked by filtering DNS providers such as AdGuard or NextDNS resulting high amount of failing queries)
 * `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
     * Requires DoH, see the next section!
-* `reader.parse-on-load.force-enabled` to `true` in order to allow reader use to be used on ~all websites and devices (regardless of low RAM?)
 
 Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/show_bug.cgi?id=1497263) ?
 
