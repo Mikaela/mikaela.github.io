@@ -18,3 +18,5 @@ vastaavan häiriön tapahtumista.
   laaja vikatilanne "
 * 2020-04-25: https://yle.fi/uutiset/3-11323265 "Telialla ongelmia
   yhteyksissä – vikaa selvitellään parhaillaan, syy ei vielä selvillä"
+* 2020-09-21: https://yle.fi/uutiset/3-11554861 "Telian liittymissä oli
+  häiriöitä hätäpuheluiden soittamisessa – Vika on korjattu"
