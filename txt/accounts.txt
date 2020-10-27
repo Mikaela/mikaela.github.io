@@ -35,10 +35,12 @@ https://git.snopyta.org/mikaela?tab=activity
 
 https://together.jolla.com/users/6732/mikaela/Mikaela
 https://foorumi.piraattipuolue.fi/memberlist.php?mode=viewprofile&u=875
+https://forum.privacytools.io/u/Mikaela/
 
 ## Gaming
 
 https://steamcommunity.com/id/Ciblia
+https://www.twitch.tv/ciblia
 
 ## Instant Messaging
 
@@ -48,8 +50,9 @@ xmpp:mikaela@disroot.org - bigger groups so I can switch one account off and hav
 ### Team chat
 
 https://keybase.io/Mikaela
-@Ciblia:matrix.org - not in use, holds ownerships in some rooms
+@Ciblia:matrix.org - not in use, holds ownerships in some communities
 @mikaela:feneas.org - mainish account
+@mikaela:pirateriot.net - backup account
 
 ## Language learning
 
@@ -59,6 +62,7 @@ https://www.memrise.com/user/Ciblia
 ## Misc
 
 http://get.woltapp.com/93O1
+https://mobilizon.org/en/ - mikaela@events.nixnet.services
 
 ## Money
 
@@ -86,8 +90,8 @@ https://wiki.piraattipuolue.fi/K%C3%A4ytt%C3%A4j%C3%A4:Mikaela
 
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXwmiOBUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByNKagEAsMrLiaW37+wlWQB1hGf0X1RECmvh
-Jg7xNXssLrUPaOYA/iVaPInApy5XaFWzR3RxumjI42q8xWeCmuWkNscTVgIM
-=0wYj
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCX5gSghUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByNpagD/UA+P8yafgz+c1DX79ozFp7q9mDXV
+cuqRmofWnd8O+xsBAJPH+TqEtNbP+S8kvyj08Dat/CnLHBc6M8mhq1CfJDgK
+=l6bp
 -----END PGP SIGNATURE-----
