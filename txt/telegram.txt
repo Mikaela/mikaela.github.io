@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+ 
+I am https://t.me/M1kaela at Telegram, but as per their username policy[1]
+I am unable to reserve the name there due to not being a user of Facebook,
+Twitter or Instagram and I have no desire to become one.
+
+This means that theoretically anyone could takeover any Telegram username
+I register and thus my account there should be confirmed outside of Telegram
+to ensure I am being chatted with, not someone who registered my username at
+two of three of those services and thus got the username transferred to
+them.
+
+[1]:https://telegram.org/faq#q-what-do-i-do-if-my-username-is-taken
+ 
+-----BEGIN PGP SIGNATURE-----
+
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCX50Z0hUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByMn7wD/dwsuBxxNoj3zy2yrnSvOxzV+Gpol
+ulytPRYmn2kQEZIA/jw85UJCF6gTwjiO+ztMDKQQfbTfNu6I3U0FP1NAME8K
+=Glx2
+-----END PGP SIGNATURE-----
