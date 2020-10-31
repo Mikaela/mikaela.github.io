@@ -6,18 +6,27 @@ I am https://t.me/M1kaela at Telegram, but as per their username policy[1]
 I am unable to reserve the name there due to not being a user of Facebook,
 Twitter or Instagram and I have no desire to become one.
 
+[1]:https://telegram.org/faq#q-what-do-i-do-if-my-username-is-taken
+
 This means that theoretically anyone could takeover any Telegram username
 I register and thus my account there should be confirmed outside of Telegram
 to ensure I am being chatted with, not someone who registered my username at
 two of three of those services and thus got the username transferred to
 them.
 
-[1]:https://telegram.org/faq#q-what-do-i-do-if-my-username-is-taken
+Coming to this file from Telegram? For other options reaching me, check
+mikaela.info [2] or txt/accounts.txt [3] or just contact
+xmpp:mikaela@blesmrt.net or @mikaela:feneas.org (Matrix) directly. See
+public keys of those accounts from keys.txt [4].
+
+[2]:https://mikaela.info/
+[3]:https://mikaela.info/txt/accounts.txt
+[4]:https://mikaela.info/keys.txt
  
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCX50Z0hUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByMn7wD/dwsuBxxNoj3zy2yrnSvOxzV+Gpol
-ulytPRYmn2kQEZIA/jw85UJCF6gTwjiO+ztMDKQQfbTfNu6I3U0FP1NAME8K
-=Glx2
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCX50qbxUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByOszwEA83Zm82+Cj+BtQVXwC2ossW85SsAl
+wadHDw3H8Kb7tKEA/2HjBi/Z7FkAyRbFtt/QNM4sQA71NYhikfQXabsk6DwD
+=ODAH
 -----END PGP SIGNATURE-----
