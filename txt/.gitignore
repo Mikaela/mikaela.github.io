@@ -1,1 +1,3 @@
+# I don't think .asc is so widely recognised and what I do always is
+# `git mv whatever.txt.asc whatever.txt` anyway.
 *.asc
