@@ -24,10 +24,10 @@ plugins:
     - jekyll-sitemap
 sitemap:
     file: "/sitemap.xml"
-include: [PGP, PHP, keybase.txt, robots.txt, avatar.jpeg, .well-known, ipfs-files]
+include: [PGP, PHP, keybase.txt, robots.txt, .well-known, ipfs-files]
 
-avatar: https://bafybeia5vajmcurh2ffyounq24hak2lmhyctlmarlnulyylz3hfkbhjzfq.ipfs.dweb.link/250.png
-icon: https://bafybeia5vajmcurh2ffyounq24hak2lmhyctlmarlnulyylz3hfkbhjzfq.ipfs.dweb.link/128.png
+avatar: https://bafybeidztdg3cbvm6ffjpssvdqmhgo3c2kxbycw2sn2fvqqqbga34ofpma.ipfs.dweb.link/250.jpg
+icon: https://bafybeidztdg3cbvm6ffjpssvdqmhgo3c2kxbycw2sn2fvqqqbga34ofpma.ipfs.dweb.link/128.jpg
 
 # {{site.ipfsGateway}}/ipfs/IPFSHASHHERE to get ipfs link via gateway.
 # Hopefully future proof letting me simply swap the link here instead of
