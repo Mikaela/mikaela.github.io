@@ -157,8 +157,8 @@ TODO: Sort this list.
     * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315)
 * `image.animation_mode` to `once` in order to have gifs play once and
   then stop everywhere (`none` to never have them play).
-* `media.peerconnection.enabled` to `false` in order to disable WebRTC (potential IP leaker, will break VoIP/calls, but those are better outside of Firefox anyway)
-  * `media.navigator.enabled` to `false` in order to also hide cameras and microphones from websites.
+* <s>`media.peerconnection.enabled` to `false` in order to disable WebRTC (potential IP leaker, will break VoIP/calls, but those are better outside of Firefox anyway)</s> *Not needed anymore in 2020, WebRTC has improved to not do that.*
+  * `media.navigator.enabled` to `false` in order to also hide cameras and microphones from websites. *I am not sure if this is still necessary either, but maybe it will remind me that I have focused my VoIP to Chromium?*
 * `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful.
 * `reader.parse-on-load.force-enabled` to `true` in order to allow reader use to be used on ~all websites and devices (regardless of low RAM?)
 *  `toolkit.telemetry.server` to empty in order to not send telemetry (which may be blocked by filtering DNS providers such as AdGuard or NextDNS resulting high amount of failing queries)
