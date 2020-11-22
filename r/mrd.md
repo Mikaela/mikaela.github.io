@@ -1,5 +1,5 @@
 ---
-redirect_to: https://matrix.org/_matrix/client/r0/directory/room/%23matrix%3Amatrix.org
+redirect_to: https://matrix.feneas.org/_matrix/client/r0/directory/room/%23mikaela%3Afeneas.org
 permalink: /r/mrd.html
 sitemap: false
 ---
