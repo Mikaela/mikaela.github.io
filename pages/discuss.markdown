@@ -9,9 +9,10 @@ navigation: true
 I have a [PUBLICly logged](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/) instant messaging chatroom for comments to my
 blog and other things I do. They are connected together by [Matterbridge](https://github.com/42wim/matterbridge/#matterbridge).
 
-I am not writing any rules down yet, but I appreciate treating everyone
-with basic politeness. Moderators are free to act as they think and feel is
-the best, while I hope removals won't be necessary.
+As [Code of Conduct, Contributor Covenant applies](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).<br>
+I don't see a reason for forking it as this community is forming around me
+and my website while I would have separate community for any actual Open
+Source Software project if I begun any that grew bigger.
 
 * [Matrix], [`#mikaela.info:feneas.org`](https://matrix.to/#/#mikaela.info:feneas.org)
   * Additional aliases can be added by `!altalias publish <alias>`, while
