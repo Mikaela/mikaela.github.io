@@ -19,14 +19,17 @@ mikaela.info [2] or txt/accounts.txt [3] or just contact
 xmpp:mikaela@blesmrt.net or @mikaela:feneas.org (Matrix) directly. See
 public keys of those accounts from keys.txt [4].
 
+Looking for my public Telegram group? Check /discuss[5]
+
 [2]:https://mikaela.info/
 [3]:https://mikaela.info/txt/accounts.txt
 [4]:https://mikaela.info/keys.txt
+[5]:https://mikaela.info/discuss
  
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCX50qbxUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByOszwEA83Zm82+Cj+BtQVXwC2ossW85SsAl
-wadHDw3H8Kb7tKEA/2HjBi/Z7FkAyRbFtt/QNM4sQA71NYhikfQXabsk6DwD
-=ODAH
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCX7pm5RUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByMzigD+Jl4QBgVBQRUdtSROZHjqKHEP8J7O
+ZJlMGOCCgIj0hAEBAM6m6ezNEvkMivLwNI9WihMEuadBfjHUHxOV0ROIJdUC
+=O6j6
 -----END PGP SIGNATURE-----
