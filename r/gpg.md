@@ -6,7 +6,7 @@ redirect_from:
   - /r/clawsmail.html
   - /r/claws-mail.html
   - /r/wkd.html
-sitemap: false
+sitemap: true
 ---
 
 Quick GPG note where I may find it.

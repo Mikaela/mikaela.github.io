@@ -5,5 +5,5 @@ redirect_from:
   - /r/xmppmuc.html
   - /r/xmppgroup.html
   - /r/muclumbus.html
-sitemap: false
+sitemap: true
 ---

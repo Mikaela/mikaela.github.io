@@ -6,5 +6,5 @@ redirect_from:
   - /r/ohjekirjoja.html
   - /r/manual.html
   - /r/manuals.html
-sitemap: false
+sitemap: true
 ---

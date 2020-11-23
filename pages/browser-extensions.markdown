@@ -2,7 +2,7 @@
 layout: page
 title: Browser extensions I often end up installing
 permalink: /browser-extensions.html
-sitemap: false
+sitemap: true
 excerpt: "List of links to browser extensions I often end up installing in new environments while missing access to sync."
 redirect_from:
   - /firefox.html

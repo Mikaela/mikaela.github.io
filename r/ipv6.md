@@ -6,5 +6,5 @@ redirect_from:
   - /r/dotted.html
   - /r/dotted-decimal.html
   - /r/dotteddecimal.html
-sitemap: false
+sitemap: true
 ---

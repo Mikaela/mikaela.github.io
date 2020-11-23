@@ -2,7 +2,7 @@
 layout: null
 permalink: /or/searxme.html
 redirect_from: /or/searx.html
-sitemap: false
+sitemap: true
 ---
 
 http://ulrn6sryqaifefld.onion/

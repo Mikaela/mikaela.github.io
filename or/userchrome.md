@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/userchrome.html
-sitemap: false
+sitemap: true
 ---
 
 http://ea5faa5po25cf7fb.onion/projects/tor/ticket/30812#comment:3

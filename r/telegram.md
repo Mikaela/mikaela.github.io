@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /r/telegram.html
-sitemap: false
+sitemap: true
 ---
 
 You have ended up to my note-to-self on languages of Telegram that I care

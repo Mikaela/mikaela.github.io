@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/onion-service-index.html
-sitemap: false
+sitemap: true
 ---
 
 http://jld3zkuo4b5mbios.onion/

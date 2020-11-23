@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /404.html
-sitemap: false
+sitemap: true
 excerpt: "404, not found, don't bother clicking..."
 ---
 

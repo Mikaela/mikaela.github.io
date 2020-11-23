@@ -6,5 +6,5 @@ redirect_from:
   - /r/tr.wikipedia.html
   - /r/trwikipedia.html
   - /r/wikipedia.tr.html
-sitemap: false
+sitemap: true
 ---

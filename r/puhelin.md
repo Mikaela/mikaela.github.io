@@ -5,7 +5,7 @@ redirect_from:
   - /r/puhelimet.html
   - /r/phone.html
   - /r/phones.html
-sitemap: false
+sitemap: true
 ---
 
 Uudet puhelimet: https://android.com/one

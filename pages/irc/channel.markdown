@@ -2,7 +2,7 @@
 layout: page
 title: Rules of my IRC channels and others like that
 permalink: /irc/channel.html
-sitemap: false
+sitemap: true
 excerpt: "Rules of my IRC channel. TL;DR: Use common sense, be nice, no discrimination, no public logging, don't bring bots without permission. Thanks ♥"
 redirect_from:
   - /channel.html

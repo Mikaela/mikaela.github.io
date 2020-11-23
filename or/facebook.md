@@ -2,7 +2,7 @@
 layout: null
 permalink: /or/facebook.html
 redirect_from: /or/fb.html
-sitemap: false
+sitemap: true
 ---
 
 https://facebookcorewwwi.onion/

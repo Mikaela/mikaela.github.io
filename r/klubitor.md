@@ -5,5 +5,5 @@ redirect_from:
   - /r/piraattiklubitor.html
   - /r/torklubi.html
   - /r/torpiraattiklubi.html
-sitemap: false
+sitemap: true
 ---

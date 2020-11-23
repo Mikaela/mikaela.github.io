@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/trantor.html
-sitemap: false
+sitemap: true
 ---
 
 http://xfmro77i3lixucja.onion/

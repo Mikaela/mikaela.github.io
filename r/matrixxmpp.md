@@ -7,5 +7,5 @@ redirect_from:
   - /r/jabbermatrix.html
   - /r/matrixmpp
   - /r/bifrost
-sitemap: false
+sitemap: true
 ---

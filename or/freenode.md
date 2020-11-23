@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/freenode.html
-sitemap: false
+sitemap: true
 ---
 
 ircs://ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion:6697

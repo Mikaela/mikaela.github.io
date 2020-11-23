@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/suprbay.html
-sitemap: false
+sitemap: true
 ---
 
 http://suprbayoubiexnmp.onion/

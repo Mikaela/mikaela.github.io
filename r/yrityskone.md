@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /r/yrityskone.html
-sitemap: false
+sitemap: true
 ---
 
 Käytettyjä enimmäkseen yrityskoneita suomalaisilta tai suomenkielisiltä

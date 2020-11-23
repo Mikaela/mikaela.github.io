@@ -2,7 +2,7 @@
 layout: null
 permalink: /or/oniondebianorg.html
 redirect_from: /or/debian.html
-sitemap: false
+sitemap: true
 ---
 
 http://5nca3wxl33tzlzj5.onion/

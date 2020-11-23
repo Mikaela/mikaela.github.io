@@ -5,5 +5,5 @@ redirect_from:
   - /r/quois.html
   - /r/wtfs.html
   - /r/wtfsexual.html
-sitemap: false
+sitemap: true
 ---

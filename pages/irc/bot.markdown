@@ -2,7 +2,7 @@
 layout: page
 title: The IRC bot Euforia
 permalink: /irc/bot.html
-sitemap: false
+sitemap: true
 excerpt: "A little about my IRC bot. Useful links, why it doesn't reply to me, how to make it recognize me, what does it actually do?"
 redirect_from: /bot.html
 ---

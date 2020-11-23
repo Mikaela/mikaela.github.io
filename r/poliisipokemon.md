@@ -5,5 +5,5 @@ redirect_from:
   - /r/ingresspoliisi.html
   - /r/pokemonpoliisi.html
   - /r/poliisiingress.html
-sitemap: false
+sitemap: true
 ---

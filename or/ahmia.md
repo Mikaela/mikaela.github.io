@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/ahmia.html
-sitemap: false
+sitemap: true
 ---
 
 http://msydqstlz2kzerdg.onion/

@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/torrentz2.html
-sitemap: false
+sitemap: true
 ---
 
 http://torrentzwealmisr.onion/

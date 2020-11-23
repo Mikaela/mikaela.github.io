@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/bbc.html
-sitemap: false
+sitemap: true
 ---
 
 https://www.bbcnewsv2vjtpsuy.onion/

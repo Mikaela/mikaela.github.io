@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/mullvad.html
-sitemap: false
+sitemap: true
 ---
 
 http://xcln5hkbriyklr6n.onion/

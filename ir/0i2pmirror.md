@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /ir/gist.html
-sitemap: false
+sitemap: true
 ---
 
 https://gitea.blesmrt.net/mikaela/i2pmirror
