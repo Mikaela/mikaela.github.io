@@ -150,7 +150,7 @@ TODO: Sort this list.
 * `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. *I am not sure if this is a good idea.*
 * `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
   used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
-* `extensions.pocket.enabled` to `false` so the Pocket integration goes away
+* <s>`extensions.pocket.enabled` to `false` so the Pocket integration goes away</s>
 * On Linux `widget.content.gtk-theme-override` (a string that has to be created by
   user) to `Adwaita:light` so text boxes in dark themes become readable,
   thank you [Dovydas Venckus](https://www.dovydasvenckus.com/linux/2018/08/20/fix-firefox-dark-input-fields-on-gnome/)
