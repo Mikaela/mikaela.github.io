@@ -7,6 +7,7 @@ excerpt: "IRC-kanavieni säännöt. Lyhyesti: Käytä maalaisjärkeä, ole kiva,
 redirect_from: 
   - /kanava.html
   - /channel.fi.html
+published: false
 ---
 
 **[In English](channel.html)**

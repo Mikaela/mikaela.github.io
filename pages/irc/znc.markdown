@@ -5,6 +5,7 @@ permalink: /irc/znc.html
 excerpt: "WIP - details on ZNC on my VPS"
 sitemap: true
 redirect_from: /znc.html
+published: false
 ---
 
 ## ZNC

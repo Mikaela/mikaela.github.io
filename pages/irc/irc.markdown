@@ -11,12 +11,9 @@ I am on multiple IRC networks and finding me on those should be easy as
 `/whois Mikaela Mikaela`. I also recommend checking
 `/msg NickServ info Mikaela`.
 
-*To verify that you are talking to me, I encourage you to check
-[my OTR key] which will also verify my identity even if I was using
-different nick which is possible depending on network.*
-
-[my OTR key]: ../keys
-
+I haven't been supporting OTR snce migrating to [TheLounge](https://thelounge.chat/),
+so IRC doesn't offer anything integrated for recognising me, but you can be
+sure that I am [on the networks I mention on the discuss page](/discuss/).
 
 ### IRC-related posts
 

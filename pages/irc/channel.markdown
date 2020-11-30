@@ -8,6 +8,7 @@ redirect_from:
   - /channel.html
   - /channel.en.html
   - /irc/channel.en.html
+published: false
 ---
 
 **[Suomeksi](channel.fi.html)**
