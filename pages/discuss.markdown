@@ -27,6 +27,7 @@ I do hope to be able to grow this list in the future.
 * [PirateIRC], [`#mikaela.info`](ircs://irc.piraattipuolue.fi:6697/#Mikaela.info)
   * [Testnet/preview, `#mikaela.info`](ircs://irc2.piraattipuolue.fi:6697/#Mikaela.info)
     running [Oragono](https://oragono.io/)
+  * [Webchat](https://webchat.pirateirc.net/?channels=#Mikaela.info)
 * [Telegram], [invite link](https://t.me/joinchat/Ikv7FkqOeBSzz4odrpxqcg)
 * [Twitch], [Ciblia](https://twitch.tv/Ciblia)
   * My streaming is going to move to PeerTube at some point, at the time
