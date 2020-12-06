@@ -14,6 +14,11 @@ I don't see a reason for forking it as this community is forming around me
 and my website while I would have separate community for any actual Open
 Source Software project if I begun any that grew bigger.
 
+As for languages; English is preferred due to majority of the discussion
+participants speaking it, but Finnish and Esperanto are also fine.<br> I sadly
+don't consider myself capable of holding a discussion in other languages, but
+I do hope to be able to grow this list in the future.
+
 * [Matrix], [`#mikaela.info:feneas.org`](https://matrix.to/#/#mikaela.info:feneas.org)
   * Additional aliases can be added by `!altalias publish <alias>`, while
     those may not provide additional value due to Matterbridge being a
