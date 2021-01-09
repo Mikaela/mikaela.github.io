@@ -1,6 +1,8 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
+- -----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
 
 PGP-signed list of my accounts for benefit of those who require them before
 following or similar. It is also for my benefit so I can check somewhere
@@ -44,6 +46,7 @@ https://www.twitch.tv/ciblia
 
 ## Instant Messaging
 
+https://threema.id/8ZM6J4T9
 xmpp:mikaela@blesmrt.net - private messages, small groups, friends
 xmpp:mikaela@disroot.org - bigger groups so I can switch one account off and have peace if I get overwhelmed
 
@@ -90,8 +93,8 @@ https://wiki.piraattipuolue.fi/K%C3%A4ytt%C3%A4j%C3%A4:Mikaela
 
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCX5gSghUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByNpagD/UA+P8yafgz+c1DX79ozFp7q9mDXV
-cuqRmofWnd8O+xsBAJPH+TqEtNbP+S8kvyj08Dat/CnLHBc6M8mhq1CfJDgK
-=l6bp
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCX/nUURUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByN0MAEA2bXpEepqY7F2jZHwgj5yHrPRRHuy
+v8o0G9al6HYfVGsA/2tanuX5rxjutu7nJ6NSCCGsK8GvlvlrAlRY4LX8LyoM
+=F8zD
 -----END PGP SIGNATURE-----
