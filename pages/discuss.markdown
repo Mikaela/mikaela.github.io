@@ -35,16 +35,16 @@ I do hope to be able to grow this list in the future.
   * <small>[Testnet/preview, `#mikaela.info`](ircs://irc2.piraattipuolue.fi:6697/#Mikaela.info)
     running [Oragono](https://oragono.io/)</small>
     * <small>[Testnet third party webchat](https://kiwiirc.com/nextclient/irc2.piraattipuolue.fi:+6697/#Mikaela.info)</small>
+[PirateIRC]:https://pirateirc.net/
 -->
 * [Telegram], [invite link](https://t.me/joinchat/Ikv7FkqOeBSzz4odrpxqcg)
 * [Twitch], [Ciblia](https://twitch.tv/Ciblia)
-  * My streaming is going to move to PeerTube at some point, at the time
-    of writing, livestreaming is only in development branch.
+  * Expect my streaming to happen in [mikaela@libremedia.video](https://libremedia.video/accounts/mikaela/)
+    (PeerTube) instead.
 * [XMPP], [`mikaela.info@conference.blesmrt.net`](xmpp:mikaela.info@conference.blesmrt.net)
 
 [NixNet IRC]:https://docs.nixnet.services/IRC
 [Matrix]:https://matrix.org/
-[PirateIRC]:https://pirateirc.net/
 [Telegram]:https://telegram.org/
 [Twitch]:https://twitch.tv/
 [XMPP]:https://xmpp.org/
