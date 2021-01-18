@@ -19,6 +19,9 @@ participants speaking it, but Finnish and Esperanto are also fine.<br> I sadly
 don't consider myself capable of holding a discussion in other languages, but
 I do hope to be able to grow this list in the future.
 
+* IRC@Etro, [`#mikaela.info`](ircs://etro.mikaela.info:6697/#mikaela.info),
+  my selfhosted IRC server.
+  * [Third party webchat](https://kiwiirc.com/nextclient/etro.mikaela.info:+6697/#Mikaela.info)
 * [Matrix], [`#mikaela.info:feneas.org`](https://matrix.to/#/#mikaela.info:feneas.org)
   * Additional aliases can be added by `!altalias publish <alias>`, while
     those may not provide additional value due to Matterbridge being a
@@ -27,10 +30,10 @@ I do hope to be able to grow this list in the future.
 * [NixNet IRC], [`#mikaela.info`](ircs://irc.nixnet.services:6697/#Mikaela.info)
   * [Webchat](https://irc.nixnet.services/?join=%23Mikaela.info)
 * [PirateIRC], [`#mikaela.info`](ircs://irc.piraattipuolue.fi:6697/#Mikaela.info)
-  * [Webchat](https://kiwiirc.com/nextclient/roubaix-fr.pirateirc.net:+6697/#Mikaela.info)
+  * [Third party webchat](https://kiwiirc.com/nextclient/roubaix-fr.pirateirc.net:+6697/#Mikaela.info)
   * <small>[Testnet/preview, `#mikaela.info`](ircs://irc2.piraattipuolue.fi:6697/#Mikaela.info)
     running [Oragono](https://oragono.io/)</small>
-    * <small>[Testnet webchat](https://kiwiirc.com/nextclient/irc2.piraattipuolue.fi:+6697/#Mikaela.info)</small>
+    * <small>[Testnet third party webchat](https://kiwiirc.com/nextclient/irc2.piraattipuolue.fi:+6697/#Mikaela.info)</small>
 * [Telegram], [invite link](https://t.me/joinchat/Ikv7FkqOeBSzz4odrpxqcg)
 * [Twitch], [Ciblia](https://twitch.tv/Ciblia)
   * My streaming is going to move to PeerTube at some point, at the time
