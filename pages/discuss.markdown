@@ -29,11 +29,13 @@ I do hope to be able to grow this list in the future.
   * [PUBLIC LOG](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/)
 * [NixNet IRC], [`#mikaela.info`](ircs://irc.nixnet.services:6697/#Mikaela.info)
   * [Webchat](https://irc.nixnet.services/?join=%23Mikaela.info)
+<!--
 * [PirateIRC], [`#mikaela.info`](ircs://irc.piraattipuolue.fi:6697/#Mikaela.info)
   * [Third party webchat](https://kiwiirc.com/nextclient/roubaix-fr.pirateirc.net:+6697/#Mikaela.info)
   * <small>[Testnet/preview, `#mikaela.info`](ircs://irc2.piraattipuolue.fi:6697/#Mikaela.info)
     running [Oragono](https://oragono.io/)</small>
     * <small>[Testnet third party webchat](https://kiwiirc.com/nextclient/irc2.piraattipuolue.fi:+6697/#Mikaela.info)</small>
+-->
 * [Telegram], [invite link](https://t.me/joinchat/Ikv7FkqOeBSzz4odrpxqcg)
 * [Twitch], [Ciblia](https://twitch.tv/Ciblia)
   * My streaming is going to move to PeerTube at some point, at the time
