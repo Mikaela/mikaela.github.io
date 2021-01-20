@@ -21,7 +21,7 @@ I do hope to be able to grow this list in the future.
 
 * IRC@Etro, [`#mikaela.info`](ircs://etro.mikaela.info:6697/#mikaela.info) *[onion](irc://otzmigofmchtadpek223bkmrzqoa6mmvhmr5dxqurcrtwalizfibuxid.onion:6667/#mikaela.info)*,
   my selfhosted IRC server.
-  * [Third party webchat](https://kiwiirc.com/nextclient/etro.mikaela.info:+6697/#Mikaela.info)
+  * [(Recommended) Webchat](https://irc.etro.mikaela.info/#mikaela.info)
 * [Matrix], [`#mikaela.info:feneas.org`](https://matrix.to/#/#mikaela.info:feneas.org)
   * Additional aliases can be added by `!altalias publish <alias>`, while
     those may not provide additional value due to Matterbridge being a
