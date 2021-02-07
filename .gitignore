@@ -4,3 +4,4 @@ _site
 *~
 keys.txt.asc
 .bundle
+.jekyll-cache
