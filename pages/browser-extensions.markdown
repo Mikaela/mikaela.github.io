@@ -73,14 +73,10 @@ https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link
 * [HTTPS Everywhere], [source code]
     * <s>[Firefox](https://addons.mozilla.org/firefox/addon/https-everywhere/)</s> `dom.security.https_only_mode` `true`
     * [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
-* [Firefox: µMatrix](https://addons.mozilla.org/firefox/addon/umatrix/)
-    * [Chrome](https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf)
-    * It can easily replace Cookie Autodelete (block cookies for global scope), Privacy Badger (by default), NoScript and possibly others.
-    * Quick usage: click top half of red boxes to allow blocked content or allow everything from that domain by cliking top half of the domain box. Click the lock to remember this. For global changes, press the asterisk to have it affect everywhere by default and see the first link below.
-    * Reading I recommend:
-        * [How to block 1st party scripts everywhere by default](https://github.com/gorhill/uMatrix/wiki/How-to-block-1st-party-scripts-everywhere-by-default) and I suggest adapting it to block cookies too so Cookie Autodelete becomes unnecessary.
-        * [Ruleset recipes](https://github.com/gorhill/uMatrix/wiki/Ruleset-recipes)
-        * [A lot of other instructions in the wiki](https://github.com/gorhill/uMatrix/wiki)
+* NoScript (which I use more for anti-annoyance than privacy)
+  * [Chrome](https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm/)
+  * [Firefox](https://addons.mozilla.org/firefox/addon/noscript/)
+  * [Source/GitHub](https://github.com/hackademix/noscript/)
 * Snowflake to help censored users (won't increase user privacy), requires WebRTC
     * https://addons.mozilla.org/firefox/addon/torproject-snowflake/
     * https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie
