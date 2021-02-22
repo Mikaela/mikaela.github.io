@@ -140,7 +140,7 @@ TODO: Sort this list.
 
 * `privacy.firstparty.isolate` to `true` for preventing domains from
   accessing each other's data.
-* `browser.newtabpage.activity-stream.showSponsored` & `browser.newtabpage.activity-stream.showSponsored` to `true` to stop sponsored links.
+* `browser.newtabpage.activity-stream.showSponsored` & `browser.newtabpage.activity-stream.showSponsored` to `false` to stop sponsored links.
 * `dom.security.https_only_mode` to `true` to force HTTPS and not need HTTPS Everywhere
   * [Breaks IPFS companion subdomain gateway redirect](https://github.com/ipfs-shipyard/ipfs-companion/issues/855), see also [Firefox bug 1220810 Consider hardcoding localhost names to the loopback address](https://bugzilla.mozilla.org/show_bug.cgi?id=1220810#c23)
 * `security.certerrors.mitm.auto_enable_enterprise_roots` to `false` in order to not trust system CA store in case of enterprise MITM
