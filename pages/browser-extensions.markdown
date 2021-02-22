@@ -153,6 +153,7 @@ TODO: Sort this list.
     * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315)
 * `image.animation_mode` to `once` in order to have gifs play once and
   then stop everywhere (`none` to never have them play).
+ * `geo.provider.network.url` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
 * <s>`media.peerconnection.enabled` to `false` in order to disable WebRTC (potential IP leaker, will break VoIP/calls, but those are better outside of Firefox anyway)</s> *Not needed anymore in 2020, WebRTC has improved to not do that.*
   * `media.navigator.enabled` to `false` in order to also hide cameras and microphones from websites. *I am not sure if this is still necessary either, but maybe it will remind me that I have focused my VoIP to Chromium?*
 * `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful.
