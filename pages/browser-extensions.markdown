@@ -159,8 +159,6 @@ TODO: Sort this list.
 * `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful.
 * `reader.parse-on-load.force-enabled` to `true` in order to allow reader use to be used on ~all websites and devices (regardless of low RAM?)
 *  `toolkit.telemetry.server` to empty in order to not send telemetry (which may be blocked by filtering DNS providers such as AdGuard or NextDNS resulting high amount of failing queries)
-* `network.security.esni.enabled` to `true` in order to enable encrypted SNI.
-    * Requires DoH, see the next section!
 
 Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/show_bug.cgi?id=1497263) ?
 
