@@ -7,6 +7,8 @@ sitemap: true
 
 https://www.dna.fi/tuki-puhelinliittymat/wifi-puhelut
 
+https://elisa.fi/wifipuhelu/
+
 https://elisa.fi/asiakaspalvelu/aihe/mobiililaajakaista/ohje/wifi-puhelut/
 
 https://yrityksille.elisa.fi/ohje/wifi-puhelu-kaytto
