@@ -35,7 +35,6 @@ links.*
     * [Ignoring with /filter]({% post_url blog/2015-05-31-weechat-filter %})
 * User modes
     * [Showing public channels in whois / umode -iI]({% post_url blog/2015-03-26-umode--i %})
-    * [Using umode +g/blocking unauthorized PMs]({% post_url blog/2015-04-02-umodeg %})
     * [(Un)Setting umodes (broken from umode -iI)]({% post_url blog/2015-06-03-setting-umodes %})
 * ZNC
     * [ZNC 1.6.0 & SSL certificate verification]({% post_url blog/2015-02-24-znc160-ssl %})
