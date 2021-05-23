@@ -12,6 +12,10 @@ redirect_from:
 *Why I think that you should keep the ops opped instead of following
  freenode's recommendations.*
 
+***2021-05-23: this all also applies to LiberaChat and as this is possibly
+one of the posts where I refer people to the most with anchor links, I am
+not swapping the name like I am doing with everything else.***
+
 Is there an issue with your IRC channel needing op attention? Without
 having ops visible, your users will very likely go to the network support
 channel instead of informing you or your ops.

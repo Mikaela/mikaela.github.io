@@ -37,7 +37,7 @@ Now you should be successfully identified and should configure automatic
 identification, I cannot help with it so much, but I can point you to
 beginning:
 
-* [freenode's SASL instructions](https://freenode.net/kb/answer/sasl)
+* [liberachat's SASL instructions](https://libera.chat/guides/sasl)
 * [My instructions for SASL with WeeChat]({% post_url blog/2015-03-26-weechat-sasl-simply %})
 * [Searx YOURCLIENTHERE SASL](https://search.disroot.org/?q=YOURCLIENTHERE+SASL)
 * IRCCloud: edit network and go to advanced settings and you will see box
@@ -46,7 +46,7 @@ beginning:
   that you specified a nick that is grouped to your account.
 * Matrix: in the admin room (direct chat with the appservice-irc), say
   `!storepass password` to have the password send with PASS on connect.
-  In case of freenode use `!storepass nick:password` and/or see more
+  In case of liberachat use `!storepass nick:password` and/or see more
   information at [matrix-appservice-irc wiki].
     * [IRC networks with Matrix bridge]
     * [Matrix bridge end-user FAQ register/identify section]
@@ -129,7 +129,7 @@ there:
 * [Always add opers to access list (this is the $oper in my templates)]({% post_url blog/2015-01-10-channels-hostmask-groups-a-basic-howto %})
     * oops, did I just repeat previous post
 * [Keep the ops opped]({% post_url blog/2015-04-01-keep-the-ops-opped %})
-    * especially read this if you are at freenode or wondering why you
+    * especially read this if you are at liberachat or wondering why you
       don't get automatically opped after registering the channel and
       cycling while being identified!
 * `/msg NickServ help`

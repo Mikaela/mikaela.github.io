@@ -10,12 +10,10 @@ redirect_from: /finnish/2015/07/28/stagefright.html
 *Stagefright on haavoittuvuus Androidissa, jolla haittakoodia voi ajaa
  etänä. Lue lisää [Viestintävirasto Haavoittuvuus 067/2015](https://www.viestintavirasto.fi/kyberturvallisuus/haavoittuvuudet/2015/haavoittuvuus-2015-067.html)*
 
-Valitin aluksi [Facebook-seinälläni] Viestintäviraston unohtaneen kertoa,
+Valitin aluksi Facebook-seinälläni Viestintäviraston unohtaneen kertoa,
 kuinka rajoittaminen tapahtuu käytännössä ja myöhemmin minulle selvisi
 asia tarkemmin ja se olisi mahdollisesti ollut järkevämpää kirjoittaa
 tänne suoraan.
-
-[Facebook-seinälläni]:https://www.facebook.com/mikaelahmsuomalainen/posts/864710153623799
 
 Tähän on kaksi minun tuntemaani tapaa
 
@@ -28,7 +26,7 @@ Tähän on kaksi minun tuntemaani tapaa
 
 ## MMS APN-osoitteen poistaminen
 
-Freenodessa kanavalla [#vapaakoodi](/r/irc-vapaakoodi.html) mentiin
+Freenodessa (nykyisin Libera.Chat:issa) kanavalla `#vapaakoodi` mentiin
 pidemmälle ja poistettiin koko multimediaviestien APN-osoite.
 
 **VAROITUS: Et tämän jälkeen voi vastaanottaa multimediaviestejä ellet

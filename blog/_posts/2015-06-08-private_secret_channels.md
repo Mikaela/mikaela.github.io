@@ -18,8 +18,6 @@ To make channel secret, there are two useful modes. You might also want to
 mlock them with `/msg chanserv help set mlock`.
 
 * +s — hides the channel from all channel lists (for non-opers)
-* +p — depending on the network does the same, but on some networks such as
-  freenode hides the channel only from whois (of those people who are umode
   -i). Keep in mind that you always see channels that you are on or share
   with other people in whois. +p also prevents `/knock` (which is command
   to request invite to the channel) on some IRCds.

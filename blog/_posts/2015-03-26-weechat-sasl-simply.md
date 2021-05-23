@@ -43,7 +43,7 @@ Then simply set your username and password
 ```
 
 *Replace NETWORK with the name of network that you have in WeeChat, for
-example `freenode`.*
+example `liberachat`.*
 
 And now after `/reconnect` you should be identified automatically using
 SASL, but you might also ensure that you use SSL.
@@ -53,8 +53,8 @@ SASL, but you might also ensure that you use SSL.
 Change your address to use SSL port and enable SSL for the network:
 
 ```
-/set irc.server.freenode.addresses chat.freenode.net/6697
-/set irc.server.freenode.ssl on
+/set irc.server.liberachat.addresses irc.libera.chat/6697
+/set irc.server.liberachat.ssl on
 /save
 ```
 
@@ -62,7 +62,7 @@ Change your address to use SSL port and enable SSL for the network:
 
 *6697 is the [standard SSL port](https://tools.ietf.org/html/rfc7194).*
 
-Freenode has valid SSL certificate, but if it didn't, you would have two
+liberachat has valid SSL certificate, but if it didn't, you would have two
 choises:
 
 1. Trust the fingerprints manually using

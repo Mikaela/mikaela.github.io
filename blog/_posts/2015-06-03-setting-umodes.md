@@ -31,7 +31,7 @@ way until you reconnect!**
     * Modern way (1.7+): `/set irc.server_default.usermode -iI+wRQxg`
     * *For setting umodes only for one network instead of them all
       replace server_default with server.name, e.g.*
-        * `/set irc.server.freenode.usermode -iI+wRQxg`
+        * `/set irc.server.liberachat.usermode -iI+wRQxg`
 * ZNC:
     * Traditional way: `/msg *status loadmod perform` and
       `/msg *perform add mode %nick% -iI+wRQxg`
@@ -61,5 +61,4 @@ For what the actual umodes are on your network, try `/quote help umode` or
 * Q — block channel redirects on Charybdis (mode +f or banforward).
 * x — activates IRCd based uncloaking even if it's [not that reliable.](https://gist.github.com/maxteufel/1e2cf7ada079c271bd3c)
 * g — caller-id, people must be `/accepted` or PMed before they can PM you.
-  More detailed post about that [here]({% post_url blog/2015-04-02-umodeg %}).
 * t — only users using SSL can PM.

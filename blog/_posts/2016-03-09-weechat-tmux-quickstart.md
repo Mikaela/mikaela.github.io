@@ -61,9 +61,9 @@ First we must connect to the network where the support channel of our
 distribution is.
 
 1. Add the network to WeeChat.
-    * freenode: `/server add freenode chat.freenode.net/6697 -ssl -autoconnect`
+    * liberachat: `/server add liberachat irc.libera.chat/6697 -ssl -autoconnect`
 2. Connect there.
-    * `/connect freenode`
+    * `/connect liberachat`
 3. Join the channel of your distribution.
     * `/join #distribution`
         * you can also join multiple channels at once by separating them by
@@ -77,7 +77,7 @@ need to `sudo systemctl start gpm` or whatever init system you use).
 2. `/mouse enable`
 
 Now you should see bar with the core buffer (`weechat`), server buffers
-merged to it (`freenode`) and `#distribution`. If mouse doesn't work, you
+merged to it (`liberachat`) and `#distribution`. If mouse doesn't work, you
 can `/buffer X` where X is the number to move. For moving between merged
 buffers move to the buffer and press Ctrl + x.
 
