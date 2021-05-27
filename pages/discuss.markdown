@@ -22,21 +22,34 @@ I do hope to be able to grow this list in the future.
 * IRC@Etro, [`#mikaela.info`](ircs://etro.mikaela.info:6697/#mikaela.info) *[onion](irc://otzmigofmchtadpek223bkmrzqoa6mmvhmr5dxqurcrtwalizfibuxid.onion:6667/#mikaela.info)*,
   my selfhosted IRC server.
   * [(Recommended) Webchat](https://irc.etro.mikaela.info/#mikaela.info)
-* [Matrix], [`#mikaela.info:feneas.org`](https://matrix.to/#/#mikaela.info:feneas.org)
+* [ErgoChat], [`#mikaela.info`](ircs://irc.ergo.chat:6697/#mikaela.info), home of the Ergo IRCd
+  that I and most of this list happen to run.
+  * [KiwiIRC webchat](https://ergo.chat/kiwi/#mikaela.info) [Gamja webchat](https://ergo.chat/gamja/#mikaela.info)
+* [Matrix], [`#mikaela.info:feneas.org`](https://matrix.to/#/#mikaela.info:feneas.org),
+  a federated chat protocol.
   * Additional aliases can be added by `!altalias publish <alias>`, while
     those may not provide additional value due to Matterbridge being a
     central single point of failure to other protocols.
   * [PUBLIC LOG](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/)
-* [NixNet IRC], [`#mikaela.info`](ircs://irc.nixnet.services:6697/#Mikaela.info)
+* [LibertaCasa], [`#mikaela.info`](ircs://irc.liberta.casa:6697/#mikaela.info),
+  another IRC network.
+  * [Webchat](https://liberta.casa/kiwi/#mikaela.info)
+* [NixNet IRC], [`#mikaela.info`](ircs://irc.nixnet.services:6697/#Mikaela.info),
+  home of [Libremedia](https://libremedia.info/).
   * [Webchat](https://irc.nixnet.services/?join=%23Mikaela.info)
-* [Telegram], [invite link](https://t.me/joinchat/Ikv7FkqOeBSzz4odrpxqcg)
-* [Twitch], [Ciblia](https://twitch.tv/Ciblia)
+* [Telegram], [invite link](https://t.me/joinchat/Ikv7FkqOeBSzz4odrpxqcg), a
+  popular instant messenger with open source clients.
+* [Twitch], [Ciblia](https://twitch.tv/Ciblia), a propietary game streaming
+  platform.
   * Expect my streaming to happen in [mikaela@libremedia.video](https://libremedia.video/accounts/mikaela/)
     (PeerTube) instead.
-* [XMPP], [`mikaela.info@conference.blesmrt.net`](xmpp:mikaela.info@conference.blesmrt.net)
+* [XMPP], [`mikaela.info@conference.blesmrt.net`](xmpp:mikaela.info@conference.blesmrt.net),
+  a federated chat protocol.
 
+[ErgoChat]:https://ergo.chat/
 [NixNet IRC]:https://docs.nixnet.services/IRC
 [Matrix]:https://matrix.org/
+[LibertaCasa]:https://liberta.casa/
 [Telegram]:https://telegram.org/
 [Twitch]:https://twitch.tv/
 [XMPP]:https://xmpp.org/
