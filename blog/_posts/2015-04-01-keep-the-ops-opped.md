@@ -22,7 +22,8 @@ channel instead of informing you or your ops.
 
 Without ops being visible, who are ops or how to alert them?
 
-* `/msg chanserv access #channel list`
+* `/msg chanserv access #channel list` / `/msg chanserv flags #channel`
+  (the second command is for Libera.Chat that has enabled pubacl module)
     * requires whoising all ops to see if they are present
         * idle time gets reset by CTCP replies, OTR and possibly other
           things. Freenode staffers also base their judgement on are there
@@ -56,6 +57,8 @@ You are out of luck unless you had the ops opped in which case the outage
 doesn't affect you that much at all.
 
 ## Fixing freenode
+
+*or LiberaChat*
 
 Tell ChanServ the following three commands:
 
