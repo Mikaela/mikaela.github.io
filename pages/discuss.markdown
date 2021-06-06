@@ -28,9 +28,6 @@ I do hope to be able to grow this list in the future.
 * [Matrix], [`#mikaela.info:feneas.org`](https://matrix.to/#/#mikaela.info:feneas.org),
   a federated chat protocol.
   * [PUBLIC LOG](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/)
-* [LibertaCasa], [`#mikaela.info`](ircs://irc.liberta.casa:6697/#mikaela.info),
-  another IRC network.
-  * [Webchat](https://liberta.casa/kiwi/#mikaela.info)
 * [NixNet IRC], [`#mikaela.info`](ircs://irc.nixnet.services:6697/#Mikaela.info),
   home of [Libremedia](https://libremedia.info/).
   * [Webchat](https://irc.nixnet.services/?join=%23Mikaela.info)
