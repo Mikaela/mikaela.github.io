@@ -6,7 +6,7 @@ permalink: /irc/
 excerpt: "Where do you find me at IRC and verify that it's me. Also includes my IRC related posts that are hopefully helpful."
 ---
 
-I am on a lot of IRC networks, for list of my registered accounts, please see [txt/irc.txt]({% site.url %}/{ % site.baseurl %}/txt/irc.txt)
+I am on a lot of IRC networks, for list of my registered accounts, please see [txt/irc.txt]({% site_url %}/{ % site_baseurl %}/txt/irc.txt)
 and [my discuss page](/discuss) for registered channels. I haven't sadly been
 able to support OTR since migrating to several different clients and
 integrated bouncers (of mainly Ergo IRCd).
