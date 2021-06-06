@@ -6,14 +6,10 @@ permalink: /irc/
 excerpt: "Where do you find me at IRC and verify that it's me. Also includes my IRC related posts that are hopefully helpful."
 ---
 
-I am on multiple IRC networks and finding me on those should be easy as
-(depending on network) my channel list is mostly visible with
-`/whois Mikaela Mikaela`. I also recommend checking
-`/msg NickServ info Mikaela`.
-
-I haven't been supporting OTR snce migrating to [TheLounge](https://thelounge.chat/),
-so IRC doesn't offer anything integrated for recognising me, but you can be
-sure that I am [on the networks I mention on the discuss page](/discuss/).
+I am on a lot of IRC networks, for list of my registered accounts, please see [txt/irc.txt]({% site.url %}/{ % site.baseurl %}/txt/irc.txt)
+and [my discuss page](/discuss) for registered channels. I haven't sadly been
+able to support OTR since migrating to several different clients and
+integrated bouncers (of mainly Ergo IRCd).
 
 ### IRC-related posts
 
