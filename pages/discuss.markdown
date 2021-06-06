@@ -27,9 +27,6 @@ I do hope to be able to grow this list in the future.
   * [KiwiIRC webchat](https://ergo.chat/kiwi/#mikaela.info) [Gamja webchat](https://ergo.chat/gamja/#mikaela.info)
 * [Matrix], [`#mikaela.info:feneas.org`](https://matrix.to/#/#mikaela.info:feneas.org),
   a federated chat protocol.
-  * Additional aliases can be added by `!altalias publish <alias>`, while
-    those may not provide additional value due to Matterbridge being a
-    central single point of failure to other protocols.
   * [PUBLIC LOG](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/)
 * [LibertaCasa], [`#mikaela.info`](ircs://irc.liberta.casa:6697/#mikaela.info),
   another IRC network.
