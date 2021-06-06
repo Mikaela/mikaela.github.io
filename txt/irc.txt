@@ -1,6 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
+
 List of IRC networks I am on and account names. Doesn't include networks
 without nickname registration or where I have no channels or my identity
 doesn't otherwise matter.
@@ -8,19 +9,20 @@ doesn't otherwise matter.
 irc.ergo.chat: Mikaela
 etro.mikaela.info: Mikaela
 irc.libera.chat: Mikaela
-irc.liberta.casa: Mikaela
 irc.nixnet.services: Mikaela
 irc.oftc.net: Mikaela
 irc.pirateirc.net: MikaelaSuomalainen
 
 Please feel free to ask if I am me or for me to add networks to this list.
 
-Note: don't believe anyone on freenode saying to be me.
+Freenode: with the channel takeover issues and history of reading private
+ messages, don't rely on Mikaela there being me or belonging to me.
+ See also: https://mikaela.info/txt/telegram.txt
 
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYK6LpRUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByPYAAD/VqZWX8ldBJxMle4izr35QRB4WG+x
-n7FOCP0TB6Fu+s8BAOegdR8VEgwxbQaRv7mAHCCq9btV6W6q4me4s7JVRiEO
-=1u78
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYL0D0hUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByN0nwD/aFekV920AqJhr2oFr3abyZA3Cybb
+y8mWRWPPxj1o3D8BAKHaJ9QdkZmmg3jWNlAizI5TcllGZjonKgjS09DvbeoG
+=7M5K
 -----END PGP SIGNATURE-----
