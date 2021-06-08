@@ -22,7 +22,7 @@ have it as DH- something which are insecure and is removed from more modern
 services packages. More about that:
 
 * [On the security of SASL DH-BLOWFISH (at nullroute.eu.org)](https://nullroute.eu.org/~grawity/irc-sasl-dh.html)
-* [Do not use or provide DH-AES or DH-BLOWFISH for SASL/IAL authentication (at kaniini.dereferenced.org)](https://kaniini.dereferenced.org/2014/12/26/do-not-use-DH-AES-or-DH-BLOWFISH.html)
+* [Do not use or provide DH-AES or DH-BLOWFISH for SASL/IAL authentication (at kaniini.dereferenced.org)](https://web.archive.org/web/20180729111352/https://kaniini.dereferenced.org/2014/12/26/do-not-use-DH-AES-or-DH-BLOWFISH.html)
 
 ```
 /set irc.server_default.sasl_mechanism PLAIN
