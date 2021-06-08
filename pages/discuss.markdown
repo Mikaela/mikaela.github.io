@@ -2,6 +2,7 @@
 title: Discuss
 layout: page
 permalink: /discuss.html
+redirect_from: /discuss/index.html
 excerpt: "Introduction to my public instant messaging chats"
 navigation: true
 ---
