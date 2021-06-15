@@ -1,28 +1,36 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
+Date: 2021-06-15
 
 List of IRC networks I am on and account names. Doesn't include networks
 without nickname registration or where I have no channels or my identity
 doesn't otherwise matter.
 
-irc.ergo.chat: Mikaela
-etro.mikaela.info: Mikaela
-irc.libera.chat: Mikaela
-irc.nixnet.services: Mikaela
-irc.oftc.net: Mikaela
-irc.pirateirc.net: MikaelaSuomalainen
+* irc.ergo.chat: Mikaela
+  * Registered at: Wed, 26 May 2021 15:08:25 UTC
+* etro.mikaela.info: Mikaela
+  * Registered at: Fri, 15 Jan 2021 20:40:13 UTC
+* irc.libera.chat: Mikaela
+  * Registered : May 19 12:22:13 2021 +0000
+* irc.nixnet.services: Mikaela
+  * Registered at: Tue, 24 Nov 2020 08:39:21 UTC
+* irc.oftc.net: Mikaela
+  * Time registered: Wed 05 Jan 2011 07:22:13 +0000
+* irc.pirateirc.net: MikaelaSuomalainen
+  * Registered : Apr 29 17:34:53 2014 +0200
 
 Please feel free to ask if I am me or for me to add networks to this list.
 
-Freenode: with the channel takeover issues and history of reading private
- messages, don't rely on Mikaela there being me or belonging to me.
- See also: https://mikaela.info/txt/telegram.txt
+See also: https://github.com/ircv3/ircv3-ideas/issues/61 "[accounts] expose
+indefinitely unique and unchanging account IDs"
+
+NETWORKS I DON'T USE: freenode
 
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYL0D0hUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByN0nwD/aFekV920AqJhr2oFr3abyZA3Cybb
-y8mWRWPPxj1o3D8BAKHaJ9QdkZmmg3jWNlAizI5TcllGZjonKgjS09DvbeoG
-=7M5K
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYMhFMxUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByPpjAD/Wwc+ko0krvWjWr0SG7U6Paj/RexF
+k4t4YFsPkm6yWqQBANH+7pfjG8OlC73pFYDQolJWl72SbF5bfJ/57gSndZ4M
+=XVGS
 -----END PGP SIGNATURE-----
