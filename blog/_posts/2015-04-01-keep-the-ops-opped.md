@@ -10,11 +10,7 @@ redirect_from:
 ---
 
 *Why I think that you should keep the ops opped instead of following
- freenode's recommendations.*
-
-***2021-05-23: this all also applies to LiberaChat and as this is possibly
-one of the posts where I refer people to the most with anchor links, I am
-not swapping the name like I am doing with everything else.***
+ LiberaChat's recommendations.*
 
 Is there an issue with your IRC channel needing op attention? Without
 having ops visible, your users will very likely go to the network support
@@ -22,12 +18,11 @@ channel instead of informing you or your ops.
 
 Without ops being visible, who are ops or how to alert them?
 
-* `/msg chanserv access #channel list` / `/msg chanserv flags #channel`
-  (the second command is for Libera.Chat that has enabled pubacl module)
+* `/msg chanserv flags #channel`
     * requires whoising all ops to see if they are present
         * idle time gets reset by CTCP replies, OTR and possibly other
-          things. Freenode staffers also base their judgement on are there
-          ops present to handle the issue on idletime of ops.
+          things. LiberaChat staffers may also base their judgement on are
+          there ops present to handle the issue on idletime of ops.
     * new users most likely have no idea on the command
     * remote (=different server) whois is rate-limited
 * `/msg memoserv sendops #channel help! X is spamming`
@@ -56,9 +51,12 @@ What if the services go down or netsplit and the same happens to your bot?
 You are out of luck unless you had the ops opped in which case the outage
 doesn't affect you that much at all.
 
-## Fixing freenode
+Counter argument: if ops are shown on a support channel, that can make
+people new to IRC ping them about everything instead of asking in the
+channel in gneral. I think it's up to the channel operators to decide how
+much that weights and can the new users be educated without much effort.
 
-*or LiberaChat*
+## Fixing LiberaChat
 
 Tell ChanServ the following three commands:
 
@@ -80,7 +78,7 @@ must also do this to yourself if you are channel founder, for auto-voicing
 use +V. *Note: +o allows you to manually op/deop anyone, +v is the same,
 but for voice, so don't confuse the casing.*
 
-*Somewhat rewritten on 2015-04-28 13:25Z and now this looks even worse
-to my eyes... ([Changelog](https://github.com/Mikaela/mikaela.github.io/commits/master/_posts/2015-04-01-keep-the-ops-opped.md))*
+Changelog:
 
-*2015-07-08: add fixing freenode.*
+* Part 1: https://github.com/Mikaela/mikaela.github.io/commits/master/_posts/2015-04-01-keep-the-ops-opped.md
+* Part 2: https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2015-04-01-keep-the-ops-opped.md
