@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Date: 2021-06-15
+Date: 2021-07-03
 
 List of IRC networks I am on and account names. Doesn't include networks
 without nickname registration or where I have no channels or my identity
@@ -11,14 +11,18 @@ doesn't otherwise matter.
   * Registered at: Wed, 26 May 2021 15:08:25 UTC
 * etro.mikaela.info: Mikaela
   * Registered at: Fri, 15 Jan 2021 20:40:13 UTC
-* irc.libera.chat: Mikaela
+* irc.libera.chat: Mikaela (primary account)
   * Registered : May 19 12:22:13 2021 +0000
+* irc.libera.chat: Mikaela- (less privileged account for use via 3rd parties)
+  * Registered : Jul 02 22:47:38 2021 +0000
 * irc.nixnet.services: Mikaela
   * Registered at: Tue, 24 Nov 2020 08:39:21 UTC
 * irc.oftc.net: Mikaela
   * Time registered: Wed 05 Jan 2011 07:22:13 +0000
 * irc.pirateirc.net: MikaelaSuomalainen
   * Registered : Apr 29 17:34:53 2014 +0200
+* irc.pirateirc.net: MikaelaSuomalainen- (less privileged account for use via 3rd parties)
+  * User reg.  : Jul 02 23:21:30 2021 +0200
 
 Please feel free to ask if I am me or for me to add networks to this list.
 
@@ -29,8 +33,8 @@ NETWORKS I DON'T USE: freenode
 
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYMhFMxUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByPpjAD/Wwc+ko0krvWjWr0SG7U6Paj/RexF
-k4t4YFsPkm6yWqQBANH+7pfjG8OlC73pFYDQolJWl72SbF5bfJ/57gSndZ4M
-=XVGS
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYN+fFhUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByO1bgD8D4JrhbxjDyg7UEcIPmlIbQ/InfuM
+8go1I32mnN0jLdcA/3xSr7ZzMVk4sJwcuEbP/GAtF0Jfiiw1G2HQFx87EckJ
+=o8eH
 -----END PGP SIGNATURE-----
