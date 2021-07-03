@@ -15,6 +15,10 @@ doesn't otherwise matter.
   * Registered : May 19 12:22:13 2021 +0000
 * irc.libera.chat: Mikaela- (less privileged account for use via 3rd parties)
   * Registered : Jul 02 22:47:38 2021 +0000
+* irc.liberta.casa: Mikaela (primary account)
+  * Registered at: Mon, 07 Jun 2021 10:34:50 UTC
+* irc.liberta.casa: Mikaela- (less privileged account for use via 3rd parties)
+  * Registered at: Wed, 30 Jun 2021 11:16:58 UTC
 * irc.nixnet.services: Mikaela
   * Registered at: Tue, 24 Nov 2020 08:39:21 UTC
 * irc.oftc.net: Mikaela
@@ -29,12 +33,10 @@ Please feel free to ask if I am me or for me to add networks to this list.
 See also: https://github.com/ircv3/ircv3-ideas/issues/61 "[accounts] expose
 indefinitely unique and unchanging account IDs"
 
-NETWORKS I DON'T USE: freenode
-
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYN+fFhUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByO1bgD8D4JrhbxjDyg7UEcIPmlIbQ/InfuM
-8go1I32mnN0jLdcA/3xSr7ZzMVk4sJwcuEbP/GAtF0Jfiiw1G2HQFx87EckJ
-=o8eH
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYOC0RRUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByOqVgEA6IZT4no8kFcwX9jyNPIAdJUoBzGX
+Yw69k++A1THFIUgBAMf2Ormi/ZFQhC1fJRkTT2Fx773cnMMxre4Ye/15M7IM
+=zVCu
 -----END PGP SIGNATURE-----
