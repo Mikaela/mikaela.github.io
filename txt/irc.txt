@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Date: 2021-07-03
+Date: 2021-07-12
 
 List of IRC networks I am on and account names. Doesn't include networks
 without nickname registration or where I have no channels or my identity
@@ -9,6 +9,8 @@ doesn't otherwise matter.
 
 * irc.ergo.chat: Mikaela
   * Registered at: Wed, 26 May 2021 15:08:25 UTC
+* irc.ergo.chat: Mikaela- (less privileged account for use via 3rd parties)
+  * Registered at: Thu, 08 Jul 2021 12:03:27 UTC
 * etro.mikaela.info: Mikaela
   * Registered at: Fri, 15 Jan 2021 20:40:13 UTC
 * irc.libera.chat: Mikaela (primary account)
@@ -35,8 +37,8 @@ indefinitely unique and unchanging account IDs"
 
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYOC0RRUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByOqVgEA6IZT4no8kFcwX9jyNPIAdJUoBzGX
-Yw69k++A1THFIUgBAMf2Ormi/ZFQhC1fJRkTT2Fx773cnMMxre4Ye/15M7IM
-=zVCu
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYOv3txUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByMlQgD9EolCErpH73ePHmDTIAILcdSR7nVh
+0AF3CMQqHOB9MRMA/3MoKI89ynYhxn6KdXdyxnSQzA0D9K4AUMcUf1R4nGAI
+=HvqC
 -----END PGP SIGNATURE-----
