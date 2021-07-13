@@ -25,6 +25,11 @@ Without ops being visible, who are ops or how to alert them?
           there ops present to handle the issue on idletime of ops.
     * new users most likely have no idea on the command
     * remote (=different server) whois is rate-limited
+    * lists accountnames, not nicknames the people are actually using
+      * e.g. I have a less privileged account `Mikaela-`, but my Matrix
+        connection is usually called `Michaela` which may not instantly connect
+        in people's minds. Ciblia which is one of my fallback usernames is
+        even further away from `Mikaela`.
 * `/msg memoserv sendops #channel help! X is spamming`
     * requires +A flag which isn't mostly given to everyone
     * new users are unsure whether they have the flag if they even know
