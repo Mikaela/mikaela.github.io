@@ -38,7 +38,7 @@ I do hope to be able to grow this list in the future.
   platform.
   * Expect my streaming to happen in [mikaela@libremedia.video](https://libremedia.video/accounts/mikaela/)
     (PeerTube) instead.
-* [XMPP], [`mikaela.info@conference.blesmrt.net`](xmpp:mikaela.info@conference.blesmrt.net),
+* [XMPP], [`mikaela.info@conference.blesmrt.net`](xmpp:mikaela.info@conference.blesmrt.net?join),
   a federated chat protocol.
 
 [ErgoChat]:https://ergo.chat/
