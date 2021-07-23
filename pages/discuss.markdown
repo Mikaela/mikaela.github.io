@@ -44,7 +44,6 @@ I do hope to be able to grow this list in the future.
 [ErgoChat]:https://ergo.chat/
 [NixNet IRC]:https://docs.nixnet.services/IRC
 [Matrix]:https://matrix.org/
-[LibertaCasa]:https://liberta.casa/
 [Telegram]:https://telegram.org/
 [Twitch]:https://twitch.tv/
 [XMPP]:https://xmpp.org/
