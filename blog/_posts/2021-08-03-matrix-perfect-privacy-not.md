@@ -51,6 +51,10 @@ problems sooner or later:
   should you attempt to join or be invited to one, you will get a banner
   saying that they aren't implemented yet and you cannot accept or reject
   the invite unless you open Element Web to do that.
+* Another issue I am editing in hours later is pills, when you mention
+  someone on Element (Web), or someone else mentions someone, there is a clear
+  pill shape around their name and it can be clicked to get to their profile,
+  [but not on Element (iOS)](https://github.com/vector-im/element-ios/issues/3526)
 
 And that is probably enough of annoyances with Element iOS, I hope the
 situation will improve in foreseeable future there due to
@@ -133,3 +137,9 @@ Feedback? I have [a discussion room in many apps](https://mikaela.info/discuss),
 or you can find me from a lot of the linked issues and there is also [issue tracker for this site](https://github.com/Mikaela/mikaela.github.io/issues).
 
 * [Changelog, also known as git commit history](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2021-08-03-matrix-perfect-privacy-not.md)
+  * Clicksaver for edits done on day of publishing: I have fixed a typo resulting one
+    link being a 404 error, added mention on Element (iOS) not doing URL previews
+    and later added pills not being supported by it either. I didn't consider
+    [outdated emoji picker](https://github.com/vector-im/element-ios/issues/4654)
+    worth mentioning here, but it came up in the same context as URL previews
+    and wasn't reported to upstream, so I might as well mention it in this part.
