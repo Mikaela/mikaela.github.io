@@ -84,7 +84,7 @@ everything, they wouldn't throw that history to people who don't want to see it.
 
 Speaking of removals, once you remove a message [it will be stored in the database for server admins for 7 days](https://github.com/matrix-org/synapse/blob/ba5287f5e8be150551824493b3ad685dde00a543/docs/sample_config.yaml#L456-L461) which is fine for me, but if [this message happened to be media instead of text, it would never be removed](https://github.com/matrix-org/synapse/issues/1263) and should you have copied link to the media, it would keep on working
 and if you changed the homeserver address in your copied link, it would still
-keep on working. Is this something you expect from a private protocol? I don't, or I didn't before getting familiar with Matrix. There is also an [alternative proposal about this](https://github.com/matrix-org/matrix-doc/pull/22289).
+keep on working. Is this something you expect from a private protocol? I don't, or I didn't before getting familiar with Matrix. There is also an [alternative proposal about this](https://github.com/matrix-org/matrix-doc/pull/2228).
 
 *By the way Synapse is still a reference homeserver implementation and not
  Matrix protocol itself, so sorry about that for anyone technical reading this.*
@@ -129,4 +129,4 @@ I don't remember seeing it in a long time, so maybe the situation is improving.
 Feedback? I have [a discussion room in many apps](https://mikaela.info/discuss),
 or you can find me from a lot of the linked issues and there is also [issue tracker for this site](https://github.com/Mikaela/mikaela.github.io/issues).
 
-*TODO: if/when I return to this post, add a git changelog link here.*
+* [Changelog, also known as git commit history](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2021-08-03-matrix-perfect-privacy-not.md)
