@@ -124,7 +124,7 @@ such as using multiple names and knowing which name I am using where or managing
 50 different rooms with same operators everywhere, but [that may get answered by Matrix](https://github.com/matrix-org/matrix-doc/pull/2962).)
 
 You may wonder was it nice of me to write so negative blog post. I find it
-therapeutic as [I have had an issue to me to write this since 2021-01-15](https://github.com/Mikaela/mikaela.github.io/issues/2309)
+therapeutic as [I have had an issue to me to write this since 2021-01-15](https://github.com/Mikaela/mikaela.github.io/issues/230)
 and now I have finally done it, a bit over half an year late,
 spending a bit over an hour to it and I feel better after getting these problems
 out of my head and maybe they weren't so big after all. Up to you.
