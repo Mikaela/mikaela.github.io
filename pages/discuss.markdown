@@ -26,7 +26,7 @@ I do hope to be able to grow this list in the future.
 * [ErgoChat], [`#mikaela.info`](ircs://irc.ergo.chat:6697/#mikaela.info), home of the Ergo IRCd
   that I and most of this list happen to run.
   * [KiwiIRC webchat](https://ergo.chat/kiwi/#mikaela.info) [Gamja webchat](https://ergo.chat/gamja/#mikaela.info)
-* [Matrix], [`#mikaela.info:feneas.org`](matrix:roomid/!ZFnQcqwxcebAepncKr:feneas.org?action=join&via=matrix.org),
+* [Matrix], [`#mikaela.info:feneas.org`](matrix:roomid/ZFnQcqwxcebAepncKr:feneas.org?action=join&via=matrix.org),
   a federated chat protocol.
   * [PUBLIC LOG](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/)
 * [NixNet IRC], [`#mikaela.info`](ircs://irc.nixnet.services:6697/#Mikaela.info),
