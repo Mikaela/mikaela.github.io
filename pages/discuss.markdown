@@ -7,7 +7,7 @@ excerpt: "Introduction to my public instant messaging chats"
 navigation: true
 ---
 
-I have a [PUBLICly logged](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/) instant messaging chatroom for comments to my
+I have a [PUBLICLY LOGGED](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/) instant messaging chatroom for comments to my
 blog and other things I do. They are connected together by [Matterbridge](https://github.com/42wim/matterbridge/#matterbridge).
 
 As [Code of Conduct, Contributor Covenant applies](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).<br>
@@ -25,7 +25,7 @@ I do hope to be able to grow this list in the future.
   * [(Recommended) Webchat](https://irc.etro.mikaela.info/#mikaela.info)
 * [ErgoChat], [`#mikaela.info`](ircs://irc.ergo.chat:6697/#mikaela.info), home of the Ergo IRCd
   that I and most of this list happen to run.
-  * [KiwiIRC webchat](https://ergo.chat/kiwi/#mikaela.info) [Gamja webchat](https://ergo.chat/gamja/#mikaela.info)
+  * [Gamja webchat](https://ergo.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://ergo.chat/kiwi/#mikaela.info)
 * [Matrix], [`#mikaela.info:feneas.org`](matrix:roomid/ZFnQcqwxcebAepncKr:feneas.org?action=join&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org),
   a federated chat protocol.
   * [PUBLIC LOG](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/)
