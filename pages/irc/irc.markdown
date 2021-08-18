@@ -6,10 +6,14 @@ permalink: /irc/
 excerpt: "Where do you find me at IRC and verify that it's me. Also includes my IRC related posts that are hopefully helpful."
 ---
 
-I am on a lot of IRC networks, for list of my registered accounts, please see [txt/irc.txt](/txt/irc.txt)
-and [my discuss page](/discuss) for registered channels. I haven't sadly been
-able to support OTR since migrating to several different clients and
-integrated bouncers (of mainly Ergo IRCd).
+IRC has been a big part of my life, I discovered it during junior high school
+and have several friends and communities there. This is also shown by
+the amount of blog posts, I have below.
+
+I am running my own [IRC@Etro](ircs://etro.mikaela.info:6697/#mikaela.info) ([webchat](https://irc.etro.mikaela.info/))
+and oper on a couple of other networks too. For a list of my registered IRCaccounts
+in general, please see [txt/irc.txt](/txt/irc.txt)
+and [my discuss page](/discuss) for registered channels outside of IRC@Etro.
 
 ### IRC-related posts
 
