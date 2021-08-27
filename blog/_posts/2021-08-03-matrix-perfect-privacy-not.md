@@ -104,8 +104,14 @@ chat with your partner? [Congratulations, whatever is your latest room-specific 
 *Synapse didn't become Matrix protocol itself by the way, there are still other implementations!*
 
 This issue does have a potential solution [an API planned for room specific details (2015)](https://github.com/matrix-org/matrix-doc/issues/545)
-and what I am hopeful about in the future [open pull request specification for space specific profiles](https://github.com/matrix-org/matrix-doc/pull/3189),
-unless it just moves the issue to a different level.
+<s>and what I am hopeful about in the future [open pull request specification for space specific profiles](https://github.com/matrix-org/matrix-doc/pull/3189),
+unless it just moves the issue to a different level.</s> Which got [cancelled or delayed for an undefined time period](https://github.com/matrix-org/matrix-doc/pull/3189#issuecomment-905761797),
+["until extensible profiles and sync v3 become more concrete"](https://github.com/matrix-org/matrix-doc/pull/1769)
+
+2021-08-27: I don't know how serious issue this may be for you, but any emoji/
+[reactions made on end-to-end-encrypted messages aren't encrypted](https://github.com/matrix-org/matrix-doc/issues/2678).
+It's fun in [E2EE test rooms](matrix:r/megolm:matrix.org?action=join) when you cannot read the other party, but
+regardless see their reactions on your emssages.
 
 I think that was my biggest complaints on Matrix (or Synapse itself), that
 don't involve other protocols and I have personally experienced. My notes
@@ -143,3 +149,6 @@ or you can find me from a lot of the linked issues and there is also [issue trac
     [outdated emoji picker](https://github.com/vector-im/element-ios/issues/4654)
     worth mentioning here, but it came up in the same context as URL previews
     and wasn't reported to upstream, so I might as well mention it in this part.
+  * 2021-08-27: Noted cancellation/delay of space-specific profiles,
+    mention emoji/reactions not being encrypted at all, added link to E2EE
+    test room and this list item.
