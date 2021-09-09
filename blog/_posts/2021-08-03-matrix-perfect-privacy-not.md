@@ -34,9 +34,9 @@ It comes with two problems:
 Comparing the later two platforms, I imagine you will hit some of these
 problems sooner or later:
 
-* You see a link in the channel. If you were using Element Web or
+* <s>You see a link in the channel. If you were using Element Web or
   possibly even Element Android you would immediately know what it was
-  about. However you use [Element iOS that never got URL preview support](https://github.com/vector-im/element-ios/issues/888)!
+  about. However you use [Element iOS that never got URL preview support](https://github.com/vector-im/element-ios/issues/888)!</s>
 * You hear of interesting room on another room and you wish to join it. You
   touch the name wishing to get into there? What happens instead? You will get
   an error message [cannot rejoin an empty room](https://github.com/vector-im/element-ios/issues/1066).
@@ -152,3 +152,5 @@ or you can find me from a lot of the linked issues and there is also [issue trac
   * 2021-08-27: Noted cancellation/delay of space-specific profiles,
     mention emoji/reactions not being encrypted at all, added link to E2EE
     test room and this list item.
+  * 2021-09-09: It's brought to my attention that URL previews exist on Element
+    iOS! It's 23.15 in Finland so I only strikethrough this issue.
