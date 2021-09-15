@@ -26,6 +26,8 @@ I do hope to be able to grow this list in the future.
 * [ErgoChat], [`#mikaela.info`](ircs://irc.ergo.chat:6697/#mikaela.info), home of the Ergo IRCd
   that I and most of this list happen to run.
   * [Gamja webchat](https://ergo.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://ergo.chat/kiwi/#mikaela.info)
+* [LiberaChat], [`#mikaela.info`](ircs://irc.libera.chat:6697/#mikaela.info)
+  * [Gamja webchat](https://web.libera.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://web.libera.chat/#mikaela.info). *Warning: Libera.Chat has no message history*
 * [Matrix], [`#mikaela.info:feneas.org`](matrix:roomid/ZFnQcqwxcebAepncKr:feneas.org?action=join&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org),
   a federated chat protocol.
   * [PUBLIC LOG](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/)
@@ -42,6 +44,7 @@ I do hope to be able to grow this list in the future.
   a federated chat protocol.
 
 [ErgoChat]:https://ergo.chat/
+[LiberaChat]:https://libera.chat/
 [NixNet IRC]:https://docs.nixnet.services/IRC
 [Matrix]:https://matrix.org/
 [Telegram]:https://telegram.org/
