@@ -46,11 +46,11 @@ problems sooner or later:
   notice that on Element Web they are more gray than people. [Element iOS just never got messages from bots being rendered differently](https://github.com/vector-im/element-ios/issues/882).
 * I may again be a bit weird, but I wish to have [timestamps for all messages visible all the time](https://github.com/vector-im/element-ios/issues/524),
   but Element says no. They exist on Web, not on iOS. Same if you [wanted to see seconds](https://github.com/vector-im/element-ios/issues/3901)
-* I almost forgot, but the [new spaces](https://element.io/blog/spaces-the-next-frontier/)
+* <s>I almost forgot, but the [new spaces](https://element.io/blog/spaces-the-next-frontier/)
   just [don't exist on iOS](https://github.com/vector-im/element-ios/issues?q=label%3AA-Spaces+),
   should you attempt to join or be invited to one, you will get a banner
   saying that they aren't implemented yet and you cannot accept or reject
-  the invite unless you open Element Web to do that.
+  the invite unless you open Element Web to do that.</s>
 * Another issue I am editing in hours later is pills, when you mention
   someone on Element (Web), or someone else mentions someone, there is a clear
   pill shape around their name and it can be clicked to get to their profile,
