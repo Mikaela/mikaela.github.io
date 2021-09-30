@@ -36,7 +36,7 @@ problems sooner or later:
 
 * <s>You see a link in the channel. If you were using Element Web or
   possibly even Element Android you would immediately know what it was
-  about. However you use [Element iOS that never got URL preview support](https://github.com/vector-im/element-ios/issues/888)!</s>
+  about. However you use <a href="https://github.com/vector-im/element-ios/issues/888">Element iOS that never got URL preview support!</a></s>
 * You hear of interesting room on another room and you wish to join it. You
   touch the name wishing to get into there? What happens instead? You will get
   an error message [cannot rejoin an empty room](https://github.com/vector-im/element-ios/issues/1066).
@@ -46,8 +46,8 @@ problems sooner or later:
   notice that on Element Web they are more gray than people. [Element iOS just never got messages from bots being rendered differently](https://github.com/vector-im/element-ios/issues/882).
 * I may again be a bit weird, but I wish to have [timestamps for all messages visible all the time](https://github.com/vector-im/element-ios/issues/524),
   but Element says no. They exist on Web, not on iOS. Same if you [wanted to see seconds](https://github.com/vector-im/element-ios/issues/3901)
-* <s>I almost forgot, but the [new spaces](https://element.io/blog/spaces-the-next-frontier/)
-  just [don't exist on iOS](https://github.com/vector-im/element-ios/issues?q=label%3AA-Spaces+),
+* <s>I almost forgot, but the <a href="https://element.io/blog/spaces-the-next-frontier/">new spaces</a>
+  just <a href="https://github.com/vector-im/element-ios/issues?q=label%3AA-Spaces+">don't exist on iOS</a>,
   should you attempt to join or be invited to one, you will get a banner
   saying that they aren't implemented yet and you cannot accept or reject
   the invite unless you open Element Web to do that.</s>
@@ -104,7 +104,7 @@ chat with your partner? [Congratulations, whatever is your latest room-specific 
 *Synapse didn't become Matrix protocol itself by the way, there are still other implementations!*
 
 This issue does have a potential solution [an API planned for room specific details (2015)](https://github.com/matrix-org/matrix-doc/issues/545)
-<s>and what I am hopeful about in the future [open pull request specification for space specific profiles](https://github.com/matrix-org/matrix-doc/pull/3189),
+<s>and what I am hopeful about in the future <a href="https://github.com/matrix-org/matrix-doc/pull/3189">open pull request specification for space specific profiles</a>,
 unless it just moves the issue to a different level.</s> Which got [cancelled or delayed for an undefined time period](https://github.com/matrix-org/matrix-doc/pull/3189#issuecomment-905761797),
 ["until extensible profiles and sync v3 become more concrete"](https://github.com/matrix-org/matrix-doc/pull/1769)
 
