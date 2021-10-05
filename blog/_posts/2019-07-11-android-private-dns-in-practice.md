@@ -129,8 +129,6 @@ The options [judging by DNSPrivacy.org](https://dnsprivacy.org/wiki/display/DP/D
   * for-profit company
   * too big for my taste and possibly getting even bigger if Firefox starts
     sending DNS over HTTPS queries to them by default
-  * [PTIO discussion](https://github.com/privacytoolsIO/privacytools.io/issues/374)
-  * [Notabug.org/crimeflare/cloudflare-tor critique](https://notabug.org/crimeflare/cloudflare-tor/src/master/README.md)
 * Google Public DNS
   * same as Cloudflare, they are on my phone and many say Google to know you
     better than you know yourself, so they areally don't need to know my DNS
