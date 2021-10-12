@@ -1,5 +1,5 @@
 ---
-redirect_to: https://www.te-palvelut.fi/te/en/jobseekers/support_finding_job/work_tryout/practices_and_provisions/index.html
+redirect_to: https://www.te-palvelut.fi/en/special-pages/practices-and-provisions
 permalink: /r/wtop.html
 sitemap: true
 ---
