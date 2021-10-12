@@ -1,9 +1,6 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-- -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
 PGP-signed list of my accounts for benefit of those who require them before
 following or similar. It is also for my benefit so I can check somewhere
 easily where I should be updating my accounts. Referral links have
@@ -37,7 +34,6 @@ https://git.snopyta.org/mikaela?tab=activity
 
 https://together.jolla.com/users/6732/mikaela/Mikaela
 https://foorumi.piraattipuolue.fi/memberlist.php?mode=viewprofile&u=875
-https://forum.privacytools.io/u/Mikaela/
 
 ## Gaming
 
@@ -93,8 +89,8 @@ https://wiki.piraattipuolue.fi/K%C3%A4ytt%C3%A4j%C3%A4:Mikaela
 
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCX/nUURUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByN0MAEA2bXpEepqY7F2jZHwgj5yHrPRRHuy
-v8o0G9al6HYfVGsA/2tanuX5rxjutu7nJ6NSCCGsK8GvlvlrAlRY4LX8LyoM
-=F8zD
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYWXFXhUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByMOXQEAqFqTODC7BrZq2zFVRUiWHztHYWXS
+Ov8fKM+imz79ay0BAM+u9xPZPvOl51G7ks4X6K9+OCe5Ggk+AWhiXyRhxPkI
+=4ZTs
 -----END PGP SIGNATURE-----
