@@ -99,7 +99,7 @@ keep on working. Is this something you expect from a private protocol? I don't, 
 Do you use different names in different contexts? Like your Full Name in
 professional context, a nickname somewhere else and maybe what will be your
 real name after gender transitioning or even have a diffferent name in direct
-chat with your partner? [Congratulations, whatever is your latest room-specific name is public, same with your potential avatar](https://github.com/matrix-org/synapse/issues/5677).
+chat with your partner? [Congratulations, whatever is your latest room-specific name may now be public (especially when the room federates and has users from different homeservers), same with your potential avatar](https://github.com/matrix-org/synapse/issues/5677).
 
 *Synapse didn't become Matrix protocol itself by the way, there are still other implementations!*
 
