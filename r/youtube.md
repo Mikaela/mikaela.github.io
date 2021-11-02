@@ -1,8 +1,5 @@
 ---
-redirect_to: https://invidio.us/
+redirect_to: https://youtube.com/channel/UCOnT5ViZm6o5xZtn33_bqmQ
 permalink: /r/youtube.html
-redirect_from:
-  - /r/invidio.html
-  - /r/invidious.html
 sitemap: true
 ---
