@@ -7,7 +7,7 @@ excerpt: "Introduction to my public instant messaging chats"
 navigation: true
 ---
 
-I have a [PUBLICLY LOGGED](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/) instant messaging chatroom for comments to my
+I have a [PUBLICLY LOGGED](https://view.matrix.org/room/!xFKkXCpcnEwgBEQBFt:matrix.org/) instant messaging chatroom for comments to my
 blog and other things I do. They are connected together by [Matterbridge](https://github.com/42wim/matterbridge/#matterbridge).
 
 As [Code of Conduct, Contributor Covenant applies](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).<br>
@@ -28,9 +28,9 @@ I do hope to be able to grow this list in the future.
   * [Gamja webchat](https://ergo.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://ergo.chat/kiwi/#mikaela.info)
 * [LiberaChat], [`#mikaela.info`](ircs://irc.libera.chat:6697/#mikaela.info)
   * [Gamja webchat](https://web.libera.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://web.libera.chat/#mikaela.info). *Warning: Libera.Chat has no message history*
-* [Matrix], [`#mikaela.info:feneas.org`](matrix:roomid/ZFnQcqwxcebAepncKr:feneas.org?action=join&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org),
+* [Matrix], [`#mikaela.info:matrix.org`](matrix:roomid/xFKkXCpcnEwgBEQBFt:matrix.org?action=join&via=matrix.org&via=converser.eu&via=the-apothecary.club),
   a federated chat protocol.
-  * [PUBLIC LOG](https://view.matrix.org/room/!ZFnQcqwxcebAepncKr:feneas.org/)
+  * [PUBLIC LOG](https://view.matrix.org/room/!xFKkXCpcnEwgBEQBFt:matrix.org/)
 * [NixNet IRC], [`#mikaela.info`](ircs://irc.nixnet.services:6697/#Mikaela.info),
   home of [Libremedia](https://libremedia.info/).
   * [Webchat](https://irc.nixnet.services/?join=%23Mikaela.info)
