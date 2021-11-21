@@ -142,6 +142,25 @@ TODO: Sort this list.
 
 -->
 
+## Chromium flags
+
+These can generally be found from `about:flags` on Chromium based browsers, for Vivaldi explicit `vivaldi://flags` is required and it also has `chrome://settings` for the usual Chromium settings.
+
+* `#enable-quic` - enabled
+* `#enable-force-dark` - enabled with increased text constract
+* `#force-color-profile` - sRGB
+* `#trust-tokens` - enabled
+
+### Vendor-prefixed
+
+These likely also exist, but just without the `vendor-` part when searhcing.
+
+* `#edge-automatic-https` - enabled
+* `#edge-autoplay-user-setting-block-option`
+* `#edge-tab-groups` - enabled
+* `#edge-tab-groups-auto-create` - enabled
+* `#edge-tab-groups-collapse-freezing` - enabled
+
 ## Firefox about:config
 
 * `privacy.firstparty.isolate` to `true` for preventing domains from
