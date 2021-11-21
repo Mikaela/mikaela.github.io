@@ -12,6 +12,10 @@ redirect_from:
   - /chromium.html
 ---
 
+If you need browser extensions, try [the Privacy Guides page](https://privacyguides.org/browsers/).
+
+<!--
+
 https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link to use
 
 * [Ecosia search engine at Mycroft Project](https://mycroftproject.com/search-engines.html?name=ecosia.org)
@@ -135,6 +139,8 @@ TODO: Sort this list.
 * [Swedish](https://addons.mozilla.org/firefox/addon/g%C3%B6rans-hemmasnickrade-ordli/)
 
 * * * * *
+
+-->
 
 ## Firefox about:config
 
