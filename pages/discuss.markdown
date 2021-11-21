@@ -34,7 +34,7 @@ I do hope to be able to grow this list in the future.
 * [NixNet IRC], [`#mikaela.info`](ircs://irc.nixnet.services:6697/#Mikaela.info),
   home of [Libremedia](https://libremedia.info/).
   * [Webchat](https://irc.nixnet.services/?join=%23Mikaela.info)
-* [Telegram], [invite link](https://t.me/joinchat/Ikv7FkqOeBSzz4odrpxqcg), a
+* [Telegram], [invite link](https://t.me/joinchat/OEuthjzmg60xNzA0) a
   popular instant messenger with open source clients.
 * [Twitch], [Ciblia](https://twitch.tv/Ciblia), a propietary game streaming
   platform.
