@@ -163,7 +163,6 @@ TODO: Sort this list.
  * `geo.provider.network.url` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
 * <s>`media.peerconnection.enabled` to `false` in order to disable WebRTC (potential IP leaker, will break VoIP/calls, but those are better outside of Firefox anyway)</s> *Not needed anymore in 2020, WebRTC has improved to not do that.*
   * `media.navigator.enabled` to `false` in order to also hide cameras and microphones from websites. *I am not sure if this is still necessary either, but maybe it will remind me that I have focused my VoIP to Chromium?*
-* `network.http.http3.enabled` to `true` in order to enable HTTP/3 / QUIC support. It can be confirmed working in `about:networking`.
 * `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful.
 * `reader.parse-on-load.force-enabled` to `true` in order to allow reader use to be used on ~all websites and devices (regardless of low RAM?)
 *  `toolkit.telemetry.server` to empty in order to not send telemetry (which may be blocked by filtering DNS providers such as AdGuard or NextDNS resulting high amount of failing queries)
