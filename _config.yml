@@ -26,6 +26,9 @@ sitemap:
     file: "/sitemap.xml"
 keep_files: [PGP, PHP, keybase.txt, robots.txt, .well-known, ipfs-files]
 
+# Saving time and nerves from blogging about Matrix
+matrixLatestRoomVersion: 9
+
 avatar: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/250.jpeg
 icon: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/128.jpeg
 
