@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Matrix abuse protectiction model for community maintainers: security by obscurity"
+title: "Matrix abuse protection model for community maintainers: security by obscurity"
 category: [english]
 tags: [matrix]
 ---
@@ -145,4 +145,4 @@ as if I am wrong and there is a reasonable Discord-style interface for this
 without additional money, you are improving my life greatly as I am not just
 going to stop using Matrix.
 
-* Obligatory changelog link: TODO: add one here once it actually exists
+* [Obligatory changelog link](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2021-12-05-matrix-community-abuse-security-by-obscurity.md)
