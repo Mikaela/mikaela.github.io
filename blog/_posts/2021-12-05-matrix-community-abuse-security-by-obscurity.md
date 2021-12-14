@@ -24,8 +24,21 @@ smaller steps:
 1. Use https://develop.element.io/ (or have a config.json allowing you to use
    labs)
 2. Create a space.
-3. Through developer mode `/upgraderoom {{ site.matrixLatestRoomVersion }}`,
-   this should be a number at least `9`.
+3. Through developer mode `/upgraderoom {{ site.matrixLatestRoomVersion }}`.
+   1. ***WARNING*** The room version number here is configured in Jekyll site
+      variable, not one specific to this post.
+   2. ***WARNING*** You should check [the Matrix spec](https://spec.matrix.org/latest/rooms/)
+      for the latest stable room version.
+   3. ***WARNING*** Traditionally homeservers by other parties than Matrix.org
+      (read Synapse) lag behind on supported room versions and you may break
+      your room for people using those. At the time of adding this note (2021-12-14), the
+      spec v1.1 is a month and couple of days old (2021-09-11) and room version
+      7 is not implemented by Conduit.
+       1. Yes, at the time of writing this post I am recommending version 9,
+          while the aforementioned variable is {{ site.matrixLatestRoomVersion }}
+          as that is what Element encourages and features such as restricted rooms
+          require and as this post hints, Matrix is even more impossible to manage
+          without those.
 4. Clear cache and reload so the old space maybe disappears.
 5. See also https://github.com/vector-im/element-web/issues/19208
 6. Now that there is a space, right click it to create a new room under it and
