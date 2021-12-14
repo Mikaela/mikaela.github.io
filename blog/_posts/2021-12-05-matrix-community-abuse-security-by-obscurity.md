@@ -35,7 +35,7 @@ smaller steps:
       spec v1.1 is a month and couple of days old (2021-09-11) and room version
       7 is not implemented by Conduit.
        1. Yes, at the time of writing this post I am recommending version 9,
-          while the aforementioned variable is {{ site.matrixLatestRoomVersion }}
+          while the aforementioned variable is {{ site.matrixLatestRoomVersion }},
           as that is what Element encourages and features such as restricted rooms
           require and as this post hints, Matrix is even more impossible to manage
           without those.
