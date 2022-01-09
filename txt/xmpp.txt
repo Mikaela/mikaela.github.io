@@ -1,0 +1,4 @@
+xmpp:mikaela@blesmrt.net
+xmpp:mikaela@conversejs.org
+xmpp:mikaela@disroot.org
+xmpp:mikaela@tigase.im
