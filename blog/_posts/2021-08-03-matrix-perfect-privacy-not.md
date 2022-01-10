@@ -80,7 +80,7 @@ history never goes away. Executing `/upgraderoom {{site.matrixLatestRoomVersion}
 
 In case there isn't enough confusion, retention shouldn't be confused with actual [self-destructing/disappearing messages](https://github.com/vector-im/element-meta/issues/82).
 
-*Technical note: sorry about calling <s>reference<s/> homeserver implementation by the matrix.org team issue
+*Technical note: sorry about calling <s>reference</s> homeserver implementation by the matrix.org team issue
  as a Matrix protocol issue.*
 
 You may say that this requires you to trust the homeserver admin anyway and
