@@ -138,7 +138,7 @@ I already wrote too much about encrypted DNS...
 
 If you look into Privacy Guides instant messaging platforms, at the time
 of writing it will suggest you to use Element. That means nothing,
-[there are three different apps called as Element on three different platforms, the only thing in common is the name and if you are looking for privacy, you should look into it deeper or look entirely elsewhere, but that is my previous blog post]({% post_url blog/2021-11-23-leaving-privacyguides %}). TL;DR is that (at the time of writing)
+[there are three different apps called as Element on three different platforms, the only thing in common is the name and if you are looking for privacy, you should look into it deeper or look entirely elsewhere, but that is my previous blog post]({% post_url blog/2021-08-03-matrix-perfect-privacy-not %}). TL;DR is that (at the time of writing)
 your room specific display names may leak and media files are never actually
 removed. If that is fine for you, great. If your issue is just with
 room specific display names, I would suggest a Matrix client that allows
