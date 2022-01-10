@@ -75,11 +75,10 @@ forever.
 Matrix does support [history retention if you are advanced enough to enable it](https://brendan.abolivier.bzh/matrix-retention-policies/),
 this assumes [your homeserver explicitly enables it as it's not default](https://github.com/matrix-org/synapse/blob/ba5287f5e8be150551824493b3ad685dde00a543/docs/sample_config.yaml#L481-L484)
 and as your room is hosted on every homeserver that has users in your room,
-have a single homeserver that hasn't explicitly enabled it and the room
-history never goes away. (If I am wrong, [please contact me](/discuss) as
-I have one private room where history goes away after 7 days, but another with the
-same configuration (nowadays 31 days though), which I can scroll as far back
-as I want.)
+have a single homeserver that hasn't explicitly enabled it, or doesn't otherwise support it, and the room
+history never goes away. Executing `/upgraderoom {{site.matrixLatestRoomVersion}}` or any other version [will also remove the event](https://github.com/matrix-org/synapse/issues/11279).
+
+In case there isn't enough confusion, retention shouldn't be confused with actual [self-destructing/disappearing messages](https://github.com/vector-im/element-meta/issues/82).
 
 *Technical note: sorry about calling <s>reference<s/> homeserver implementation by the matrix.org team issue
  as a Matrix protocol issue.*
@@ -111,7 +110,12 @@ unless it just moves the issue to a different level.</s> Which got [cancelled or
 2021-08-27: I don't know how serious issue this may be for you, but any emoji/
 [reactions made on end-to-end-encrypted messages aren't encrypted](https://github.com/matrix-org/matrix-doc/issues/2678).
 It's fun in [E2EE test rooms](matrix:r/megolm:matrix.org?action=join) when you cannot read the other party, but
-regardless see their reactions on your emssages.
+regardless see their reactions on your messages.
+
+2022-01-10: In E2EE features, when you are invited to E2EE rooms, you generally
+cannot see the previously encrypted messages. However when those are encrypted,
+viewing [message source will reveal the older messages in body and formatted_body](https://github.com/matrix-org/matrix-doc/issues/1654)
+which [have been under deprecating plans since 2020-09-19, maybe in the future...](https://github.com/matrix-org/matrix-doc/pull/2781)
 
 I think that was my biggest complaints on Matrix (or Synapse itself), that
 don't involve other protocols and I have personally experienced. My notes
@@ -159,3 +163,7 @@ or you can find me from a lot of the linked issues and there is also [issue trac
     so I have strikethrouged that and changed it to "by the matrix.org team".
     * Typing this it looks like this blogpost predates the demote of Synapse, but
       I wish to stay up-to-date with this post.
+    * I am also noting that `m.room.retention` doesn't persist across room upgrades
+      and linking to the Element-meta issue on self-destructing/disappearing messages
+      to not be confused with retention.
+    * Oh and reply fallbacks leaking previously encrypted messages too.
