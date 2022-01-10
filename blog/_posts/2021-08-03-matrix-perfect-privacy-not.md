@@ -81,7 +81,7 @@ I have one private room where history goes away after 7 days, but another with t
 same configuration (nowadays 31 days though), which I can scroll as far back
 as I want.)
 
-*Technical note: sorry about calling reference homeserver implementation issue
+*Technical note: sorry about calling <s>reference<s/> homeserver implementation by the matrix.org team issue
  as a Matrix protocol issue.*
 
 You may say that this requires you to trust the homeserver admin anyway and
@@ -93,7 +93,7 @@ Speaking of removals, once you remove a message [it will be stored in the databa
 and if you changed the homeserver address in your copied link, it would still
 keep on working. Is this something you expect from a private protocol? I don't, or I didn't before getting familiar with Matrix. There is also an [alternative proposal about this](https://github.com/matrix-org/matrix-doc/pull/2228).
 
-*By the way Synapse is still a reference homeserver implementation and not
+*By the way Synapse is still a <s>reference</s> homeserver implementation by the matrix.org and not
  Matrix protocol itself, so sorry about that for anyone technical reading this.*
 
 Do you use different names in different contexts? Like your Full Name in
@@ -155,3 +155,7 @@ or you can find me from a lot of the linked issues and there is also [issue trac
     test room and this list item.
   * 2021-09-09: It's brought to my attention that URL previews exist on Element
     iOS! It's 23.15 in Finland so I only strikethrough this issue.
+  * 2022-01-10: I am told that [Synapse is not a reference homeserver implementation since 2021-10-06](https://github.com/matrix-org/synapse/pull/10971#event-5418418970)
+    so I have strikethrouged that and changed it to "by the matrix.org team".
+    * Typing this it looks like this blogpost predates the demote of Synapse, but
+      I wish to stay up-to-date with this post.
