@@ -15,7 +15,7 @@ I was less available online. During that time, on 2021-11-18 9.30 UTC+2
 a pull request was force-merged by a team member listing three new projects
 and removing two.
 
-* https://github.com/privacyguides/privacyguides.org/pull/274
+* [privacyguides/privacyguides.org#274](https://github.com/privacyguides/privacyguides.org/pull/274)
 
 This was mentioned in the team room and reviews were asked during one hour
 period before the force-merge, but no one was online to review before it was
