@@ -115,7 +115,8 @@ regardless see their reactions on your emssages.
 
 I think that was my biggest complaints on Matrix (or Synapse itself), that
 don't involve other protocols and I have personally experienced. My notes
-for this blog post include [Matrix not having real contacts list](https://github.com/matrix-org/matrix-doc/pull/2228),
+for this blog post include [Elements not having real contacts list](https://github.com/vector-im/element-web/issues/4488),
+or in other words [Matrix not having canonical direct messages](https://github.com/matrix-org/matrix-doc/pull/2199),
 but they didn't occur to me and I guess it has been doing fine enough without
 implementing those.
 
