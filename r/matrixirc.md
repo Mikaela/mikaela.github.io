@@ -1,5 +1,5 @@
 ---
-redirect_to: https://matrix-org.github.io/matrix-appservice-irc/latest/bridged_networks.html
+redirect_to: https://github.com/matrix-org/matrix-appservice-irc/blob/develop/docs/bridged_networks.md
 permalink: /r/matrixirc.html
 redirect_from: /r/ircmatrix.html
 sitemap: true
