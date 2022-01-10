@@ -41,7 +41,7 @@ smaller steps:
           require and as this post hints, Matrix is even more impossible to manage
           without those.
 4. Clear cache and reload so the old space maybe disappears.
-5. See also https://github.com/vector-im/element-web/issues/19208
+5. See also [Element-web#19208: Allow upgrading spaces](https://github.com/vector-im/element-web/issues/19208)
 6. Now that there is a space, right click it to create a new room under it and
    select that it can only be joined by space members. You will hopefully end up
    with room version 9 (the default at time of writing is 6 and has even worse
