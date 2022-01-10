@@ -28,12 +28,13 @@ smaller steps:
    1. ***WARNING*** The room version number here is configured in Jekyll site
       variable, not one specific to this post.
    2. ***WARNING*** You should check [the Matrix spec](https://spec.matrix.org/latest/rooms/)
-      for the latest stable room version.
+      for the latest stable room version. Or maybe the [unstable spec](https://spec.matrix.org/unstable/rooms/)?
+      Or maybe you should just [search GitHub](https://github.com/matrix-org/matrix-doc/issues?q=room%20version)?
+      I have no idea how that works as the time of writing both are missing room versions 8 and 9.
    3. ***WARNING*** Traditionally homeservers by other parties than Matrix.org
       (read Synapse) lag behind on supported room versions and you may break
       your room for people using those. At the time of adding this note (2021-12-14), the
-      spec v1.1 is a month and couple of days old (2021-09-11) and room version
-      7 is not implemented by Conduit.
+      spec v1.1 is a month and couple of days old (2021-09-11) and [room version 7 is not implemented by Conduit](https://gitlab.com/famedly/conduit/-/issues/161).
        1. Yes, at the time of writing this post I am recommending version 9,
           while the aforementioned variable is {{ site.matrixLatestRoomVersion }},
           as that is what Element encourages and features such as restricted rooms
@@ -73,7 +74,7 @@ you have three methods to promote your other accounts:
   a git repository from which you can copy-paste it to all rooms, first `/devtools`,
   then "room state", "m.room.power_levels", "edit" and you can paste your new
   administrators there and press "send"! This is the only mass option you have,
-  and you will have to do this once every twenty rooms.
+  and you will have to do this in each twenty rooms.
 
 Remember you will have to do this every time you add a new moderator (or they
 will be unable to act in the room when they are needed)!
@@ -95,6 +96,11 @@ doesn't support wildcards in bans? No problem, [Matrix has your back with "Moder
 you simply use `/devtools` and ban the entire server by sending a completely new event
 `m.room.server_acl`, luckily you are a professional `/devtools` user at this point
 so having to do this 20 times is nothing to you.
+
+*2022-01-10 addition:* this becomes worse as Matrix Synapse alongside [the Matrix protocol itself will authorise everything done by servers that don't honour the `m.room.server_acl` event](https://github.com/matrix-org/matrix-doc/issues/3506)
+so as per the guide, you will have to acl those servers too (or the ACL might as well not exist). Sadly at the time
+of writing that also includes [Conduit, so all Conduits must be ACLed too](https://gitlab.com/famedly/conduit/-/issues/67),
+even if they weren't malicious. A minor comfort is that [Conduit doesn't currently support room versions 7, 8 and 9](https://gitlab.com/famedly/conduit/-/issues/161).
 
 ### Icing on the cake
 
