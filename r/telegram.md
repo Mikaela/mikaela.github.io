@@ -23,6 +23,7 @@ Now it's also note to self on themes that I like
 
 * Desktop: https://t.me/addtheme/sempiternal
 * Android: https://t.me/pbThemes/238 (C04)
+* iOS: https://t.me/addtheme/abtheme
 
 These may be mobile-only
 
