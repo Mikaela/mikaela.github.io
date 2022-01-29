@@ -60,6 +60,12 @@ And that is probably enough of annoyances with Element iOS, I hope the
 situation will improve in foreseeable future there due to
 [Matrix exploding with Element securing $30M funding to revolutionise the app’s usability, build out major new features, expand in the enterprise market and take Matrix fully mainstream!](https://element.io/blog/element-raises-30m-as-matrix-explodes/)
 
+2022-01-29: As seen from the strikethrough, two of six points on my list have
+been resolved, however today [FluffyChat released version 1.2.0 featuring stories](https://ko-fi.com/post/Whats-new-in-FluffyChat-1-2-0-Z8Z09LEO7).
+At the time of writing [stories are a draft Matrix spec proposal](https://github.com/matrix-org/matrix-doc/pull/3588)
+that in incompatible clients (such as Element Web and Element Android) appear as
+read-only rooms, however [Element iOS hides them completely with the exception of notifications that cannot be acknowledged](https://github.com/vector-im/element-ios/issues/5455).
+
 # You mentioned privacy?
 
 Yes, privacy is a big reason why Matrix is advertised and the lack of it is
