@@ -98,9 +98,9 @@ you simply use `/devtools` and ban the entire server by sending a completely new
 so having to do this 20 times is nothing to you.
 
 *2022-01-10 addition:* this becomes worse as Matrix Synapse alongside [the Matrix protocol itself will authorise everything done by servers that don't honour the `m.room.server_acl` event](https://github.com/matrix-org/matrix-doc/issues/3506)
-so as per the guide, you will have to acl those servers too (or the ACL might as well not exist). Sadly at the time
-of writing that also includes [Conduit, so all Conduits must be ACLed too](https://gitlab.com/famedly/conduit/-/issues/67),
-even if they weren't malicious. A minor comfort is that [Conduit doesn't currently support room versions 7, 8 and 9](https://gitlab.com/famedly/conduit/-/issues/161).
+so as per the guide, you will have to acl those servers too (or the ACL might as well not exist). <s>Sadly at the time
+of writing that also includes <a href="https://gitlab.com/famedly/conduit/-/issues/67">Conduit, so all Conduits must be ACLed too</a>,
+even if they weren't malicious.</s> A minor comfort is that [Conduit doesn't currently support room versions 7, 8 and 9](https://gitlab.com/famedly/conduit/-/issues/161).
 
 ### Icing on the cake
 
@@ -165,3 +165,7 @@ without additional money, you are improving my life greatly as I am not just
 going to stop using Matrix.
 
 * [Obligatory changelog link](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2021-12-05-matrix-community-abuse-security-by-obscurity.md)
+
+* * * * *
+
+* 2022-02-07: Conduit implemented ACL a couple of weeks ago, [Matrix Spec version is nowadays 1.2](https://matrix.org/blog/2022/02/02/matrix-v-1-2-release), but [no Element supports knocking from room version 7 (of Matrix 1.1)](https://github.com/vector-im/element-meta/issues/43) to my knowledge.
