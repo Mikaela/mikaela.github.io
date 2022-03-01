@@ -69,7 +69,8 @@ I do hope to be able to grow this list in the future.
 * Matrix was introduced in 2014 and I started using it in 2016. Many of the
   client and server implementations are heavy, especially on server side requiring what to outside looks
   like a constant maintenance to deal with the implementation performance issues,
-  I am not interested in even trying until the situation significantly improves.
+  I am not interested in even trying to selfhost a Matrix (home)server and bridges
+  until the situation significantly improves.
 
 ## And on transports, relays and bridges
 
