@@ -25,13 +25,16 @@ I do hope to be able to grow this list in the future.
 * IRC@Etro, [`#mikaela.info`](ircs://etro.mikaela.info:6697/#mikaela.info) *[onion](irc://otzmigofmchtadpek223bkmrzqoa6mmvhmr5dxqurcrtwalizfibuxid.onion:6667/#mikaela.info)*,
   my selfhosted IRC server.
   * [(Recommended) Webchat](https://irc.etro.mikaela.info/#mikaela.info)
+  * `MapAddress etro.mikaela.info otzmigofmchtadpek223bkmrzqoa6mmvhmr5dxqurcrtwalizfibuxid.onion`
 * [LiberaChat], [`#mikaela.info`](ircs://irc.libera.chat:6697/#mikaela.info)
   * [Gamja webchat](https://web.libera.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://web.libera.chat/#mikaela.info). *Warning: Libera.Chat has no message history*
+  * `MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion`
 * [Matrix], [`#mikaela.info:matrix.org`](matrix:roomid/xFKkXCpcnEwgBEQBFt:matrix.org?action=join&via=matrix.org&via=tedomum.net&via=the-apothecary.club),
   a decentralised conversation store.
   * [Convene webchat](https://letsconvene.im/app/#/join/%23mikaela.info:matrix.org), [PUBLIC LOG](https://view.matrix.org/room/!xFKkXCpcnEwgBEQBFt:matrix.org/)
 * [PirateIRC], [`#mikaela.info`](ircs://irc.pirateirc.net:6697/#mikaela.info)
   * [Gamja webchat](https://webchat.pirateirc.net/)
+  * `MapAddress irc.pirateirc.net cbmtec5xuhpjwjq245kpp5jk2wij63ydgu5vwbxvdamzibfubc5uzaqd.onion`
 * [Telegram], [invite link](https://t.me/joinchat/OEuthjzmg60xNzA0) a
   popular instant messenger with open source clients.
 * [Twitch], [Ciblia](https://twitch.tv/Ciblia), a propietary game streaming
