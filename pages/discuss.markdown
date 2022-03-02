@@ -25,9 +25,6 @@ I do hope to be able to grow this list in the future.
 * IRC@Etro, [`#mikaela.info`](ircs://etro.mikaela.info:6697/#mikaela.info) *[onion](irc://otzmigofmchtadpek223bkmrzqoa6mmvhmr5dxqurcrtwalizfibuxid.onion:6667/#mikaela.info)*,
   my selfhosted IRC server.
   * [(Recommended) Webchat](https://irc.etro.mikaela.info/#mikaela.info)
-* [ErgoChat], [`#mikaela.info`](ircs://irc.ergo.chat:6697/#mikaela.info), home of the Ergo IRCd
-  that I and most of this list happen to run.
-  * [Gamja webchat](https://ergo.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://ergo.chat/kiwi/#mikaela.info)
 * [LiberaChat], [`#mikaela.info`](ircs://irc.libera.chat:6697/#mikaela.info)
   * [Gamja webchat](https://web.libera.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://web.libera.chat/#mikaela.info). *Warning: Libera.Chat has no message history*
 * [Matrix], [`#mikaela.info:matrix.org`](matrix:roomid/xFKkXCpcnEwgBEQBFt:matrix.org?action=join&via=matrix.org&via=tedomum.net&via=the-apothecary.club),
