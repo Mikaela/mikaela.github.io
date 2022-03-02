@@ -24,7 +24,7 @@ I do hope to be able to grow this list in the future.
 
 * IRC@Etro, [`#mikaela.info`](ircs://etro.mikaela.info:6697/#mikaela.info)
   my selfhosted IRC server.
-  * [(Recommended) Webchat](https://irc.etro.mikaela.info/#mikaela.info)
+  * [(Recommended) Gamja webchat](https://irc.etro.mikaela.info/#mikaela.info)
   * `MapAddress etro.mikaela.info otzmigofmchtadpek223bkmrzqoa6mmvhmr5dxqurcrtwalizfibuxid.onion`
 * [LiberaChat], [`#mikaela.info`](ircs://irc.libera.chat:6697/#mikaela.info)
   * [Gamja webchat](https://web.libera.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://web.libera.chat/#mikaela.info). *Warning: Libera.Chat has no message history*
