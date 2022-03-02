@@ -55,7 +55,9 @@ I do hope to be able to grow this list in the future.
 ## A couple of words on protocols
 
 * IRC was invented in 1988 and regardless of developing integrated message
-  storage since then, it's still trivial to setup and runs well on a toaster. My personal
+  storage since then, it's still trivial to setup and runs well on a toaster.
+  IRC servers are generally easy to enable Tor support on and IRC clients
+  widely come with proxy settings where Tor can be enabled. My personal
   IRC history begins in 2010 as user and since then I have also opered
   mostly on Charybdis+Atheme and nowadays on a couple of Ergos.
 * XMPP runs on a bit more powerful toaster and the servers talk to each other
@@ -70,7 +72,8 @@ I do hope to be able to grow this list in the future.
   client and server implementations are heavy, especially on server side requiring what to outside looks
   like a constant maintenance to deal with the implementation performance issues,
   I am not interested in even trying to selfhost a Matrix (home)server and bridges
-  until the situation significantly improves.
+  until the situation significantly improves. Matrix clients also seldom
+  support connecting through Tor easily.
 
 ## And on transports, relays and bridges
 
