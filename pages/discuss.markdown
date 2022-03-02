@@ -30,6 +30,8 @@ I do hope to be able to grow this list in the future.
 * [Matrix], [`#mikaela.info:matrix.org`](matrix:roomid/xFKkXCpcnEwgBEQBFt:matrix.org?action=join&via=matrix.org&via=tedomum.net&via=the-apothecary.club),
   a decentralised conversation store.
   * [Convene webchat](https://letsconvene.im/app/#/join/%23mikaela.info:matrix.org), [PUBLIC LOG](https://view.matrix.org/room/!xFKkXCpcnEwgBEQBFt:matrix.org/)
+* [PirateIRC], [`#mikaela.info`](ircs://irc.pirateirc.net:6697/#mikaela.info)
+  * [Gamja webchat](https://webchat.pirateirc.net/)
 * [Telegram], [invite link](https://t.me/joinchat/OEuthjzmg60xNzA0) a
   popular instant messenger with open source clients.
 * [Twitch], [Ciblia](https://twitch.tv/Ciblia), a propietary game streaming
@@ -43,6 +45,7 @@ I do hope to be able to grow this list in the future.
 [LiberaChat]:https://libera.chat/
 [NixNet IRC]:https://docs.nixnet.services/IRC
 [Matrix]:https://matrix.org/
+[PirateIRC]:https://pirateirc.net/
 [Telegram]:https://telegram.org/
 [Twitch]:https://twitch.tv/
 [XMPP]:https://xmpp.org/
