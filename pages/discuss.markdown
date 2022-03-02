@@ -22,7 +22,7 @@ participants speaking it, but Finnish and Esperanto are also fine.<br> I sadly
 don't consider myself capable of holding a discussion in other languages, but
 I do hope to be able to grow this list in the future.
 
-* IRC@Etro, [`#mikaela.info`](ircs://etro.mikaela.info:6697/#mikaela.info) *[onion](irc://otzmigofmchtadpek223bkmrzqoa6mmvhmr5dxqurcrtwalizfibuxid.onion:6667/#mikaela.info)*,
+* IRC@Etro, [`#mikaela.info`](ircs://etro.mikaela.info:6697/#mikaela.info)
   my selfhosted IRC server.
   * [(Recommended) Webchat](https://irc.etro.mikaela.info/#mikaela.info)
   * `MapAddress etro.mikaela.info otzmigofmchtadpek223bkmrzqoa6mmvhmr5dxqurcrtwalizfibuxid.onion`
