@@ -6,5 +6,5 @@ Disallow: /txt/
 Disallow: /php/
 Noindex: /txt/
 Noindex: /php/
-Sitemap: https://mikaela.info/sitemap.xml
-Sitemap: https://mikaela.info/sitemaps.xml
+Sitemap: https://www.aminda.eu/sitemap.xml
+Sitemap: https://www.aminda.eu/sitemaps.xml
