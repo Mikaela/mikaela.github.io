@@ -1,8 +1,8 @@
-*This [work] by [Mikaela Suomalainen] is licensed under a
+*This [work] by [Aminda Suomalainen] is licensed under a
 [Creative Commons Attribution 4.0 International License].*
 
 [work]:https://github.com/Mikaela/mikaela.github.io/
-[Mikaela Suomalainen]:https://mikaela.info
+[Aminda Suomalainen]:https://www.aminda.eu
 [Creative Commons Attribution 4.0 International License]:https://creativecommons.org/licenses/by/4.0/
 
 Creative Commons Attribution 4.0 International Public License
