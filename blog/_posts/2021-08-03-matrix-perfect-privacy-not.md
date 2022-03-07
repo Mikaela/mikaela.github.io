@@ -25,7 +25,7 @@ It comes with two problems:
   should instead use some other homeserver which would also be good for
   healthy federation, but the interface doesn't suggest or offer you any
   other servers.
-  * maybe in the future [your account will be decentralized and that won't matter](https://github.com/matrix-org/matrix-doc/issues/915)?
+  * maybe in the future [your account will be decentralized and that won't matter](https://github.com/matrix-org/matrix-spec/issues/246)?
 * if you happen to be like me and use both Element Web and Element iOS, you
   will notice they are wildly inconsistent. I cannot comment on Element
   Android as my phone (Nokia 1 / TA-1047) is too weak powered for pleasant
@@ -62,7 +62,7 @@ situation will improve in foreseeable future there due to
 
 2022-01-29: As seen from the strikethrough, two of six points on my list have
 been resolved, however today [FluffyChat released version 1.2.0 featuring stories](https://ko-fi.com/post/Whats-new-in-FluffyChat-1-2-0-Z8Z09LEO7).
-At the time of writing [stories are a draft Matrix spec proposal](https://github.com/matrix-org/matrix-doc/pull/3588)
+At the time of writing [stories are a draft Matrix spec proposal](https://github.com/matrix-org/matrix-spec-proposals/pull/3588)
 that in incompatible clients (such as Element Web and Element Android) appear as
 read-only rooms, however [Element iOS hides them completely with the exception of notifications that cannot be acknowledged](https://github.com/vector-im/element-ios/issues/5455).
 
@@ -96,7 +96,7 @@ everything, they wouldn't throw that history to people who don't want to see it.
 
 Speaking of removals, once you remove a message [it will be stored in the database for server admins for 7 days](https://github.com/matrix-org/synapse/blob/ba5287f5e8be150551824493b3ad685dde00a543/docs/sample_config.yaml#L456-L461) which is fine for me, but if [this message happened to be media instead of text, it would never be removed](https://github.com/matrix-org/synapse/issues/1263) and should you have copied link to the media, it would keep on working
 and if you changed the homeserver address in your copied link, it would still
-keep on working. Is this something you expect from a private protocol? I don't, or I didn't before getting familiar with Matrix. There is also an [alternative proposal about this](https://github.com/matrix-org/matrix-doc/pull/2228).
+keep on working. Is this something you expect from a private protocol? I don't, or I didn't before getting familiar with Matrix. There is also an [alternative proposal about this](https://github.com/matrix-org/matrix-spec-proposals/pull/2228).
 
 *By the way Synapse is still a <s>reference</s> homeserver implementation by the matrix.org and not
  Matrix protocol itself, so sorry about that for anyone technical reading this.*
@@ -108,25 +108,25 @@ chat with your partner? [Congratulations, whatever is your latest room-specific 
 
 *Synapse didn't become Matrix protocol itself by the way, there are still other implementations!*
 
-This issue does have a potential solution [an API planned for room specific details (2015)](https://github.com/matrix-org/matrix-doc/issues/545)
-<s>and what I am hopeful about in the future <a href="https://github.com/matrix-org/matrix-doc/pull/3189">open pull request specification for space specific profiles</a>,
-unless it just moves the issue to a different level.</s> Which got [cancelled or delayed for an undefined time period](https://github.com/matrix-org/matrix-doc/pull/3189#issuecomment-905761797),
-["until extensible profiles and sync v3 become more concrete"](https://github.com/matrix-org/matrix-doc/pull/1769)
+This issue does have a potential solution [an API planned for room specific details (2015)](https://github.com/matrix-org/matrix-spec/issues/103)
+<s>and what I am hopeful about in the future <a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3189">open pull request specification for space specific profiles</a>,
+unless it just moves the issue to a different level.</s> Which got [cancelled or delayed for an undefined time period](https://github.com/matrix-org/matrix-spec-proposals/pull/3189#issuecomment-905761797),
+["until extensible profiles and sync v3 become more concrete"](https://github.com/matrix-org/matrix-spec-proposals/pull/1769)
 
 2021-08-27: I don't know how serious issue this may be for you, but any emoji/
-[reactions made on end-to-end-encrypted messages aren't encrypted](https://github.com/matrix-org/matrix-doc/issues/2678).
+[reactions made on end-to-end-encrypted messages aren't encrypted](https://github.com/matrix-org/matrix-spec/issues/660).
 It's fun in [E2EE test rooms](matrix:r/megolm:matrix.org?action=join) when you cannot read the other party, but
 regardless see their reactions on your messages.
 
 2022-01-10: In E2EE features, when you are invited to E2EE rooms, you generally
 cannot see the previously encrypted messages. However when those are encrypted,
-viewing [message source will reveal the older messages in body and formatted_body](https://github.com/matrix-org/matrix-doc/issues/1654)
-which [have been under deprecating plans since 2020-09-19, maybe in the future...](https://github.com/matrix-org/matrix-doc/pull/2781)
+viewing [message source will reveal the older messages in body and formatted_body](https://github.com/matrix-org/matrix-spec/issues/368)
+which [have been under deprecating plans since 2020-09-19, maybe in the future...](https://github.com/matrix-org/matrix-spec-proposals/pull/2781)
 
 I think that was my biggest complaints on Matrix (or Synapse itself), that
 don't involve other protocols and I have personally experienced. My notes
 for this blog post include [Elements not having real contacts list](https://github.com/vector-im/element-web/issues/4488),
-or in other words [Matrix not having canonical direct messages](https://github.com/matrix-org/matrix-doc/pull/2199),
+or in other words [Matrix not having canonical direct messages](https://github.com/matrix-org/matrix-spec-proposals/pull/2199),
 but they didn't occur to me and I guess it has been doing fine enough without
 implementing those.
 
@@ -138,7 +138,7 @@ at all. This list also wasn't complete on what issues I have with Matrix
 (and so close to the end I don't want to dig for references) and I have
 specific wishes that no protocol offers (at least not consistently,
 such as using multiple names and knowing which name I am using where or managing
-50 different rooms with same operators everywhere, but [that may get answered by Matrix](https://github.com/matrix-org/matrix-doc/pull/2962).)
+50 different rooms with same operators everywhere, but [that may get answered by Matrix](https://github.com/matrix-org/matrix-spec-proposals/pull/2962).)
 
 You may wonder was it nice of me to write so negative blog post. I find it
 therapeutic as [I have had an issue to me to write this since 2021-01-15](https://github.com/Mikaela/mikaela.github.io/issues/230)

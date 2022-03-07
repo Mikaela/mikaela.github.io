@@ -29,7 +29,7 @@ smaller steps:
       variable, not one specific to this post.
    2. ***WARNING*** You should check [the Matrix spec](https://spec.matrix.org/latest/rooms/)
       for the latest stable room version. Or maybe the [unstable spec](https://spec.matrix.org/unstable/rooms/)?
-      Or maybe you should just [search GitHub](https://github.com/matrix-org/matrix-doc/issues?q=room%20version)?
+      Or maybe you should just [search GitHub](https://github.com/matrix-org/matrix-spec-proposals/issues?q=room%20version)?
       I have no idea how that works as the time of writing both are missing room versions 8 and 9.
    3. ***WARNING*** Traditionally homeservers by other parties than Matrix.org
       (read Synapse) lag behind on supported room versions and you may break
@@ -97,7 +97,7 @@ you simply use `/devtools` and ban the entire server by sending a completely new
 `m.room.server_acl`, luckily you are a professional `/devtools` user at this point
 so having to do this 20 times is nothing to you.
 
-*2022-01-10 addition:* this becomes worse as Matrix Synapse alongside [the Matrix protocol itself will authorise everything done by servers that don't honour the `m.room.server_acl` event](https://github.com/matrix-org/matrix-doc/issues/3506)
+*2022-01-10 addition:* this becomes worse as Matrix Synapse alongside [the Matrix protocol itself will authorise everything done by servers that don't honour the `m.room.server_acl` event](https://github.com/matrix-org/matrix-spec/issues/928)
 so as per the guide, you will have to acl those servers too (or the ACL might as well not exist). <s>Sadly at the time
 of writing that also includes <a href="https://gitlab.com/famedly/conduit/-/issues/67">Conduit, so all Conduits must be ACLed too</a>,
 even if they weren't malicious.</s> A minor comfort is that [Conduit doesn't currently support room versions 7, 8 and 9](https://gitlab.com/famedly/conduit/-/issues/161).
