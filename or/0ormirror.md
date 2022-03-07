@@ -7,8 +7,9 @@ redirect_from:
 sitemap: true
 ---
 
-https://gitea.blesmrt.net/mikaela/ormirror
-(mirror) https://git.privacytools.io/Mikaela/ormirror
+* https://gitea.blesmrt.net/mikaela/ormirror
+* https://github.com/mikaela/ormirror
+* https://gitlab.com/mikaela/ormirror
 
 Mirror of this directory for easier cloning without all the irrelevant
 history.

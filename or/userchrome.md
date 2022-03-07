@@ -4,6 +4,8 @@ permalink: /or/userchrome.html
 sitemap: true
 ---
 
+***WARNING: I am not able to find current onion on 2022-03-07***
+
 http://ea5faa5po25cf7fb.onion/projects/tor/ticket/30812#comment:3
 
 More details: turns letterboxing dark, check the profile location in

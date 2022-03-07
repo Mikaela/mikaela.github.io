@@ -5,6 +5,6 @@ redirect_from: /or/debian.html
 sitemap: true
 ---
 
-http://5nca3wxl33tzlzj5.onion/
+http://jvgypgbnfyvfopg5msp6nwr2sl2fd6xmnguq35n7rfkw3yungjn2i4yd.onion/
 
 Proof: https://onion.debian.org/

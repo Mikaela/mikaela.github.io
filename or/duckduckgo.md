@@ -7,8 +7,6 @@ redirect_from:
 sitemap: true
 ---
 
-https://3g2upl4pq6kufc4m.onion/
+https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/
 
-Proof: FIXME! At the time of writing this onion is down, but it supposedly
-       has a valid certificate and is widely said to be the official onion.
-       2019-05-03 11:20+0300
+Proof: https://start.duckduckgo.com/?q=duckduckgo+onion&ia=answer

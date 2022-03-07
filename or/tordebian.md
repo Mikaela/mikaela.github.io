@@ -9,6 +9,6 @@ redirect_from:
 sitemap: true
 ---
 
-http://qrmfuxwgyzk5jdjz.onion/docs/debian.html.en
+http://jqyzxhjk6psc6ul5jnfwloamhtyh7si74b4743k2qgpskwwxrzhsxmad.onion/docs/debian.html.en
 
 Proof: https://onion.torproject.org/

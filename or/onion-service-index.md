@@ -4,7 +4,6 @@ permalink: /or/onion-service-index.html
 sitemap: true
 ---
 
-http://jld3zkuo4b5mbios.onion/
 http://vwx4mjvwoszgnagzcrwdjlsq3pq3zyob3zpq5qissxdoivnuyylzn7yd.onion/
 
 Note: I am adding this as a joke, because they request feeding this to

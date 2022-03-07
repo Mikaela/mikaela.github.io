@@ -5,8 +5,7 @@ redirect_from: /or/fb.html
 sitemap: true
 ---
 
-https://facebookcorewwwi.onion/
+https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 
-Proof: https://blog.torproject.org/facebook-hidden-services-and-https-certs
-       https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237
-         https://facebookcorewwwi.onion/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237
+Proof: https://www.facebook.com/facebookcorewwwi/posts/3727741430665883
+       https://www.facebook.com/onion-service
