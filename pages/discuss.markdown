@@ -75,7 +75,8 @@ I do hope to be able to grow this list in the future.
   client and server implementations are heavy, especially on server side requiring what to outside looks
   like a constant maintenance to deal with the implementation performance issues,
   I am not interested in even trying to selfhost a Matrix (home)server and bridges
-  until the situation significantly improves. [Matrix clients also seldom support connecting through Tor easily](https://github.com/vector-im/element-meta/issues/200).
+  until the situation significantly improves. [Matrix clients also seldom support connecting through Tor easily](https://github.com/vector-im/element-meta/issues/200),
+  while the [Synapse server by Matrix.org team doesn't support connecting](https://github.com/matrix-org/synapse/issues/5152) through [I2P or Tor](https://github.com/matrix-org/synapse/issues/5455) at [all](https://github.com/matrix-org/synapse/issues/7088).
 
 ## And on transports, relays and bridges
 
