@@ -1,7 +1,10 @@
 ---
 layout: null
-permalink: /r/vowifi.html
-redirect_from: /r/VoWiFi.html
+permalink: /n/vowifi.html
+redirect_from:
+  - /r/vowifi.html
+  - /r/VoWiFi.html
+  - /n/VoWiFi.html
 sitemap: true
 ---
 

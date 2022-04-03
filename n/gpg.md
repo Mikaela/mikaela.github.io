@@ -1,11 +1,17 @@
 ---
 layout: null
-permalink: /r/gpg.html
+permalink: /n/gpg.html
 redirect_from:
+  - /r/gpg.html
   - /r/gnupg.html
   - /r/clawsmail.html
   - /r/claws-mail.html
   - /r/wkd.html
+  - /n/gnupg.html
+  - /n/clawsmail.html
+  - /n/claws-mail.html
+  - /n/wkd.html
+
 sitemap: true
 ---
 

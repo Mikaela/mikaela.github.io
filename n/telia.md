@@ -1,6 +1,7 @@
 ---
 layout: null
-permalink: /r/telia.html
+permalink: /n/telia.html
+redirect_from: /r/telia.html
 sitemap: true
 ---
 

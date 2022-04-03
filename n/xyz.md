@@ -1,6 +1,7 @@
 ---
 layout: null
-permalink: /r/xyz.html
+permalink: /n/xyz.html
+redirect_from: /r/xyz.html
 sitemap: true
 ---
 

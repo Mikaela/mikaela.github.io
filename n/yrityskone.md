@@ -1,6 +1,7 @@
 ---
 layout: null
-permalink: /r/yrityskone.html
+permalink: /n/yrityskone.html
+redirect_from: /r/yrityskone.html
 sitemap: true
 ---
 

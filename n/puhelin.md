@@ -1,10 +1,14 @@
 ---
 layout: null
-permalink: /r/puhelin.html
+permalink: /n/puhelin.html
 redirect_from:
+  - /r/puhelin.html
   - /r/puhelimet.html
   - /r/phone.html
   - /r/phones.html
+  - /n/puhelimet.html
+  - /n/phone.html
+  - /n/phones.html
 sitemap: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: null
-permalink: /r/telegram.html
+permalink: /n/telegram.html
+redirect_from: /r/telegram.html
 sitemap: true
 ---
 

@@ -10,7 +10,8 @@ Directories:
 * css/ — css
 * pages/ — normal pages
 * php/ — php scripts that haven't found their way anywhere else
-* r/ — redirects, some kind of personal URL shorrtener
+* n/ — notes to self with rememberable URLs, see {r,or,ir}/
+* r/ — redirects, some kind of personal URL shortener
 * or/ — same, but not redirecting and for Tor Onion Services
 * ir/ — same, but for I2P eepsites
 
