@@ -1,14 +1,4 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
-Contact: mailto:mikaela@mikaela.info
+Contact: mailto:suomalainen@mikaela.info
 Encryption: https://mikaela.info/PGP/0xBAE30723.txt
 Preferred-Languages: fi, en, eo
 Canonical: https://mikaela.info/.well-known/security.txt
------BEGIN PGP SIGNATURE-----
-
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCXpNejhUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByNfnQEA/gubXOVrpkK7vEak8fLwwyE1aB1P
-8VUtQS7O2ctznq0A/A8/0S7mQqV3npmkPIqBcA4+YKoZwaEiouFPcUt7ehEC
-=/BoF
------END PGP SIGNATURE-----
