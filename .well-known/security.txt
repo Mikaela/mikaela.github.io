@@ -2,3 +2,4 @@ Contact: mailto:suomalainen@mikaela.info
 Encryption: https://mikaela.info/PGP/0xBAE30723.txt
 Preferred-Languages: fi, en, eo
 Canonical: https://mikaela.info/.well-known/security.txt
+# SSH-signature: https://mikaela.info/.well-known/security.txt.sig
