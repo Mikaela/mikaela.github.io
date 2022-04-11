@@ -1,5 +1,5 @@
 Contact: mailto:suomalainen@mikaela.info
-Encryption: https://mikaela.info/PGP/0xBAE30723.txt
+Encryption: https://www.aminda.eu/PGP/0xBAE30723.txt
 Preferred-Languages: fi, en, eo
-Canonical: https://mikaela.info/.well-known/security.txt
-# SSH-signature: https://mikaela.info/.well-known/security.txt.sig
+Canonical: https://www.aminda.eu/.well-known/security.txt
+# SSH-signature: https://www.aminda.eu/.well-known/security.txt.sig
