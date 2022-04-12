@@ -98,7 +98,7 @@ I do hope to be able to grow this list in the future.
     (that Matterbridge also supports) and Matrix Discord bridge*.
   * Common complaint from *Matrix* users is that they look ugly, but as shown
     by *IRC and Discord*, that doesn't have to be the case
-    [and I hope *Matrix will fix their issue allowing low-budget "toasterbridges"](https://github.com/matrix-org/matrix-spec/issues/840)*.
+    *[and I hope Matrix will fix their issue allowing low-budget "toasterbridges"](https://github.com/matrix-org/matrix-spec/issues/840)*.
 * *Bridges are popularised by Matrix* and *are almost XMPP transports*. However
   while *XMPP transports connect to the other protocol, bridges attempt to
   copy everything on both sides* so *Matrix users* see each other directly instead
