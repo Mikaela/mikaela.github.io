@@ -1,5 +1,13 @@
 name: HTML5 Validator
-uses: Cyb3r-Jak3/html5validator-action@v7.1.1
-with:
-  root: _site/
-  blacklist: r or ir
+on:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2 # Requried will all actions
+    - uses: Cyb3r-Jak3/html5validator-action@v7.1.1
+    - name: Checks HTML5 validity
+      with:
+        root: _site/
+        blacklist: r or ir
