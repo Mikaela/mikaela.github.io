@@ -20,7 +20,7 @@ jobs:
         bundle exec jekyll build --drafts --profile
 
     - name: Checks HTML5 validity
-      uses: Cyb3r-Jak3/html5validator-action@v7.1.1
+      uses: Cyb3r-Jak3/html5validator-action@v7
       with:
         root: _site/
         blacklist: n r or ir
