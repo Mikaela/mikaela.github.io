@@ -5,9 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2 # Requried will all actions
-    - uses: Cyb3r-Jak3/html5validator-action@v7.1.1
+    - uses: actions/checkout@v2 # Required will all actions
     - name: Checks HTML5 validity
+      uses: Cyb3r-Jak3/html5validator-action@v7.1.1
       with:
         root: _site/
         blacklist: r or ir
