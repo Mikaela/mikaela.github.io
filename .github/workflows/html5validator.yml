@@ -23,4 +23,4 @@ jobs:
       uses: Cyb3r-Jak3/html5validator-action@v7.1.1
       with:
         root: _site/
-        blacklist: r or ir
+        blacklist: n r or ir
