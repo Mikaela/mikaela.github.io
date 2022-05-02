@@ -1,11 +1,24 @@
 name: HTML5 Validator
+
 on:
   push:
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
     - uses: actions/checkout@v2 # Required will all actions
+
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+    - name: Jekyll build
+        run: |
+          bundle exec jekyll build --drafts --profile
+
     - name: Checks HTML5 validity
       uses: Cyb3r-Jak3/html5validator-action@v7.1.1
       with:
