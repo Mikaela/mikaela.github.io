@@ -1,5 +1,5 @@
-    - name: HTML5Validator
-      uses: Cyb3r-Jak3/html5validator-action
-      with:
-        root: _site/
-        blacklist: r or ir
+- name: HTML5Validator
+  uses: Cyb3r-Jak3/html5validator-action
+  with:
+    root: _site/
+    blacklist: r or ir
