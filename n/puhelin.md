@@ -26,4 +26,4 @@ International used phones:
 * Ebay
 * gh.de https://geizhals.eu/ - German price comparsion with LOS option
 
-Katso myös /r/yrityskone
+Katso myös /n/yrityskone
