@@ -170,21 +170,18 @@ These likely also exist, but just without the `vendor-` part when searhcing.
   * [Breaks IPFS companion subdomain gateway redirect](https://github.com/ipfs-shipyard/ipfs-companion/issues/855), see also [Firefox bug 1220810 Consider hardcoding localhost names to the loopback address](https://bugzilla.mozilla.org/show_bug.cgi?id=1220810#c23)
 * `security.certerrors.mitm.auto_enable_enterprise_roots` to `false` in order to not trust system CA store in case of enterprise MITM
 * `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. This may be a bit paranoid, but *only the paranoid survive.*
-* `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
-  used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
-* <s>`extensions.pocket.enabled` to `false` so the Pocket integration goes away</s>
-* On Linux `widget.content.gtk-theme-override` (a string that has to be created by
+* (`privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
+  used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/))
+* (On Linux `widget.content.gtk-theme-override` (a string that has to be created by
   user) to `Adwaita:light` so text boxes in dark themes become readable,
   thank you [Dovydas Venckus](https://www.dovydasvenckus.com/linux/2018/08/20/fix-firefox-dark-input-fields-on-gnome/)
-    * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315)
+    * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315))
 * `image.animation_mode` to `once` in order to have gifs play once and
   then stop everywhere (`none` to never have them play).
  * `geo.provider.network.url` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
-* <s>`media.peerconnection.enabled` to `false` in order to disable WebRTC (potential IP leaker, will break VoIP/calls, but those are better outside of Firefox anyway)</s> *Not needed anymore in 2020, WebRTC has improved to not do that.*
-  * `media.navigator.enabled` to `false` in order to also hide cameras and microphones from websites. *I am not sure if this is still necessary either, but maybe it will remind me that I have focused my VoIP to Chromium?*
-* `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful.
+* `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful. E.g. Cyrillic alphabet
 * `reader.parse-on-load.force-enabled` to `true` in order to allow reader use to be used on ~all websites and devices (regardless of low RAM?)
-*  `toolkit.telemetry.server` to empty in order to not send telemetry (which may be blocked by filtering DNS providers such as AdGuard or NextDNS resulting high amount of failing queries)
+*  (`toolkit.telemetry.server` to empty in order to not send telemetry (which may be blocked by filtering DNS providers such as AdGuard or NextDNS resulting high amount of failing queries))
 
 Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/show_bug.cgi?id=1497263) ?
 
@@ -199,6 +196,7 @@ Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/sh
       down stops DNS from working on your Firefox entirely, which may be
       more of a problem than unencrypted SNI as not everyone supports it.
         * since then I have decided that 5 is the best option, because otherwise it goes past ***my*** Unbound setup. I hope Mozilla/Firefox will fix the two bugs linked above, so I don't have to choose between DNS under my control vs encrypted SNI.
+    * Are you using a VPN? Do they provide a DoH server? If yes, maybe the answer is 5 for eSNI?
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
   `https://dns.quad9.net/dns-query` or `https://149.112.112.112/dns-query` (removes the need for `network.trr.bootstrapAddress` and allows `network.trr.mode` `3`?) or
