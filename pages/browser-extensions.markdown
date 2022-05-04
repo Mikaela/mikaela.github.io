@@ -169,7 +169,7 @@ These likely also exist, but just without the `vendor-` part when searhcing.
 * `dom.security.https_only_mode` to `true` to force HTTPS and not need HTTPS Everywhere
   * [Breaks IPFS companion subdomain gateway redirect](https://github.com/ipfs-shipyard/ipfs-companion/issues/855), see also [Firefox bug 1220810 Consider hardcoding localhost names to the loopback address](https://bugzilla.mozilla.org/show_bug.cgi?id=1220810#c23)
 * `security.certerrors.mitm.auto_enable_enterprise_roots` to `false` in order to not trust system CA store in case of enterprise MITM
-* `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. *I am not sure if this is a good idea.*
+* `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. This may be a bit paranoid, but *only the paranoid survive.*
 * `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
   used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
 * <s>`extensions.pocket.enabled` to `false` so the Pocket integration goes away</s>
