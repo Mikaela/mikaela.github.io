@@ -1,13 +1,10 @@
 ---
-redirect_to: https://github.com/matrix-org/matrix.to/issues/24
+redirect_to: https://spec.matrix.org/latest/appendices/#matrix-uri-scheme
 permalink: /r/matrix.html
 redirect_from:
-  - /r/matrixto.html
-  - /r/matrix.to.html
-  - /r/rmatrix.html
-  - /r/matrixr.html
-  - /r/matrixredirect.html
-  - /r/matrixf.html
-  - /r/matrixforward.html
+  - /r/matrixuri.html
+  - /r/matrixurl.html
+  - /r/matrixurischeme.html
+  - /r/matrixurlscheme.html
 sitemap: true
 ---
