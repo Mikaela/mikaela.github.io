@@ -28,7 +28,9 @@ sitemap:
 # disappear?
 include: [PGP, PHP, keybase.txt, robots.txt, .well-known, ipfs-files]
 
-# Saving time and nerves from blogging about Matrix
+# Latest Matrix room version for blog posts or /upgraderoom advice. If I
+# need something from the latest version, this is it once the servers I care
+# about have upgraded. Otherwise this is based on my discretion.
 matrixLatestRoomVersion: 9
 
 avatar: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/250.jpeg
