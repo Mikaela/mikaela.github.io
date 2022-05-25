@@ -29,7 +29,7 @@ I do hope to be able to grow this list in the future.
 * [LiberaChat], [`#mikaela.info`](ircs://irc.libera.chat:6697/#mikaela.info)
   * [Gamja webchat](https://web.libera.chat/gamja/#mikaela.info), [KiwiIRC webchat](https://web.libera.chat/#mikaela.info). *Warning: Libera.Chat has no message history*
   * `MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion`
-* [Matrix], [`#mikaela.info:matrix.org`](matrix:roomid/xFKkXCpcnEwgBEQBFt:matrix.org?action=knock&via=matrix.org&via=tedomum.net&via=the-apothecary.club),
+* [Matrix], [`#mikaela.info:matrix.org`](matrix:roomid/xFKkXCpcnEwgBEQBFt:matrix.org?action=join&via=matrix.org&via=tedomum.net&via=the-apothecary.club),
   a decentralised conversation store.
   * [Convene webchat](https://letsconvene.im/app/#/join/%23mikaela.info:matrix.org), [PUBLIC LOG](https://view.matrix.org/room/!xFKkXCpcnEwgBEQBFt:matrix.org/)
 * [PirateIRC], [`#mikaela.info`](ircs://irc.pirateirc.net:6697/#mikaela.info)
