@@ -51,10 +51,10 @@ problems sooner or later:
   should you attempt to join or be invited to one, you will get a banner
   saying that they aren't implemented yet and you cannot accept or reject
   the invite unless you open Element Web to do that.</s>
-* Another issue I am editing in hours later is pills, when you mention
+* <s>Another issue I am editing in hours later is pills, when you mention
   someone on Element (Web), or someone else mentions someone, there is a clear
   pill shape around their name and it can be clicked to get to their profile,
-  [but not on Element (iOS)](https://github.com/vector-im/element-ios/issues/3526)
+  <a href="https://github.com/vector-im/element-ios/issues/3526">but not on Element (iOS)</a></s>
 
 And that is probably enough of annoyances with Element iOS, I hope the
 situation will improve in foreseeable future there due to
@@ -173,3 +173,4 @@ or you can find me from a lot of the linked issues and there is also [issue trac
       and linking to the Element-meta issue on self-destructing/disappearing messages
       to not be confused with retention.
     * Oh and reply fallbacks leaking previously encrypted messages too.
+  * 2022-05-31: I noticed that Element iOS has gotten pills. Strikethrough time.
