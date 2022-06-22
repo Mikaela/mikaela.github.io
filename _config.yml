@@ -50,3 +50,6 @@ ipfsGateway: https://gateway.ipfs.io
 ipfsSubdomainGateway: ipfs.dweb.link
 # this should be simple to use
 ipnsSubdomainGateway: ipns.dweb.link
+
+# {{site.keyoxide}}/whatever
+keyoxide: https://keyoxide.org
