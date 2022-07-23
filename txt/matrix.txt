@@ -27,9 +27,16 @@ Others
 Bots
 ----
 
-* matrix:u/mikaela.matterbridge:converser.eu - inactive previous iteration
 * matrix:u/mikaela.matterbridge:tedomum.net - currently used
 * matrix:u/aminda.matterbridge:jae.fi - future iteration
+* matrix:u/aminda.git:pirateriot.net - Gitea webhooks (access token on multiple instances),
+  Matrix doesn't have scopped access tokens yet https://github.com/matrix-org/matrix-spec-proposals/pull/2967
+
+
+Old bots
+--------
+
+* matrix:u/mikaela.matterbridge:converser.eu - inactive previous iteration
 
 Legacy
 ------
@@ -40,6 +47,7 @@ likely not me, please kban on sight unless otherwise stated.
 * matrix:u/mikaela:disroot.org
 * matrix:u/mikaela:privacytools.io
 * matrix:u/mikaela:feneas.org
+  * matrix:u/mikaela-matterbridge:feneas.org was the first matterbridge account
 * matrix:u/mikaela:liberta.casa
 
 * * * * *
