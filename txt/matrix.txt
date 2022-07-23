@@ -1,6 +1,8 @@
 My Matrix accounts
 ==================
 
+Desktop users: CTRL-U to view source and check the linewrap box.
+
 Having multiple accounts on different homeservers is preferable for many reasons such as ensuring decentralisation of power and being able to manage rooms from multiple places even with federation meltdown.
 
 Primary accounts
@@ -46,4 +48,4 @@ These homeservers no longer exist and should they reappear it's most likely not 
 * * * * *
 
 Aminda Suomalainen
-2022-07-23 21:01+0300
+2022-07-23 21:11+0300
