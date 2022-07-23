@@ -1,22 +1,18 @@
 My Matrix accounts
 ==================
 
-Having multiple accounts on different homeservers is preferable for many
-reasons such as ensuring decentralisation of power and being able to manage
-rooms from multiple places even with federation meltdown.
+Having multiple accounts on different homeservers is preferable for many reasons such as ensuring decentralisation of power and being able to manage rooms from multiple places even with federation meltdown.
 
 Primary accounts
 ----------------
 
 * matrix:u/aminda:pikaviestin.fi - main
-* matrix:u/mikaela.suomalainen:matrix.org - professional context where
-  shouldersurfing may be a concern. Also Element-{Android,iOS}
+* matrix:u/mikaela.suomalainen:matrix.org - professional context where shouldersurfing may be a concern. Also Element-{Android,iOS}. (Predates my December 2021 namechange a bit)
 
 Others
 ------
 
-* matrix:u/Ciblia:matrix.org - ~2016 retro MXID (nowadays they aren't allowed
-  to have capital letters which I did by accident)
+* matrix:u/Ciblia:matrix.org - ~2016 retro MXID (nowadays they aren't allowed to have capital letters which I did by accident)
 * matrix:u/aminda:matrix.org - https://github.com/vector-im/element-web/issues/17483
 * matrix:u/aminda:mozilla.org https://github.com/flathub/im.riot.Riot/issues/268#issuecomment-1103213448
 * matrix:u/aminda:tedomum.net
@@ -29,9 +25,7 @@ Bots
 
 * matrix:u/mikaela.matterbridge:tedomum.net - currently used
 * matrix:u/aminda.matterbridge:jae.fi - future iteration
-* matrix:u/aminda.git:pirateriot.net - Gitea webhooks (access token on multiple instances),
-  Matrix doesn't have scopped access tokens yet https://github.com/matrix-org/matrix-spec-proposals/pull/2967
-
+* matrix:u/aminda.git:pirateriot.net - Gitea webhooks (access token on multiple instances), Matrix doesn't have scopped access tokens yet https://github.com/matrix-org/matrix-spec-proposals/pull/2967
 
 Old bots
 --------
@@ -41,8 +35,7 @@ Old bots
 Legacy
 ------
 
-These homeservers no longer exist and should they reappear it's most
-likely not me, please kban on sight unless otherwise stated.
+These homeservers no longer exist and should they reappear it's most likely not me, please kban on sight unless otherwise stated.
 
 * matrix:u/mikaela:disroot.org
 * matrix:u/mikaela:privacytools.io
@@ -53,4 +46,4 @@ likely not me, please kban on sight unless otherwise stated.
 * * * * *
 
 Aminda Suomalainen
-2022-07-23 16:59+0300
+2022-07-23 21:01+0300
