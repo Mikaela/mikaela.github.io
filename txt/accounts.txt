@@ -1,7 +1,4 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
-PGP-signed list of my accounts for benefit of those who require them before
+SSH-signed list of my accounts for benefit of those who require them before
 following or similar. It is also for my benefit so I can check somewhere
 easily where I should be updating my accounts. Referral links have
 also moved here from their own page as alone they seem a bit spammy to me.
@@ -10,6 +7,8 @@ If something is missing and you aren't certain if it's me, please feel free
 to ask for updates.
 
 I cannot guarantee actively checking or following all of this huge list.
+
+XMPP and Matrix have moved to their own list. See also https://keyoxide.org/wkd/suomalainen%40aminda.eu
 
 ## Books
 
@@ -43,15 +42,10 @@ https://www.twitch.tv/ciblia
 ## Instant Messaging
 
 https://threema.id/8ZM6J4T9
-xmpp:mikaela@blesmrt.net - private messages, small groups, friends
-xmpp:mikaela@disroot.org - bigger groups so I can switch one account off and have peace if I get overwhelmed
 
 ### Team chat
 
 https://keybase.io/Mikaela
-@Ciblia:matrix.org - not in use, holds ownerships in some communities
-@mikaela:feneas.org - mainish account
-@mikaela:pirateriot.net - backup account
 
 ## Language learning
 
@@ -87,10 +81,3 @@ Warning: anyone can edit these.
 https://indieweb.org/User:Mikaela.info
 https://wiki.piraattipuolue.fi/K%C3%A4ytt%C3%A4j%C3%A4:Mikaela
 
------BEGIN PGP SIGNATURE-----
-
-iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYWXFXhUcbWlrYWVsYUBt
-aWthZWxhLmluZm8ACgkQmTkvYrrjByMOXQEAqFqTODC7BrZq2zFVRUiWHztHYWXS
-Ov8fKM+imz79ay0BAM+u9xPZPvOl51G7ks4X6K9+OCe5Ggk+AWhiXyRhxPkI
-=4ZTs
------END PGP SIGNATURE-----
