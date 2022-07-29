@@ -1,8 +1,6 @@
 My Matrix accounts
 ==================
 
-Desktop users: CTRL-U to view source and check the linewrap box.
-
 Having multiple accounts on different homeservers is preferable for many reasons such as ensuring decentralisation of power and being able to manage rooms from multiple places even with federation meltdown.
 
 Primary accounts
@@ -25,14 +23,19 @@ Others
 Bots
 ----
 
-* matrix:u/mikaela.matterbridge:tedomum.net - currently used
-* matrix:u/aminda.matterbridge:jae.fi - future iteration
+* matrix:u/mikaela.matterbridge:tedomum.net - currently used, migrating to jae.fi
+* matrix:u/aminda.matterbridge:jae.fi - partially used, migrating from ^
 * matrix:u/aminda.git:pirateriot.net - Gitea webhooks (access token on multiple instances), Matrix doesn't have scopped access tokens yet https://github.com/matrix-org/matrix-spec-proposals/pull/2967
 
 Old bots
 --------
 
 * matrix:u/mikaela.matterbridge:converser.eu - inactive previous iteration
+
+Bridges
+-------
+
+Please refer to irc.txt, telegram.txt and xmpp.txt
 
 Legacy
 ------
@@ -47,5 +50,7 @@ These homeservers no longer exist and should they reappear it's most likely not 
 
 * * * * *
 
+PS. For SSH signature add .sig to the end of the URL
+
 Aminda Suomalainen
-2022-07-23 21:11+0300
+2022-07-30 00:28+0300

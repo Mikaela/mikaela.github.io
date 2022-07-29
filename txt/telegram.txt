@@ -1,17 +1,10 @@
-I am https://t.me/AmindaEU at Telegram, but as per their username policy[1]
-I am unable to reserve the name there due to not being a user of Facebook,
-Twitter or Instagram and I have no desire to become one.
+I am https://t.me/AmindaEU at Telegram, but as per their username policy[1], I am unable to reserve the name there due to not being a user of Facebook, Twitter or Instagram and I have no desire to become one.
 
 [1]:https://telegram.org/faq#q-what-do-i-do-if-my-username-is-taken
 
-This means that theoretically anyone could takeover any Telegram username
-I register and thus my account there should be confirmed outside of Telegram
-to ensure I am being chatted with, not someone who registered my username at
-two of three of those services and thus got the username transferred to
-them.
+This means that theoretically anyone could takeover any Telegram username I register and thus my account there should be confirmed outside of Telegram to ensure I am being chatted with, not someone who registered my username at two of three of those services and thus got the username transferred to them.
 
-Coming to this file from Telegram? For other options reaching me, check
-www.aminda.eu [2] or txt/accounts.txt [3].
+Coming to this file from Telegram? For other options reaching me, check www.aminda.eu [2] or txt/accounts.txt [3].
 
 Looking for my public Telegram group? Check /discuss[4]
 
@@ -22,3 +15,8 @@ Looking for my public Telegram group? Check /discuss[4]
 Note SSH signature by appending `.sig` to this file [5].
 
 [5]:https://www.aminda.eu/txt/telegram.txt.sig
+
+Matrix (matrix.txt) & technical people: my ID is 575404822, but please ensure the room has a trustworthy bridge and the MXID actually belongs to it.
+
+Aminda Suomalainen
+2022-07-30 00:33+0300
