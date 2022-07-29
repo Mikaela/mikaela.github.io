@@ -32,9 +32,9 @@ smaller steps:
       Or maybe you should just [search GitHub](https://github.com/matrix-org/matrix-spec-proposals/issues?q=room%20version)?
       I have no idea how that works as the time of writing both are missing room versions 8 and 9.
    3. ***WARNING*** Traditionally homeservers by other parties than Matrix.org
-      (read Synapse) lag behind on supported room versions and you may break
+      (read Synapse/Dendrite) lag behind on supported room versions and you may break
       your room for people using those. At the time of adding this note (2021-12-14), the
-      spec v1.1 is a month and couple of days old (2021-09-11) and [room version 7 is not implemented by Conduit](https://gitlab.com/famedly/conduit/-/issues/161).
+      spec v1.1 is a month and couple of days old (2021-09-11) <s>and <a href="https://gitlab.com/famedly/conduit/-/issues/161§">room version 7 is not implemented by Conduit</a></s>.
        1. Yes, at the time of writing this post I am recommending version 9,
           while the aforementioned variable is {{ site.matrixLatestRoomVersion }},
           as that is what Element encourages and features such as restricted rooms
@@ -100,7 +100,7 @@ so having to do this 20 times is nothing to you.
 *2022-01-10 addition:* this becomes worse as Matrix Synapse alongside [the Matrix protocol itself will authorise everything done by servers that don't honour the `m.room.server_acl` event](https://github.com/matrix-org/matrix-spec/issues/928)
 so as per the guide, you will have to acl those servers too (or the ACL might as well not exist). <s>Sadly at the time
 of writing that also includes <a href="https://gitlab.com/famedly/conduit/-/issues/67">Conduit, so all Conduits must be ACLed too</a>,
-even if they weren't malicious.</s> A minor comfort is that [Conduit doesn't currently support room versions 7, 8 and 9](https://gitlab.com/famedly/conduit/-/issues/161).
+even if they weren't malicious.</s> <s>A minor comfort is that <a href="https://gitlab.com/famedly/conduit/-/issues/161">Conduit doesn't currently support room versions 7, 8 and 9</a></s>
 
 ### Icing on the cake
 
@@ -169,3 +169,8 @@ going to stop using Matrix.
 * * * * *
 
 * 2022-02-07: Conduit implemented ACL a couple of weeks ago, [Matrix Spec version is nowadays 1.2](https://matrix.org/blog/2022/02/02/matrix-v-1-2-release), but [no Element supports knocking from room version 7 (of Matrix 1.1)](https://github.com/vector-im/element-meta/issues/43) to my knowledge.
+* 2022-07-29: Conduit has had room versions 7, 8 and 9 for some time now, Matrix Spec version
+  has been at version 1.3 for a couple of weeks (2022-06-16), Dendrite has
+  supported room version 10 since around that time, Synapse has it in rc that
+  hopefully releases next week and Elements still don't support knocking
+  (from Matrix room version 7).
