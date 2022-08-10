@@ -142,7 +142,7 @@ TODO: Sort this list.
 
 -->
 
-## Chromium flags
+# Chromium flags
 
 These can generally be found from `about:flags` on Chromium based browsers, for Vivaldi explicit `vivaldi://flags` is required and it also has `chrome://settings` for the usual Chromium settings.
 
@@ -151,7 +151,7 @@ These can generally be found from `about:flags` on Chromium based browsers, for 
 * `#force-color-profile` - sRGB
 * `#trust-tokens` - enabled
 
-### Vendor-prefixed
+## Vendor-prefixed
 
 These likely also exist, but just without the `vendor-` part when searhcing.
 
@@ -161,11 +161,10 @@ These likely also exist, but just without the `vendor-` part when searhcing.
 * `#edge-tab-groups-auto-create` - enabled
 * `#edge-tab-groups-collapse-freezing` - enabled
 
-## Firefox about:config
+# Firefox about:config
 
 * `privacy.firstparty.isolate` to `true` for preventing domains from
   accessing each other's data.
-* `browser.newtabpage.activity-stream.showSponsored` & `browser.newtabpage.activity-stream.showSponsored` to `false` to stop sponsored links.
 * `dom.security.https_only_mode` to `true` to force HTTPS and not need HTTPS Everywhere
 * `security.certerrors.mitm.auto_enable_enterprise_roots` to `false` in order to not trust system CA store in case of enterprise MITM
 * `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. This may be a bit paranoid, but *only the paranoid survive.*
@@ -183,7 +182,16 @@ These likely also exist, but just without the `vendor-` part when searhcing.
 
 Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/show_bug.cgi?id=1497263) ?
 
-#### DNS over HTTPS
+## Advertising
+
+Firefox seems to contain a lot of advertising or sponsoring nowadays, whether to other Mozilla products or whoever pays them. See also [Bug 1773860: Provide global long-term "disable all promos" flag](https://bugzilla.mozilla.org/show_bug.cgi?id=1773860).
+
+* `browser.newtabpage.activity-stream.showSponsored` & `browser.newtabpage.activity-stream.showSponsored` to `false` to stop sponsored links.
+* `browser.vpn_promo.enabled` to `false` to hopefully stop Mozilla VPN advertisements
+* `browser.promo.focus.enabled` to `false` to stop Firefox Focus advertisements?
+* `browser.preferences.moreFromMozilla` to `false` to not hear from other Mozilla products?
+
+## DNS over HTTPS
 
 * `network.trr.mode` depends, `2` to prefer DoH, but fallback to system resolver, `3` to enforce DoH without fallback) or `5` to explicitly disable.
     * [DoH is required by Firefox ESNI support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI which would still leak which
@@ -198,7 +206,7 @@ Some notes:
 you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
 * [While investingating how Android 9 Private DNS works, I also wrote a DNS provider comparsion here on 2019-07-11]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
 
-#### SSDs
+## SSDs
 
 This information is from [Arch Wiki on Firefox tweaks](https://wiki.archlinux.org/index.php/Firefox/Tweaks)
 
