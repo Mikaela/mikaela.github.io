@@ -200,8 +200,11 @@ Firefox seems to contain a lot of advertising or sponsoring nowadays, whether to
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
   `https://doh.mullvad.net/dns-query`
+* `network.trr.disable-ECS` to `false` if preferring speed over privacy or using NextDNS private ECS.
+  * [Wikipedia: EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet)
 
 Some notes:
+* There is also `network.trr.exclude-etc-hosts` for those using `/etc/hosts` for blocking.
 * You can confirm TRR working by visiting `about:networking#dns` where
 you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
 * [While investingating how Android 9 Private DNS works, I also wrote a DNS provider comparsion here on 2019-07-11]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
