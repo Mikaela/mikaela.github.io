@@ -19,6 +19,7 @@ Others
 * matrix:u/mikaela:pirateriot.net
 * matrix:u/mikaela:tchncs.de
 * matrix:u/mkaysi:fedora.im - https://github.com/flathub/im.riot.Riot/issues/268#issuecomment-1103213448
+* matrix:u/aminda:the-apothecary.club - accessibility testing animated avatars, https://github.com/vector-im/element-web/issues/18442 and https://github.com/vector-im/hydrogen-web/issues/841 and counting...
 
 Bots
 ----
