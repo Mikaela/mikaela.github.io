@@ -193,13 +193,14 @@ Firefox seems to contain a lot of advertising or sponsoring nowadays, whether to
 
 ## DNS over HTTPS
 
-* `network.trr.mode` depends, `2` to prefer DoH, but fallback to system resolver, `3` to enforce DoH without fallback) or `5` to explicitly disable.
-    * [DoH is required by Firefox ESNI support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI which would still leak which
-      sites you visit. [Another bug about ESNI + Android DoT](https://bugzilla.mozilla.org/show_bug.cgi?id=1542754#c3)
-    * Are you using a VPN? Do they provide a DoH server? If yes, maybe the answer is 3 for eSNI?
+* `network.trr.mode` depends, `3` to enforce DoH (required for ECH) or `5` to explicitly disable. `2` to prefer DoH, but fallback to system also exists.
+    * [DoH is required by Firefox ESNI/ECH support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI/ClientHello which would still leak which
+      sites you visit. [Another bug about ESNI/ECH + Android DoT](https://bugzilla.mozilla.org/show_bug.cgi?id=1542754#c3)
+    * Are you using a VPN? Do they provide a DoH server? If yes, maybe the answer is 3 for ESNI/ECH?
 * `network.trr.early-AAAA` `true` to hopefully prefer IPv6
 * `network.trr.uri` for the actual resolver address, e.g.
   `https://doh.mullvad.net/dns-query`
+  * and if they provide as SOCKS proxy as a killswitch, `network.proxy.socks_remote_dns` must be `false`
 * `network.trr.disable-ECS` to `false` if preferring speed over privacy or using NextDNS private ECS.
   * [Wikipedia: EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet)
 
@@ -207,6 +208,8 @@ Some notes:
 * There is also `network.trr.exclude-etc-hosts` for those using `/etc/hosts` for blocking.
 * You can confirm TRR working by visiting `about:networking#dns` where
 you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
+* ECH requires `network.dns.echconfig.enabled` and `network.dns.use_https_rr_as_altsvc` to be `true`,
+  but they seem to default to true at least in Firefox Nightly so maybe no action is needed.
 * [While investingating how Android 9 Private DNS works, I also wrote a DNS provider comparsion here on 2019-07-11]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
 
 ## SSDs
