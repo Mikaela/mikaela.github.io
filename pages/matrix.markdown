@@ -55,6 +55,70 @@ As can be read between the lines from my critiques, I don't consider any homeser
 
 The world situation in general discourages me from anything as heavy.
 
+### Why cannot I see history in your Matrix rooms?
+
+Matrix doesn't support self-destructing messages or message expiry in general, so
+I don't feel comfortable with world-readable logs (which would easily end to
+search engines forever).
+
+If you need to see something in the backlog, I suggest
+using IRC (IRC@Etro or PirateIRC especially) or XMPP which each store messages
+only for 7 days (Ergo default) or some months (Prosody default) on a single server.
+
+### I am told that I should Matrixify my IRC channel, what does that mean?
+
+You are likely using IRCnet and I am sorry that you have to deal with this raider group. It means some mix of:
+
+* setting a Matrix avatar to the room
+* removing the `#` from the name of the Matrix room
+* setting a main alias to the Matrix room that doesn't contain the IRC network's name
+* bridging to Matrix in a way that Matrix user (that may not be you) has full power over the room, potentially also over the bridge bot
+  * be careful if you are told to answer a bot `yes` in a `/query`!
+
+### Why should I use Matrix instead of IRC?
+
+No reason, if IRC suits you better than Matrix. As I have said before, I find
+maintaining IRC easier. IRC also tends to work better for me in poor network conditions
+and with [IRCv3](https://ircv3.net/) specifications and implemented draft proposals,
+it can be very pleasant modern experience without the issues that come from federation.
+
+There is a usecase for every tool and while federation is important feature
+in general I am yet to miss it in IRC.
+
+I keep mentioning Ergo IRCd, which [scales](https://github.com/ergochat/ergo/blob/master/docs/MANUAL.md#scalability), has serverside history and integrated bouncer
+feature so it's just a matter of adding it to your IRC client alongside your
+SASL credentials and you will receive your offline messages whenever you
+reconnect. Ergo also supports `RELAYMSG` making messages from other protocols
+seem more native to read and many graphical IRC clients even provide integrated
+image uploading support.
+
+[Pirate Party of Finland](https://piraattipuolue.fi/en) considers Ergo-based [PirateIRC](https://pirateirc.net/)
+and [its webchat](https://webchat.pirateirc.net/) a reasonable fallback should we have to leave other protocols
+or they would be unusable otherwise.
+
+### Why isn't Pirate Party of Finland using Matrix?
+
+This goes a bit past my personal Q&A, but we are using it kind of as a "tech demo".
+However it cannot currently mature past that as:
+
+* we don't have people interested in Matrix (obviously excluding me).
+* we don't have resources for hosting a Matrix homeserver, while we had IRC before we were founded.
+* moderation tools are so bad it's only me dealing with them (see critiques near top of the page).
+* [Matrix flagship clients, Element Web, Element Android and Element iOS don't support knocking](https://github.com/vector-im/element-meta/issues/43)
+  which has been supported by Matrix Specification since September 2021 or so meaning
+  users of those aren't able to request access to our rooms.
+
+### So do you wish Matrix to fail?
+
+No, I have been using countless of hours at writing these critiques and performing "quality assurance"/testing,
+localizing clients to Finnish, providing support on their rooms for users of those clients, writing a Matrix
+Spec Change proposal (that was merged), having coauthored another, writing or contributing documentation in two languages
+and whatever else I have been doing since 2016.
+
+Matrix has a place in my heart, just as IRC and XMPP and while none of the three are perfect, I wish for the issues
+get resolved and the fighting between them to end and I am tired of the "stop having fun" or "you are worse person for still using deprecated IRC"
+or "I wish IRC/XMPP just died already as it's so old" or whatever attitude I see amongst certain Matrix user/enthustiastic groups.
+
 * * * * *
 
 *The lucky Matrix number is `{{site.matrixLatestRoomVersion}}`, but do [consult the Spec for that](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions) and definitely ask `!servers upgrade {{site.matrixLatestRoomVersion}}` from [Version Checker](matrix:u/version:maunium.net) or [Fluff Generator](matrix:u/+:jae.fi) or [their siblings](https://github.com/maubot/rsvc).*
