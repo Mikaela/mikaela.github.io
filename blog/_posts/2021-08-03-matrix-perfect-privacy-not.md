@@ -84,6 +84,9 @@ and as your room is hosted on every homeserver that has users in your room,
 have a single homeserver that hasn't explicitly enabled it, or doesn't otherwise support it, and the room
 history never goes away. Executing `/upgraderoom {{site.matrixLatestRoomVersion}}` or any other version [will also remove the event](https://github.com/matrix-org/synapse/issues/11279).
 
+***WARNING! Always before executing `/upgraderoom` check that everyone in your room has a recent Matrix server that supports your target room version. Otherwise you may lock your users out.*** For example `/invite @version:maunium.net` and once it joins, say
+`!servers` and once it finishes printing server versions you can `!servers match SOFTWARE < 1.0` to get list of servers running SOFTWARE smaller than 1.0. Once aware of what servers are being used, either check their changelogs/documentation/support_rooms/admins for their support to your target version e.g. {{site.matrixLatestRoomVersion}}.
+
 In case there isn't enough confusion, retention shouldn't be confused with actual [self-destructing/disappearing messages](https://github.com/vector-im/element-meta/issues/82).
 
 *Technical note: sorry about calling <s>reference</s> homeserver implementation by the matrix.org team issue
