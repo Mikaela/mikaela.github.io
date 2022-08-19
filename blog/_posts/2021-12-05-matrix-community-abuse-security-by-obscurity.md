@@ -31,7 +31,7 @@ smaller steps:
       for the latest stable room version. Or maybe the [unstable spec](https://spec.matrix.org/unstable/rooms/)?
       Or maybe you should just [search GitHub](https://github.com/matrix-org/matrix-spec-proposals/issues?q=room%20version)?
    3. ***WARNING! Always before executing `/upgraderoom` check that everyone in your room has a recent Matrix server that supports your target room version. Otherwise you may lock your users out.*** For example `/invite @version:maunium.net` and once it joins, say
-`!servers` and once it finishes printing server versions you can `!servers match SOFTWARE < 1.0` to get list of servers running SOFTWARE smaller than 1.0. Once aware of what servers are being used, either check their changelogs/documentation/support_rooms/admins for their support to your target version e.g. {{site.matrixLatestRoomVersion}}.
+`!servers` and once it finishes printing server versions you can `!servers match SOFTWARE < 1.0` to get list of servers running SOFTWARE older than 1.0. Once aware of what servers are being used, either check their changelogs/documentation/support_rooms/admins for their support to your target version e.g. {{site.matrixLatestRoomVersion}}.
 4. Clear cache and reload so the old space maybe disappears.
 5. See also [Element-web#19208: Allow upgrading spaces](https://github.com/vector-im/element-web/issues/19208)
 6. Now that there is a space, right click it to create a new room under it and
