@@ -20,7 +20,7 @@ links.*
 * Critique
     * [Inconsistency issues of Element, Element and Element, also privacy concerns]({% post_url blog/2021-08-03-matrix-perfect-privacy-not %})
     * [Without selfhosting a homeserver or even then, Matrix moderation tools rely on security through obscurity]({% post_url blog/2021-12-05-matrix-community-abuse-security-by-obscurity %})
-* [A couple of words on protocols (on the Discuss page)](/discuss.html/#a-couple-of-words-on-protocols)
+* [A couple of words on protocols (on the Discuss page)](/discuss.html#a-couple-of-words-on-protocols)
 
 ## Questions and Answers
 
