@@ -36,10 +36,14 @@ I dislike matrix.to as a concept. It's a centralized service on decentralized pr
 
 The one that fits your needs. Personally I mix-and-match:
 
-* FluffyChat on iOS
-* hydrogen.element.io PWA
-* develop.element.io / Element flatpak on desktop as `/devtools` is essential (see my critiques), and they don't supporrt Fedora
-* Nheko nightly flatpak on desktop as it's actually the most Spec-complete client in my experience without long delays before something becomes supported.
+* FluffyChat on mobile
+  * I am a Finnish translator and moderator. It does multiple accounts.
+* hydrogen.element.io PWA mainly on mobile, sometimes on desktop
+  * It's the only Matrix client that is yet to log me out randomly, very stable, multiple account support and so far the only Matrix client running on Nokia 1 (TA-1047).
+* develop.element.io / Element flatpak on desktop
+  * `/devtools` is essential (see my critiques), and they don't support Fedora.
+* Nheko nightly flatpak on desktop
+  * I am a Finnish translator, it's actually the most Spec-complete client in my experience without long delays before something becomes supported and it's lightweight probably for being a native app instead of Electron.
 
 ### Which homeserver do you recommend?
 
