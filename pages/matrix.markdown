@@ -4,6 +4,8 @@ title: '[m]'
 navigation: true
 permalink: /matrix/
 excerpt: "Matrix, a decentralised conversation store"
+redirect_from:
+  - /matrix.html
 ---
 
 Just like [IRC](/irc/), *Matrix* has became a part of my social life online. My

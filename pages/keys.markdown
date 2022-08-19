@@ -5,7 +5,6 @@ navigation: false
 sitemap: false
 permalink: /keys/
 redirect_from:
-  - /matrix.html
   - /omemo.html
   - /otr.html
   - /pgp.html
