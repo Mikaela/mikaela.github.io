@@ -32,6 +32,14 @@ In my opinion it's preferable to have multiple accounts on different homeservers
 
 I dislike matrix.to as a concept. It's a centralized service on decentralized protocol and in my opinion it shows lack of self-esteem on Matrix side considering neither XMPP or IRC require something like it, both of those trust being known or handled appropiately.
 
+### What are ghost and puppets?
+
+They are related to bringing Matrix to other protocols or vice versa.
+
+* A ghost is a Matrix account on another protocol like IRC or XMPP (controlled from Matrix).
+* A puppet is the opposite, a Matrix account controlled from another protocol such as IRC or XMPP (the controller/puppetmaster being the user there).
+* A double-puppet is when you are using both protocols and have connected them to each other such as a message from Discord appears as your real Matrix account and message from Matrixx appears as your real Discord account instead of something virtual only existing due to the bridge.
+
 ### Which client do you recommend?
 
 The one that fits your needs. Personally I mix-and-match:
