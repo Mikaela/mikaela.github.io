@@ -28,7 +28,7 @@ links.*
 
 ### Why so many accounts?
 
-In my opinion it's preferable to have multiple accounts on different homeservers for ensuring decentralisation instead of having a single authority in power and being able to issue commands from multiple servers in case of federation meltdown which multiple rooms experienced during the period of room version 9 before homeserver software started to nag on unintentionally open registration refusing to start.
+In my opinion it's preferable to have multiple accounts on different homeservers for ensuring decentralisation instead of having a single authority in power and being able to issue commands from multiple servers in case of federation meltdown which multiple rooms experienced during the period of room version 9 before homeserver software started to nag on unintentionally open registration refusing to start. Additionally state resets are a good reason to keep old accounts around.
 
 ### Why do you use Matrix URI scheme instead of matrix.to?
 
@@ -41,6 +41,22 @@ They are related to bringing Matrix to other protocols or vice versa.
 * A ghost is a Matrix account on another protocol like IRC or XMPP (controlled from Matrix).
 * A puppet is the opposite, a Matrix account controlled from another protocol such as IRC or XMPP (the controller/puppetmaster being the user there).
 * A double-puppet is when you are using both protocols and have connected them to each other such as a message from Discord appears as your real Matrix account and message from Matrixx appears as your real Discord account instead of something virtual only existing due to the bridge.
+
+### What are state resets?
+
+The term is used least in two different scenarios:
+
+* when your display name and/or avatar return back to what they were previously
+  without anyone doing anything.
+* more seriously when the Matrix federation decides that the room is actually
+  in the past adding/removing users who were (or weren't) in the room at that time.
+  This also affects administrator/moderator access.
+
+[This issue was supposed to be fixed at room version 2 with Stare Resolution Version 2](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions),
+but regardless [still happens in all versions after that](https://github.com/matrix-org/synapse/issues/8629). If you are affected, your best bet is to
+`/upgraderoom {{site.matrixLatestRoomVersion}}`, which is a bit distruptive operation as all your users have to join the upgraded version and all homeservers involved must support it.
+
+You shouldn't just trust me or the variable on this site on what is the latest version, [consult the Spec](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions) and add [Version Checker](matrix:u/version:maunium.net) or [Fluff Generator](matrix:u/+:jae.fi) or [their sibling](https://github.com/maubot/rsvc) to your room and once they join, `!servers upgrade {{site.matrixLatestRoomVersion}}` replacing the  {{site.matrixLatestRoomVersion}} with your target version.
 
 ### Which client do you recommend?
 
