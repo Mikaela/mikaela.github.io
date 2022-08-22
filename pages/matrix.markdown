@@ -118,6 +118,11 @@ However it cannot currently mature past that as:
   which has been supported by Matrix Specification since September 2021 or so meaning
   users of those aren't able to request access to our rooms.
 
+If you want in, you may knock using Nheko. Additionally/Alternatively your best
+bet is to come to [#verkkopalvelut](https://webchat.pirateirc.net/?channel=#verkkopalvelut)
+and tell `AmindaSuomalainen` your Matrix ID in a nice message (to show you aren't a bot)
+that you wish in.
+
 ### So do you wish Matrix to fail?
 
 No, I have been using countless of hours at writing these critiques and performing "quality assurance"/testing,
