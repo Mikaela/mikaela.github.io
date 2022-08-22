@@ -58,6 +58,33 @@ but regardless [still happens in all versions after that](https://github.com/mat
 
 You shouldn't just trust me or the variable on this site on what is the latest version, [consult the Spec](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions) and add [Version Checker](matrix:u/version:maunium.net) or [Fluff Generator](matrix:u/+:jae.fi) or [their sibling](https://github.com/maubot/rsvc) to your room and once they join, `!servers upgrade {{site.matrixLatestRoomVersion}}` replacing the  {{site.matrixLatestRoomVersion}} with your target version.
 
+### What are these idlekicks for inactivity, why are they for?
+
+Some Matrix rooms decide to connect their channel to IRC maintaining the same users on both sides, which can be heavy for the IRC network depending on bridge type of which there are three "major" variants:
+
+* matrix-appservice-irc which creates a ghost for every Matrix user on the IRC side. All of these pretend to be separate clients, so if you have 1000 ghosts at IRC, all internal PING/PONG (keepalive) traffic will be sent 1000 times every few minutes and so will every message received.
+* heisenbridge has two modes, either it acts as a IRC bouncer keeping everything separate for every user or a single bot connection to IRC while creating puppets for IRC users to use at Matrix. It also supports RELAYMSG for more modern IRC networks.
+* matterbridge is the most lightweight of the three working as a traditional relaybot on both sides. Unlike the others, it doesn't require selfhosting your own homeserver making it the most accessible for those with less resources and the option I use whenever possible. Sadly it doesn't look that great [without RELAYMSG support I live in hope of Matrix implementing one day](https://github.com/matrix-org/matrix-spec/issues/840).
+
+As matrix-appservice-irc very quickly becomes traffic-intensive, its operators generally have agreement with IRC networks (or are IRC networks by themselves) to remove unused connections after a month or three of inactivity, which is judged by lack of public read-receipts anywhere the bridge can see. It could have been implemented better [pretending to be a server instead](https://github.com/matrix-org/matrix-appservice-irc/issues/329), which would have a problem of practically being `root` and thus not many IRC networks would open their door to a third party bridge and the Ergo IRCd doesn't even support server linking (opting to be HA instead, but more of that in "Why should I use Matrix instead of IRC?").
+
+Being a server would also resolve IRC users getting annoyed by huge disconnection floods whenever matrix-appservice-irc restarts as it could be [batched by the IRCd users are connected to](https://ircv3.net/specs/batches/netsplit).
+
+The issues of matrix-appservice-irc grow worse when the room has bridges to other protocols, as those grow the IRC user count, use nicknames (sometimes capturing nicknames of people using both protocols and may be difficult to regain if the bridge doesn't answer to `!irc nick SomethingElse`) especially when the other protocol doesn't support direct/private messages and doesn't have even that excuse of using a connection slot.
+
+I hope this answer helped explain why this behaviour exists and that IRC users aren't opposed to bridging out of malice.
+
+#### But the relaybots look so ugly
+
+IRC users have dealt with them since always, I tend to use Limnoria IRC bot which is forked from Supybot and has had the Relay plugin (for relaying messages between multiple IRC networks) [since possibly before `Wed Feb 2 06:45:35 2005 +0000`](https://github.com/progval/Limnoria/commit/e4e5c1482489451c1ae9b6b4ee9b9147a295320e) and I imagine it was far from the first IRC relay.
+
+This means that even before IRCv3 RELAYMSG and displayname proposals, which I wish to merge so modern clients could show displaynames and legacy RELAYMSGs, there have been client-side solutions that have also been evolving:
+
+* Irssi I haven't used personally, but I hear it has a [detelexify](https://github.com/zouppen/irssi-detelexify/) that looks a bit like it's made with Heisenbridge in mind.
+* WeeChat used to have a separate script for this, but at version 1.1 in gained the Trigger plugin able to perform actions without scripts, thus meaning you can use something like [this Relaybot 2 Trigger example](https://github.com/weechat/weechat/wiki/Triggers#relaybot-2) without having to install anything (while `/script` would be easy too).
+
+I hope Matrix will get better at this too.
+
 ### Which client do you recommend?
 
 The one that fits your needs. Personally I mix-and-match:
