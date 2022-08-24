@@ -26,6 +26,12 @@ links.*
 
 ## Questions and Answers
 
+### Where else can I read about Matrix?
+
+* [Miki is the Matrix wiki](https://en.miki.community/) where I will attempt to contribute to.
+* [Matrix.org](https://matrix.org/) is the official website.
+* [My gist repository also has notes on Matrix, mostly /devtools related ones](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/matrix), they predate Miki and I hope to sort more relevant or historical parts there.
+
 ### Why so many accounts?
 
 In my opinion it's preferable to have multiple accounts on different homeservers for ensuring decentralisation instead of having a single authority in power and being able to issue commands from multiple servers in case of federation meltdown which multiple rooms experienced during the period of room version 9 before homeserver software started to nag on unintentionally open registration refusing to start. Additionally state resets are a good reason to keep old accounts around.
