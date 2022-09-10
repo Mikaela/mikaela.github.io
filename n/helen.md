@@ -2,7 +2,7 @@
 layout: null
 permalink: /n/helen.html
 sitemap: true
-month: 10
+month: 09 of 2022
 monthly: "32,35 c/kWh"
 basicdistribution: "5.51 €/month"
 distributionmargin: "4.07 c/kWh"
@@ -14,7 +14,7 @@ stockmargin: "0,38 c/kWh"
 
 *Or more like playing with Jekyll*
 
-Helen's monthly market price for {{ page.month }}. month is {{ page.monthly }}.
+Helen's monthly market price for month {{ page.month }} is {{ page.monthly }}.
 
 * Distribution price: {{ page.basicdistribution }} and {{ page.distributionmargin }}.
 * Stock price: {{ page.basicstock }} and {{ page.stockmargin }}.
