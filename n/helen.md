@@ -8,7 +8,6 @@ basicdistribution: "5.51 €/month"
 distributionmargin: "4.07 c/kWh"
 basicstock: "3,93 €/month"
 stockmargin: "0,38 c/kWh"
-cheapelectricity: "TODO c/kWh"
 ---
 
 # Thinking on Helen price
@@ -23,7 +22,7 @@ Helen's monthly market price for {{ page.month }}. month is {{ page.monthly }}.
 ## Plan for Tuntihinta
 
 * Expensive: <strong>{{ page.monthly }} + {{ page.distributionmargin }}</strong> (The monthly plan + distribution margin)
-* Cheap: {{ page.cheapelectricity }}
+* Cheap: <strong>({{ page.monthly }} + {{ page.distributionmargin }}) / 2</strong> (The monthly plan + distribution margin / 2), ***round down***
 * Margin: <strong>{{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (Distribution fee + stock margin)
 
 ## Sources
