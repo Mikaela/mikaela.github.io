@@ -23,7 +23,7 @@ Helen's monthly market price for {{ page.month }}. month is {{ page.monthly }}.
 ## Plan for Tuntihinta
 
 * Expensive: <strong>{{ page.monthly }} + {{ page.distributionmargin }}</strong> (The monthly plan + distribution margin)
-* Margin: <strong>{{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (Distribution fee (c/kWh + stock margin)
+* Margin: <strong>{{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (Distribution fee + stock margin)
 
 ## Sources
 
