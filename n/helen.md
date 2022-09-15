@@ -27,6 +27,6 @@ Helen's monthly market price for month {{ page.month }} is {{ page.monthly }}.
 
 ## Sources
 
-* Definition of monthly plan price: https://www.helen.fi/sahko/sahkosopimus/markkinahinta and https://www.helen.fi/en/electricity/electricity-products-and-prices/marketpriceelectricity
+* Definition of monthly plan price: [Helen.fi: Markkinasähkö; ja sähkön markkinahinta](https://www.helen.fi/sahko/sahkosopimus/markkinahinta) and in English [Helen: Market Price Electricity](https://www.helen.fi/en/electricity/electricity-products-and-prices/marketpriceelectricity)
   * They use it all month following stock market price and trying to get their own citation.
 * Distribution is in *Oma Helen* and changes are announced in their newspaper.
