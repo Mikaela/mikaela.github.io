@@ -10,16 +10,14 @@ basicstock: "3,93 €/month"
 stockmargin: "0,38 c/kWh"
 ---
 
-# Thinking on Helen price
-
-*Or more like playing with Jekyll*
+# Helen price calculations for Tuntihinta
 
 Helen's monthly market price for month {{ page.month }} is {{ page.monthly }}.
 
 * Distribution price: {{ page.basicdistribution }} and {{ page.distributionmargin }}.
 * Stock price: {{ page.basicstock }} and {{ page.stockmargin }}.
 
-## Plan for Tuntihinta
+## Equations for Tuntihinta
 
 * Expensive: <strong>{{ page.monthly }} + {{ page.distributionmargin }}</strong> (The monthly plan + distribution margin)
 * Cheap: <strong>({{ page.monthly }} + {{ page.distributionmargin }}) / 2</strong> (The monthly plan + distribution margin / 2), ***round down***
