@@ -14,14 +14,14 @@ Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537
 
 # Helen hintalaskelmia Tuntihinta-sovellukselle
 
-*Jekyll ei salli matematiikkaa suoraan tietoturvasyistä.*
-
 Helen markkinahintasähkö kuukaudelle {{ page.month }} on {{ page.monthly }}.
 
 * Helen sähköverkot Oy:n siirron perusmaksu: {{ page.basicdistribution }}, siirron marginaali {{ page.distributionmargin }}.
 * Helenin pörssisähkön kuukausihinta: {{ page.basicstock }}, marginaali {{ page.stockmargin }}.
 
 ## Yhtälöt Tuntihinnalle
+
+*Jekyll ei salli matematiikkaa suoraan tietoturvasyistä.*
 
 * Kallis: <strong>{{ page.monthly }} + {{ page.distributionmargin }}</strong> (Helenin markkinasähköhinta + siirtohinta kWh)
 * Hakpa: <strong>({{ page.monthly }} + {{ page.distributionmargin }}) / 2</strong> (Helenin markkinasähköhinta + siirtohinta kWh / 2), ***pyöristettynä alaspäin***
