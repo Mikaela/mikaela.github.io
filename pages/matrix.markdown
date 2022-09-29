@@ -64,6 +64,21 @@ but regardless [still happens in all versions after that](https://github.com/mat
 
 You shouldn't just trust me or the variable on this site on what is the latest version, [consult the Spec](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions) and add [Version Checker](matrix:u/version:maunium.net) or [Fluff Generator](matrix:u/+:jae.fi) or [their sibling](https://github.com/maubot/rsvc) to your room and once they join, `!servers upgrade {{site.matrixLatestRoomVersion}}` replacing the  {{site.matrixLatestRoomVersion}} with your target version.
 
+#### How about DAG splits?
+
+DAG splits are a phenomenon somehow related to state resets above, but instead
+of all servers accepting the same old state, they disagree and split to different
+directions with varying severity.
+
+In minor case some servers may decide that a user is not in the room and not
+display messages from them, while in more severe situations the room may practically
+be two different rooms with no new messages in common between different sides
+kind of resembling [IRC's netsplits before sync.](https://en.wikipedia.org/wiki/Netsplit)
+
+People understanding state resolution (which by the way don't include me)
+disagree on the exact cause only agreeing that it's difficult to fix. From
+what is told to me, I understand it to be tracked [in the same Synapse issue #8629](https://github.com/matrix-org/synapse/issues/8629).
+
 ### What are these idlekicks for inactivity, why are they for?
 
 Some Matrix rooms decide to connect their channel to IRC maintaining the same users on both sides, which can be heavy for the IRC network depending on bridge type of which there are three "major" variants:
