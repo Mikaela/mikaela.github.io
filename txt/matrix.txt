@@ -20,6 +20,8 @@ Others
 * matrix:u/mikaela:tchncs.de
 * matrix:u/mkaysi:fedora.im - https://github.com/flathub/im.riot.Riot/issues/268#issuecomment-1103213448
 * matrix:u/aminda:the-apothecary.club - accessibility testing animated avatars, https://github.com/vector-im/element-web/issues/18442 and https://github.com/vector-im/hydrogen-web/issues/841 and counting...
+* matrix:u/aminda:dendrite.matrix.org - Dendrite test account and my only at the moment
+* matrix:u/aminda:conduit.ungleich.ch - IPv6 Conduit test account, but as they may erase database at all times, it may not be me.
 
 Bots
 ----
@@ -54,4 +56,4 @@ These homeservers no longer exist and should they reappear it's most likely not 
 PS. For SSH signature add .sig to the end of the URL
 
 Aminda Suomalainen
-2022-07-30 00:28+0300
+2022-10-04 17.04+0300
