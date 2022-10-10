@@ -1,0 +1,10 @@
+{
+  "room_id": "!fGtopoZuCySnTsSdsU:matrix.org",
+  "servers": [
+    "pikaviestin.fi",
+    "matrix.org",
+    "dendrite.matrix.org",
+    "jae.fi",
+    "the-apothecary.club"
+  ]
+}
