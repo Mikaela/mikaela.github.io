@@ -211,7 +211,7 @@ channel or set `+e` ban exceptions on them!
 
 #### I fear someone has said yes
 
-In that case someone has near absolute power on the Matrix said and may have
+In that case someone may have near absolute power on the Matrix side and could have
 removed the matrix-appservice-irc bot from power thus preventing it from
 kicking users banned from IRC letting them spam freely on Matrix while being
 invisible to IRC. In even worse scenario the abusive user was given power
