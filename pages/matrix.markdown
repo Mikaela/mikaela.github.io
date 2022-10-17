@@ -187,6 +187,58 @@ bet is to come to [#verkkopalvelut](https://webchat.pirateirc.net/?channel=#verk
 and tell `AmindaSuomalainen` your Matrix ID in a nice message (to show you aren't a bot)
 that you wish in.
 
+### I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?
+
+If you are using Telegram or Discord, you are out of luck, as while you can
+remove messages, that may get removed from Matrix, you cannot remove the
+abusive users. If you are using XMPP you may be out of luck.
+
+However if you use IRC and the Matrix users are behind matrix-appservice-irc
+([check this list](https://github.com/matrix-org/matrix-appservice-irc/blob/develop/docs/bridged_networks.md) or your network operators) you may be in luck as long as
+[you or your ops haven't answered "yes" to the Matrix bot](https://github.com/matrix-org/matrix-appservice-irc/issues/462).
+
+Matrix-appservice-irc attempts to sync permissions from IRC in a limited fashion,
+and if it's unable to join a ghost (see an earlier question), it will kick the
+user from Matrix for as long as the ban stays in place.
+
+In other words, if you were using Matrix personally, the IRC bridge would
+drastically increase the moderation tools available for you! You can now use
+wildcard bans that aren't natively supported and even extbans like (LiberaChat's)
+`/mode #yourchannel +b $r:*:matrix.org*` to ban all matrix.org users from your
+channel or set `+e` ban exceptions on them!
+
+***[WARNING! Matrix-appservice-irc hasn't closed an issue of feature request that would open abuse floodgates preventing GECOS/"REALNAME" based moderation from IRC!](https://github.com/matrix-org/matrix-appservice-irc/issues/723)***
+
+#### I fear someone has said yes
+
+In that case someone has near absolute power on the Matrix said and may have
+removed the matrix-appservice-irc bot from power thus preventing it from
+kicking users banned from IRC letting them spam freely on Matrix while being
+invisible to IRC. In even worse scenario the abusive user was given power
+and they are immune to whatever is done from IRC.
+
+There is also the chance that [a netsplit gives a Matrix user moderator permissions that are never removed when sync occurs](https://github.com/matrix-org/matrix-appservice-irc/issues/518).
+
+#### That doesn't help me
+
+If everything else fails, you can always mail abuse at matrix dot org, who
+will want the following details (as of 2022-10-16):
+
+* Your matrix ID
+* the room ID(s) your report is about
+* timestamps or links to the events you are telling us about
+
+Assuming you are an IRC user and thus unable to provide the two first,
+I would include:
+
+* IRC network in question
+* IRC channel in question
+* WHOIS information of the abusive user (the realname should include MXID)
+* timestamps and logs upon the incident
+
+I haven't tried this personally though, as I am Matrix user and have been
+sending raw events in JSON to them.
+
 ### So do you wish Matrix to fail?
 
 No, I have been using countless of hours at writing these critiques and performing "quality assurance"/testing,
