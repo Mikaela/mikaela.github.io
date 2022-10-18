@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this, please cite it as below."
+authors:
+- family-names: "Suomalainen"
+  given-names: "Aminda"
+title: "My website"
+url: "https://github.com/Mikaela/.github"
+preferred-citation:
+  type: generic
+  title: "My website"
+  authors:
+  - family-names: "Suomalainen"
+    given-names: "Aminda"
