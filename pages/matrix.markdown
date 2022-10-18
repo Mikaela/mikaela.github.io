@@ -207,7 +207,10 @@ wildcard bans that aren't natively supported and even extbans like (LiberaChat's
 `/mode #yourchannel +b $r:*:matrix.org*` to ban all matrix.org users from your
 channel or set `+e` ban exceptions on them!
 
-***[WARNING! Matrix-appservice-irc hasn't closed an issue of feature request that would open abuse floodgates preventing GECOS/"REALNAME" based moderation from IRC!](https://github.com/matrix-org/matrix-appservice-irc/issues/723)***
+*Note: this obviously stops working should the Matrix user change their
+gecos/"real name" in which case your only option is to ban the entirety of
+Matrix. E.g. on LiberaChat `/mode +b *!*@2001:470:69fc:105::/64` assuming
+your abusers don't have a cloak (vhost in any other IRC network).*
 
 #### I fear someone has said yes
 
