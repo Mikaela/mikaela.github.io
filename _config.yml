@@ -33,8 +33,10 @@ include: [PGP, PHP, keybase.txt, robots.txt, .well-known, ipfs-files, _matrix]
 # about have upgraded. Otherwise this is based on my discretion.
 matrixLatestRoomVersion: 10
 
-avatar: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/250.jpeg
-icon: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/128.jpeg
+#avatar: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/250.jpeg
+avatar: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-media/avatar/250.jpeg
+#icon: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/128.jpeg
+icon: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-media/avatar/90.jpeg
 
 # {{site.ipfsGateway}}/ipfs/IPFSHASHHERE to get ipfs link via gateway.
 # Hopefully future proof letting me simply swap the link here instead of
