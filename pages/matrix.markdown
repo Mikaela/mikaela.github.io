@@ -48,6 +48,26 @@ They are related to bringing Matrix to other protocols or vice versa.
 * A puppet is the opposite, a Matrix account controlled from another protocol such as IRC or XMPP (the controller/puppetmaster being the user there).
 * A double-puppet is when you are using both protocols and have connected them to each other such as a message from Discord appears as your real Matrix account and message from Matrixx appears as your real Discord account instead of something virtual only existing due to the bridge.
 
+### What does the public history visibility mean? I don't want to appear in search engines
+
+The public/world-readable history visibility option means exactly what it says,
+public even without joining the room. These rooms are accessible to tools
+such as [Matrix Static](https://view.matrix.org/) or upcoming [Matrix Public Archive](https://github.com/matrix-org/matrix-public-archive)
+and thus their history is visible in search engines. If this isn't what you
+want, set history visibility to one of the members only options (since
+selecting this option, since being invited or since join).
+
+Note that as the option name hints, the history visibility option will not
+apply to previous messages. Thus if you first make room public and then
+restrict it to members only the messages between these two changes are public
+and new users will see them. Same if messages are visible to members and
+then restricted further.
+
+Another thing worth noting here is that encryption will not prevent new users
+from reading the future messages, Matrix will share keys to new joiners to
+some extent. For more information refer to [Matrix Spec issue #1](https://github.com/matrix-org/matrix-spec/issues/1)
+and related issues.
+
 ### What are state resets?
 
 The term is used least in two different scenarios:
