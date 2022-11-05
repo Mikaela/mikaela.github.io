@@ -8,6 +8,8 @@ basicdistribution: "5.51 €/month"
 distributionmargin: "4.07 c/kWh"
 basicstock: "3,93 €/month"
 stockmargin: "0,38 c/kWh"
+omahelenhighprice: "20 c/kWh"
+omahelenlowprice: "5 c/kWh"
 ---
 
 Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537) [Google Play](https://play.google.com/store/apps/details?id=fi.fingrid.tuntihinta)
@@ -24,8 +26,11 @@ Helen markkinahintasähkö kuukaudelle {{ page.month }} on {{ page.monthly }}.
 *Jekyll ei salli matematiikkaa suoraan tietoturvasyistä.*
 
 * Kallis: <strong>{{ page.monthly }} + {{ page.distributionmargin }}</strong> (Helenin markkinasähköhinta + siirtohinta kWh)
-* Hakpa: <strong>({{ page.monthly }} + {{ page.distributionmargin }}) / 2</strong> (Helenin markkinasähköhinta + siirtohinta kWh / 2), ***pyöristettynä alaspäin***
+* Halpa: <strong>({{ page.monthly }} + {{ page.distributionmargin }}) / 2</strong> (Helenin markkinasähköhinta + siirtohinta kWh / 2), ***pyöristettynä alaspäin***
 * Marginaali: <strong>{{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (Helen Sähköverkot Oy siirtohinta kWh + pörssisähkön marginaali).
+* OmaHelen kohtelee alle {{ page.omahelenlowprice }} halpana ja yli {{ page.omahelenhighprice }} kalliina, joten vaihtoehtoiset kaavat ovat:
+  * Kallis: <strong>{{ page.omahelenhighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelenin korkea hinta + Marginaali)
+  * Halpa: <strong>{{ page.omahelenlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelenin matala hinta + Marginaali)
 
 ## Lähteet
 
@@ -47,6 +52,9 @@ Helen's monthly market price for month {{ page.month }} is {{ page.monthly }}.
 * Expensive: <strong>{{ page.monthly }} + {{ page.distributionmargin }}</strong> (Helen's Market Price Electricity + distribution margin)
 * Cheap: <strong>({{ page.monthly }} + {{ page.distributionmargin }}) / 2</strong> (Helen's Market Price Electricity + distribution margin / 2), ***round down***
 * Margin: <strong>{{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (Distribution fee + stock margin)
+* OmaHelen app treats {{ page.omahelenlowprice }} as cheap and over {{ page.omahelenhighprice }} as expensive, so alternative equations are:
+  * Expensive: <strong>{{ page.omahelenhighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelen's high price + Marginal)
+  * Cheap: <strong>{{ page.omahelenlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelen's low price + Marginal)
 
 ## Sources
 
