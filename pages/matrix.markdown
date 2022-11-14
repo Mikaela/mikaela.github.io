@@ -32,6 +32,12 @@ links.*
 * [Matrix.org](https://matrix.org/) is the official website.
 * [My gist repository also has notes on Matrix, mostly /devtools related ones](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/matrix), they predate Miki and I hope to sort more relevant or historical parts there.
 
+### How do you do custom not-emoji reactions?
+
+In FluffyChat and Nheko you can reply to something with `/react something` to add a `something` reaction. In Hydrogen there is a `...` next to emojis allowing you to enter freeform text as a reaction.
+
+[Element-Web doesn't support this yet](https://github.com/vector-im/element-web/issues/19409) and while there is [open pull request](https://github.com/matrix-org/matrix-react-sdk/pull/6628), the merging is blocked due to Element not knowing how to handle moderation and reporting for malicious reactions.
+
 ### Why so many accounts?
 
 In my opinion it's preferable to have multiple accounts on different homeservers for ensuring decentralisation instead of having a single authority in power and being able to issue commands from multiple servers in case of federation meltdown which multiple rooms experienced during the period of room version 9 before homeserver software started to nag on unintentionally open registration refusing to start. Additionally state resets are a good reason to keep old accounts around.
