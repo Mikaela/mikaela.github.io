@@ -7,8 +7,6 @@ excerpt: "Introduction to my public instant messaging chats"
 navigation: true
 ---
 
-# Discuss
-
 I have a public instant messaging chatroom for comments to my
 blog and other things I do. They are connected together by [Matterbridge](https://github.com/42wim/matterbridge/#matterbridge).
 
