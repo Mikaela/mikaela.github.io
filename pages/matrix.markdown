@@ -31,6 +31,7 @@ links.*
 * [Why so many accounts?](#why-so-many-accounts)
 * [Why do you use Matrix URI scheme instead of matrix.to?](#why-do-you-use-matrix-uri-scheme-instead-of-matrixto)
 * [What are ghost and puppets?](#what-are-ghost-and-puppets)
+* [Can I see who is in any specific room without being there?](#can-i-see-who-is-in-any-specific-room-without-being-there)
 * [What does the public history visibility mean? I don’t want to appear in search engines](#what-does-the-public-history-visibility-mean-i-dont-want-to-appear-in-search-engines)
 * [What are state resets?](#what-are-state-resets)
   * [How about DAG splits?](#how-about-dag-splits)
@@ -95,6 +96,12 @@ Another thing worth noting here is that encryption will not prevent new users
 from reading the future messages, Matrix will share keys to new joiners to
 some extent. For more information refer to [Matrix Spec issue #1](https://github.com/matrix-org/matrix-spec/issues/1)
 and related issues.
+
+### Can I see who is in any specific room without being there?
+
+In general no, although there is a cornercase that by poking room directory API e.g. for [Matrix Suomi](r/matrix.fi:matrix.org): [https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org](https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org), you get the room ID and list of homeservers in it and if you see a single user (or otherwise not so popular homeserver), you can make educated guesses on who may be in the room.
+
+I think this requires for the room to have an alias (not-published one should be fine) and a homeserver aware of the alias and room being queried.
 
 ### What are state resets?
 
