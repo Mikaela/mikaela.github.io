@@ -99,7 +99,7 @@ and related issues.
 
 ### Can I see who is in any specific room without being there?
 
-In general no, although there is a cornercase that by poking room directory API e.g. for [Matrix Suomi](matrix:r/matrix.fi:matrix.org): [https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org](https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org), you get the room ID and list of homeservers in it and if you see a single user (or otherwise not so popular homeserver), you can make educated guesses on who may be in the room.
+In general no, although there is a cornercase that by poking room directory API e.g. for [#matrix.fi:matrix.org](matrix:r/matrix.fi:matrix.org): [https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org](https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org), you get the room ID and list of homeservers in it and if you see a single user (or otherwise not so popular homeserver), you can make educated guesses on who may be in the room.
 
 I think this requires for the room to have an alias (not-published one should be fine) and a homeserver aware of the alias and room being queried.
 
