@@ -2,8 +2,8 @@
 layout: null
 permalink: /n/helen.html
 sitemap: true
-month: 11 of 2022
-monthly: "35,10 c/kWh"
+month: 01 of 2023
+monthly: "46,81 c/kWh"
 basicdistribution: "5.51 €/month"
 distributionmargin: "4.07 c/kWh"
 basicstock: "3,93 €/month"
