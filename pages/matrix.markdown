@@ -235,12 +235,17 @@ However it cannot currently mature past that as:
 * moderation tools are so bad it's only me dealing with them (see critiques near top of the page).
 * [Matrix flagship clients, Element Web, Element Android and Element iOS don't support knocking](https://github.com/vector-im/element-meta/issues/43)
   which has been supported by Matrix Specification since September 2021 or so meaning
-  users of those aren't able to request access to our rooms.
+  users of those aren't able to request access to our rooms, unless they
+  are members of an allowed rooms first.
 
-If you want in, you may knock using Nheko. Additionally/Alternatively your best
-bet is to come to [#verkkopalvelut](https://webchat.pirateirc.net/?channel=#verkkopalvelut)
-and tell `AmindaSuomalainen` your Matrix ID in a nice message (to show you aren't a bot)
-that you wish in.
+If you want in, your options are:
+
+* Join [Matrix Suomi Space](matrix:r/matrix-suomi:kapsi.fi), which lists
+  Finnish speaking rooms and then [our space](matrix:r/space.piraatit.fi:matrix.org).
+  * Due to aforementioned lack of moderation tools, this can be withdrawn should that become necessary to mitigate abuse.
+* Knock one of our rooms using Nheko and [hope someone is watching from Nheko](https://github.com/Nheko-Reborn/nheko/issues/1226).
+* Come to [#verkkopalvelut using PrateIRC webchat](https://webchat.pirateirc.net/?channel=#verkkopalvelut)
+  and tell `AmindaSuomalainen` your Matrix ID in a nice message (to show you aren't a bot) that you wish in.
 
 ### I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?
 
