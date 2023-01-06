@@ -1,0 +1,8 @@
+_site
+.sass-cache
+*.swp
+*~
+keys.txt.asc
+.bundle
+.jekyll-cache
+vendor/
