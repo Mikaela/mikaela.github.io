@@ -2,7 +2,7 @@
 layout: null
 permalink: /n/telegram.html
 redirect_from: /r/telegram.html
-sitemap: true
+sitemap: false
 ---
 
 You have ended up to my note-to-self on languages of Telegram that I care

@@ -2,7 +2,7 @@
 layout: null
 permalink: /or/nytimes.html
 redirect_from: /or/nyt.html
-sitemap: true
+sitemap: false
 ---
 
 https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/

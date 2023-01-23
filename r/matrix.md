@@ -6,5 +6,5 @@ redirect_from:
   - /r/matrixurl.html
   - /r/matrixurischeme.html
   - /r/matrixurlscheme.html
-sitemap: true
+sitemap: false
 ---

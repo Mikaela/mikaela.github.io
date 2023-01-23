@@ -5,7 +5,7 @@ redirect_from:
   - /r/vowifi.html
   - /r/VoWiFi.html
   - /n/VoWiFi.html
-sitemap: true
+sitemap: false
 ---
 
 https://www.dna.fi/tuki-puhelinliittymat/wifi-puhelut

@@ -5,7 +5,7 @@ redirect_from:
   - /r/sdtr.wikipedia.html
   - /r/sdtrwikipedia.html
   - /r/sdwikipedia.tr.html
-sitemap: true
+sitemap: false
 ---
 
 <link rel="canonical" href="https://tr.wikipedia-on-ipfs.org.{{site.ipnsSubdomainGateway}}/wiki">

@@ -8,5 +8,5 @@ redirect_from:
   - /r/matrixredirect.html
   - /r/matrixf.html
   - /r/matrixforward.html
-sitemap: true
+sitemap: false
 ---

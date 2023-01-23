@@ -7,5 +7,5 @@ redirect_from:
   - /r/enwikipedia.html
   - /r/wikipediaen.html
   - /r/wikipedia.en.html
-sitemap: true
+sitemap: false
 ---

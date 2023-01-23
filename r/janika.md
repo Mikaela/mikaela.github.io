@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /r/janika.html
-sitemap: true
+sitemap: false
 ---
 
 <link rel="canonical" href="https://bafybeibtebp2pve6x5ajv3h7leuhsz4s4alholyahi74vr7mlpob3ajqji.{{site.ipfsSubdomainGateway}}/Janikan-tarina.jpeg">

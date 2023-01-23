@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/bbc.html
-sitemap: true
+sitemap: false
 ---
 
 https://www.bbcweb3hytmzhn5d532owbu6oqadra5z3ar726vq5kgwwn6aucdccrad.onion

@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/twitter.html
-sitemap: true
+sitemap: false
 ---
 
 main: https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion)

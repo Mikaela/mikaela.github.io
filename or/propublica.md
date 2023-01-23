@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/propublica.html
-sitemap: true
+sitemap: false
 ---
 
 https://p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion/

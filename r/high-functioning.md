@@ -5,5 +5,5 @@ redirect_from:
   - /r/hfa.html
   - /r/lfa.html
   - /r/low-functioning.html
-sitemap: true
+sitemap: false
 ---

@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/userchrome.html
-sitemap: true
+sitemap: false
 ---
 
 ***WARNING: I am not able to find current onion on 2022-03-07***

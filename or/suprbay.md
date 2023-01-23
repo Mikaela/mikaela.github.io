@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/suprbay.html
-sitemap: true
+sitemap: false
 ---
 
 http://suprbaydvdcaynfo4dgdzgxb4zuso7rftlil5yg5kqjefnw4wq4ulcad.onion/

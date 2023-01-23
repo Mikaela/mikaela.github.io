@@ -2,7 +2,7 @@
 layout: null
 permalink: /or/facebook.html
 redirect_from: /or/fb.html
-sitemap: true
+sitemap: false
 ---
 
 https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion

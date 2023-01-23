@@ -5,5 +5,5 @@ redirect_from:
   - /r/applewifi.html
   - /r/applewlan.html
   - /r/applerouter.html
-sitemap: true
+sitemap: false
 ---

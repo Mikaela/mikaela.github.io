@@ -4,5 +4,5 @@ permalink: /r/znc-tor.html
 redirect_from:
   - /r/znctor.html
   - /r/torznc.html
-sitemap: true
+sitemap: false
 ---

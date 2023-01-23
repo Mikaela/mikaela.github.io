@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/trantor.html
-sitemap: true
+sitemap: false
 ---
 
 http://kx5thpx2olielkihfyo4jgjqfb7zx7wxr3sd4xzt26ochei4m6f7tayd.onion/

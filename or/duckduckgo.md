@@ -4,7 +4,7 @@ permalink: /or/duckduckgo.html
 redirect_from:
   - /or/ddg.html
   - /or/ddggg.html
-sitemap: true
+sitemap: false
 ---
 
 https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/

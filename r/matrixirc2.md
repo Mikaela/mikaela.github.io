@@ -4,5 +4,5 @@ permalink: /r/matrixirc2.html
 redirect_from:
   - /r/matrixforirc.html
   - /r/matrixforircuser.html
-sitemap: true
+sitemap: false
 ---

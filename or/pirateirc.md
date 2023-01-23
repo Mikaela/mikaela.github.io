@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/pirateirc.html
-sitemap: true
+sitemap: false
 ---
 
 MapAddress irc.pirateirc.net cbmtec5xuhpjwjq245kpp5jk2wij63ydgu5vwbxvdamzibfubc5uzaqd.onion

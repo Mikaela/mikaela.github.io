@@ -12,7 +12,7 @@ redirect_from:
   - /n/claws-mail.html
   - /n/wkd.html
 
-sitemap: true
+sitemap: false
 ---
 
 Quick GPG note where I may find it.

@@ -3,7 +3,7 @@ layout: null
 permalink: /r/torrent-paradise.html
 redirect_from:
   - /r/torrentparadise.html
-sitemap: true
+sitemap: false
 ---
 
 <link rel="canonical" href="https://torrent-paradise.ml.{{site.ipnsSubdomainGateway}}/index.html">

@@ -6,7 +6,7 @@ redirect_from:
   - /or/tordeb.html
   - /or/tordebianinstall.html
   - /or/torubuntuinstall.html
-sitemap: true
+sitemap: false
 ---
 
 http://jqyzxhjk6psc6ul5jnfwloamhtyh7si74b4743k2qgpskwwxrzhsxmad.onion/docs/debian.html.en

@@ -4,7 +4,7 @@ permalink: /or/gist.html
 redirect_from:
   - /r/ormirror.html
   - /r/0ormirror.html
-sitemap: true
+sitemap: false
 ---
 
 * https://gitea.blesmrt.net/mikaela/ormirror

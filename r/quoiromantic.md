@@ -5,5 +5,5 @@ redirect_from:
   - /r/quoir.html
   - /r/wtfr.html
   - /r/wtfromantic.html
-sitemap: true
+sitemap: false
 ---

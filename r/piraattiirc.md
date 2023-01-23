@@ -4,5 +4,5 @@ permalink: /r/piraattiirc.html
 redirect_from:
   - /r/piraattirc.html
   - /r/pirateirc.html
-sitemap: true
+sitemap: false
 ---

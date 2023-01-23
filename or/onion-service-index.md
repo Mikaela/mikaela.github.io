@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/onion-service-index.html
-sitemap: true
+sitemap: false
 ---
 
 http://vwx4mjvwoszgnagzcrwdjlsq3pq3zyob3zpq5qissxdoivnuyylzn7yd.onion/

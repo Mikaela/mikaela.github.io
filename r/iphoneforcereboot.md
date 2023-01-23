@@ -5,5 +5,5 @@ redirect_from:
   - /r/iosforcereboot.html
   - /r/iosreboot.html
   - /r/iphonereboot.html
-sitemap: true
+sitemap: false
 ---

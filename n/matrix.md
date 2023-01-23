@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /n/matrix.html
-sitemap: true
+sitemap: false
 ---
 
 Collected critiques on Matrix pending https://github.com/Mikaela/mikaela.github.io/issues/248 . Copiable either as oneliner or markdown list.

@@ -4,5 +4,5 @@ permalink: /r/chum.html
 redirect_from:
   - /r/storeman.html
   - /r/storeman-installer.html
-sitemap: true
+sitemap: false
 ---

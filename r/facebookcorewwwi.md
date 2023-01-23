@@ -4,5 +4,5 @@ permalink: /r/facebookcorewwwi.html
 redirect_from:
   - /r/facebookcorewwwionion.html
   - /r/facebookcorewwwi.onion.html
-sitemap: true
+sitemap: false
 ---

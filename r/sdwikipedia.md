@@ -6,7 +6,7 @@ redirect_from:
   - /r/sdenwikipedia.html
   - /r/sdwikipediaen.html
   - /r/sdwikipedia.en.html
-sitemap: true
+sitemap: false
 ---
 
 <link rel="canonical" href="https://en.wikipedia-on-ipfs.org.{{site.ipnsSubdomainGateway}}/wiki">

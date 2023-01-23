@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /or/ircetro.html
-sitemap: true
+sitemap: false
 ---
 
 irc://otzmigofmchtadpek223bkmrzqoa6mmvhmr5dxqurcrtwalizfibuxid.onion:6667

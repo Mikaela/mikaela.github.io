@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /n/ksoy.html
-sitemap: true
+sitemap: false
 month: "11/2022"
 monthly: "29.99 c/kWh"
 basicdistribution: "EI TIEDOSSA €/kk"

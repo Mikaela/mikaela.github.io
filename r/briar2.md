@@ -4,5 +4,5 @@ redirect_from:
   - /r/briarlinks.html
   - /r/mybriar.html
 permalink: /r/briar2.html
-sitemap: true
+sitemap: false
 ---

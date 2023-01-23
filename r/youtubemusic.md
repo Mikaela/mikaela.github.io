@@ -4,5 +4,5 @@ permalink: /r/youtubemusic.html
 redirect_from:
   - /r/musicyoutube.html
   - /r/ytmusic.html
-sitemap: true
+sitemap: false
 ---

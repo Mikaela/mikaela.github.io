@@ -4,5 +4,5 @@ permalink: /r/firefoxservices.html
 redirect_from:
   - /r/firefoxcdn.html
   - /r/firefoxactivations.html
-sitemap: true
+sitemap: false
 ---

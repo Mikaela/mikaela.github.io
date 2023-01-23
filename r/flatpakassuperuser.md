@@ -5,5 +5,5 @@ redirect_from:
   - /r/flatpaksuperuser.html
   - /r/flatpakroot.html
   - /r/flatpakasroot.html
-sitemap: true
+sitemap: false
 ---
