@@ -10,6 +10,8 @@ basicstock: "3,93 €/month"
 stockmargin: "0,38 c/kWh"
 omahelenhighprice: "20 c/kWh"
 omahelenlowprice: "5 c/kWh"
+hattiwatthighprice: "30 c/kWh"
+hattiwattlowprice: "10 c/kWh"
 ---
 
 Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537) [Google Play](https://play.google.com/store/apps/details?id=fi.fingrid.tuntihinta)
@@ -31,6 +33,9 @@ Helen markkinahintasähkö kuukaudelle {{ page.month }} on {{ page.monthly }}.
 * OmaHelen kohtelee alle {{ page.omahelenlowprice }} halpana ja yli {{ page.omahelenhighprice }} kalliina, joten vaihtoehtoiset kaavat ovat:
   * Kallis: <strong>{{ page.omahelenhighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelenin korkea hinta + Marginaali)
   * Halpa: <strong>{{ page.omahelenlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelenin matala hinta + Marginaali)
+* [HattiWatt](https://hattiwatt.com/) vuorostaan sanoo korkean olevan yli {{ page.hattiwatthighprice }} ja halvan olevan alle {{ page.hattiwattlowprice }}. Se tosin näyttää hinnan myös liikennevaloin.
+  * Halpa: {{ page.hattiwattlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWattin matala hinta + Marginaali)
+  * Kallis: {{ page.hattiwatthighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWattin korkea hinta + Marginaali)
 
 ## Lähteet
 
@@ -53,8 +58,11 @@ Helen's monthly market price for month {{ page.month }} is {{ page.monthly }}.
 * Cheap: <strong>({{ page.monthly }} + {{ page.distributionmargin }}) / 2</strong> (Helen's Market Price Electricity + distribution margin / 2), ***round down***
 * Margin: <strong>{{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (Distribution fee + stock margin)
 * OmaHelen app treats {{ page.omahelenlowprice }} as cheap and over {{ page.omahelenhighprice }} as expensive, so alternative equations are:
-  * Expensive: <strong>{{ page.omahelenhighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelen's high price + Marginal)
-  * Cheap: <strong>{{ page.omahelenlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelen's low price + Marginal)
+  * Expensive: <strong>{{ page.omahelenhighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelen's high price + Margin)
+  * Cheap: <strong>{{ page.omahelenlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelen's low price + Margin)
+* [HattiWatt](https://hattiwatt.com/) again treats over {{ page.hattiwatthighprice }} as high price with low price being {{ page.hattiwattlowprice }}. It however shows price in traffic lights.
+  * Cheap: {{ page.hattiwattlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWatt's low price + Margin))
+  * Expensive: {{ page.hattiwatthighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWatt's high price + Margin)
 
 ## Sources
 
