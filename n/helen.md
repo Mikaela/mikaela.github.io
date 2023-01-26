@@ -34,8 +34,8 @@ Helen markkinahintasähkö kuukaudelle {{ page.month }} on {{ page.monthly }}.
   * Kallis: <strong>{{ page.omahelenhighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelenin korkea hinta + Marginaali)
   * Halpa: <strong>{{ page.omahelenlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelenin matala hinta + Marginaali)
 * [HattiWatt](https://hattiwatt.com/) vuorostaan sanoo korkean olevan yli {{ page.hattiwatthighprice }} ja halvan olevan alle {{ page.hattiwattlowprice }}. Se tosin näyttää hinnan myös liikennevaloin.
-  * Halpa: {{ page.hattiwattlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWattin matala hinta + Marginaali)
-  * Kallis: {{ page.hattiwatthighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWattin korkea hinta + Marginaali)
+  * Halpa: <strong>{{ page.hattiwattlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWattin matala hinta + Marginaali)
+  * Kallis: <strong>{{ page.hattiwatthighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWattin korkea hinta + Marginaali)
 
 ## Lähteet
 
@@ -61,8 +61,8 @@ Helen's monthly market price for month {{ page.month }} is {{ page.monthly }}.
   * Expensive: <strong>{{ page.omahelenhighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelen's high price + Margin)
   * Cheap: <strong>{{ page.omahelenlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (OmaHelen's low price + Margin)
 * [HattiWatt](https://hattiwatt.com/) again treats over {{ page.hattiwatthighprice }} as high price with low price being {{ page.hattiwattlowprice }}. It however shows price in traffic lights.
-  * Cheap: {{ page.hattiwattlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWatt's low price + Margin))
-  * Expensive: {{ page.hattiwatthighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWatt's high price + Margin)
+  * Cheap: <strong>{{ page.hattiwattlowprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWatt's low price + Margin))
+  * Expensive: <strong>{{ page.hattiwatthighprice }} + {{ page.distributionmargin }} + {{ page.stockmargin }}</strong> (HattiWatt's high price + Margin)
 
 ## Sources
 
