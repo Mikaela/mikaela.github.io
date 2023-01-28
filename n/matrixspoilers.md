@@ -2,8 +2,8 @@
 layout: null
 permalink: /n/matrixspoilers.html
 redirect_from:
-  - r/nheko.html
-  - r/matrixspoiler.html
+  - n/nheko.html
+  - n/matrixspoiler.html
 sitemap: false
 ---
 
