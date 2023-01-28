@@ -9,7 +9,7 @@ sitemap: false
 
 The Matrix specification supports spoilers since version 1.1:
 
-* https://spec.matrix.org/latest/client-server-api/#spoiler-messages
+* [Spoiler messages at Client-Server API of Matrix Specification](https://spec.matrix.org/latest/client-server-api/#spoiler-messages)
 
 My favourite Matrix clients FluffyChat and Nheko support spoilers when
 the spoiler is formatted like `||Reason why this is a spoiler|Actually
