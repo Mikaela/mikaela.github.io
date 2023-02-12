@@ -10,3 +10,6 @@ charset = utf-8
 # YAML requires spaces instead of tabs.
 indent_style = space
 indent_size = 2
+
+[.{git*,mailmap}]
+indent_style = tab
