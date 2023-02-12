@@ -1,0 +1,4 @@
+[submodule "lfs-media"]
+	path = lfs-media
+	url = https://github.com/Mikaela/mikaela.github.io.git
+	branch = lfs-media
