@@ -17,7 +17,7 @@ LineageOS-yhteensopivuus: https://wiki.lineageos.org/devices/
 
 Käytettyjä puhelimia suomalaisilta tai suomenkielisiltä yrityksiltä:
 
-* https://www.inrego.fi/alypuhelimet
+* https://shop.inrego.fi/
 * https://swappie.com/fi/
 * https://mresell.fi/
 
