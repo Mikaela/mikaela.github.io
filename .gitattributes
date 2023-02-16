@@ -13,6 +13,9 @@ Gemfile.lock linguist-vendored
 # I am also not risking line endings being meaningful in signatures.
 *.sig linguist-vendored eol=lf
 
+# Force include in statistics
+*.{md,markdown} linguist-language=Markdown linguist-detectable
+
 # LFS
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
