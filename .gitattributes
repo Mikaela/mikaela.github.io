@@ -1,10 +1,10 @@
 * text=auto
 
 # Exclude from statistics
-_includes/ linguist-vendored
-_layouts/ linguist-vendored
-css/ linguist-vendored
-_sass/ linguist-vendored
+_includes/* linguist-vendored
+_layouts/* linguist-vendored
+css/* linguist-vendored
+_sass/* linguist-vendored
 Gemfile linguist-vendored
 Gemfile.lock linguist-vendored
 
