@@ -1,3 +1,18 @@
 * text=auto
+
+# Exclude from statistics
+_includes/ linguist-vendored
+_layouts/ linguist-vendored
+css/ linguist-vendored
+_sass/ linguist-vendored
+Gemfile linguist-vendored
+Gemfile.lock linguist-vendored
+
+# Misdetected as ML, actually OpenSSH signatures that Linguist doesn't know
+# at this time.
+# I am also not risking line endings being meaningful in signatures.
+*.sig linguist-vendored eol=lf
+
+# LFS
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
