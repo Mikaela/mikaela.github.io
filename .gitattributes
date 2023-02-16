@@ -11,7 +11,7 @@ Gemfile.lock linguist-vendored
 # Misdetected as ML, actually OpenSSH signatures that Linguist doesn't know
 # at this time.
 # I am also not risking line endings being meaningful in signatures.
-*.sig linguist-vendored eol=lf
+*.sig -linguist-detectable eol=lf
 
 # Force include in statistics
 *.{md,markdown} linguist-language=Markdown linguist-detectable
