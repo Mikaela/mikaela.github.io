@@ -4,11 +4,9 @@
 # These don't feel like mine
 .github/** text=auto -linguist-detectable
 css/** text=auto -linguist-detectable
-_config.yml/** text=auto -linguist-detectable
 _data/** text=auto -linguist-detectable
 _includes/** text=auto -linguist-detectable
 _layouts/** text=auto -linguist-detectable
-_matrix/** text=auto -linguist-detectable
 _sass/** text=auto -linguist-detectable
 
 # Unnecessary for statistics
