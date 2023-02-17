@@ -1,13 +1,20 @@
 # Line normalisation, GitHub language detection
 * text=auto linguist-detectable
 
-# These don't feel like mine'
+# These don't feel like mine
 _config.yml/** text=auto -linguist-detectable
 _data/** text=auto -linguist-detectable
 _includes/** text=auto -linguist-detectable
 _layouts/** text=auto -linguist-detectable
 _matrix/** text=auto -linguist-detectable
 _sass/** text=auto -linguist-detectable
+
+# Unnecessary for statistics
+Gemfile text linguist-vendored
+Gemfile.lock text linguist-generated
+
+# Signature files misdetected as "Standard ML"
+*.sig text -linguist-detectable
 
 # LFS
 *.jpeg filter=lfs diff=lfs merge=lfs -text
