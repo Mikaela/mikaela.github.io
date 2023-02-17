@@ -1,6 +1,7 @@
 _site
 .sass-cache
 *.swp
+*-swp
 *~
 keys.txt.asc
 .bundle
