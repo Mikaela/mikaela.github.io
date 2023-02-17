@@ -2,6 +2,8 @@
 * text=auto linguist-detectable
 
 # These don't feel like mine
+.github/** text=auto -linguist-detectable
+css/** text=auto -linguist-detectable
 _config.yml/** text=auto -linguist-detectable
 _data/** text=auto -linguist-detectable
 _includes/** text=auto -linguist-detectable
