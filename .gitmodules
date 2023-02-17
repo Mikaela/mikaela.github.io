@@ -5,6 +5,8 @@
 [submodule "or"]
 	path = or
 	url = https://github.com/Mikaela/ormirror.git
+	branch = master
 [submodule "ir"]
 	path = ir
 	url = https://github.com/Mikaela/i2pmirror.git
+	branch = master
