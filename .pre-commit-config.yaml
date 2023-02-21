@@ -1,0 +1,24 @@
+# Remember to run `pre-commit install` at least once!
+# Manual test run: `pre-commit run --all-files`
+# Update? `pre-commit autoupdate`
+#
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    -   id: check-case-conflict
+    -   id: check-executables-have-shebangs
+    -   id: check-shebang-scripts-are-executable
+    -   id: destroyed-symlinks
+    -   id: detect-private-key
+    -   id: fix-byte-order-marker
+
+- repo: https://github.com/python-jsonschema/check-jsonschema
+  rev: 0.21.0
+  hooks:
+  - id: check-dependabot
+  - id: check-github-actions
+  - id: check-github-workflows
+  - id: check-gitlab-ci
