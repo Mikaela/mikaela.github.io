@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this, please cite it as below."
+title: Aminda.eu
+message: >-
+  If you use this website, please cite it using the
+  metadata from this file.
+type: software
 authors:
-- family-names: "Suomalainen"
-  given-names: "Aminda"
-title: "My website"
-url: "https://github.com/Mikaela/.github"
-preferred-citation:
-  type: generic
-  title: "My website"
-  authors:
-  - family-names: "Suomalainen"
-    given-names: "Aminda"
+  - given-names: Aminda
+    family-names: Suomalainen
+    email: suomalainen+git@mikaela.info
+repository-code: 'https://github.com/Mikaela/mikaela.github.io'
+url: 'https://www.aminda.eu'
+license: CC-BY-4.0
