@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2023 Aminda Suomalainen <suomalainen+git@mikaela.info>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 Orphan branch for storing media files in LFS without clottering the
 main branch history that much.
 
