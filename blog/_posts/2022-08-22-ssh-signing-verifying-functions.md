@@ -5,12 +5,12 @@ category: [english]
 tags: [ssh]
 ---
 
-*I have been using SSH signed git commits from 8 months and started signing things with my SSH key instead of PGP keys and thought to share how to do that more easily*
+_I have been using SSH signed git commits from 8 months and started signing things with my SSH key instead of PGP keys and thought to share how to do that more easily_
 
 If you didn't know that SSH can be used for this, I suggest reading
 
-* [Andrew Ayer: It's Now Possible To Sign Arbitrary Data With Your SSH Keys](https://www.agwa.name/blog/post/ssh_signatures)
-* [Caleb Hearth: Signing Git Commits with Your SSH Key](https://calebhearth.com/sign-git-with-ssh) ([web.archive.org](https://web.archive.org/web/20211117182628/https://calebhearth.com/sign-git-with-ssh))
+- [Andrew Ayer: It's Now Possible To Sign Arbitrary Data With Your SSH Keys](https://www.agwa.name/blog/post/ssh_signatures)
+- [Caleb Hearth: Signing Git Commits with Your SSH Key](https://calebhearth.com/sign-git-with-ssh) ([web.archive.org](https://web.archive.org/web/20211117182628/https://calebhearth.com/sign-git-with-ssh))
 
 ## Signing
 
@@ -62,9 +62,9 @@ Good "file" signature for noreply@aminda.eu with ED25519 key SHA256:y2OpGEbett3F
 
 When git is configured properly with `gpg.ssh.allowedSignersFile` the usual git verification commands work with SSH as well:
 
-* `git log --show-signature` for the usual git log with signatures visbile
-* `git verify-tag 1.0` for verifying a specific tag signature.
-* `git verify-commit HEAD` to verify the latest commit signature or just to see that git signing is working.
+- `git log --show-signature` for the usual git log with signatures visbile
+- `git verify-tag 1.0` for verifying a specific tag signature.
+- `git verify-commit HEAD` to verify the latest commit signature or just to see that git signing is working.
 
 Isn't the last command again effort? What if I could just say `git verify`?
 

@@ -15,7 +15,7 @@ simply as I am repeating myself everywhere about this same thing.
 SASL is mechanism for identifying to services at IRC automatically even
 before you are visible to the network.
 
-* * * * *
+---
 
 First set mechanism as plain if you have it as anything else.
 
@@ -37,8 +37,8 @@ Then simply set your username and password
 /save
 ```
 
-*Replace NETWORK with the name of network that you have in WeeChat, for
-example `liberachat`.*
+_Replace NETWORK with the name of network that you have in WeeChat, for
+example `liberachat`._
 
 And now after `/reconnect` you should be identified automatically using
 SASL, but you might also ensure that you use SSL.
@@ -53,9 +53,9 @@ Change your address to use SSL port and enable SSL for the network:
 /save
 ```
 
-*Note: SSL does nothing until you `/reconnect`*
+_Note: SSL does nothing until you `/reconnect`_
 
-*6697 is the [standard SSL port](https://tools.ietf.org/html/rfc7194).*
+_6697 is the [standard SSL port](https://tools.ietf.org/html/rfc7194)._
 
 liberachat has valid SSL certificate, but if it didn't, you would have two
 choises:

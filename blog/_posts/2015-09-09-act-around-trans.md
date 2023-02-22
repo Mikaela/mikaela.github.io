@@ -10,8 +10,8 @@ redirect_from:
 ---
 
 So you have discovered that I am trans? What should you do? It has nothing
- to do with you, so do nothing, just treat me like you would any other
- woman.
+to do with you, so do nothing, just treat me like you would any other
+woman.
 
 I also don't want to discuss it with you as you are most likely missing
 understanding on the subject and either would make me feel very

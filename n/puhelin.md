@@ -17,13 +17,13 @@ LineageOS-yhteensopivuus: https://wiki.lineageos.org/devices/
 
 Käytettyjä puhelimia suomalaisilta tai suomenkielisiltä yrityksiltä:
 
-* https://shop.inrego.fi/
-* https://swappie.com/fi/
-* https://mresell.fi/
+- https://shop.inrego.fi/
+- https://swappie.com/fi/
+- https://mresell.fi/
 
 International used phones:
 
-* Ebay
-* gh.de https://geizhals.eu/ - German price comparsion with LOS option
+- Ebay
+- gh.de https://geizhals.eu/ - German price comparsion with LOS option
 
 Katso myös /n/yrityskone

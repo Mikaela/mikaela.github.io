@@ -34,7 +34,7 @@ deluid # to delete the uid which doesn't contain your name
 save
 ```
 
-*\* Comments are considered harmful https://debian-administration.org/users/dkg/weblog/97
+\*\* Comments are considered harmful https://debian-administration.org/users/dkg/weblog/97
 
 Then you are ready to publish the public key however you generally publish
 it, preferably in multiple places from where some recognise revokation
@@ -49,7 +49,7 @@ is required for multiple PGP keys per account and to submit changes to it,
 `keybase pgp update --all` (where --all is again necessary only if you have
 multiple keys).
 
-* * * * *
+---
 
 Claws-mail note that is somewhat related.
 
@@ -82,7 +82,7 @@ Note the empty line in the end, as PGP/INLINE is the way to sign emails,
 it the PGP signature comes after it and in my opinion looks a bit cleaner
 with the signature ending to an empty line.
 
-* * * * *
+---
 
 Setting up GPG WKD (Web Key Directory), mostly stripped/adjusted from
 https://keyserver.mattrude.com/guides/web-key-directory/

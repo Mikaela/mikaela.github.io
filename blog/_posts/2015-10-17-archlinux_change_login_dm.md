@@ -10,21 +10,21 @@ redirect_from:
   - /english/2015/10/17/antergos_change_login_dm.html
 ---
 
-*Also applies to other distributions based on it, how do you change
- the display manager, aka login screen.*
+_Also applies to other distributions based on it, how do you change
+the display manager, aka login screen._
 
-* `--needed` makes pacman not install packages that are already installed.
-* uncommented line = line that doesn't begin with `#`.
-* to change DM you don't need to reboot, you can also
+- `--needed` makes pacman not install packages that are already installed.
+- uncommented line = line that doesn't begin with `#`.
+- to change DM you don't need to reboot, you can also
   `sudo systemctl stop olddm` and `sudo systemctl start newdm`, but this
   logs you out.
-* my personal recommendation is using LightDM if it works for you,
+- my personal recommendation is using LightDM if it works for you,
   otherwise sddm. I personally use LightDM, because sddm is missing
   support for `sudo passwd -de user` [sddm/sddm#472](https://github.com/sddm/sddm/issues/472)
 
 ## LightDM gtk greeter
 
-* `sudo pacman --needed -S lightdm lightdm-gtk-greeter accountsservice numlockx`
+- `sudo pacman --needed -S lightdm lightdm-gtk-greeter accountsservice numlockx`
 
 Edit the file `/etc/lightdm/lightdm.conf` and find the uncommented line
 that starts with `greeter-session=` and change it to
@@ -41,7 +41,7 @@ Then enable it by running `sudo systemctl enable -f lightdm` and reboot.
 
 ## sddm
 
-* `sudo pacman --needed -S sddm`
+- `sudo pacman --needed -S sddm`
 
 SDDM is simple display manager for all desktop environments and is
 successor of KDM which is the KDE Display Manager.
@@ -63,10 +63,10 @@ for controlling sddm.
 
 ## gdm
 
-* `sudo pacman --needed -S gdm`
+- `sudo pacman --needed -S gdm`
 
 The last display manager I am mentioning is the Gnome Display Manager and
 is only for Gnome users and I am not so familiar with it and I believe
 using it is just `sudo systemctl enable -f gdm`.
 
-[numpad]:https://en.wikipedia.org/wiki/numpad
+[numpad]: https://en.wikipedia.org/wiki/numpad

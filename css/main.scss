@@ -1,35 +1,32 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
-
-
 
 // Our variables
 //$base-font-family: Helvetica, Arial, sans-serif;
 //$base-font-family: "Copperplate / Copperplate Gothic Light", sans-serif;
 $base-font-family: "Noto Serif", serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size: 16px;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 
-$text-color:       #111;
+$text-color: #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color: #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width: 800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
+$on-palm: 600px;
+$on-laptop: 800px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -39,64 +36,60 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+@import "base", "layout", "syntax-highlighting";
 
 // This is used in the index
 #avatar {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em;
-    border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  border: 1px solid black;
 }
 
 // This is the short bio in the index and all my profiles
 #bio {
-    text-align: center;
-    //font-weight: bold;
-    font-style: italic;
+  text-align: center;
+  //font-weight: bold;
+  font-style: italic;
 }
 
 // At least used in the index
 .centered {
-    list-style-type: none;
-    margin:0 auto;
-    text-align: center;
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
 }
 
 // IRC logs should be formatted with this
 .irclog {
-    white-space: pre-wrap;
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+  white-space: pre-wrap;
+  font-size: 15px;
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  background-color: #eef;
 }
 
 // Tables belong to CSS, make the HTML5 validator happy
-table, td, th {
-    border: 1px solid black;
+table,
+td,
+th {
+  border: 1px solid black;
 }
 
 // Trying to make images look a little better
 img {
-     margin-left: auto;
-     margin-right: auto;
-     border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
 }
 
 // Also in index, hidden text
 #cake {
-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
 }

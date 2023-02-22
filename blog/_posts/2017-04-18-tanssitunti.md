@@ -7,11 +7,11 @@ tags: [finnish, life, Kotka, keskuskoulu, talvi, liikunta]
 redirect_from: /finnish/2017/04/18/tanssitunti.html
 ---
 
-*Minusta tuntuu, että tästä pitäisi kirjoittaa nyt ja koska git/blogi ei
- ole tässä ja nyt, vuodatuskanava kelpaa.*
+_Minusta tuntuu, että tästä pitäisi kirjoittaa nyt ja koska git/blogi ei
+ole tässä ja nyt, vuodatuskanava kelpaa._
 
-*Lisätty blogiin muokkaamattomana alkuperäisellä kirjoituspäivämäärällä
- 2017-04-30.*
+_Lisätty blogiin muokkaamattomana alkuperäisellä kirjoituspäivämäärällä
+2017-04-30._
 
 Kotkan Keskuskoulu joskus syystalvella. On pakollinen tanssitunti,
 mahdollisesti senhetkiseen opetussuunnitelmaan perustuen.
@@ -40,9 +40,9 @@ asti ajattelematta niitä yhdessä.
 
 Lisää aiheesta:
 
-*Tästä osasta voisi tehdä Jekyll-ystävällisemmän (blogialusta) ja
- riippumattoman muunmoassa domainista ja polusta, mutta nyt en jaksa vaan
- siirryn ajankohtaisempaan blogaukseen.*
+_Tästä osasta voisi tehdä Jekyll-ystävällisemmän (blogialusta) ja
+riippumattoman muunmoassa domainista ja polusta, mutta nyt en jaksa vaan
+siirryn ajankohtaisempaan blogaukseen._
 
-* https://mikaela.info/blog/english/2015/06/16/feelings.html
-* https://mikaela.info/about#life
+- https://mikaela.info/blog/english/2015/06/16/feelings.html
+- https://mikaela.info/about#life

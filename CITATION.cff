@@ -8,6 +8,6 @@ authors:
   - given-names: Aminda
     family-names: Suomalainen
     email: suomalainen+git@mikaela.info
-repository-code: 'https://github.com/Mikaela/mikaela.github.io'
-url: 'https://www.aminda.eu'
+repository-code: "https://github.com/Mikaela/mikaela.github.io"
+url: "https://www.aminda.eu"
 license: CC-BY-4.0

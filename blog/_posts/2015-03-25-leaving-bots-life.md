@@ -23,11 +23,11 @@ month and more.
 It started some time ago when I went there and it was mainly in three
 events on different days:
 
-* Coming from school canteen someone said "hi Mikaela, you are beautiful"
+- Coming from school canteen someone said "hi Mikaela, you are beautiful"
   in one boy group where I have no idea who said it or who they even are.
-* Going to school canteen someone of the same group said "hi" and I replied
+- Going to school canteen someone of the same group said "hi" and I replied
   "hi" and I got third reply imitating my horrible masculine voice.
-* The last time going to school canteen I went to nearby bathroom to
+- The last time going to school canteen I went to nearby bathroom to
   \<if I understood correctly, trans people do so horrible things in
   bahtroom that I cannot write it here :P\> and I heard my name being
   shouted there multiple times. When I leeft it and went to canteen, I
@@ -46,17 +46,17 @@ near Hamina.
 There was one exception where I had scheduler appointment with the school
 social worker and I went there with my mother, but the school social
 worker was away with label on the door saying "if you had scheduled
-appointment, please contact me using Wilma (place to message teachers 
+appointment, please contact me using Wilma (place to message teachers
 etc.)" so we wasted time 50 minutes per trip from [Kotka] to [Hamina] and
 [Hamina] to [Kotka].
 
-[Kotka]:https://www.kotka.fi/en/residents
-[Hamina]:https://hamina.fi/en/
+[kotka]: https://www.kotka.fi/en/residents
+[hamina]: https://hamina.fi/en/
 
-* * * * *
+---
 
-*Update:
-[I graduated on 2015-05-29.]({% post_url blog/2015-05-29-graduation %})*
+_Update:
+[I graduated on 2015-05-29.]({% post_url blog/2015-05-29-graduation %})_
 
 I would graduate in summer without this issue and the only thing I have
 missing is work training. As I don't have work training place I was doing
@@ -75,8 +75,8 @@ try to get to [Helsinki] or [Jyväskylä] and study there as people have
 offered to help me find apartment either from there) or anywhere where I
 will work in the future if I ever will.
 
-[Helsinki]:https://www.hel.fi/www/helsinki/en
-[Jyväskylä]:https://www.hel.fi/www/helsinki/en
+[helsinki]: https://www.hel.fi/www/helsinki/en
+[jyväskylä]: https://www.hel.fi/www/helsinki/en
 
 The school also offered to also give remote tasks, but it was too late and
 I don't feel like I can do anything anymore as the school hasn't done
@@ -87,4 +87,4 @@ am not someone who could stay away from school just for fun, I have talked
 about suicide daily and I have also just been talked out of it for the
 second time in two days. I don't believe I can live like this forever.
 
-* * * * *
+---

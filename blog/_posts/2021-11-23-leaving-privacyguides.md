@@ -5,17 +5,17 @@ category: [english]
 tags: [privacyguides]
 ---
 
-*PrivacyGuides.org was supposed to be the continuation of PrivacyTools.io
- based on transparency/openess, actually reviewing recommendations and having
- at least two reviews by team members before un/recommending anything. That
- is no longer the case.*
+_PrivacyGuides.org was supposed to be the continuation of PrivacyTools.io
+based on transparency/openess, actually reviewing recommendations and having
+at least two reviews by team members before un/recommending anything. That
+is no longer the case._
 
 Between 2021-11-12 and 2021-11-20 I had a friend visiting me physically so
 I was less available online. During that time, on 2021-11-18 9.30 UTC+2
 a pull request was force-merged by a team member listing three new projects
 and removing two.
 
-* [privacyguides/privacyguides.org#274](https://github.com/privacyguides/privacyguides.org/pull/274)
+- [privacyguides/privacyguides.org#274](https://github.com/privacyguides/privacyguides.org/pull/274)
 
 This was mentioned in the team room and reviews were asked during one hour
 period before the force-merge, but no one was online to review before it was
@@ -105,17 +105,17 @@ a long way in upkeeping security in form of malicious domain filtering without
 drawbacks of VPNs (increased latencies, captchas, connectivity problems in
 poor network connections).
 
-* *Before following any of this, please see [Quad9 privacy policy](https://quad9.net/service/privacy/) and decide whether it suits for you*
-  * DoT vs Private DNS vs DoH? (Private DNS is) DoT which actually cares about diverse internet, has less bloat on it
-    and due to separate port is likely choice of your network admin. However ***DoH actually works everywhere***
+- _Before following any of this, please see [Quad9 privacy policy](https://quad9.net/service/privacy/) and decide whether it suits for you_
+  - DoT vs Private DNS vs DoH? (Private DNS is) DoT which actually cares about diverse internet, has less bloat on it
+    and due to separate port is likely choice of your network admin. However **_DoH actually works everywhere_**
     due to using the same port, so as someone who just wants to use the internet, it should be preferred.
     If you are implementing encrypted DNS somewhere, I would request support
     for both for the [DoT opportunistic mode which should be default](https://datatracker.ietf.org/doc/html/rfc8310#section-5).
-* Android9+: Settings -> Advanced -> Private DNS: `dns.quad9.net`
-* Apple: [encrypted-dns.party](https://encrypted-dns.party/)
-* SailfishOS: [feature request](https://forum.sailfishos.org/t/support-doh-for-sailfish/3616?u=mikaela)
-* Linux: [systemd-resolved on Arch Wiki](https://wiki.archlinux.org/title/Systemd-resolved#DNS_over_TLS) [Actually secure DNS over TLS in Unbound on ctrl.blog](https://www.ctrl.blog/entry/unbound-tls-forwarding.html)
-* Windows 11: [proper method](https://docs.microsoft.com/windows-server/networking/dns/doh-client-support) or (read first: [Microsoft: Windows registry for advanced users](https://docs.microsoft.com/troubleshoot/windows-server/performance/windows-registry-advanced-users)) [improper method that only experienced users if even them should use](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/Windows/DoH/DohWellKnownServers.reg) and in any case network settings
+- Android9+: Settings -> Advanced -> Private DNS: `dns.quad9.net`
+- Apple: [encrypted-dns.party](https://encrypted-dns.party/)
+- SailfishOS: [feature request](https://forum.sailfishos.org/t/support-doh-for-sailfish/3616?u=mikaela)
+- Linux: [systemd-resolved on Arch Wiki](https://wiki.archlinux.org/title/Systemd-resolved#DNS_over_TLS) [Actually secure DNS over TLS in Unbound on ctrl.blog](https://www.ctrl.blog/entry/unbound-tls-forwarding.html)
+- Windows 11: [proper method](https://docs.microsoft.com/windows-server/networking/dns/doh-client-support) or (read first: [Microsoft: Windows registry for advanced users](https://docs.microsoft.com/troubleshoot/windows-server/performance/windows-registry-advanced-users)) [improper method that only experienced users if even them should use](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/Windows/DoH/DohWellKnownServers.reg) and in any case network settings
 
 Counter-argument: encrypted DNS doesn't encrypt the IP address you are connecting
 to which often maps back to the plaintext domain, and SNI is still visible so

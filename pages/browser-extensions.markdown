@@ -146,39 +146,39 @@ TODO: Sort this list.
 
 These can generally be found from `about:flags` on Chromium based browsers, for Vivaldi explicit `vivaldi://flags` is required and it also has `chrome://settings` for the usual Chromium settings.
 
-* `#enable-quic` - enabled
-* `#enable-force-dark` - enabled with increased text constract
-* `#force-color-profile` - sRGB
-* `#trust-tokens` - enabled
+- `#enable-quic` - enabled
+- `#enable-force-dark` - enabled with increased text constract
+- `#force-color-profile` - sRGB
+- `#trust-tokens` - enabled
 
 ## Vendor-prefixed
 
 These likely also exist, but just without the `vendor-` part when searhcing.
 
-* `#edge-automatic-https` - enabled
-* `#edge-autoplay-user-setting-block-option`
-* `#edge-tab-groups` - enabled
-* `#edge-tab-groups-auto-create` - enabled
-* `#edge-tab-groups-collapse-freezing` - enabled
+- `#edge-automatic-https` - enabled
+- `#edge-autoplay-user-setting-block-option`
+- `#edge-tab-groups` - enabled
+- `#edge-tab-groups-auto-create` - enabled
+- `#edge-tab-groups-collapse-freezing` - enabled
 
 # Firefox about:config
 
-* `privacy.firstparty.isolate` to `true` for preventing domains from
+- `privacy.firstparty.isolate` to `true` for preventing domains from
   accessing each other's data.
-* `dom.security.https_only_mode` to `true` to force HTTPS and not need HTTPS Everywhere
-* `security.certerrors.mitm.auto_enable_enterprise_roots` to `false` in order to not trust system CA store in case of enterprise MITM
-* `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. This may be a bit paranoid, but *only the paranoid survive.*
-* `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
+- `dom.security.https_only_mode` to `true` to force HTTPS and not need HTTPS Everywhere
+- `security.certerrors.mitm.auto_enable_enterprise_roots` to `false` in order to not trust system CA store in case of enterprise MITM
+- `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. This may be a bit paranoid, but _only the paranoid survive._
+- `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
   used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
-* (On Linux `widget.content.gtk-theme-override` (a string that has to be created by
+- (On Linux `widget.content.gtk-theme-override` (a string that has to be created by
   user) to `Adwaita:light` so text boxes in dark themes become readable,
   thank you [Dovydas Venckus](https://www.dovydasvenckus.com/linux/2018/08/20/fix-firefox-dark-input-fields-on-gnome/)
-    * [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315))
-* `image.animation_mode` to `once` in order to have gifs play once and
+  - [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315))
+- `image.animation_mode` to `once` in order to have gifs play once and
   then stop everywhere (`none` to never have them play).
- * `geo.provider.network.url` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
-* `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful. E.g. Cyrillic alphabet
-* `reader.parse-on-load.force-enabled` to `true` in order to allow reader use to be used on ~all websites and devices (regardless of low RAM?)
+- `geo.provider.network.url` to `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
+- `network.IDN_show_punycode` to `true` in order to see punycode instead of UTF-8 in case of spoofing attempt. However makes reading non-ASCII domains painful. E.g. Cyrillic alphabet
+- `reader.parse-on-load.force-enabled` to `true` in order to allow reader use to be used on ~all websites and devices (regardless of low RAM?)
 
 Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/show_bug.cgi?id=1497263) ?
 
@@ -186,40 +186,41 @@ Future note: [`network.dns.blockDotOnion;false`](https://bugzilla.mozilla.org/sh
 
 Firefox seems to contain a lot of advertising or sponsoring nowadays, whether to other Mozilla products or whoever pays them. See also [Bug 1773860: Provide global long-term "disable all promos" flag](https://bugzilla.mozilla.org/show_bug.cgi?id=1773860).
 
-* `browser.newtabpage.activity-stream.showSponsored` & `browser.newtabpage.activity-stream.showSponsored` to `false` to stop sponsored links.
-* `browser.vpn_promo.enabled` to `false` to hopefully stop Mozilla VPN advertisements
-* `browser.promo.focus.enabled` to `false` to stop Firefox Focus advertisements?
-* `browser.preferences.moreFromMozilla` to `false` to not hear from other Mozilla products?
+- `browser.newtabpage.activity-stream.showSponsored` & `browser.newtabpage.activity-stream.showSponsored` to `false` to stop sponsored links.
+- `browser.vpn_promo.enabled` to `false` to hopefully stop Mozilla VPN advertisements
+- `browser.promo.focus.enabled` to `false` to stop Firefox Focus advertisements?
+- `browser.preferences.moreFromMozilla` to `false` to not hear from other Mozilla products?
 
 ## DNS over HTTPS
 
-* `network.trr.mode` depends, `3` to enforce DoH (required for ECH) or `5` to explicitly disable. `2` to prefer DoH, but fallback to system also exists.
-    * [DoH is required by Firefox ESNI/ECH support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI/ClientHello which would still leak which
-      sites you visit. [Another bug about ESNI/ECH + Android DoT](https://bugzilla.mozilla.org/show_bug.cgi?id=1542754#c3)
-    * Are you using a VPN? Do they provide a DoH server? If yes, maybe the answer is 3 for ESNI/ECH?
-* `network.trr.early-AAAA` `true` to hopefully prefer IPv6
-* `network.trr.uri` for the actual resolver address, e.g.
+- `network.trr.mode` depends, `3` to enforce DoH (required for ECH) or `5` to explicitly disable. `2` to prefer DoH, but fallback to system also exists.
+  - [DoH is required by Firefox ESNI/ECH support](https://bugzilla.mozilla.org/show_bug.cgi?id=1500289) which encrypts SNI/ClientHello which would still leak which
+    sites you visit. [Another bug about ESNI/ECH + Android DoT](https://bugzilla.mozilla.org/show_bug.cgi?id=1542754#c3)
+  - Are you using a VPN? Do they provide a DoH server? If yes, maybe the answer is 3 for ESNI/ECH?
+- `network.trr.early-AAAA` `true` to hopefully prefer IPv6
+- `network.trr.uri` for the actual resolver address, e.g.
   `https://doh.mullvad.net/dns-query`
-  * and if they provide as SOCKS proxy as a killswitch, `network.proxy.socks_remote_dns` must be `false`
-* `network.trr.disable-ECS` to `false` if preferring speed over privacy or using NextDNS private ECS.
-  * [Wikipedia: EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet)
+  - and if they provide as SOCKS proxy as a killswitch, `network.proxy.socks_remote_dns` must be `false`
+- `network.trr.disable-ECS` to `false` if preferring speed over privacy or using NextDNS private ECS.
+  - [Wikipedia: EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet)
 
 Some notes:
-* There is also `network.trr.exclude-etc-hosts` for those using `/etc/hosts` for blocking.
-* You can confirm TRR working by visiting `about:networking#dns` where
-you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
-* ECH requires `network.dns.echconfig.enabled` and `network.dns.use_https_rr_as_altsvc` to be `true`,
+
+- There is also `network.trr.exclude-etc-hosts` for those using `/etc/hosts` for blocking.
+- You can confirm TRR working by visiting `about:networking#dns` where
+  you should be seeing DNS cache of Firefox and a lot of `TRR: true`.
+- ECH requires `network.dns.echconfig.enabled` and `network.dns.use_https_rr_as_altsvc` to be `true`,
   but they seem to default to true at least in Firefox Nightly so maybe no action is needed.
-* [While investingating how Android 9 Private DNS works, I also wrote a DNS provider comparsion here on 2019-07-11]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
+- [While investingating how Android 9 Private DNS works, I also wrote a DNS provider comparsion here on 2019-07-11]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
 
 ## SSDs
 
 This information is from [Arch Wiki on Firefox tweaks](https://wiki.archlinux.org/index.php/Firefox/Tweaks)
 
-* `browser.cache.disk.enable` to `false` to only cache to RAM.
-* (`browser.cache.memory.enable` to `true` which should be default)
-* `browser.sessionstore.interval` to `600000` in order to only store open session every ten minutes (instead of 15 seconds) in case of crashes.
-    * alternatively `browser.sessionstore.resume_from_crash` to `false` to not store the session data for crash recovery at all. I think this may be the more healthy option with all the information flood and dozens of tabs.
+- `browser.cache.disk.enable` to `false` to only cache to RAM.
+- (`browser.cache.memory.enable` to `true` which should be default)
+- `browser.sessionstore.interval` to `600000` in order to only store open session every ten minutes (instead of 15 seconds) in case of crashes.
+  - alternatively `browser.sessionstore.resume_from_crash` to `false` to not store the session data for crash recovery at all. I think this may be the more healthy option with all the information flood and dozens of tabs.
 
 Why?
 
@@ -229,6 +230,6 @@ Why?
 
 and this is the reason why Firefox is at times accused of killing SSDs.
 
-* * * * *
+---
 
 Changelog: [GitHub.com commits](https://github.com/Mikaela/mikaela.github.io/commits/master/pages/browser-extensions.markdown) | [gitea.blesmrt.net commits](https://gitea.blesmrt.net/mikaela/mikaela-info/commits/branch/master/pages/browser-extensions.markdown)

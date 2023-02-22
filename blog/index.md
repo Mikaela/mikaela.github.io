@@ -6,12 +6,12 @@ permalink: /blog/
 excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, postaukset englanniksi ja postaukset suomeksi."
 ---
 
-* [Posts in Finnish / Suomenkieliset kirjoitukset](#suomeksi)
+- [Posts in Finnish / Suomenkieliset kirjoitukset](#suomeksi)
 
 ## In English
 
-*Please keep in mind that old blog posts might not reflect the current
- reality or my opinions etc.*
+_Please keep in mind that old blog posts might not reflect the current
+reality or my opinions etc._
 
 <table>
     <tr>
@@ -28,8 +28,8 @@ excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, 
 
 ## Suomeksi
 
-*Pidäthän mielessä etteivät vanhat blogaukseni välttämättä heijasta
- todellisuutta tai nykyisiä mielipiteitäni jne.*
+_Pidäthän mielessä etteivät vanhat blogaukseni välttämättä heijasta
+todellisuutta tai nykyisiä mielipiteitäni jne._
 
 <table>
     <tr>

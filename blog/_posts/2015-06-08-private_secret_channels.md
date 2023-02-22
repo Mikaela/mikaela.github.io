@@ -7,30 +7,30 @@ tags: [english, irc]
 redirect_from: /english/2015/06/08/private_secret_channels.html
 ---
 
-*People often wonder about this and I thought that I could probably write
- about this, how do you make IRC channel secret/private, either hiding it
- from other people or not letting others in.*
+_People often wonder about this and I thought that I could probably write
+about this, how do you make IRC channel secret/private, either hiding it
+from other people or not letting others in._
 
-*Modes spbiI are standard and should be the same on all IRCds. I am also
-assuming that your network uses Atheme IRC Services or fork of it.*
+_Modes spbiI are standard and should be the same on all IRCds. I am also
+assuming that your network uses Atheme IRC Services or fork of it._
 
 To make channel secret, there are two useful modes. You might also want to
 mlock them with `/msg chanserv help set mlock`.
 
-* +s — hides the channel from all channel lists (for non-opers)
+- +s — hides the channel from all channel lists (for non-opers)
   -i). Keep in mind that you always see channels that you are on or share
   with other people in whois. +p also prevents `/knock` (which is command
   to request invite to the channel) on some IRCds.
 
 Other nice modes that you may be interested in are:
 
-* +b — (ban) depnding on does your network support extbans, try
+- +b — (ban) depnding on does your network support extbans, try
   `/quote help extban`.
-* +r — on Charybdis prevents unidentified users from joining the channel,
+- +r — on Charybdis prevents unidentified users from joining the channel,
   you will want this with RESTRICTED.
-    * InspIRCd uses +R
-* + S — on Charybdis prevents users not using SSL/TLS from joining.
-    * InspIRCd uses +z
+  - InspIRCd uses +R
+- - S — on Charybdis prevents users not using SSL/TLS from joining.
+    - InspIRCd uses +z
 
 And to make channel private, there are two ways, mode +i/+I and ChanServ
 RESTRICTED (auto-kban unauthorized users).
@@ -67,11 +67,11 @@ as they allow everyone to use the `/invite` command.
 
 I said that +iI is difficult and I must probably explain why it's so.
 
-* It doesn't use services and the lists get emptied always when the channel
+- It doesn't use services and the lists get emptied always when the channel
   gets empty.
-* It's tied to whatever you give it, if you give it hostmask and that
+- It's tied to whatever you give it, if you give it hostmask and that
   changes, the person cannot get in anymore. Also if you gave it extban
   matching to accountname and the person changes accountname, they are
   again unable to join until the +I is updated.
-* *These were the reasons that came to mind at first, if you have others,
-  feel free to suggest them.*
+- _These were the reasons that came to mind at first, if you have others,
+  feel free to suggest them._

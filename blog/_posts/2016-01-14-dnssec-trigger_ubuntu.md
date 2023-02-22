@@ -7,8 +7,8 @@ tags: [IPv6, english]
 redirect_from: /english/2016/01/14/dnssec-trigger_ubuntu.html
 ---
 
-*I haven't ever gotten dnssec-trigger to work, but today based on IRC
- discussion, I finally understood what was wrong.*
+_I haven't ever gotten dnssec-trigger to work, but today based on IRC
+discussion, I finally understood what was wrong._
 
 It's very simple.
 
@@ -19,9 +19,8 @@ sudo apt-get update && sudo apt-get install unbound dnssec-trigger
 
 And this is the farthest I have gotten before. But today at IRC there
 was talk on DNS proxies which Ubuntu and Fedora use, Ubuntu uses dnsmasq
-and Fedora unbound. That made me *read the fine manual* of
+and Fedora unbound. That made me _read the fine manual_ of
 NetworkManager.conf...
-
 
 ```man
        dns
@@ -50,5 +49,5 @@ if it doesn't exist and restart networkmanager with `sudo systemctl restart Netw
 And when you `sudo reboot` you should see new dnssec-trigger tray icon in
 your tray bar or whatever it was called as.
 
-*Edit*: Arch users do remember do `systemctl enable dnssec-triggerd` and
+_Edit_: Arch users do remember do `systemctl enable dnssec-triggerd` and
 `systemctl enable unbound`.

@@ -15,39 +15,39 @@ get accounts.
 
 ### Simple rules
 
-* Follow the network policies.
-* Follow the channel rules.
-* You use this ZNC by your own responsibility.
-    * accounts can be removed at any time.
-    * it can crash any time without me being there to fix it.
-    * it can be restarted any time to install upgrades.
-* No logging unless you load the log module by yourself (log access
+- Follow the network policies.
+- Follow the channel rules.
+- You use this ZNC by your own responsibility.
+  - accounts can be removed at any time.
+  - it can crash any time without me being there to fix it.
+  - it can be restarted any time to install upgrades.
+- No logging unless you load the log module by yourself (log access
   requires shell access which I don't give!)
-* If you use the [SASL](http://wiki.znc.in/sasl) or
+- If you use the [SASL](http://wiki.znc.in/sasl) or
   [NickServ](http://wiki.znc.in/nickserv) module, your password is stored
   in plain text.
-    * I won't ever read it there, but I think it should be mentioned. Don't
-      use server password unless you have to as that password is thrown
-      to my eyes in ZNC startup messages.
-* In case more networks are needed, contact me.
+  - I won't ever read it there, but I think it should be mentioned. Don't
+    use server password unless you have to as that password is thrown
+    to my eyes in ZNC startup messages.
+- In case more networks are needed, contact me.
 
 ### Tips & tricks
 
 1. Read the [ZNC wiki], at least [FAQ].
 2. **Load savebuff** so your buffers aren't lost on restart/crash/etc.
-    * **Don't specify a password or I am going to be angry and you are
-        going to lose your account!**
+   - **Don't specify a password or I am going to be angry and you are
+     going to lose your account!**
 3. If your network has NickServ, [load SASL and read it's wiki page for automatic identification.](http://wiki.znc.in/sasl)
 
-[ZNC wiki]:http://wiki.znc.in/
-[FAQ]:http://wiki.znc.in/FAQ
+[znc wiki]: http://wiki.znc.in/
+[faq]: http://wiki.znc.in/FAQ
 
 #### Accessing webadmin
 
- * https://vardiera.mikaela.info:1234/ (invalid certificate, valid
-   fingerprints are listed below)
- * https://znc.mikaela.info/ (CloudFlare, https only between you and
-   CloudFlare (aka not recommended or use only if you have to))
+- https://vardiera.mikaela.info:1234/ (invalid certificate, valid
+  fingerprints are listed below)
+- https://znc.mikaela.info/ (CloudFlare, https only between you and
+  CloudFlare (aka not recommended or use only if you have to))
 
 ### Certificate fingerprints
 
@@ -69,10 +69,10 @@ SHA512 Fingerprint=FF:B3:D6:8B:EB:2E:2B:96:10:C0:7C:F0:7A:17:28:8F:77:14:73:FC:6
 7. `/connect WHATEVER`
 8. `/save`
 
-*If you forget -ssl, `/set irc.server.WHATEVER.ssl on`*
+_If you forget -ssl, `/set irc.server.WHATEVER.ssl on`_
 
 Read also [WeeChat page on ZNC wiki](http://wiki.znc.in/WeeChat). You want
-to read at least the *Enabling server-time & other IRCv3 capabilities* to
+to read at least the _Enabling server-time & other IRCv3 capabilities_ to
 make your experience smoother.
 
 ### Webchat

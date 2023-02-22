@@ -7,27 +7,27 @@ tags: [english, irc, tmux]
 redirect_from: /english/2016/03/09/weechat-tmux-quickstart.html
 ---
 
-*Sometimes you don't have GUI when you need remote support, luckily you
- don't need it even if you have only one device.*
+_Sometimes you don't have GUI when you need remote support, luckily you
+don't need it even if you have only one device._
 
 ## What is what?
 
-* Tmux is terminal multiplexer which allows you to have "multiple
+- Tmux is terminal multiplexer which allows you to have "multiple
   terminals" in one terminal. You can also detach it which means returning
   to the terminal where you ran tmux leaving tmux and everything there
   running and later return to it.
-* WeeChat is popular text based IRC client.
+- WeeChat is popular text based IRC client.
 
 ## Installing things
 
-*Note: WeeChat has multiple optional depedencies, but I am only listing
- the most important ones (I will return to it later) unless they are all
- in one package.*
+_Note: WeeChat has multiple optional depedencies, but I am only listing
+the most important ones (I will return to it later) unless they are all
+in one package._
 
-* Arch & deriatives:
-    * `sudo pacman --needed -S tmux weechat perl gpm pastebinit`
-* Debian & deriatives:
-    * `sudo apt-get install weechat-curses weechat-plugins gpm pastebinit`
+- Arch & deriatives:
+  - `sudo pacman --needed -S tmux weechat perl gpm pastebinit`
+- Debian & deriatives:
+  - `sudo apt-get install weechat-curses weechat-plugins gpm pastebinit`
 
 ## tmux
 
@@ -36,15 +36,15 @@ bar on the bottom where you see open "windows".
 
 Basic navigation:
 
-*Note: Tmux users ctrl + b by default instead of ctrl + a as it was
- developed in screen. That can be changed with tmux.conf (check further
- reading after WeeChat).
+\*Note: Tmux users ctrl + b by default instead of ctrl + a as it was
+developed in screen. That can be changed with tmux.conf (check further
+reading after WeeChat).
 
-* Ctrl + b + c = new "window"
-* Ctrl + b + number = move to "window" number
-* Ctrl + b + x = kill "window"
-* Ctrl + b + w = interactive "window" selection
-* Ctrl + b + d = detach tmux (return with `tmux attach`)
+- Ctrl + b + c = new "window"
+- Ctrl + b + number = move to "window" number
+- Ctrl + b + x = kill "window"
+- Ctrl + b + w = interactive "window" selection
+- Ctrl + b + d = detach tmux (return with `tmux attach`)
 
 ## WeeChat
 
@@ -61,13 +61,13 @@ First we must connect to the network where the support channel of our
 distribution is.
 
 1. Add the network to WeeChat.
-    * liberachat: `/server add liberachat irc.libera.chat/6697 -ssl -autoconnect`
+   - liberachat: `/server add liberachat irc.libera.chat/6697 -ssl -autoconnect`
 2. Connect there.
-    * `/connect liberachat`
+   - `/connect liberachat`
 3. Join the channel of your distribution.
-    * `/join #distribution`
-        * you can also join multiple channels at once by separating them by
-          commas e.g. `/join #channel,#channel2`.
+   - `/join #distribution`
+     - you can also join multiple channels at once by separating them by
+       commas e.g. `/join #channel,#channel2`.
 
 You might want to have friendly channel listing and be able to click the
 channels with mouse? That is why you installed perl and gpm (you might
@@ -92,34 +92,34 @@ everyting by hand.
 
 Usage:
 
-* `pastebinit file.txt` to pastebin the content of `file.txt`
-* `dmesg | pastebinit` to pastebin output of `dmesg`
+- `pastebinit file.txt` to pastebin the content of `file.txt`
+- `dmesg | pastebinit` to pastebin output of `dmesg`
 
 Pastebinit replies by givig you address to the paste which you can then
 give to IRC.
 
 Alternatives to pastebinit with some pastebins:
 
-* [ix.io](http://ix.io/): `command | curl -F 'f:1=<-' ix.io`
-* [sprunge.us](http://sprunge.us/): `command | curl -F 'sprunge=<-' http://sprunge.us`
+- [ix.io](http://ix.io/): `command | curl -F 'f:1=<-' ix.io`
+- [sprunge.us](http://sprunge.us/): `command | curl -F 'sprunge=<-' http://sprunge.us`
 
 These also answer by giving you link to the paste.
 
 ## Further reading
 
-* tmux
-    * [my ~/.tmux/tmux.conf](https://github.com/Mikaela/shell-things/blob/master/conf/tmux.conf)
-    * Hawk Host Blog *which was very helpful to me when I started using tmux.*
-        * [TMUX – The Terminal Multiplexer (Part 1)](https://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/)
-        * [TMUX – The Terminal Multiplexer (Part 2)](https://blog.hawkhost.com/2010/07/02/tmux-%E2%80%93-the-terminal-multiplexer-part-2/)
-    * `man tmux`
-* WeeChat
-    * [WeeChat documentation index (multiple languages](https://weechat.org/doc/)
-        * [Quick Start guide](https://weechat.org/files/doc/stable/weechat_quickstart.en.html)
-        * [User's guide](https://weechat.org/files/doc/stable/weechat_user.en.html)
-        * [FAQ](https://weechat.org/files/doc/weechat_faq.en.html)
-    * [My IRC page](https://mikaela.info/irc/)
-        * At the time of writing there are two posts about WeeChat.
-* pastebinit
-    * [pastebinit homepage](https://www.stgraber.org/category/pastebinit/)
-    * `man pastebinit`
+- tmux
+  - [my ~/.tmux/tmux.conf](https://github.com/Mikaela/shell-things/blob/master/conf/tmux.conf)
+  - Hawk Host Blog _which was very helpful to me when I started using tmux._
+    - [TMUX – The Terminal Multiplexer (Part 1)](https://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/)
+    - [TMUX – The Terminal Multiplexer (Part 2)](https://blog.hawkhost.com/2010/07/02/tmux-%E2%80%93-the-terminal-multiplexer-part-2/)
+  - `man tmux`
+- WeeChat
+  - [WeeChat documentation index (multiple languages](https://weechat.org/doc/)
+    - [Quick Start guide](https://weechat.org/files/doc/stable/weechat_quickstart.en.html)
+    - [User's guide](https://weechat.org/files/doc/stable/weechat_user.en.html)
+    - [FAQ](https://weechat.org/files/doc/weechat_faq.en.html)
+  - [My IRC page](https://mikaela.info/irc/)
+    - At the time of writing there are two posts about WeeChat.
+- pastebinit
+  - [pastebinit homepage](https://www.stgraber.org/category/pastebinit/)
+  - `man pastebinit`

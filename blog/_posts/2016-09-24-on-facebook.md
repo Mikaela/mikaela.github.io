@@ -7,8 +7,8 @@ tags: [english, SOME, facebook]
 redirect_from: /english/2016/09/24/on-facebook.html
 ---
 
-*My wellbeing is more imporant than whatever you do at SOME and I reserve
- the right to ignore you.*
+_My wellbeing is more imporant than whatever you do at SOME and I reserve
+the right to ignore you._
 
 I have had my Facebook deactivated for 24 days. However I have started
 missing events (as you must be at Facebook to know what is happening)
@@ -21,7 +21,7 @@ primarily (even if I should use Diaspora\*).
 
 I originally left Facebook as it was taking too much of my time in form of
 idle newsfeed reading and notifications (which I gathered too much from
-all kinds of groups and people I know IRL (*in real life*) and I just
+all kinds of groups and people I know IRL (_in real life_) and I just
 don't like them.
 
 Now I am returning after I have writing this and as I said on top, I am

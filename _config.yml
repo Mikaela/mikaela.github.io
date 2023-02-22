@@ -1,10 +1,10 @@
 # Site settings
 title: Aminda Suomalainen
 description: > # this means to ignore newlines until "baseurl:"
-    I am a Highly Sensitive Autistic Pirate with Linux experience since 2008. I am familiar with git and looking for employment.
-    <br/><br/>*This website is licensed under the
-    [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)
-    by [Aminda Suomalainen](https://www.aminda.eu/).*
+  I am a Highly Sensitive Autistic Pirate with Linux experience since 2008. I am familiar with git and looking for employment.
+  <br/><br/>*This website is licensed under the
+  [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)
+  by [Aminda Suomalainen](https://www.aminda.eu/).*
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.aminda.eu" # the base hostname & protocol for your site
 
@@ -12,18 +12,29 @@ url: "https://www.aminda.eu" # the base hostname & protocol for your site
 markdown: kramdown
 #theme: jekyll-theme-midnight
 redcarpet:
- extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "lax_spacing", "space_after_headers", "superscript"]
+  extensions:
+    [
+      "no_intra_emphasis",
+      "fenced_code_blocks",
+      "autolink",
+      "tables",
+      "with_toc_data",
+      "strikethrough",
+      "lax_spacing",
+      "space_after_headers",
+      "superscript",
+    ]
 
 # Custom settings
 timezone: Europe/Helsinki
 encoding: utf-8
 plugins:
-    - jekyll-feed
-    - jekyll-mentions
-    - jekyll-redirect-from
-    - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
 sitemap:
-    file: "/sitemap.xml"
+  file: "/sitemap.xml"
 # Technically this should be keep_files, but it makes at least .well-known
 # disappear?
 include: [PGP, PHP, keybase.txt, robots.txt, .well-known, ipfs-files, _matrix]

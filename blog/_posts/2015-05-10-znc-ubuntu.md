@@ -7,13 +7,13 @@ tags: [irc, english]
 redirect_from: /english/2015/05/10/znc-ubuntu.html
 ---
 
-*Many people seem to be installing ZNC using some weird instructions and
- don't ever upgrade after that. This is yet another unofficial install
- guide, but with this you should be able to upgrade too.*
+_Many people seem to be installing ZNC using some weird instructions and
+don't ever upgrade after that. This is yet another unofficial install
+guide, but with this you should be able to upgrade too._
 
 **This is not the official install guide, if you are looking for that,
-[click here.](https://wiki.znc.in/Installation)** *You will find these
-same instructions there too though.*
+[click here.](https://wiki.znc.in/Installation)** _You will find these
+same instructions there too though._
 
 Step 0: If you had already installed ZNC from source, go to the source
 directory and run `make uninstall` or `sudo make uninstall` if needed.
@@ -39,5 +39,5 @@ on where you told it to listen.
 
 You might also want to read:
 
-* [FAQ](https://wiki.znc.in/FAQ)
-    * [Automatic restart in case of X (crontab)](https://wiki.znc.in/FAQ#How_can_I_restart_ZNC_automatically_.28in_case_of_a_machine_reboot.2C_crash.2C_etc..29.3F)
+- [FAQ](https://wiki.znc.in/FAQ)
+  - [Automatic restart in case of X (crontab)](https://wiki.znc.in/FAQ#How_can_I_restart_ZNC_automatically_.28in_case_of_a_machine_reboot.2C_crash.2C_etc..29.3F)

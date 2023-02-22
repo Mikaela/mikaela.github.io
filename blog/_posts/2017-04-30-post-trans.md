@@ -7,12 +7,12 @@ tags: [english, life, buddhism]
 redirect_from: /english/2017/04/30/post-trans.html
 ---
 
-*A little confusing flood of what my fingers brought up on the last past
- year and a little more.*
+_A little confusing flood of what my fingers brought up on the last past
+year and a little more._
 
-* * * * *
+---
 
-***CONTENT WARNINGs: NSFW, genitalia, surgery descriptions***
+**_CONTENT WARNINGs: NSFW, genitalia, surgery descriptions_**
 
 I don't have any well-laid plan how to type this post, but lets see what
 comes out of my fingers. By the way, orchiectomy is surgical removal of
@@ -25,10 +25,10 @@ the full genital surgery ("gender-reassignment surgery", but I tend to take
 the Finnish word and translate it into English, many people don't know
 that orchiectomy is an option.
 
-*Dear reader, for this part of this post I am assuming that you are trans
- as I am typing this for you in hope that it will help you, not for anyone
- reading this only, because they are curious on what I have between my
- legs or what trans people have between their legs.*
+_Dear reader, for this part of this post I am assuming that you are trans
+as I am typing this for you in hope that it will help you, not for anyone
+reading this only, because they are curious on what I have between my
+legs or what trans people have between their legs._
 
 First question would probably be how did I end up to orchiectomy instead of
 the full genital surgery.
@@ -56,9 +56,9 @@ comfortable with my body and I started feeling that I might be happy with
 just orchiectomy, but I decided that I would think about it after the
 surgery if I started feeling like it.
 
-* * * * *
+---
 
-***Same content warnings, except that only now is actually the surgery.***
+**_Same content warnings, except that only now is actually the surgery._**
 
 On evening of October 17th I took the last Androcur. It's the
 male-hormone blocker that all trans people are prescribed in Finland by
@@ -75,7 +75,7 @@ anymore.
 The recovery period should have been two weeks, but the wound opened so
 it took a little longer, but that isn't what this post is about either.
 
-* * * * *
+---
 
 What this post is about is how I feel.
 
@@ -101,8 +101,8 @@ to call cis beauty standards. <!-- This is possibly a little kinky. -->
 How do I know that I don't need the full genital surgery? I haven't even
 thought about it recently and I have no feelings of wrongness or thoughts
 or anything pointing that I would need it. I even sometimes forget that
-I am not cis or that my body isn't "normal". *Normal doesn't exist by
-the way.*
+I am not cis or that my body isn't "normal". _Normal doesn't exist by
+the way._
 
 Trans people are also often worried about erections, based on my
 experience and what I have heard, I think it depends entirely on your
@@ -113,61 +113,61 @@ I feel indifferent about them, but that might be connected to me
 being asexual or also being sex-repulsed which to me means that
 I feel repulsed seeing erections or bodily fluids.
 
-* * * * *
+---
 
-*Should I content warning about Esperanto?*
+_Should I content warning about Esperanto?_
 
 After the surgery I have heard that people often have crisis on what to do
 after transition. I solved that by becoming insane :D
 
 I read about Esperanto, which is the most spoken artificial language in
 the world and then I just had to learn it. I did Duolingo and associated
-Memrise course for three months ... *kaj mi parolas Esperanton!*
+Memrise course for three months ... _kaj mi parolas Esperanton!_
 
 Thanks to online-friend I also happened to read about Buddhism and it made
 a lot more sense than Christianity that was forced on me ever did. It's
 more on experiencing things than believing blindly and even Buddha said
-*don't believe me, experience it by yourself* and I started trying to
-use their methods (you may have heard *Mindfulness*) or maybe it would be
+_don't believe me, experience it by yourself_ and I started trying to
+use their methods (you may have heard _Mindfulness_) or maybe it would be
 more accurate to say that I started practicing it.
 
 If individuality is an illusion, how could I be worse than everyone else?
-If past and future aren't here *now* and I am finally "given" the
+If past and future aren't here _now_ and I am finally "given" the
 permission to let go of them, why should I be stuck in the past? And the
 future won't be like I think so why be stuck in imaginary future on my
 worseness?
 
-The books I read are *How To Be An Adult in Relationships* by
-*David Richo* (thanks to [attachment styles - a primer at the dirty normal](https://www.thedirtynormal.com/post/2010/06/21/attachment-styles-a-primer/)
+The books I read are _How To Be An Adult in Relationships_ by
+_David Richo_ (thanks to [attachment styles - a primer at the dirty normal](https://www.thedirtynormal.com/post/2010/06/21/attachment-styles-a-primer/)
 which recommends a different book with similar name, so happy accident
-happened), *The Way Things Are* by *Lama Ole Nydahl* and *Living Dharma* by
-*Lama Yeshe Losaf*. I am also reading more books about the subject, those
+happened), _The Way Things Are_ by _Lama Ole Nydahl_ and _Living Dharma_ by
+_Lama Yeshe Losaf_. I am also reading more books about the subject, those
 were about Diamond Way Buddhism and now I am reading about Zen
-(*Everyday Zen* by *Charlotte Joko Beck* (this seems to be for Zen what
-*Living Dharma* is for Diamond Way.)
+(_Everyday Zen_ by _Charlotte Joko Beck_ (this seems to be for Zen what
+_Living Dharma_ is for Diamond Way.)
 
-*No one is perfect, including you, everyone makes mistake.*
+_No one is perfect, including you, everyone makes mistake._
 
-*Everyone is as capable to hurting you as making you good.*
+_Everyone is as capable to hurting you as making you good._
 
-So I have learned Esperanto and according to my mother *mi diras Esperanto
-duono de tempo* and came to religion, can I be more crazy?
+So I have learned Esperanto and according to my mother _mi diras Esperanto
+duono de tempo_ and came to religion, can I be more crazy?
 
 Esperanto gave me self-esteem with my capability of learning languages so
 I started learning
 
-* Swedish, which I regret not learning at junior high school, but I had
+- Swedish, which I regret not learning at junior high school, but I had
   dysphoria, bullying, suicidality, depression and everything and I think
   I hear it in Helsinki daily and it's also official language in Finland.
-* Spanish as *mi amas Esperanton*, it looks so much like Esperanto so
+- Spanish as _mi amas Esperanton_, it looks so much like Esperanto so
   I feel I almost understand everything written in it and it's the second
   most spoken language in the world, so I have to learn it.
-* Lojban thanks to the friend mentioned earlier.
+- Lojban thanks to the friend mentioned earlier.
 
 Do mi nun parolas la finnan, la anglan, Esperanton kaj mi lernas hispanan,
 la svennan kaj la lojbanon. Entirely sane.
 
-* * * * *
+---
 
 And life otherwise, I haven't gotten to continue studying yet, which I
 think was mentioned as a goal in the other posts, but I just wasn't able

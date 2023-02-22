@@ -7,11 +7,11 @@ tags: [finnish, translaki]
 redirect_from: /finnish/2015/11/21/sahkopostia-lakivaliokunnalle-translaki.html
 ---
 
-*Toivottavasti tämä viesti on edes jotenkuten järkevä, se olisi ollut
- vaikea kirjoittaa ilmankin Ketipinorin vaikutusta ja sitä on nyt liian
- myöhäistä muuttaa.*
+_Toivottavasti tämä viesti on edes jotenkuten järkevä, se olisi ollut
+vaikea kirjoittaa ilmankin Ketipinorin vaikutusta ja sitä on nyt liian
+myöhäistä muuttaa._
 
-* * * * *
+---
 
 Hyvä VASTAANOTTAJA,
 
@@ -87,4 +87,4 @@ Ystävällisin terveisin,
 Mikaela Suomalainen
 https://mikaela.info
 
-* * * * *
+---

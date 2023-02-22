@@ -5,8 +5,8 @@ category: [english]
 tags: [matrix]
 ---
 
-*I am administrator or moderator in multiple communities in Matrix, the most sizable
- being 23 rooms + two spaces. I don't have my own homeserver or Mjolnir. And I am tired.*
+_I am administrator or moderator in multiple communities in Matrix, the most sizable
+being 23 rooms + two spaces. I don't have my own homeserver or Mjolnir. And I am tired._
 
 If I was using Discord, I would make a guild, make roles within it and then
 right click people and assign them roles and they would be able to manage all
@@ -24,12 +24,10 @@ smaller steps:
 1. Use https://develop.element.io/ (or have a config.json allowing you to use
    labs)
 2. Create a space.
-3. Through developer mode `/upgraderoom {{ site.matrixLatestRoomVersion }}`.
-   2. ***WARNING*** You should check [the Matrix spec](https://spec.matrix.org/latest/rooms/)
-      for the latest stable room version. Or maybe the [unstable spec](https://spec.matrix.org/unstable/rooms/)?
-      Or maybe you should just [search GitHub](https://github.com/matrix-org/matrix-spec-proposals/issues?q=room%20version)?
-   3. ***WARNING! Always before executing `/upgraderoom` check that everyone in your room has a recent Matrix server that supports your target room version, otherwise you may lock some of your users out.*** For example `/invite @version:maunium.net` and once it joins, say
-      `!servers upgrade {{site.matrixLatestRoomVersion}}` to get a list of servers that don't support room version {{site.matrixLatestRoomVersion}} yet.
+3. Through developer mode `/upgraderoom {{ site.matrixLatestRoomVersion }}`. 2. **_WARNING_** You should check [the Matrix spec](https://spec.matrix.org/latest/rooms/)
+   for the latest stable room version. Or maybe the [unstable spec](https://spec.matrix.org/unstable/rooms/)?
+   Or maybe you should just [search GitHub](https://github.com/matrix-org/matrix-spec-proposals/issues?q=room%20version)? 3. **_WARNING! Always before executing `/upgraderoom` check that everyone in your room has a recent Matrix server that supports your target room version, otherwise you may lock some of your users out._** For example `/invite @version:maunium.net` and once it joins, say
+   `!servers upgrade {{site.matrixLatestRoomVersion}}` to get a list of servers that don't support room version {{site.matrixLatestRoomVersion}} yet.
 4. Clear cache and reload so the old space maybe disappears.
 5. See also [Element-web#19208: Allow upgrading spaces](https://github.com/vector-im/element-web/issues/19208)
 6. Now that there is a space, right click it to create a new room under it and
@@ -52,15 +50,15 @@ if your main account goes down, you have power somewhere else.
 Let's say you have 20 rooms (you get it a bit more easy than I do), I think
 you have three methods to promote your other accounts:
 
-***WARNING: administrator status cannot be removed by others.***
+**_WARNING: administrator status cannot be removed by others._**
 
-* A. Using the graphical user interface, invite the other administrators to
+- A. Using the graphical user interface, invite the other administrators to
   the room and click the buttons to make them administrators. I am too tired
   to check how to do this, but it's a graphical user interface, good luck!
   Remember you will do this twenty times, once for every room/administrator.
-* B. You can type `/invite @user:example.org` and then `/op @user:example.org 100`
+- B. You can type `/invite @user:example.org` and then `/op @user:example.org 100`
   and copy-paste it all the time!
-* C. My favourite, you can have a pre-formatted power-level event in json in
+- C. My favourite, you can have a pre-formatted power-level event in json in
   a git repository from which you can copy-paste it to all rooms, first `/devtools`,
   then "room state", "m.room.power_levels", "edit" and you can paste your new
   administrators there and press "send"! This is the only mass option you have,
@@ -87,7 +85,7 @@ you simply use `/devtools` and ban the entire server by sending a completely new
 `m.room.server_acl`, luckily you are a professional `/devtools` user at this point
 so having to do this 20 times is nothing to you.
 
-*2022-01-10 addition:* this becomes worse as Matrix Synapse alongside [the Matrix protocol itself will authorise everything done by servers that don't honour the `m.room.server_acl` event](https://github.com/matrix-org/matrix-spec/issues/928)
+_2022-01-10 addition:_ this becomes worse as Matrix Synapse alongside [the Matrix protocol itself will authorise everything done by servers that don't honour the `m.room.server_acl` event](https://github.com/matrix-org/matrix-spec/issues/928)
 so as per the guide, you will have to acl those servers too (or the ACL might as well not exist).
 
 ### Icing on the cake
@@ -152,5 +150,4 @@ as if I am wrong and there is a reasonable Discord-style interface for this
 without additional money, you are improving my life greatly as I am not just
 going to stop using Matrix.
 
-* [Obligatory changelog link](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2021-12-05-matrix-community-abuse-security-by-obscurity.md)
-
+- [Obligatory changelog link](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2021-12-05-matrix-community-abuse-security-by-obscurity.md)

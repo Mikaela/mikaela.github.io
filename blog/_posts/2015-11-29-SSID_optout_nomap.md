@@ -12,24 +12,24 @@ redirect_from:
   - /english/2015/11/29/SSID_optout_nomap.html
 ---
 
-*Anxiety is now focusing to WLAN mapping & key sharing and how easy it is
- to locate people.*
+_Anxiety is now focusing to WLAN mapping & key sharing and how easy it is
+to locate people._
 
 Today I renamed my primary WLAN network (hereafter referred as SSID) to
 `SSID_optout_nomap`.
 
-* `_optout` when included in WLAN network name should opt your network out
+- `_optout` when included in WLAN network name should opt your network out
   of Microsoft's [WiFi Sense](https://windows.microsoft.com/en-us/windows-10/wi-fi-sense-faq).
-    * TL;DR: when enabled all your Facebook/Outlook/Skype contacts can
-      connect to your encrypted WLAN without knowing the password (which
-      they don't get).
-        * I would be interested in seeing piracy case where the network
-          owner is innocent and threat letter was received about random
-          contact downloading illegal content. I am most interested in what
-          would happen, would the network owner be able to proof that they
-          didn't do it, but instead their network was "hacked" which wasn't
-          the case as they were using Windows 10 or Windows Phone.
-* `_nomap` opt out of Google Maps accuracy increaser & Mozilla Location
+  - TL;DR: when enabled all your Facebook/Outlook/Skype contacts can
+    connect to your encrypted WLAN without knowing the password (which
+    they don't get).
+    - I would be interested in seeing piracy case where the network
+      owner is innocent and threat letter was received about random
+      contact downloading illegal content. I am most interested in what
+      would happen, would the network owner be able to proof that they
+      didn't do it, but instead their network was "hacked" which wasn't
+      the case as they were using Windows 10 or Windows Phone.
+- `_nomap` opt out of Google Maps accuracy increaser & Mozilla Location
   Services & WiGLE & others.
 
 While I think that MAC based opting out would be better than making SSID
@@ -48,14 +48,14 @@ to proof than that my private network was hacked.
 
 I encourage you to read about
 [the Open Wireless Movement](https://openwireless.org/) and join by
-opening a guest network *without captive portal or time limit* and
+opening a guest network _without captive portal or time limit_ and
 preferably naming it as `openwireless.org`. In case you have similar issues
 like me, `openwireless` or `openwireless_nomap` are also OK, the idea is
 what counts.
 
-*It's openwireless_nomap and not openwireless_optout_nomap, because there
- is no need to opt out of sharing passwords on open (no password) networks.
- Also the order [_optout_nomap comes from reddit](https://redd.it/3g3xyu).*
+_It's openwireless_nomap and not openwireless_optout_nomap, because there
+is no need to opt out of sharing passwords on open (no password) networks.
+Also the order [\_optout_nomap comes from reddit](https://redd.it/3g3xyu)._
 
 The other thing that I mentioned in the beginning is how I am worried on
 how easy it is to geolocate people.
@@ -78,28 +78,28 @@ To my opt-out response I received the following message implying that they
 do support `_nomap`/`_optout`:
 
 > Those networks delisted as requested. We periodically purge the
-  _optout / _nomap networks.
+> \_optout / \_nomap networks.
 
 > -bobzilla
 
-*I hope this blog post at least communicates what I am trying to say even
+_I hope this blog post at least communicates what I am trying to say even
 if it looks very messy to me and I haven't even took any anxiety medicines
 last night or today so my head should be working a lot better than it
-currently does.*
+currently does._
 
-* * * * *
+---
 
 2019-01-17: I don't know how to start updating this post, but I would
 like to add a few things ~three years later:
 
-* There is no need for the `_optout` part since 2016, see e.g. [KrebsonSecurity](https://krebsonsecurity.com/2016/05/microsoft-disables-wi-fi-sense-on-windows-10/).
-* Christian Haschek's blog showed me that people are actually doing checking
+- There is no need for the `_optout` part since 2016, see e.g. [KrebsonSecurity](https://krebsonsecurity.com/2016/05/microsoft-disables-wi-fi-sense-on-windows-10/).
+- Christian Haschek's blog showed me that people are actually doing checking
   WLAN locations from WiGLE and it's not only my mental health or anxiety
   more than three years ago.
-    * [The curious case of the Raspberry Pi in the network closet](https://blog.haschek.at/2018/the-curious-case-of-the-RasPi-in-our-network.html)
-* I nowadays represent 5 GHz networks as `SSID_fast_nomap`, because fast
-  is  more obvious to not technical people wondering which one to pick
+  - [The curious case of the Raspberry Pi in the network closet](https://blog.haschek.at/2018/the-curious-case-of-the-RasPi-in-our-network.html)
+- I nowadays represent 5 GHz networks as `SSID_fast_nomap`, because fast
+  is more obvious to not technical people wondering which one to pick
   compared to the number, but in public places I drop the `_nomap` as SSID
   works as a free advertisement.
-    * I think I copied this idea from someone at IRC, but I have forgotten
-      whom and it's possible they wouldn't even wish to be attributed.
+  - I think I copied this idea from someone at IRC, but I have forgotten
+    whom and it's possible they wouldn't even wish to be attributed.

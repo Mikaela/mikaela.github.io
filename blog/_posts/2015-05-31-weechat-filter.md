@@ -10,28 +10,30 @@ redirect_from:
   - /english/2015/05/31/weechat-filter.html
 ---
 
-*Everyone knows the `/ignore` command, but there is also `/filter` which
-I feel is superiour.*
+_Everyone knows the `/ignore` command, but there is also `/filter` which
+I feel is superiour._
 
 First, how do they differ?
-* Ignore removes all lines from the person you are ignoring permanently and
+
+- Ignore removes all lines from the person you are ignoring permanently and
   they aren't logged or anything.
-* Filter only hides the messages from the person and is very customizable,
+- Filter only hides the messages from the person and is very customizable,
   but I am only describing my ignoring here. They are still logged and
   by toggling filters they become visible.
 
-And how do you use it? 
-* `/filter add FILTERNAME * nick_*NICKHERE* *`
-    * FILTERNAME is the name how you recognize the filter, I usually put
-      the nick there.
-    * The first `*` is buffer where the filter is used in and means simply
-      "all buffers".
-    * `nick_*NICKHERE*` means that you want to filter lines from
-      `*NICKHERE*`, the asterisks are important as it makes sure that the
-      user doesn't change their nick to `NICKHERE_` who again wouldn't be
-      filtered.
-    * And the last `*`, what do you want to filter from that nick?
-      Everything.
+And how do you use it?
+
+- `/filter add FILTERNAME * nick_*NICKHERE* *`
+  - FILTERNAME is the name how you recognize the filter, I usually put
+    the nick there.
+  - The first `*` is buffer where the filter is used in and means simply
+    "all buffers".
+  - `nick_*NICKHERE*` means that you want to filter lines from
+    `*NICKHERE*`, the asterisks are important as it makes sure that the
+    user doesn't change their nick to `NICKHERE_` who again wouldn't be
+    filtered.
+  - And the last `*`, what do you want to filter from that nick?
+    Everything.
 
 But doesn't this defeat the whole point of ignoring? That depends on you
 and do you think you will ever need the ignored content.

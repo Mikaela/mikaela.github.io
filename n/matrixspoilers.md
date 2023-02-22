@@ -9,7 +9,7 @@ sitemap: false
 
 The Matrix specification supports spoilers since version 1.1:
 
-* [Spoiler messages at Client-Server API of Matrix Specification](https://spec.matrix.org/latest/client-server-api/#spoiler-messages)
+- [Spoiler messages at Client-Server API of Matrix Specification](https://spec.matrix.org/latest/client-server-api/#spoiler-messages)
 
 My favourite Matrix clients FluffyChat and Nheko support spoilers when
 the spoiler is formatted like `||Reason why this is a spoiler|Actually
@@ -27,7 +27,7 @@ will have to enter the HTML directly such as:
 <span data-mx-spoiler="REASON HERE">Spoilered text</span>
 ```
 
-Nheko has a `/plain` command to disable formatting  for that message which
+Nheko has a `/plain` command to disable formatting for that message which
 allows sending this message in plain text to help someone else.
 
 ```html
@@ -36,4 +36,4 @@ allows sending this message in plain text to help someone else.
 
 Spoilers are also supported by IRC, but not matrix-appservice-irc.
 
-* [matrix-org/matrix-appservice-irc#1548: Feature request: bridge spoilers to IRC by sending them with the same background&foreground colour (and that to Matrix as spoiler)](https://github.com/matrix-org/matrix-appservice-irc/issues/1548)
+- [matrix-org/matrix-appservice-irc#1548: Feature request: bridge spoilers to IRC by sending them with the same background&foreground colour (and that to Matrix as spoiler)](https://github.com/matrix-org/matrix-appservice-irc/issues/1548)

@@ -8,10 +8,10 @@ redirect_from:
   - /element.html
 ---
 
-*Having used Matrix since 2016 and hearing about its greatness without any
- issues so much, I wish to correct some misconceptions. I attempt to provide
- citations for everything and not name any other solution. I cannot discuss
- administrating experience due to not having any with Matrix personally.*
+_Having used Matrix since 2016 and hearing about its greatness without any
+issues so much, I wish to correct some misconceptions. I attempt to provide
+citations for everything and not name any other solution. I cannot discuss
+administrating experience due to not having any with Matrix personally._
 
 # Element, what Element?
 
@@ -20,13 +20,13 @@ will likely hear the advice to install Element or use it on the web.
 
 It comes with two problems:
 
-* you will likely register your account on the `matrix.org` homeserver and
+- you will likely register your account on the `matrix.org` homeserver and
   later hear that you made a mistake in using it as it's overloaded and you
   should instead use some other homeserver which would also be good for
   healthy federation, but the interface doesn't suggest or offer you any
   other servers.
-  * maybe in the future [your account will be decentralized and that won't matter](https://github.com/matrix-org/matrix-spec/issues/246)?
-* if you happen to be like me and use both Element Web and Element iOS, you
+  - maybe in the future [your account will be decentralized and that won't matter](https://github.com/matrix-org/matrix-spec/issues/246)?
+- if you happen to be like me and use both Element Web and Element iOS, you
   will notice they are wildly inconsistent. I cannot comment on Element
   Android as my phone (Nokia 1 / TA-1047) is too weak powered for pleasant
   Matrix experience and I don't use it much.
@@ -34,24 +34,24 @@ It comes with two problems:
 Comparing the later two platforms, I imagine you will hit some of these
 problems sooner or later:
 
-* <s>You see a link in the channel. If you were using Element Web or
+- <s>You see a link in the channel. If you were using Element Web or
   possibly even Element Android you would immediately know what it was
   about. However you use <a href="https://github.com/vector-im/element-ios/issues/888">Element iOS that never got URL preview support!</a></s>
-* You hear of interesting room on another room and you wish to join it. You
+- You hear of interesting room on another room and you wish to join it. You
   touch the name wishing to get into there? What happens instead? You will get
   an error message [cannot rejoin an empty room](https://github.com/vector-im/element-ios/issues/1066).
-  * I hope that doesn't annoy you and you wish to hear the workaround of
+  - I hope that doesn't annoy you and you wish to hear the workaround of
     running `/join #room:example.net` by hand instead.
-* This may be a bit more rare one, but if you share rooms with bots, you may
+- This may be a bit more rare one, but if you share rooms with bots, you may
   notice that on Element Web they are more gray than people. [Element iOS just never got messages from bots being rendered differently](https://github.com/vector-im/element-ios/issues/882).
-* I may again be a bit weird, but I wish to have [timestamps for all messages visible all the time](https://github.com/vector-im/element-ios/issues/524),
+- I may again be a bit weird, but I wish to have [timestamps for all messages visible all the time](https://github.com/vector-im/element-ios/issues/524),
   but Element says no. They exist on Web, not on iOS. Same if you [wanted to see seconds](https://github.com/vector-im/element-ios/issues/3901)
-* <s>I almost forgot, but the <a href="https://element.io/blog/spaces-the-next-frontier/">new spaces</a>
+- <s>I almost forgot, but the <a href="https://element.io/blog/spaces-the-next-frontier/">new spaces</a>
   just <a href="https://github.com/vector-im/element-ios/issues?q=label%3AA-Spaces+">don't exist on iOS</a>,
   should you attempt to join or be invited to one, you will get a banner
   saying that they aren't implemented yet and you cannot accept or reject
   the invite unless you open Element Web to do that.</s>
-* <s>Another issue I am editing in hours later is pills, when you mention
+- <s>Another issue I am editing in hours later is pills, when you mention
   someone on Element (Web), or someone else mentions someone, there is a clear
   pill shape around their name and it can be clicked to get to their profile,
   <a href="https://github.com/vector-im/element-ios/issues/3526">but not on Element (iOS)</a></s>
@@ -84,13 +84,13 @@ and as your room is hosted on every homeserver that has users in your room,
 have a single homeserver that hasn't explicitly enabled it, or doesn't otherwise support it, and the room
 history never goes away. Executing `/upgraderoom {{site.matrixLatestRoomVersion}}` or any other version [will also remove the event](https://github.com/matrix-org/synapse/issues/11279).
 
-***WARNING! Always before executing `/upgraderoom` check that everyone in your room has a recent Matrix server that supports your target room version, otherwise you may lock some of your users out.*** For example `/invite @version:maunium.net` and once it joins, say
+**_WARNING! Always before executing `/upgraderoom` check that everyone in your room has a recent Matrix server that supports your target room version, otherwise you may lock some of your users out._** For example `/invite @version:maunium.net` and once it joins, say
 `!servers upgrade {{site.matrixLatestRoomVersion}}` to get a list of servers that don't support room version {{site.matrixLatestRoomVersion}} yet.
 
 In case there isn't enough confusion, retention shouldn't be confused with actual [self-destructing/disappearing messages](https://github.com/vector-im/element-meta/issues/82).
 
-*Technical note: sorry about calling <s>reference</s> homeserver implementation by the matrix.org team issue
- as a Matrix protocol issue.*
+_Technical note: sorry about calling <s>reference</s> homeserver implementation by the matrix.org team issue
+as a Matrix protocol issue._
 
 You may say that this requires you to trust the homeserver admin anyway and
 that is true, I wish people could trust each other and even if someone
@@ -101,15 +101,15 @@ Speaking of removals, once you remove a message [it will be stored in the databa
 and if you changed the homeserver address in your copied link, it would still
 keep on working. Is this something you expect from a private protocol? I don't, or I didn't before getting familiar with Matrix. There is also an [alternative proposal about this](https://github.com/matrix-org/matrix-spec-proposals/pull/2228).
 
-*By the way Synapse is still a <s>reference</s> homeserver implementation by the matrix.org and not
- Matrix protocol itself, so sorry about that for anyone technical reading this.*
+_By the way Synapse is still a <s>reference</s> homeserver implementation by the matrix.org and not
+Matrix protocol itself, so sorry about that for anyone technical reading this._
 
 Do you use different names in different contexts? Like your Full Name in
 professional context, a nickname somewhere else and maybe what will be your
 real name after gender transitioning or even have a diffferent name in direct
 chat with your partner? [Congratulations, whatever is your latest room-specific name may now be public (especially when the room federates and has users from different homeservers), same with your potential avatar](https://github.com/matrix-org/synapse/issues/5677).
 
-*Synapse didn't become Matrix protocol itself by the way, there are still other implementations!*
+_Synapse didn't become Matrix protocol itself by the way, there are still other implementations!_
 
 This issue does have a potential solution [an API planned for room specific details (2015)](https://github.com/matrix-org/matrix-spec/issues/103)
 <s>and what I am hopeful about in the future <a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3189">open pull request specification for space specific profiles</a>,
@@ -156,24 +156,24 @@ I don't remember seeing it in a long time, so maybe the situation is improving.
 Feedback? I have [a discussion room in many apps](https://mikaela.info/discuss),
 or you can find me from a lot of the linked issues and there is also [issue tracker for this site](https://github.com/Mikaela/mikaela.github.io/issues).
 
-* [Changelog, also known as git commit history](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2021-08-03-matrix-perfect-privacy-not.md)
-  * Clicksaver for edits done on day of publishing: I have fixed a typo resulting one
+- [Changelog, also known as git commit history](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2021-08-03-matrix-perfect-privacy-not.md)
+  - Clicksaver for edits done on day of publishing: I have fixed a typo resulting one
     link being a 404 error, added mention on Element (iOS) not doing URL previews
     and later added pills not being supported by it either. I didn't consider
     [outdated emoji picker](https://github.com/vector-im/element-ios/issues/4654)
     worth mentioning here, but it came up in the same context as URL previews
     and wasn't reported to upstream, so I might as well mention it in this part.
-  * 2021-08-27: Noted cancellation/delay of space-specific profiles,
+  - 2021-08-27: Noted cancellation/delay of space-specific profiles,
     mention emoji/reactions not being encrypted at all, added link to E2EE
     test room and this list item.
-  * 2021-09-09: It's brought to my attention that URL previews exist on Element
+  - 2021-09-09: It's brought to my attention that URL previews exist on Element
     iOS! It's 23.15 in Finland so I only strikethrough this issue.
-  * 2022-01-10: I am told that [Synapse is not a reference homeserver implementation since 2021-10-06](https://github.com/matrix-org/synapse/pull/10971#event-5418418970)
+  - 2022-01-10: I am told that [Synapse is not a reference homeserver implementation since 2021-10-06](https://github.com/matrix-org/synapse/pull/10971#event-5418418970)
     so I have strikethrouged that and changed it to "by the matrix.org team".
-    * Typing this it looks like this blogpost predates the demote of Synapse, but
+    - Typing this it looks like this blogpost predates the demote of Synapse, but
       I wish to stay up-to-date with this post.
-    * I am also noting that `m.room.retention` doesn't persist across room upgrades
+    - I am also noting that `m.room.retention` doesn't persist across room upgrades
       and linking to the Element-meta issue on self-destructing/disappearing messages
       to not be confused with retention.
-    * Oh and reply fallbacks leaking previously encrypted messages too.
-  * 2022-05-31: I noticed that Element iOS has gotten pills. Strikethrough time.
+    - Oh and reply fallbacks leaking previously encrypted messages too.
+  - 2022-05-31: I noticed that Element iOS has gotten pills. Strikethrough time.

@@ -42,7 +42,7 @@ First, register a channel, for example #test.
 ```
 
 3. Set options & flags at #test. The following are what I usually set to
-channels.
+   channels.
 
 ```
 /cs set #test GUARD ON
@@ -62,7 +62,7 @@ list (even with PRIVATE on), invite themselves or see the channel key using
 ChanServ and have autovoice on the channel.
 
 4. Set the options and flags of !test.4. Set the options and flags of
-!test.
+   !test.
 
 ```
 /msg groupserv set !test channel #test

@@ -7,13 +7,13 @@ tags: [english, life, love]
 redirect_from: /english/2015/05/18/life-bot-background.html
 ---
 
-*More on my life and a little background on bots; also trigger warning
-about probably everything...*
+_More on my life and a little background on bots; also trigger warning
+about probably everything..._
 
 Start with the [previous post on the subject]({% post_url blog/2015-03-25-leaving-bots-life %})...
 
-*Update:
-[I graduated on 2015-05-29.]({% post_url blog/2015-05-29-graduation %})*
+_Update:
+[I graduated on 2015-05-29.]({% post_url blog/2015-05-29-graduation %})_
 
 So I have been away from school for months now and the fact that I won't
 graduate seems very sure. I haven't left home unless I have had too either
@@ -32,8 +32,8 @@ suicide probably daily. Last night Doctor [Google] also suggested
 [Avoidant personality disorder] and I am waiting for seeing "mental
 health professional" again and asking if that is possible.
 
-[Google]:https://encrypted.google.com/
-[Avoidant personality disorder]:https://en.wikipedia.org/wiki/Avoidant_personality_disorder
+[google]: https://encrypted.google.com/
+[avoidant personality disorder]: https://en.wikipedia.org/wiki/Avoidant_personality_disorder
 
 And back to today, I had possibly my worst bus trip between Kotka and
 Helsinki. First there was bully from previous school and even if they
