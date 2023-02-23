@@ -1,6 +1,6 @@
 My website
 
-[![Build Status](https://travis-ci.org/Mikaela/mikaela.github.io.svg?branch=master)](https://travis-ci.org/Mikaela/mikaela.github.io)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Mikaela/mikaela.github.io/master.svg)](https://results.pre-commit.ci/latest/github/Mikaela/mikaela.github.io/master) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 Directories:
 
