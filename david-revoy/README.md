@@ -12,3 +12,9 @@ Files in this directory are [CC-By](https://creativecommons.org/licenses/by/4.0/
   * Eyes: 7
   * Mouth: 7
   * Accessory: 1
+* `2023-03-02.png` is generated using [cheeze2000/cat-avatar-generator](https://github.com/cheeze2000/cat-avatar-generator) with settings:
+  * Body: 11
+  * Fur: 7
+  * Eyes:11
+  * Mouth: 9
+  * Accessory: 13
