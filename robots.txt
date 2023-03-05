@@ -22,5 +22,5 @@ Noindex: /php/
 Noindex: /r/
 Noindex: /or/
 Noindex: /n/
-Sitemap: https://www.aminda.eu/sitemap.xml
-Sitemap: https://www.aminda.eu/sitemaps.xml
+Sitemap: https://aminda.eu/sitemap.xml
+Sitemap: https://aminda.eu/sitemaps.xml

@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   I am a Highly Sensitive Autistic Pirate with Linux experience since 2008. I am familiar with git and looking for employment.
   <br/><br/>*This website is licensed under the
   [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)
-  by [Aminda Suomalainen](https://www.aminda.eu/).*
+  by [Aminda Suomalainen](https://aminda.eu/).*
 baseurl: "" # the subpath of your site, e.g. /blog/
 # I would like to use www subdomain to not have all cookies passed to top
 # level, but there seems to be a redirect issue otherwise.
