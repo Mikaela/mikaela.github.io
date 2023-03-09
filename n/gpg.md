@@ -11,6 +11,8 @@ redirect_from:
   - /n/clawsmail.html
   - /n/claws-mail.html
   - /n/wkd.html
+  - n/keyoxide.html
+  - n/keybase.html
 
 sitemap: false
 ---
