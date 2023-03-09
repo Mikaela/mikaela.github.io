@@ -106,3 +106,22 @@ NOTE: The empty `policy` goes to the `openpgpkey` directory, not `hu` (I
 initially failed at this part)
 
 NOTE: only one key/WKD/email.
+
+---
+
+## Keyoxide
+
+Keyoxide can use PGP keys as profiles and looks at their notations. Useful
+commands in `gpg --edit-key "key fingerprint here:
+
+- Display notations: `showpref`
+- Add notations: `notation`
+- Remove notations: `notation` from `showpref` with a `-` in the beginning
+
+Don't forget to `gpg --keyserver hkps://keys.openpgp.org --send-keys "your keyid here" !
+
+### Keyoxide docs
+
+- [Generating a profile](https://docs.keyoxide.org/guides/openpgp-profile-gnupg/)
+- [Available claims/proofs](https://docs.keyoxide.org/service-providers/)
+  - See bottom of the sidebar.
