@@ -15,7 +15,7 @@ redirect_from:
 sitemap: false
 ---
 
-Quick GPG note where I may find it.
+# Quick GPG notes where I may find them
 
 To create an Ed25519 key, or whatever will be the default version in the
 future as defined by your GPG version:
@@ -51,7 +51,7 @@ multiple keys).
 
 ---
 
-Claws-mail note that is somewhat related.
+## Claws-mail note that is somewhat related.
 
 Debian: `sudo apt install claws-mail claws-mail-address-keeper claws-mail-attach-warner claws-mail-gdata-plugin claws-mail-pgpinline claws-mail-pgpmime claws-mail-smime-plugin`
 
@@ -61,8 +61,8 @@ somewhere in `/usr/lib/x86_64-linux-gnu/claws-mail/plugins` or similar path.
 It wants to read `~/.signature` which I have like:
 
 ```
-Mikaela Suomalainen
-https://mikaela.info/
+Aminda Suomalainen
+https://aminda.eu/
 69FF 455A 869F 9031 A691  E0F1 9939 2F62 BAE3 0723
 
 ```
@@ -70,11 +70,11 @@ https://mikaela.info/
 My other hats have like:
 
 ```
-Mikaela Suomalainen
+Aminda Suomalainen
 position, where, wwwpage
 email address
 xxx xxx xxxx
-C69C B030 AECD C8A4 2301  D6B8 DC18 9FE6 FA9B D685
+xxxx xxxx xxxx xxxx xxxx  xxxx xxxx xxxx xxxx xxxx
 
 ```
 
@@ -83,6 +83,8 @@ it the PGP signature comes after it and in my opinion looks a bit cleaner
 with the signature ending to an empty line.
 
 ---
+
+## WKD
 
 Setting up GPG WKD (Web Key Directory), mostly stripped/adjusted from
 https://keyserver.mattrude.com/guides/web-key-directory/
