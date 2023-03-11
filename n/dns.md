@@ -17,3 +17,16 @@ For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)
 - [dnsadblock](https://dnsadblock.com/dns-leak-test/)
 
 The above list is based on [redirect2me/which-dns README alternatives section](https://github.com/redirect2me/which-dns/blob/main/README.md)
+
+## Identifying support for client-subnet
+
+Or what is being sent to the authoritative servers.
+
+```bash
+dig +short TXT o-o.myaddr.l.google.com.
+dig +short TXT whoami.ds.akahelp.net.
+dig +short TXT whoami.ipv6.akahelp.net.
+dig +short TXT whoami.ipv4.akahelp.net.
+```
+
+- Note: Cloudflare sends ECS only for whoami.ds.akahelp.net.
