@@ -1,5 +1,5 @@
 # Line normalisation, GitHub language detection
-* text=auto linguist-detectable
+* text=auto eol=lf linguist-detectable
 
 # These don't feel like mine
 .github/** text=auto -linguist-detectable
