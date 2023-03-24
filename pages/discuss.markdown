@@ -53,6 +53,16 @@ I do hope to be able to grow this list in the future.
 
 ---
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [A couple of words on protocols](#a-couple-of-words-on-protocols)
+- [And on transports, relays and bridges](#and-on-transports-relays-and-bridges)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+---
+
 ## A couple of words on protocols
 
 - _IRC_ was invented in 1988 and regardless of developing integrated message
