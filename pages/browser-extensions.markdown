@@ -14,6 +14,18 @@ redirect_from:
 
 If you need browser extensions, try [the Privacy Guides page](https://privacyguides.org/browsers/).
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Chromium flags](#chromium-flags)
+  - [Vendor-prefixed](#vendor-prefixed)
+- [Firefox about:config](#firefox-aboutconfig)
+  - [Advertising](#advertising)
+  - [DNS over HTTPS](#dns-over-https)
+  - [SSDs](#ssds)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <!--
 
 https://addons.mozilla.org/firefox/addon/text-link/ - doubleclick plaintext link to use
