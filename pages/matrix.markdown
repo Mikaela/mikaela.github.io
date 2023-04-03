@@ -59,6 +59,11 @@ links._
 - [Miki is the Matrix wiki](https://en.miki.community/) where I will attempt to contribute to.
 - [Matrix.org](https://matrix.org/) is the official website.
 - [My gist repository also has notes on Matrix, mostly /devtools related ones](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/matrix), they predate Miki and I hope to sort more relevant or historical parts there.
+- This site has random assortment of Matrix details around.
+  - [txt/matrix.txt](/txt/matrix.txt)
+  - [n/matrixspoilers](/n/matrixspoilers.html) has a quick note on spoilers.
+- [apothecary.gay has a Matrix Tips & Tricks page](https://apothecary.gay/rules/matrix-tricks/)
+  - At the time of writing also on using spoilers and custom emotes/stickers.
 
 ### How do you do custom not-emoji reactions?
 
