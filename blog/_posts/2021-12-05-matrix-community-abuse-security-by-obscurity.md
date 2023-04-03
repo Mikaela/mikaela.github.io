@@ -16,6 +16,21 @@ Sadly I am not using Discord, I am using Matrix. This means that while burnt out
 it feels like no one has thought of the case where a community with more than
 a couple of rooms wants to use Matrix.
 
+_Table of Contents_
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Setup](#setup)
+  - [Bus factor](#bus-factor)
+- [Abuse finds you!](#abuse-finds-you)
+  - [Icing on the cake](#icing-on-the-cake)
+- [Mikaela, are you ok, has this happened to you?](#mikaela-are-you-ok-has-this-happened-to-you)
+- [What is this community with 23 rooms and two spaces?](#what-is-this-community-with-23-rooms-and-two-spaces)
+- [Afterword](#afterword)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Setup
 
 I am tired, so excuse me for not involving complete documentation and just

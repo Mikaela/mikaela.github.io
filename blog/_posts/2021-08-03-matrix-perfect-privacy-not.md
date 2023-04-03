@@ -13,6 +13,16 @@ issues so much, I wish to correct some misconceptions. I attempt to provide
 citations for everything and not name any other solution. I cannot discuss
 administrating experience due to not having any with Matrix personally._
 
+_Table of Contents_
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Element, what Element?](#element-what-element)
+- [You mentioned privacy?](#you-mentioned-privacy)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Element, what Element?
 
 Element is the defacto Matrix client. If you wish to get into Matrix, you
