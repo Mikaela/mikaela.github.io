@@ -40,6 +40,7 @@ links._
   - [How about DAG splits?](#how-about-dag-splits)
 - [What are these idlekicks for inactivity, why are they for?](#what-are-these-idlekicks-for-inactivity-why-are-they-for)
   - [But the relaybots look so ugly](#but-the-relaybots-look-so-ugly)
+- [Why does one of your accounts have capital letter in the username?](#why-does-one-of-your-accounts-have-capital-letter-in-the-username)
 - [Which client do you recommend?](#which-client-do-you-recommend)
 - [Which homeserver do you recommend?](#which-homeserver-do-you-recommend)
 - [Why don't you run your own?](#why-dont-you-run-your-own)
@@ -170,6 +171,11 @@ This means that even before IRCv3 RELAYMSG and displayname proposals, which I wi
 - WeeChat used to have a separate script for this, but at version 1.1 in gained the Trigger plugin able to perform actions without scripts, thus meaning you can use something like [this Relaybot 2 Trigger example](https://github.com/weechat/weechat/wiki/Triggers#relaybot-2) without having to install anything (while `/script` would be easy too).
 
 I hope Matrix will get better at this too.
+
+### Why does one of your accounts have capital letter in the username?
+
+In 2016 or so I mistakenly thought that usernames would be case-insensitive
+and they only [got banned in Synapse on 10th November 2017](https://github.com/matrix-org/synapse/pull/2662).
 
 ### Which client do you recommend?
 
