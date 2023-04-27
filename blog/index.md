@@ -6,7 +6,13 @@ permalink: /blog/
 excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, postaukset englanniksi ja postaukset suomeksi."
 ---
 
-- [Posts in Finnish / Suomenkieliset kirjoitukset](#suomeksi)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [In English](#in-english)
+- [Suomeksi](#suomeksi)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## In English
 
