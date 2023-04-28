@@ -18,6 +18,7 @@ I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has S
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Matrix-related posts](#matrix-related-posts)
+- [Questions & Answers](#questions--answers)
   - [Where else can I read about Matrix?](#where-else-can-i-read-about-matrix)
   - [How do you do custom not-emoji reactions?](#how-do-you-do-custom-not-emoji-reactions)
   - [What are ghost and puppets?](#what-are-ghost-and-puppets)
@@ -54,6 +55,8 @@ links._
   - [Inconsistency issues of Element, Element and Element, also privacy concerns]({% post_url blog/2021-08-03-matrix-perfect-privacy-not %})
   - [Without selfhosting a homeserver or even then, Matrix moderation tools rely on security through obscurity]({% post_url blog/2021-12-05-matrix-community-abuse-security-by-obscurity %})
 - [A couple of words on protocols (on the Discuss page)](/discuss.html#a-couple-of-words-on-protocols)
+
+## Questions & Answers
 
 ### Where else can I read about Matrix?
 
@@ -274,8 +277,6 @@ I haven't tried this personally though, as I am Matrix user and have been
 sending raw events in JSON to them.
 
 ## Personal questions
-
-So the list above seems clearer not having me-questions mixed with everything else.
 
 ### Why so many accounts?
 
