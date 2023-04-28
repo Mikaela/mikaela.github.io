@@ -16,6 +16,18 @@ hattiwattlowprice: "10 c/kWh"
 
 Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537) [Google Play](https://play.google.com/store/apps/details?id=fi.fingrid.tuntihinta)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Helen hintalaskelmia Tuntihinta-sovellukselle](#helen-hintalaskelmia-tuntihinta-sovellukselle)
+  - [Yhtälöt Tuntihinnalle](#yht%C3%A4l%C3%B6t-tuntihinnalle)
+  - [Lähteet](#l%C3%A4hteet)
+- [Helen price calculations for Tuntihinta](#helen-price-calculations-for-tuntihinta)
+  - [Equations for Tuntihinta](#equations-for-tuntihinta)
+  - [Sources](#sources)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Helen hintalaskelmia Tuntihinta-sovellukselle
 
 Helen markkinahintasähkö kuukaudelle {{ page.month }} on {{ page.monthly }}.

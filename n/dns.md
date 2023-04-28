@@ -6,7 +6,15 @@ sitemap: false
 
 # DNS notes
 
-For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)
+_For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Identifying DNS resolver](#identifying-dns-resolver)
+- [Identifying support for client-subnet](#identifying-support-for-client-subnet)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Identifying DNS resolver
 

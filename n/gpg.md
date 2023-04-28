@@ -19,6 +19,16 @@ sitemap: false
 
 # Quick GPG notes where I may find them
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Claws-mail note that is somewhat related.](#claws-mail-note-that-is-somewhat-related)
+- [WKD](#wkd)
+- [Keyoxide](#keyoxide)
+  - [Keyoxide docs](#keyoxide-docs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 To create an Ed25519 key, or whatever will be the default version in the
 future as defined by your GPG version:
 

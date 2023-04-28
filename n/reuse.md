@@ -14,6 +14,16 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # REUSE notes
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Adding headers](#adding-headers)
+  - [Styles](#styles)
+- [Generic commands](#generic-commands)
+- [License identifiers I commonly use](#license-identifiers-i-commonly-use)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 > reuse is a tool for compliance with the REUSE recommendations.
 
 says [their GitHub description](https://github.com/fsfe/reuse-tool) and

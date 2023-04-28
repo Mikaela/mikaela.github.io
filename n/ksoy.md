@@ -12,6 +12,15 @@ stockmargin: "0.23 c/kWh"
 
 Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537) [Google Play](https://play.google.com/store/apps/details?id=fi.fingrid.tuntihinta)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [KSOY hintalaskelmia Tuntihinta-sovellukselle](#ksoy-hintalaskelmia-tuntihinta-sovellukselle)
+  - [Yhtälöt Tuntihinnalle](#yht%C3%A4l%C3%B6t-tuntihinnalle)
+  - [Lähteet](#l%C3%A4hteet)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # KSOY hintalaskelmia Tuntihinta-sovellukselle
 
 _Siirtohinnasto ei tiedossa, joten se ei ole mukana yhtälöissä._
