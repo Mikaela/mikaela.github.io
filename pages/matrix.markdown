@@ -14,6 +14,8 @@ some protocol comparison and my main accounts are in [index](/).
 
 I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has SSH signature](/txt/matrix.txt.sig).
 
+---
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -45,6 +47,8 @@ I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has S
     - [So do you wish Matrix to fail?](#so-do-you-wish-matrix-to-fail)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+---
 
 ## Matrix-related posts
 
