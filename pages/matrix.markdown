@@ -31,18 +31,18 @@ I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has S
   - [I am told that I should Matrixify my IRC channel, what does that mean?](#i-am-told-that-i-should-matrixify-my-irc-channel-what-does-that-mean)
   - [Why should I use Matrix instead of IRC?](#why-should-i-use-matrix-instead-of-irc)
     - [Why isn't Pirate Party of Finland using Matrix?](#why-isnt-pirate-party-of-finland-using-matrix)
-- [I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?](#i-dont-currently-want-to-touch-matrix-but-i-am-seeing-abuse-from-there-what-can-i-do)
-  - [I fear someone has said yes](#i-fear-someone-has-said-yes)
-    - [That doesn't help me](#that-doesnt-help-me)
-- [Personal questions](#personal-questions)
-  - [Why so many accounts?](#why-so-many-accounts)
-  - [Why do you use Matrix URI scheme instead of matrix.to?](#why-do-you-use-matrix-uri-scheme-instead-of-matrixto)
-  - [Why does one of your accounts have capital letter in the username?](#why-does-one-of-your-accounts-have-capital-letter-in-the-username)
-  - [Which client do you recommend?](#which-client-do-you-recommend)
-  - [Which homeserver do you recommend?](#which-homeserver-do-you-recommend)
-  - [Why don't you run your own?](#why-dont-you-run-your-own)
-  - [Why cannot I see history in your Matrix rooms?](#why-cannot-i-see-history-in-your-matrix-rooms)
-  - [So do you wish Matrix to fail?](#so-do-you-wish-matrix-to-fail)
+  - [I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?](#i-dont-currently-want-to-touch-matrix-but-i-am-seeing-abuse-from-there-what-can-i-do)
+    - [I fear someone has said yes](#i-fear-someone-has-said-yes)
+      - [That doesn't help me](#that-doesnt-help-me)
+  - [Personal questions](#personal-questions)
+    - [Why so many accounts?](#why-so-many-accounts)
+    - [Why do you use Matrix URI scheme instead of matrix.to?](#why-do-you-use-matrix-uri-scheme-instead-of-matrixto)
+    - [Why does one of your accounts have capital letter in the username?](#why-does-one-of-your-accounts-have-capital-letter-in-the-username)
+    - [Which client do you recommend?](#which-client-do-you-recommend)
+    - [Which homeserver do you recommend?](#which-homeserver-do-you-recommend)
+    - [Why don't you run your own?](#why-dont-you-run-your-own)
+    - [Why cannot I see history in your Matrix rooms?](#why-cannot-i-see-history-in-your-matrix-rooms)
+    - [So do you wish Matrix to fail?](#so-do-you-wish-matrix-to-fail)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -221,7 +221,7 @@ If you want in, your options are:
 - Come to [#verkkopalvelut using PrateIRC webchat](https://webchat.pirateirc.net/?channel=#verkkopalvelut)
   and tell `AmindaSuomalainen` your Matrix ID in a nice message (to show you aren't a bot) that you wish in.
 
-## I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?
+### I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?
 
 If you are using Telegram or Discord, you are out of luck, as while you can
 remove messages, that may get removed from Matrix, you cannot remove the
@@ -246,7 +246,7 @@ gecos/"real name" in which case your only option is to ban the entirety of
 Matrix. E.g. on LiberaChat `/mode +b _!_@2001:470:69fc:105::/64` assuming
 your abusers don't have a cloak (vhost in any other IRC network)._
 
-### I fear someone has said yes
+#### I fear someone has said yes
 
 In that case someone may have near absolute power on the Matrix side and could have
 removed the matrix-appservice-irc bot from power thus preventing it from
@@ -256,7 +256,7 @@ and they are immune to whatever is done from IRC.
 
 There is also the chance that [a netsplit gives a Matrix user moderator permissions that are never removed when sync occurs](https://github.com/matrix-org/matrix-appservice-irc/issues/518).
 
-#### That doesn't help me
+##### That doesn't help me
 
 If everything else fails, you can always mail abuse at matrix dot org, who
 will want the following details (as of 2022-10-16):
@@ -276,22 +276,22 @@ I would include:
 I haven't tried this personally though, as I am Matrix user and have been
 sending raw events in JSON to them.
 
-## Personal questions
+### Personal questions
 
-### Why so many accounts?
+#### Why so many accounts?
 
 In my opinion it's preferable to have multiple accounts on different homeservers for ensuring decentralisation instead of having a single authority in power and being able to issue commands from multiple servers in case of federation meltdown which multiple rooms experienced during the period of room version 9 before homeserver software started to nag on unintentionally open registration refusing to start. Additionally state resets are a good reason to keep old accounts around.
 
-### Why do you use Matrix URI scheme instead of matrix.to?
+#### Why do you use Matrix URI scheme instead of matrix.to?
 
 I dislike matrix.to as a concept. It's a centralized service on decentralized protocol and in my opinion it shows lack of self-esteem on Matrix side considering neither XMPP or IRC require something like it, both of those trust being known or handled appropiately.
 
-### Why does one of your accounts have capital letter in the username?
+#### Why does one of your accounts have capital letter in the username?
 
 In 2016 or so I mistakenly thought that usernames would be case-insensitive
 and they only [got banned in Synapse on 10th November 2017](https://github.com/matrix-org/synapse/pull/2662).
 
-### Which client do you recommend?
+#### Which client do you recommend?
 
 The one that fits your needs. Personally I mix-and-match:
 
@@ -304,17 +304,17 @@ The one that fits your needs. Personally I mix-and-match:
 - Nheko nightly flatpak on desktop
   - I am a Finnish translator, it's actually the most Spec-complete client in my experience without long delays before something becomes supported and it's lightweight probably for being a native app instead of Electron.
 
-### Which homeserver do you recommend?
+#### Which homeserver do you recommend?
 
 I am hesistant to recommend any. Finnish users may be interested in the [Linux.fi wiki listing](https://www.linux.fi/wiki/Matrix), everyone else may be served by [joinmatrix.org listing](https://joinmatrix.org/servers/).
 
-### Why don't you run your own?
+#### Why don't you run your own?
 
 As can be read between the lines from my critiques, I don't consider any homeserver to be in the state that it's either safe to run legally or lightweight enough or not require constant maintenance as opposed to IRC which I do selfhost.
 
 The world situation in general discourages me from anything as heavy.
 
-### Why cannot I see history in your Matrix rooms?
+#### Why cannot I see history in your Matrix rooms?
 
 Matrix doesn't support self-destructing messages or message expiry in general, so
 I don't feel comfortable with world-readable logs (which would easily end to
@@ -324,7 +324,7 @@ If you need to see something in the backlog, I suggest
 using IRC (IRC@Etro or PirateIRC especially) or XMPP which each store messages
 only for 7 days (Ergo default) or some months (Prosody default) on a single server.
 
-### So do you wish Matrix to fail?
+#### So do you wish Matrix to fail?
 
 No, I have been using countless of hours at writing these critiques and performing "quality assurance"/testing,
 localizing clients to Finnish, providing support on their rooms for users of those clients, writing a Matrix
