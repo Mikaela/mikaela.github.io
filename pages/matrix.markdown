@@ -8,8 +8,6 @@ redirect_from:
   - /matrix.html
 ---
 
-# [m]
-
 Just like [IRC](/irc/), _Matrix_ has became a part of my social life online. My
 room can be found from [my discuss page](/discuss) alongside
 some protocol comparison and my main accounts are in [index](/).
