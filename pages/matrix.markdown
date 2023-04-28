@@ -31,8 +31,6 @@ links._
 
 - [Where else can I read about Matrix?](#where-else-can-i-read-about-matrix)
 - [How do you do custom not-emoji reactions?](#how-do-you-do-custom-not-emoji-reactions)
-- [Why so many accounts?](#why-so-many-accounts)
-- [Why do you use Matrix URI scheme instead of matrix.to?](#why-do-you-use-matrix-uri-scheme-instead-of-matrixto)
 - [What are ghost and puppets?](#what-are-ghost-and-puppets)
 - [What does the public history visibility mean? I don't want to appear in search engines](#what-does-the-public-history-visibility-mean-i-dont-want-to-appear-in-search-engines)
 - [Can I see who is in any specific room without being there?](#can-i-see-who-is-in-any-specific-room-without-being-there)
@@ -40,18 +38,21 @@ links._
   - [How about DAG splits?](#how-about-dag-splits)
 - [What are these idlekicks for inactivity, why are they for?](#what-are-these-idlekicks-for-inactivity-why-are-they-for)
   - [But the relaybots look so ugly](#but-the-relaybots-look-so-ugly)
-- [Why does one of your accounts have capital letter in the username?](#why-does-one-of-your-accounts-have-capital-letter-in-the-username)
-- [Which client do you recommend?](#which-client-do-you-recommend)
-- [Which homeserver do you recommend?](#which-homeserver-do-you-recommend)
-- [Why don't you run your own?](#why-dont-you-run-your-own)
-- [Why cannot I see history in your Matrix rooms?](#why-cannot-i-see-history-in-your-matrix-rooms)
 - [I am told that I should Matrixify my IRC channel, what does that mean?](#i-am-told-that-i-should-matrixify-my-irc-channel-what-does-that-mean)
 - [Why should I use Matrix instead of IRC?](#why-should-i-use-matrix-instead-of-irc)
-- [Why isn't Pirate Party of Finland using Matrix?](#why-isnt-pirate-party-of-finland-using-matrix)
+  - [Why isn't Pirate Party of Finland using Matrix?](#why-isnt-pirate-party-of-finland-using-matrix)
 - [I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?](#i-dont-currently-want-to-touch-matrix-but-i-am-seeing-abuse-from-there-what-can-i-do)
   - [I fear someone has said yes](#i-fear-someone-has-said-yes)
-  - [That doesn't help me](#that-doesnt-help-me)
-- [So do you wish Matrix to fail?](#so-do-you-wish-matrix-to-fail)
+    - [That doesn't help me](#that-doesnt-help-me)
+  - [Personal questions](#personal-questions)
+    - [Why so many accounts?](#why-so-many-accounts)
+    - [Why do you use Matrix URI scheme instead of matrix.to?](#why-do-you-use-matrix-uri-scheme-instead-of-matrixto)
+    - [Why does one of your accounts have capital letter in the username?](#why-does-one-of-your-accounts-have-capital-letter-in-the-username)
+    - [Which client do you recommend?](#which-client-do-you-recommend)
+    - [Which homeserver do you recommend?](#which-homeserver-do-you-recommend)
+    - [Why don't you run your own?](#why-dont-you-run-your-own)
+    - [Why cannot I see history in your Matrix rooms?](#why-cannot-i-see-history-in-your-matrix-rooms)
+    - [So do you wish Matrix to fail?](#so-do-you-wish-matrix-to-fail)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -72,14 +73,6 @@ links._
 They are implemented by multiple clients other than Element. In FluffyChat, Gomuks and Nheko you can reply to something with `/react something` to add a `something` reaction. In Hydrogen there is a `...` next to emojis allowing you to enter freeform text as a reaction. In Schildichat Android when you search for a reaction, it offers to send your search as a freeform-reaction.
 
 [Element-Web doesn't support this yet](https://github.com/vector-im/element-web/issues/19409) and while there is [open pull request](https://github.com/matrix-org/matrix-react-sdk/pull/6628), the merging is blocked due to Element not knowing how to handle moderation and reporting for malicious reactions.
-
-### Why so many accounts?
-
-In my opinion it's preferable to have multiple accounts on different homeservers for ensuring decentralisation instead of having a single authority in power and being able to issue commands from multiple servers in case of federation meltdown which multiple rooms experienced during the period of room version 9 before homeserver software started to nag on unintentionally open registration refusing to start. Additionally state resets are a good reason to keep old accounts around.
-
-### Why do you use Matrix URI scheme instead of matrix.to?
-
-I dislike matrix.to as a concept. It's a centralized service on decentralized protocol and in my opinion it shows lack of self-esteem on Matrix side considering neither XMPP or IRC require something like it, both of those trust being known or handled appropiately.
 
 ### What are ghost and puppets?
 
@@ -173,44 +166,6 @@ This means that even before IRCv3 RELAYMSG and displayname proposals, which I wi
 
 I hope Matrix will get better at this too.
 
-### Why does one of your accounts have capital letter in the username?
-
-In 2016 or so I mistakenly thought that usernames would be case-insensitive
-and they only [got banned in Synapse on 10th November 2017](https://github.com/matrix-org/synapse/pull/2662).
-
-### Which client do you recommend?
-
-The one that fits your needs. Personally I mix-and-match:
-
-- FluffyChat on mobile
-  - I am a Finnish translator and moderator. It does multiple accounts.
-- hydrogen.element.io PWA mainly on mobile, sometimes on desktop
-  - It's the only Matrix client that is yet to log me out randomly, very stable, multiple account support and so far the only Matrix client running on Nokia 1 (TA-1047).
-- develop.element.io / Element flatpak on desktop
-  - `/devtools` is essential (see my critiques), and they don't support Fedora.
-- Nheko nightly flatpak on desktop
-  - I am a Finnish translator, it's actually the most Spec-complete client in my experience without long delays before something becomes supported and it's lightweight probably for being a native app instead of Electron.
-
-### Which homeserver do you recommend?
-
-I am hesistant to recommend any. Finnish users may be interested in the [Linux.fi wiki listing](https://www.linux.fi/wiki/Matrix), everyone else may be served by [joinmatrix.org listing](https://joinmatrix.org/servers/).
-
-### Why don't you run your own?
-
-As can be read between the lines from my critiques, I don't consider any homeserver to be in the state that it's either safe to run legally or lightweight enough or not require constant maintenance as opposed to IRC which I do selfhost.
-
-The world situation in general discourages me from anything as heavy.
-
-### Why cannot I see history in your Matrix rooms?
-
-Matrix doesn't support self-destructing messages or message expiry in general, so
-I don't feel comfortable with world-readable logs (which would easily end to
-search engines forever).
-
-If you need to see something in the backlog, I suggest
-using IRC (IRC@Etro or PirateIRC especially) or XMPP which each store messages
-only for 7 days (Ergo default) or some months (Prosody default) on a single server.
-
 ### I am told that I should Matrixify my IRC channel, what does that mean?
 
 You are likely using IRCnet and I am sorry that you have to deal with this raider group. It means some mix of:
@@ -242,7 +197,7 @@ image uploading support.
 and [its webchat](https://webchat.pirateirc.net/) a reasonable fallback should we have to leave other protocols
 or they would be unusable otherwise.
 
-### Why isn't Pirate Party of Finland using Matrix?
+#### Why isn't Pirate Party of Finland using Matrix?
 
 This goes a bit past my personal Q&A, but we are using it kind of as a "tech demo".
 However it cannot currently mature past that as:
@@ -264,7 +219,7 @@ If you want in, your options are:
 - Come to [#verkkopalvelut using PrateIRC webchat](https://webchat.pirateirc.net/?channel=#verkkopalvelut)
   and tell `AmindaSuomalainen` your Matrix ID in a nice message (to show you aren't a bot) that you wish in.
 
-### I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?
+## I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?
 
 If you are using Telegram or Discord, you are out of luck, as while you can
 remove messages, that may get removed from Matrix, you cannot remove the
@@ -289,7 +244,7 @@ gecos/"real name" in which case your only option is to ban the entirety of
 Matrix. E.g. on LiberaChat `/mode +b _!_@2001:470:69fc:105::/64` assuming
 your abusers don't have a cloak (vhost in any other IRC network)._
 
-#### I fear someone has said yes
+### I fear someone has said yes
 
 In that case someone may have near absolute power on the Matrix side and could have
 removed the matrix-appservice-irc bot from power thus preventing it from
@@ -319,7 +274,57 @@ I would include:
 I haven't tried this personally though, as I am Matrix user and have been
 sending raw events in JSON to them.
 
-### So do you wish Matrix to fail?
+### Personal questions
+
+So the list above seems clearer not having me-questions mixed with everything else.
+
+#### Why so many accounts?
+
+In my opinion it's preferable to have multiple accounts on different homeservers for ensuring decentralisation instead of having a single authority in power and being able to issue commands from multiple servers in case of federation meltdown which multiple rooms experienced during the period of room version 9 before homeserver software started to nag on unintentionally open registration refusing to start. Additionally state resets are a good reason to keep old accounts around.
+
+#### Why do you use Matrix URI scheme instead of matrix.to?
+
+I dislike matrix.to as a concept. It's a centralized service on decentralized protocol and in my opinion it shows lack of self-esteem on Matrix side considering neither XMPP or IRC require something like it, both of those trust being known or handled appropiately.
+
+#### Why does one of your accounts have capital letter in the username?
+
+In 2016 or so I mistakenly thought that usernames would be case-insensitive
+and they only [got banned in Synapse on 10th November 2017](https://github.com/matrix-org/synapse/pull/2662).
+
+#### Which client do you recommend?
+
+The one that fits your needs. Personally I mix-and-match:
+
+- FluffyChat on mobile
+  - I am a Finnish translator and moderator. It does multiple accounts.
+- hydrogen.element.io PWA mainly on mobile, sometimes on desktop
+  - It's the only Matrix client that is yet to log me out randomly, very stable, multiple account support and so far the only Matrix client running on Nokia 1 (TA-1047).
+- develop.element.io / Element flatpak on desktop
+  - `/devtools` is essential (see my critiques), and they don't support Fedora.
+- Nheko nightly flatpak on desktop
+  - I am a Finnish translator, it's actually the most Spec-complete client in my experience without long delays before something becomes supported and it's lightweight probably for being a native app instead of Electron.
+
+#### Which homeserver do you recommend?
+
+I am hesistant to recommend any. Finnish users may be interested in the [Linux.fi wiki listing](https://www.linux.fi/wiki/Matrix), everyone else may be served by [joinmatrix.org listing](https://joinmatrix.org/servers/).
+
+#### Why don't you run your own?
+
+As can be read between the lines from my critiques, I don't consider any homeserver to be in the state that it's either safe to run legally or lightweight enough or not require constant maintenance as opposed to IRC which I do selfhost.
+
+The world situation in general discourages me from anything as heavy.
+
+#### Why cannot I see history in your Matrix rooms?
+
+Matrix doesn't support self-destructing messages or message expiry in general, so
+I don't feel comfortable with world-readable logs (which would easily end to
+search engines forever).
+
+If you need to see something in the backlog, I suggest
+using IRC (IRC@Etro or PirateIRC especially) or XMPP which each store messages
+only for 7 days (Ergo default) or some months (Prosody default) on a single server.
+
+#### So do you wish Matrix to fail?
 
 No, I have been using countless of hours at writing these critiques and performing "quality assurance"/testing,
 localizing clients to Finnish, providing support on their rooms for users of those clients, writing a Matrix
