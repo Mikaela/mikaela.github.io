@@ -65,6 +65,7 @@ links._
   - [n/matrixspoilers](/n/matrixspoilers.html) has a quick note on spoilers.
 - [apothecary.gay has a Matrix Tips & Tricks page](https://apothecary.gay/rules/matrix-tricks/)
   - At the time of writing also on using spoilers and custom emotes/stickers.
+- Cos has written [Matrix tips they don't tell you](https://wordsmith.social/cos/matrix-for-company-use-should-we-disable-federation) containing a FAQ, hints and guides.
 
 ### How do you do custom not-emoji reactions?
 
