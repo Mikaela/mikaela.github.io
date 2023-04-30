@@ -28,6 +28,7 @@ I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has S
   - [Can I see who is in any specific room without being there?](#can-i-see-who-is-in-any-specific-room-without-being-there)
   - [What are state resets?](#what-are-state-resets)
     - [How about DAG splits?](#how-about-dag-splits)
+  - [Can I have a non-federated room?](#can-i-have-a-non-federated-room)
   - [What are these idlekicks for inactivity, why are they for?](#what-are-these-idlekicks-for-inactivity-why-are-they-for)
     - [But the relaybots look so ugly](#but-the-relaybots-look-so-ugly)
   - [I am told that I should Matrixify my IRC channel, what does that mean?](#i-am-told-that-i-should-matrixify-my-irc-channel-what-does-that-mean)
@@ -144,6 +145,39 @@ kind of resembling [IRC's netsplits before sync.](https://en.wikipedia.org/wiki/
 People understanding state resolution (which by the way don't include me)
 disagree on the exact cause only agreeing that it's difficult to fix. From
 what is told to me, I understand it to be tracked [in the same Synapse issue #8629](https://github.com/matrix-org/synapse/issues/8629).
+
+### Can I have a non-federated room?
+
+Yes, there are two methods.
+
+1. During room creation, Element Web offers an option to have a non-federated
+   room. That will permanently prevent any other homeserver from joining and
+   to change that a manual room upgrade is required.
+1. What I recommend instead is setting a server ACL, so if necessary it can be
+   changed later. This may be helpful when migrating to another domain (which
+   Matrix doesn't support) or cooperation with another entity with their own
+   homeserver or anything.
+
+The second method begins with the usual `/devtools`, explore room state, `Send
+custom state event`, enter type as `m.room.server_acl` and contents:
+
+```json
+{
+  "allow": ["example.org"],
+  "allow_ip_literals": false,
+  "deny": []
+}
+```
+
+Now assuming all homeservers in the room implement ACL, only `example.org`
+users can join the room.
+
+For futher reading about ACL:
+
+- [matrix.org: Moderation in Matrix, Banning servers from rooms (Server ACLs)](https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls)
+  - [[TODO: release our server-ACL enforcing scripts]](https://github.com/matrix-org/matrix.org/issues/557)
+- [Matrix Specification on ACL](https://spec.matrix.org/latest/client-server-api/#server-access-control-lists-acls-for-rooms)
+- [matrix-org/matrix-spec#928: Consider handling server ACLs through event auth rules rather than at the network level #928](https://github.com/matrix-org/matrix-spec/issues/928)
 
 ### What are these idlekicks for inactivity, why are they for?
 
