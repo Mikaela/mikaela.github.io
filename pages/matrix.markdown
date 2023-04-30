@@ -40,6 +40,7 @@ I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has S
       - [That doesn't help me](#that-doesnt-help-me)
   - [Personal questions](#personal-questions)
     - [Why so many accounts?](#why-so-many-accounts)
+      - [Brief history of my experiences with dead homeservers](#brief-history-of-my-experiences-with-dead-homeservers)
     - [Why do you use Matrix URI scheme instead of matrix.to?](#why-do-you-use-matrix-uri-scheme-instead-of-matrixto)
     - [Why does one of your accounts have capital letter in the username?](#why-does-one-of-your-accounts-have-capital-letter-in-the-username)
     - [Which client do you recommend?](#which-client-do-you-recommend)
@@ -336,7 +337,49 @@ sending raw events in JSON to them.
 
 #### Why so many accounts?
 
-In my opinion it's preferable to have multiple accounts on different homeservers for ensuring decentralisation instead of having a single authority in power and being able to issue commands from multiple servers in case of federation meltdown which multiple rooms experienced during the period of room version 9 before homeserver software started to nag on unintentionally open registration refusing to start. Additionally state resets are a good reason to keep old accounts around.
+My reasons for that are mane and I am often proved correct in them.
+
+- By having multiple accounts on different homeservers, there is no single
+  entity that can decide whether I participate on Matrix or not. This is also
+  a benefit of decentralisation in general.
+- In case of federation meltdown, I have multiple entrypoints to send events
+  and thus hopefully one of them goes through faster. There have been
+  multiple incidents where this could have been useful for room
+  administrators.
+  - Matrix homeservers used to allow open registration with no kind of
+    protection and no warnings they are being ran with that configuration
+    until some time before room version 10 was released. This
+    allowed multiple rooms to be spammed trivially and it took days for all
+    homeservers to sync ACL bans in the worst cases. It also resulted to a lot
+    of state resetting so the affected rooms never got cleaned up as the spam
+    users kept coming back and clients had issues handling so inflated rooms.
+- State resets keep happening and thus I cannot trust other accounts than the
+  one which created a room in question stay as power level 100.
+- Homeservers come and go, sometimes with little to no warning. As I have many
+  functioning accounts generally with power levels set, homeserver migrations
+  take me less effort than going through every room and ensuring just now
+  created account has power.
+
+##### Brief history of my experiences with dead homeservers
+
+Believe my concern on homeservers coming and going or not, no one is safe.
+
+1. 2018-09-07: [Disroot.org announced Matrix closure](https://disroot.org/en/blog/matrix-closure).
+1. 2019-04-12: [Matrix.org was compromised](https://matrix.org/blog/2019/04/11/we-have-discovered-and-addressed-a-security-breach-updated-2019-04-12)
+   resulting the homeserver being down for a while, some integrations even
+   longer and the XMPP bridge returned months later.
+1. From Disroot I moved to Feneas thinking that homeserver being a paid
+   membership benefit would help it to stay up and be reliable. However in
+   late 2021 and early 2022 we decided to disband the association due to
+   COVID-19 pandemic, lack of volunteers, lack of money (which wasn't helped
+   by [Finnish money gathering law issues](https://github.com/liberapay/liberapay.org/issues/30)
+   etc.
+1. Around 2023-04-24 the-apothecary.club went down and writing this on
+   2023-04-30 I am yet to hear anything about the downtime. Was it by intent,
+   will it return, anything? However I haven't been participating their
+   community in a long time and I was only using the account for testing
+   purposes so the information not reaching me is understandable, especially
+   considering their homeserver main room is not federated.
 
 #### Why do you use Matrix URI scheme instead of matrix.to?
 
