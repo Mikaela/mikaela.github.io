@@ -29,6 +29,7 @@ I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has S
   - [What are state resets?](#what-are-state-resets)
     - [How about DAG splits?](#how-about-dag-splits)
   - [Can I have a non-federated room?](#can-i-have-a-non-federated-room)
+  - [What exactly is room upgrading?](#what-exactly-is-room-upgrading)
   - [What are these idlekicks for inactivity, why are they for?](#what-are-these-idlekicks-for-inactivity-why-are-they-for)
     - [But the relaybots look so ugly](#but-the-relaybots-look-so-ugly)
   - [I am told that I should Matrixify my IRC channel, what does that mean?](#i-am-told-that-i-should-matrixify-my-irc-channel-what-does-that-mean)
@@ -178,6 +179,23 @@ For futher reading about ACL:
   - [[TODO: release our server-ACL enforcing scripts]](https://github.com/matrix-org/matrix.org/issues/557)
 - [Matrix Specification on ACL](https://spec.matrix.org/latest/client-server-api/#server-access-control-lists-acls-for-rooms)
 - [matrix-org/matrix-spec#928: Consider handling server ACLs through event auth rules rather than at the network level #928](https://github.com/matrix-org/matrix-spec/issues/928)
+
+### What exactly is room upgrading?
+
+Room upgrading basically means:
+
+1. Create a new room.
+1. Send an event to old room saying "the room has now moved to new room"
+1. Unless upgraded manually, the client copies some state such as power
+   levels from the old room to the new one.
+
+Manual upgrading means poking the API endpoint manually and thus not copying
+creation event (non-federation state) or power levels. For an example see my
+[matrix-tombstone-room.bash script](https://gitea.blesmrt.net/mikaela/scripts/src/branch/master/bash/matrix-tombstone-room.bash)
+
+See also [Matrix Specification on room versions](https://spec.matrix.org/latest/rooms/)
+or `CTRL-F` this page for `/upgraderoom {{site.matrixLatestRoomVersion}}`
+(Element Web command to perform the upgrade).
 
 ### What are these idlekicks for inactivity, why are they for?
 
