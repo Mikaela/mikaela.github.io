@@ -337,7 +337,7 @@ sending raw events in JSON to them.
 
 #### Why so many accounts?
 
-My reasons for that are mane and I am often proved correct in them.
+My reasons for that are many and I am often proved correct in them.
 
 - By having multiple accounts on different homeservers, there is no single
   entity that can decide whether I participate on Matrix or not. This is also
