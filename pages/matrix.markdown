@@ -374,12 +374,14 @@ Believe my concern on homeservers coming and going or not, no one is safe.
    COVID-19 pandemic, lack of volunteers, lack of money (which wasn't helped
    by [Finnish money gathering law issues](https://github.com/liberapay/liberapay.org/issues/30)
    etc.
-1. Around 2023-04-24 the-apothecary.club went down and writing this on
-   2023-04-30 I am yet to hear anything about the downtime. Was it by intent,
-   will it return, anything? However I haven't been participating their
-   community in a long time and I was only using the account for testing
-   purposes so the information not reaching me is understandable, especially
-   considering their homeserver main room is not federated.
+1. Around 2023-04-24 the-apothecary.club went down and returned sometime
+   2023-05-06. That would have been a long time with no communication on
+   Matrix and not having access to any rooms, but luckily I have been using my
+   account there just for accessibility testing and even if it was my primary
+   account, I would have had backup accounts. I still don't know what exactly
+   happened there, but I am not an active member of their community and they
+   are volunteers like most of Matrix (excluding EMS and other paid homeserver
+   offerings).
 
 #### Why do you use Matrix URI scheme instead of matrix.to?
 
