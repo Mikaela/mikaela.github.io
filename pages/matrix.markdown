@@ -394,7 +394,13 @@ and they only [got banned in Synapse on 10th November 2017](https://github.com/m
 
 #### Which client do you recommend?
 
-The one that fits your needs. Personally I mix-and-match:
+Honestly the only one that I can recommend is [Nheko nightly flatpak](https://flatpak.neko.dev/repo/nightly/appstream/io.github.NhekoReborn.Nheko.flatpakref), even if it's also missing features I care about such as [Stories (#1038)](https://github.com/Nheko-Reborn/nheko/issues/1038).
+
+I have also said it before, but for any serious use of Matrix, you will need [Element Web](https://github.com/vector-im/element-web) and especially the `/devtools` command it has.
+
+If you absolutely need Matrix somewhere neither fits you, maybe [Hydrogen](https://github.com/vector-im/hydrogen-web) is your _PWA_ hoping your needs don't include too many Matrix accounts ([#783](https://github.com/vector-im/hydrogen-web/issues/783), [#817](https://github.com/vector-im/hydrogen-web/pull/817)) and hoping you [don't use SailfishOS](https://forum.sailfishos.org/t/progressive-web-app-pwa-in-native-browser/3867?u=mikaela) ([#1000](https://github.com/sailfishos/sailfish-browser/issues/1000)) or [Ubuntu Touch (#1144)](https://github.com/ubports/ubuntu-touch/issues/1144).
+
+<!-- The one that fits your needs. Personally I mix-and-match:
 
 - FluffyChat on mobile
   - I am a Finnish translator and moderator. It does multiple accounts.
@@ -404,6 +410,8 @@ The one that fits your needs. Personally I mix-and-match:
   - `/devtools` is essential (see my critiques), and they don't support Fedora.
 - Nheko nightly flatpak on desktop
   - I am a Finnish translator, it's actually the most Spec-complete client in my experience without long delays before something becomes supported and it's lightweight probably for being a native app instead of Electron.
+
+-->
 
 #### Which homeserver do you recommend?
 
