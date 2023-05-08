@@ -13,7 +13,8 @@ blog and other things I do. They are connected together by [Matterbridge](https:
 As [Code of Conduct, Contributor Covenant applies](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).<br>
 I don't see a reason for forking it as this community is forming around me
 and my website while I would have separate community for any actual Open
-Source Software project if I begun any that grew bigger.
+Source Software project if I begun any that grew bigger. See also
+[my Matrix page on etiquette](/matrix/index.html#is-there-any-kind-of-matrix-etiquette-i-should-know-about)
 
 As for languages; English is preferred due to majority of the discussion
 participants speaking it, but Finnish and Esperanto are also fine.<br> I sadly
