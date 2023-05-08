@@ -22,6 +22,7 @@ I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has S
 - [Matrix-related posts](#matrix-related-posts)
 - [Questions & Answers](#questions--answers)
   - [Where else can I read about Matrix?](#where-else-can-i-read-about-matrix)
+  - [Is there any kind of Matrix etiquette I should know about?](#is-there-any-kind-of-matrix-etiquette-i-should-know-about)
   - [How do you do custom not-emoji reactions?](#how-do-you-do-custom-not-emoji-reactions)
   - [What are ghost and puppets?](#what-are-ghost-and-puppets)
   - [What does the public history visibility mean? I don't want to appear in search engines](#what-does-the-public-history-visibility-mean-i-dont-want-to-appear-in-search-engines)
@@ -76,6 +77,25 @@ links._
 - [apothecary.gay has a Matrix Tips & Tricks page](https://apothecary.gay/rules/matrix-tricks/)
   - At the time of writing also on using spoilers and custom emotes/stickers.
 - Cos has written [Matrix tips they don't tell you](https://wordsmith.social/cos/matrix-tips-they-dont-tell-you) containing a FAQ, hints and guides.
+
+### Is there any kind of Matrix etiquette I should know about?
+
+Not particularly, you will find the same kind of social expectations like
+anywhere else such as IRC or Telegram. Here are some guidelines:
+
+- Ask for a permission in room before starting a private/direct message/discussion with someone.
+  - There is commonly an exception when you are contacting a moderator of about an issue in
+    the chat and wish to avoid getting attention on yourself.
+- When you eventually do message someone, state your business, without leaving
+  your first message to a greeting. For more information about this, refer to
+  [nohello.net](https://nohello.net/).
+- When creating a new room, avoid advertising it in existing rooms. The
+  first guideline also applies, refrain from inviting random people from
+  other rooms without their permission.
+  - If you do perform mass inviting of strangers, you will be considered as a
+    spammer and most likely end up on shared banlists resulting a significant
+    portition of Matrix communities instantly banning you even if you never
+    interacted with them directly.
 
 ### How do you do custom not-emoji reactions?
 
