@@ -81,7 +81,7 @@ links._
 ### Is there any kind of Matrix etiquette I should know about?
 
 Not particularly, you will find the same kind of social expectations like
-anywhere else such as IRC or Telegram. Here are some guidelines:
+anywhere else, such as at IRC or Telegram. Here are some guidelines:
 
 - Ask for a permission in room before starting a private/direct message/discussion with someone.
   - There is commonly an exception when you are contacting a moderator of about an issue in

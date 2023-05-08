@@ -14,7 +14,7 @@ As [Code of Conduct, Contributor Covenant applies](https://www.contributor-coven
 I don't see a reason for forking it as this community is forming around me
 and my website while I would have separate community for any actual Open
 Source Software project if I begun any that grew bigger. See also
-[my Matrix page on etiquette](/matrix/index.html#is-there-any-kind-of-matrix-etiquette-i-should-know-about)
+[my Matrix page on etiquette](/matrix/index.html#is-there-any-kind-of-matrix-etiquette-i-should-know-about).
 
 As for languages; English is preferred due to majority of the discussion
 participants speaking it, but Finnish and Esperanto are also fine.<br> I sadly
