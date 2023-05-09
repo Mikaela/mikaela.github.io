@@ -382,7 +382,9 @@ My reasons for that are many and I am often proved correct in them.
 
 ##### Brief history of my experiences with dead homeservers
 
-Believe my concern on homeservers coming and going or not, no one is safe.
+Believe my concern on homeservers coming and going or not, no homeserver is
+safe unless you happen to have backups on multiple independent ones. Or maybe
+I am just personally unlucky?
 
 1. 2018-09-07: [Disroot.org announced Matrix closure](https://disroot.org/en/blog/matrix-closure).
 1. 2019-04-12: [Matrix.org was compromised](https://matrix.org/blog/2019/04/11/we-have-discovered-and-addressed-a-security-breach-updated-2019-04-12)
@@ -402,6 +404,9 @@ Believe my concern on homeservers coming and going or not, no one is safe.
    happened there, but I am not an active member of their community and they
    are volunteers like most of Matrix (excluding EMS and other paid homeserver
    offerings).
+1. 2023-05-08 13:15 [Kapsi.fi](https://www.kapsi.fi/english.html) database
+   server physically died taking down their homeserver and
+   [pikaviestin.fi](https://www.pikaviestin.fi) which hosts my main account.
 
 #### Why do you use Matrix URI scheme instead of matrix.to?
 
