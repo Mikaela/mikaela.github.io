@@ -41,14 +41,18 @@ Copy-paste and add file name(s) to the end
 
 ```bash
 # Autodetect how to add comment?
-reuse addheader --copyright="Aminda Suomalainen <{{ page.email }}>" --license="CC0-1.0"
+reuse annotate --copyright="Aminda Suomalainen <{{ page.email }}>" --license="CC0-1.0"
 # Create a file.license
-reuse addheader --copyright="Aminda Suomalainen <{{ page.email }}>" --license="CC0-1.0" --force-dot-license
+reuse annotate --copyright="Aminda Suomalainen <{{ page.email }}>" --license="CC0-1.0" --force-dot-license
 # The usual # marks a comment
-reuse addheader --copyright="Aminda Suomalainen <{{ page.email }}>" --license="CC0-1.0" --style python
+reuse annotate --copyright="Aminda Suomalainen <{{ page.email }}>" --license="CC0-1.0" --style python
 ```
 
-- Note that `--year` can also be specified
+Note!
+
+- `--year 2023` can be specified if the date isn't this year.
+- `annotate` replaces existing headeer if any, to add before it instead, use
+  `--no-replace`
 
 ### Styles
 
