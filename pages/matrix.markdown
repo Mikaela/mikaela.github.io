@@ -383,7 +383,7 @@ My reasons for that are many and I am often proved correct in them.
 ##### Brief history of my experiences with dead homeservers
 
 Believe my concern on homeservers coming and going or not, no homeserver is
-safe unless you happen to have backups on multiple independent ones. Or maybe
+safe, you should have backup accounts on multiple independent ones. Or maybe
 I am just personally unlucky?
 
 1. 2018-09-07: [Disroot.org announced Matrix closure](https://disroot.org/en/blog/matrix-closure).
