@@ -390,7 +390,7 @@ I am just personally unlucky?
 1. 2019-04-12: [Matrix.org was compromised](https://matrix.org/blog/2019/04/11/we-have-discovered-and-addressed-a-security-breach-updated-2019-04-12)
    resulting the homeserver being down for a while, some integrations even
    longer and the XMPP bridge returned months later.
-1. From Disroot I moved to Feneas, the \_Fe_derated \_Ne_tworks \_As_sociation, thinking that homeserver being a paid
+1. From Disroot I moved to Feneas, the <em>Fe</em>derated <em>Ne</em>tworks <em>As</em>sociation, thinking that homeserver being a paid
    membership benefit would help it to stay up and be reliable. However in
    [late 2021](https://gitea.blesmrt.net/mikaela/gist/src/commit/b50dacc0a457754c44ee901ce9e78988a39714fa/associations/feneas/meeting-logs/2021-12-09-annual-general-assembly.txt) and [early
    2022](https://gitea.blesmrt.net/mikaela/gist/src/commit/f3277852084d1a644189c7f9198f0bf470bc0ba4/associations/feneas/meeting-logs/2022-01-04-annual-general-meeting.txt) we decided to disband the association due to
