@@ -408,7 +408,8 @@ I am just personally unlucky?
 1. 2023-05-08 13:15 [Kapsi.fi](https://www.kapsi.fi/english.html)
    [database server physically died](https://www.kapsi.fi/tiedotteet/2023.html#488) taking down their homeserver and
    [pikaviestin.fi](https://www.pikaviestin.fi) (alongside [sauna.social](https://sauna.social)
-   and [järkkää.fi](https://jarkkaa.fi)) which hosts my main account.
+   and [järkkää.fi](https://jarkkaa.fi)) which hosts my main account. It
+   returned a couple of days later on the evening of 2023-05-11.
 
 #### Why do you use Matrix URI scheme instead of matrix.to?
 
