@@ -14,43 +14,7 @@ some protocol comparison and my main accounts are in [index](/).
 
 I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has SSH signature](/txt/matrix.txt.sig).
 
----
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Matrix-related posts](#matrix-related-posts)
-- [Questions & Answers](#questions--answers)
-  - [Where else can I read about Matrix?](#where-else-can-i-read-about-matrix)
-  - [Is there any kind of Matrix etiquette I should know about?](#is-there-any-kind-of-matrix-etiquette-i-should-know-about)
-  - [How do you do custom not-emoji reactions?](#how-do-you-do-custom-not-emoji-reactions)
-  - [What are ghost and puppets?](#what-are-ghost-and-puppets)
-  - [What does the public history visibility mean? I don't want to appear in search engines](#what-does-the-public-history-visibility-mean-i-dont-want-to-appear-in-search-engines)
-  - [Can I see who is in any specific room without being there?](#can-i-see-who-is-in-any-specific-room-without-being-there)
-  - [What are state resets?](#what-are-state-resets)
-    - [How about DAG splits?](#how-about-dag-splits)
-  - [Can I have a non-federated room?](#can-i-have-a-non-federated-room)
-  - [What exactly is room upgrading?](#what-exactly-is-room-upgrading)
-  - [What are these idlekicks for inactivity, why are they for?](#what-are-these-idlekicks-for-inactivity-why-are-they-for)
-    - [But the relaybots look so ugly](#but-the-relaybots-look-so-ugly)
-  - [I am told that I should Matrixify my IRC channel, what does that mean?](#i-am-told-that-i-should-matrixify-my-irc-channel-what-does-that-mean)
-  - [Why should I use Matrix instead of IRC?](#why-should-i-use-matrix-instead-of-irc)
-    - [Why isn't Pirate Party of Finland using Matrix?](#why-isnt-pirate-party-of-finland-using-matrix)
-  - [I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?](#i-dont-currently-want-to-touch-matrix-but-i-am-seeing-abuse-from-there-what-can-i-do)
-    - [I fear someone has said yes](#i-fear-someone-has-said-yes)
-      - [That doesn't help me](#that-doesnt-help-me)
-  - [Personal questions](#personal-questions)
-    - [Why so many accounts?](#why-so-many-accounts)
-      - [Brief history of my experiences with dead homeservers](#brief-history-of-my-experiences-with-dead-homeservers)
-    - [Why do you use Matrix URI scheme instead of matrix.to?](#why-do-you-use-matrix-uri-scheme-instead-of-matrixto)
-    - [Why does one of your accounts have capital letter in the username?](#why-does-one-of-your-accounts-have-capital-letter-in-the-username)
-    - [Which client do you recommend?](#which-client-do-you-recommend)
-    - [Which homeserver do you recommend?](#which-homeserver-do-you-recommend)
-    - [Why don't you run your own?](#why-dont-you-run-your-own)
-    - [Why cannot I see history in your Matrix rooms?](#why-cannot-i-see-history-in-your-matrix-rooms)
-    - [So do you wish Matrix to fail?](#so-do-you-wish-matrix-to-fail)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+[Questions and Answers about Matrix](#questions--answers)
 
 ---
 
@@ -65,6 +29,44 @@ links._
 - [A couple of words on protocols (on the Discuss page)](/discuss.html#a-couple-of-words-on-protocols)
 
 ## Questions & Answers
+
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Where else can I read about Matrix?](#where-else-can-i-read-about-matrix)
+- [Is there any kind of Matrix etiquette I should know about?](#is-there-any-kind-of-matrix-etiquette-i-should-know-about)
+- [How do you do custom not-emoji reactions?](#how-do-you-do-custom-not-emoji-reactions)
+- [What are ghost and puppets?](#what-are-ghost-and-puppets)
+- [What does the public history visibility mean? I don't want to appear in search engines](#what-does-the-public-history-visibility-mean-i-dont-want-to-appear-in-search-engines)
+- [Can I see who is in any specific room without being there?](#can-i-see-who-is-in-any-specific-room-without-being-there)
+- [What are state resets?](#what-are-state-resets)
+  - [How about DAG splits?](#how-about-dag-splits)
+- [Can I have a non-federated room?](#can-i-have-a-non-federated-room)
+- [What exactly is room upgrading?](#what-exactly-is-room-upgrading)
+- [What are these idlekicks for inactivity, why are they for?](#what-are-these-idlekicks-for-inactivity-why-are-they-for)
+  - [But the relaybots look so ugly](#but-the-relaybots-look-so-ugly)
+- [I am told that I should Matrixify my IRC channel, what does that mean?](#i-am-told-that-i-should-matrixify-my-irc-channel-what-does-that-mean)
+- [Why should I use Matrix instead of IRC?](#why-should-i-use-matrix-instead-of-irc)
+  - [Why isn't Pirate Party of Finland using Matrix?](#why-isnt-pirate-party-of-finland-using-matrix)
+- [I don't currently want to touch Matrix, but I am seeing abuse from there, what can I do?](#i-dont-currently-want-to-touch-matrix-but-i-am-seeing-abuse-from-there-what-can-i-do)
+  - [I fear someone has said yes](#i-fear-someone-has-said-yes)
+    - [That doesn't help me](#that-doesnt-help-me)
+- [Personal questions](#personal-questions)
+  - [Why so many accounts?](#why-so-many-accounts)
+    - [Brief history of my experiences with dead homeservers](#brief-history-of-my-experiences-with-dead-homeservers)
+  - [Why do you use Matrix URI scheme instead of matrix.to?](#why-do-you-use-matrix-uri-scheme-instead-of-matrixto)
+  - [Why does one of your accounts have capital letter in the username?](#why-does-one-of-your-accounts-have-capital-letter-in-the-username)
+  - [Which client do you recommend?](#which-client-do-you-recommend)
+  - [Which homeserver do you recommend?](#which-homeserver-do-you-recommend)
+  - [Why don't you run your own?](#why-dont-you-run-your-own)
+  - [Why cannot I see history in your Matrix rooms?](#why-cannot-i-see-history-in-your-matrix-rooms)
+  - [So do you wish Matrix to fail?](#so-do-you-wish-matrix-to-fail)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
 
 ### Where else can I read about Matrix?
 
