@@ -21,7 +21,7 @@ repos:
     rev: v2.2.0
     hooks:
       - id: doctoc
-        args: [--update-only]
+        args: [--update-only, --notitle]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
     rev: 0.23.0
