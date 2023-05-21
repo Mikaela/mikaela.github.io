@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2023 Aminda Suomalainen <suomalainen+git@mikaela.info>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+# See https://pre-commit.com for more information
+# See https://pre-commit.ci for more information
 ci:
   # Attempts to use networking and fails at name resolution
   skip: [bundler-audit]
@@ -8,6 +14,7 @@ repos:
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
+      - id: check-yaml
       - id: check-executables-have-shebangs
       - id: check-shebang-scripts-are-executable
       - id: destroyed-symlinks
@@ -38,10 +45,17 @@ repos:
       # https://github.com/jumanjihouse/pre-commit-hooks/issues/111
       #- id: check-mailmap
 
+  - repo: https://github.com/fsfe/reuse-tool
+    rev: v1.1.2
+    hooks:
+      - id: reuse
+
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: "v3.0.0-alpha.9-for-vscode"
     hooks:
       - id: prettier
+        additional_dependencies:
+          ["prettier@2.8.8", "@prettier/plugin-xml@2.2.0"]
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: "2.7.1"
     hooks:
