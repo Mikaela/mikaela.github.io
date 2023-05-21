@@ -73,6 +73,9 @@ links._
 - [Miki is the Matrix wiki](https://en.miki.community/) where I will attempt to contribute to.
 - [Matrix.org](https://matrix.org/) is the official website.
 - [My gist repository also has notes on Matrix, mostly /devtools related ones](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/matrix), they predate Miki and I hope to sort more relevant or historical parts there.
+  - PPFI also has {a couple of Matrix files](https://git.piraattipuolue.fi/Pikaviestimet/Pikaviestimet/src/branch/master/matrix), ([GitHub mirror](https://github.com/piraattipuolue/pikaviestimet)).
+    <!-- and [PPFI wiki page has an article](https://wiki.piraattipuolue.fi/Matrix) ([waybackmachine](https://web.archive.org/web/20230000000000*/https://wiki.piraattipuolue.fi/Matrix)).-->
+    _Note that they are in Finnish_.
 - This site has random assortment of Matrix details around.
   - [txt/matrix.txt](/txt/matrix.txt)
   - [n/matrixspoilers](/n/matrixspoilers.html) has a quick note on spoilers.
