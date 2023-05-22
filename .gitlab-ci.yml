@@ -11,7 +11,7 @@ cache:
     - ${CI_PROJECT_DIR}/bundle
 
 before_script:
-  - apk install --no-cache ruby ruby-bundler
+  - apk add --no-cache ruby ruby-bundler
   - bundle install
 
 test:
