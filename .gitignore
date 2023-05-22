@@ -5,6 +5,7 @@ _site
 *~
 keys.txt.asc
 .bundle
+.cache/**
 .jekyll-cache
 .jekyll-metadata
 vendor/
