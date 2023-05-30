@@ -138,9 +138,16 @@ and related issues.
 
 ### Can I see who is in any specific room without being there?
 
-In general no, although there is a cornercase that by poking room directory API e.g. for [#matrix.fi:matrix.org](matrix:r/matrix.fi:matrix.org): [https://matrix-client.matrix.org/\_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org](https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org), you get the room ID and list of homeservers in it and if you see a single user (or otherwise not so popular homeserver), you can make educated guesses on who may be in the room.
+It depends.
 
-I think this requires for the room to have an alias (not-published one should be fine) and a homeserver aware of the alias and room being queried.
+You can try [Matrix Public Archive](https://github.com/matrix-org/matrix-public-archive/), e.g. for Matrix HQ [archive.matrix.org/r/matrix:matrix.org](https://archive.matrix.org/r/matrix:matrix.org)
+omitting the leading `#`.
+
+_If you too consider that undesirable, you can [join us at matrix-org/matrix-public-archive#47 requesting the ability to opt-out](https://github.com/matrix-org/matrix-public-archive/issues/47) and ban `@archive:matrix.org` from your rooms in hopes that it will be enough._
+
+Alternatively if the room in question has an alias, you can try poking the room directory API e.g. for [#matrix.fi:matrix.org](matrix:r/matrix.fi:matrix.org): [https://matrix-client.matrix.org/\_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org](https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org), you get the room ID and list of homeservers in it and if you see a single user (or otherwise not so popular homeserver), you can make educated guesses on who may be in the room. Note that this particular link requires `matrix.org` to be in the room and aware of the alias.
+
+Otherwise no, you cannot.
 
 ### What are state resets?
 
