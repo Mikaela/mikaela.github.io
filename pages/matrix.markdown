@@ -120,10 +120,21 @@ They are related to bringing Matrix to other protocols or vice versa.
 
 The public/world-readable history visibility option means exactly what it says,
 public even without joining the room. These rooms are accessible to tools
-such as [Matrix Static](https://view.matrix.org/) or upcoming [Matrix Public Archive](https://github.com/matrix-org/matrix-public-archive)
-and thus their history is visible in search engines. If this isn't what you
+such as [Matrix Static](https://view.matrix.org/) and its successor [Matrix Public Archive](https://github.com/matrix-org/matrix-public-archive)
+(aka `@archive:matrix.org`) and thus their history is visible in search engines. If this isn't what you
 want, set history visibility to one of the members only options (since
 selecting this option, since being invited or since join).
+
+Additionally [Matrix Foundation considers members-only history as public and will show it to anyone through archive.matrix.org](https://github.com/matrix-org/matrix-public-archive/blob/main/docs/faq.md#why-does-the-archive-user-join-rooms-instead-of-browsing-them-as-a-guest). Thus if you have a semi-public room on Matrix, you should follow these steps:
+
+- Set your room history visibility to "since user joined the room" or at least
+  "since the user was invited".
+- Set the room join rule to `knock` or `invite` -only. If you really need to,
+  you may also use `restricted` or `knock_restricted`, but be careful to not
+  allow access from public rooms (although this will still protect you from
+  matrix-public-archive).
+- Consider enabling end-to-end-encryption while it's generally not adviced for
+  public rooms.
 
 Note that as the option name hints, the history visibility option will not
 apply to previous messages. Thus if you first make room public and then
