@@ -484,6 +484,10 @@ Matrix has a place in my heart, just as IRC and XMPP and while none of the three
 get resolved and the fighting between them to end and I am tired of the "stop having fun" or "you are worse person for still using deprecated IRC"
 or "I wish IRC/XMPP just died already as it's so old" or whatever attitude I see amongst certain Matrix user/enthustiastic groups.
 
+However I admit having increasingly difficult time believing that either _Matrix
+Foundation_ or _New Vector trading as Element_ has their users best interests
+in heart.
+
 ---
 
 _The lucky Matrix number is `{{site.matrixLatestRoomVersion}}`, but do [consult the Spec for that](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions) and definitely ask `!servers upgrade {{site.matrixLatestRoomVersion}}` from [Version Checker](matrix:u/version:maunium.net) or [Fluff Generator](matrix:u/+:jae.fi) or [their siblings](https://github.com/maubot/rsvc)._
