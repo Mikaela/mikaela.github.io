@@ -2,8 +2,9 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-*	text=auto linguist-detectable
+*	text=auto linguist-detectable eol=lf
+*.license	text linguist-detectable eol=lf
 *.jpg	filter=lfs diff=lfs merge=lfs -text
 *.jpeg	filter=lfs diff=lfs merge=lfs -text
 *.png	filter=lfs diff=lfs merge=lfs -text
-LICENSES/**	linguist-vendored
+LICENSES/**	text linguist-vendored eol=lf
