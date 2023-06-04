@@ -5,6 +5,7 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.ci for more information
 ci:
+  skip: [exiftool]
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
 
@@ -34,3 +35,12 @@ repos:
     rev: "v3.0.0-alpha.9-for-vscode"
     hooks:
       - id: prettier
+
+  # Fedora: perl-Image-ExifTool
+  - repo: local
+    hooks:
+      - id: exiftool
+        name: Remove all EXIF metadata using exiftool
+        entry: exiftool -all=
+        language: system
+        types: [image]
