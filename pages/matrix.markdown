@@ -45,6 +45,7 @@ links._
   - [How about DAG splits?](#how-about-dag-splits)
 - [Can I have a non-federated room?](#can-i-have-a-non-federated-room)
 - [What exactly is room upgrading?](#what-exactly-is-room-upgrading)
+- [How should I configure my Matrix room?](#how-should-i-configure-my-matrix-room)
 - [What are these idlekicks for inactivity, why are they for?](#what-are-these-idlekicks-for-inactivity-why-are-they-for)
   - [But the relaybots look so ugly](#but-the-relaybots-look-so-ugly)
 - [I am told that I should Matrixify my IRC channel, what does that mean?](#i-am-told-that-i-should-matrixify-my-irc-channel-what-does-that-mean)
@@ -240,6 +241,51 @@ creation event (non-federation state) or power levels. For an example see my
 See also [Matrix Specification on room versions](https://spec.matrix.org/latest/rooms/)
 or `CTRL-F` this page for `/upgraderoom {{site.matrixLatestRoomVersion}}`
 (Element Web command to perform the upgrade).
+
+### How should I configure my Matrix room?
+
+I think there are three important questions that will each require
+consideration:
+
+- Do you want to encrypt the room?
+  - Is the room public? If so, encryption will just cause strange issues for
+    you to troubleshoot and hinder the purpouse of the channel (which you
+    should also consider).
+  - Do you want to use bridges or integrations? Unless you or someone close to
+    you is selfhosting those, they are untrusted and will defeat the point of
+    encryption, so don't encrypt.
+  - Does the room only contain trustworthy participants? Encryption may be
+    your friend.
+- Who can see the room history?
+  - If you want everyone to be able to read it, choose everyone or
+    `world_readable`.
+  - If you want everyone who has joined the room (and also crawler bots that
+    publish the history further), choose members-only or `shared`.
+  - If you want users to see the history since they were invited to the room,
+    select `invited`
+  - Otherwise select `joined` to have users only see history since they
+    joined.
+- Who can join the room? This is self-explanatory so probably everyone or
+  invited users.
+  - However my favourite rules are `knock` so that users have to ask for permission to
+    join and `knock_restricted` so users in trusted rooms can join directly
+    without knocking.
+
+Sample events for `/devtools`
+
+```json5
+// m.room.join_rules
+{
+  join_rule: "knock",
+}
+```
+
+```json5
+// m.room.history_visibility
+{
+  history_visibility: "invited",
+}
+```
 
 ### What are these idlekicks for inactivity, why are they for?
 
