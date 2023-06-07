@@ -5,8 +5,11 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.ci for more information
 ci:
-  # Attempts to use networking and fails at name resolution
-  skip: [bundler-audit]
+  # I don't need so many duplicated notifications on the same thing as I keep
+  # autoupdating manually too. Besides it just creates extra branch I never
+  # touch.
+  # https://github.com/pre-commit-ci/issues/issues/83
+  autoupdate_schedule: quarterly
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
