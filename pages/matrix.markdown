@@ -37,6 +37,7 @@ links._
 
 - [Where else can I read about Matrix?](#where-else-can-i-read-about-matrix)
 - [Is there any kind of Matrix etiquette I should know about?](#is-there-any-kind-of-matrix-etiquette-i-should-know-about)
+- [How can I help gender minorities on Matrix?](#how-can-i-help-gender-minorities-on-matrix)
 - [How do you do custom not-emoji reactions?](#how-do-you-do-custom-not-emoji-reactions)
 - [What are ghost and puppets?](#what-are-ghost-and-puppets)
 - [What does the public history visibility mean? I don't want to appear in search engines](#what-does-the-public-history-visibility-mean-i-dont-want-to-appear-in-search-engines)
@@ -102,6 +103,25 @@ anywhere else, such as at IRC or Telegram. Here are some guidelines:
     spammer and most likely end up on shared banlists resulting a significant
     portition of Matrix communities instantly banning you even if you never
     interacted with them directly.
+
+### How can I help gender minorities on Matrix?
+
+There is an easy universal way on the internet, _put your profiles into your
+profile or display name no matter how obvious they may seem to speaker of your
+language_. In addition to normalising the behaviour, you may make it more
+difficult for hostile users to target us when they assume that only gender
+minorities have their pronouns visible.
+
+On Matrix specific work on this, see the following MSCs although pronouns in
+display names are going to stay for the foreseeable future.
+
+- [MSC1769: Extensible profiles as rooms](https://github.com/matrix-org/matrix-spec-proposals/pull/1769)
+- [MSC3189: Per-room/per-space profiles](https://github.com/matrix-org/matrix-spec-proposals/pull/3189)
+- [MSC3755: Member pronouns](https://github.com/matrix-org/matrix-spec-proposals/pull/3755)
+
+The two former would help with keeping English pronouns in English spaces and
+the last would introduce its own field for them like can be seen at GitHub
+profiles.
 
 ### How do you do custom not-emoji reactions?
 
