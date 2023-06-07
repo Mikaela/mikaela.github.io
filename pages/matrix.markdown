@@ -271,6 +271,14 @@ consideration:
     join and `knock_restricted` so users in trusted rooms can join directly
     without knocking.
 
+If you choose to make your room public as in joinable by anyone and history
+viewable by members joining in the future, _please communicate that in the room
+topic_.
+
+> Some projects may wish to log their channels publicly, if you do so the logging should be authorised by the channel owners and users in the channel should be notified (through for instance the topic, entry message, or similar) that public logging is taking place. Channel operators should consider ways for users to make unlogged comments and a process for requesting the removal of certain logs.
+
+- [Libera.Chat policies on public logging](https://libera.chat/policies/#public-logging) which I consider as good advice regarldess of being written for IRC rather than Matrix.
+
 Sample events for `/devtools`
 
 ```json5
