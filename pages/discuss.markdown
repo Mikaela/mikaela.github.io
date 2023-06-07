@@ -52,6 +52,10 @@ I do hope to be able to grow this list in the future.
 [twitch]: https://twitch.tv/
 [xmpp]: https://xmpp.org/
 
+**_NOTICE ON LOG AVAILABILITY!_** The logging and history visiblity varies by protocol and thus
+users joining in the future could see messages up to one year or longer in the
+past.
+
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
