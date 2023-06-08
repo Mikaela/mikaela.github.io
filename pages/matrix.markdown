@@ -322,11 +322,12 @@ Sample events for `/devtools`
 }
 ```
 
-````jsonnet
+```jsonnet
 // m.room.name
 {
   "name": "Room Awesome!"
 }
+```
 
 ```jsonnet
 // m.space.parent
@@ -338,7 +339,7 @@ Sample events for `/devtools`
     "example.org"
   ]
 }
-````
+```
 
 ```jsonnet
 // m.room.topic
