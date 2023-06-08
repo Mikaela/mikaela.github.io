@@ -315,6 +315,38 @@ Sample events for `/devtools`
 }
 ```
 
+```json5
+// m.room.avatar
+{
+  url: "mxc://example.org/YouShouldKnowHowToGetThis",
+}
+```
+
+````json5
+// m.room.name
+{
+  "name": "Room Awesome!"
+}
+
+```json5
+// m.space.parent
+// state key is room id with !
+{
+  "via": [
+    "example.com",
+    "example.net",
+    "example.org"
+  ]
+}
+````
+
+```json5
+// m.room.topic
+{
+  topic: "This is my awesome topic \n Dare to disagree!",
+}
+```
+
 ### What are these idlekicks for inactivity, why are they for?
 
 Some Matrix rooms decide to connect their channel to IRC maintaining the same users on both sides, which can be heavy for the IRC network depending on bridge type of which there are three "major" variants:
