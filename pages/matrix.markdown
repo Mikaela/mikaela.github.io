@@ -301,34 +301,34 @@ topic_.
 
 Sample events for `/devtools`
 
-```json5
+```jsonnet
 // m.room.join_rules
 {
   join_rule: "knock",
 }
 ```
 
-```json5
+```jsonnet
 // m.room.history_visibility
 {
   history_visibility: "invited",
 }
 ```
 
-```json5
+```jsonnet
 // m.room.avatar
 {
   url: "mxc://example.org/YouShouldKnowHowToGetThis",
 }
 ```
 
-````json5
+````jsonnet
 // m.room.name
 {
   "name": "Room Awesome!"
 }
 
-```json5
+```jsonnet
 // m.space.parent
 // state key is room id with !
 {
@@ -340,7 +340,7 @@ Sample events for `/devtools`
 }
 ````
 
-```json5
+```jsonnet
 // m.room.topic
 {
   topic: "This is my awesome topic \n Dare to disagree!",
