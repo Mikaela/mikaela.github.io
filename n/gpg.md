@@ -130,7 +130,7 @@ commands in `gpg --edit-key "key fingerprint here:
 - Add notations: `notation`
 - Remove notations: `notation` from `showpref` with a `-` in the beginning
 
-Don't forget to `gpg --keyserver hkps://keys.openpgp.org --send-keys "your keyid here" !
+Don't forget to `gpg --keyserver hkps://keys.openpgp.org --send-keys "your keyid here"` !
 
 ### Keyoxide docs
 
