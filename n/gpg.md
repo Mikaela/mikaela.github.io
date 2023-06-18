@@ -137,3 +137,4 @@ Don't forget to `gpg --keyserver hkps://keys.openpgp.org --send-keys "your keyid
 - [Generating a profile](https://docs.keyoxide.org/guides/openpgp-profile-gnupg/)
 - [Available claims/proofs](https://docs.keyoxide.org/service-providers/)
   - See bottom of the sidebar.
+- [Identity proof formats including hashing tool](https://docs.keyoxide.org/understanding-keyoxide/identity-proof-formats/)
