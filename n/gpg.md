@@ -124,7 +124,7 @@ NOTE: only one key/WKD/email.
 ## Keyoxide
 
 Keyoxide can use PGP keys as profiles and looks at their notations. Useful
-commands in `gpg --edit-key "key fingerprint here:
+commands in `gpg --edit-key "key fingerprint here"`:
 
 - Display notations: `showpref`
 - Add notations: `notation`
