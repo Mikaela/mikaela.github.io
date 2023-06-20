@@ -53,7 +53,7 @@ repos:
         additional_dependencies:
           ["prettier@2.8.8", "@prettier/plugin-xml@2.2.0"]
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "2.7.1"
+    rev: "2.7.2"
     hooks:
       - id: editorconfig-checker
         alias: ec
