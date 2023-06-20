@@ -99,8 +99,9 @@ with the signature ending to an empty line.
 
 ## WKD
 
-Setting up GPG WKD (Web Key Directory), mostly stripped/adjusted from
-https://keyserver.mattrude.com/guides/web-key-directory/
+Setting up GPG WKD (Web Key Directory), _mostly stripped/adjusted from
+Matt Rude whose page is NXDOMAIN and not in Wayback Machine. [What I find is](https://openpgpkey.mattrude.com/)
+pointers to [1](https://wiki.gnupg.org/WKD) [2](https://wiki.gnupg.org/WKS) [3](https://tools.ietf.org/html/draft-koch-openpgp-webkey-service)_
 
 Requires a control over domain/.well-known and email under that domain.
 
