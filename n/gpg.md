@@ -22,6 +22,7 @@ sitemap: false
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Keybase](#keybase)
 - [Claws-mail note that is somewhat related.](#claws-mail-note-that-is-somewhat-related)
 - [WKD](#wkd)
 - [Keyoxide](#keyoxide)
@@ -46,7 +47,7 @@ deluid # to delete the uid which doesn't contain your name
 save
 ```
 
-\*\* Comments are considered harmful https://debian-administration.org/users/dkg/weblog/97
+\* [OpenPGP User ID Comments considered harmful by dkg on debian-administrator.org (via web.archive.org)](https://web.archive.org/web/20201020082313/https://debian-administration.org/users/dkg/weblog/97)
 
 Then you are ready to publish the public key however you generally publish
 it, preferably in multiple places from where some recognise revokation
@@ -56,12 +57,12 @@ NOTE: You can extend the expiry time of an expired gpg signature by issuing
 the `expire` command in `--edit-key` and the key is valid again when the
 update is reimported to gpg keyrings by other people.
 
-Keybase note: To publish the key `keybase pgp select --multi` (where multi
-is required for multiple PGP keys per account and to submit changes to it,
+## Keybase
+
+To publish the key `keybase pgp select --multi` (where multi
+is required for multiple PGP keys per account) and to submit changes to it,
 `keybase pgp update --all` (where --all is again necessary only if you have
 multiple keys).
-
----
 
 ## Claws-mail note that is somewhat related.
 
