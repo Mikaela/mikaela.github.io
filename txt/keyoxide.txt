@@ -3,9 +3,9 @@ Hash: SHA512
 
 Hi, this is a Kyeoxide signature profile that can be verified with https://keyoxide.org/sig
 
-As this is tracked in git, I can see additions and removals more easily, I have a suspicion that the main profile lost a notation without my interaction.
+As this is tracked in git, I can see additions and removals more easily, I have a suspicion that the main profile lost a notation without my interaction. The canonical location for this file is https://aminda.eu/txt/keyoxide.txt
 
-You can find that at https://keyoxide.org/hkp/69ff455a869f9031a691e0f199392f62bae30723 by the way
+You can find the main profile at https://keyoxide.org/hkp/69ff455a869f9031a691e0f199392f62bae30723 by the way
 
 Anyway,
 
@@ -31,11 +31,14 @@ proof=xmpp:mikaela@disroot.org?omemo-sid-766342364=6f000e9a60ef79c7f9fcf7a0b9bba
 proof=https://lemmy.tedomum.net/u/aminda
 proof=https://fedia.io/u/Blazing8215
 proof=https://latte.isnot.coffee/u/Trickster5768
+proof=https://keybase.io/mikaela
+
+…
 -----BEGIN PGP SIGNATURE-----
 
-iI8EARYKADcWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCZJKHphkcc3VvbWFsYWlu
-ZW5AbWlrYWVsYS5pbmZvAAoJEJk5L2K64wcj/g8BAIAQWDELXr7YnhrxOf2MiAgr
-UW24ygSulHpX+sjFWdTqAP9CluuZwBz8IEyHaB1Uivpm25j04RCISmfox26GnjWF
-Bg==
-=SoPN
+iI8EARYKADcWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCZJQq+Bkcc3VvbWFsYWlu
+ZW5AbWlrYWVsYS5pbmZvAAoJEJk5L2K64wcjs4sBAL4FYW6DZo7/hVgEOsd0HUSJ
+wNG5u1jAeYuMA5Xb0m2eAPsF/CFZFbHRsAZCifmEayjUmchuXgtj6oEtdk2Mp0iA
+Ag==
+=MEfj
 -----END PGP SIGNATURE-----
