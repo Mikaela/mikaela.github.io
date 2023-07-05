@@ -163,9 +163,9 @@ You can try [Matrix Public Archive](https://github.com/matrix-org/matrix-public-
 or [matrix-archive.evulid.cc/r/matrix:matrix.org](https://matrix-archive.evulid.cc/r/matrix:matrix.org)
 omitting the leading `#`.
 
-\_Until 2023-06-27 [Matrix Foundation considered members-only rooms as public](https://matrix.org/blog/2023/07/what-happened-with-the-archive#a-note-on-shared-history-visibility)
+_Until 2023-06-27 [Matrix Foundation considered members-only rooms as public](https://matrix.org/blog/2023/07/what-happened-with-the-archive#a-note-on-shared-history-visibility)
 so some outdated or patched archive instances may still reveal information.
-[Method to opt-out is still not in sight.](https://github.com/matrix-org/matrix-public-archive/issues/47)
+[Method to opt-out is still not in sight.](https://github.com/matrix-org/matrix-public-archive/issues/47)_
 
 Alternatively if the room in question has an alias, you can try poking the room directory API e.g. for [#matrix.fi:matrix.org](matrix:r/matrix.fi:matrix.org): [https://matrix-client.matrix.org/\_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org](https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org), you get the room ID and list of homeservers in it and if you see a single user (or otherwise not so popular homeserver), you can make educated guesses on who may be in the room. Note that this particular link requires `matrix.org` to be in the room and aware of the alias.
 
@@ -596,7 +596,7 @@ However I admit sometimes having difficult time believing that either _Matrix
 Foundation_ or _New Vector trading as Element_ has their users best interests
 in heart. On my worse days, I especially hardwordedly criticse [media never being removed](https://github.com/matrix-org/synapse/issues/1263#issuecomment-1120225193)
 or [fear that Matrix may endanger gender or sexual minorities by leaking room-specific profiles](https://github.com/matrix-org/synapse/issues/5677#issuecomment-894831845)
-and especially [lack of self-destructing messages (that is nowadays a discussion rather than an issue)](https://github.com/vector-im/element-meta/discussions/682)
+and especially [lack of self-destructing messages (that is nowadays a discussion rather than an issue)](https://github.com/vector-im/element-meta/discussions/682#discussioncomment-3803806)
 considering even [DeltaChat (also known as an email client](https://delta.chat)
 manages to implement it without control over the underlying protocol and even
 less guarantees!
