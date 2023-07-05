@@ -90,6 +90,11 @@ past.
   _I am not interested in even trying to selfhost a Matrix (home)server and bridges
   until the situation significantly improves_. _[Matrix clients also seldom support connecting through Tor easily](https://github.com/vector-im/element-meta/issues/200)_,
   while the _[Synapse server by Matrix.org team doesn't support connecting](https://github.com/matrix-org/synapse/issues/5152) through [I2P or Tor](https://github.com/matrix-org/synapse/issues/5455) at [all](https://github.com/matrix-org/synapse/issues/7088)_.
+  - Exception: [Hydrogen](https://hydrogen.element.io) ([GitHub](https://github.com/vector-im/hydrogen-web))
+    is the only client I have encountered that works well on Nokia 1 TA-1047
+    or in other words passes the so-called toaster test. It does self-describe
+    as _A minimal Matrix chat client, focused on performance, offline
+    functionality, and broad browser support_, which it redeems.
 
 ## And on transports, relays and bridges
 
