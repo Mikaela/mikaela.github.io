@@ -94,6 +94,12 @@ and as your room is hosted on every homeserver that has users in your room,
 have a single homeserver that hasn't explicitly enabled it, or doesn't otherwise support it, and the room
 history never goes away. Executing `/upgraderoom {{site.matrixLatestRoomVersion}}` or any other version [will also remove the event](https://github.com/matrix-org/synapse/issues/11279).
 
+**_WARNING!_** [Enabling history **_retention_** may **_corrupt your Synapse database_**](https://github.com/matrix-org/synapse/issues/13476)
+and [will make your room **_unrejoinable_** if a homeserver leaves it for long enough](https://github.com/matrix-org/synapse/issues/11448).
+Upgrading the room will fix that, but it's just a fancy
+way of saying "discontinue the old room and add a note saying where the new
+room is".
+
 **_WARNING! Always before executing `/upgraderoom` check that everyone in your room has a recent Matrix server that supports your target room version, otherwise you may lock some of your users out._** For example `/invite @version:maunium.net` and once it joins, say
 `!servers upgrade {{site.matrixLatestRoomVersion}}` to get a list of servers that don't support room version {{site.matrixLatestRoomVersion}} yet.
 
@@ -187,3 +193,5 @@ or you can find me from a lot of the linked issues and there is also [issue trac
       to not be confused with retention.
     - Oh and reply fallbacks leaking previously encrypted messages too.
   - 2022-05-31: I noticed that Element iOS has gotten pills. Strikethrough time.
+  - 2023-07-05: I added warning that room retention may cause database
+    corruption and make room unrejoinable.
