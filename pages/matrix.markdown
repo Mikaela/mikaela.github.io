@@ -597,7 +597,7 @@ Foundation_ or _New Vector trading as Element_ has their users best interests
 in heart. On my worse days, I especially hardwordedly criticse [media never being removed](https://github.com/matrix-org/synapse/issues/1263#issuecomment-1120225193)
 or [fear that Matrix may endanger gender or sexual minorities by leaking room-specific profiles](https://github.com/matrix-org/synapse/issues/5677#issuecomment-894831845)
 and especially [lack of self-destructing messages (that is nowadays a discussion rather than an issue)](https://github.com/vector-im/element-meta/discussions/682#discussioncomment-3803806)
-considering even [DeltaChat (also known as an email client](https://delta.chat)
+considering even [DeltaChat (also known as an email client)](https://delta.chat)
 manages to implement it without control over the underlying protocol and even
 less guarantees!
 
