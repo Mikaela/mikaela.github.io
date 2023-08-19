@@ -34,7 +34,7 @@ repos:
         args: [--update-only, --notitle]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.24.0
+    rev: 0.24.1
     hooks:
       - id: check-dependabot
       - id: check-github-actions
@@ -47,11 +47,11 @@ repos:
       - id: reuse
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v3.0.1"
+    rev: "v3.0.2"
     hooks:
       - id: prettier
-        additional_dependencies:
-          ["prettier@3.0.1", "@prettier/plugin-xml@3.0.0"]
+        #additional_dependencies:
+        #["prettier@3.0.1", "@prettier/plugin-xml@3.0.0"]
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: "2.7.2"
