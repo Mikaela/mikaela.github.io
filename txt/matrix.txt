@@ -7,7 +7,7 @@ Primary accounts
 ----------------
 
 * matrix:u/aminda:pikaviestin.fi - main
-* matrix:u/mikaela.suomalainen:matrix.org - professional context where shouldersurfing may be a concern. Also Element-{Android,iOS}. (Predates my December 2021 namechange a bit)
+* matrix:u/mikaela.suomalainen:matrix.org - professional context where shouldersurfing may be a concern. Also Element-{X,Android,iOS}. (Predates my December 2021 namechange a bit)
 
 Others
 ------
@@ -19,7 +19,6 @@ Others
 * matrix:u/mikaela:pirateriot.net
 * matrix:u/mikaela:tchncs.de
 * matrix:u/mkaysi:fedora.im - https://github.com/flathub/im.riot.Riot/issues/268#issuecomment-1103213448
-* matrix:u/aminda:the-apothecary.club - accessibility testing animated avatars, https://github.com/vector-im/element-web/issues/18442 and https://github.com/vector-im/hydrogen-web/issues/841 and counting...
 * matrix:u/aminda:dendrite.matrix.org - Dendrite test account and my only at the moment
 * matrix:u/aminda:conduit.ungleich.ch - IPv6 Conduit test account, but as they may erase database at all times, it may not be me.
 
@@ -40,6 +39,13 @@ Bridges
 
 Please refer to irc.txt, telegram.txt and xmpp.txt
 
+Deactivated accounts
+--------------------
+
+These accounts are deactivated and thus no longer usable by anyone. If they reappear, assume malicious homeserver and ACL on sight.
+
+* matrix:u/aminda:the-apothecary.club - used to exist for accessibility testing animated avatars e.g. https://github.com/vector-im/element-web/issues/18442 and https://github.com/vector-im/hydrogen-web/issues/841 . I disagree with how they run their communities and thus have deactivated the account myself.
+
 Legacy
 ------
 
@@ -56,4 +62,4 @@ These homeservers no longer exist and should they reappear it's most likely not 
 PS. For SSH signature add .sig to the end of the URL
 
 Aminda Suomalainen
-2022-10-04 17.04+0300
+2023-08-19 12.01+0300
