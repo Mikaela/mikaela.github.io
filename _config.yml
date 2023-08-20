@@ -46,7 +46,7 @@ include: [PGP, PHP, keybase.txt, robots.txt, .well-known, ipfs-files, _matrix]
 # Latest Matrix room version for blog posts or /upgraderoom advice. If I
 # need something from the latest version, this is it once the servers I care
 # about have upgraded. Otherwise this is based on my discretion.
-matrixLatestRoomVersion: 10
+matrixLatestRoomVersion: 11
 
 #avatar: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/250.jpeg
 avatar: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-media/avatar/250.jpeg
