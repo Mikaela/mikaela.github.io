@@ -181,7 +181,7 @@ The term is used least in two different scenarios:
   in the past adding/removing users who were (or weren't) in the room at that time.
   This also affects administrator/moderator access.
 
-[This issue was supposed to be fixed at room version 2 with Stare Resolution Version 2](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions),
+[This issue was supposed to be fixed at room version 2 with State Resolution Version 2](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions),
 but regardless [still happens in all versions after that](https://github.com/matrix-org/synapse/issues/8629). If you are affected, your best bet is to
 `/upgraderoom {{site.matrixLatestRoomVersion}}`, which is a bit distruptive operation as all your users have to join the upgraded version and all homeservers involved must support it.
 
