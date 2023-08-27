@@ -493,6 +493,10 @@ My reasons for that are many and I am often proved correct in them.
     homeservers to sync ACL bans in the worst cases. It also resulted to a lot
     of state resetting so the affected rooms never got cleaned up as the spam
     users kept coming back and clients had issues handling so inflated rooms.
+  - Federation also fails when a spammer sends messages after getting banned
+    and thus moderation bots fail to remove messages from them as those don't
+    get to the banning server. Thus moderators need more accounts again.
+    - [matrix-org/synapse#9329: Soft-failures make federated bans racy and frustrate redaction](https://github.com/matrix-org/synapse/issues/9329)
 - State resets keep happening and thus I cannot trust other accounts than the
   one which created a room in question stay as power level 100.
 - Homeservers come and go, sometimes with little to no warning. As I have many
