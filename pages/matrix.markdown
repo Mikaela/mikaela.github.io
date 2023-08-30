@@ -567,7 +567,7 @@ If you absolutely need Matrix somewhere neither fits you, maybe [Hydrogen](https
 
 #### Which homeserver do you recommend?
 
-I am hesistant to recommend any. Finnish users may be interested in the [Linux.fi wiki listing](https://www.linux.fi/wiki/Matrix), everyone else may be served by [joinmatrix.org listing](https://joinmatrix.org/servers/).
+I am hesistant to recommend any. Finnish users may be interested in the [Linux.fi wiki listing](https://www.linux.fi/wiki/Matrix), everyone else may be served by [joinmatrix.org listing](https://servers.joinmatrix.org).
 
 #### Why don't you run your own?
 
