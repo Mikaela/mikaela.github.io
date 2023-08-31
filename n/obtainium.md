@@ -44,7 +44,6 @@ https://store.steampowered.com
 https://signal.org
 https://gitlab.com/AuroraOSS/AuroraStore
 https://github.com/bitwarden/mobile
-https://git.frostnerd.com/PublicAndroidApps/smokescreen/-/releases
 https://github.com/celzero/rethink-app/releases
 https://github.com/organicmaps/organicmaps/releases
 https://github.com/Swordfish90/Lemuroid/releases
