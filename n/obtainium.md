@@ -56,6 +56,8 @@ https://codeberg.org/Berker/keyoxide-flutter/releases
 https://github.com/thundernest/k-9/releases
 https://github.com/HabitRPG/habitica-android/releases
 https://github.com/RikkaApps/Shizuku/releases
+https://github.com/TeamNewPipe/NewPipe/releases
+https://github.com/polymorphicshade/NewPipe/releases
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
