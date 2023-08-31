@@ -46,6 +46,17 @@ https://gitlab.com/AuroraOSS/AuroraStore
 https://github.com/bitwarden/mobile
 https://git.frostnerd.com/PublicAndroidApps/smokescreen/-/releases
 https://github.com/celzero/rethink-app/releases
+https://github.com/organicmaps/organicmaps/releases
+https://github.com/Swordfish90/Lemuroid/releases
+https://github.com/syncthing/syncthing-android/releases
+https://github.com/GrapheneOS/PdfViewer/releases
+https://github.com/kawaiiDango/pScrobbler/releases
+https://github.com/ooni/probe-android/releases
+https://github.com/binwiederhier/ntfy-android/releases
+https://codeberg.org/Berker/keyoxide-flutter/releases
+https://github.com/thundernest/k-9/releases
+https://github.com/HabitRPG/habitica-android/releases
+https://github.com/RikkaApps/Shizuku/releases
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
@@ -59,8 +70,10 @@ cat obtainium-export-1693463035816.json | jq -s | \grep 'url'
 
 These apps must be added individually for whatever reason rather than mass imported:
 
-- https://appgallery.huawei.com/app/C27162
+- `https://appgallery.huawei.com/app/C27162`
   - Huawei App Gallery
-- https://github.com/vector-im/element-x-android
+- `https://github.com/vector-im/element-x-android`
   - Element X Android, track-only as unsupported due to AAB
     - [Obtainium#795: support app bundles](https://github.com/ImranR98/Obtainium/issues/795)
+- `https://whatsapp.com/android`
+  - WhatsApp, I didn't even try to import it in mass.
