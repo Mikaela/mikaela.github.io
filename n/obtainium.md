@@ -30,6 +30,8 @@ https://signal.org
 https://gitlab.com/AuroraOSS/AuroraStore
 https://github.com/bitwarden/mobile
 https://appgallery.huawei.com/app/C27162
+https://git.frostnerd.com/PublicAndroidApps/smokescreen/-/releases
+https://github.com/celzero/rethink-app/releases
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
