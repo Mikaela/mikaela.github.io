@@ -44,20 +44,20 @@ https://store.steampowered.com
 https://signal.org
 https://gitlab.com/AuroraOSS/AuroraStore
 https://github.com/bitwarden/mobile
-https://github.com/celzero/rethink-app/releases
-https://github.com/organicmaps/organicmaps/releases
-https://github.com/Swordfish90/Lemuroid/releases
-https://github.com/syncthing/syncthing-android/releases
-https://github.com/GrapheneOS/PdfViewer/releases
-https://github.com/kawaiiDango/pScrobbler/releases
-https://github.com/ooni/probe-android/releases
-https://github.com/binwiederhier/ntfy-android/releases
-https://codeberg.org/Berker/keyoxide-flutter/releases
-https://github.com/thundernest/k-9/releases
-https://github.com/HabitRPG/habitica-android/releases
-https://github.com/RikkaApps/Shizuku/releases
-https://github.com/TeamNewPipe/NewPipe/releases
-https://github.com/polymorphicshade/NewPipe/releases
+https://github.com/celzero/rethink-app
+https://github.com/organicmaps/organicmaps
+https://github.com/Swordfish90/Lemuroid
+https://github.com/syncthing/syncthing-android
+https://github.com/GrapheneOS/PdfViewer
+https://github.com/kawaiiDango/pScrobbler
+https://github.com/ooni/probe-android
+https://github.com/binwiederhier/ntfy-android
+https://codeberg.org/Berker/keyoxide-flutter
+https://github.com/thundernest/k-9
+https://github.com/HabitRPG/habitica-android
+https://github.com/RikkaApps/Shizuku
+https://github.com/TeamNewPipe/NewPipe
+https://github.com/polymorphicshade/NewPipe
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
