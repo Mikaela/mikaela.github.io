@@ -47,12 +47,12 @@ repos:
       - id: reuse
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v3.0.2"
+    rev: "v3.0.3"
     hooks:
       - id: prettier
         additional_dependencies: [
             # https://www.npmjs.com/package/prettier
-            "prettier@3.0.2",
+            "prettier@3.0.3",
             # https://www.npmjs.com/package/@prettier/plugin-xml
             "@prettier/plugin-xml@3.2.0",
           ]
