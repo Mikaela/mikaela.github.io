@@ -58,6 +58,9 @@ https://github.com/HabitRPG/habitica-android
 https://github.com/RikkaApps/Shizuku
 https://github.com/TeamNewPipe/NewPipe
 https://github.com/polymorphicshade/NewPipe
+https://github.com/markusfisch/BinaryEye
+https://github.com/termux/termux-app
+https://github.com/AnySoftKeyboard/AnySoftKeyboard
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
