@@ -61,6 +61,10 @@ https://github.com/polymorphicshade/NewPipe
 https://github.com/markusfisch/BinaryEye
 https://github.com/termux/termux-app
 https://github.com/AnySoftKeyboard/AnySoftKeyboard
+https://github.com/guardianproject/orbot
+https://gitlab.com/guardianproject/proofmode/proofmode-android
+https://github.com/guardianproject/ObscuraCam
+https://www.torproject.org/download/
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
