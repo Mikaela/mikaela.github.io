@@ -24,3 +24,6 @@ Noindex: /or/
 Noindex: /n/
 Sitemap: https://aminda.eu/sitemap.xml
 Sitemap: https://aminda.eu/sitemaps.xml
+
+User-agent: GPTBot
+Disallow: /
