@@ -65,6 +65,8 @@ https://github.com/guardianproject/orbot
 https://gitlab.com/guardianproject/proofmode/proofmode-android
 https://github.com/guardianproject/ObscuraCam
 https://www.torproject.org/download/
+https://github.com/OsmTravel/OsmGo
+https://github.com/Zverik/every_door
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
