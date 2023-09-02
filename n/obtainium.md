@@ -67,6 +67,7 @@ https://github.com/guardianproject/ObscuraCam
 https://www.torproject.org/download/
 https://github.com/OsmTravel/OsmGo
 https://github.com/Zverik/every_door
+https://github.com/streetcomplete/StreetComplete
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
