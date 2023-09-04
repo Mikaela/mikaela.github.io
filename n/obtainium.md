@@ -64,10 +64,17 @@ https://github.com/AnySoftKeyboard/AnySoftKeyboard
 https://github.com/guardianproject/orbot
 https://gitlab.com/guardianproject/proofmode/proofmode-android
 https://github.com/guardianproject/ObscuraCam
+https://f-droid.org/packages/org.witness.sscphase1
 https://www.torproject.org/download/
 https://github.com/OsmTravel/OsmGo
 https://github.com/Zverik/every_door
 https://github.com/streetcomplete/StreetComplete
+https://f-droid.org/packages/net.osmand.plus
+https://f-droid.org/packages/com.apps.adrcotfas.goodtime
+https://f-droid.org/packages/com.forrestguice.suntimeswidget
+https://f-droid.org/packages/com.forrestguice.suntimescalendars
+https://f-droid.org/packages/com.jarsilio.android.autoautorotate
+https://f-droid.org/packages/com.darshancomputing.BatteryIndicatorPro
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
