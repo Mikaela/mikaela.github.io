@@ -59,7 +59,7 @@ https://github.com/RikkaApps/Shizuku
 https://github.com/TeamNewPipe/NewPipe
 https://github.com/polymorphicshade/NewPipe
 https://github.com/markusfisch/BinaryEye
-https://github.com/termux/termux-app
+https://f-droid.org/packages/com.termux
 https://github.com/AnySoftKeyboard/AnySoftKeyboard
 https://github.com/guardianproject/orbot
 https://gitlab.com/guardianproject/proofmode/proofmode-android
