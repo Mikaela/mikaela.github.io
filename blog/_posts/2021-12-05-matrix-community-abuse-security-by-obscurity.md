@@ -25,7 +25,7 @@ _Table of Contents_
   - [Bus factor](#bus-factor)
 - [Abuse finds you!](#abuse-finds-you)
   - [Icing on the cake](#icing-on-the-cake)
-- [Mikaela, are you ok, has this happened to you?](#mikaela-are-you-ok-has-this-happened-to-you)
+- [Aminda, are you ok, has this happened to you?](#aminda-are-you-ok-has-this-happened-to-you)
 - [What is this community with 23 rooms and two spaces?](#what-is-this-community-with-23-rooms-and-two-spaces)
 - [Afterword](#afterword)
 
@@ -121,7 +121,7 @@ that I have only gotten complaints about matterbridge looking ugly and not
 using matrix-appservice-irc, \<redacted-for-similar-trouble\>, matrix-whatever-discord,
 etc.
 
-## Mikaela, are you ok, has this happened to you?
+## Aminda, are you ok, has this happened to you?
 
 Thank you for asking, I am not ok, I have a burnout and xmas is poor time for me
 in general, and this whole issue is ridiculous, someone could have thought of
