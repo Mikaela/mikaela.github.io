@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3 # Required will all actions
+      - uses: actions/checkout@v4 # Required will all actions
 
       - uses: ruby/setup-ruby@v1
         with:
