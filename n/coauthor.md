@@ -6,7 +6,7 @@ sitemap: false
 
 # Git forge private emails
 
-**_WARNING1 These are vendor lock-in and contribution activity will not
+**_WARNING! These are vendor lock-in and contribution activity will not
 pass on to other platrforms._** It may not matter much with sign-offs though.
 
 Forges generally have a feature for private email addresses and it can be
@@ -16,7 +16,7 @@ used at least by co-authored commits, e.g. [r/coauthor](/r/coauthor.html):
 
 or
 
-> `Signed-off-by: Aminda Suomalainen <831184+Mikaela@users.noreply.github.com`
+> `Signed-off-by: Aminda Suomalainen <831184+Mikaela@users.noreply.github.com>`
 
 which is produced by `git commit -s`
 
