@@ -40,16 +40,25 @@ could imagine using is `public`.
 ## Services
 
 ```bash
+sudo firewall-cmd --add-service=ssh --permanent
 sudo firewall-cmd --add-service=mosh --permanent
+sudo firewall-cmd --add-service=ntp --permanent
+sudo firewall-cmd --add-service=syncthing --permanent
 ```
+
+- I trust Chrony (ntp) to not allow it to be used from outside of LAN
+  as `firewalld` is apparently not designed with limiting source
+  addresses in mind.
+- `syncthing` is the client, not to be confused with `syncthing-gui`
+  or `syncthing-relay`.
 
 ## Ports
 
 ```bash
-# TODO: Don't do this, this is a ppor example.
-# firewalld surely recognises 631 as a service of some name,
-# and as noted before, --zone won't work on my systems.
-sudo firewall-cmd --zone=home --permanent --add-port=631/tcp
+sudo firewall-cmd --permanent --add-port=9001/udp
+sudo firewall-cmd --permanent --add-port=6771/udp
 ```
 
-- 631/tcp is used by cups.
+- `9001/udp` is Yggdrasil automatic peering, although link-local and
+  unlikely to be recognised by predefined rules.
+- `6771/udp` is [Bittorrent Local Peer Discovery](http://bittorrent.org/beps/bep_0014.html)
