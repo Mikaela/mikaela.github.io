@@ -75,6 +75,9 @@ https://f-droid.org/packages/com.forrestguice.suntimeswidget
 https://f-droid.org/packages/com.forrestguice.suntimescalendars
 https://f-droid.org/packages/com.jarsilio.android.autoautorotate
 https://f-droid.org/packages/com.darshancomputing.BatteryIndicatorPro
+https://github.com/nextcloud/android
+https://github.com/UP-NextPush/android
+https://f-droid.org/packages/net.eneiluj.moneybuster
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
