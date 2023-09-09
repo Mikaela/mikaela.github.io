@@ -28,6 +28,7 @@ which is produced by `git commit -s`
 
 - [My private emails](#my-private-emails)
 - [Where to find them](#where-to-find-them)
+- [Forĝejo/Gitea](#for%C4%9Dejogitea)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -45,3 +46,8 @@ which is produced by `git commit -s`
 
 - https://github.com/settings/emails
 - https://gitlab.com/-/profile
+
+## Forĝejo/Gitea
+
+- `username@noreply.example.org`
+  - https://matrix.to/#/%23forgejo-chat%3Amatrix.org/%24GpERxizORImC72fsm7I_nIvQi2Trx85-Xdp3t9oT3u8?via=schinas.net&via=matrix.org&via=tchncs.de
