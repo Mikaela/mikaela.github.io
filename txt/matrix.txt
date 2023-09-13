@@ -8,6 +8,7 @@ Primary accounts
 
 * matrix:u/aminda:pikaviestin.fi - main
 * matrix:u/mikaela.suomalainen:matrix.org - professional context where shouldersurfing may be a concern. Also Element-{X,Android,iOS}. (Predates my December 2021 namechange a bit)
+* matrix:u/aminda:beeper.com - Beeoer is building everything on top of Matrix while having their own clients and everything, so thus it will likely be on all my devices and sending notifications, regardless of any primary status of the account.
 
 Others
 ------
