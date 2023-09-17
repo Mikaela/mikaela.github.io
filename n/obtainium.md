@@ -79,6 +79,8 @@ https://github.com/nextcloud/android
 https://github.com/UP-NextPush/android
 https://f-droid.org/packages/net.eneiluj.moneybuster
 https://github.com/accrescent/accrescent
+https://apkpure.com/android-system-webview/com.google.android.webview
+https://apkpure.com/trichrome-library/com.google.android.trichromelibrary
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
