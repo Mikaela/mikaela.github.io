@@ -38,6 +38,7 @@ https://github.com/svenjacobs/leon
 https://github.com/michaeltroger/greenpass-android
 https://github.com/krille-chan/fluffychat
 https://f-droid.org/packages/org.fdroid.fdroid
+https://f-droid.org/packages/org.fdroid.basic
 https://github.com/vector-im/element-android
 https://github.com/Telegram-FOSS-Team/Telegram-FOSS
 https://store.steampowered.com
