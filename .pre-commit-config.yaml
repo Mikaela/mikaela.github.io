@@ -14,7 +14,7 @@ ci:
 # At the time of writing the py hooks have issues with 3.12 Fedora 39 Beta
 # ships with
 default_language_version:
-  python: python3.10
+  python: python3.11
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -44,7 +44,7 @@ repos:
         args: [--update-only, --notitle]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.26.3
+    rev: 0.27.0
     hooks:
       - id: check-dependabot
       - id: check-github-actions
