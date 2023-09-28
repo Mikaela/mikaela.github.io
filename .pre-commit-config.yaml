@@ -14,7 +14,7 @@ ci:
 # At the time of writing the py hooks have issues with 3.12 Fedora 39 Beta
 # ships with
 default_language_version:
-  python: python3.11
+  python: pypy3
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
