@@ -30,15 +30,20 @@ This is just a quick personal reference so I don't have to guess.
 - `apt-listchanges` changelogs are worth knowing when updating.
 - `apt-listbugs` known bugs are especially nice when performing bigger updates.
 - `chrony` - security demands the time to be correct, Chrony supports NTS and is proper NTP server instead of just SNTP like systemd-timesyncd.
+  - alternatively configure `systemd-timesyncd`
 - `unbound` - my choice for both DNSSEC validating and DNS-over-TLS, even if I had it connect to upstream dns\[crypt\]proxy
+  - alternatively configure `systemd-resolved`. Simultaneously `systemd-networkd` may be a good idea.
 - `unattended-upgrades` or `dnf-automatic` so security updates are at least downloaded if not even directly installed (see configuration and systemd units!)
 
 ## Usability
 
 - `nvim git tmux zsh` - good luck without these
 - if cryptographic operations are taking ages, consider something like `haveged`. It's controversial, so if there are no issues, don't install a random number generator.
-- `earlyoom` - may avoid frozen systems, much more pleasant than dealing with a frozen system
-  - remember to `sudo systemctl enable --now earlyoom`
+- userspace oom killer, may avoid frozen systems, much more pleasant than actually having to deal with a frozen system.
+  - `earlyoom`
+    - remember to `sudo systemctl enable --now earlyoom`
+  - `systemd-oomd`
+    - remember to `sudo systemctl enable --now systemd-oomd`
 - `zram-tools` - small compressed swap in RAM
   - Remember to check configs! Fedora: `/etc/zram.conf`
   - `sudo systemctl enable --now zramswap.service zram-swap.service`
