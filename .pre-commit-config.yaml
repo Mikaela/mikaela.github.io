@@ -11,8 +11,7 @@ ci:
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
 
-# At the time of writing the py hooks have issues with 3.12 Fedora 39 Beta
-# ships with
+# Use pypy3 for the Python hooks
 default_language_version:
   python: pypy3
 
