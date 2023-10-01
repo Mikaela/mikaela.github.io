@@ -34,6 +34,8 @@ This is just a quick personal reference so I don't have to guess.
 - `unbound` - my choice for both DNSSEC validating and DNS-over-TLS, even if I had it connect to upstream dns\[crypt\]proxy
   - alternatively configure `systemd-resolved`. Simultaneously `systemd-networkd` may be a good idea.
 - `unattended-upgrades` or `dnf-automatic` so security updates are at least downloaded if not even directly installed (see configuration and systemd units!)
+  - if `dnf-automatic`, consider `sudo systemctl enable dnf-automatic-install.{timer,service}`
+    or at least `sudo systemctl enable dnf-automatic-download.{timer,service}`
 
 ## Usability
 
