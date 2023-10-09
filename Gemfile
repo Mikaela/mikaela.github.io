@@ -1,6 +1,8 @@
-source "https://rubygems.org"
-# For now this is a GitHub Pages hosted website.
-#   Ref: https://github.com/Mikaela/mikaela.github.io/issues/153
-gem "github-pages"
-# Required for `bundle exec jekyll serve`
-gem "webrick"
+source "https://rubygems.org" do
+    gem "github-pages"
+    gem "webrick"
+end
+
+source "https://packagecloud.io/github/git-lfs" do
+  gem "git-lfs"
+end
