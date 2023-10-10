@@ -133,8 +133,8 @@ They are implemented by multiple clients other than Element. In FluffyChat, Gomu
 
 They are related to bringing Matrix to other protocols or vice versa.
 
-- A ghost is a Matrix account on another protocol like IRC or XMPP (controlled from Matrix).
-- A puppet is the opposite, a Matrix account controlled from another protocol such as IRC or XMPP (the controller/puppetmaster being the user there).
+- A ghost is a Matrix account controlled from another protocol such as IRC or XMPP (the controller being the user there).
+- A puppet is the opposite, a Matrix account on another protocol like IRC or XMPP (controlled from Matrix who is the puppetmaster).
 - A double-puppet is when you are using both protocols and have connected them to each other such as a message from Discord appears as your real Matrix account and message from Matrixx appears as your real Discord account instead of something virtual only existing due to the bridge.
 
 ### What does the public history visibility mean? I don't want to appear in search engines
