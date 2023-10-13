@@ -22,14 +22,15 @@ repos:
       - id: check-added-large-files
       - id: check-case-conflict
       - id: check-yaml
-      - id: check-executables-have-shebangs
-      - id: check-shebang-scripts-are-executable
       - id: destroyed-symlinks
       - id: detect-private-key
       - id: end-of-file-fixer
       - id: fix-byte-order-marker
       - id: trailing-whitespace
         exclude_types: [markdown]
+      - id: check-merge-conflict
+      - id: mixed-line-ending
+        args: [--fix=auto]
 
   - repo: https://github.com/pre-commit-ci/pre-commit-ci-config
     rev: v1.6.1
@@ -46,7 +47,6 @@ repos:
     rev: 0.27.0
     hooks:
       - id: check-dependabot
-      - id: check-github-actions
       - id: check-github-workflows
       - id: check-gitlab-ci
 
@@ -63,7 +63,7 @@ repos:
             # https://www.npmjs.com/package/prettier
             "prettier@3.0.3",
             # https://www.npmjs.com/package/@prettier/plugin-xml
-            "@prettier/plugin-xml@3.2.0",
+            "@prettier/plugin-xml@3.2.1",
           ]
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
