@@ -183,7 +183,7 @@ The term is used least in two different scenarios:
 
 [This issue was supposed to be fixed at room version 2 with State Resolution Version 2](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions),
 but regardless [still happens in all versions after that](https://github.com/matrix-org/synapse/issues/8629). If you are affected, your best bet is to
-`/upgraderoom {{site.matrixLatestRoomVersion}}`, which is a bit distruptive operation as all your users have to join the upgraded version and all homeservers involved must support it.
+`/upgraderoom {{site.matrixLatestRoomVersion}}` in developer mode enabled in `/devtools`, which is a bit distruptive operation as all your users have to join the upgraded version and all homeservers involved must support it.
 
 You shouldn't just trust me or the variable on this site on what is the latest version, [consult the Spec](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions) and add [Version Checker](matrix:u/version:maunium.net) or [Fluff Generator](matrix:u/+:jae.fi) or [their sibling](https://github.com/maubot/rsvc) to your room and once they join, `!servers upgrade {{site.matrixLatestRoomVersion}}` replacing the {{site.matrixLatestRoomVersion}} with your target version.
 
@@ -250,7 +250,7 @@ creation event (non-federation state) or power levels. For an example see my
 
 See also [Matrix Specification on room versions](https://spec.matrix.org/latest/rooms/)
 or `CTRL-F` this page for `/upgraderoom {{site.matrixLatestRoomVersion}}`
-(Element Web command to perform the upgrade).
+(Element Web `/devtools` _developer mode_ command to perform the upgrade).
 
 ### How should I configure my Matrix room?
 
