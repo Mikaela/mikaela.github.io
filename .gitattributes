@@ -5,11 +5,11 @@
 # Line normalisation, GitHub language detection
 * text=auto eol=lf linguist-detectable
 
-# Integrated diff hunks, also an experiment will these remove linguist-detectable?
-*.css	text diff=css eol=lf
-*.html	text diff=html eol=lf
-*.{md,markdown}	text diff=markdown eol=lf
-*.php	text diff=php eol=lf
+# Built-in diff patterns (disabled by default).
+*.css   diff=css
+*.html  diff=html
+*.php   diff=php
+*.{md,markdown} diff=markdown
 
 # These don't feel like mine
 .github/** text=auto -linguist-detectable
