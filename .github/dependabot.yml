@@ -19,3 +19,13 @@ updates:
       github-actions:
         patterns:
           - "*"
+
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      timezone: "Europe/Helsinki"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
