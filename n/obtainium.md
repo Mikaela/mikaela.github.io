@@ -82,6 +82,9 @@ https://f-droid.org/packages/net.eneiluj.moneybuster
 https://github.com/accrescent/accrescent
 https://apkpure.com/android-system-webview/com.google.android.webview
 https://apkpure.com/trichrome-library/com.google.android.trichromelibrary
+https://github.com/mollyim/mollyim-android
+https://github.com/mollyim/mollyim-android-unifiedpush
+https://github.com/mollyim/mollyim-insider-android
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
