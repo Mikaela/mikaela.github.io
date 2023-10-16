@@ -27,7 +27,8 @@ repos:
       - id: end-of-file-fixer
       - id: fix-byte-order-marker
       - id: trailing-whitespace
-        exclude_types: [markdown]
+        args: ["--markdown-linebreak-ext", "md,markdown"]
+        exclude_types: [svg, markdown, tsv]
       - id: check-merge-conflict
       - id: mixed-line-ending
         args: [--fix=auto]
