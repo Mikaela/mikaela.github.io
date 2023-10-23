@@ -85,6 +85,7 @@ https://apkpure.com/trichrome-library/com.google.android.trichromelibrary
 https://github.com/mollyim/mollyim-android
 https://github.com/mollyim/mollyim-android-unifiedpush
 https://github.com/mollyim/mollyim-insider-android
+https://f-droid.org/packages/eu.siacs.conversations
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
