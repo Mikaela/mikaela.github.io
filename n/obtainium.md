@@ -87,6 +87,7 @@ https://github.com/mollyim/mollyim-android-unifiedpush
 https://github.com/mollyim/mollyim-insider-android
 https://f-droid.org/packages/eu.siacs.conversations
 https://github.com/cliambrown/EasyNoise
+https://github.com/seemoo-lab/AirGuard
 ```
 
 Note to self: to turn Obtainium export like this or close enough to manually
