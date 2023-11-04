@@ -42,6 +42,9 @@ links._
 - [What are ghost and puppets?](#what-are-ghost-and-puppets)
 - [What does the public history visibility mean? I don't want to appear in search engines](#what-does-the-public-history-visibility-mean-i-dont-want-to-appear-in-search-engines)
 - [Can I see who is in any specific room without being there?](#can-i-see-who-is-in-any-specific-room-without-being-there)
+- [How can I remove my messages automatically like on Signal, WhatsApp, Telegram and everything else?](#how-can-i-remove-my-messages-automatically-like-on-signal-whatsapp-telegram-and-everything-else)
+  - [How can I remove my messages automatically on Nheko?](#how-can-i-remove-my-messages-automatically-on-nheko)
+  - [How can I install Nheko nightly?](#how-can-i-install-nheko-nightly)
 - [What are state resets?](#what-are-state-resets)
   - [How about DAG splits?](#how-about-dag-splits)
 - [Can I have a non-federated room?](#can-i-have-a-non-federated-room)
@@ -170,6 +173,61 @@ so some outdated or patched archive instances may still reveal information.
 Alternatively if the room in question has an alias, you can try poking the room directory API e.g. for [#matrix.fi:matrix.org](matrix:r/matrix.fi:matrix.org): [https://matrix-client.matrix.org/\_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org](https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org), you get the room ID and list of homeservers in it and if you see a single user (or otherwise not so popular homeserver), you can make educated guesses on who may be in the room. Note that this particular link requires `matrix.org` to be in the room and aware of the alias.
 
 Otherwise no, you cannot.
+
+### How can I remove my messages automatically like on Signal, WhatsApp, Telegram and everything else?
+
+Matrix doesn't support it, but some clients, mainly Nheko (nightly) do. For
+more information including countless reasons why you would like to do this, consult
+[Element Meta discussion #682: Self-destructing/disappearing messages](https://github.com/vector-im/element-meta/discussions/682).
+
+#### How can I remove my messages automatically on Nheko?
+
+Assuming you are on nightly build, there are three steps:
+
+1. In global settings of Nheko, enable _Periodically disable expired events_,
+   it will affect all profiles upon restart.
+2. In the room where you wish to automatically remove your messages, go to
+   room settings and select _Configure_ next to _Automatic event deletion_.
+   There you will find the options _Expire events after X days_, _Only keep
+   latest X events_, _Always keep latest X events_ and _Include state events_.
+3. Keep your Nheko running for at least 20 minutes. Nheko will automatically
+   remove the messages older than the time you specified and will check for
+   event expiry occassionally after running for at least 20 minutes,
+   regardless of which client send the event in the first place or whether
+   Nheko was online at that time.
+
+Secretly it's also possible to configure defaults for all rooms using Element
+Web's `/devtools` through `im.nheko.event_expiry` account data event.
+
+```json
+{
+  "exclude_state_events": true,
+  "expire_after_ms": 31536000000
+}
+```
+
+This configuration would make Nheko remove all other messages than state
+events when they became one year old (and the scheduled expiry job ran after
+Nheko being online for around twenty minutes).
+
+I am intentionally not going into deeper detail since that may be dangerous
+and if you cannot figure it out, you probably shouldn't be touching it.
+
+#### How can I install Nheko nightly?
+
+I use the nightly flatpak which is easy to install for all users:
+
+```bash
+sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reborn/nheko/-/raw/master/nheko-nightly.flatpakrepo
+sudo flatpak install nheko-nightly im.nheko.Nheko --assumeyes
+```
+
+For installing it just for one user, omit `sudo` and append `--user`.
+
+To run it, either use the new application menu icons or `flatpak run
+im.nheko.Nheko//master`.
+
+To use something else than flatpak, ask someone else like Nheko documentation.
 
 ### What are state resets?
 
