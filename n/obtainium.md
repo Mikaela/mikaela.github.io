@@ -25,6 +25,7 @@ automatic updates on Android 12+ (disclaimer: I am stuck on Android 11).
 - [Importable app list](#importable-app-list)
 - [Third party F-Droid repositories](#third-party-f-droid-repositories)
 - [Individually added apps](#individually-added-apps)
+- [Other noteworthy apps:](#other-noteworthy-apps)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -65,9 +66,13 @@ These apps must be added individually for whatever reason rather than mass impor
 - `https://github.com/vector-im/element-x-android`
   - Element X Android, track-only as unsupported due to AAB
     - [Obtainium#795: support app bundles](https://github.com/ImranR98/Obtainium/issues/795)
-- `https://whatsapp.com/android`
-  - WhatsApp, I didn't even try to import it in mass.
 - `https://briarproject.org/fdroid/repo?appId=org.briarproject.briar.android`
   - Briar. Third party F-Droid repo.
 - `https://fdroid.frostnerd.com?appId=com.frostnerd.smokescreen`
   - Nebulo. Third party F-Droid repo.
+
+## Other noteworthy apps:
+
+- WhatsApp. The apk version number detection doesn't work, install manually
+  from their website or use another application such as Aurora Store.
+- Tor Browser. Same as WhatsApp, but available through FFUpdater or F-Droid.

@@ -59,4 +59,3 @@ https://gitlab.com/guardianproject/proofmode/proofmode-android
 https://signal.org
 https://store.steampowered.com
 https://telegram.org
-https://www.torproject.org/download/
