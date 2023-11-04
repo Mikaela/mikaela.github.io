@@ -103,7 +103,7 @@ room is".
 **_WARNING! Always before executing `/upgraderoom` check that everyone in your room has a recent Matrix server that supports your target room version, otherwise you may lock some of your users out._** For example `/invite @version:maunium.net` and once it joins, say
 `!servers upgrade {{site.matrixLatestRoomVersion}}` to get a list of servers that don't support room version {{site.matrixLatestRoomVersion}} yet.
 
-In case there isn't enough confusion, retention shouldn't be confused with actual [self-destructing/disappearing messages](https://github.com/vector-im/element-meta/issues/82).
+In case there isn't enough confusion, retention shouldn't be confused with actual [self-destructing/disappearing messages](https://github.com/vector-im/element-meta/discussions/682).
 
 _Technical note: sorry about calling <s>reference</s> homeserver implementation by the matrix.org team issue
 as a Matrix protocol issue._
