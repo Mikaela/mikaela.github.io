@@ -175,6 +175,8 @@ These likely also exist, but just without the `vendor-` part when searhcing.
 
 # Firefox about:config
 
+_On LibreAwoo, refer to my [conf/librewolf.overrides.cfg.js in my shell-things repo](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/conf/librewolf.overrides.cfg.js)._
+
 - `privacy.firstparty.isolate` to `true` for preventing domains from
   accessing each other's data.
 - `dom.security.https_only_mode` to `true` to force HTTPS and not need HTTPS Everywhere
