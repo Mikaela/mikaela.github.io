@@ -44,3 +44,7 @@ isn't enabled by default.
 - [microg.org/fdroid/repo](fdroidrepos://microg.org/fdroid/repo?fingerprint=9bd06727e62796c0130eb6dab39b73157451582cbd138e86c468acc395d14165) is an open implementation of Play Services and used just for devices without them.
 - [fdroid.emersion.fr/goguma-nightly/repo](fdroidrepos://fdroid.emersion.fr/goguma-nightly/repo/?fingerprint=ACC8CFEDDF58C590D021FCF37534A54F5919E026D7A8333AA01C1ABB3D34E68D) is the Goguma IRC client nightly repository.
 - [app.simplex.chat/fdroid/repo](fdroidrepos://app.simplex.chat/fdroid/repo?fingerprint=9f358ff284d1f71656a2bfaf0e005deae6aa14143720e089f11ff2ddcfeb01ba) is the SimpleX messenger repository.
+
+---
+
+_[Page source on GitHub.com](https://github.com/Mikaela/mikaela.github.io/blob/master/n/f-droid.md)_
