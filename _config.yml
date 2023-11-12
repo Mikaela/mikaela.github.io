@@ -41,7 +41,8 @@ sitemap:
   file: "/sitemap.xml"
 # Technically this should be keep_files, but it makes at least .well-known
 # disappear?
-include: [PGP, PHP, keybase.txt, robots.txt, .well-known, ipfs-files, _matrix]
+include:
+  [PGP, PHP, keybase.txt, robots.txt, .well-known, ipfs-files, _matrix, .json]
 
 # Latest Matrix room version for blog posts or /upgraderoom advice. If I
 # need something from the latest version, this is it once the servers I care
