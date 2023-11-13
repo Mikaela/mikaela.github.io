@@ -1,10 +1,12 @@
 # SPDX-FileCopyrightText: 2023 Aminda Suomalainen <suomalainen+git@mikaela.info>
 #
 # SPDX-License-Identifier: CC0-1.0
-
 *	text=auto linguist-detectable eol=lf
 *.license	text linguist-detectable eol=lf
-*.{jpg,[jJ][pP][gG]}	filter=lfs diff=lfs merge=lfs -text
-*.jpeg,[jJ][pP][eE][gG]}	filter=lfs diff=lfs merge=lfs -text
-*.png,[pP][nN][gG]}	filter=lfs diff=lfs merge=lfs -text
+
+# git-lfs doesn't support more complicated than this, CASE SENSITIVE!
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+
 LICENSES/**	text linguist-vendored eol=lf
