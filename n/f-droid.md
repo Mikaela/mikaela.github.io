@@ -32,7 +32,7 @@ isn't enabled by default. And for some reason my Yeul decided that it
 needs 0 repositories out of the box, so time to add them too.
 
 - [cloudflare.f-droid.org/repo](fdroidrepos://cloudflare.f-droid.org/repo?fingerprint=43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab)
-- [cloudflare.f-droid.org/archive](frdoidrepos://cloudflare.f-droid.org/archive?fingerprint=43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab)
+- [cloudflare.f-droid.org/archive](fdroidrepos://cloudflare.f-droid.org/archive?fingerprint=43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab)
 
 ## Additional F-Droid repositories
 
