@@ -11,10 +11,11 @@ below into it, especially on devices that Google doesn't smile upon.
 - [Obtainium's latest release](https://github.com/ImranR98/Obtainium/releases/latest)
 
 See also [2022-01-02 F-Droid Security Issues on privsec.dev](https://privsec.dev/posts/android/f-droid-security-issues/),
-regardless of my list containing F-Droids. Regarding that, **prefer F-Droid
-Basic over F-Droid** whenever possible (if nearby features aren't required)
+regardless of my list containing F-Droids. Regarding that, **prefer
+[F-Droid Basic](https://f-droid.org/packages/org.fdroid.basic) over
+F-Droid** whenever possible (if nearby features aren't required)
 as it addesses some issues such as targeting higher API version and having
-automatic updates on Android 12+ (disclaimer: I am stuck on Android 11).
+automatic updates on Android 12+.
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
