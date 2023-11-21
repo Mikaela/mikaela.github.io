@@ -592,9 +592,11 @@ I am just personally unlucky?
    [pikaviestin.fi](https://www.pikaviestin.fi) (alongside [sauna.social](https://sauna.social)
    and [järkkää.fi](https://jarkkaa.fi)) which hosts my main account. It
    returned a couple of days later on the evening of 2023-05-11.
-1. On 2023-10-25 [IT group of Pirate Party Austria made an announcement on
-   upcoming shutdown of pirateriot.net](https://web.archive.org/web/20231027060957/https://t.me/globalpirates/39814)
-   on 2023-10-31.
+1. On 2023-10-25 [IT group of Pirate Party Austria made an announcement that
+   pirateriot.net pirateriot.net shut down on 2023-10-31](https://web.archive.org/web/20231027060957/https://t.me/globalpirates/39814).
+   - They do bring it temporarily back up on some evenings (Austrian time?)
+     so people have chance to migrate away, but it should be considered as
+     discontinued.
 
 #### Why do you use Matrix URI scheme instead of matrix.to?
 
