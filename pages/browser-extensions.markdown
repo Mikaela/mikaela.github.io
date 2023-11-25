@@ -177,16 +177,10 @@ These likely also exist, but just without the `vendor-` part when searhcing.
 
 _On LibreAwoo, refer to my [conf/librewolf.overrides.cfg.js in my shell-things repo](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/conf/librewolf.overrides.cfg.js)._
 
-- `privacy.firstparty.isolate` to `true` for preventing domains from
-  accessing each other's data.
-- `dom.security.https_only_mode` to `true` to force HTTPS and not need HTTPS Everywhere
 - `security.certerrors.mitm.auto_enable_enterprise_roots` to `false` in order to not trust system CA store in case of enterprise MITM
 - `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. This may be a bit paranoid, but _only the paranoid survive._
 - `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is
   used to hide real browser size. [Tor Browser support](https://support.torproject.org/tbb/maximized-torbrowser-window/)
-- (On Linux `widget.content.gtk-theme-override` (a string that has to be created by
-  user) to `Adwaita:light` so text boxes in dark themes become readable,
-  thank you [Dovydas Venckus](https://www.dovydasvenckus.com/linux/2018/08/20/fix-firefox-dark-input-fields-on-gnome/)
   - [Bug 70315: text in menus and boxes unreadable if using dark GTK theme](https://bugzilla.mozilla.org/show_bug.cgi?id=70315))
 - `image.animation_mode` to `once` in order to have gifs play once and
   then stop everywhere (`none` to never have them play).
@@ -231,8 +225,9 @@ Some notes:
 
 This information is from [Arch Wiki on Firefox tweaks](https://wiki.archlinux.org/index.php/Firefox/Tweaks)
 
-- `browser.cache.disk.enable` to `false` to only cache to RAM.
-- (`browser.cache.memory.enable` to `true` which should be default)
+<!-- - `browser.cache.disk.enable` to `false` to only cache to RAM.
+- (`browser.cache.memory.enable` to `true` which should be default) -->
+
 - `browser.sessionstore.interval` to `600000` in order to only store open session every ten minutes (instead of 15 seconds) in case of crashes.
   - alternatively `browser.sessionstore.resume_from_crash` to `false` to not store the session data for crash recovery at all. I think this may be the more healthy option with all the information flood and dozens of tabs.
 
