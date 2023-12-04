@@ -21,6 +21,7 @@ If you need browser extensions, try [the Privacy Guides page](https://privacygui
   - [Vendor-prefixed](#vendor-prefixed)
 - [Firefox about:config](#firefox-aboutconfig)
   - [Advertising](#advertising)
+  - [Cookie banner blocking](#cookie-banner-blocking)
   - [DNS over HTTPS](#dns-over-https)
   - [SSDs](#ssds)
 
@@ -198,6 +199,16 @@ Firefox seems to contain a lot of advertising or sponsoring nowadays, whether to
 - `browser.vpn_promo.enabled` to `false` to hopefully stop Mozilla VPN advertisements
 - `browser.promo.focus.enabled` to `false` to stop Firefox Focus advertisements?
 - `browser.preferences.moreFromMozilla` to `false` to not hear from other Mozilla products?
+
+## [Cookie banner blocking](https://www.ghacks.net/2022/12/24/configure-firefox-to-reject-cookie-banners-automatically/)
+
+TODO: clean write this.
+
+```js
+defaultPref("cookiebanners.service.mode", 2);
+defaultPref("cookiebanners.service.mode.privateBrowsing", 2);
+defaultPref("cookiebanners.bannerClicking.enabled", true);
+```
 
 ## DNS over HTTPS
 
