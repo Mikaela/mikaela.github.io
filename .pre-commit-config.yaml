@@ -51,7 +51,7 @@ repos:
         args: [--update-only, --notitle]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.27.2
+    rev: 0.27.3
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
@@ -63,7 +63,7 @@ repos:
       - id: reuse
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v4.0.0-alpha.3"
+    rev: "v4.0.0-alpha.3-1"
     hooks:
       - id: prettier
         exclude_types: [json]
