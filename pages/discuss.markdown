@@ -33,11 +33,13 @@ blog and other things I do. They are connected together by [Matterbridge](https:
 
 ## Rules
 
-As [Code of Conduct, Contributor Covenant applies](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).<br>
-I don't see a reason for forking it as this community is forming around me
-and my website while I would have separate community for any actual Open
-Source Software project if I begun any that grew bigger. See also
-[my Matrix page on etiquette](/matrix/index.html#is-there-any-kind-of-matrix-etiquette-i-should-know-about).
+[Contributor Covenant 2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) is the primary Code of Conduct here (which isn't forked due to this community forming around me and my website. Any project growing bigger would have its own), but we do have a couple of other rules too:
+
+- Don't send private messages without asking for a permission first unless your message is purely moderation related.
+  - Please include your business in your first message and not only greeting. See [nohello.net](https://nohello.net) for more about that.
+- Don't share personal affairs of other people outside of the room. This includes, but isn't limited to, gender/sexual/romantic orientation questioning, plurality, religion, etc. When in doubt, assume it's private.
+  - Mind the limitations of machines and people especially in the private side. Transport encryption is not [end-to-end encryption](https://en.wikipedia.org/wiki/End-to-end_encryption), which can be broken by a compromised client device (including, but not limited to bot/relay/bridge) or the protocol in question may neglect to encrypt something [like Matrix does for reactions](https://github.com/matrix-org/matrix-spec/issues/660).
+- For other matters, [_Chatham House Rule_](https://www.chathamhouse.org/about-us/chatham-house-rule) applies.
 
 ## Languages
 
