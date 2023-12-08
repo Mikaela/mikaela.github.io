@@ -36,7 +36,7 @@ I have multiple instant messaging chatrooms.
 
 ## Rules
 
-[Contributor Covenant 2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) is the primary Code of Conduct here (which isn't forked due to this community forming around me and my website. Any project growing bigger would have its own), but we do have a couple of other rules too:
+[Contributor Covenant 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) is the primary Code of Conduct here (which isn't forked due to this community forming around me and my website. Any project growing bigger would have its own), but we do have a couple of other rules too:
 
 - Don't send private messages without asking for a permission first unless your message is purely moderation related.
   - Please include your business in your first message and not only greeting. See [nohello.net](https://nohello.net) for more about that.
