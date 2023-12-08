@@ -10,16 +10,43 @@ navigation: true
 I have a public instant messaging chatroom for comments to my
 blog and other things I do. They are connected together by [Matterbridge](https://github.com/42wim/matterbridge/#matterbridge).
 
+---
+
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Rules](#rules)
+- [Languages](#languages)
+- [The links](#the-links)
+- [A couple of words on protocols](#a-couple-of-words-on-protocols)
+- [And on transports, relays and bridges](#and-on-transports-relays-and-bridges)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
+---
+
+## Rules
+
 As [Code of Conduct, Contributor Covenant applies](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).<br>
 I don't see a reason for forking it as this community is forming around me
 and my website while I would have separate community for any actual Open
 Source Software project if I begun any that grew bigger. See also
 [my Matrix page on etiquette](/matrix/index.html#is-there-any-kind-of-matrix-etiquette-i-should-know-about).
 
+## Languages
+
 As for languages; English is preferred due to majority of the discussion
 participants speaking it, but Finnish and Esperanto are also fine.<br> I sadly
 don't consider myself capable of holding a discussion in other languages, but
 I do hope to be able to grow this list in the future.
+
+## The links
 
 - IRC@Etro, [`#mikaela.info`](ircs://etro.mikaela.info:6697/#mikaela.info)
   my selfhosted IRC server.
@@ -55,18 +82,6 @@ I do hope to be able to grow this list in the future.
 **_NOTICE ON LOG AVAILABILITY!_** The logging and history visiblity varies by protocol and thus
 users joining in the future could see messages up to one year or longer in the
 past.
-
----
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [A couple of words on protocols](#a-couple-of-words-on-protocols)
-- [And on transports, relays and bridges](#and-on-transports-relays-and-bridges)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
----
 
 ## A couple of words on protocols
 
