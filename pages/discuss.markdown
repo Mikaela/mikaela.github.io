@@ -7,8 +7,11 @@ excerpt: "Introduction to my public instant messaging chats"
 navigation: true
 ---
 
-I have a public instant messaging chatroom for comments to my
-blog and other things I do. They are connected together by [Matterbridge](https://github.com/42wim/matterbridge/#matterbridge).
+I have multiple instant messaging chatrooms.
+
+- [The ones listed below](#the-links) are for comments to my blog, this website in general, my FOSS <s>spam</s> activity and a contact point for reaching me in general for not so private matters. They are connected together by [Matterbridge](https://github.com/42wim/matterbridge/#matterbridge).
+- Many linking here utilize the rules listed below.
+- Others are simply curious about protocols, transports, relays, bridges, etc. _Why did they end up on this page when they could have ended up anywhere else?_
 
 ---
 
