@@ -15,9 +15,8 @@ published: false
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Mikäli oleilet Suomessa](#mik%C3%A4li-oleilet-suomessa)
-  - [suomeksi](#suomeksi)
-  - [på svenska](#p%C3%A5-svenska)
-  - [in English](#in-english)
+- [Om vi bor i Finland](#om-vi-bor-i-finland)
+- [If you reside in Finland](#if-you-reside-in-finland)
 - [If you don't reside in Finland](#if-you-dont-reside-in-finland)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -27,10 +26,8 @@ published: false
 
 ## Mikäli oleilet Suomessa
 
-### suomeksi
+## Om vi bor i Finland
 
-### på svenska
-
-### in English
+## If you reside in Finland
 
 ## If you don't reside in Finland
