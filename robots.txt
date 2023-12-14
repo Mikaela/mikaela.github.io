@@ -27,3 +27,6 @@ Sitemap: https://aminda.eu/sitemaps.xml
 
 User-agent: GPTBot
 Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
