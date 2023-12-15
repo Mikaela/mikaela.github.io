@@ -36,6 +36,25 @@ that will then justify the change. To me this is just the other side of the
 coin from changing a law to ban something and then punishing people for it
 and not the way a transparent project should work.
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Previous leaving](#previous-leaving)
+- [Other issues](#other-issues)
+  - [Cleanup older solutions now, instruct on new ones later](#cleanup-older-solutions-now-instruct-on-new-ones-later)
+  - [Community communication](#community-communication)
+  - [Privacy, is it one size fits all, what can be sacrificed for it?](#privacy-is-it-one-size-fits-all-what-can-be-sacrificed-for-it)
+  - [Real time communication platforms](#real-time-communication-platforms)
+- [What now](#what-now)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
 ## Previous leaving
 
 I previously left Privacy Guides team, then known as Privacy Tools due to
