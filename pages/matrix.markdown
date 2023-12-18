@@ -136,8 +136,8 @@ They are implemented by multiple clients other than Element. In FluffyChat, Gomu
 
 They are related to bridging Matrix with other protocols.
 
-- A ghost is a virtual user account created by a bridge service to represent a user from another protocol (controlled by the actions of that user).  They appear when an entire room is bridged.  Some protocols like Discord or Slack have no native support for ghosts but can approximate them by changing the display name and avatar of the messages sent by the bridge.
-- A puppet is a real user account controlled by a bridge service (based on their actions on another protocol).  They may arise from personal bridging but also from room-level bridging when the target protocol does not support ghosts (such as IRC).  Unlike a ghost, it's possible to log in to a puppet account using a normal client application so it's impossible to tell at a glance if the controller is a human or a bridge service (however message contents may provide hints).
+- A ghost is a virtual user account created by a bridge service to represent a user from another protocol (controlled by the actions of that user). They appear when an entire room is bridged. Some protocols like Discord or Slack have no native support for ghosts but can approximate them by changing the display name and avatar of the messages sent by the bridge.
+- A puppet is a real user account controlled by a bridge service (based on their actions on another protocol). They may arise from personal bridging but also from room-level bridging when the target protocol does not support ghosts (such as IRC). Unlike a ghost, it's possible to log in to a puppet account using a normal client application so it's impossible to tell at a glance if the controller is a human or a bridge service (however message contents may provide hints).
 - Double puppeting is when a user bridges their real accounts from two protocols so their actions on either side are mirrored on the other.
 
 ### What does the public history visibility mean? I don't want to appear in search engines
