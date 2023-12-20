@@ -613,7 +613,7 @@ Honestly the only one that I can recommend is [Nheko nightly flatpak](https://fl
 
 I have also said it before, but for any serious use of Matrix, you will need [Element Web](https://github.com/vector-im/element-web) and especially the `/devtools` command it has.
 
-If you absolutely need Matrix somewhere neither fits you, maybe [Hydrogen](https://github.com/vector-im/hydrogen-web) is your _PWA_ hoping your needs don't include too many Matrix accounts ([#783](https://github.com/vector-im/hydrogen-web/issues/783), [#817](https://github.com/vector-im/hydrogen-web/pull/817)) and hoping you [don't use SailfishOS](https://forum.sailfishos.org/t/progressive-web-app-pwa-in-native-browser/3867?u=mikaela) ([#1000](https://github.com/sailfishos/sailfish-browser/issues/1000)) or [Ubuntu Touch (#1144)](https://github.com/ubports/ubuntu-touch/issues/1144).
+If you absolutely need Matrix somewhere neither fits you, ~~maybe [Hydrogen](https://github.com/vector-im/hydrogen-web) is your _PWA_ hoping your needs don't include too many Matrix accounts ([#783](https://github.com/vector-im/hydrogen-web/issues/783), [#817](https://github.com/vector-im/hydrogen-web/pull/817)) and hoping you [don't use SailfishOS](https://forum.sailfishos.org/t/progressive-web-app-pwa-in-native-browser/3867?u=mikaela) ([#1000](https://github.com/sailfishos/sailfish-browser/issues/1000)) or [Ubuntu Touch (#1144)](https://github.com/ubports/ubuntu-touch/issues/1144).~~ Good luck!
 
 <!-- The one that fits your needs. Personally I mix-and-match:
 
