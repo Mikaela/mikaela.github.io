@@ -162,9 +162,9 @@ and related issues.
 
 It depends.
 
-You can try [Matrix Public Archive](https://github.com/matrix-org/matrix-public-archive/), e.g. for Matrix HQ ~~[archive.matrix.org/r/matrix:matrix.org](https://archive.matrix.org/r/matrix:matrix.org) ([@archive:matrix.org](matrix:u/archive:matrix.org))~~
-or [matrix-archive.evulid.cc/r/matrix:matrix.org](https://matrix-archive.evulid.cc/r/matrix:matrix.org) ([@evulid-crawler:evulid.cc](matrix:u/evulid-crawler:evulid.cc))
-or [view.gaytix.org/r/matrix:matrix.org](https://view.gaytrix.org/r/matrix:matrix.org) ([@arclurker:matrix.org](matrix:u/arclurker:matrix.org))
+You can try [Matrix Public Archive](https://github.com/matrix-org/matrix-public-archive/), e.g. for Matrix HQ ~~[archive.matrix.org/r/matrix:matrix.org](https://archive.matrix.org/r/matrix:matrix.org) ([@archive:matrix.org](matrix:u/archive:matrix.org))
+or~~ [matrix-archive.evulid.cc/r/matrix:matrix.org](https://matrix-archive.evulid.cc/r/matrix:matrix.org) ([@evulid-crawler:evulid.cc](matrix:u/evulid-crawler:evulid.cc))
+or [view.gaytix.org/r/matrix:matrix.org](https://view.gaytrix.org/r/matrix:matrix.org)
 omitting the leading `#`.
 
 _Until 2023-06-27 [Matrix Foundation considered members-only rooms as public](https://matrix.org/blog/2023/07/what-happened-with-the-archive#a-note-on-shared-history-visibility)
