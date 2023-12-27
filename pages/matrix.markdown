@@ -598,6 +598,10 @@ I am just personally unlucky?
    - They do bring it temporarily back up on some evenings (Austrian time?)
      so people have chance to migrate away, but it should be considered as
      discontinued.
+1. 2023-12-24 saw that _[the hard drive hosting the jae.fi matrix server shat
+   itself](https://soc.jae.fi/notes/9nmcgdonjxailf51)_ and as per that
+   announcement, it's not returning anytime soon. My matterbridge had account
+   #4 there while it later returned to account #3 on tedomum.net.
 
 #### Why do you use Matrix URI scheme instead of matrix.to?
 
