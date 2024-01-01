@@ -42,6 +42,7 @@ https://github.com/pilot51/voicenotify
 https://github.com/polymorphicshade/NewPipe
 https://github.com/RikkaApps/Shizuku
 https://github.com/seemoo-lab/AirGuard
+https://github.com/segler-alex/RadioDroid
 https://github.com/simplex-chat/simplex-chat
 https://github.com/streetcomplete/StreetComplete
 https://github.com/svenjacobs/leon
