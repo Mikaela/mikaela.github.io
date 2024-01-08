@@ -128,7 +128,7 @@ profiles.
 
 ### How do you do custom not-emoji reactions?
 
-They are implemented by multiple clients other than Element. In FluffyChat, Gomuks and Nheko you can reply to something with `/react something` to add a `something` reaction. In Hydrogen there is a `...` next to emojis allowing you to enter freeform text as a reaction. In Schildichat Android when you search for a reaction, it offers to send your search as a freeform-reaction.
+They are implemented by multiple clients other than Element. In FluffyChat, Gomuks and Nheko you can reply to something with `/react something` to add a `something` reaction. In Hydrogen there is a `...` next to emojis allowing you to enter freeform text as a reaction. In Schildichat Android and Cinny, when you search for a reaction, it offers to send your search as a freeform-reaction.
 
 [Element-Web doesn't support this yet](https://github.com/vector-im/element-web/issues/19409) and while there is [open pull request](https://github.com/matrix-org/matrix-react-sdk/pull/6628), the merging is blocked due to Element not knowing how to handle moderation and reporting for malicious reactions.
 
