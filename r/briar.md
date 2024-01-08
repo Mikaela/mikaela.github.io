@@ -1,5 +1,5 @@
 ---
-redirect_to: https://briarproject.org/quick-start/#communicate-offline
+redirect_to: https://code.briarproject.org/briar/briar/-/wikis/FAQ#does-briar-provide-anonymity
 permalink: /r/briar.html
 sitemap: false
 ---
