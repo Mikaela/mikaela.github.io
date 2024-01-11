@@ -38,7 +38,7 @@ gitlab-ci-pre-commit:
   stage: build
   before_script:
     - apk add --no-cache python3 python3-dev py3-pip py3-wheel git gcc musl-dev bash nodejs-current npm ruby ruby-bundler
-    - pip install pre-commit
+    - pip install pre-commit --break-system-packages
   script:
     - pre-commit run --all-files --show-diff-on-failure
   variables:
