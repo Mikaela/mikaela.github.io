@@ -11,9 +11,9 @@ ci:
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
 
-# Use pypy3 for the Python hooks
-default_language_version:
-  python: pypy3
+# Use pypy3 for the Python hooks. Except don't, see .gitlab-ci.yml
+#default_language_version:
+#  python: pypy3
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
