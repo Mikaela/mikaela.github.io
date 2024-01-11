@@ -22,7 +22,7 @@ repos:
     rev: "v4.0.0-alpha.8"
     hooks:
       - id: prettier
-        exclude_types: [json]
+        #exclude_types: [json]
         additional_dependencies: [
             # https://aminda.eu/n/prettier
             "prettier@3.1.1",
