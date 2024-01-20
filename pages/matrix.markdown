@@ -154,8 +154,8 @@ They are related to bridging Matrix with other protocols.
 
 The public/world-readable history visibility option means exactly what it says,
 public even without joining the room. These rooms are accessible to tools
-such as [Matrix Static](https://view.matrix.org/) and its successor [Matrix Public Archive](https://github.com/matrix-org/matrix-public-archive)
-(aka `@archive:matrix.org`) and thus their history is visible in search engines.
+such as [Matrix Static](https://view.matrix.org/) and its successor [Matrix Viewer](https://github.com/matrix-org/matrix-viewer)
+and thus their history is visible in search engines.
 
 Note that as the option name hints, the history visibility option will not
 apply to previous messages. Thus if you first make room public and then
@@ -172,14 +172,14 @@ and related issues.
 
 It depends.
 
-You can try [Matrix Public Archive](https://github.com/matrix-org/matrix-public-archive/), e.g. for Matrix HQ ~~[archive.matrix.org/r/matrix:matrix.org](https://archive.matrix.org/r/matrix:matrix.org) ([@archive:matrix.org](matrix:u/archive:matrix.org))
+You can try [Matrix Viewer](https://github.com/matrix-org/matrix-viewer/), e.g. for Matrix HQ ~~[archive.matrix.org/r/matrix:matrix.org](https://archive.matrix.org/r/matrix:matrix.org)
 or~~ [matrix-archive.evulid.cc/r/matrix:matrix.org](https://matrix-archive.evulid.cc/r/matrix:matrix.org) ([@evulid-crawler:evulid.cc](matrix:u/evulid-crawler:evulid.cc))
 or [view.gaytix.org/r/matrix:matrix.org](https://view.gaytrix.org/r/matrix:matrix.org)
 omitting the leading `#`.
 
 _Until 2023-06-27 [Matrix Foundation considered members-only rooms as public](https://matrix.org/blog/2023/07/what-happened-with-the-archive#a-note-on-shared-history-visibility)
-so some outdated or patched archive instances may still reveal information.
-[Method to opt-out is still not in sight.](https://github.com/matrix-org/matrix-public-archive/issues/47)_
+so some outdated or intentionally misbehaving archive instances may still reveal information.
+[Method to opt-out is still not in sight.](https://github.com/matrix-org/matrix-viewer/issues/47)_
 
 Alternatively if the room in question has an alias, you can try poking the room directory API e.g. for [#matrix.fi:matrix.org](matrix:r/matrix.fi:matrix.org): [https://matrix-client.matrix.org/\_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org](https://matrix-client.matrix.org/_matrix/client/v3/directory/room/%23matrix.fi%3Amatrix.org), you get the room ID and list of homeservers in it and if you see a single user (or otherwise not so popular homeserver), you can make educated guesses on who may be in the room. Note that this particular link requires `matrix.org` to be in the room and aware of the alias.
 
