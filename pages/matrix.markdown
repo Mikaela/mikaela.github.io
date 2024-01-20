@@ -128,9 +128,19 @@ profiles.
 
 ### How do you do custom not-emoji reactions?
 
-They are implemented by multiple clients other than Element. In FluffyChat, Gomuks and Nheko you can reply to something with `/react something` to add a `something` reaction. In Hydrogen there is a `...` next to emojis allowing you to enter freeform text as a reaction. In Schildichat Android and Cinny, when you search for a reaction, it offers to send your search as a freeform-reaction.
+As long as your client isn't by Element HQ ([element-hq/element-web#19409](https://github.com/element-hq/element-web/issues/19409),
+[matrix-org/matrix-react-sdk#6628](https://github.com/matrix-org/matrix-react-sdk/pull/6628#issuecomment-1598708914)),
+there are a couple of methods to try:
 
-[Element-Web doesn't support this yet](https://github.com/vector-im/element-web/issues/19409) and while there is [open pull request](https://github.com/matrix-org/matrix-react-sdk/pull/6628), the merging is blocked due to Element not knowing how to handle moderation and reporting for malicious reactions.
+- Reply to the message you wish to react to with `/react something`. This will
+  commonly add a reaction `something` to the message.
+  - This works at least within [FluffyChat](https://fluffychat.im), [Gomuks](https://docs.mau.fi/gomuks/commands.html#sending-special-messages) and [Nheko](https://github.com/Nheko-Reborn/nheko/blob/master/man/nheko.1.adoc#custom-messages).
+- Hold the message and look at the emoji bar. There may be a `…` allowing for
+  free-form reactions.
+  - This works at least within [Hydrogen](https://github.com/element-hq/hydrogen-web/).
+- Does the emoji bar have search? Some allow entering arbitary reactions
+  through it offering a `react` button or `react with <your query>` option.
+  - This works at least within [Cinny](https://cinny.in) and [SchildiChat](https://schildi.chat).
 
 ### What are ghost and puppets?
 
