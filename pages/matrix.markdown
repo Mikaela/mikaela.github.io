@@ -612,6 +612,10 @@ I am just personally unlucky?
    itself](https://soc.jae.fi/notes/9nmcgdonjxailf51)_ and as per that
    announcement, it's not returning anytime soon. My matterbridge had account
    #4 there while it later returned to account #3 on tedomum.net.
+1. 2024-01-18 brought the [shutdown of Diasp.in PirateIRC bridge](https://github.com/ppau/PirateIRC/pull/39)
+   and their [call for volunteers page](https://diasp.in/volunteer) has sunset
+   date set for 2024-01-31. As I have been PirateIRC operator since
+   2017-05-11, Diasp.in received a spot in this listing.
 
 #### Why do you use Matrix URI scheme instead of matrix.to?
 
