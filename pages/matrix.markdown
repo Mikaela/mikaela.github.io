@@ -605,9 +605,6 @@ I am just personally unlucky?
    returned a couple of days later on the evening of 2023-05-11.
 1. On 2023-10-25 [IT group of Pirate Party Austria made an announcement that
    pirateriot.net pirateriot.net shut down on 2023-10-31](https://web.archive.org/web/20231027060957/https://t.me/globalpirates/39814).
-   - They do bring it temporarily back up on some evenings (Austrian time?)
-     so people have chance to migrate away, but it should be considered as
-     discontinued.
 1. 2023-12-24 saw that _[the hard drive hosting the jae.fi matrix server shat
    itself](https://soc.jae.fi/notes/9nmcgdonjxailf51)_ and as per that
    announcement, it's not returning anytime soon. My matterbridge had account
