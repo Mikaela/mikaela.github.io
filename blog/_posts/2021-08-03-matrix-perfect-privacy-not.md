@@ -105,7 +105,7 @@ room is".
 
 In case there isn't enough confusion, retention shouldn't be confused with actual [self-destructing/disappearing messages](https://github.com/vector-im/element-meta/discussions/682).
 
-_Technical note: sorry about calling <s>reference</s> homeserver implementation by the matrix.org team issue
+_Technical note: sorry about calling <s>reference</s> homeserver implementation by the <s>matrix.org team</s> New Vector Ltd issue
 as a Matrix protocol issue._
 
 You may say that this requires you to trust the homeserver admin anyway and
@@ -117,7 +117,7 @@ Speaking of removals, once you remove a message [it will be stored in the databa
 and if you changed the homeserver address in your copied link, it would still
 keep on working. Is this something you expect from a private protocol? I don't, or I didn't before getting familiar with Matrix. There is also an [alternative proposal about this](https://github.com/matrix-org/matrix-spec-proposals/pull/2228).
 
-_By the way Synapse is still a <s>reference</s> homeserver implementation by the matrix.org and not
+_By the way Synapse is still a <s>reference</s> homeserver implementation by the <s>matrix.org team</s> New Vector Ltd and not
 Matrix protocol itself, so sorry about that for anyone technical reading this._
 
 Do you use different names in different contexts? Like your Full Name in
@@ -128,8 +128,8 @@ chat with your partner? [Congratulations, whatever is your latest room-specific 
 _Synapse didn't become Matrix protocol itself by the way, there are still other implementations!_
 
 This issue does have a potential solution [an API planned for room specific details (2015)](https://github.com/matrix-org/matrix-spec/issues/103)
-<s>and what I am hopeful about in the future <a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3189">open pull request specification for space specific profiles</a>,
-unless it just moves the issue to a different level.</s> Which got [cancelled or delayed for an undefined time period](https://github.com/matrix-org/matrix-spec-proposals/pull/3189#issuecomment-905761797),
+and what I am hopeful about in the future <a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3189">open pull request specification for space specific profiles</a>,
+unless it just moves the issue to a different level. Which is [cancelled or delayed for an undefined time period](https://github.com/matrix-org/matrix-spec-proposals/pull/3189#issuecomment-905761797),
 ["until extensible profiles and sync v3 become more concrete"](https://github.com/matrix-org/matrix-spec-proposals/pull/1769)
 
 2021-08-27: I don't know how serious issue this may be for you, but any emoji/
@@ -169,7 +169,7 @@ Lastly I apologise to you-know-who-you-are for not titling this post "undefined"
 or even M.UNKNOWN (which I would have imagined to be one of the issues for me to write about, but
 I don't remember seeing it in a long time, so maybe the situation is improving.
 
-Feedback? I have [a discussion room in many apps](https://mikaela.info/discuss),
+Feedback? I have [a discussion room in many apps](https://aminda.eu/discuss),
 or you can find me from a lot of the linked issues and there is also [issue tracker for this site](https://github.com/Mikaela/mikaela.github.io/issues).
 
 - [Changelog, also known as git commit history](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2021-08-03-matrix-perfect-privacy-not.md)
@@ -195,3 +195,7 @@ or you can find me from a lot of the linked issues and there is also [issue trac
   - 2022-05-31: I noticed that Element iOS has gotten pills. Strikethrough time.
   - 2023-07-05: I added warning that room retention may cause database
     corruption and make room unrejoinable.
+  - 2024-01-21: I performed small wording corrections such as Synapse being by
+    New Vector Ltd (according to bottom of [element.io](https://element.io)
+    since [a few months ago](https://element.io/blog/element-to-adopt-agplv3/)
+    and clarified some language.
