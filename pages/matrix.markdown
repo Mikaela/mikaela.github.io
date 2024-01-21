@@ -84,7 +84,7 @@ links._
 - This site has random assortment of Matrix details around.
   - [txt/matrix.txt](/txt/matrix.txt)
   - [n/matrixspoilers](/n/matrixspoilers.html) has a quick note on spoilers.
-- [apothecary.gay has a Matrix Tips & Tricks page](https://apothecary.gay/rules/matrix-tricks/)
+- [the-apothecary.club has a Matrix Tips & Tricks page](https://the-apothecary.club/coc/matrix-tricks/)
   - At the time of writing also on using spoilers and custom emotes/stickers.
 - Cos has written [Matrix tips they don't tell you](https://wordsmith.social/cos/matrix-tips-they-dont-tell-you) containing a FAQ, hints and guides.
 
