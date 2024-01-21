@@ -22,6 +22,8 @@ _This page is also in need of attention._
   - [Asexuality](#asexuality)
   - [IRC channels](#irc-channels)
   - [Trans](#trans)
+- [Suomeksi](#suomeksi)
+  - [Migreeni](#migreeni)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -64,3 +66,10 @@ _This page is also in need of attention._
     someone is male or female, it may be best just to ask._
 - [Gender identity is biological study says](https://gma.yahoo.com/gender-identity-biological-study-says-090824140--abc-news-health.html)
 - [Stop Using Phony Science to Justify Transphobia - Scientific American Blog Network](https://blogs.scientificamerican.com/voices/stop-using-phony-science-to-justify-transphobia/)
+
+## Suomeksi
+
+### Migreeni
+
+- [Migreeni ja työelämä](https://migreeni.org/tietoa/elama-migreenin-kanssa/migreeni-ja-tyoelama/)
+  - [Työpaikan migreenialtisteet](https://migreeni.org/tietoa/elama-migreenin-kanssa/migreeni-ja-tyoelama/2087-2/)
