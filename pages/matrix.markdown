@@ -142,6 +142,9 @@ there are a couple of methods to try:
   through it offering a `react` button or `react with <your query>` option.
   - This works at least within [Cinny](https://cinny.in) and [SchildiChat](https://schildi.chat).
 
+Please note that your **_[reactions are NOT encrypted](https://github.com/matrix-org/matrix-spec/issues/660)_** even in encrypted
+rooms.
+
 ### What are ghost and puppets?
 
 They are related to bridging Matrix with other protocols.
