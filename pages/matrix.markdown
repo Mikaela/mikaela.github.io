@@ -143,7 +143,7 @@ there are a couple of methods to try:
   - This works at least within [Cinny](https://cinny.in) and [SchildiChat](https://schildi.chat).
 
 Please note that your **_[reactions are NOT encrypted](https://github.com/matrix-org/matrix-spec/issues/660)_** even in encrypted
-rooms.
+rooms. See also my blog post, [Inconsistency issues of Element, Element and Element, also privacy concerns]({% post_url blog/2021-08-03-matrix-perfect-privacy-not %}).
 
 ### What are ghost and puppets?
 
