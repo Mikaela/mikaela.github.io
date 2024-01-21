@@ -12,6 +12,22 @@ random and [improvements are welcome here.](https://github.com/Mikaela/mikaela.g
 
 _This page is also in need of attention._
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [In English](#in-english)
+  - [Asexuality](#asexuality)
+  - [IRC channels](#irc-channels)
+  - [Trans](#trans)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
 ## In English
 
 ### Asexuality
