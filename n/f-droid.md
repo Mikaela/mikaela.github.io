@@ -37,7 +37,7 @@ needs 0 repositories out of the box, so time to add them too.
 ## Additional F-Droid repositories
 
 - [apt.izzysoft.de/fdroid/repo](fdroidrepos://apt.izzysoft.de/fdroid/repo?fingerprint=3bf0d6abfeae2f401707b6d966be743bf0eee49c2561b9ba39073711f628937a) is a less strictly foss repository by an F-Droid maintainer.
-- [fdroid.frostnerd.com/fdroid/repo](fdroidrepos://fdroid.frostnerd.com/fdroid/repo?fingerprint=74bb580f263ec89e15c207298dec861b5069517550fe0f1d852f16fa611d2d26) contain's Frostnerd's apps, mainly Nebulo.
+- [fdroid.frostnerd.com/fdroid/repo](fdroidrepos://fdroid.frostnerd.com/fdroid/repo?fingerprint=74bb580f263ec89e15c207298dec861b5069517550fe0f1d852f16fa611d2d26) contains Frostnerd's apps, mainly Nebulo.
 - [guardianproject.info/fdroid/repo](fdroidrepos://guardianproject.info/fdroid/repo?fingerprint=b7c2eefd8dac7806af67dfcd92eb18126bc08312a7f2d6f3862e46013c7a6135)
 - [guardianproject.info/fdroid/archive](fdroidrepos://guardianproject.info/fdroid/archive?fingerprint=b7c2eefd8dac7806af67dfcd92eb18126bc08312a7f2d6f3862e46013c7a6135)
 - [s2.spiritcroc.de/fdroid/repo](fdroidrepos://s2.spiritcroc.de/fdroid/repo?fingerprint=6612ade7e93174a589cf5ba26ed3ab28231a789640546c8f30375ef045bc9242) contains SpiritCroc's apps, mainly SchildiChat.
