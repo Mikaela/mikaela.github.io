@@ -20,7 +20,6 @@ _This page is also in need of attention._
 
 - [In English](#in-english)
   - [Asexuality](#asexuality)
-  - [IRC channels](#irc-channels)
   - [Trans](#trans)
 - [Suomeksi](#suomeksi)
   - [Migreeni](#migreeni)
@@ -38,17 +37,6 @@ _This page is also in need of attention._
 - [The best asexuality posts by swankivy](http://swankivy.tumblr.com/asexualessays)
 - [List of non-sexual forms of intimacy](http://fuckyeahsexeducation.tumblr.com/post/113290544644/list-of-non-sexual-forms-of-intimacy)
 - [How to have sex with asexual person](http://prismaticentanglements.com/2012/03/28/how-to-have-sex-with-an-asexual-person/)
-
-### IRC channels
-
-<!-- * Minority-specific -->
-
-- All GRSM (Gender Romantic Sexual Minority) people
-  - [##abgilpqt+ at LiberaChat](/r/irc-abgilpqt+.html)
-    - [rules](https://abgilpqt.github.io)
-    - [webchat](https://abgilpqt.github.io/webchat)
-  - [#GayCafe at sorcerynet](/r/irc-gaycafe.html)
-    - [webchat](https://kiwiirc.com/client/irc.sorcery.net:%2B6697/%23gaycafe)
 
 ### Trans
 
