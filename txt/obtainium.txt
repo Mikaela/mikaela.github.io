@@ -21,6 +21,7 @@ https://github.com/binwiederhier/ntfy-android
 https://github.com/bitwarden/mobile
 https://github.com/celzero/rethink-app
 https://github.com/cliambrown/EasyNoise
+https://github.com/forkgram/TelegramAndroid
 https://github.com/GrapheneOS/PdfViewer
 https://github.com/guardianproject/ObscuraCam
 https://github.com/guardianproject/orbot
