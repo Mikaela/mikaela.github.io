@@ -10,3 +10,6 @@
 	path = ir
 	url = https://github.com/Mikaela/i2pmirror.git
 	branch = master
+[submodule "submodules/gist"]
+	path = submodules/gist
+	url = https://github.com/Mikaela/gist.git
