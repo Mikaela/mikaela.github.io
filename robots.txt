@@ -25,25 +25,29 @@ Noindex: /n/
 Sitemap: https://aminda.eu/sitemap.xml
 Sitemap: https://aminda.eu/sitemaps.xml
 
-# https://darkvisitors.com/robots-txt-builder
-# Dark Visitors robots.txt
-
-# AI Assistant
-# https://darkvisitors.com/agents/chatgpt-user
-
+# These were previously part of darkvisitors but are not anymore for some reason?
 User-agent: ChatGPT-User
 Disallow: /
 
-# AI Assistant
-# https://darkvisitors.com/agents/cohere-ai
-
 User-agent: cohere-ai
 Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+# https://darkvisitors.com/robots-txt-builder
+# Dark Visitors robots.txt
 
 # AI Data Scraper
 # https://darkvisitors.com/agents/anthropic-ai
 
 User-agent: anthropic-ai
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/bytespider
+
+User-agent: Bytespider
 Disallow: /
 
 # AI Data Scraper
@@ -71,10 +75,7 @@ User-agent: GPTBot
 Disallow: /
 
 # AI Data Scraper
-# https://darkvisitors.com/agents/omgilibot
-
-User-agent: omgilibot
-Disallow: /
+# https://darkvisitors.com/agents/omgili
 
 User-agent: omgili
 Disallow: /
