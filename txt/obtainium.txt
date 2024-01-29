@@ -4,8 +4,6 @@ https://apkpure.com/trichrome-library/com.google.android.trichromelibrary
 https://codeberg.org/Berker/keyoxide-flutter
 https://f-droid.org/packages/com.apps.adrcotfas.goodtime
 https://f-droid.org/packages/com.darshancomputing.BatteryIndicatorPro
-https://f-droid.org/packages/com.forrestguice.suntimescalendars
-https://f-droid.org/packages/com.forrestguice.suntimeswidget
 https://f-droid.org/packages/com.jarsilio.android.autoautorotate
 https://f-droid.org/packages/com.termux
 https://f-droid.org/packages/eu.siacs.conversations
@@ -22,6 +20,12 @@ https://github.com/bitwarden/mobile
 https://github.com/celzero/rethink-app
 https://github.com/cliambrown/EasyNoise
 https://github.com/forkgram/TelegramAndroid
+https://github.com/forrestguice/IntervalMidpoints
+https://github.com/forrestguice/NaturalHour
+https://github.com/forrestguice/SolunarPeriods
+https://github.com/forrestguice/SuntimesCalendars
+https://github.com/forrestguice/SuntimesNFC
+https://github.com/forrestguice/SuntimesWidget
 https://github.com/GrapheneOS/PdfViewer
 https://github.com/guardianproject/ObscuraCam
 https://github.com/guardianproject/orbot
