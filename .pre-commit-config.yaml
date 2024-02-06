@@ -51,7 +51,7 @@ repos:
         args: [--update-only, --notitle]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.27.3
+    rev: 0.28.0
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
@@ -69,7 +69,7 @@ repos:
         exclude_types: [json]
         additional_dependencies: [
             # https://www.npmjs.com/package/prettier
-            "prettier@3.2.4",
+            "prettier@3.2.5",
             # https://www.npmjs.com/package/@prettier/plugin-xml
             "@prettier/plugin-xml@3.2.2",
           ]
