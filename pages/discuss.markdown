@@ -115,6 +115,7 @@ past.
     or in other words passes the so-called toaster test. It does self-describe
     as _A minimal Matrix chat client, focused on performance, offline
     functionality, and broad browser support_, which it redeems.
+  - Good luck to users of either [dendrite.matrix.org or matrix.org for entering captchas in Matrix clients.](https://github.com/matrix-org/matrix.org/issues/1314)
 
 ## And on transports, relays and bridges
 
