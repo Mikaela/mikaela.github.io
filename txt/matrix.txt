@@ -8,7 +8,7 @@ Primary accounts
 
 * matrix:u/aminda:pikaviestin.fi - main
 * matrix:u/mikaela.suomalainen:matrix.org - professional context where shouldersurfing may be a concern. Also Element-{X,Android,iOS}. (Predates my December 2021 namechange a bit)
-* matrix:u/aminda:beeper.com - Beeoer is building everything on top of Matrix while having their own clients and everything, so thus it will likely be on all my devices and sending notifications, regardless of any primary status of the account.
+* matrix:u/aminda:beeper.com - Beeper is building everything on top of Matrix while having their own clients and everything, so thus it will likely be on all my devices and sending notifications, regardless of any primary status of the account.
 
 Others
 ------
@@ -26,13 +26,13 @@ Others
 Bots
 ----
 
-* matrix:u/mikaela.matterbridge:tedomum.net - currently used, migrating to jae.fi
-* matrix:u/aminda.matterbridge:jae.fi - partially used, migrating from ^
+* matrix:u/mikaela.matterbridge:tedomum.net - currently used
 
 Old bots
 --------
 
 * matrix:u/mikaela.matterbridge:converser.eu - inactive previous iteration
+* matrix:u/aminda.matterbridge:jae.fi - https://aminda.eu/matrix/#brief-history-of-my-experiences-with-dead-homeservers
 
 Bridges
 -------
@@ -64,4 +64,4 @@ These homeservers no longer exist and should they reappear it's most likely not 
 PS. For SSH signature add .sig to the end of the URL
 
 Aminda Suomalainen
-2023-10-27 09.53+0300
+2024-02-09 09.41+0300
