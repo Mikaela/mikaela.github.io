@@ -21,6 +21,7 @@ Others
 * matrix:u/mkaysi:fedora.im - https://github.com/flathub/im.riot.Riot/issues/268#issuecomment-1103213448
 * matrix:u/aminda:dendrite.matrix.org - Dendrite test account and my only at the moment
 * matrix:u/aminda:conduit.ungleich.ch - IPv6 Conduit test account, but as they may erase database at all times, it may not be me.
+* matrix:u/aminda:envs.net - you know who to blame if this account is relevant to you.
 
 Bots
 ----
