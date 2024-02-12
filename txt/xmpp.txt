@@ -2,3 +2,5 @@ xmpp:mikaela@blesmrt.net
 xmpp:mikaela@conversejs.org
 xmpp:mikaela@disroot.org
 xmpp:mikaela@tigase.im
+
+[aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY]

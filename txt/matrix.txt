@@ -64,4 +64,5 @@ These homeservers no longer exist and should they reappear it's most likely not 
 PS. For SSH signature add .sig to the end of the URL
 
 Aminda Suomalainen
-2024-02-09 09.41+0300
+[aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY]
+2024-02-12 13.08+0300
