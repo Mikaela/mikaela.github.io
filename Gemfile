@@ -4,5 +4,3 @@ source "https://rubygems.org"
 gem "github-pages"
 # Required for `bundle exec jekyll serve`
 gem "webrick"
-# TODO: remove this when https://github.com/jekyll/jekyll/pull/9522 releases
-gem "csv"

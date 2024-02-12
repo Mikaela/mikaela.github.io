@@ -71,3 +71,6 @@ ipnsSubdomainGateway: ipns.dweb.link
 
 # {{site.keyoxide}}/whatever
 keyoxide: https://keyoxide.org
+
+# Attempt to handle warning
+excerpt_separator: "\n\n"

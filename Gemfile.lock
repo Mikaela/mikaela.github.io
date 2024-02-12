@@ -23,7 +23,6 @@ GEM
     commonmarker (0.23.10)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
-    csv (3.2.8)
     dnsruby (1.70.0)
       simpleidn (~> 0.2.1)
     drb (2.2.0)
@@ -224,6 +223,16 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
+    nokogiri (1.16.2-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.2-arm-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.2-x86-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.2-x86_64-darwin)
+      racc (~> 1.4)
     nokogiri (1.16.2-x86_64-linux)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -265,10 +274,14 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  aarch64-linux
+  arm-linux
+  arm64-darwin
+  x86-linux
+  x86_64-darwin
   x86_64-linux
 
 DEPENDENCIES
-  csv
   github-pages
   webrick
 
