@@ -4,6 +4,7 @@ https://apkpure.net/google-gemini/com.google.android.apps.bard
 https://apkpure.net/pushover/net.superblock.pushover
 https://apkpure.net/sunsmart-global-uv/au.org.cancervic.globaluv
 https://apkpure.net/trichrome-library/com.google.android.trichromelibrary
+https://apkpure.net/vlc-for-android/org.videolan.vlc
 https://codeberg.org/Berker/keyoxide-flutter
 https://f-droid.org/packages/com.apps.adrcotfas.goodtime
 https://f-droid.org/packages/com.darshancomputing.BatteryIndicatorPro
