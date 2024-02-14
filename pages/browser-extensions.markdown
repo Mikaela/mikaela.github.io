@@ -176,7 +176,7 @@ These likely also exist, but just without the `vendor-` part when searhcing.
 
 # Firefox about:config
 
-_On LibreAwoo, refer to my [conf/librewolf.overrides.cfg.js in my shell-things repo](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/conf/librewolf.overrides.cfg.js)._
+_On LibreAwoo or autoconfig, refer to my [conf/librewolf.overrides.cfg in my shell-things repo](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/conf/librewolf.overrides.cfg) which has kind of replaced this section?._
 
 - `security.certerrors.mitm.auto_enable_enterprise_roots` to `false` in order to not trust system CA store in case of enterprise MITM
 - `security.OCSP.require` to `true` in order to not allow [OCSP](https://en.wikipedia.org/wiki/OCSP_stapling) soft fail. This may be a bit paranoid, but _only the paranoid survive._
