@@ -254,7 +254,7 @@ The term is used least in two different scenarios:
   This also affects administrator/moderator access.
 
 [This issue was supposed to be fixed at room version 2 with State Resolution Version 2](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions),
-but regardless [still happens in all versions after that](https://github.com/matrix-org/synapse/issues/8629). If you are affected, your best bet is to
+but regardless [still happens in all versions after that](https://github.com/matrix-org/synapse/issues/8629) ([element-hq/synapse#8629](https://github.com/element-hq/synapse/issues/8629)). If you are affected, your best bet is to
 `/upgraderoom {{site.matrixLatestRoomVersion}}` in developer mode enabled in `/devtools`, which is a bit distruptive operation as all your users have to join the upgraded version and all homeservers involved must support it.
 
 You shouldn't just trust me or the variable on this site on what is the latest version, [consult the Spec](https://spec.matrix.org/latest/rooms/#complete-list-of-room-versions) and add [Version Checker](matrix:u/version:maunium.net) or [their sibling](https://github.com/maubot/rsvc) to your room and once they join, `!servers upgrade {{site.matrixLatestRoomVersion}}` replacing the {{site.matrixLatestRoomVersion}} with your target version.
@@ -274,7 +274,7 @@ kind of resembling [IRC's netsplits before sync.](https://en.wikipedia.org/wiki/
 
 People understanding state resolution (which by the way don't include me)
 disagree on the exact cause only agreeing that it's difficult to fix. From
-what is told to me, I understand it to be tracked [in the same Synapse issue #8629](https://github.com/matrix-org/synapse/issues/8629).
+what is told to me, I understand it to be tracked [in the same Synapse issue #8629](https://github.com/matrix-org/synapse/issues/8629) or actually [element-hq/synapse#8629](https://github.com/element-hq/synapse/issues/8629).
 
 - See also [Matrix spec issues reported by Neil](https://github.com/matrix-org/matrix-spec/issues/neilalexander).
 
@@ -572,7 +572,7 @@ My reasons for that are many and I am often proved correct in them.
   - Federation also fails when a spammer sends messages after getting banned
     and thus moderation bots fail to remove messages from them as those don't
     get to the banning server. Thus moderators need more accounts again.
-    - [matrix-org/synapse#9329: Soft-failures make federated bans racy and frustrate redaction](https://github.com/matrix-org/synapse/issues/9329)
+    - [matrix-org/synapse#9329: Soft-failures make federated bans racy and frustrate redaction](https://github.com/matrix-org/synapse/issues/9329). [The issue was migrated to element-hq/synapse#9329: Soft-failures make federated bans racy and frustrate redaction](https://github.com/element-hq/synapse/issues/9329)
 - State resets keep happening and thus I cannot trust other accounts than the
   one which created a room in question stay as power level 100.
 - Homeservers come and go, sometimes with little to no warning. As I have many
@@ -684,8 +684,8 @@ or "I wish IRC/XMPP just died already as it's so old" or whatever attitude I see
 
 However I admit sometimes having difficult time believing that either _Matrix
 Foundation_ or _New Vector trading as Element_ has their users best interests
-in heart. On my worse days, I especially hardwordedly criticise [media never being removed](https://github.com/matrix-org/synapse/issues/1263#issuecomment-1120225193)
-or [fear that Matrix may endanger gender or sexual minorities by leaking room-specific profiles](https://github.com/matrix-org/synapse/issues/5677#issuecomment-894831845)
+in heart. On my worse days, I especially hardwordedly criticise [media never being removed](https://github.com/matrix-org/synapse/issues/1263#issuecomment-1120225193) ([element-hq/synapse#1263](https://github.com/element-hq/synapse/issues/1263))
+or [fear that Matrix may endanger gender or sexual minorities by leaking room-specific profiles](https://github.com/matrix-org/synapse/issues/5677#issuecomment-894831845) ([element-hq/synapse#5677](https://github.com/element-hq/synapse/issues/5677))
 and especially [lack of self-destructing messages (that is nowadays a discussion rather than an issue)](https://github.com/vector-im/element-meta/discussions/682#discussioncomment-3803806)
 considering even [DeltaChat (also known as an email client)](https://delta.chat)
 manages to implement it without control over the underlying protocol and even
