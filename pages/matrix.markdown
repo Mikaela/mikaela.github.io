@@ -13,6 +13,7 @@ room can be found from [my discuss page](/discuss) alongside
 some protocol comparison and my main accounts are in [index](/).
 
 I also have a [txt with a list of all my accounts](/txt/matrix.txt) which [has SSH signature](/txt/matrix.txt.sig).
+Some of my accounts are also on my [Keyoxide ASP profile](https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY).
 
 [Questions and Answers about Matrix](#questions--answers)
 
@@ -558,6 +559,8 @@ My reasons for that are many and I am often proved correct in them.
 - By having multiple accounts on different homeservers, there is no single
   entity that can decide whether I participate on Matrix or not. This is also
   a benefit of decentralisation in general.
+  - Matrix rooms are hosted on all homeservers that have at least one account
+    joined to them.
 - In case of federation meltdown, I have multiple entrypoints to send events
   and thus hopefully one of them goes through faster. There have been
   multiple incidents where this could have been useful for room
