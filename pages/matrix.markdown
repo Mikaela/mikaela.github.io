@@ -212,7 +212,7 @@ Assuming you are on nightly build, there are three steps:
    Nheko was online at that time.
 
 Secretly it's also possible to configure defaults for all rooms using Element
-Web's `/devtools` through `im.nheko.event_expiry` account data event.
+Web's `/devtools` through [`im.nheko.event_expiry` account data event](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/matrix/account-data/im.nheko.event_expiry/README.md).
 
 ```json
 {
