@@ -13,6 +13,8 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 
 - [Identifying DNS resolver](#identifying-dns-resolver)
 - [Identifying support for client-subnet](#identifying-support-for-client-subnet)
+- [Mobile applications](#mobile-applications)
+  - [FFUpdater](#ffupdater)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -38,3 +40,12 @@ dig +short TXT whoami.ipv4.akahelp.net.
 ```
 
 - Note: Cloudflare sends ECS only for whoami.ds.akahelp.net.
+
+## Mobile applications
+
+_With the exception of those apps that config I remember otherwise or share it
+with desktop versions etc._
+
+### [FFUpdater](https://github.com/Tobi823/ffupdater)
+
+- `https://open.dns0.eu;2a0f:fc80::ffff;2a0f:fc81::ffff;193.110.81.254;185.253.5.254`
