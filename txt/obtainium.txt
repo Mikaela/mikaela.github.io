@@ -36,7 +36,7 @@ https://github.com/guardianproject/ObscuraCam
 https://github.com/guardianproject/orbot
 https://github.com/HabitRPG/habitica-android
 https://github.com/ImranR98/Obtainium
-https://github.com/kawaiiDango/pScrobbler
+https://github.com/kawaiiDango/pano-scrobbler
 https://github.com/krille-chan/fluffychat
 https://github.com/markusfisch/BinaryEye
 https://github.com/mastodon/mastodon-android
