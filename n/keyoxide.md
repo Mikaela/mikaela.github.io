@@ -12,9 +12,10 @@ sitemap: false
 
 ## My ASP profile
 
-https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY
+[https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY](https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY)
 
 ### Proofs
 
-- Plain: `aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY`
+- Plain: [`aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY`](https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY)
+  - <code>[`aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY`](https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY)</code>
 - Hashed: `$argon2id$v=19$m=8192,t=2,p=4$UeKcKenApsCHc+YGJUGCHw$hoTY1qFVXf56BZpZCUNG39/2IrQjwKrT`
