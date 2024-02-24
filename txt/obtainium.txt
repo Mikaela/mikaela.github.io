@@ -39,6 +39,7 @@ https://github.com/ImranR98/Obtainium
 https://github.com/kawaiiDango/pScrobbler
 https://github.com/krille-chan/fluffychat
 https://github.com/markusfisch/BinaryEye
+https://github.com/mastodon/mastodon-android
 https://github.com/michaeltroger/greenpass-android
 https://github.com/mollyim/mollyim-android
 https://github.com/mollyim/mollyim-android-unifiedpush
