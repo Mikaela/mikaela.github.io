@@ -1,5 +1,5 @@
 ---
-redirect_to: https://github.com/krille-chan/fluffychat/blob/main/docs/fdroid_repo.md
+redirect_to: https://github.com/krille-chan/fluffychat/releases/latest
 permalink: /r/fluffychat.html
 sitemap: false
 ---
