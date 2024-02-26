@@ -1,5 +1,6 @@
 https://apkpure.net/android-system-webview/com.google.android.webview
 https://apkpure.net/beeper-unified-messenger/com.beeper.chat
+https://apkpure.net/bluesky/xyz.blueskyweb.app
 https://apkpure.net/google-gemini/com.google.android.apps.bard
 https://apkpure.net/pushover/net.superblock.pushover
 https://apkpure.net/revolut-spend-save-trade/com.revolut.revolut
