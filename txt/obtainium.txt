@@ -2,12 +2,15 @@ https://apkpure.net/android-system-webview/com.google.android.webview
 https://apkpure.net/beeper-unified-messenger/com.beeper.chat
 https://apkpure.net/bluesky/xyz.blueskyweb.app
 https://apkpure.net/google-gemini/com.google.android.apps.bard
+https://apkpure.net/lidl-home/com.lidlhome.smart
 https://apkpure.net/pushover/net.superblock.pushover
 https://apkpure.net/revolut-spend-save-trade/com.revolut.revolut
 https://apkpure.net/sunsmart-global-uv/au.org.cancervic.globaluv
 https://apkpure.net/trichrome-library/com.google.android.trichromelibrary
 https://apkpure.net/vlc-for-android/org.videolan.vlc
 https://apkpure.net/whatsapp-android/com.whatsapp
+https://apkpure.net/wiz/com.tao.wiz
+https://apkpure.net/wiz-connected/com.wizconnected.wiz2
 https://codeberg.org/Berker/keyoxide-flutter
 https://f-droid.org/packages/com.apps.adrcotfas.goodtime
 https://f-droid.org/packages/com.darshancomputing.BatteryIndicatorPro
@@ -27,6 +30,7 @@ https://github.com/binwiederhier/ntfy-android
 https://github.com/bitwarden/mobile
 https://github.com/celzero/rethink-app
 https://github.com/cliambrown/EasyNoise
+https://github.com/c-lis/morelocale
 https://github.com/forkgram/TelegramAndroid
 https://github.com/forrestguice/IntervalMidpoints
 https://github.com/forrestguice/NaturalHour
