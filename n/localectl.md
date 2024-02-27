@@ -1,13 +1,12 @@
 ---
-layout: post
-comments: true
-title: "Note to self: adjusting locales & why"
-category: [english]
-tags: [english, linux, locale]
+layout: null
+permalink: /n/localectl.html
 redirect_from:
   - /locale.html
   - /locales.html
   - /english/2016/10/16/adjusting-locales.html
+  - /blog/english/2016/10/16/adjusting-locales.html
+sitemap: false
 ---
 
 _I have started using my devices in en_GB, but on PCs that can have issues
