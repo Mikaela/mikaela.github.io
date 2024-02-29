@@ -65,6 +65,7 @@ links._
   - [Why do you use Matrix URI scheme instead of matrix.to?](#why-do-you-use-matrix-uri-scheme-instead-of-matrixto)
   - [Why does one of your accounts have capital letter in the username?](#why-does-one-of-your-accounts-have-capital-letter-in-the-username)
   - [Which client do you recommend?](#which-client-do-you-recommend)
+  - [Are there any spaces or rooms you recommend?](#are-there-any-spaces-or-rooms-you-recommend)
   - [Which homeserver do you recommend?](#which-homeserver-do-you-recommend)
   - [Why don't you run your own?](#why-dont-you-run-your-own)
   - [Why cannot I see history in your Matrix rooms?](#why-cannot-i-see-history-in-your-matrix-rooms)
@@ -671,6 +672,22 @@ On Android I often find myself using [SchildiChat](https://s2.spiritcroc.de/fdro
   - I am a Finnish translator, it's actually the most Spec-complete client in my experience without long delays before something becomes supported and it's lightweight probably for being a native app instead of Electron.
 
 -->
+
+#### Are there any spaces or rooms you recommend?
+
+I don't know, I have
+[spaces.md](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/matrix/spaces.md)
+which doubles as a critique towards Matrix room directory, which is
+centralized and everyone wants to be on `matrix.org` room directory, which
+again leads to them registering on `matrix.org` to add themselves there and
+did I mention that on 29-02-2024 it has been locked for a couple of months for
+a cleanup?
+
+> Of course this file makes me the curator/authority of room listing and thus
+> I challenge you, the reader, to make your own space or version of this file,
+> maybe I can even link to your list here? :smiley_cat:
+
+- [spaces.md](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/matrix/spaces.md)
 
 #### Which homeserver do you recommend?
 
