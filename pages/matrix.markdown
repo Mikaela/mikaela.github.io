@@ -232,25 +232,19 @@ and if you cannot figure it out, you probably shouldn't be touching it.
 #### How can I install Nheko nightly?
 
 I use the nightly flatpak which is easy to install for all users as you
-just add the nightly repo (3rd command) and install it (5th command).
-However below there are a few extra steps in case of weird systems:
+just add the nightly repo and install it. However I am assuming you have
+already performed the [Flathub setup](https://flathub.org/setup).
 
 _Note that `#` means a command and it's there just to explain what is being
 done, not actually entered into a terminal._
 
 ```bash
-# The dependency KDE Platform is in Flathub and very clean installations of
-# flatpak from some distributions may not have it by default...
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-# ...or if they have it by default, at least older Fedora versions disable it
-# by default.
-sudo flatpak remote-modify --enable flathub
-# This actually adds the Nheko nightly repo on your system
+# Add the Nheko nightly remote onto your system
 sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reborn/nheko/-/raw/master/nheko-nightly.flatpakrepo
-# If the Nheko flatpak doesn't appear anywhere, this equals `sudo apt update`
-# or `sudo dnf check-update` etc.
+# If the im.nheko.Nheko flatpak doesn't appear anywhere, this equals
+# `sudo apt update` or `sudo dnf check-update` etc.
 sudo flatpak update --appstream
-# And this command actually install the nightly flatpak.
+# And this command will actually install the flatpak.
 sudo flatpak install nheko-nightly im.nheko.Nheko --assumeyes
 ```
 
