@@ -64,9 +64,6 @@ These apps must be added individually for whatever reason rather than mass impor
 
 - `https://appgallery.huawei.com/app/C27162`
   - Huawei App Gallery. Huawei App Gallery seems require adding separately.
-- `https://github.com/vector-im/element-x-android`
-  - Element X Android, track-only as unsupported due to AAB
-    - [Obtainium#795: support app bundles](https://github.com/ImranR98/Obtainium/issues/795)
 - `https://briarproject.org/fdroid/repo?appId=org.briarproject.briar.android`
   - Briar. Third party F-Droid repo.
 - `https://fdroid.frostnerd.com?appId=com.frostnerd.smokescreen`
@@ -74,6 +71,4 @@ These apps must be added individually for whatever reason rather than mass impor
 
 ## Other noteworthy apps:
 
-- WhatsApp. The apk version number detection doesn't work, install manually
-  from their website or use another application such as Aurora Store.
-- Tor Browser. Same as WhatsApp, but available through FFUpdater or F-Droid.
+- Tor Browser. Available through FFUpdater or F-Droid.
