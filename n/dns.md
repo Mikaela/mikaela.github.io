@@ -1,6 +1,8 @@
 ---
 layout: null
 permalink: /n/dns.html
+redirect_from:
+  - /n/ffupdater.html
 sitemap: false
 ---
 
