@@ -4,6 +4,10 @@ https://apkpure.net/beeper-unified-messenger/com.beeper.chat
 https://apkpure.net/bluesky/xyz.blueskyweb.app
 https://apkpure.net/google-gemini/com.google.android.apps.bard
 https://apkpure.net/lidl-home/com.lidlhome.smart
+https://apkpure.net/microsoft-edge-beta/com.microsoft.emmx.beta
+https://apkpure.net/microsoft-edge-canary/com.microsoft.emmx.canary
+https://apkpure.net/microsoft-edge-dev/com.microsoft.emmx.dev
+https://apkpure.net/microsoft-edge-preview/com.microsoft.emmx
 https://apkpure.net/pushover/net.superblock.pushover
 https://apkpure.net/revolut-spend-save-trade/com.revolut.revolut
 https://apkpure.net/sunsmart-global-uv/au.org.cancervic.globaluv
@@ -32,6 +36,8 @@ https://github.com/bitwarden/mobile
 https://github.com/celzero/rethink-app
 https://github.com/cliambrown/EasyNoise
 https://github.com/c-lis/morelocale
+https://github.com/element-hq/element-android
+https://github.com/element-hq/element-x-android
 https://github.com/forkgram/TelegramAndroid
 https://github.com/forrestguice/IntervalMidpoints
 https://github.com/forrestguice/NaturalHour
@@ -74,8 +80,6 @@ https://github.com/Tobi823/ffupdater
 https://github.com/tosdr/tosdr-android
 https://github.com/UnifiedPush/fcm-distributor
 https://github.com/UP-NextPush/android
-https://github.com/element-hq/element-android
-https://github.com/element-hq/element-x-android
 https://github.com/Zverik/every_door
 https://gitlab.com/AuroraOSS/AuroraStore
 https://gitlab.com/guardianproject/proofmode/proofmode-android
