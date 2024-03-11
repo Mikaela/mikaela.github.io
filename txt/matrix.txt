@@ -1,4 +1,4 @@
-4My Matrix accounts
+My Matrix accounts
 ==================
 
 Having multiple accounts on different homeservers is preferable for many reasons such as ensuring decentralisation of power and being able to manage rooms from multiple places even with federation meltdown.
