@@ -563,7 +563,7 @@ sending raw events in JSON to them.
 
 ### Personal questions
 
-#### Why so many accounts?
+#### Why so [many accounts](/txt/matrix.txt)?
 
 My reasons for that are many and I am often proved correct in them.
 
