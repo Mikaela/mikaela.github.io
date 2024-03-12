@@ -27,7 +27,6 @@ https://f-droid.org/packages/net.osmand.plus
 https://f-droid.org/packages/org.fdroid.basic
 https://f-droid.org/packages/org.fdroid.fdroid
 https://f-droid.org/packages/org.witness.sscphase1
-https://f-droid.org/packages/us.spotco.malwarescanner
 https://github.com/accrescent/accrescent
 https://github.com/AnySoftKeyboard/AnySoftKeyboard
 https://github.com/billthefarmer/editor

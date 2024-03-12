@@ -68,6 +68,11 @@ These apps must be added individually for whatever reason rather than mass impor
   - Briar. Third party F-Droid repo.
 - `https://fdroid.frostnerd.com?appId=com.frostnerd.smokescreen`
   - Nebulo. Third party F-Droid repo.
+- `https://divestos.org/apks/official/fdroid/repo?appId=us.spotco.malwarescanner`
+  - Hypatia malware scanner. Third party F-Droid repo.
+- `https://divestos.org/apks/official/fdroid/repo?appId=us.spotco.fennec_dos`
+  - Mull Browser (not to be confused with Mullvad). Often suggested as the closest to [LibreWolf](https://librewolf.net)
+    on Android. Third party F-Droid repo.
 
 ## Other noteworthy apps:
 
