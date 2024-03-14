@@ -12,7 +12,10 @@ redirect_from:
   - /chromium.html
 ---
 
-If you need browser extensions, try [the Privacy Guides page](https://privacyguides.org/browsers/).
+Browser extensions are living in my browser policies.
+
+- [Firefox](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/firefox/policies)
+- [Chromium](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/opt/chromium/policies/managed)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
