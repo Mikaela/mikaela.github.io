@@ -77,5 +77,8 @@ Note!
 - `CC-BY-ND-4.0`
 - `CC-BY-SA-4.0`
 - `BSD-3-Clause`
+- `EUPL-1.2`
+
+See also [SPDX License List](https://spdx.org/licenses/)
 
 _Viewing source of this page reveals this one to be CC-BY-SA-4.0._
