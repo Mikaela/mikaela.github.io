@@ -9,11 +9,37 @@ redirect_from:
 sitemap: false
 ---
 
-_I have started using my devices in en_GB, but on PCs that can have issues
-with different types of different locales unless some things are borrowed
-from other locales._
+# Quick notes on `localectl` settings
+
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Ready commands](#ready-commands)
+  - [Internationalish](#internationalish)
+  - [Finland Finnish](#finland-finnish)
+- [Explanations](#explanations)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
+## Ready commands
+
+### Internationalish
 
 `% sudo localectl set-locale LANG=en_GB.utf8 LC_TIME=en_DK.utf8 LC_MONETARY=fi_FI.utf8 LC_NAME=fi_FI.utf8 LC_TELEPHONE=fi_FI.utf8`
+
+- This will speak English, but use euros and other Finnish cultural defaults, while time is shown as ISO 8601.
+
+### Finland Finnish
+
+`% sudo localectl set-locale LANG=fi_FI.utf8 LC_TIME=fi_FI.utf8 LC_MONETARY=fi_FI.utf8 LC_NAME=fi_FI.utf8 LC_TELEPHONE=fi_FI.utf8`
+
+## Explanations
 
 - LANG is the language and defaults for other variables if they are unset
   and as I said I prefer en_GB which is better in Europe for matching the
@@ -80,3 +106,5 @@ end gave me `*** update-locale: Warning: LANGUAGE (en_US:en) is not compatible w
 Either I was wrong on it being list of fallback languages I wish to use, or
 GNOME has different view on it, but as I think I have seen errors related
 to it before, I will drop `LANGUAGE` from the variables I set.
+
+2024-04-04: `export LANGUAGE=eo:fi:en` in a file read by my `zshrc` works fine as it gets read before my `startsway` anyway
