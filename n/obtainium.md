@@ -73,6 +73,9 @@ These apps must be added individually for whatever reason rather than mass impor
 - `https://divestos.org/apks/official/fdroid/repo?appId=us.spotco.fennec_dos`
   - Mull Browser (not to be confused with Mullvad). Often suggested as the closest to [LibreWolf](https://librewolf.net)
     on Android. Third party F-Droid repo.
+- `https://aptoide.en.aptoide.com/app`
+  - Aptoide's official app. I didn't even try adding this in mass though,
+    be very careful with third party app stores there.
 
 ## Other noteworthy apps:
 
