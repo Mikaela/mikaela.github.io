@@ -16,6 +16,7 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 - [Identifying DNS resolver](#identifying-dns-resolver)
 - [Identifying support for client-subnet](#identifying-support-for-client-subnet)
 - [Mobile applications](#mobile-applications)
+  - [Android](#android)
   - [FFUpdater](#ffupdater)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -47,6 +48,20 @@ dig +short TXT whoami.ipv4.akahelp.net.
 
 _With the exception of those apps that config I remember otherwise or share it
 with desktop versions etc._
+
+### Android
+
+Use either `cloudflare-dns.com` or `dns.google` as the _Private DNS_ server as
+they have special handling and are thus DNS over HTTPS instead of the usual
+DNS over TLS. This can be confirmed with
+[`https://1.1.1.1/help`](https://one.one.one.one/help).
+
+Then install _Rethink_ or your favourite DoH app which pretends to be a VPN,
+or even a VPN app and set it to be always on (but not block connections
+outside of the VPN unless it's actually a VPN) and hopefully your DoH server
+will become the one that is actually used alongside its blocklist.
+
+In case of _Rethink_ remember to disable DNS leak protection.
 
 ### [FFUpdater](https://github.com/Tobi823/ffupdater)
 
