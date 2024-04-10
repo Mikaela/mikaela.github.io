@@ -56,12 +56,9 @@ they have special handling and are thus DNS over HTTPS instead of the usual
 DNS over TLS. This can be confirmed with
 [`https://1.1.1.1/help`](https://one.one.one.one/help).
 
-Then install _Rethink_ or your favourite DoH app which pretends to be a VPN,
-or even a VPN app and set it to be always on (but not block connections
-outside of the VPN unless it's actually a VPN) and hopefully your DoH server
-will become the one that is actually used alongside its blocklist.
-
-In case of _Rethink_ remember to disable DNS leak protection.
+Then setup your web browser (including Firefox (other than stable which
+disables `about:config`) and Chrome) to use DNS over HTTPS with your preferred
+server and while at it enabling HTTPS only mode.
 
 ### [FFUpdater](https://github.com/Tobi823/ffupdater)
 
