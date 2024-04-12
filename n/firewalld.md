@@ -44,6 +44,7 @@ sudo firewall-cmd --add-service=ssh --permanent
 sudo firewall-cmd --add-service=mosh --permanent
 sudo firewall-cmd --add-service=ntp --permanent
 sudo firewall-cmd --add-service=syncthing --permanent
+sudo firewall-cmd --add-service=mdns --permanent
 ```
 
 - I trust Chrony (ntp) to not allow it to be used from outside of LAN
