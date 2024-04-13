@@ -51,10 +51,11 @@ with desktop versions etc._
 
 ### Android
 
-Use either `cloudflare-dns.com` or `dns.google` as the _Private DNS_ server as
+Use either `cloudflare-dns.com` (which doesn't have ECS) or `dns.google` (which has ECS) as the _Private DNS_ server as
 they have special handling and are thus DNS over HTTPS instead of the usual
 DNS over TLS. This can be confirmed with
-[`https://1.1.1.1/help`](https://one.one.one.one/help).
+[`https://1.1.1.1/help`](https://one.one.one.one/help) (when using
+`cloudflare-dns.com`).
 
 Then setup your web browser (including Firefox (other than stable which
 disables `about:config`) and Chrome) to use DNS over HTTPS with your preferred
