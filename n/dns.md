@@ -3,6 +3,7 @@ layout: null
 permalink: /n/dns.html
 redirect_from:
   - /n/ffupdater.html
+  - /n/rethink.html
 sitemap: false
 ---
 
@@ -17,6 +18,7 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 - [Identifying support for client-subnet](#identifying-support-for-client-subnet)
 - [Mobile applications](#mobile-applications)
   - [Android](#android)
+  - [Rethink](#rethink)
   - [FFUpdater](#ffupdater)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -60,6 +62,34 @@ DNS over TLS. This can be confirmed with
 Then setup your web browser (including Firefox (other than stable which
 disables `about:config`) and Chrome) to use DNS over HTTPS with your preferred
 server and while at it enabling HTTPS only mode.
+
+### [Rethink](https://github.com/celzero/rethink-app)
+
+1. Use either GitHub or F-Droid release as Google Play doesn't have
+   blocklists.
+1. Enable it.
+1. In Android Settings, Internet, Advanced, VPN, select Rethink, make it
+   always-on and block connections not using it.
+1. Disable private DNS in Android settings too, as it conflicts.
+1. In Rethink itself open Configure.
+
+- DNS: enable whatever DNS you prefer.
+- DNS: Visit _on-device blocklists_.
+- DNS: Consider enabling _Use in-app downloader_, _DNS booster_
+- DNS: Disable _Prevent DNS leaks_ to avoid breakage.
+- Network: enable _Use all available networks (experimental)_
+- Network: _Loopback (experimental)_
+  - This also implies the previous option.
+- Network: _Choose IP version: Auto_
+- Network: _Perform connectivity checks_
+
+1. Remember to also visit Android app details for Rethink, in battery menu
+   select unrestricted and in network allow unlimited data even with data
+   saver.
+
+Hopefully there is no situation where Rethink stops working and thinks it's
+still working. As can be deduced from this section, sometimes Rethink and I
+disagree with each other. _I don't guarantee I know what I am doing._
 
 ### [FFUpdater](https://github.com/Tobi823/ffupdater)
 
