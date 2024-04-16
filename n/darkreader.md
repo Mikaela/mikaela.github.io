@@ -17,8 +17,9 @@ want in the new interface is:
 
 - Change font: yes
 - Font name: `OpenDyslexic` or `Comic Shanns Mono`
-  - This doesn't seem to work too great, so thus the
+  - May require disabling fingerprinting protection. Consider also
     [OpenDyslexic extension](https://github.com/OpenDyslexic/extension)
     which again is incompatible with font changing.
 
-In _Settings_ there is additionally _Detect dark theme_ option which is nice.
+In _Settings_ there is additionally _Detect dark theme_ option which is nice,
+but again disables font changing.
