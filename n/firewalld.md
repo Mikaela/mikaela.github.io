@@ -20,6 +20,7 @@ The blog post also predates me having a /n directory here.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Zones](#zones)
+- [Protocols](#protocols)
 - [Services](#services)
 - [Ports](#ports)
 
@@ -36,6 +37,15 @@ zones.
 
 Zone would be specified by `--zone=home` in the commands. The other zone I
 could imagine using is `public`.
+
+## Protocols
+
+```bash
+sudo firewall-cmd --add-protocol=ipv6-icmp --permanent
+```
+
+- Tells computers when things go wrong with IPv6 network. See also [Neil Alexander: Understanding ICMP and why you shouldn't just block it outright](https://neilalexander.dev/2017/04/16/understanding-icmp).
+  - _Motivation for being here is [20/20 in IPv6-test.com](https://ipv6-test.com)._
 
 ## Services
 
