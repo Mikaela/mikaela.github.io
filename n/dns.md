@@ -98,3 +98,4 @@ disagree with each other. _I don't guarantee I know what I am doing._
 - `https://open.dns0.eu;2a0f:fc80::ffff;2a0f:fc81::ffff;193.110.81.254;185.253.5.254`
 - `https://doh.opendns.com/dns-query;2620:119:35::35;2620:119:53::53;208.67.222.222;208.67.220.220`
 - `https://dns11.quad9.net/dns-query;2620:fe::11;2620:fe::fe:11;9.9.9.11;149.112.112.11`
+- `https://dns12.quad9.net/dns-query;2620:fe::12;2620:fe::fe:12;9.9.9.12;149.112.112.12`
