@@ -37,6 +37,8 @@ https://github.com/cliambrown/EasyNoise
 https://github.com/c-lis/morelocale
 https://github.com/element-hq/element-android
 https://github.com/element-hq/element-x-android
+https://github.com/F0x1d/LogFox
+https://github.com/flxapps/DetoxDroid
 https://github.com/forkgram/TelegramAndroid
 https://github.com/forrestguice/IntervalMidpoints
 https://github.com/forrestguice/NaturalHour
