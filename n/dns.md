@@ -15,7 +15,8 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Identifying DNS resolver](#identifying-dns-resolver)
-- [Identifying support for client-subnet](#identifying-support-for-client-subnet)
+- [To ECS or not to ECS?](#to-ecs-or-not-to-ecs)
+  - [Identifying support for client-subnet](#identifying-support-for-client-subnet)
 - [Mobile applications](#mobile-applications)
   - [Android](#android)
   - [Rethink](#rethink)
@@ -34,7 +35,44 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 
 The above list is based on [redirect2me/which-dns README alternatives section](https://github.com/redirect2me/which-dns/blob/main/README.md)
 
-## Identifying support for client-subnet
+## To ECS or not to ECS?
+
+[_Understanding the Privacy Implications of ECS_](https://yacin.nadji.us/docs/pubs/dimva16_ecs.pdf)
+brings up two bigger issues EDNS client-subnet:
+
+- Authoritative nameserver is given part of the subnet, which can be
+  personally identifiable and as the connection between recursor and
+  authoritative is unencrypted, anyone between them can observe all the
+  queries.
+  - Think of VPNs where traffic within the VPN is encrypted, but it won't
+    magically encrypt plain traffic leaving it.
+- Anyone between the recursive and authoritative nameservers can perform cache
+  poisoning attack and give it a narrow target. With short TTL, it may be
+  impossible to audit afterwards. Only DNSSEC can protect from this, but
+  DNSSEC signing isn't used that widely.
+
+These issues bring additional questions:
+
+- Do you care?
+  - If you run open wireless network and offer everyone ECS nameserver such as
+    Google DNS through DHCP while using manually configured encrypted DNS by
+    yourself, is there any cause for concern? You can always say it was
+    someone using your open network? Or if this is a multi-user system like
+    VPS running titlefetcher bot or Matrix homeserver, who knows who triggered
+    the original queries and where?
+  - How much does getting local content matter to you? More or less than
+    increased resource use of contacting a server further away? Is private ECS
+    an option? ([r/resolv.tsv](/r/resolv.tsv))
+- What is the impact of domains you visit being surveilled?
+  - This page mentions cases like FFUpdater where the surveillance would
+    reveal that I interact with github.com and other sites it downloads apk
+    files from, which hardly matters, but how about you?
+- What is the impact of cache poisoning tailored to you?
+  - Everything is encrypted and TLS certificates wouldn't match so would you
+    continue to the wrong site regardless of the prompt, or decide something
+    is wrong and try again later. How about your users?
+
+### Identifying support for client-subnet
 
 Or what is being sent to the authoritative servers.
 
