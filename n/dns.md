@@ -94,9 +94,10 @@ with desktop versions etc._
 
 ### Android
 
-Use either `cloudflare-dns.com` (which doesn't have ECS) or `dns.google` (which has ECS) as the _Private DNS_ server as
-they have special handling and are thus DNS over HTTPS3 instead of the usual
-DNS over TLS. This can be confirmed with
+Use either `cloudflare-dns.com` (which doesn't have ECS) or `dns.google`
+(which has ECS) as the (Settings → Network & Internet → Advanced →)
+_Private DNS_ server as they have special handling and are thus DNS ove
+HTTPS3 instead of the usual DNS over TLS. This can be confirmed with
 [`https://1.1.1.1/help`](https://one.one.one.one/help) (when using
 `cloudflare-dns.com`).
 
