@@ -59,7 +59,9 @@ These issues bring additional questions:
     yourself, is there any cause for concern? You can always say it was
     someone using your open network? Or if this is a multi-user system like
     VPS running titlefetcher bot or Matrix homeserver, who knows who triggered
-    the original queries and where?
+    the original queries and where? SteamOS? Speed over all as it's only used
+    for gayming. Virtual machine lab? Who cares. Larger organization? That may
+    be a big target?
   - How much does getting local content matter to you? More or less than
     increased resource use of contacting a server further away? Is private ECS
     an option? ([r/resolv.tsv](/r/resolv.tsv))
