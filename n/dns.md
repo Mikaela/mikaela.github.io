@@ -4,6 +4,8 @@ permalink: /n/dns.html
 redirect_from:
   - /n/ffupdater.html
   - /n/rethink.html
+  - /n/esni.html
+  - /n/ech.html
 sitemap: false
 ---
 
@@ -15,6 +17,7 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Identifying DNS resolver](#identifying-dns-resolver)
+  - [Identifying ECH support](#identifying-ech-support)
 - [To ECS or not to ECS?](#to-ecs-or-not-to-ecs)
   - [Identifying support for client-subnet](#identifying-support-for-client-subnet)
 - [Mobile applications](#mobile-applications)
@@ -34,6 +37,20 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 - [browserleaks.net/dns](https://browserleaks.net/dns)
 
 The above list is based on [redirect2me/which-dns README alternatives section](https://github.com/redirect2me/which-dns/blob/main/README.md)
+
+### Identifying ECH support
+
+At it's current state of implementation, Encrypted Client-Hello requires
+DNS-over-HTTPS in the browser level or it won't be used. If downgrade from
+application level DoH to OS resolver is allowed, ECH will get disabled at
+least temporary. Thus I think this list belongs here close enough.
+
+- [Cloudflare Browser Check](https://www.cloudflare.com/ssl/encrypted-sni/)
+  which still speaks of ESNI, while ECH replaced Encrypted Server Name
+  Indication ages ago.
+  - [crypto.cloudflare.com/cdn-cgi/trace](https://crypto.cloudflare.com/cdn-cgi/trace),
+    look for `sni=encrypted`.
+- [tls-ech.dev](https://tls-ech.dev/)
 
 ## To ECS or not to ECS?
 
