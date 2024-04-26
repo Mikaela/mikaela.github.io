@@ -51,6 +51,7 @@ least temporary. Thus I think this list belongs here close enough.
   - [crypto.cloudflare.com/cdn-cgi/trace](https://crypto.cloudflare.com/cdn-cgi/trace),
     look for `sni=encrypted`.
 - [tls-ech.dev](https://tls-ech.dev/)
+- BONUS: [OCSP stapling test](https://www.vpnhosting.cz/ocsp/)
 
 ## To ECS or not to ECS?
 
