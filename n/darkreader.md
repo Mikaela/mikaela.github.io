@@ -16,10 +16,10 @@ want in the new interface is:
 1. Font and more
 
 - Change font: yes
-- Font name: `OpenDyslexic` or `Comic Shanns Mono`
-  - May require disabling fingerprinting protection. Consider also
+- Font name: `OpenDyslexic` <del>or `Comic Shanns Mono`</del>
+  - May require disabling fingerprinting protection. <del>Consider also
     [OpenDyslexic extension](https://github.com/OpenDyslexic/extension)
-    which again is incompatible with font changing.
+    which again is incompatible with font changing.</del>
 
 In _Settings_ there is additionally _Detect dark theme_ option which is nice,
 but again disables font changing.
