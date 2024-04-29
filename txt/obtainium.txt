@@ -53,6 +53,7 @@ https://github.com/HabitRPG/habitica-android
 https://github.com/ImranR98/Obtainium
 https://github.com/kawaiiDango/pano-scrobbler
 https://github.com/krille-chan/fluffychat
+https://github.com/laurent22/joplin-android
 https://github.com/markusfisch/BinaryEye
 https://github.com/mastodon/mastodon-android
 https://github.com/michaeltroger/greenpass-android
