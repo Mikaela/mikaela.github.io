@@ -32,6 +32,8 @@ https://github.com/AnySoftKeyboard/AnySoftKeyboard
 https://github.com/billthefarmer/editor
 https://github.com/binwiederhier/ntfy-android
 https://github.com/bitwarden/mobile
+https://github.com/Catfriend1/syncthing-android
+https://github.com/Catfriend1/syncthing-android-fdroid
 https://github.com/celzero/rethink-app
 https://github.com/cliambrown/EasyNoise
 https://github.com/c-lis/morelocale
