@@ -125,6 +125,12 @@ server and while at it enabling HTTPS only mode.
 
 ### [Rethink](https://github.com/celzero/rethink-app)
 
+**_NOTE!_** This pretends to be a VPN and thus breaks things depending on
+seeing the IP directly such as wireless debugging LAN IP, Briar LAN
+connections, cause warnings in Ooni Probe and disable automatic testing,
+Syncthing Fork will not autostart due to detecting the network as metered,
+unless it's given permission to run in metered networks.
+
 1. Use either GitHub or F-Droid release as Google Play doesn't have
    blocklists.
 1. Enable it.
