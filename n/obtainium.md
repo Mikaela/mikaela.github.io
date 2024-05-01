@@ -76,6 +76,8 @@ These apps must be added individually for whatever reason rather than mass impor
 - `https://aptoide.en.aptoide.com/app`
   - Aptoide's official app. I didn't even try adding this in mass though,
     be very careful with third party app stores there.
+- `https://uptodown-android.en.uptodown.com/android`
+  - See Aptoide.
 
 ## Other noteworthy apps:
 
