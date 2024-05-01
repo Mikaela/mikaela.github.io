@@ -25,7 +25,8 @@ automatic updates on Android 12+.
 
 - [Importable app list](#importable-app-list)
 - [Third party F-Droid repositories](#third-party-f-droid-repositories)
-- [Individually added apps](#individually-added-apps)
+  - [Apps within them](#apps-within-them)
+- [App Stores](#app-stores)
 - [Other noteworthy apps:](#other-noteworthy-apps)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -35,18 +36,8 @@ automatic updates on Android 12+.
 
 ## Importable app list
 
-_Moved to [txt/obtainium.txt](/txt/obtainium.txt)!_
-
-<!--
-
-Note to self: to turn Obtainium export like this or close enough to manually
-cut it:
-
-```bash
-cat obtainium-export-1693463035816.json | jq -s | \grep 'url'
-```
-
--->
+- For apps that don't require API keys to be entered into Obtainium, see [txt/obtainium.txt](/txt/obtainium.txt).
+- For apps that require GitHub or GitLab API key to be entered into Obtainium, see [txt/obtainium2.txt](/txt/obtainium2.txt)
 
 ## Third party F-Droid repositories
 
@@ -58,12 +49,10 @@ Aren't mass-importable sadly, but using Briar as an example:
 
 Upon adding it will become something like the link below.
 
-## Individually added apps
+### Apps within them
 
-These apps must be added individually for whatever reason rather than mass imported:
+_However I would use [the F-Droid repositories directly](/n/f-droid.html)._
 
-- `https://appgallery.huawei.com/app/C27162`
-  - Huawei App Gallery. Huawei App Gallery seems require adding separately.
 - `https://briarproject.org/fdroid/repo?appId=org.briarproject.briar.android`
   - Briar. Third party F-Droid repo.
 - `https://fdroid.frostnerd.com?appId=com.frostnerd.smokescreen`
@@ -73,11 +62,34 @@ These apps must be added individually for whatever reason rather than mass impor
 - `https://divestos.org/apks/official/fdroid/repo?appId=us.spotco.fennec_dos`
   - Mull Browser (not to be confused with Mullvad). Often suggested as the closest to [LibreWolf](https://librewolf.net)
     on Android. Third party F-Droid repo.
+
+## App Stores
+
+_Always exercise caution when installing apps, even from Google Play Store!_
+
+- `https://github.com/accrescent/accrescent`
+  - Accrescent is a recent App Store which I have seen recommended especially in privacy circles, while it's a bit plain and doesn't have much selection yet.
+- `https://apkpure.net/apkpure/com.apkpure.aegon`
+  - APK Pure. Full of intrusive advertising, I wouldn't use it without adblocker and even then would keep my family away from it.
+- `https://gitlab.com/AuroraOSS/AuroraStore`
+  - Open source and anonymous interface for Google Play Store. Google doesn't like it, so the accounts often don't work, which is the reason this section has so many apps regardless of the common advice to install nothing outside of Play Store (that I obviously disagree with as there are dangerous and unwanted apps there too).
 - `https://aptoide.en.aptoide.com/app`
-  - Aptoide's official app. I didn't even try adding this in mass though,
-    be very careful with third party app stores there.
+  - Aptoide App Store. Divided into multiple "substores", I would only use `apps`
+    which is the official and `jolla` which comes with SailfishOS. I wouldn't
+    install it for a family member.
+- `https://f-droid.org/packages/org.fdroid.fdroid`
+  - FOSS-only app store with support for additional [repositories](/n/f-droid.html). I prefer the Basic version though, see below.
+- `https://f-droid.org/packages/org.fdroid.basic`
+  - F-Droid without local application sharing. Used to target higher API level than the main app allowing automatic updates for apps targeting recent enough app version. This is what I recommend and have installed for family for years.
+- `https://github.com/Tobi823/ffupdater`
+  - Installer and updater for privacy friendly browsers (and itself), including, but not limited to Firefox, Chromium and other browsers based on them (except obviously not Google Chrome). Would install for family, if they didn't have Google Play Store.
+- `https://appgallery.huawei.com/app/C27162`
+  - Huawei App Gallery. I don't think I recommend it, unless it comes with your phone, but it's nice to know it exists and can be installed?
+- `https://github.com/ImranR98/Obtainium`
+  - An app downloader that can install apps directly from the publishers, a few other app stores and F-Droid repositories (see an earlier section on this page). But you should know that already considering this page is of no interest to anyone else than Obtainium users (and mainly only me).
 - `https://uptodown-android.en.uptodown.com/android`
-  - See Aptoide.
+  - Uptodown app store, pleasant interface and not so intrusive advertising
+    as opposed to APK Pure. I would consider installing it for a family member, should they reach ??? apps outside of Play Store that it offers (such as AdGuard (which Google again dislikes), Telegram.org/Android...)
 
 ## Other noteworthy apps:
 
