@@ -14,12 +14,12 @@ default_language_version:
 
 repos:
   - repo: https://github.com/fsfe/reuse-tool
-    rev: v2.1.0
+    rev: v3.0.2
     hooks:
       - id: reuse
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext", "md,markdown"]
@@ -34,14 +34,14 @@ repos:
       - id: detect-private-key
       - id: fix-byte-order-marker
 
-  - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v4.0.0-alpha.3"
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: "v3.2.5"
     hooks:
       - id: prettier
-        additional_dependencies: [
-            # https://www.npmjs.com/package/prettier
-            "prettier@3.1.0",
-          ]
+        #additional_dependencies: [
+        # https://www.npmjs.com/package/prettier
+        #"prettier@3.1.0",
+        #]
 
   # Fedora: perl-Image-ExifTool
   - repo: local
