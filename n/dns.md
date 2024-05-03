@@ -64,6 +64,13 @@ brings up two bigger issues EDNS client-subnet:
   queries.
   - Think of VPNs where traffic within the VPN is encrypted, but it won't
     magically encrypt plain traffic leaving it.
+  - The part given to the au4thoritative nameserver is `/24` on IPv4 and
+    `/56` on IPv6. These equal 192.0.2.x so if a MITM wanted to know who you
+    are there would be 254 options (assuming there are no NATs). On IPv6 a
+    `/56` includes 256 `/64` blocks and `/64` is the most used block and there
+    is a recommendation of giving customers a `/56` block, so it would point
+    directly to your connection. However some mobile operators give a `/64`
+    so it will again point to 256 options again. Not that many.
 - Anyone between the recursive and authoritative nameservers can perform cache
   poisoning attack and give it a narrow target. With short TTL, it may be
   impossible to audit afterwards. Only DNSSEC can protect from this, but
@@ -81,8 +88,8 @@ These issues bring additional questions:
     for gayming. Virtual machine lab? Who cares. Larger organization? That may
     be a big target?
   - How much does getting local content matter to you? More or less than
-    increased resource use of contacting a server further away? Is private ECS
-    an option? ([r/resolv.tsv](/r/resolv.tsv))
+    increased resource use of contacting a server further away? _Is private ECS
+    an option?_ ([r/resolv.tsv](/r/resolv.tsv))
 - What is the impact of domains you visit being surveilled?
   - This page mentions cases like FFUpdater where the surveillance would
     reveal that I interact with github.com and other sites it downloads apk
