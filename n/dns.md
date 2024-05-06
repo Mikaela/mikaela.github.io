@@ -32,12 +32,13 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 
 ## Identifying DNS resolver
 
-- [DNS-OARC's Check My DNS](https://cmdns.dev.dns-oarc.net/) - popup under "Network".
-- [dnsleaktest](https://dnsleaktest.com/)
-- [whatsmydnsserver](http://www.whatsmydnsserver.com/)
-- [ipleak.net](https://ipleak.net/)
+- [DNS-OARC's Check My DNS](https://cmdns.dev.dns-oarc.net) - popup under "Network".
+- [dnsleaktest](https://dnsleaktest.com)
+- [whatsmydnsserver](http://www.whatsmydnsserver.com)
+- [ipleak.net](https://ipleak.net)
 - [dnsadblock](https://dnsadblock.com/dns-leak-test/)
 - [browserleaks.net/dns](https://browserleaks.net/dns)
+- [dnscheck.tools](https://www.dnscheck.tools)
 
 The above list is based on [redirect2me/which-dns README alternatives section](https://github.com/redirect2me/which-dns/blob/main/README.md)
 
