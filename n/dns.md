@@ -85,7 +85,7 @@ _Criticizers will ask whether changing your DNS server will save the world? No, 
 
 _Android DoH3 option:_ `cloudflare-dns.com`
 
-> [...] we [Cloudflare] don’t pass along the EDNS subnet information. This information leaks information about a requester’s IP and, in turn, sacrifices the privacy of users. This is especially problematic as we work to encrypt more DNS traffic since the request from Resolver to Authoritative DNS is typically unencrypted.**_We’re aware of real world examples where nationstate actors have monitored EDNS subnet information to track individuals,_** which was part of the motivation for the privacy and security policies of 1.1.1.1.
+> [...] we [Cloudflare] don’t pass along the EDNS subnet information. This information leaks information about a requester’s IP and, in turn, sacrifices the privacy of users. This is especially problematic as we work to encrypt more DNS traffic since the request from Resolver to Authoritative DNS is typically unencrypted. **_We’re aware of real world examples where nationstate actors have monitored EDNS subnet information to track individuals,_** which was part of the motivation for the privacy and security policies of 1.1.1.1.
 >
 > [...]
 >
