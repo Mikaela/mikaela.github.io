@@ -65,7 +65,23 @@ least temporary. Thus I think this list belongs here close enough.
 
 ## What is ECS?
 
-EDNS Client-Subnet is a DNS extension letting the authoritative nameserver know your /24 or /56 (IPv6). /24 is the first three parts of your IPv4 address, /56 is 256 /64s and the recommendation to assign to you (although some ISPs just give you a /64).
+EDNS Client-Subnet is a DNS extension letting the authoritative nameserver
+know your `/24` (IPv4) or `/56` (IPv6).
+
+- /24 is the first three parts of your IPv4 address e.g. 192.0.2.xxx.
+  The last part of your IP address (the xxx) again is a number between 1
+  to 254 (since 0 is reserved for the network itself and 255 is the
+  broadcast address).
+- `/56` includes 256 `/64`s and if your ISP (Internet Service Provider)
+  follows [RFC 6177](https://datatracker.ietf.org/doc/html/rfc6177),
+  it's assigned solely to you meaning the authoritative nameserver will know
+  the request originated from your network.
+  - However many ISPs, especially wireless ones,
+    will just assign you a `64` which is required for
+    [stateless address autoconfiguration](<https://en.m.wikipedia.org/wiki/SLAAC#Stateless_address_autoconfiguration_(SLAAC)>)
+    which is the most common way of getting IPv6 address in your local area
+    network as opposed to IPv4 where you would have
+    [Dynamic Host Configuration Protocol (DHCP)](https://en.m.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
 ### Why to use ECS?
 
