@@ -93,6 +93,15 @@ _Android DoH3 option:_ `cloudflare-dns.com`
 
 ECS will decrease the cost of mass surveillance as instead of having to surveill everything happening on the network, anyone between your DNS server and the authoritative nameserver can see which IP addresses access the site with a reasonable accuracy.
 
+Then there are those with commercial interests, particularly outside of
+Europe, advertisers may be interested in making money out of the additional
+metadata. There may also be adblockers which don't block the DNS request,
+causing the advertising company to receive your IP address (or close enough to
+it) even if you didn't see the advertisement itself.
+
+Some say _the less metadata is produced, the smaller incentive there is for
+starting collecting and monetizing it._
+
 Additionally researchers (below) have used it to perform cache poisoning against an individual target directing them to a wrong location and with low TTL making it near impossible to audit later.
 
 What domains do you use? What if someone far above you knew regardless of Encrypted Client-Hello?
