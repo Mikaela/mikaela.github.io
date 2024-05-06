@@ -66,7 +66,8 @@ least temporary. Thus I think this list belongs here close enough.
 ## What is ECS?
 
 EDNS Client-Subnet is a DNS extension letting the authoritative nameserver
-know your `/24` (IPv4) or `/56` (IPv6).
+know your subnet, generally a `/24` (IPv4) or a `/56` (IPv6), but the revealed
+subnet size is up to your DNS resolver configuration.
 
 - /24 is the first three parts of your IPv4 address e.g. 192.0.2.xxx.
   The last part of your IP address (the xxx) again is a number between 1
