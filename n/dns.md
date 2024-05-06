@@ -91,7 +91,7 @@ _Android DoH3 option:_ `cloudflare-dns.com`
 >
 > We are working with the small number of networks with a higher network/ISP density than Cloudflare (e.g., Netflix, Facebook, Google/YouTube) to come up with an EDNS IP Subnet alternative that gets them the information they need for geolocation targeting without risking user privacy and security. Those conversations have been productive and are ongoing. [...]
 
-- [Cloudflare cofounder](https://news.ycombinator.com/item?id=19828702), emphasis mine.
+- [Cloudflare co-founder](https://news.ycombinator.com/item?id=19828702), emphasis mine.
 
 ECS will decrease the cost of mass surveillance as instead of having to surveill everything happening on the network, anyone between your DNS server and the authoritative nameserver can see which IP addresses access the site with a reasonable accuracy.
 
