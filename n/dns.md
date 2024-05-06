@@ -107,7 +107,7 @@ Additionally researchers (below) have used it to perform cache poisoning against
 
 What domains do you use? What if someone far above you knew regardless of Encrypted Client-Hello?
 
-Are the domains you use DNSSEC-signed? Do you verify DNSSEC locally? Do you use HTTPS everywhere? Do you know to not accept warnings about certificate issues? Do the other users less technical users of your network? Would you or them be a delicious target?
+Are the domains you use DNSSEC-signed? Do you verify DNSSEC locally? Do you use HTTPS everywhere? Do you know to not accept warnings about certificate issues? Do the other (less technical) users of your network? Would you or them be a delicious target?
 
 See also:
 
