@@ -30,6 +30,8 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+---
+
 ## Identifying DNS resolver
 
 - [DNS-OARC's Check My DNS](https://cmdns.dev.dns-oarc.net) - popup under "Network".
@@ -41,6 +43,8 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 - [dnscheck.tools](https://www.dnscheck.tools)
 
 The above list is based on [redirect2me/which-dns README alternatives section](https://github.com/redirect2me/which-dns/blob/main/README.md)
+
+---
 
 ### Identifying ECH support
 
@@ -56,6 +60,8 @@ least temporary. Thus I think this list belongs here close enough.
     look for `sni=encrypted`.
 - [tls-ech.dev](https://tls-ech.dev/)
 - BONUS: [OCSP stapling test](https://www.vpnhosting.cz/ocsp/)
+
+---
 
 ## What is ECS?
 
@@ -192,6 +198,8 @@ dig +short TXT whoami.ipv4.akahelp.net.
 
 - Note: Cloudflare sends ECS only for `whoami.ds.akahelp.net`, nowhere else.
 
+---
+
 ## Mobile applications
 
 _With the exception of those apps that config I remember otherwise or share it
@@ -251,3 +259,5 @@ disagree with each other. _I don't guarantee I know what I am doing._
 - `https://doh.opendns.com/dns-query;2620:119:35::35;2620:119:53::53;208.67.222.222;208.67.220.220`
 - `https://dns11.quad9.net/dns-query;2620:fe::11;2620:fe::fe:11;9.9.9.11;149.112.112.11`
 - `https://dns12.quad9.net/dns-query;2620:fe::12;2620:fe::fe:12;9.9.9.12;149.112.112.12`
+
+---
