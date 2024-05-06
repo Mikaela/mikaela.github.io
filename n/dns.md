@@ -65,9 +65,11 @@ least temporary. Thus I think this list belongs here close enough.
 
 ## What is ECS?
 
-EDNS Client-Subnet is a DNS extension letting the authoritative nameserver
+[EDNS](https://en.m.wikipedia.org/wiki/Extension_Mechanisms_for_DNS) [Client-Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is a DNS extension letting the authoritative nameserver
 know your subnet, generally a `/24` (IPv4) or a `/56` (IPv6), but the revealed
 subnet size is up to your DNS resolver configuration.
+
+_See also simpler explanation at [PrivacyGuides.org DNS Overview](https://www.privacyguides.org/en/advanced/dns-overview/#what-is-edns-client-subnet-ecs)._
 
 - /24 is the first three parts of your IPv4 address e.g. 192.0.2.xxx.
   The last part of your IP address (the xxx) again is a number between 1
@@ -83,7 +85,7 @@ subnet size is up to your DNS resolver configuration.
     which is the most common way of getting IPv6 address in your local area
     network as opposed to IPv4 where you would have
     [Dynamic Host Configuration Protocol (DHCP)](https://en.m.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
-    - Your router does get the IPv6 subnet assignment for LAN distribution by means of [DHCPv6 Prefix Delegation](https://en.wikipedia.org/wiki/Prefix_delegation) which is also common on mobile networks.
+    - Your router does get the IPv6 subnet assignment for LAN distribution by means of [DHCPv6 Prefix Delegation](https://en.m.wikipedia.org/wiki/Prefix_delegation) which is also common on mobile networks.
 
 ### Why to use ECS?
 
