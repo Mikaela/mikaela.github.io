@@ -83,7 +83,7 @@ subnet size is up to your DNS resolver configuration.
     which is the most common way of getting IPv6 address in your local area
     network as opposed to IPv4 where you would have
     [Dynamic Host Configuration Protocol (DHCP)](https://en.m.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
-    - Your router does get the IPv6 subnet assignment for LAN distributon by means of [DHCPv6 Prefix Delegation](https://en.wikipedia.org/wiki/Prefix_delegation) which is also common on mobile networks.
+    - Your router does get the IPv6 subnet assignment for LAN distribution by means of [DHCPv6 Prefix Delegation](https://en.wikipedia.org/wiki/Prefix_delegation) which is also common on mobile networks.
 
 ### Why to use ECS?
 
@@ -98,7 +98,7 @@ _Android DoH3 option:_ `dns.google`
 
 - [Green Code](https://www.exove.com/green-code/) ([pdf](https://www.exove.com/app/uploads/2023/09/Green-Code-v2.pdf) [txt](https://www.exove.com/app/uploads/2023/09/greencode-v2.txt))
 
-If you utilize services of internet giants or condent delivery networks, ECS will likely give you [the shortest distance, the lowest latency, the highest speed](https://en.m.wikipedia.org/wiki/Edge_computing) and may help with decreasing your _digital carbon footprint_.
+If you utilize services of internet giants or content delivery networks, ECS will likely give you [the shortest distance, the lowest latency, the highest speed](https://en.m.wikipedia.org/wiki/Edge_computing) and may help with decreasing your _digital carbon footprint_.
 
 If those matter to you, you may also like to consider [increasing your minimum TTL to around an hour in a local server](https://blog.apnic.net/2019/11/12/stop-using-ridiculously-low-dns-ttls/).
 
