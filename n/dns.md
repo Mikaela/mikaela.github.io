@@ -208,13 +208,19 @@ These issues bring additional questions:
 Or what is being sent to the authoritative servers.
 
 ```bash
+# https://support.google.com/interconnect/answer/7658602
 dig +short TXT o-o.myaddr.l.google.com.
+# https://www.akamai.com/blog/developers/introducing-new-whoami-tool-dns-resolver-information
 dig +short TXT whoami.ds.akahelp.net.
 dig +short TXT whoami.ipv6.akahelp.net.
 dig +short TXT whoami.ipv4.akahelp.net.
+# https://powerdns.org/useful-names/
+dig +short TXT whoami-ecs.lua.powerdns.org.
+dig +short TXT whoami-ecs.v6.powerdns.org.
+dig +short TXT whoami-ecs.v4.powerdns.org.
 ```
 
-- Note: Cloudflare sends ECS only for `whoami.ds.akahelp.net`, nowhere else.
+- Note: [Cloudflare sends ECS only for `whoami.ds.akahelp.net`, nowhere else](https://developers.cloudflare.com/1.1.1.1/faq/#does-1.1.1.1-send-edns-client-subnet-header).
 
 ---
 
