@@ -202,7 +202,7 @@ with desktop versions etc._
 
 Use either `cloudflare-dns.com` (which doesn't have ECS) or `dns.google`
 (which has ECS) as the (Settings → Network & Internet → Advanced →)
-_Private DNS_ server as they have special handling and are thus DNS ove
+_Private DNS_ server as [they have special handling](https://cs.android.com/android/platform/superproject/main/+/main:packages/modules/DnsResolver/PrivateDnsConfiguration.h) and are thus DNS over
 HTTPS3 instead of the usual DNS over TLS. This can be confirmed with
 [`https://1.1.1.1/help`](https://one.one.one.one/help) (when using
 `cloudflare-dns.com`).
