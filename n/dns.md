@@ -18,8 +18,11 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 
 - [Identifying DNS resolver](#identifying-dns-resolver)
   - [Identifying ECH support](#identifying-ech-support)
-- [To ECS or not to ECS?](#to-ecs-or-not-to-ecs)
-  - [Identifying support for client-subnet](#identifying-support-for-client-subnet)
+- [What is ECS?](#what-is-ecs)
+  - [Why to use ECS?](#why-to-use-ecs)
+  - [Why to not use ECS?](#why-to-not-use-ecs)
+  - [Why to use private ECS?](#why-to-use-private-ecs)
+  - [Identifying support for ECS](#identifying-support-for-ecs)
 - [Mobile applications](#mobile-applications)
   - [Android](#android)
   - [Rethink](#rethink)
@@ -53,7 +56,71 @@ least temporary. Thus I think this list belongs here close enough.
 - [tls-ech.dev](https://tls-ech.dev/)
 - BONUS: [OCSP stapling test](https://www.vpnhosting.cz/ocsp/)
 
-## To ECS or not to ECS?
+## What is ECS?
+
+EDNS Client-Subnet is a DNS extension letting the authoritative nameserver know your /24 or /56 (IPv6). /24 is the first three parts of your IPv4 address, /56 is 256 /64s and the recommendation to assign to you (although some ISPs just give you a /64).
+
+### Why to use ECS?
+
+_Android DoH3 option:_ `dns.google`
+
+> The distance of transmitted information. The longer the distance
+> the data must travel from the data centre to the end-user device,
+> the more energy the transmission consumes – regardless of the
+> transmission path used. Intercontinental transmission networks are
+> fundamentally very efficient. Transferring data from the United
+> States to Europe may consume a fraction of the energy compared to
+> the last kilometre from the base station to the mobile phone.
+
+- [Green Code](https://www.exove.com/green-code/) ([pdf](https://www.exove.com/app/uploads/2023/09/Green-Code-v2.pdf) [txt](https://www.exove.com/app/uploads/2023/09/greencode-v2.txt))
+
+If you utilize services of internet giants or condent delivery networks, ECS will likely give you the shortest distance, highest speed and may help with decreasing your _digital carbon footprint_.
+
+If those matter to you, you may also like to consider [increasing your minimum TTL to around an hour in a local server](https://blog.apnic.net/2019/11/12/stop-using-ridiculously-low-dns-ttls/).
+
+_Criticizers will ask whether changing your DNS server will save the world? No, fighting climate change takes much more, while some of it is small effortless tasks which effect cumulates. Anyway, keep reading._
+
+### Why to not use ECS?
+
+_Android DoH3 option:_ `cloudflare-dns.com`
+
+> [...] we [Cloudflare] don’t pass along the EDNS subnet information. This information leaks information about a requester’s IP and, in turn, sacrifices the privacy of users. This is especially problematic as we work to encrypt more DNS traffic since the request from Resolver to Authoritative DNS is typically unencrypted.**_We’re aware of real world examples where nationstate actors have monitored EDNS subnet information to track individuals,_** which was part of the motivation for the privacy and security policies of 1.1.1.1.
+> [...]
+> We are working with the small number of networks with a higher network/ISP density than Cloudflare (e.g., Netflix, Facebook, Google/YouTube) to come up with an EDNS IP Subnet alternative that gets them the information they need for geolocation targeting without risking user privacy and security. Those conversations have been productive and are ongoing. If archive.is has suggestions along these lines, we’d be happy to consider them.
+
+- [Cloudflare cofounder](https://news.ycombinator.com/item?id=19828702), emphasis mine.
+
+ECS will decrease the cost of mass surveillance as instead of having to surveill everything happening on the network, anyone between your DNS server and the authoritative nameserver can see which IP addresses access the site with a reasonable accuracy.
+
+Additionally researchers (below) have used it to perform cache poisoning against an individual target directing them to a wrong location and with low TTL making it near impossible to audit later.
+
+What domains do you use? What if someone far above you knew regardless of Encrypted Client-Hello?
+
+Are the domains you use DNSSEC-signed? Do you verify DNSSEC locally? Do you use HTTPS everywhere? Do you know to not accept warnings about certificate issues? Do the other users less technical users of your network? Would you or them be a delicious target?
+
+See also:
+
+- [_Understanding the Privacy Implications of ECS_](https://yacin.nadji.us/docs/pubs/dimva16_ecs.pdf)
+
+### Why to use private ECS?
+
+_Android DoH3 option:_ [?](https://cs.android.com/android/platform/superproject/main/+/main:packages/modules/DnsResolver/PrivateDnsConfiguration.h)
+
+Do you want the benefits of ECS with the privacy and security of not having ECS? Private ECS is a compromise solution in the middle, although not without its own issues.
+
+Your private DNS provider will lie for you and say that your IP address is somewhere else where it will also place many others from your ISP. However what if it says you are a customer of another ISP, possibly even located in another country?
+
+In that case you may get even worse performance than without ECS. Then again if everything works properly, you will get the benefit of ECS without the privacy impact and lessened security impact.
+
+See the next section for testing "where you are." Consider also what is important for you if you had to pick one or two.
+
+See also:
+
+- [NextDNS (Medium.com): How we made DNS both fast and private with ECS](https://medium.com/nextdns/how-we-made-dns-both-fast-and-private-with-ecs-4970d70401e5)
+- [AdGuard DNS: Privacy-friendly EDNS Client Subnet](https://adguard-dns.io/en/blog/privacy-friendly-edns-client-subnet.html)
+- [DNS0 Privacy Policy](https://www.dns0.eu/privacy)
+
+<!--
 
 [_Understanding the Privacy Implications of ECS_](https://yacin.nadji.us/docs/pubs/dimva16_ecs.pdf)
 brings up two bigger issues EDNS client-subnet:
@@ -99,7 +166,9 @@ These issues bring additional questions:
     continue to the wrong site regardless of the prompt, or decide something
     is wrong and try again later. How about your users?
 
-### Identifying support for client-subnet
+-->
+
+### Identifying support for ECS
 
 Or what is being sent to the authoritative servers.
 
@@ -110,7 +179,7 @@ dig +short TXT whoami.ipv6.akahelp.net.
 dig +short TXT whoami.ipv4.akahelp.net.
 ```
 
-- Note: Cloudflare sends ECS only for whoami.ds.akahelp.net.
+- Note: Cloudflare sends ECS only for `whoami.ds.akahelp.net`, nowhere else.
 
 ## Mobile applications
 
