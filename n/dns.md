@@ -65,17 +65,16 @@ EDNS Client-Subnet is a DNS extension letting the authoritative nameserver know 
 
 _Android DoH3 option:_ `dns.google`
 
-> The distance of transmitted information. The longer the distance
-> the data must travel from the data centre to the end-user device,
-> the more energy the transmission consumes – regardless of the
-> transmission path used. Intercontinental transmission networks are
-> fundamentally very efficient. Transferring data from the United
-> States to Europe may consume a fraction of the energy compared to
+> [...] The longer the distance the data must travel from the data centre to
+> the end-user device, the more energy the transmission consumes –
+> regardless of the transmission path used. Intercontinental transmission
+> networks are fundamentally very efficient. Transferring data from the
+> United States to Europe may consume a fraction of the energy compared to
 > the last kilometre from the base station to the mobile phone.
 
 - [Green Code](https://www.exove.com/green-code/) ([pdf](https://www.exove.com/app/uploads/2023/09/Green-Code-v2.pdf) [txt](https://www.exove.com/app/uploads/2023/09/greencode-v2.txt))
 
-If you utilize services of internet giants or condent delivery networks, ECS will likely give you the shortest distance, highest speed and may help with decreasing your _digital carbon footprint_.
+If you utilize services of internet giants or condent delivery networks, ECS will likely give you [the shortest distance, the lowest latency, the highest speed](https://en.m.wikipedia.org/wiki/Edge_computing) and may help with decreasing your _digital carbon footprint_.
 
 If those matter to you, you may also like to consider [increasing your minimum TTL to around an hour in a local server](https://blog.apnic.net/2019/11/12/stop-using-ridiculously-low-dns-ttls/).
 
