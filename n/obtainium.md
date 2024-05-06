@@ -90,6 +90,8 @@ _Always exercise caution when installing apps, even from Google Play Store!_
 - `https://uptodown-android.en.uptodown.com/android`
   - Uptodown app store, pleasant interface and not so intrusive advertising
     as opposed to APK Pure. I would consider installing it for a family member, should they reach ??? apps outside of Play Store that it offers (such as AdGuard (which Google again dislikes), Telegram.org/Android...)
+- `https://lite-uptodown-app-store.en.uptodown.com/android`
+  - Lighter version for less powerful phones, thinking of you Android Go Edition, or certain other 8 GB memory phones. Additionally Google is stripped out of it.
 
 ## Other noteworthy apps:
 
