@@ -83,6 +83,7 @@ subnet size is up to your DNS resolver configuration.
     which is the most common way of getting IPv6 address in your local area
     network as opposed to IPv4 where you would have
     [Dynamic Host Configuration Protocol (DHCP)](https://en.m.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+    - Your router does get the IPv6 subnet assignment for LAN distributon by means of [DHCPv6 Prefix Delegation](https://en.wikipedia.org/wiki/Prefix_delegation) which is also common on mobile networks.
 
 ### Why to use ECS?
 
