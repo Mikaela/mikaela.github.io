@@ -145,7 +145,7 @@ _Android DoH3 option:_ [?](https://cs.android.com/android/platform/superproject/
 
 Do you want the benefits of ECS with the privacy and security of not having ECS? Private ECS is a compromise solution in the middle, although not without its own issues.
 
-Your private DNS provider will lie for you and say that your IP address is somewhere else where it will also place many others from your ISP. However what if it says you are a customer of another ISP, possibly even located in another country?
+Your private DNS provider will lie for you and say that your IP address is somewhere else where it will also place many others from your ISP. However what if it says you are a customer of another ISP, possibly even located in another country? It tends to have greater accuracy with IPv4 than IPv6, [see AdGuard Google Domains issue](https://adguard-dns.io/en/blog/dns-google-domains-fixed.html).
 
 In that case you may get even worse performance than without ECS. Then again if everything works properly, you will get the benefit of ECS without the privacy impact and lessened security impact.
 
