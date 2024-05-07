@@ -244,6 +244,14 @@ Then setup your web browser (including Firefox (other than stable which
 disables `about:config`) and Chrome) to use DNS over HTTPS with your preferred
 server and while at it enabling HTTPS only mode.
 
+Do other Android based OSes contain the special handling?
+
+- GrapheneOS: [yes](https://github.com/GrapheneOS/platform_packages_modules_DnsResolver/blob/13/PrivateDnsConfiguration.h)
+- LineageOS:
+  [yes](https://github.com/LineageOS/android_packages_modules_DnsResolver/blob/lineage-20.0/PrivateDnsConfiguration.h)
+  - /e/OS:
+    [yes](https://gitlab.e.foundation/e/os/android_packages_modules_DnsResolver/-/blob/v1-t/PrivateDnsConfiguration.h)
+
 ### [Rethink](https://github.com/celzero/rethink-app)
 
 **_NOTE!_** This pretends to be a VPN and thus breaks things depending on
