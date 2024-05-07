@@ -36,7 +36,7 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 
 - [DNS-OARC's Check My DNS](https://cmdns.dev.dns-oarc.net) - popup under "Network".
 - [dnsleaktest](https://dnsleaktest.com)
-- [whatsmydnsserver](http://www.whatsmydnsserver.com)
+- [whatsmydnsserver](https://www.whatsmydnsserver.com)
 - [ipleak.net](https://ipleak.net)
 - [dnsadblock](https://dnsadblock.com/dns-leak-test/)
 - [browserleaks.net/dns](https://browserleaks.net/dns)
