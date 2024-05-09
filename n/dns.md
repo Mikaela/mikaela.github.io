@@ -196,7 +196,25 @@ Then setup your web browser (including Firefox (other than stable which
 disables `about:config`) and Chrome) to use DNS over HTTPS with your preferred
 server and while at it enabling HTTPS only mode.
 
-Do other Android based OSes contain the special handling?
+At least `https://security.cloudflare-dns.com/dns-query` won't downgrade to
+system DNS resolver so
+[`malware.testcategory.com`](https://malware.testcategory.com) is blocked and
+that will hopefully affect other filtering DNS servers and actual malicious
+domains as well. Meanwhile
+[`nudity.testcategory.com`](https://nudity.testcategory.com) loads as expected
+outside of `https://family.cloudflare-dns.com/dns-query`.
+
+If testing Cloudflare, see also:
+
+- [1.1.1.1/help](https://one.one.one.one/help) for general troubleshooting
+- [help.teams.cloudflare.com](https://help.teams.cloudflare.com) for filtering
+  although it just sends you to
+  - [radar.cloudflare.com](https://radar.cloudflare.com) where
+    [IP](https://radar.cloudflare.com/ip) is worth checking too.
+- [speed.cloudflare.com](https://speed.cloudflare.com) for speed testing
+
+Do other Android based OSes contain the special handling of specific _Private
+DNS_ domains turning into DNS-over-HTTP/3?
 
 - GrapheneOS: [yes](https://github.com/GrapheneOS/platform_packages_modules_DnsResolver/blob/13/PrivateDnsConfiguration.h)
 - LineageOS:
