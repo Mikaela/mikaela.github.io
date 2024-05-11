@@ -184,7 +184,7 @@ dig +short TXT whoami-ecs.v4.powerdns.org.
 
 In my experience [DNS0.eu] tends to have better filtering and
 [reporting options](https://www.dns0.eu/report) than [Quad9], while [servers being located only in](https://www.dns0.eu/network) the
-[European Union]https://european-union.europa.eu/) is mildly problematic when your users start traveling
+[European Union](https://european-union.europa.eu) is mildly problematic when your users start traveling
 outside it either for work or leisure, which across continents tends to bring
 round-trips overseas. Additionally private ECS (see above) tends to be bad
 poor for IPv6 and for very small AS like a school, it directs to another side
@@ -195,9 +195,9 @@ having a <del>Twitter</del> X account](https://twitter.com/dns0eu)). [Quad9] als
 
 The end-users traveling outside of the EU is also solved as they [have servers all around the world](https://quad9.net/service/locations/).
 
-Back to [DNS0.eu], while disabling private ECS is not an option, they do have other options; [default filters](https://www.dns0.eu), [no filters](https://www.dns0.eu/open), [heavier filtering (zero)](https://www.dns0.eu/zero) and [kids](https://www.dns0.eu/kids)
+Back to [DNS0.eu], while disabling private ECS is not an option, they do have other options; [default filters](https://www.dns0.eu), [no filters](https://www.dns0.eu/open), [heavier filtering (zero)](https://www.dns0.eu/zero) and [kids](https://www.dns0.eu/kids).
 
-[DNS0]: https://www.dns0.eu
+[DNS0.eu]: https://www.dns0.eu
 [Quad9]: https://quad9.net
 
 ### Conclusion
@@ -208,11 +208,11 @@ As the size and confusion this page induces to anyone else than me shows, I have
   web browsers are free to choose the DoH server. If the device is not expected to travel far outside the EU, DNS0.eu may be a safe choice, otherwise Quad9.
   - As I have to support devices going outside of the EU, I lean towards Quad9.
 - iOS (or Apple in general): same question, do the devices travel outside of the EU? Both provide configuration profiles.
-  - While not noticing the DNS0.eu configuration profile is difficult, [Quad9 currently hides it a bit under docs.quad9.net iOS instructions](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_%28Encrypted%29/)
+  - While not noticing the DNS0.eu configuration profile is difficult, [Quad9 currently hides it a bit under docs.quad9.net iOS instructions](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_%28Encrypted%29/).
 - Personal computers: I have reached the cursed conclusion of [using Unbound upstreams DNS0 for IPv4, Quad9 ECS for IPv6](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/dot-dns0-quad9.conf) and [using the hosts file to point web browsers away from DNS0.eu IPv6](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/hosts/dns) using [IPv4 addresses expressed in IPv6]().
   - Especially the last part is cursed.
   - Yes, ECS has privacy concerns, however _theoretically_ it's only a fallback if IPv4 goes down (very rare, has happened for short periods of time in my experience), but the environment also weights my decision. See above on whether to ECS or not.
-    - I hope to offset the risks of ECS by [not allowing TTLs below an hour](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/min-ttl-hour.conf) so whether I have a tab open or not cannot be figured out from DNS traffic alone and somewhat relatedly [serve stale records if I must](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/expired-stale-serving-rfc8767.conf)
+    - I hope to offset the risks of ECS by [not allowing TTLs below an hour](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/min-ttl-hour.conf) so whether I have a tab open or not cannot be figured out from DNS traffic alone and somewhat relatedly [serve stale records if I must](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/expired-stale-serving-rfc8767.conf).
 - Personal servers: Personal preference, you could even use all of the DNS servers or be your own recursor. I again have small preference towards Quad9 ECS as titlefetching for unencrypted IRC connection is already open for mass surveillance and there is no telling who triggered a DNS query there anyway.
 - Business/association/enterprise/whatever device: there may be free political/regulational/bureaucratic/whatever brownie points for using DNS0.eu with the queries not being transmitted outside of the EU.
 
