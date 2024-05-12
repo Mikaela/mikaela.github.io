@@ -26,6 +26,7 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
   - [Identifying support for ECS](#identifying-support-for-ecs)
 - [[DNS0.eu] or [Quad9]?](#dns0eu-or-quad9)
   - [Conclusion](#conclusion)
+- [CLI applications](#cli-applications)
 - [Mobile applications](#mobile-applications)
   - [Android](#android)
   - [Rethink](#rethink)
@@ -236,6 +237,11 @@ policy enforces extensions that block malicious domains (such as µBlock Origin
 or AdNauseam) or even Google Safe Browsing.
 
 ---
+
+## CLI applications
+
+- `drill` gets often mentioned, Fedora has it in `ldns-utils`, so others
+  probably have it in similarly named packages.
 
 ## Mobile applications
 
