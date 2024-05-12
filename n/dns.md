@@ -22,6 +22,7 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
   - [Why to use ECS?](#why-to-use-ecs)
   - [Why to not use ECS?](#why-to-not-use-ecs)
   - [Why to use private ECS?](#why-to-use-private-ecs)
+  - [Is this a relevant question?](#is-this-a-relevant-question)
   - [Identifying support for ECS](#identifying-support-for-ecs)
 - [[DNS0.eu] or [Quad9]?](#dns0eu-or-quad9)
   - [Conclusion](#conclusion)
@@ -104,6 +105,9 @@ _Android DoH3 option:_ `dns.google`
 
 If you utilize services of internet giants or content delivery networks, ECS will likely give you [the shortest distance, the lowest latency, the highest speed](https://en.m.wikipedia.org/wiki/Edge_computing) and may help with decreasing your _digital carbon footprint_.
 
+_The above means GAFAM, if you don't use them in any form, there may not be a
+need for ECS._
+
 If those matter to you, you may also like to consider [increasing your minimum TTL to around an hour in a local server](https://blog.apnic.net/2019/11/12/stop-using-ridiculously-low-dns-ttls/).
 
 _Criticizers will ask whether changing your DNS server will save the world? No, fighting climate change takes much more, while some of it is small effortless tasks which effect cumulates. Anyway, keep reading._
@@ -135,7 +139,7 @@ Additionally researchers (below) have used it to perform cache poisoning against
 
 What domains do you use? What if someone far above you knew regardless of Encrypted Client-Hello?
 
-Are the domains you use DNSSEC-signed? Do you verify DNSSEC locally? Do you use HTTPS everywhere? Do you know to not accept warnings about certificate issues? Do the other (less technical) users of your network? Would you or them be a delicious target?
+Are the domains you use DNSSEC-signed? Do you verify DNSSEC locally? Do you use HTTPS everywhere? Do you know to not accept warnings about certificate issues? Do the other (less technical) users of your network? Would you or them be a delicious target? Do you even use GAFAM services?
 
 See also:
 
@@ -158,6 +162,14 @@ See also:
 - [NextDNS (Medium.com): How we made DNS both fast and private with ECS](https://medium.com/nextdns/how-we-made-dns-both-fast-and-private-with-ecs-4970d70401e5)
 - [AdGuard DNS: Privacy-friendly EDNS Client Subnet](https://adguard-dns.io/en/blog/privacy-friendly-edns-client-subnet.html)
 - [DNS0 Privacy Policy](https://www.dns0.eu/privacy)
+
+### Is this a relevant question?
+
+It's likely greener to just use adblocking DNS no matter where it is located,
+preferably on router level. I don't trust router/DHCP provided DNS and encrypt
+it on the end device anyway. And if something needs unfiltered access
+(AdNauseam?), give it DNS over HTTPS like all browsers and curl have the
+ability nowadays.
 
 ### Identifying support for ECS
 
@@ -215,6 +227,13 @@ As the size and confusion this page induces to anyone else than me shows, I have
     - I hope to offset the risks of ECS by [not allowing TTLs below an hour](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/min-ttl-hour.conf) so whether I have a tab open or not cannot be figured out from DNS traffic alone and somewhat relatedly [serve stale records if I must](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/expired-stale-serving-rfc8767.conf).
 - Personal servers: Personal preference, you could even use all of the DNS servers or be your own recursor. I again have small preference towards Quad9 ECS as titlefetching for unencrypted IRC connection is already open for mass surveillance and there is no telling who triggered a DNS query there anyway.
 - Business/association/enterprise/whatever device: there may be free political/regulational/bureaucratic/whatever brownie points for using DNS0.eu with the queries not being transmitted outside of the EU.
+
+This may also be a wrong approach entirely and it should just be an adblocking
+DNS as noted before.
+
+Additionally DNS filtering for web browsers may be irrelevant if browser
+policy enforces extensions that block malicious domains (such as µBlock Origin
+or AdNauseam) or even Google Safe Browsing.
 
 ---
 
