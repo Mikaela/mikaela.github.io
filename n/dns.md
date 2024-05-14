@@ -25,7 +25,6 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
   - [Is this a relevant question?](#is-this-a-relevant-question)
   - [Identifying support for ECS](#identifying-support-for-ecs)
 - [[DNS0.eu] or [Quad9]?](#dns0eu-or-quad9)
-  - [Conclusion](#conclusion)
 - [CLI applications](#cli-applications)
 - [Mobile applications](#mobile-applications)
   - [Android](#android)
@@ -111,8 +110,6 @@ need for ECS._
 
 If those matter to you, you may also like to consider [increasing your minimum TTL to around an hour in a local server](https://blog.apnic.net/2019/11/12/stop-using-ridiculously-low-dns-ttls/).
 
-_Criticizers will ask whether changing your DNS server will save the world? No, fighting climate change takes much more, while some of it is small effortless tasks which effect cumulates. Anyway, keep reading._
-
 ### Why to not use ECS?
 
 _Android DoH3 option:_ `cloudflare-dns.com`
@@ -136,6 +133,10 @@ it) even if you didn't see the advertisement itself.
 Some say _the less metadata is produced, the smaller incentive there is for
 starting collecting and monetizing it._
 
+This isn't even mentioning that the internet isn't a nice place or foreign
+advanced persistent threats or threat actors, who may not need a reason to
+attack you. [_CISA: Mitigating Cyber Threats with Limited Resources: Guidance for Civil Society_](https://www.cisa.gov/resources-tools/resources/mitigating-cyber-threats-limited-resources-guidance-civil-society)
+
 Additionally researchers (below) have used it to perform cache poisoning against an individual target directing them to a wrong location and with low TTL making it near impossible to audit later.
 
 What domains do you use? What if someone far above you knew regardless of Encrypted Client-Hello?
@@ -146,11 +147,13 @@ See also:
 
 - [_Understanding the Privacy Implications of ECS_](https://yacin.nadji.us/docs/pubs/dimva16_ecs.pdf)
 
-_Later I have been torn on whether the quote above is correct and helps
+<del>_Later I have been torn on whether the quote above is correct and helps
 decrease my digital climate footprint more or less than adblocking on DNS
 level, but what really put the scales towards ECS for me was late night GApple
 update that was keeping me from sleeping. So ECS is for busy people who want
-to sleep?_
+to sleep?_</del> _The CISA link above makes me question this the very next day
+considering I belong to gender and sexual minorities, Pirate Party of Finland,
+and everything..._
 
 ### Why to use private ECS?
 
@@ -158,9 +161,9 @@ _Android DoH3 option:_ [?](https://cs.android.com/android/platform/superproject/
 
 Do you want the benefits of ECS with the privacy and security of not having ECS? Private ECS is a compromise solution in the middle, although not without its own issues.
 
-Your private DNS provider will lie for you and say that your IP address is somewhere else where it will also place many others from your ISP. However what if it says you are a customer of another ISP, possibly even located in another country? It tends to have greater accuracy with IPv4 than IPv6, [see AdGuard Google Domains issue](https://adguard-dns.io/en/blog/dns-google-domains-fixed.html).
+Your private DNS provider will lie for you and say that your IP address is somewhere else where it will also place many others from your ISP. However what if it says you are a customer of another ISP, possibly even located in another country? It tends to have greater accuracy with IPv4 than IPv6, [see AdGuard Google Domains issue](https://adguard-dns.io/en/blog/dns-google-domains-fixed.html). What if no one else uses the same DNS server as you, especially from your ISP?
 
-In that case you may get even worse performance than without ECS. Then again if everything works properly, you will get the benefit of ECS without the privacy impact and lessened security impact.
+In that case you may <del>get even worse performance</del> be in even worse situation than without ECS. Then again if everything works properly, you will get the benefit of ECS without the privacy impact and lessened security impact.
 
 See the next section for testing "where you are." Consider also what is important for you if you had to pick one or two.
 
@@ -177,6 +180,8 @@ preferably on router level. I don't trust router/DHCP provided DNS and encrypt
 it on the end device anyway. And if something needs unfiltered access
 (AdNauseam?), give it DNS over HTTPS like all browsers and curl have the
 ability nowadays.
+
+Are you someone whom someone might want bad things to just for existing?
 
 ### Identifying support for ECS
 
@@ -219,6 +224,8 @@ Back to [DNS0.eu], while disabling private ECS is not an option, they do have ot
 [DNS0.eu]: https://www.dns0.eu
 [Quad9]: https://quad9.net
 
+<!--
+
 ### Conclusion
 
 As the size and confusion this page induces to anyone else than me shows, I have spent too much time thinking about DNS and related matters.
@@ -241,6 +248,8 @@ DNS as noted before.
 Additionally DNS filtering for web browsers may be irrelevant if browser
 policy enforces extensions that block malicious domains (such as µBlock Origin
 or AdNauseam) or even Google Safe Browsing.
+
+-->
 
 ---
 
