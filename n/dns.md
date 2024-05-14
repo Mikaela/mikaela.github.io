@@ -146,6 +146,12 @@ See also:
 
 - [_Understanding the Privacy Implications of ECS_](https://yacin.nadji.us/docs/pubs/dimva16_ecs.pdf)
 
+_Later I have been torn on whether the quote above is correct and helps
+decrease my digital climate footprint more or less than adblocking on DNS
+level, but what really put the scales towards ECS for me was late night GApple
+update that was keeping me from sleeping. So ECS is for busy people who want
+to sleep?_
+
 ### Why to use private ECS?
 
 _Android DoH3 option:_ [?](https://cs.android.com/android/platform/superproject/main/+/main:packages/modules/DnsResolver/PrivateDnsConfiguration.h)
