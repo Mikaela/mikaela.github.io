@@ -90,6 +90,13 @@ _See also simpler explanation at [PrivacyGuides.org DNS Overview](https://www.pr
     [Dynamic Host Configuration Protocol (DHCP)](https://en.m.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
     - Your router does get the IPv6 subnet assignment for LAN distribution by means of [DHCPv6 Prefix Delegation](https://en.m.wikipedia.org/wiki/Prefix_delegation) which is also common on mobile networks.
 
+If you are reading my personal notes (that being useful for you would bring me
+a bit of happiness), please note that **_I am somewhat indecisive and change
+the DNS resolver a lot (at least daily judging by my feelings), but do check
+the git log._**
+
+- [History of this page at GitHub](https://github.com/Mikaela/mikaela.github.io/commits/master/n/dns.md)
+
 ### Why to use ECS?
 
 _Android DoH3 option:_ `dns.google`
@@ -161,11 +168,11 @@ _Android DoH3 option:_ [?](https://cs.android.com/android/platform/superproject/
 
 Do you want the benefits of ECS with the privacy and security of not having ECS? Private ECS is a compromise solution in the middle, although not without its own issues.
 
-Your private DNS provider will lie for you and say that your IP address is somewhere else where it will also place many others from your ISP. However what if it says you are a customer of another ISP, possibly even located in another country? It tends to have greater accuracy with IPv4 than IPv6, [see AdGuard Google Domains issue](https://adguard-dns.io/en/blog/dns-google-domains-fixed.html). What if no one else uses the same DNS server as you, especially from your ISP?
+Your private DNS provider will lie for you and say that your IP address is somewhere else where it will also place many others from your ISP. However what if it says you are a customer of another ISP, possibly even located in another country? It tends to have greater accuracy with IPv4 than IPv6, [see AdGuard Google Domains issue](https://adguard-dns.io/en/blog/dns-google-domains-fixed.html). What if no one else uses the same DNS server as you, especially from your ISP? I guess you can always advocate your DNS provider so it could be someone else too (I couldn't)? If it works most of time, does that outweight the times it won't work? Is perfect the enemy of good enough?
 
 In that case you may <del>get even worse performance</del> be in even worse situation than without ECS. Then again if everything works properly, you will get the benefit of ECS without the privacy impact and lessened security impact.
 
-See the next section for testing "where you are." Consider also what is important for you if you had to pick one or two.
+See the next section for testing "where you are." Consider also what is important for you if you had to pick one or two from privacy, performance and climate.
 
 See also:
 
