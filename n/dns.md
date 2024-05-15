@@ -333,6 +333,17 @@ unless it's given permission to run in metered networks.
 1. Remember to also visit Android app details for Rethink, in battery menu
    select unrestricted and in network allow unlimited data even with data
    saver.
+1. I also have a suspicion that Android _Developer_ Setting `Always keep
+mobile data active` is interfering with Rethink as always-on VPN causing
+   connectivity issues or it not being sure whether "metered" or unmetered
+   network is being used.
+   1. The setting is enabled by default nowadays, to access it, go to about
+      phone and rapidly tap `Software build number`
+      (backtranslated to English from Finnish (like everything else (TODO:
+      check in English)).
+   1. Once you are a developer, `System Settings` (within `Settings`) should
+      have a new `Developer Settings` menu `Mobile data always active` is
+      under `Connection properties` section (which is above `Input`)
 
 Hopefully there is no situation where Rethink stops working and thinks it's
 still working. As can be deduced from this section, sometimes Rethink and I
