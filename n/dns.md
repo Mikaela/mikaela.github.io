@@ -29,6 +29,7 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 - [Mobile applications](#mobile-applications)
   - [Android](#android)
   - [Rethink](#rethink)
+    - [Using Obtainium with APKPure/Aegon](#using-obtainium-with-apkpureaegon)
   - [FFUpdater](#ffupdater)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -355,6 +356,26 @@ mobile data active` is interfering with Rethink as always-on VPN causing
 Hopefully there is no situation where Rethink stops working and thinks it's
 still working. As can be deduced from this section, sometimes Rethink and I
 disagree with each other. _I don't guarantee I know what I am doing._
+
+#### Using Obtainium with APKPure/Aegon
+
+I think a few of the blocklists in Rethink are blocking apkpure's domain
+breaking Obtainium and their official app and the steps to fix that are:
+
+1. Use a DNS server that doesn't have the block (`https://open.dns0.eu/` or
+   `https://unfiltered.adguard-dns.com/dns-query` if private ECS is
+   desirable?)
+1. Select `Apps` in Rethink's main screen (the biggest button below `Proxy`
+   and `Logs`.
+1. Search for `Obtainium` or `APKPure` and select it.
+1. Select `Domain Rules`.
+1. Select the floating `+` from bottom right.
+1. Select Wildcard, enter `*.winudf.com` and select `Trust`.
+1. Select `Okay` and now Obtainium/APKPure should work assuming no DNS is
+   blocking it (check the logs).
+
+The `Trust` could also be set globally, but what business does any other app
+have for that domain?
 
 ### [FFUpdater](https://github.com/Tobi823/ffupdater)
 
