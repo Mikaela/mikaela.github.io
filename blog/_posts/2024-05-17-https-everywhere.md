@@ -28,6 +28,7 @@ for those is the official documentation (bottom of the page).
 - [Chromium](#chromium)
   - [DNS-over-HTTPS](#dns-over-https)
 - [Firefox](#firefox)
+  - [DNS-over-HTTPS](#dns-over-https-1)
 - [Documentation and other policies](#documentation-and-other-policies)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -79,6 +80,7 @@ a matter of creating a json file there, e.g.
 
 ```json
 {
+  "EncryptedClientHelloEnabled": true,
   "HttpsOnlyMode": "force_enabled",
   "HttpsUpgradesEnabled": true
 }
@@ -91,6 +93,19 @@ running, click `Update policies`) and you are done. Try visiting
 Of course the user can still navigate there, but HTTPS Everywhere the
 extension had that behaviour too and there is likely a separate policy for
 that.
+
+_EncryptedClientHello was added here some hours after publishing the article
+alongside with Firefox DNS-over-HTTPS. See the bottom of page for changelog
+link._
+
+To put `EncryptedClientHello` simply, it will hide which domain you are
+requesting from https capable web server, which may be serving multiple
+domains when DNS-Over-HTTPS is used (browser restriction, not ECH), while
+generally the query for `example.net` would go in plaintext alongside _Server
+Name Indication_.
+
+It's good for your privacy, bad for enterprise network admin or those willing
+to perform censorship.
 
 ### DNS-over-HTTPS
 
@@ -162,6 +177,7 @@ editor and have contents similar to:
 ```json
 {
   "policies": {
+    "DisableEncryptedClientHello": false,
     "Preferences": {
       "dom.block_download_insecure": {
         "Status": "locked",
@@ -183,6 +199,58 @@ change, `about:config` should display the two preferences as grayed out and
 within settings HTTPS-Only mode is used in all windows and grayed out.
 
 An easy test is again [http.badssl.com](http://http.badssl.com).
+
+### DNS-over-HTTPS
+
+_This section was edited in afterwards some hours after the publishing. Refer
+to the log link on the bottom for more information._
+
+Like Chromium, Firefox also supports DoH, although here it must be in the
+same `/etc/firefox/policies/policies.json` file as before. It's simply appended
+(or prepended) a bit:
+
+```json
+{
+  "policies": {
+    "DNSOverHTTPS": {
+      "Enabled": true,
+      "Fallback": false,
+      "Locked": true,
+      "ProviderURL": "https://dns.quad9.net/dns-query"
+    },
+    "DisableEncryptedClientHello": false,
+    "Preferences": {
+      "dom.block_download_insecure": {
+        "Status": "locked",
+        "Type": "boolean",
+        "Value": true
+      },
+      "dom.security.https_only_mode": {
+        "Status": "locked",
+        "Type": "boolean",
+        "Value": true
+      }
+    }
+  }
+}
+```
+
+The new sections are also quite self-explanatory with boolean `true` or `false`
+values.
+
+- Is DoH enabled by default?
+- Is it OK to automatically use system resolver if the DoH server doesn't
+  work? (There is a similar warning as with HTTPS only mode even if this was
+  `false` like in the example.)
+- Is the user allowed to change these options (including which DoH server (if
+  any) they want to use) or are they grayed out? I like locking it so I don't
+  have to worry where else I may have configured it.
+- Which URL is used for queries? I am under impression that unlike with
+  Chromium, multiple addresses aren't allowed here.
+
+_I have a temptation to also write about preferring IPv6 connections through
+DoH in Firefox, but that would be even more off-topic and this page already
+provides all the examples and links interested reader would need for that._
 
 ## Documentation and other policies
 
@@ -209,5 +277,9 @@ complaining about all the nice settings being hidden in browser policy.
   - [Deploying uBlock Origin](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin) and [deploying uBlock Origin configuration](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin:-configuration)
     - These also apply to [AdNauseam](https://adnauseam.io/), just change the
       extension ID in your policy.
+- Possibly helpful Wikipedia articles:
+  - [HTTPS Everywhere](https://en.m.wikipedia.org/wiki/HTTPS_Everywhere)
+  - [DNS-over-HTTPS](https://en.m.wikipedia.org/wiki/DNS_over_HTTPS)
+  - [Server Name Indication & Encrypted Client-Hello](https://en.m.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello)
 
 [_GitHub commits for this page._](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2024-05-17-https-everywhere.md)
