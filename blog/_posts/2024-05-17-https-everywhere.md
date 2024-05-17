@@ -198,7 +198,10 @@ complaining about all the nice settings being hidden in browser policy.
     have a bit too many extensions and all..._
 - The official documentation:
   - [mozilla.github.io/policy-templates](https://mozilla.github.io/policy-templates/)
-  - [chromeenterprise.google/policies/](https://chromeenterprise.google/policies/)
+    - [LibreAwoo policies.json could be mentioned here as well](https://codeberg.org/librewolf/settings/src/branch/master/distribution/policies.json)
+  - [chromeenterprise.google/policies/](https://chromeenterprise.google/policies/) mostly also applies to Chromium based browsers, who may have their own additions:
+    - [Brave group policy](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)
+    - [Microsoft Edge policy documentation](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)
 - Other documentation that may be interesting:
   - [Ecosia as default search engine through Group Policy](https://ecosia.helpscoutdocs.com/article/487-windows-group-policy-guides)
   - [Privacy Badger enterprise deployment and configuration](https://github.com/EFForg/privacybadger/blob/master/doc/admin-deployment.md)
@@ -206,3 +209,5 @@ complaining about all the nice settings being hidden in browser policy.
   - [Deploying uBlock Origin](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin) and [deploying uBlock Origin configuration](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin:-configuration)
     - These also apply to [AdNauseam](https://adnauseam.io/), just change the
       extension ID in your policy.
+
+[_GitHub commits for this page._](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2024-05-17-https-everywhere.md)
