@@ -101,7 +101,7 @@ link._
 
 To put `EncryptedClientHello` simply, it will hide which domain you are
 requesting from https capable web server, which may be serving multiple
-domains when DNS-Over-HTTPS is used (browser restriction, not ECH), while
+domains when DNS-Over-HTTPS is used ([Chromium restriction](https://issues.chromium.org/issues/40935452)), while
 generally the query for `example.net` would go in plaintext alongside _Server
 Name Indication_.
 
@@ -149,7 +149,7 @@ Firefox is a bit more complicated in the sense that everything belongs to one
 `policies.json` file, so there is no separating different policies to
 different files _and_ there is no direct policy for HTTPS-only mode.
 
-_**WARNING for [LibreAwoo](https://librewolf.net/) users**_! [This will mask LibreWolf's policy](https://codeberg.org/librewolf/issues/issues/1767)
+_**WARNING for [LibreAwoo](https://librewolf.net/) users**_! [This will mask LibreAwoo's policy](https://codeberg.org/librewolf/issues/issues/1767)
 (`/usr/share/librewolf/distribution/policies.json`,
 [codeberg](https://codeberg.org/librewolf/settings/src/branch/master/distribution/policies.json)),
 so make sure to copy the parts you wish to use before applying this (although
@@ -249,9 +249,13 @@ values.
 - Which URL is used for queries? I am under impression that unlike with
   Chromium, multiple addresses aren't allowed here.
 
-_I have a temptation to also write about preferring IPv6 connections through
-DoH in Firefox, but that would be even more off-topic and this page already
-provides all the examples and links interested reader would need for that._
+_Have you seen a note about temptation to write about IPv6 here? Perhaps you
+are looking for `network.dns.preferIPv6` and `network.trr.early-AAAA`?_
+
+**Updated note on Firefox ECH:** DNS-Over-HTTPS is no longer required for ECH,
+since `network.dns.native_https_query` exists (if you aren't using ESR
+branch on version 115). You should already know how to enable it if you have
+read this far :smirk_cat:
 
 ## Documentation and other policies
 
