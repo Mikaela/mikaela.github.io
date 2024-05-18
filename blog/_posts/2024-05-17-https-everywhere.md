@@ -3,6 +3,10 @@ layout: post
 title: "HTTPS Everywhere through browser policy"
 category: [english]
 tags: [firefox, chromium, browsers, browser, policy]
+redirect_from:
+  - /https-everywhere.html
+  - /httpseverywhere.html
+  - /https.html
 ---
 
 _I used to be sad since the EFF discontinued HTTPS Everywhere extension since the setting often didn't sync and it only applied to me as opposed to everyone using a shared computer. However since I have dived into browser policies, this is no longer an issue for me._
