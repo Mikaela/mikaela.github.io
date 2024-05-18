@@ -5,10 +5,7 @@ category: [english]
 tags: [firefox, chromium, browsers, browser, policy]
 ---
 
-_I used to be sad since the EFF discontinued HTTPS Everywhere extension since
-the setting often didn't sync and it only applied to me as opposed to everyone
-using a shared computer. However since I have dived into browser policies,
-this is no longer an issue for me._
+_I used to be sad since the EFF discontinued HTTPS Everywhere extension since the setting often didn't sync and it only applied to me as opposed to everyone using a shared computer. However since I have dived into browser policies, this is no longer an issue for me._
 
 I will be referring to my [shell-things](https://gitea.blesmrt.net/mikaela/shell-things/) repository a lot, particularly
 `etc/`, in case the link rots in the future, chances are my git forges still
