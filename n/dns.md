@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/dns.html
 redirect_from:
   - /n/ffupdater.html

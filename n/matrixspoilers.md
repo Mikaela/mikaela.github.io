@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/matrixspoilers.html
 redirect_from:
   - n/nheko.html

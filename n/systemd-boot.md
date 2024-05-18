@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/systemd-boot.html
 redirect_from:
   - /n/systemd-bootd.html

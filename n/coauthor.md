@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/coauthor.html
 sitemap: false
 ---

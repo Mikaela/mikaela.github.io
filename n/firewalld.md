@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/firewalld.html
 redirect_from:
   - /n/firewall-cmd.html

@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/fairbuds.html
 redirect_from:
   - /n/fairbudsxl.html

@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /r/janika.html
 sitemap: false
 ---

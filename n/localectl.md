@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/localectl.html
 redirect_from:
   - /locale.html

@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /r/sdwikipediatr.html
 redirect_from:
   - /r/sdtr.wikipedia.html

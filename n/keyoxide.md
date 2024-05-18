@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/keyoxide.html
 redirect_from: /n/keyoxide-flutter.html
 sitemap: false

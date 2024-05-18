@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/telia.html
 redirect_from: /r/telia.html
 sitemap: false

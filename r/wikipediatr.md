@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 redirect_to: https://tr.wikipedia-on-ipfs.org/wiki/
 permalink: /r/wikipediatr.html
 redirect_from:

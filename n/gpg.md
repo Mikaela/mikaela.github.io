@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/gpg.html
 redirect_from:
   - /r/gpg.html

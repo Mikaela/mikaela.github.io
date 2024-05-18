@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/f-droid.html
 redirect_from: /n/fdroid.html
 sitemap: false

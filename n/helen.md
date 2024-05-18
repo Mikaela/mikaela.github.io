@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/helen.html
 sitemap: false
 month: 02 of 2023

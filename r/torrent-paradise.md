@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /r/torrent-paradise.html
 redirect_from:
   - /r/torrentparadise.html

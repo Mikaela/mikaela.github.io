@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/vowifi.html
 redirect_from:
   - /r/vowifi.html

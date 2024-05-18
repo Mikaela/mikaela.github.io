@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /r/sdwikipedia.html
 redirect_from:
   - /r/sden.wikipedia.html

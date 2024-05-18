@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/yrityskone.html
 redirect_from: /r/yrityskone.html
 sitemap: false

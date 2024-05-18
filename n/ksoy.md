@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/ksoy.html
 sitemap: false
 month: "11/2022"

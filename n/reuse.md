@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/reuse.html
 sitemap: false
 email: "suomalainen+git@mikaela.info"

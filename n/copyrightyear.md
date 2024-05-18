@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/ćopyrightyear.html
 redirect_from:
   - /n/copyright.html

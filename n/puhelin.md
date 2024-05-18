@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/puhelin.html
 redirect_from:
   - /r/puhelin.html

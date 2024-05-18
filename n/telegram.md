@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /n/telegram.html
 redirect_from: /r/telegram.html
 sitemap: false
