@@ -255,7 +255,7 @@ are looking for `network.dns.preferIPv6` and `network.trr.early-AAAA`?_
 **Updated note on Firefox ECH:** DNS-Over-HTTPS is no longer required for ECH,
 since `network.dns.native_https_query` exists (if you aren't using ESR
 branch on version 115). You should already know how to enable it if you have
-read this far :smirk_cat:
+read this far 😼
 
 ## Documentation and other policies
 
