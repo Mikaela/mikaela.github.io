@@ -5,5 +5,24 @@ sitemap: true
 excerpt: "404, not found, don't bother clicking..."
 ---
 
-Page or file that you tried to reach doesn't appear to exist. Try checking
-the URL for spelling mistakes or [return to index.](/)
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Guesses what you might have been looking for?](#guesses-what-you-might-have-been-looking-for)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
+Sorry, whatever you were looking for, is not here.
+
+## Guesses what you might have been looking for?
+
+- [The index](/)?
+- [Something about Matrix](/matrix/index.html)?
+- [Onions](https://gitea.blesmrt.net/mikaela/ormirror) or [garlics](https://gitea.blesmrt.net/mikaela/i2pmirror)?
+- [My blog](/blog/index.html)?
