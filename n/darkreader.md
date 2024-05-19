@@ -10,7 +10,7 @@ sitemap: false
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [[Links to Dark Reader]Dark Reader](#links-to-dark-readerdark-reader)
+- [Links to Dark Reader](#links-to-dark-reader)
 - [Configuration for the new interface](#configuration-for-the-new-interface)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -18,7 +18,7 @@ sitemap: false
 <!-- prettier-ignore-end -->
 <!-- editorconfig-checker-enable -->
 
-## [Links to Dark Reader][Dark Reader](https://github.com/darkreader/darkreader)
+## [Links to Dark Reader](https://github.com/darkreader/darkreader)
 
 - [Firefox](https://addons.mozilla.org/firefox/addon/darkreader/)
 - [Chrome](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh/)
