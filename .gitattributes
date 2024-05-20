@@ -12,12 +12,15 @@
 *.{md,markdown} diff=markdown
 
 # These don't feel like mine
-.github/** text=auto -linguist-detectable
-css/** text=auto -linguist-detectable
-_data/** text=auto -linguist-detectable
-_includes/** text=auto -linguist-detectable
-_layouts/** text=auto -linguist-detectable
-_sass/** text=auto -linguist-detectable
+.github/** text=auto -linguist-detectable linguist-vendored
+css/** text=auto -linguist-detectable linguist-vendored
+_data/** text=auto -linguist-detectable linguist-vendored
+_includes/** text=auto -linguist-detectable linguist-vendored
+_layouts/** text=auto -linguist-detectable linguist-vendored
+_sass/** text=auto -linguist-detectable linguist-vendored
+# automagic
+package.json text -linguist-detectable linguist-vendored
+pnpm-lock.yaml -linguist-detectable linguist-vendored
 
 # Unnecessary for statistics
 Gemfile text linguist-vendored
