@@ -3,10 +3,10 @@
   {% include head.html %}
 
   <body>
-    {% include ad.html %} {% include header.html %}
+    {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">{{ content }}</div>
+      <div class="wrapper">{% include ad.html %} {{ content }}</div>
     </div>
   </body>
 </html>
