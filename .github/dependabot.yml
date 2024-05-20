@@ -26,6 +26,15 @@ updates:
       interval: "daily"
       timezone: "Europe/Helsinki"
     groups:
-      github-actions:
+      gitsubmodule:
+        patterns:
+          - "*"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      npm:
         patterns:
           - "*"
