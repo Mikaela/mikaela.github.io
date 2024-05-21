@@ -14,11 +14,15 @@ $base-line-height: 1.5;
 
 $spacing-unit: 30px;
 
-$text-color: #111;
-$background-color: #fdfdfd;
-$brand-color: #2a7ae2;
+$text-color: revert;
+//#111;
+$background-color: revert;
+//#fdfdfd;
+$brand-color: revert;
+//#2a7ae2;
 
-$grey-color: #828282;
+$grey-color: revert;
+//#828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
 
@@ -49,7 +53,8 @@ $on-laptop: 800px;
   margin-left: auto;
   margin-right: auto;
   width: 6em;
-  border: 1px solid black;
+  border: 1px solid;
+//black;
 }
 
 // This is the short bio in the index and all my profiles
@@ -70,26 +75,30 @@ $on-laptop: 800px;
 .irclog {
   white-space: pre-wrap;
   font-size: 15px;
-  border: 1px solid $grey-color-light;
+  border: 1px solid;
+// $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: revert;
+//#eef;
 }
 
 // Tables belong to CSS, make the HTML5 validator happy
 table,
 td,
 th {
-  border: 1px solid black;
+  border: 1px solid;
+//black;
 }
 
 // Trying to make images look a little better
 img {
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
+  border: 1px solid; 
+//black;
 }
 
 // Also in index, hidden text
-#cake {
-  color: rgba(0, 0, 0, 0);
-}
+//#cake {
+//  color: rgba(0, 0, 0, 0);
+//}
