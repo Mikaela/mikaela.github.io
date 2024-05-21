@@ -23,8 +23,10 @@ $brand-color: revert;
 
 $grey-color: revert;
 //#828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark: darken($grey-color, 25%);
+$grey-color-light: revert;
+//lighten($grey-color, 40%);
+$grey-color-dark: revert;
+//darken($grey-color, 25%);
 
 // Width of the content area
 $content-width: 800px;
