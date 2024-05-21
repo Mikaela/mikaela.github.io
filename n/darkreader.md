@@ -1,6 +1,7 @@
 ---
 layout: mini
 permalink: /n/darkreader.html
+redirect_from: /n/opendyslexic.html
 sitemap: false
 ---
 
@@ -39,9 +40,11 @@ sitemap: false
 
 - <del>Change font: yes</del>
 - <del>Font name: `OpenDyslexic` or `Comic Shanns Mono`</del>
-  - <del>May require disabling fingerprinting protection. Consider also
-    [OpenDyslexic extension](https://github.com/OpenDyslexic/extension)
-    which again is incompatible with font changing.</del>
+  - Consider the [OpenDyslexic extension](https://github.com/OpenDyslexic/extension),
+    while it's incompatible with the "change font feature" and the
+    highlighting for currently read text won't work. Additionally it
+    **_requires Firefox standard tracking protection_** or it won't do
+    anything.
 
 <del>In _Settings_ there is additionally _Detect dark theme_ option which is nice,
 but again disables font changing.<del>
