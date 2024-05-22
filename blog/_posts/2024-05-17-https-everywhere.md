@@ -257,6 +257,8 @@ since `network.dns.native_https_query` exists (if you aren't using ESR
 branch on version 115). You should already know how to enable it if you have
 read this far 😼
 
+**_SEQUEL ANNOUNCEMENT!_** [Part Ⅱ: Browser policies Ⅱ: Deploying PrivacyBadger and uBlock Origin]({% post_url blog/2024-05-22-policy-contentblocker %}) is now online!
+
 ## Documentation and other policies
 
 In case you have talked with me recently, chances are you have heard me
