@@ -55,16 +55,16 @@ There is also the EFF DNT allowlist which was introduced to me by [AdNauseam]. Y
 
 Onwards to [PrivacyBadger], the ID again comes from Chrome Web Store URL `https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp` and the settings are clear on what they do. If they are removed, it's up to the default value or user configuration what will happen.
 
-This configuration will simply always set these options on browser start:
+This [PrivacyBadger] configuration will simply always set these options on browser start:
 
-- check if the domain has a [`.well-known/dnt-policy.txt`](https://www.eff.org/dnt-policy) and if so, won't block it.
-- configures the domains that are allowed to perform tracking/disrespect DNT. While here it's the same as with uBlock Origin, in my actual policies I allowlist domains more freely in uBlock Origin than [PrivacyBadger].
-- [**_WARNING! May make you more trackable_**](https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better) Same as below, but in incognito mode.
-- [**_WARNING! May make you more trackable_**](https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better) [PrivacyBadger] has rare ability to learn who tracks you without having to ask anywhere else, so with this enabled, it may block something before it gets added to either the premade list or something uBlock Origin has.
-- Whether or not to configure the web browser to send Do Not Track and Global Privacy Control signals.
-- Whether to display the number of blocked trackers in the [PrivacyBadger] icon.
-- Whether or not to display the welcome to PrivacyBadger screen on start. In general having less displayed automatically on browser start is a good thing, and if you set this to `true`, [PrivacyBadger] would greet you every browser start and I bet you would get annoyed quickly.
-- Whether to display social media embeds directly or replace them with a notice on how [PrivacyBadger] has blocked them from tracking you with the menu options on what to do.
+- `"checkForDNTPolicy": true` check if the domain has a [`.well-known/dnt-policy.txt`](https://www.eff.org/dnt-policy) and if so, won't block it.
+- `"disabledSites": []` configures the domains that are allowed to perform tracking/disrespect DNT. While here it's the same as with uBlock Origin, in my actual policies I allowlist domains more freely in uBlock Origin than [PrivacyBadger].
+- `"learnInIncognito": true` [**_WARNING! May make you more trackable_**](https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better) Same as below, but in incognito mode.
+- `"learnLocally": true` [**_WARNING! May make you more trackable_**](https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better) [PrivacyBadger] has rare ability to learn who tracks you without having to ask anywhere else, so with this enabled, it may block something before it gets added to either the premade list or something uBlock Origin has.
+- `"sendDNTSignal": true` Whether or not to configure the web browser to send Do Not Track and Global Privacy Control signals.
+- `"showCounter": true` Whether to display the number of blocked trackers in the [PrivacyBadger] icon.
+- `"showIntroPage": false` Whether or not to display the welcome to PrivacyBadger screen on start. In general having less displayed automatically on browser start is a good thing, and if you set this to `true`, [PrivacyBadger] would greet you every browser start and I bet you would get annoyed quickly.
+- `"socialWidgetReplacementEnabled": true` Whether to display social media embeds directly or replace them with a notice on how [PrivacyBadger] has blocked them from tracking you with the menu options on what to do.
 
 Now the only thing to do remains actually installing the extension.
 
@@ -152,7 +152,7 @@ Let's begin by what differs from Chromium:
 - The extension ID is most easily readable from `about:support` instead of addon URL.
 - We can sideload the extension, although that won't affect Firefox sync.
 - It's a lot easier to figure out what extension a block belongs to as the names appear here.
-- While there is no `ExtensionManifestV2Availability`, there are domains protected by default that we could unset.
+- While there is no `ExtensionManifestV2Availability`, there are domains protected by default (`extensions.webextensions.restrictedDomains`) that we could unset.
 
 _Oh meow, no more json!_ I am sorry.
 
@@ -249,7 +249,7 @@ Doesn't that look familiar? Yes, it's practically the same file [from part Ⅰ](
 
 Well, in uBlock Origin I did add the Mozilla/Firefox domains to avoid breakage and in the end I removed the extra protection those sites would have from extensions which would permit tracking by Mozilla. However, [PrivacyBadger] would still protect from that while being less likely to break.
 
-_Would you like to restore the protection for Mozilla pages? Replace the `user` with `clear` so it will be restored to default value while `user` persists even if the lines are removed as they appear as if the user had changed them in `about:config`._
+_Would you like to restore the protection for Mozilla pages? Replace the `user` in `status` of `extensions.webextensions.restrictedDomains {}` with `clear` so it will be restored to default value while `user` persists even if the lines are removed as they appear as if the user had changed them in `about:config`._
 
 ## Answers to potential questions
 
