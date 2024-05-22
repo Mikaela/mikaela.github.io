@@ -56,7 +56,7 @@ $on-laptop: 800px;
   margin-right: auto;
   width: 6em;
   border: 1px solid;
-//black;
+  //black;
 }
 
 // This is the short bio in the index and all my profiles
@@ -78,10 +78,10 @@ $on-laptop: 800px;
   white-space: pre-wrap;
   font-size: 15px;
   border: 1px solid;
-// $grey-color-light;
+  // $grey-color-light;
   border-radius: 3px;
   background-color: revert;
-//#eef;
+  //#eef;
 }
 
 // Tables belong to CSS, make the HTML5 validator happy
@@ -89,15 +89,15 @@ table,
 td,
 th {
   border: 1px solid;
-//black;
+  //black;
 }
 
 // Trying to make images look a little better
 img {
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid; 
-//black;
+  border: 1px solid;
+  //black;
 }
 
 // Also in index, hidden text
