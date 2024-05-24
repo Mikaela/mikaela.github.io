@@ -105,7 +105,8 @@ h6 {
  */
 a {
   color: $brand-color;
-  text-decoration: none;
+  //text-decoration: none;
+  text-decoration: underline;
 
   &:visited {
     color: revert;
