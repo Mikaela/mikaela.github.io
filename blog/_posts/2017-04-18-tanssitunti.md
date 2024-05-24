@@ -5,6 +5,7 @@ title: "Tanssitunti"
 category: [finnish]
 tags: [finnish, life, Kotka, keskuskoulu, talvi, liikunta]
 redirect_from: /finnish/2017/04/18/tanssitunti.html
+published: false
 ---
 
 _Minusta tuntuu, että tästä pitäisi kirjoittaa nyt ja koska git/blogi ei
