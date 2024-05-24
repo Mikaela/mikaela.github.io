@@ -140,7 +140,9 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
+  //font-size: 15px;
+  font-size: revert;
+  font-family: $monospace-font-family;
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;
