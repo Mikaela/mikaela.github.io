@@ -49,6 +49,20 @@ $on-laptop: 800px;
   }
 }
 
+// As high in css as can be edited
+:root {
+  color-scheme: light dark;
+}
+
+// This is the missing content blocker detection
+.ftf-dma-note {
+  // It doesn't want to turn dark and still uses text colors more suitable
+  // for dark.
+  color-scheme: only light;
+  //display: block !important;
+  //pointer-events: all !important;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base", "layout", "syntax-highlighting";
 
