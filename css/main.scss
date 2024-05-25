@@ -49,9 +49,11 @@ $on-laptop: 800px;
   }
 }
 
-// As high in css as can be edited
+// As high in css as can be edited. If I understand correctly, user
+// preference will take priority over this, but if the user hasn't expressed
+// it, this will make dark default.
 :root {
-  color-scheme: light dark;
+  color-scheme: dark light;
 }
 
 // This is the missing content blocker detection
