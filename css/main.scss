@@ -8,27 +8,6 @@
 $base-font-family: "Liberation Serif", "Tinos", "Times New Roman", serif;
 $monospace-font-family: "Liberation Mono", "Cousine", "Courier New", monospace;
 //$base-font-family: "Liberation Sans", "Arimo", "Arial", sans-serif;
-//$base-font-size: 16px;
-$base-font-size: revert;
-//$small-font-size: $base-font-size * 0.875;
-$small-font-size: revert;
-$base-line-height: 1.5;
-
-$spacing-unit: 30px;
-
-$text-color: revert;
-//#111;
-$background-color: revert;
-//#fdfdfd;
-$brand-color: revert;
-//#2a7ae2;
-
-$grey-color: revert;
-//#828282;
-$grey-color-light: revert;
-//lighten($grey-color, 40%);
-$grey-color-dark: revert;
-//darken($grey-color, 25%);
 
 // Width of the content area
 $content-width: 800px;
@@ -36,24 +15,20 @@ $content-width: 800px;
 $on-palm: 600px;
 $on-laptop: 800px;
 
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
+@import "{{ site.theme }}";
 
 // As high in css as can be edited. If I understand correctly, user
 // preference will take priority over this, but if the user hasn't expressed
 // it, this will make dark default.
 :root {
-  color-scheme: dark light;
+  color-scheme: dark light !important;
+}
+
+// Revert to defaults
+* {
+  color: revert !important;
+  text-color: revert !important;
+  background-color: revert !important;
 }
 
 // Overrides for dark themes
@@ -140,8 +115,3 @@ img {
   border: 1px solid;
   //black;
 }
-
-// Also in index, hidden text
-//#cake {
-//  color: rgba(0, 0, 0, 0);
-//}
