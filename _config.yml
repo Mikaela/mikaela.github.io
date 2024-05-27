@@ -12,6 +12,16 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "https://www.aminda.eu" # the base hostname & protocol for your site
 url: "https://aminda.eu" # the base hostname & protocol for your site
 
+codeberg_username: Mikaela
+github_username: Mikaela
+linkedin_username: Aminda-eu
+mastodon:
+  username: Aminda
+  instance: sauna.social
+rss: Blog
+keybase_username: Mikaela
+telegram_username: AmindaEU
+
 # Build settings
 markdown: kramdown
 theme: minima
