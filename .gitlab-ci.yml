@@ -11,7 +11,7 @@ cache:
     - ${CI_PROJECT_DIR}/bundle
 
 before_script:
-  - apk add --no-cache ruby ruby-dev ruby-bundler make gcc g++ musl-dev
+  - apk add --no-cache ruby ruby-dev ruby-bundler make gcc g++ musl-dev build-base libffi-dev libxml2-dev
   - bundle install
 
 test:
