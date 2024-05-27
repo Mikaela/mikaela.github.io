@@ -9,12 +9,6 @@ $base-font-family: "Liberation Serif", "Tinos", "Times New Roman", serif;
 $monospace-font-family: "Liberation Mono", "Cousine", "Courier New", monospace;
 //$base-font-family: "Liberation Sans", "Arimo", "Arial", sans-serif;
 
-// Width of the content area
-$content-width: 800px;
-
-$on-palm: 600px;
-$on-laptop: 800px;
-
 @import "{{ site.theme }}";
 
 // As high in css as can be edited. If I understand correctly, user
@@ -29,6 +23,15 @@ $on-laptop: 800px;
   color: revert !important;
   text-color: revert !important;
   background-color: revert !important;
+}
+
+// Fitting to text and monospace preferred
+code {
+  font-size: 0.8em !important;
+}
+code,
+pre {
+  font-family: $monospace-font-family !important;
 }
 
 // Overrides for dark themes
@@ -62,9 +65,6 @@ $on-laptop: 800px;
     border: 1px solid #000000 !important;
   }
 }
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "layout", "syntax-highlighting";
 
 // This is used in the index
 #avatar {
