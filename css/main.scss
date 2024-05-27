@@ -61,8 +61,14 @@ $on-laptop: 800px;
   // Adblocker detection)
   .ftf-dma-note {
     color-scheme: only dark !important;
-    color: #ffb700 !important;
-    background-color: #000000 !important;
+    color: #ffffff !important;
+    background-color: #1c1b22 !important;
+  }
+  .site-nav {
+    color-scheme: only dark !important;
+    color: #ffffff !important;
+    background-color: #1c1b22 !important;
+    border: 1px solid #ffffff !important;
   }
 }
 
@@ -73,6 +79,12 @@ $on-laptop: 800px;
     color-scheme: only light !important;
     color: #000000 !important;
     background-color: #ffffff !important;
+  }
+  .site-nav {
+    color-scheme: only light !important;
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #000000 !important;
   }
 }
 
