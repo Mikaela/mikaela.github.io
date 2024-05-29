@@ -3,16 +3,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow, noai">
-  <link rel="icon" href="{{site.icon}}">
+  <link rel="icon prefetch" href="{{site.icon}}">
   <title>{% if page.title %}{{ page.title }} ~~ {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | nstrip_html | strip_newlines }}{% endif %}">
-  <link rel="me" href="{{ site.url }}" />
+  <link rel="me prefetch" href="{{ site.url }}" />
 
   <link rel="openid.delegate" href="https://aminda.eu/" />
   <link rel="openid.server" href="https://openid.indieauth.com/openid" />
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet prefetch" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical prefetch" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/blog/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - in English" href="{{ "/blog/feed.en.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - Suomeksi" href="{{ "/blog/feed.fi.xml" | prepend: site.baseurl | prepend: site.url }}" />
@@ -32,5 +32,5 @@
 
  <!-- https://github.com/macdonst/detect-missing-adblocker -->
  <script rel="prefetch" type="module" src="https://unpkg.com/detect-missing-adblocker@latest/dist/detect-missing-adblocker.js?module=true"></script>
- <link rel="stylesheet" href="https://unpkg.com/detect-missing-adblocker@latest/nativeads.js.css">
+ <link rel="stylesheet prefetch" href="https://unpkg.com/detect-missing-adblocker@latest/nativeads.js.css">
 </head>
