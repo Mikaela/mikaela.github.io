@@ -9,34 +9,36 @@ $base-font-family: "Liberation Serif", "Tinos", "Times New Roman", serif;
 $monospace-font-family: "Liberation Mono", "Cousine", "Courier New", monospace;
 //$base-font-family: "Liberation Sans", "Arimo", "Arial", sans-serif;
 
+// CSS of used Jekyll theme
 @import "{{ site.theme }}";
 
-// As high in css as can be edited. If I understand correctly, user
-// preference will take priority over this, but if the user hasn't expressed
-// it, this will make dark default.
+// My overrides, often !important so they actually get used
+
+// As high in css as can be edited.
 :root {
-  color-scheme: dark light !important;
+  color-scheme: light dark !important;
 }
 
 // Revert to defaults
 * {
   color: revert !important;
-  background-color: revert !important;
   overflow-wrap: break-word !important;
 }
 
-// Fitting to text and monospace preferred
-code {
-  font-size: 0.8em !important;
+a {
+  text-decoration: underline !important;
 }
+
+// Fitting to text and monospace preferred
 code,
 pre {
   font-family: $monospace-font-family !important;
+  font-size: 0.8em !important;
 }
 
 // Overrides for dark themes
 @media (prefers-color-scheme: dark) {
-  * {
+  *:not(a) {
     color: #ffb700 !important;
     border-color: #ffb700 !important;
     background-color: #000000 !important;
@@ -49,87 +51,32 @@ pre {
     border-color: #ffb700 !important;
     background-color: #000000 !important;
   }
-
-  .site-nav {
-    color-scheme: only dark !important;
-    color: #ffb700 !important;
-    background-color: #000000 !important;
-    color: #ffb700 !important;
-  }
-
-  a {
-    color: revert !important;
-  }
-}
-
-// Overrides for light themes
-@media (prefers-color-scheme: light) {
-  // Adblocker detection
-  .ftf-dma-note {
-    color-scheme: only light !important;
-    color: #000000 !important;
-    background-color: #ffffff !important;
-  }
-  .site-nav {
-    color-scheme: only light !important;
-    color: #000000 !important;
-    background-color: #ffffff !important;
-    border: 1px solid #000000 !important;
-  }
 }
 
 // This is used in the index
 #avatar {
   margin-left: auto;
   margin-right: auto;
-  width: 6em;
+  width: 25%;
   border: 1px solid;
-  //black;
+  display: block;
 }
 
 // This is the short bio in the index and all my profiles
 #bio {
   text-align: center;
-  //font-weight: bold;
   font-style: italic;
 }
 
-// At least used in the index
+// At least used in the index link list
 .centered {
   list-style-type: none;
   margin: 0 auto;
   text-align: center;
 }
 
-// IRC logs should be formatted with this
-.irclog {
-  white-space: pre-wrap;
-  font-size: 15px;
-  border: 1px solid;
-  // $grey-color-light;
-  border-radius: 3px;
-  background-color: revert;
-  //#eef;
-}
-
-// Tables belong to CSS, make the HTML5 validator happy
-table,
-td,
-th {
-  border: 1px solid;
-  //black;
-}
-
-// Trying to make images look a little better
-img {
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid;
-  //black;
-}
-
+// At least used in the index SSH key fingerprints
 .monospaced {
   font-family: $monospace-font-family;
   font-size: 0.8em;
-  //overflow-wrap: break-word;
 }
