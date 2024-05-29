@@ -36,6 +36,13 @@ pre {
   font-size: 0.8em !important;
 }
 
+// Overrides for light themes
+@media (prefers-color-scheme: light) {
+  *:not(a) {
+    border-color: #000000 !important;
+  }
+}
+
 // Overrides for dark themes
 @media (prefers-color-scheme: dark) {
   *:not(a) {
