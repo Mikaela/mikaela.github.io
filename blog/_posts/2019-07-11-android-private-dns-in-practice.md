@@ -14,7 +14,22 @@ when the port is blocked or there is a captive portal. I didn't find this
 information anywhere and now that I have gotten the Android 9 Go update on
 my Nokia 1, I am able to type my own blog post about it._
 
-Notes/disclaimers:
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Notes/disclaimers:](#notesdisclaimers)
+- [The tests](#the-tests)
+- [Why I use Quad9?](#why-i-use-quad9)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
+## Notes/disclaimers:
 
 - Phone: Nokia 1 (TA-1047) running Android 9 (Go Edition)
   - I think I got the update on 9th of July
@@ -36,6 +51,8 @@ Notes/disclaimers:
   I guess it's only able to detect when Android is actually connected to the
   DoT server.
 - [My messy notes for making this post](https://github.com/Mikaela/mikaela.github.io/issues/149)
+
+## The tests
 
 ---
 

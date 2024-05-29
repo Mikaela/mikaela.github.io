@@ -10,6 +10,24 @@ redirect_from: /english/2015/12/25/asus-tunnelbroker-net.html
 _I am typing this, because there is a lot of misinformation on this,
 especially about the dynamic DNS part._
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [The tunnel](#the-tunnel)
+  - [Basic Config](#basic-config)
+  - [IPv6 LAN Setting](#ipv6-lan-setting)
+  - [IPv6 DNS Setting](#ipv6-dns-setting)
+  - [Auto Configuration Setting](#auto-configuration-setting)
+- [Dynamic DNS](#dynamic-dns)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
 ## The tunnel
 
 Go to the router web panel and IPv6 under advanced settings.

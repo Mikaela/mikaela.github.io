@@ -10,6 +10,24 @@ redirect_from: /english/2016/03/09/weechat-tmux-quickstart.html
 _Sometimes you don't have GUI when you need remote support, luckily you
 don't need it even if you have only one device._
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [What is what?](#what-is-what)
+- [Installing things](#installing-things)
+- [tmux](#tmux)
+- [WeeChat](#weechat)
+- [pastebinit](#pastebinit)
+- [Further reading](#further-reading)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
 ## What is what?
 
 - Tmux is terminal multiplexer which allows you to have "multiple
