@@ -17,6 +17,7 @@ but the studio eq may not be so clear.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Dezponia's studio EQ](#dezponias-studio-eq)
   - [2024-04-11](#2024-04-11)

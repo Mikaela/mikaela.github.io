@@ -6,13 +6,20 @@ permalink: /blog/
 excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, postaukset englanniksi ja postaukset suomeksi."
 ---
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [In English](#in-english)
 - [Suomeksi](#suomeksi)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 ## In English
 

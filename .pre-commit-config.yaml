@@ -53,7 +53,12 @@ repos:
     rev: v2.2.0
     hooks:
       - id: doctoc
-        args: [--update-only, --notitle]
+        args:
+          [
+            --update-only,
+            --title,
+            "_Automatically generated Table of Contents - Automaattinen sisällysluettelo_",
+          ]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
     rev: 0.28.3

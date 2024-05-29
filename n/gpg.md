@@ -18,8 +18,12 @@ sitemap: false
 
 # Quick GPG notes where I may find them
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Keybase](#keybase)
 - [Claws-mail note that is somewhat related.](#claws-mail-note-that-is-somewhat-related)
@@ -28,6 +32,9 @@ sitemap: false
   - [Keyoxide docs](#keyoxide-docs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 To create an Ed25519 key, or whatever will be the default version in the
 future as defined by your GPG version:

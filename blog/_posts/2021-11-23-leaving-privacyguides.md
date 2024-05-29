@@ -41,6 +41,7 @@ and not the way a transparent project should work.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Previous leaving](#previous-leaving)
 - [Other issues](#other-issues)

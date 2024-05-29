@@ -17,8 +17,12 @@ Browser extensions are living in my browser policies.
 - [Firefox](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/firefox/policies)
 - [Chromium](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/opt/chromium/policies/managed)
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Chromium flags](#chromium-flags)
   - [Vendor-prefixed](#vendor-prefixed)
@@ -29,6 +33,9 @@ Browser extensions are living in my browser policies.
   - [SSDs](#ssds)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 <!--
 

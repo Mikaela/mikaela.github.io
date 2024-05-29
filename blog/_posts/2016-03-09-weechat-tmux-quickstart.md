@@ -15,6 +15,7 @@ don't need it even if you have only one device._
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [What is what?](#what-is-what)
 - [Installing things](#installing-things)

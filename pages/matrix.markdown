@@ -35,6 +35,7 @@ links._
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Where else can I read about Matrix?](#where-else-can-i-read-about-matrix)
 - [Is there any kind of Matrix etiquette I should know about?](#is-there-any-kind-of-matrix-etiquette-i-should-know-about)

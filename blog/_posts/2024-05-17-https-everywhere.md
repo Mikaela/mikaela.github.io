@@ -25,6 +25,7 @@ for those is the official documentation (bottom of the page).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Chromium](#chromium)
   - [DNS-over-HTTPS](#dns-over-https)

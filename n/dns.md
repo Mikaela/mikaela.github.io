@@ -13,8 +13,12 @@ sitemap: false
 
 _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Identifying DNS resolver](#identifying-dns-resolver)
   - [Identifying ECH support](#identifying-ech-support)
@@ -33,6 +37,9 @@ _For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
   - [FFUpdater](#ffupdater)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 ---
 

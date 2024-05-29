@@ -13,15 +13,20 @@ issues so much, I wish to correct some misconceptions. I attempt to provide
 citations for everything and not name any other solution. I cannot discuss
 administrating experience due to not having any with Matrix personally._
 
-_Table of Contents_
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Element, what Element?](#element-what-element)
 - [You mentioned privacy?](#you-mentioned-privacy)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 # Element, what Element?
 

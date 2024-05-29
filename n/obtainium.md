@@ -22,6 +22,7 @@ automatic updates on Android 12+.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Importable app list](#importable-app-list)
 - [Third party F-Droid repositories](#third-party-f-droid-repositories)

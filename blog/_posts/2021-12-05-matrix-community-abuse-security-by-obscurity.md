@@ -16,10 +16,12 @@ Sadly I am not using Discord, I am using Matrix. This means that while burnt out
 it feels like no one has thought of the case where a community with more than
 a couple of rooms wants to use Matrix.
 
-_Table of Contents_
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Setup](#setup)
   - [Bus factor](#bus-factor)
@@ -30,6 +32,9 @@ _Table of Contents_
 - [Afterword](#afterword)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 ## Setup
 

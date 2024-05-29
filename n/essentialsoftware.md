@@ -8,8 +8,12 @@ sitemap: false
 
 This is just a quick personal reference so I don't have to guess.
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Security](#security)
 - [Usability](#usability)
@@ -18,6 +22,9 @@ This is just a quick personal reference so I don't have to guess.
   - [SSD](#ssd)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 ## Security
 

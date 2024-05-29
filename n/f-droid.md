@@ -15,6 +15,7 @@ Remember to prefer the [F-Droid Basic](https://f-droid.org/packages/org.fdroid.b
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Official F-Droid repositories](#official-f-droid-repositories)
 - [Additional F-Droid repositories](#additional-f-droid-repositories)

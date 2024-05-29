@@ -19,6 +19,7 @@ and probably not very much comprehensible by others than me.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
   - [Installing Fedora?](#installing-fedora)
   - [Converting to systemd-bootd later](#converting-to-systemd-bootd-later)

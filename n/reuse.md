@@ -14,8 +14,12 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # REUSE notes
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Adding headers](#adding-headers)
   - [Styles](#styles)
@@ -23,6 +27,9 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 - [License identifiers I commonly use](#license-identifiers-i-commonly-use)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 > reuse is a tool for compliance with the REUSE recommendations.
 

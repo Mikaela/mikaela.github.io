@@ -6,8 +6,12 @@ This website should be fairly typical Jekyll project. The index contains
 `rel=me` links everywhere so projects such as Mastodon give me the green
 checkmark.
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
 
 - [Sitemaps](#sitemaps)
 - [Unusual directories](#unusual-directories)
@@ -15,6 +19,9 @@ checkmark.
 - [Building](#building)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 ## Sitemaps
 
