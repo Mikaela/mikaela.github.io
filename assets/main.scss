@@ -22,6 +22,7 @@ $monospace-font-family: "Liberation Mono", "Cousine", "Courier New", monospace;
 * {
   color: revert !important;
   background-color: revert !important;
+  overflow-wrap: break-word !important;
 }
 
 // Fitting to text and monospace preferred
@@ -125,4 +126,10 @@ img {
   margin-right: auto;
   border: 1px solid;
   //black;
+}
+
+.monospaced {
+  font-family: $monospace-font-family;
+  font-size: 0.8em;
+  //overflow-wrap: break-word;
 }
