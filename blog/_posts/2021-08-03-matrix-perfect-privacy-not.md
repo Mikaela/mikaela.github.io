@@ -18,7 +18,7 @@ administrating experience due to not having any with Matrix personally._
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
+_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
 
 - [Element, what Element?](#element-what-element)
 - [You mentioned privacy?](#you-mentioned-privacy)

@@ -13,7 +13,7 @@ published: false
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
+_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
 
 - [Mikäli oleilet Suomessa](#mik%C3%A4li-oleilet-suomessa)
 - [Om vi bor i Finland](#om-vi-bor-i-finland)

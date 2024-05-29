@@ -25,7 +25,7 @@ which is produced by `git commit -s`
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
+_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
 
 - [My private emails](#my-private-emails)
 - [Where to find them](#where-to-find-them)

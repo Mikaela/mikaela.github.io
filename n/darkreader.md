@@ -10,7 +10,7 @@ sitemap: false
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
+_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
 
 - [Links to Dark Reader](#links-to-dark-reader)
 - [Configuration for the new interface](#configuration-for-the-new-interface)

@@ -10,7 +10,7 @@ excerpt: "404, not found, don't bother clicking..."
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
+_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
 
 - [Guesses what you might have been looking for?](#guesses-what-you-might-have-been-looking-for)
 

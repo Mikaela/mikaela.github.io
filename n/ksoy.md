@@ -17,7 +17,7 @@ Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automatically generated Table of Contents - Automaattinen sisällysluettelo_
+_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
 
 - [KSOY hintalaskelmia Tuntihinta-sovellukselle](#ksoy-hintalaskelmia-tuntihinta-sovellukselle)
   - [Yhtälöt Tuntihinnalle](#yht%C3%A4l%C3%B6t-tuntihinnalle)
