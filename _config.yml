@@ -58,6 +58,19 @@ sitemap:
 # disappear?
 include:
   [PGP, PHP, keybase.txt, robots.txt, .well-known, ipfs-files, _matrix, .json]
+# These don't need to appear.
+exclude:
+  [
+    CITATION.cff,
+    CNAME,
+    CODEOWNERS,
+    IPFS.csv,
+    ipfs-files,
+    LICENSES,
+    package.json,
+    pnpm-lock.yaml,
+    README.markdown,
+  ]
 
 # Latest Matrix room version for blog posts or /upgraderoom advice. If I
 # need something from the latest version, this is it once the servers I care
