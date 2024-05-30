@@ -1,11 +1,11 @@
 # Site settings
 title: Aminda Suomalainen ⚧
-author: <div lang="fi"><a href="https://aminda.eu">Aminda Suomalainen ⚧</a></a>
+author: <div lang="fi"><a href="https://aminda.eu">Aminda Suomalainen ⚧</a></a></div>
 description: > # this means to ignore newlines until "baseurl:"
-  <div lang="en">I am a Highly Sensitive Autistic Pirate with Linux experience since 2008. I am familiar with git and looking for employment. ⚧
-  <br/><br/><em>This website is licensed under the
+  I am a Highly Sensitive Autistic Pirate with Linux experience since 2008. I am familiar with git and looking for employment. ⚧
+  <br/><br/><em lang="en">This website is licensed under the
   <a href="(https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
-  by <a href="https://aminda.eu">Aminda Suomalainen</a>.</em></div>
+  by <a href="https://aminda.eu">Aminda Suomalainen</a>.</em>
 baseurl: "" # the subpath of your site, e.g. /blog/
 # I would like to use www subdomain to not have all cookies passed to top
 # level, but there seems to be a redirect issue otherwise.
@@ -23,13 +23,15 @@ rss: Blog
 keybase_username: Mikaela
 telegram_username: AmindaEU
 
-# Sadly the content is mostly in English and this is just the last fallback
+# The content is mostly in English and this is just the last fallback. I try
+# to specify it on every new page though.
 lang: en
 
 # Build settings
 markdown: kramdown
 
 kramdown:
+  # Required or all my multilanguage pages break as I use div within markdown.
   parse_block_html: true
 
 theme: minima
