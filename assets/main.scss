@@ -5,10 +5,11 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif;
+$base-font-family: system-ui;
+//$base-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif;
+//$base-font-family: ui-sans-serif, "Liberation Sans", "Arimo", "Arial", sans-serif;
 $monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
   monospace;
-//$base-font-family: ui-sans-serif, "Liberation Sans", "Arimo", "Arial", sans-serif;
 
 // CSS of used Jekyll theme
 @import "{{ site.theme }}";
