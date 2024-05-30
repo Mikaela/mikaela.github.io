@@ -122,7 +122,8 @@ after transition. I solved that by becoming insane :D
 
 I read about Esperanto, which is the most spoken artificial language in
 the world and then I just had to learn it. I did Duolingo and associated
-Memrise course for three months ... _kaj mi parolas Esperanton!_
+Memrise course for three months ... <em lang="eo">kaj mi parolas
+Esperanton!</em>
 
 Thanks to online-friend I also happened to read about Buddhism and it made
 a lot more sense than Christianity that was forced on me ever did. It's
@@ -150,8 +151,8 @@ _No one is perfect, including you, everyone makes mistake._
 
 _Everyone is as capable to hurting you as making you good._
 
-So I have learned Esperanto and according to my mother _mi diras Esperanto
-duono de tempo_ and came to religion, can I be more crazy?
+So I have learned Esperanto and according to my mother <em lang="eo">mi diras Esperanto
+duono de tempo</em> and came to religion, can I be more crazy?
 
 Esperanto gave me self-esteem with my capability of learning languages so
 I started learning
@@ -159,13 +160,13 @@ I started learning
 - Swedish, which I regret not learning at junior high school, but I had
   dysphoria, bullying, suicidality, depression and everything and I think
   I hear it in Helsinki daily and it's also official language in Finland.
-- Spanish as _mi amas Esperanton_, it looks so much like Esperanto so
+- Spanish as <em lang="eo">mi amas Esperanton</em>, it looks so much like Esperanto so
   I feel I almost understand everything written in it and it's the second
   most spoken language in the world, so I have to learn it.
 - Lojban thanks to the friend mentioned earlier.
 
-Do mi nun parolas la finnan, la anglan, Esperanton kaj mi lernas hispanan,
-la svennan kaj la lojbanon. Entirely sane.
+<em lang="eo">Do mi nun parolas la finnan, la anglan, Esperanton kaj mi lernas hispanan,
+la svennan kaj la lojbanon.</em> Entirely sane.
 
 ---
 
