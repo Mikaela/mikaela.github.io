@@ -25,6 +25,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 - [Adding headers](#adding-headers)
   - [Styles](#styles)
 - [Generic commands](#generic-commands)
+- [Development version](#development-version)
 - [License identifiers I commonly use](#license-identifiers-i-commonly-use)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -77,6 +78,12 @@ Note!
 - `reuse download --all` - downloads all licenses found to `LICENSES/`
 - `reuse lint` - verifies compliancy
 - `reuse supported-licenses | less` - lists supported licenses identifiers
+- `reuse convert-dep5` to fix deprecation warning about
+  `.reuse/dep5`/`reuse.toml`
+
+## Development version
+
+- `pipx install "git+https://github.com/fsfe/reuse-tool.git"`
 
 ## License identifiers I commonly use
 
