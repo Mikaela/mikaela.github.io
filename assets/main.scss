@@ -68,7 +68,9 @@ pre {
   margin-right: auto;
   width: 25%;
   border: 1px solid;
-  display: block;
+  //display: block;
+  display: float;
+  float: left;
 }
 
 // This is the short bio in the index and all my profiles
