@@ -28,6 +28,10 @@ lang: en
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
 theme: minima
 #theme: jekyll-theme-midnight
 redcarpet:
