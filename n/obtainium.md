@@ -2,6 +2,7 @@
 layout: mini
 permalink: /n/obtainium.html
 sitemap: false
+lang: en
 ---
 
 [Obtainium](https://github.com/ImranR98/Obtainium/) downloads apps directly from forge/whatever without need for app
@@ -22,7 +23,7 @@ automatic updates on Android 12+.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Importable app list](#importable-app-list)
 - [Third party F-Droid repositories](#third-party-f-droid-repositories)

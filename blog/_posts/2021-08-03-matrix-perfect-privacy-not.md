@@ -6,6 +6,7 @@ tags: [english, matrix, privacy]
 redirect_from:
   - /matrix.html
   - /element.html
+lang: en
 ---
 
 _Having used Matrix since 2016 and hearing about its greatness without any
@@ -18,7 +19,7 @@ administrating experience due to not having any with Matrix personally._
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Element, what Element?](#element-what-element)
 - [You mentioned privacy?](#you-mentioned-privacy)

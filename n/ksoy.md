@@ -8,6 +8,7 @@ basicdistribution: "EI TIEDOSSA €/kk"
 distributionmargin: "EI TIEDOSSA c/kWh"
 basicstock: "2.99 €/kuukausi"
 stockmargin: "0.23 c/kWh"
+lang: fi
 ---
 
 Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537) [Google Play](https://play.google.com/store/apps/details?id=fi.fingrid.tuntihinta)
@@ -17,7 +18,7 @@ Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [KSOY hintalaskelmia Tuntihinta-sovellukselle](#ksoy-hintalaskelmia-tuntihinta-sovellukselle)
   - [Yhtälöt Tuntihinnalle](#yht%C3%A4l%C3%B6t-tuntihinnalle)

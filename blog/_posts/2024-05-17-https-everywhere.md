@@ -7,6 +7,7 @@ redirect_from:
   - /https-everywhere.html
   - /httpseverywhere.html
   - /https.html
+lang: en
 ---
 
 _I used to be sad since the EFF discontinued HTTPS Everywhere extension since the setting often didn't sync and it only applied to me as opposed to everyone using a shared computer. However since I have dived into browser policies, this is no longer an issue for me._
@@ -25,7 +26,7 @@ for those is the official documentation (bottom of the page).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Chromium](#chromium)
   - [DNS-over-HTTPS](#dns-over-https)

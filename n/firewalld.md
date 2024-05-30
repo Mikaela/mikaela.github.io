@@ -4,6 +4,7 @@ permalink: /n/firewalld.html
 redirect_from:
   - /n/firewall-cmd.html
 sitemap: false
+lang: en
 ---
 
 # Quick note on firewalld usage
@@ -18,7 +19,7 @@ The blog post also predates me having a /n directory here.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Zones](#zones)
 - [Protocols](#protocols)

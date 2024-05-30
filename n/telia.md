@@ -3,6 +3,7 @@ layout: mini
 permalink: /n/telia.html
 redirect_from: /r/telia.html
 sitemap: false
+lang: fi
 ---
 
 Telian IPv6: https://yhteiso.telia.fi/t5/Kiinteat-nettiyhteydet-ja/Telia-IPv6/m-p/190240#M11822

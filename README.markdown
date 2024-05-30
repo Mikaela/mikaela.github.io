@@ -1,3 +1,8 @@
+---
+lang: en
+published: false
+---
+
 # aminda.eu
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Mikaela/mikaela.github.io/master.svg)](https://results.pre-commit.ci/latest/github/Mikaela/mikaela.github.io/master)
@@ -11,7 +16,7 @@ checkmark.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Sitemaps](#sitemaps)
 - [Unusual directories](#unusual-directories)

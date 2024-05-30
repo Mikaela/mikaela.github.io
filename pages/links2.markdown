@@ -4,6 +4,7 @@ title: Rainbowy links
 permalink: /links2/
 excerpt: "Some kind of linklist on some minorities"
 sitemap: false
+lang: en
 ---
 
 _This page has some kind of link list on minorities which mostly somehow
@@ -17,7 +18,7 @@ _This page is also in need of attention._
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [In English](#in-english)
   - [Asexuality](#asexuality)

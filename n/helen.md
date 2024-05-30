@@ -12,6 +12,7 @@ omahelenhighprice: "20 c/kWh"
 omahelenlowprice: "5 c/kWh"
 hattiwatthighprice: "30 c/kWh"
 hattiwattlowprice: "10 c/kWh"
+lang: fi
 ---
 
 Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537) [Google Play](https://play.google.com/store/apps/details?id=fi.fingrid.tuntihinta)
@@ -21,7 +22,7 @@ Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Helen hintalaskelmia Tuntihinta-sovellukselle](#helen-hintalaskelmia-tuntihinta-sovellukselle)
   - [Yhtälöt Tuntihinnalle](#yht%C3%A4l%C3%B6t-tuntihinnalle)
@@ -62,6 +63,8 @@ _Jekyll ei salli matematiikkaa suoraan tietoturvasyistä._
   - Helen veloittaa sitä markkinasähköasiakkailtaan koko kuukauden ja pyrkii sillä kattamaan omat kulunsa ja varmistamaan, ettei myy sähköä liian edullisesti.
 - Siirtohinta näkyy _Oma Helen_-sovelluksessa ja muutokset ilmoitetaan Helenin asiakaslehdessä.
 
+<div lang="en">
+
 # Helen price calculations for Tuntihinta
 
 Helen's monthly market price for month {{ page.month }} is {{ page.monthly }}.
@@ -88,3 +91,5 @@ _Jekyll doesn't allow maths directly for infosec reasons._
 - Definition of monthly plan price: [Helen: Market Price Electricity](https://www.helen.fi/en/electricity/electricity-products-and-prices/marketpriceelectricity)
   - They use it all month following stock market price and trying to get their own citation.
 - Distribution is in _Oma Helen_ and changes are announced in their newspaper.
+
+</div>

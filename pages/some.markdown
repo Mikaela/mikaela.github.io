@@ -10,6 +10,7 @@ redirect_from:
   - /referrallinks/
 redirect_to: /txt/accounts.txt
 excerpt: "Links to my my referral links around the internet."
+lang: en
 ---
 
 Looking for my social media accounts? They have moved to the [index](/index.html#web).

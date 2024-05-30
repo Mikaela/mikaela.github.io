@@ -5,6 +5,7 @@ title: "Short quickstart on tmux & WeeChat for GUIless support"
 category: [english]
 tags: [english, irc, tmux]
 redirect_from: /english/2016/03/09/weechat-tmux-quickstart.html
+lang: en
 ---
 
 _Sometimes you don't have GUI when you need remote support, luckily you
@@ -15,7 +16,7 @@ don't need it even if you have only one device._
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [What is what?](#what-is-what)
 - [Installing things](#installing-things)

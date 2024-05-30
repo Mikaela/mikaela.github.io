@@ -3,6 +3,7 @@ layout: mini
 permalink: /n/reuse.html
 sitemap: false
 email: "suomalainen+git@mikaela.info"
+lang: en
 ---
 
 <!--
@@ -19,7 +20,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Adding headers](#adding-headers)
   - [Styles](#styles)

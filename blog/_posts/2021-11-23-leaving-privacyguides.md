@@ -3,6 +3,7 @@ layout: post
 title: "Leaving Privacy Guides team"
 category: [english]
 tags: [privacyguides]
+lang: en
 ---
 
 _PrivacyGuides.org was supposed to be the continuation of PrivacyTools.io
@@ -41,7 +42,7 @@ and not the way a transparent project should work.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Previous leaving](#previous-leaving)
 - [Other issues](#other-issues)

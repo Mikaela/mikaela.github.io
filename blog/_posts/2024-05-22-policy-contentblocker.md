@@ -7,6 +7,7 @@ redirect_from:
   - /privacybadger.html
   - /ublockorigin.html
   - /https2.html
+lang: en
 ---
 
 _I previously wrote about enforcing HTTPS for all users/profiles through browser policy receiving some positive feedback and I felt like continuing on the subject by instructing with extension installation. This barely scratches the surface of what browser policy can do for you either though._
@@ -18,7 +19,7 @@ I recommend reading the [browser policy part Ⅰ on enforcing HTTPS only mode]({
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Chromium](#chromium)
   - [`/etc/opt/chromium/policies/managed/aminda-extensions.json`](#etcoptchromiumpoliciesmanagedaminda-extensionsjson)

@@ -14,6 +14,7 @@ tags:
     normaaliaika,
   ]
 redirect_from: /finnish/2016/03/27/puhelimet-kellojen-siirto-pysyvasti.html
+lang: fi
 ---
 
 _En tiedä ajatteleeko tai pelkääkö kukaan tätä seurausta kellojen siirrosta

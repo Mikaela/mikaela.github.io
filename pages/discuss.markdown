@@ -5,6 +5,7 @@ permalink: /discuss.html
 redirect_from: /discuss/index.html
 excerpt: "Introduction to my public instant messaging chats"
 navigation: true
+lang: en
 ---
 
 I have multiple instant messaging chatrooms.
@@ -20,7 +21,7 @@ I have multiple instant messaging chatrooms.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Rules](#rules)
 - [Languages](#languages)

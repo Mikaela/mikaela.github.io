@@ -7,6 +7,7 @@ redirect_from:
   - /english/2016/10/16/adjusting-locales.html
   - /blog/english/2016/10/16/adjusting-locales.html
 sitemap: false
+lang: en
 ---
 
 # Quick notes on `localectl` settings
@@ -16,7 +17,7 @@ sitemap: false
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Ready commands](#ready-commands)
   - [Internationalish](#internationalish)

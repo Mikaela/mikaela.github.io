@@ -10,6 +10,7 @@ redirect_from:
   - /n/phone.html
   - /n/phones.html
 sitemap: false
+lang: fi
 ---
 
 Uudet puhelimet: https://android.com/one
@@ -21,9 +22,13 @@ Käytettyjä puhelimia suomalaisilta tai suomenkielisiltä yrityksiltä:
 - https://swappie.com/fi/
 - https://mresell.fi/
 
+<div lang="en">
+
 International used phones:
 
 - Ebay
 - gh.de https://geizhals.eu/ - German price comparsion with LOS option
 
 Katso myös /n/yrityskone
+
+</div>

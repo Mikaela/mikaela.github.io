@@ -3,6 +3,7 @@ layout: mini
 permalink: /n/f-droid.html
 redirect_from: /n/fdroid.html
 sitemap: false
+lang: en
 ---
 
 F-Droid is kind of apt for Android with multiple repositories available. This
@@ -15,7 +16,7 @@ Remember to prefer the [F-Droid Basic](https://f-droid.org/packages/org.fdroid.b
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Official F-Droid repositories](#official-f-droid-repositories)
 - [Additional F-Droid repositories](#additional-f-droid-repositories)

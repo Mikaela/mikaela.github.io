@@ -2,6 +2,7 @@
 layout: mini
 permalink: /n/essentialsoftware.html
 sitemap: false
+lang: en
 ---
 
 # Essential software for new systems
@@ -13,7 +14,7 @@ This is just a quick personal reference so I don't have to guess.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Security](#security)
 - [Usability](#usability)

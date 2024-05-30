@@ -10,6 +10,7 @@ redirect_from:
   - /firefox-addons.html
   - /chrome.html
   - /chromium.html
+lang: en
 ---
 
 Browser extensions are living in my browser policies.
@@ -22,7 +23,7 @@ Browser extensions are living in my browser policies.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Chromium flags](#chromium-flags)
   - [Vendor-prefixed](#vendor-prefixed)

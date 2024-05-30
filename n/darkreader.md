@@ -3,6 +3,7 @@ layout: mini
 permalink: /n/darkreader.html
 redirect_from: /n/opendyslexic.html
 sitemap: false
+lang: en
 ---
 
 <!-- editorconfig-checker-disable -->
@@ -10,7 +11,7 @@ sitemap: false
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Links to Dark Reader](#links-to-dark-reader)
 - [Configuration for the new interface](#configuration-for-the-new-interface)

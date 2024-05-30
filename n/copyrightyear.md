@@ -4,6 +4,7 @@ permalink: /n/ćopyrightyear.html
 redirect_from:
   - /n/copyright.html
 sitemap: false
+lang: en
 ---
 
 # Do copyright years need yearly updates?
@@ -15,7 +16,7 @@ Apparently it depends on whether you care about when the project enters public d
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [No](#no)
 - [Yes](#yes)

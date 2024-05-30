@@ -2,6 +2,7 @@
 layout: mini
 permalink: /n/coauthor.html
 sitemap: false
+lang: en
 ---
 
 # Git forge private emails
@@ -25,7 +26,7 @@ which is produced by `git commit -s`
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [My private emails](#my-private-emails)
 - [Where to find them](#where-to-find-them)

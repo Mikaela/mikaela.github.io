@@ -5,6 +5,7 @@ title: "Sähköpostia lakivaliokunnalle"
 category: [finnish]
 tags: [finnish, translaki]
 redirect_from: /finnish/2015/11/21/sahkopostia-lakivaliokunnalle-translaki.html
+lang: fi
 ---
 
 _Toivottavasti tämä viesti on edes jotenkuten järkevä, se olisi ollut

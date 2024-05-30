@@ -4,6 +4,7 @@ title: Blog
 navigation: true
 permalink: /blog/
 excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, postaukset englanniksi ja postaukset suomeksi."
+lang: en
 ---
 
 <!-- editorconfig-checker-disable -->
@@ -11,7 +12,7 @@ excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [In English](#in-english)
 - [Suomeksi](#suomeksi)
@@ -20,6 +21,8 @@ _Automaattinen sisällysluettelo - Automatically generated Table of Contents_
 
 <!-- prettier-ignore-end -->
 <!-- editorconfig-checker-enable -->
+
+<div lang="en">
 
 ## In English
 
@@ -39,6 +42,8 @@ reality or my opinions etc._
   {% endfor %}
 </table>
 
+</div><div lang="fi">
+
 ## Suomeksi
 
 _Pidäthän mielessä etteivät vanhat blogaukseni välttämättä heijasta
@@ -56,3 +61,4 @@ todellisuutta tai nykyisiä mielipiteitäni jne._
     </tr>
   {% endfor %}
 </table>
+</div>

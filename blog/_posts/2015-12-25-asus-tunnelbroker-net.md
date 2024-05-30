@@ -5,6 +5,7 @@ title: "Tunnelbroker.net & ASUS routers"
 category: [english]
 tags: [IPv6, english]
 redirect_from: /english/2015/12/25/asus-tunnelbroker-net.html
+lang: en
 ---
 
 _I am typing this, because there is a lot of misinformation on this,
@@ -15,7 +16,7 @@ especially about the dynamic DNS part._
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [The tunnel](#the-tunnel)
   - [Basic Config](#basic-config)

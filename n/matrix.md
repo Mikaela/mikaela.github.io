@@ -2,6 +2,7 @@
 layout: mini
 permalink: /n/matrix.html
 sitemap: false
+lang: en
 ---
 
 Collected critiques on Matrix for copying either as oneliner or a markdown list.

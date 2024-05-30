@@ -7,6 +7,7 @@ tags: [english, Android, DNS-over-TLS, DNS, security, privacy]
 redirect_from:
   - /dns.html
   - /dot.html
+lang: en
 ---
 
 _Since I first heard of Android 9 Private DNS I wondered how it will work
@@ -19,7 +20,7 @@ my Nokia 1, I am able to type my own blog post about it._
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Notes/disclaimers:](#notesdisclaimers)
 - [The tests](#the-tests)

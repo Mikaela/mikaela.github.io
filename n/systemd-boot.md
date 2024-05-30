@@ -8,6 +8,7 @@ redirect_from:
   - n/uki.html
   - n/unifiedkernelimage.html
 sitemap: false
+lang: en
 ---
 
 This is mostly based on [kowalski7.cc.xyz instructions](https://kowalski7cc.xyz/blog/systemd-boot-fedora-32/) which also tells
@@ -19,7 +20,7 @@ and probably not very much comprehensible by others than me.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-_Automaattinen sisällysluettelo - Automatically generated Table of Contents_
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
   - [Installing Fedora?](#installing-fedora)
   - [Converting to systemd-bootd later](#converting-to-systemd-bootd-later)

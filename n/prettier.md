@@ -2,6 +2,7 @@
 layout: mini
 permalink: /n/prettier.html
 sitemap: false
+lang: en
 ---
 
 Links to prettier packages I use with `pre-commit` for easier checking of
