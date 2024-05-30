@@ -23,6 +23,7 @@ $monospace-font-family: "Liberation Mono", "Cousine", "Courier New", monospace;
 * {
   color: revert !important;
   overflow-wrap: break-word !important;
+  hyphens: auto !important;
 }
 
 a {

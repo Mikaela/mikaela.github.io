@@ -1,6 +1,6 @@
 <!doctype html>
-<html>
-  {% include head.html %}
+<html lang="{{ page.lang | default: site.lang | default: "" }}">
+{% include head.html %}
 
   <body>
     {% include header.html %}

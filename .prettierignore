@@ -1,4 +1,5 @@
 # Prettier cannot handle Jekyll variables?
 _includes
+_layouts
 blog/*.xml
 *.json

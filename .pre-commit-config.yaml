@@ -57,7 +57,7 @@ repos:
           [
             --update-only,
             --title,
-            "_Automaattinen sisällysluettelo - Automatically generated Table of Contents_",
+            '<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>',
           ]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
