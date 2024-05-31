@@ -5,8 +5,9 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif;
-//$base-font-family: ui-sans-serif, "Liberation Sans", "Arimo", "Arial", sans-serif;
+$base-font-family: ui-serif, system-ui, "Liberation Serif", Tinos,
+  "Times New Roman", serif;
+//$base-font-family: ui-sans-serif, system-ui, "Liberation Sans", "Arimo", "Arial", sans-serif;
 $monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
   monospace;
 
