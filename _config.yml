@@ -12,6 +12,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 # At least it's just a static page.
 #url: "https://www.aminda.eu" # the base hostname & protocol for your site
 url: "https://aminda.eu" # the base hostname & protocol for your site
+# Default meta-robots tags, can be set per-page
+robots: noai, nofollow, noindex
 
 codeberg_username: Mikaela
 github_username: Mikaela
