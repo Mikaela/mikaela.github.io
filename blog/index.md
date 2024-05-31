@@ -8,58 +8,28 @@ lang: en
 robots: noai
 ---
 
-<!-- editorconfig-checker-disable -->
-<!-- prettier-ignore-start -->
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
-
-- [In English](#in-english)
-- [Suomeksi](#suomeksi)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-<!-- prettier-ignore-end -->
-<!-- editorconfig-checker-enable -->
+<ul style="text-align: center; list-style-type: none">
+<li>Posts</li>
+<li><a lang="en" href="#in-english">In English</a></li>
+<li><a lang="fi" href="#suomeksi">suomeksi</a></li>
+</ul>
 
 <div lang="en">
 
-## In English
+<h2 id="in-english" style="text-align: right;">In English</h2>
 
-_Please keep in mind that old blog posts might not reflect the current
-reality or my opinions etc._
+{% for post in site.categories.english %}
 
-<table>
-    <tr>
-        <th>Title</th>
-        <th>What it's about</th>
-    </tr>
-  {% for post in site.categories.english %}
-    <tr>
-        <td><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></td>
-        <td><em>{{ post.excerpt | strip_html }}</em></td>
-    </tr>
-  {% endfor %}
-</table>
+<p style="text-align: right;"><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></p>
+<p><em>{{ post.excerpt | strip_html }}</em></p>
+{% endfor %}
 
 </div><div lang="fi">
 
-## Suomeksi
+<h2 id="suomeksi" style="text-align: right;">suomeksi</h2>
 
-_Pidäthän mielessä etteivät vanhat blogaukseni välttämättä heijasta
-todellisuutta tai nykyisiä mielipiteitäni jne._
+{% for post in site.categories.english %}
 
-<table>
-    <tr>
-        <th>Otsikko</th>
-        <th>Mistä se kertoo</th>
-    </tr>
-  {% for post in site.categories.finnish %}
-    <tr>
-        <td><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></td>
-        <td><em>{{ post.excerpt | strip_html }}</em></td>
-    </tr>
-  {% endfor %}
-</table>
-</div>
+<p style="text-align: right;"><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></p>
+<p><em>{{ post.excerpt | strip_html }}</em></p>
+{% endfor %}
