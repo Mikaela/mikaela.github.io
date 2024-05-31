@@ -5,8 +5,7 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: system-ui;
-//$base-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif;
+$base-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif;
 //$base-font-family: ui-sans-serif, "Liberation Sans", "Arimo", "Arial", sans-serif;
 $monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
   monospace;
@@ -32,10 +31,15 @@ a {
   text-decoration: underline !important;
 }
 
-// Fitting to text and monospace preferred
+// Monospace preferred for code
 code,
 pre {
   font-family: $monospace-font-family !important;
+}
+
+// So it will not look bigger than normal text
+{
+code,
   font-size: 0.8em !important;
 }
 
