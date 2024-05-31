@@ -48,7 +48,7 @@ robots: noai
     highlighting for currently read text won't work. Additionally it
     **_requires Firefox standard tracking protection_** or it won't do
     anything.</del>
-- Font name: `system-ui`
+- Font name: `system-ui`, `ui-serif`, `ui-sans-serif` or `ui-monospace`.
 
 <del>In _Settings_ there is additionally _Detect dark theme_ option which is nice,
 but again disables font changing.<del>
