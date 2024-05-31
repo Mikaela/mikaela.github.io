@@ -83,13 +83,6 @@ code {
   font-style: italic;
 }
 
-// At least used in the index link list
-.centered {
-  list-style-type: none;
-  margin: 0 auto;
-  text-align: center;
-}
-
 // At least used in the index SSH key fingerprints
 .monospaced {
   font-family: $monospace-font-family;
