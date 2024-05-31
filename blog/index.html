@@ -8,7 +8,7 @@ lang: en
 robots: noai
 ---
 
-<ul style="text-align: center; list-style-type: none">
+<ul style="list-style-type: none">
 <li>Posts</li>
 <li><a lang="en" href="#in-english">In English</a></li>
 <li><a lang="fi" href="#suomeksi">suomeksi</a></li>
@@ -16,21 +16,22 @@ robots: noai
 
 <div lang="en">
 
-<h2 id="in-english" style="text-align: right;">In English</h2>
+<h2 id="in-english">In English</h2>
 
+<ul style="list-style-type: none">
 {% for post in site.categories.english %}
-
-<p style="text-align: right;"><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></p>
-<p><em>{{ post.excerpt | strip_html }}</em></p>
+<li><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></li>
+<ul style="list-style-type: none"><li><em>{{ post.excerpt | strip_html }}</li></ul>
 {% endfor %}
+</ul>
 
 </div><div lang="fi">
 
-<h2 id="suomeksi" style="text-align: right;">suomeksi</h2>
+<h2 id="suomeksi">suomeksi</h2>
 
+<ul style="list-style-type: none">
 {% for post in site.categories.finnish %}
-
-<p style="text-align: right;"><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></p>
-<p><em>{{ post.excerpt | strip_html }}</em></p>
+<li><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></li>
+<ul style="list-style-type: none"><li><em>{{ post.excerpt | strip_html }}</li></ul>
 {% endfor %}
 </div>
