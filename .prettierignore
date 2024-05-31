@@ -2,5 +2,4 @@
 _includes
 _layouts
 blog/*.xml
-blog/index.html
 *.json
