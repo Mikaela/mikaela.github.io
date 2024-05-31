@@ -4,6 +4,7 @@ title: "Leaving Privacy Guides team"
 category: [english]
 tags: [privacyguides]
 lang: en
+robots: noai
 ---
 
 _PrivacyGuides.org was supposed to be the continuation of PrivacyTools.io

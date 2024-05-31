@@ -7,6 +7,7 @@ excerpt: "Matrix, a decentralised conversation store"
 redirect_from:
   - /matrix.html
 lang: en
+robots: noai
 ---
 
 Just like [IRC](/irc/), _Matrix_ has became a part of my social life online. My

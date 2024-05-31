@@ -10,6 +10,7 @@ redirect_from:
   - /openwireless_nomap.html
   - /openwireless5_nomap.html
   - /english/2015/11/29/SSID_optout_nomap.html
+robots: noai
 ---
 
 _Anxiety is now focusing to WLAN mapping & key sharing and how easy it is

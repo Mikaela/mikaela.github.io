@@ -6,8 +6,9 @@ redirect_from:
   - /n/rethink.html
   - /n/esni.html
   - /n/ech.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 # DNS notes

@@ -1,8 +1,9 @@
 ---
 layout: mini
 permalink: /n/coauthor.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 # Git forge private emails

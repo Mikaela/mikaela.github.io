@@ -2,8 +2,9 @@
 layout: mini
 permalink: /n/f-droid.html
 redirect_from: /n/fdroid.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 F-Droid is kind of apt for Android with multiple repositories available. This

@@ -8,6 +8,7 @@ redirect_from:
   - /ublockorigin.html
   - /https2.html
 lang: en
+robots: noai
 ---
 
 _I previously wrote about enforcing HTTPS for all users/profiles through browser policy receiving some positive feedback and I felt like continuing on the subject by instructing with extension installation. This barely scratches the surface of what browser policy can do for you either though._

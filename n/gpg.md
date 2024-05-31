@@ -13,7 +13,8 @@ redirect_from:
   - /n/wkd.html
   - n/keybase.html
 lang: en
-sitemap: false
+sitemap: true
+robots: noai
 ---
 
 # Quick GPG notes where I may find them

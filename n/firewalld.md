@@ -3,8 +3,9 @@ layout: mini
 permalink: /n/firewalld.html
 redirect_from:
   - /n/firewall-cmd.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 # Quick note on firewalld usage

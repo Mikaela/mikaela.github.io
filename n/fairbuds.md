@@ -3,8 +3,9 @@ layout: mini
 permalink: /n/fairbuds.html
 redirect_from:
   - /n/fairbudsxl.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 # Fairbuds XL configuration

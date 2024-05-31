@@ -2,8 +2,9 @@
 layout: mini
 permalink: /n/keyoxide.html
 redirect_from: /n/keyoxide-flutter.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 > Keyoxide is a decentralized tool to create and verify decentralized online identities.

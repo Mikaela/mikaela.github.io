@@ -3,6 +3,7 @@ layout: post
 title: "bash/zsh functions for easier SSH signing and verification"
 category: [english]
 tags: [ssh]
+robots: noai
 ---
 
 _I have been using SSH signed git commits from 8 months and started signing things with my SSH key instead of PGP keys and thought to share how to do that more easily_

@@ -8,6 +8,7 @@ redirect_from:
   - /filter.html
   - /weechat-filter.html
   - /english/2015/05/31/weechat-filter.html
+robots: noai
 ---
 
 _Everyone knows the `/ignore` command, but there is also `/filter` which

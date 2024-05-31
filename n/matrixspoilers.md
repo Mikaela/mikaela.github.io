@@ -4,8 +4,9 @@ permalink: /n/matrixspoilers.html
 redirect_from:
   - n/nheko.html
   - n/matrixspoiler.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 The Matrix specification supports spoilers since version 1.1:

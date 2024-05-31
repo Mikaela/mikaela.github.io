@@ -6,6 +6,7 @@ redirect_from: /discuss/index.html
 excerpt: "Introduction to my public instant messaging chats"
 navigation: true
 lang: en
+robots: noai
 ---
 
 I have multiple instant messaging chatrooms.

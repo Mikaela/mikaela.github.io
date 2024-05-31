@@ -1,48 +1,15 @@
 User-agent: *
 Allow: /
-Allow: /$
-Allow: /index.html
-Disallow: /blog/english/2015/
-Disallow: /blog/english/2016/
-Disallow: /blog/finnish/2015/
-Disallow: /blog/finnish/2016/
-Disallow: /blog/finnish/2017/
 Disallow: /txt/
 Disallow: /php/
 Disallow: /r/
 Disallow: /or/
-Disallow: /n/
-Noindex: /blog/english/2015/
-Noindex: /blog/english/2016/
-Noindex: /blog/finnish/2015/
-Noindex: /blog/finnish/2016/
-Noindex: /blog/finnish/2017/
-Noindex: /txt/
-Noindex: /php/
-Noindex: /r/
-Noindex: /or/
-Noindex: /n/
+Disallow: /ir/
 Sitemap: https://aminda.eu/sitemap.xml
 Sitemap: https://aminda.eu/sitemaps.xml
 
-# These were previously part of darkvisitors but are not anymore for some reason?
-User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: cohere-ai
-Disallow: /
-
-User-agent: omgilibot
-Disallow: /
-
 # https://darkvisitors.com/robots-txt-builder
-# Dark Visitors robots.txt
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/anthropic-ai
-
-User-agent: anthropic-ai
-Disallow: /
+# Dark Visitors Robots.txt
 
 # AI Data Scraper
 # https://darkvisitors.com/agents/bytespider
@@ -54,6 +21,18 @@ Disallow: /
 # https://darkvisitors.com/agents/ccbot
 
 User-agent: CCBot
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/claudebot
+
+User-agent: ClaudeBot
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/diffbot
+
+User-agent: Diffbot
 Disallow: /
 
 # AI Data Scraper
@@ -78,4 +57,22 @@ Disallow: /
 # https://darkvisitors.com/agents/omgili
 
 User-agent: omgili
+Disallow: /
+
+# Undocumented AI Agent
+# https://darkvisitors.com/agents/anthropic-ai
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Undocumented AI Agent
+# https://darkvisitors.com/agents/claude-web
+
+User-agent: Claude-Web
+Disallow: /
+
+# Undocumented AI Agent
+# https://darkvisitors.com/agents/cohere-ai
+
+User-agent: cohere-ai
 Disallow: /

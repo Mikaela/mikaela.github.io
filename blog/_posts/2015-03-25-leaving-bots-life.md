@@ -5,6 +5,7 @@ title: "Little on my life currently"
 category: [english]
 tags: [irc, english, life]
 redirect_from: /english/2015/03/25/leaving-bots-life.html
+robots: noai
 ---
 
 ## A little on my life currently

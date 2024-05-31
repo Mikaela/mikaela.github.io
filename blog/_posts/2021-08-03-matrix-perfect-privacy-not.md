@@ -7,6 +7,7 @@ redirect_from:
   - /matrix.html
   - /element.html
 lang: en
+robots: noai
 ---
 
 _Having used Matrix since 2016 and hearing about its greatness without any

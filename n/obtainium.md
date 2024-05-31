@@ -1,8 +1,9 @@
 ---
 layout: mini
 permalink: /n/obtainium.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 [Obtainium](https://github.com/ImranR98/Obtainium/) downloads apps directly from forge/whatever without need for app

@@ -4,6 +4,7 @@ title: "Matrix abuse protection model for community maintainers: security by obs
 category: [english]
 tags: [matrix]
 lang: en
+robots: noai
 ---
 
 _I am administrator or moderator in multiple communities in Matrix, the most sizable

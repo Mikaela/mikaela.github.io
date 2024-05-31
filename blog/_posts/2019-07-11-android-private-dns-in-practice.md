@@ -8,6 +8,7 @@ redirect_from:
   - /dns.html
   - /dot.html
 lang: en
+robots: noai
 ---
 
 _Since I first heard of Android 9 Private DNS I wondered how it will work

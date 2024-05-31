@@ -1,8 +1,9 @@
 ---
 layout: mini
 permalink: /n/essentialsoftware.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 # Essential software for new systems

@@ -4,6 +4,7 @@ title: IRC
 navigation: true
 permalink: /irc/
 excerpt: "Where do you find me at IRC and verify that it's me. Also includes my IRC related posts that are hopefully helpful."
+robots: noai
 ---
 
 IRC has been a big part of my life, I discovered it during junior high school

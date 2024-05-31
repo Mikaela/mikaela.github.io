@@ -8,6 +8,7 @@ redirect_from:
   - /httpseverywhere.html
   - /https.html
 lang: en
+robots: noai
 ---
 
 _I used to be sad since the EFF discontinued HTTPS Everywhere extension since the setting often didn't sync and it only applied to me as opposed to everyone using a shared computer. However since I have dived into browser policies, this is no longer an issue for me._

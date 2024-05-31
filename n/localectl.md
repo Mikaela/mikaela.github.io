@@ -6,8 +6,9 @@ redirect_from:
   - /locales.html
   - /english/2016/10/16/adjusting-locales.html
   - /blog/english/2016/10/16/adjusting-locales.html
-sitemap: false
+sitemap: true
 lang: en
+robots: noai
 ---
 
 # Quick notes on `localectl` settings

@@ -5,6 +5,7 @@ navigation: true
 permalink: /blog/
 excerpt: "Blog index, posts in English and posts in Finnish — Blogin etusivu, postaukset englanniksi ja postaukset suomeksi."
 lang: en
+robots: noai
 ---
 
 <!-- editorconfig-checker-disable -->
