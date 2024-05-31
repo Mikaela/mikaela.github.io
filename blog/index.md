@@ -28,8 +28,9 @@ robots: noai
 
 <h2 id="suomeksi" style="text-align: right;">suomeksi</h2>
 
-{% for post in site.categories.english %}
+{% for post in site.categories.finnish %}
 
 <p style="text-align: right;"><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></p>
 <p><em>{{ post.excerpt | strip_html }}</em></p>
 {% endfor %}
+</div>
