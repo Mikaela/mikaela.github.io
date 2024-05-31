@@ -238,8 +238,8 @@ I use the nightly flatpak which is easy to install for all users as you
 just add the nightly repo and install it. However I am assuming you have
 already performed the [Flathub setup](https://flathub.org/setup).
 
-_Note that `#` means a command and it's there just to explain what is being
-done, not actually entered into a terminal._
+_Note that `#` means a comment and is there just to explain what is being
+done, not to be actually entered into the terminal._
 
 ```bash
 # Add the Nheko nightly remote onto your system
