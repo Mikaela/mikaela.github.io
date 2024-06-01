@@ -2,6 +2,8 @@ https://android-system-webview.en.uptodown.com/android
 https://apkpure.net/apkpure/com.apkpure.aegon
 https://apkpure.net/lidl-home/com.lidlhome.smart
 https://apkpure.net/sunsmart-global-uv/au.org.cancervic.globaluv
+https://apkpure.net/temperature-monitor-alarm/com.device.temperature.monitor.cpu
+https://apkpure.net/thermal-monitor/com.rollerbush.thermal
 https://apkpure.net/trichrome-library/com.google.android.trichromelibrary
 https://apkpure.net/wiz/com.tao.wiz
 https://apkpure.net/wiz-connected/com.wizconnected.wiz2
