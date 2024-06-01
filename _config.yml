@@ -111,3 +111,6 @@ keyoxide: https://keyoxide.org
 
 # Attempt to handle warning
 excerpt_separator: "\n\n"
+
+# Fedora version
+fedora: 40
