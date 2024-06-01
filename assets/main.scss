@@ -21,11 +21,13 @@ $monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
   color-scheme: light dark !important;
 }
 
-// Revert to defaults
+// Revert to defaults, or make settings default
 * {
   color: revert !important;
   overflow-wrap: break-word !important;
   hyphens: auto !important;
+  // Experimental trick to make all emojis text if supported.
+  font-variant-emoji: text;
 }
 
 a {
