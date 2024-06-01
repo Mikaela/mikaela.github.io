@@ -36,8 +36,8 @@ So to make something not an emoji, `U+FE0E` or `&#65038;` and to use emoji,
 _My shellrc has some reminders for me and these are the sequences there._
 
 - &#9895;&#65038; Transgender symbol: `\u26A7\ufe0e` `&#9895;&#65038;`
-- &#10052;&#65038; Snowflake `\2744\ufe0e` `&#10052;&#65038;`
-- &#128330;&#65038; Dove of Peace `\1f54a\ufe0e` `&#128330;&#65038;`
+- &#10052;&#65038; Snowflake `\u2744\ufe0e` `&#10052;&#65038;`
+- &#128330;&#65038; Dove of Peace `\u1f54a\ufe0e` `&#128330;&#65038;`
 
 ## aminda.eu
 
