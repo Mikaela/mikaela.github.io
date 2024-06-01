@@ -1,4 +1,3 @@
-
 https://github.com/accrescent/accrescent
 https://github.com/AnySoftKeyboard/AnySoftKeyboard
 https://github.com/billthefarmer/editor

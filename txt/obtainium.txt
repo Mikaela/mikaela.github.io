@@ -5,7 +5,6 @@ https://apkpure.net/sunsmart-global-uv/au.org.cancervic.globaluv
 https://apkpure.net/trichrome-library/com.google.android.trichromelibrary
 https://apkpure.net/wiz/com.tao.wiz
 https://apkpure.net/wiz-connected/com.wizconnected.wiz2
-https://aptoide.en.aptoide.com/app
 https://beeper.en.uptodown.com/android
 https://beeper-mini.en.uptodown.com/android
 https://bluesky-social.en.uptodown.com/android
