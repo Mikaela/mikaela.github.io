@@ -39,6 +39,6 @@ lang: en
 
 - Aminda.eu&nbsp;&#9895;&#65038;&nbsp;(she/they)
 - Aminda.eu&nbsp;&chi;&nbsp;&#9895;&#65038;&nbsp;(she/they)
-- Aminda.eu&nbsp;&#9895;&#65038;&nbsp;&#127988;&#8205;&#9760;&nbsp;(she/they)
+- Aminda.eu&nbsp;&#9895;&#65038;&nbsp;&#127988;&#8205;&#9760;&#65038;&nbsp;(she/they)
 - Aminda.eu&nbsp;&#9895;&#65038;&nbsp;(F-{{ site.fedora }})&nbsp;(she/they)
 - Aminda&nbsp;Suomalainen&nbsp;&#9895;&#65038;&nbsp;(she/they)

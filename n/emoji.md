@@ -52,7 +52,7 @@ _My shellrc has some reminders for me and these are the sequences there._
 
 ## Flags
 
-- &#127988;&#8205;&#9760; Pirate Flag: `\u1f3f4\u200d\u2620\ufe0f` or `&#127988;&#8205;&#9760;`
+- &#127988;&#8205;&#9760;&#65038; Pirate Flag: `\u1f3f4\u200d\u2620\ufe0f\ufe0e` or `&#127988;&#8205;&#9760;&#65038;`
 
 ## Kingdom Hearts
 
