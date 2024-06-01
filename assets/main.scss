@@ -84,6 +84,13 @@ code {
   font-style: italic;
 }
 
+// _layouts/mini.html calls this for returning to index!
+.centered {
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
 // At least used in the index SSH key fingerprints
 .monospaced {
   font-family: $monospace-font-family;
