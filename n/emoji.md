@@ -28,6 +28,7 @@ So to make something not an emoji, `U+FE0E` or `&#65038;` and to use emoji,
 
 - [Motivational messages](#motivational-messages)
 - [aminda.eu](#amindaeu)
+- [Flags](#flags)
 - [Kingdom Hearts](#kingdom-hearts)
   - [Roman Numerals](#roman-numerals)
 
@@ -48,6 +49,10 @@ _My shellrc has some reminders for me and these are the sequences there._
 
 - &#129477;&#65038; Onion: `\u1f9c5` `&#129477;&#65038;`
   - I guess it just doesn't have a non-emoji variant at least on my system at the time of writing?
+
+## Flags
+
+- &#127988;&#8205;&#9760; Pirate Flag: `\u1f3f4\u200d\u2620\ufe0f` or `&#127988;&#8205;&#9760;`
 
 ## Kingdom Hearts
 
