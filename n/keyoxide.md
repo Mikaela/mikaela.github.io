@@ -1,4 +1,6 @@
 ---
+title: Keyoxide
+excerpt: Here you can find my Keyoxide profiles and ASP proof syntax.
 layout: mini
 permalink: /n/keyoxide.html
 redirect_from: /n/keyoxide-flutter.html

@@ -1,4 +1,6 @@
 ---
+title: Co-authoring and private emails with Git Forges
+excerpt: This note tells how to mark me as a git commit coauthor and my privatized email addresses.
 layout: mini
 permalink: /n/coauthor.html
 sitemap: true

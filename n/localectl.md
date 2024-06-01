@@ -1,4 +1,6 @@
 ---
+title: Quick localectl config
+excerpt: For when I need to remember how to change system language on systemd using distributions.
 layout: mini
 permalink: /n/localectl.html
 redirect_from:

@@ -1,4 +1,6 @@
 ---
+title: Philosophical pondering on DNS and its features and usage
+excerpt: What DNS server is used, does it support ECS, is that threat or possibility, and everything that doesn't have a better place?
 layout: mini
 permalink: /n/dns.html
 redirect_from:

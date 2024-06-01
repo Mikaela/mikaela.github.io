@@ -1,4 +1,6 @@
 ---
+title: Fairbuds XL and the equalizer settings
+excerpt: I am just copying Dezponia who has approved it in hopes of someone else benefiting from this too.
 layout: mini
 permalink: /n/fairbuds.html
 redirect_from:

@@ -1,4 +1,6 @@
 ---
+title: Essential software on my systems
+excerpt: This is a living note on what I should consider installing or configuring everywhere.
 layout: mini
 permalink: /n/essentialsoftware.html
 sitemap: true

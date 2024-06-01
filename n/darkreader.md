@@ -1,4 +1,6 @@
 ---
+title: My configuration for Dark Reader
+excerpt: I prefer amber on black with system fonts.
 layout: mini
 permalink: /n/darkreader.html
 redirect_from: /n/opendyslexic.html

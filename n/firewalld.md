@@ -1,4 +1,6 @@
 ---
+title: firewalld
+excerpt: Firewall configuration on Fedora/RHEL based distributions.
 layout: mini
 permalink: /n/firewalld.html
 redirect_from:

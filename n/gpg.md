@@ -1,4 +1,6 @@
 ---
+title: GPG notes without a better place
+excerpt: Creating Ed25519/future key, configuring WKD, Keyoxide PGP and something on Keybase.
 layout: mini
 permalink: /n/gpg.html
 redirect_from:

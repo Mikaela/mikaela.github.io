@@ -1,4 +1,6 @@
 ---
+title: F-Droid repository list
+excerpt: I always add these on my F-Droid.
 layout: mini
 permalink: /n/f-droid.html
 redirect_from: /n/fdroid.html

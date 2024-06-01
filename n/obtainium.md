@@ -1,4 +1,6 @@
 ---
+title: Obtainiun
+excerpt: Obtainium and useful apps for it.
 layout: mini
 permalink: /n/obtainium.html
 sitemap: true

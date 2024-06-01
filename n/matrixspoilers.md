@@ -1,4 +1,6 @@
 ---
+title: Spoilers on Matrix protocol
+excerpt: Instructions for proper spoiling on Matrix using FluffyChat, Nheko and Element Web.
 layout: mini
 permalink: /n/matrixspoilers.html
 redirect_from:
