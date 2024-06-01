@@ -24,6 +24,7 @@ So to make something not an emoji, `U+FE0E` or `&#65038;` and to use emoji,
 <em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Motivational messages](#motivational-messages)
+- [aminda.eu](#amindaeu)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -37,3 +38,8 @@ _My shellrc has some reminders for me and these are the sequences there._
 - &#9895;&#65038; Transgender symbol: `\u26A7\ufe0e` `&#9895;&#65038;`
 - &#10052;&#65038; Snowflake `\2744\ufe0e` `&#10052;&#65038;`
 - &#128330;&#65038; Dove of Peace `\1f54a\ufe0e` `&#128330;&#65038;`
+
+## aminda.eu
+
+- &#129477;&#65038; Onion: `\u1f9c5` `&#129477;&#65038;`
+  - I guess it just doesn't have a non-emoji variant at least on my system at the time of writing?
