@@ -39,16 +39,10 @@ robots: noai
 - Background: `#000000` ("AMOLED Black")
 - Text: `#ffb700` ("Amber")
 
-1. <del>Font and more</del>
+1. Font and more
 
 - Change font: yes
-- <del>Font name: `OpenDyslexic` or `Comic Shanns Mono`</del>
-  - <del>Consider the [OpenDyslexic extension](https://github.com/OpenDyslexic/extension),
-    while it's incompatible with the "change font feature" and the
-    highlighting for currently read text won't work. Additionally it
-    **_requires Firefox standard tracking protection_** or it won't do
-    anything.</del>
-- Font name: `system-ui`, `ui-serif`, `ui-sans-serif` or `ui-monospace`.
+- Font name: `ui-serif, system-ui, serif, emoji`
 
-<del>In _Settings_ there is additionally _Detect dark theme_ option which is nice,
-but again disables font changing.<del>
+In _Settings_ there is additionally _Detect dark theme_ option which is nice,
+but again disables font changing.
