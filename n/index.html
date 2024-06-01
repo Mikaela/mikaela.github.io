@@ -1,0 +1,41 @@
+---
+layout: default
+title: Notes
+excerpt: Extra aid for my memory in random subjects. Maybe you are reading this page?
+permalink: /n/index.html
+redirect_from: /n/n.html
+navigation: true
+lang: en
+sitemap: true
+robots: noai
+---
+
+<h1>Notes</h1>
+
+<p>
+  You have discovered my notes listing, where I ramble about random subjects for
+  future me, so I don't have to rediscover the things again. I tend to access
+  these with direct link, but for your benefit, they are also listed here.
+</p>
+
+<p>
+  <em
+    >I won't comment on whether there are secret messy unlisted notes lying
+    around.</em
+  >
+</p>
+
+<!-- Make a variable containing pages under n/ -->
+{% assign notes = site.pages | where_exp: "page", "page.path contains 'n/'" %}
+
+<!-- For loop to go through the contents of the pages -->
+{% for note in notes %}
+<!-- If the page is on the sitemap, I want to publish it here -->
+{% if note.sitemap == true %}
+
+<p>
+  <a href="{{ note.url }}">{{note.title}}</a>
+  <em>{{ note.excerpt | markdownify }}</em>
+
+  {% endif %} {% endfor %}
+</p>

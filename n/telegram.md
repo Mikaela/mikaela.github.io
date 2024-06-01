@@ -1,4 +1,6 @@
 ---
+title: Telegram language links
+excerpt: This page contains link lists to change language of Telegram clients.
 layout: mini
 permalink: /n/telegram.html
 redirect_from: /r/telegram.html
