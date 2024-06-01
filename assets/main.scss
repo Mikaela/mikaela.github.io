@@ -6,10 +6,10 @@
 
 // Our variables
 $base-font-family: ui-serif, system-ui, "Liberation Serif", Tinos,
-  "Times New Roman", serif;
+  "Times New Roman", serif, emoji;
 //$base-font-family: ui-sans-serif, system-ui, "Liberation Sans", "Arimo", "Arial", sans-serif;
 $monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
-  monospace;
+  monospace, emoji;
 
 // CSS of used Jekyll theme
 @import "{{ site.theme }}";
