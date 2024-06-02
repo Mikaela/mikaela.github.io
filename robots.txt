@@ -1,6 +1,6 @@
 User-agent: *
-Allow: /
 Allow: /$
+Allow: /*.html$
 Allow: /blog/$
 Allow: /blog/feed.xml
 Allow: /blog/feed.en.xml
@@ -8,8 +8,10 @@ Allow: /blog/feed.fi.xml
 Allow: /irc/$
 Allow: /matrix/$
 Allow: /n/$
+Allow: /robots.txt
 Allow: /sitemap.xml
 Allow: /sitemaps.xml
+Disallow: /
 Disallow: /*.asc$
 Disallow: /*.json$
 Disallow: /*.sig$
