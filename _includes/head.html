@@ -2,19 +2,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!---->
+  {%- seo -%}
+  <!---->
   <meta name="robots" content="nofollow">
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="robots" content="{% if page.robots %}{{ page.robots }} {% else %}{{ site.robots | default: 'nofollow' }}{% endif %}">
   <meta name="msvalidate.01" content="DDF472BEC8E65C680D65A24256C33B24">
   <link rel="icon prefetch" href="{{site.icon}}">
-  <title>{% if page.title %}{{ page.title }} ~~ {{ site.title | strip_html }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
   <link rel="me prefetch" href="{{ site.url }}">
-
   <link rel="openid.delegate" href="https://aminda.eu/">
   <link rel="openid.server" href="https://openid.indieauth.com/openid">
-
   <link rel="stylesheet prefetch" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/blog/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - in English" href="{{ "/blog/feed.en.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - Suomeksi" href="{{ "/blog/feed.fi.xml" | prepend: site.baseurl | prepend: site.url }}">
@@ -23,11 +23,6 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta http-equiv="x-dns-prefetch-control" content="off">
   <meta name="referrer" content="no-referrer">
- <!-- OpenGraph -->
- <meta name="og:title" content="{% if page.title %}{{ page.title }} ~~ {{ site.title }}{% else %}{{ site.title }}{% endif %}">
- <meta name="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
- <meta name="og:site_name" content="{{site.title}}">
- <meta name="og:image" content="{{site.icon}}">
  <!-- https://indieweb.org/How_to_set_up_web_sign-in_on_your_own_domain#How_to_setup_RelMeAuth - regardless of antipattern, the things I do for verified checkboxes at Mastodon... -->
  <link rel="me" type="application/activity+json" href="https://sauna.social/users/aminda">
  <link rel="me" type="application/activity+json" href="https://mastodon.pirateparty.be/users/MikaelaPPFI">

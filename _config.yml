@@ -1,6 +1,10 @@
 # Site settings
 title: Aminda Suomalainen ⚧︎
-author: <div lang="fi"><a href="https://aminda.eu">Aminda Suomalainen &#9895;&#65038;</a></a></div>
+author:
+  name: Aminda Suomalainen ⚧︎
+  url: https://aminda.eu/
+# Jekyll seo, appended after title
+tagline: Aminda Suomalainen ⚧︎
 description: > # this means to ignore newlines until "baseurl:"
   I am a Highly Sensitive Autistic Pirate with Linux experience since 2008. I am familiar with git and looking for employment. &#9895;&#65038;
   <br/><br/><em lang="en">This website is licensed under the
@@ -26,9 +30,28 @@ rss: Blog
 keybase_username: Mikaela
 telegram_username: AmindaEU
 
+# Jekyll SEO will handle these
+webmaster_verifications:
+  google: oELGPuQ0VNEekDke964c0XCMYaC_Nd_Mr_TRYEVRXgY
+  bing: DDF472BEC8E65C680D65A24256C33B24
+  yandex: 2d5398c328c66322
+# Jekyll SEO as well
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-media/avatar/250.jpeg
+
+# No, these aren't Jekyll SEO
+#avatar: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/250.jpeg
+avatar: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-media/avatar/250.jpeg
+#icon: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/128.jpeg
+icon: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-media/avatar/90.jpeg
+
 # The content is mostly in English and this is just the last fallback. I try
-# to specify it on every new page though.
+# to specify it on every new page though. Jekyll SEO also uses locale
 lang: en
+locale: en
 
 # Build settings
 markdown: kramdown
@@ -61,6 +84,7 @@ plugins:
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-seo-tag
 sitemap:
   file: "/sitemap.xml"
 # Technically this should be keep_files, but it makes at least .well-known
@@ -85,11 +109,6 @@ exclude:
 # need something from the latest version, this is it once the servers I care
 # about have upgraded. Otherwise this is based on my discretion.
 matrixLatestRoomVersion: 11
-
-#avatar: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/250.jpeg
-avatar: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-media/avatar/250.jpeg
-#icon: https://bafybeian33l6hrvjoapve7dxbghs2ej4zeya2cgoldrqo3tm5id7tj6uey.ipfs.dweb.link/128.jpeg
-icon: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-media/avatar/90.jpeg
 
 # {{site.ipfsGateway}}/ipfs/IPFSHASHHERE to get ipfs link via gateway.
 # Hopefully future proof letting me simply swap the link here instead of

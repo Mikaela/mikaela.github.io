@@ -10,5 +10,6 @@ gem "jekyll-feed"
 gem "jekyll-mentions"
 gem "jekyll-redirect-from"
 gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
 # Required for `bundle exec jekyll serve`
 gem "webrick"
