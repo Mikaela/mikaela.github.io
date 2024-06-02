@@ -1,5 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /*.asc$
+Disallow: /*.json$
+Disallow: /*.sig$
+Disallow: /*.txt$
+Disallow: /*.toml$
 Disallow: /txt/
 Disallow: /php/
 Disallow: /r/
