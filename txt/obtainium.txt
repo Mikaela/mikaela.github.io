@@ -5,6 +5,8 @@ https://apkpure.net/sunsmart-global-uv/au.org.cancervic.globaluv
 https://apkpure.net/temperature-monitor-alarm/com.device.temperature.monitor.cpu
 https://apkpure.net/thermal-monitor/com.rollerbush.thermal
 https://apkpure.net/trichrome-library/com.google.android.trichromelibrary
+https://apkpure.net/who-mental-health-at-work/org.who.mhworkforce
+https://apkpure.net/who-myoga-app/org.who.APPMYOGA
 https://apkpure.net/wiz/com.tao.wiz
 https://apkpure.net/wiz-connected/com.wizconnected.wiz2
 https://beeper.en.uptodown.com/android

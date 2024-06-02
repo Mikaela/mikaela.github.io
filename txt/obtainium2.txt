@@ -1,4 +1,5 @@
 https://github.com/accrescent/accrescent
+https://github.com/aistra0528/Hail
 https://github.com/AnySoftKeyboard/AnySoftKeyboard
 https://github.com/billthefarmer/editor
 https://github.com/binwiederhier/ntfy-android
@@ -25,6 +26,7 @@ https://github.com/GrapheneOS/PdfViewer
 https://github.com/guardianproject/ObscuraCam
 https://github.com/guardianproject/orbot
 https://github.com/HabitRPG/habitica-android
+https://github.com/iamr0s/Dhizuku
 https://github.com/ImranR98/Obtainium
 https://github.com/kawaiiDango/pano-scrobbler
 https://github.com/krille-chan/fluffychat
