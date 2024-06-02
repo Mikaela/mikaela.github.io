@@ -19,10 +19,6 @@ Disallow: /*.txt$
 Disallow: /*.toml$
 Disallow: /*.xml$
 Disallow: /txt/
-Disallow: /php/
-Disallow: /r/
-Disallow: /or/
-Disallow: /ir/
 Sitemap: https://aminda.eu/sitemap.xml
 Sitemap: https://aminda.eu/sitemaps.xml
 
