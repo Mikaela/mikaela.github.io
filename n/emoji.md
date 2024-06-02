@@ -28,6 +28,7 @@ So to make something not an emoji, `U+FE0E` or `&#65038;` and to use emoji,
 
 - [Motivational messages](#motivational-messages)
 - [aminda.eu](#amindaeu)
+  - [friends](#friends)
 - [Flags](#flags)
 - [Kingdom Hearts](#kingdom-hearts)
   - [Roman Numerals](#roman-numerals)
@@ -50,9 +51,16 @@ _My shellrc has some reminders for me and these are the sequences there._
 - &#129477;&#65038; Onion: `\u1f9c5` `&#129477;&#65038;`
   - I guess it just doesn't have a non-emoji variant at least on my system at the time of writing?
 
+### friends
+
+- &#128062;&#65039; paws `&#128062;&#65039;`
+- &#128293;&#65039; FIRE `&#128293;&#65039;`
+
 ## Flags
 
 - &#127988;&#8205;&#9760;&#65038; Pirate Flag: `\u1f3f4\u200d\u2620\ufe0f\ufe0e` or `&#127988;&#8205;&#9760;&#65038;`
+- &#x1F3F3;&#xFE0F;&#x200D;&#x1F308;&#65038; Pride Flag: `&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;`
+- &#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;&#x200D;&#65038; Trans Pride Flag: `&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;&#x200D;&#65038;`
 
 ## Kingdom Hearts
 
