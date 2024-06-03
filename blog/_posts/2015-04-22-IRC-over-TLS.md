@@ -9,7 +9,7 @@ redirect_from:
   - /ircssl/
   - /english/2015/04/22/IRC-over-TLS.html
 sitemap: true
-robots :noai
+robots: noai
 ---
 
 _IRC over TLS is not pointless unless you only worry about things that you
