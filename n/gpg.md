@@ -28,6 +28,7 @@ robots: noai
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
+- [Ed25519 (or future default) key creation](#ed25519-or-future-default-key-creation)
 - [Keybase](#keybase)
 - [Claws-mail note that is somewhat related.](#claws-mail-note-that-is-somewhat-related)
 - [WKD](#wkd)
@@ -38,6 +39,8 @@ robots: noai
 
 <!-- prettier-ignore-end -->
 <!-- editorconfig-checker-enable -->
+
+## Ed25519 (or future default) key creation
 
 To create an Ed25519 key, or whatever will be the default version in the
 future as defined by your GPG version:
