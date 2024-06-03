@@ -655,7 +655,7 @@ I have also said it before, but for any serious use of Matrix, you will need [El
 
 If you absolutely need Matrix somewhere neither fits you, ~~maybe [Hydrogen](https://github.com/vector-im/hydrogen-web) is your _PWA_ hoping your needs don't include too many Matrix accounts ([#783](https://github.com/vector-im/hydrogen-web/issues/783), [#817](https://github.com/vector-im/hydrogen-web/pull/817)) and hoping you [don't use SailfishOS](https://forum.sailfishos.org/t/progressive-web-app-pwa-in-native-browser/3867?u=mikaela) ([#1000](https://github.com/sailfishos/sailfish-browser/issues/1000)) or [Ubuntu Touch (#1144)](https://github.com/ubports/ubuntu-touch/issues/1144).~~ Good luck!
 
-On Android I often find myself using [SchildiChat](https://s2.spiritcroc.de/fdroid/repo) ([Beta](https://s2.spiritcroc.de/testing/fdroid/repo)), which suffers many Element shortcomings being a fork and Matrix isn't too mobile friendly protocol in my opinion. (For my view of the repo fingerprints, refer to [n/f-droid](n/f-droid.html), but note the pages intend of _my personal use._)
+On Android I often find myself using [SchildiChat](https://s2.spiritcroc.de/fdroid/repo) ([Beta](https://s2.spiritcroc.de/testing/fdroid/repo)), which suffers many Element shortcomings being a fork and Matrix isn't too mobile friendly protocol in my opinion. (For my view of the repo fingerprints, refer to [n/f-droid](/n/f-droid.html), but note the pages intend of _my personal use._)
 
 <!-- The one that fits your needs. Personally I mix-and-match:
 
