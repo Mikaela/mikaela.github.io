@@ -10,7 +10,6 @@
   <meta name="robots" content="{% if page.robots %}{{ page.robots }} {% else %}{{ site.robots | default: 'nofollow' }}{% endif %}">
   <meta name="msvalidate.01" content="DDF472BEC8E65C680D65A24256C33B24">
   <link rel="icon prefetch" href="{{site.icon}}">
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
   <link rel="me prefetch" href="{{ site.url }}">
   <link rel="openid.delegate" href="https://aminda.eu/">
   <link rel="openid.server" href="https://openid.indieauth.com/openid">
