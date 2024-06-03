@@ -5,9 +5,11 @@ title: "Channels & Hostmask groups: A basic Howto"
 category: [english]
 tags: [irc, english]
 redirect_from: /english/2015/01/10/channels-hostmask-groups-a-basic-howto.html
+sitemap: true
+robots: noai
 ---
 
-@Annwenn got me opering at her network after long pause with my opering.
+`@Annwenn` got me opering at her network after long pause with my opering.
 She also named this blogpost and requested me to write this and I don't
 have any better place where to put this, but I am starting with other talk
 before getting to the subject.

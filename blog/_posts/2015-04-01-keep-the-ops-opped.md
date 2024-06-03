@@ -7,6 +7,8 @@ tags: [irc, english]
 redirect_from:
   - /noops.html
   - /english/2015/04/01/keep-the-ops-opped.html
+sitemap: true
+robots: noai
 ---
 
 _Why I think that you should keep the ops opped instead of following

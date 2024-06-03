@@ -8,6 +8,7 @@ redirect_from:
   - /antergos-dm.html
   - /english/2015/10/17/archlinux_change_login_dm.html
   - /english/2015/10/17/antergos_change_login_dm.html
+sitemap: false
 ---
 
 _Also applies to other distributions based on it, how do you change

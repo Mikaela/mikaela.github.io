@@ -1,5 +1,6 @@
 ---
 layout: post
+sitemap: false
 comments: true
 title: "Using reflector in Arch my way"
 category: [english]

@@ -5,6 +5,8 @@ title: "Private/Secret IRC channels"
 category: [english]
 tags: [english, irc]
 redirect_from: /english/2015/06/08/private_secret_channels.html
+sitemap: true
+robots: noai
 ---
 
 _People often wonder about this and I thought that I could probably write

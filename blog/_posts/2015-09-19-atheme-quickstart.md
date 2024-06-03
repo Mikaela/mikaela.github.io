@@ -4,6 +4,8 @@ comments: true
 title: "Quickstart with Atheme IRC Services (& forks) for end users"
 category: [english]
 tags: [english, irc, atheme]
+sitemap: true
+robots: noai
 redirect_from:
   - /nickserv.html
   - /chanserv.html

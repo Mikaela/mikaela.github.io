@@ -5,6 +5,8 @@ title: "Getting help from network operators with channel issues when ops are awa
 category: [english]
 tags: [irc, english]
 redirect_from: /english/2015/01/24/getting_help_with_channel_issues.html
+sitemap: true
+robots: noai
 ---
 
 In case you wish network operators to help you when your channel operators

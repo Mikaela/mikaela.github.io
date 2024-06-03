@@ -5,6 +5,7 @@ title: "Installing ZNC on Ubuntu from PPA"
 category: [english]
 tags: [irc, english]
 redirect_from: /english/2015/05/10/znc-ubuntu.html
+sitemap: false
 ---
 
 _Many people seem to be installing ZNC using some weird instructions and

@@ -3,6 +3,8 @@ layout: post
 comments: true
 title: "WeeChat: easy instructions for using SASL"
 category: [english]
+sitemap: true
+robots: noai
 tags: [irc, english]
 redirect_from:
   - /weechat-sasl.html

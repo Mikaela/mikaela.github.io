@@ -2,7 +2,8 @@
 layout: page
 title: Browser extensions I often end up installing
 permalink: /browser-extensions.html
-sitemap: true
+sitemap: false
+robots: noindex, noai
 excerpt: "Browser advanced configuration that tends to not sync"
 redirect_from:
   - /firefox.html

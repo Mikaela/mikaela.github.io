@@ -15,6 +15,8 @@ tags:
   ]
 redirect_from: /finnish/2016/03/27/puhelimet-kellojen-siirto-pysyvasti.html
 lang: fi
+locale: fi_FI
+sitemap: false
 ---
 
 _En tiedä ajatteleeko tai pelkääkö kukaan tätä seurausta kellojen siirrosta

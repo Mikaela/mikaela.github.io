@@ -6,6 +6,7 @@ category: [finnish]
 tags: [finnish, translaki]
 redirect_from: /finnish/2015/11/21/sahkopostia-lakivaliokunnalle-translaki.html
 lang: fi
+locale: fi_FI
 robots: noai
 ---
 
