@@ -30,7 +30,7 @@ administrating experience due to not having any with Matrix personally._
 <!-- prettier-ignore-end -->
 <!-- editorconfig-checker-enable -->
 
-# Element, what Element?
+## Element, what Element?
 
 Element is the defacto Matrix client. If you wish to get into Matrix, you
 will likely hear the advice to install Element or use it on the web.
@@ -83,7 +83,7 @@ At the time of writing [stories are a draft Matrix spec proposal](https://github
 that in incompatible clients (such as Element Web and Element Android) appear as
 read-only rooms, however [Element iOS hides them completely with the exception of notifications that cannot be acknowledged](https://github.com/vector-im/element-ios/issues/5455).
 
-# You mentioned privacy?
+## You mentioned privacy?
 
 Yes, privacy is a big reason why Matrix is advertised and the lack of it is
 a fact you agree to by using Matrix or getting bridged to Matrix (which is
