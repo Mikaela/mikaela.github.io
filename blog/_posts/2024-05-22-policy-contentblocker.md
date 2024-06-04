@@ -29,6 +29,7 @@ I recommend reading the [browser policy part Ⅰ on enforcing HTTPS only mode]({
 - [Where can I see what policies extensions can take?](#where-can-i-see-what-policies-extensions-can-take)
   - [Why both PrivacyBadger and uBlock Origin?](#why-both-privacybadger-and-ublock-origin)
   - [Why EFF DNT allowlist?](#why-eff-dnt-allowlist)
+  - [Where did uBlock Origin Lite come from?](#where-did-ublock-origin-lite-come-from)
   - [How do I enable more default lists in uBlock Origin?](#how-do-i-enable-more-default-lists-in-ublock-origin)
 - [What do you think about this blog post?](#what-do-you-think-about-this-blog-post)
 - [Will there be browser policies part Ⅲ?](#will-there-be-browser-policies-part-%E2%85%B2)
@@ -114,6 +115,9 @@ I hope I didn't scare you too badly by saying this isn't scary, but it's all exp
           ]
         }
       },
+      "ddkjiahejlhfcafbddmgiahcphecmpfh": {
+        "disableFirstRunPage": true
+      },
       "pkehgijcmpdhfbdbbnkijodmdjhbjlgp": {
         "checkForDNTPolicy": true,
         "disabledSites": [
@@ -132,7 +136,13 @@ I hope I didn't scare you too badly by saying this isn't scary, but it's all exp
   },
   "ExtensionManifestV2Availability": 2,
   "cjpalhdlnbpafiamejdnhcphjbkeiagm": {
-    "installation_mode": "force_installed",
+    "installation_mode": "normal_installed",
+    "override_update_url": true,
+    "toolbar_pin": "force_pinned",
+    "update_url": "https://clients2.google.com/service/update2/crx"
+  },
+  "ddkjiahejlhfcafbddmgiahcphecmpfh": {
+    "installation_mode": "normal_installed",
     "override_update_url": true,
     "toolbar_pin": "force_pinned",
     "update_url": "https://clients2.google.com/service/update2/crx"
@@ -145,6 +155,8 @@ I hope I didn't scare you too badly by saying this isn't scary, but it's all exp
   }
 }
 ```
+
+_2024-06-04: I added uBlock Origin Lite here, see the questions and answers._
 
 ## Firefox
 
@@ -178,6 +190,9 @@ _Oh meow, no more json!_ I am sorry.
           "showCounter": true,
           "showIntroPage": false,
           "socialWidgetReplacementEnabled": true
+        },
+        "uBOLite@raymondhill.net": {
+          "disableFirstRunPage": true
         },
         "uBlock0@raymondhill.net": {
           "toAdd": {
@@ -222,9 +237,13 @@ _Oh meow, no more json!_ I am sorry.
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/privacy-badger17/latest.xpi",
         "installation_mode": "force_installed"
       },
+      "uBOLite@raymondhill.net": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin-lite/latest.xpi",
+        "installation_mode": "normal_installed"
+      },
       "uBlock0@raymondhill.net": {
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
-        "installation_mode": "force_installed"
+        "installation_mode": "normal_installed"
       }
     },
     "Preferences": {
@@ -254,6 +273,8 @@ Well, in uBlock Origin I did add the Mozilla/Firefox domains to avoid breakage a
 
 _Would you like to restore the protection for Mozilla pages? Replace the `user` in `status` of `extensions.webextensions.restrictedDomains {}` with `clear` so it will be restored to default value while `user` persists even if the lines are removed as they appear as if the user had changed them in `about:config`._
 
+_2024-06-04: I added uBlock Origin Lite here, see the questions and answers._
+
 ## Answers to potential questions
 
 As I sometimes tend to be a bit controversial when balancing security,
@@ -277,6 +298,26 @@ I also love its ability to self-learn trackers, even if that may make me more tr
 I think I already answered this in the Chromium section, but I don't hate ads. They may be important source of money to creators and I wouldn't mind some financial support as well (if that wasn't practically illegal in Finland).
 
 What I mind is targeted advertising, tracking, the potential for targeted malvertising without it affecting anyone else and how they are used for manipulation especially politically and with elections on discouraging some people from voting.
+
+### Where did uBlock Origin Lite come from?
+
+I added it here on 2024-06-04 and set uBlock Origin to `normal_installed` instead of `force_installed`, because I am worried about ManifestV2 extensions not syncing as the majority probably won't have the policy to allow it configured.
+
+This gives the users the choice to use either of the two, both (which may be discouraged) or neither, while PrivacyBadger is forced on and I think it may perform better with ManifestV3 anyway considering the local learning feature, which I consider essential for non-English content anyway.
+
+Speaking of PrivacyBadger, other concerns I have with uBlock Origin Lite are:
+
+1. I cannot allow non-tracking ads as I cannot add the EFF DNT allowlist. I would need to convince the developer to add it, which I am not even going to try, as it would go against the principle of the extension.
+1. I didn't get uBlock Origin Lite's `"noFiltering": [""]` policy working, so I cannot pre-emptively handle broken captchas or allow Ecosia to show me tracking ads in exchange of them planting trees.
+
+Google only has themselves to blame for not thinking of the scenario where their users might be ok with non-tracking ads and now have no option to allow them due to being more concerned about malvertising than how advertising businesses are doing, since they they ruined the compromise solution that tried to account both.
+
+I may trust myself to avoid malicious content online or that DNS filtering will catch it, but I don't have such trust on my less technical family members.
+
+I should also say that ManifestV3 and uBlock Origin Lite have good sides as
+well, considering it not needing or requesting access to all pages visited out
+of the box, so it may be more likely to pass organizational criterias and
+actually get installed through policy.
 
 ### How do I enable more default lists in uBlock Origin?
 
