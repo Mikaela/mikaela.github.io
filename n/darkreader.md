@@ -44,7 +44,7 @@ robots: noai
 1. Font and more
 
 - Change font: yes
-- Font name: `ui-serif, system-ui, serif, emoji`
+- Font name: `OpenDyslexic, ui-serif, system-ui, serif, emoji`
 
 In _Settings_ there is additionally _Detect dark theme_ option which is nice,
 but again disables font changing.
