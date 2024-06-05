@@ -308,7 +308,7 @@ This gives the users the choice to use either of the two, both (which may be dis
 Speaking of PrivacyBadger, other concerns I have with uBlock Origin Lite are:
 
 1. I cannot allow non-tracking ads as I cannot add the EFF DNT allowlist. I would need to convince the developer to add it, which I am not even going to try, as it would go against the principle of the extension.
-1. I didn't get uBlock Origin Lite's `"noFiltering": [""]` policy working, so I cannot pre-emptively handle broken captchas or allow Ecosia to show me tracking ads in exchange of them planting trees.
+1. <del>I didn't get uBlock Origin Lite's `"noFiltering": [""]` policy working, so I cannot pre-emptively handle broken captchas or allow Ecosia to show me tracking ads in exchange of them planting trees.</del>. A day later I got `"noFiltering": [""]` working, but it works like `toOverwrite` from uBlock Origin, so any edits outside of the policy will reset upon restart. Then again that may also be a feature, please do send your best regards to Google...
 
 Google only has themselves to blame for not thinking of the scenario where their users might be ok with non-tracking ads and now have no option to allow them due to being more concerned about malvertising than how advertising businesses are doing, since they they ruined the compromise solution that tried to account both.
 
