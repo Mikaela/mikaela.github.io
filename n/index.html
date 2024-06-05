@@ -19,23 +19,21 @@ robots: noai
 </p>
 
 <p>
-  <em
-    >I won't comment on whether there are secret messy unlisted notes lying
-    around.</em
+  <small
+    ><em
+      >I won't comment on whether there are secret messy unlisted notes lying
+      around.</em
+    ></small
   >
 </p>
 
 <!-- Make a variable containing pages under n/ -->
-{% assign notes = site.pages | where_exp: "page", "page.path contains 'n/'" %}
-
 <!-- For loop to go through the contents of the pages -->
-{% for note in notes %}
 <!-- If the page is on the sitemap, I want to publish it here -->
-{% if note.sitemap == true %}
-
+{% assign notes = site.pages | where_exp: "page", "page.path contains 'n/'" %}
+{% for note in notes %} {% if note.sitemap == true %}
 <p>
-  <a href="{{ note.url }}">{{note.title}}</a>
-  <em>{{ note.excerpt | markdownify }}</em>
-
-  {% endif %} {% endfor %}
+  <a href="{{ note.url }}">{{ note.url | split: ".html" }} - {{note.title}}</a>
 </p>
+<p>{{ note.excerpt | strip_html }}</p>
+{% endif %} {% endfor %}
