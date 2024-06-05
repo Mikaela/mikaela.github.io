@@ -1,5 +1,5 @@
 ---
-redirect_to: https://github.com/hackademix/noscript/issues/303
+redirect_to: https://noscript.net/getit/#latest-stable
 permalink: /r/noscript.html
 sitemap: false
 ---
