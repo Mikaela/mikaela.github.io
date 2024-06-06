@@ -1,13 +1,35 @@
 ---
 layout: mini
 permalink: /n/prettier.html
-sitemap: false
+sitemap: true
+robots: noai
 lang: en
+title: Prettier packages I use
+excerpt: I use them both directly, and within pre-commit
 ---
 
-Links to prettier packages I use with `pre-commit` for easier checking of
-latest versions for manual updates, especially when autoupdate uses unstable
-versions.
+**{{ page.excerpt }}**
+
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
+
+- [The packages](#the-packages)
+- [Installation](#installation)
+- [`.pre-commit-config.yaml`](#pre-commit-configyaml)
+  - [Offline](#offline)
+  - [Online](#online)
+- [Further information](#further-information)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
+## The packages
 
 - [prettier](https://www.npmjs.com/package/prettier)
 - [prettier-plugin-nginx](https://www.npmjs.com/package/prettier-plugin-nginx)
@@ -15,21 +37,60 @@ versions.
 - [prettier-plugin-toml](https://www.npmjs.com/package/prettier-plugin-toml)
 - [@prettier/plugin-xml](https://www.npmjs.com/package/@prettier/plugin-xml)
 
-## sample pre-commit-config.yaml
+## Installation
+
+1. `npm install -D -E prettier@3.3.1 prettier-plugin-nginx@1.0.3 @prettier/plugin-ruby@4.0.4 prettier-plugin-toml@2.0.1 @prettier/plugin-xml@3.4.1` or probably just `pnpm install -D` if it's not your project.
+1. If they don't exist already `echo "{}" > .prettierrc && touch .prettierignore`
+1. `pnpm exec prettier . --write` or `pnpm exec prettier . --check`
+
+## `.pre-commit-config.yaml`
+
+This is the file that controls [`pre-commit`]s behaviour.
+
+### Offline
+
+I accidentally wrote this while updating this page to reflect me using prettier outside of [`pre-commit`] too nowadays. This has the advantage that the same local environment gets reused and dependencies are managed centrally, but assumes everyone uses pnpm, won't work in [`pre-commit` ci] and may have other issues I am not thinking of as a not-coder myself.
+
+[`pre-commit`]: https://pre-commit.com
+[`pre-commit` ci]: https://pre-commit.ci
+
+```yaml
+ci:
+  skip: [pnpm-prettier]
+repos:
+  - repo: local
+    hooks:
+      - id: pnpm-prettier
+        name: prettier
+        entry: pnpm exec prettier --write
+        language: system
+        # Better handled by pretty-format-json from pre-commit-hooks.
+        # Remember to have *.json in .prettierignore!
+        exclude_types: [json]
+```
+
+### Online
 
 ```yaml
 repos:
-  - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v4.0.0-alpha.8"
+  #- repo: https://github.com/pre-commit/mirrors-prettier
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: "v3.3.1"
     hooks:
       - id: prettier
-        #exclude_types: [json]
+        # Better handled by pretty-format-json from pre-commit-hooks.
+        # Remember to have *.json in .prettierignore!
+        exclude_types: [json]
         additional_dependencies: [
             # https://aminda.eu/n/prettier
-            "prettier@3.1.1",
+            "prettier@3.3.1",
             "prettier-plugin-nginx@1.0.3",
             "@prettier/plugin-ruby@4.0.4",
             "prettier-plugin-toml@2.0.1",
-            "@prettier/plugin-xml@3.2.2",
+            "@prettier/plugin-xml@3.4.1",
           ]
 ```
+
+## Further information
+
+- [prettier docs install](https://prettier.io/docs/en/install)
