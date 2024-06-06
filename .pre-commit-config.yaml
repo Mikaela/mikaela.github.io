@@ -74,12 +74,12 @@ repos:
         exclude: ^.cache\/.*$
 
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: "v3.3.0"
+    rev: "v3.3.1"
     hooks:
       - id: prettier
         additional_dependencies: [
             # https://www.npmjs.com/package/prettier
-            "prettier@3.2.5",
+            "prettier@3.3.1",
             # https://www.npmjs.com/package/@prettier/plugin-xml
             "@prettier/plugin-xml@3.4.1",
           ]
