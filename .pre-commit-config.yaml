@@ -89,7 +89,7 @@ repos:
     hooks:
       - id: pnpm-prettier
         name: prettier
-        entry: pnpm exec prettier --write
+        entry: pnpm exec prettier --cache --ignore-unknown --write
         language: system
         # Better handled by pretty-format-json from pre-commit-hooks.
         # Remember to have *.json in .prettierignore!
