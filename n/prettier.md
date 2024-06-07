@@ -36,10 +36,11 @@ excerpt: I use them both directly, and within pre-commit
 - [@prettier/plugin-ruby](https://www.npmjs.com/package/@prettier/plugin-ruby)
 - [prettier-plugin-toml](https://www.npmjs.com/package/prettier-plugin-toml)
 - [@prettier/plugin-xml](https://www.npmjs.com/package/@prettier/plugin-xml)
+- [prettier-plugin-sh](https://www.npmjs.com/package/prettier-plugin-sh)
 
 ## Installation
 
-1. `npm install -D -E prettier@3.3.1 prettier-plugin-nginx@1.0.3 @prettier/plugin-ruby@4.0.4 prettier-plugin-toml@2.0.1 @prettier/plugin-xml@3.4.1` or probably just `pnpm install -D` if it's not your project.
+1. `npm install -D -E prettier@3.3.1 prettier-plugin-nginx@1.0.3 @prettier/plugin-ruby@4.0.4 prettier-plugin-toml@2.0.1 @prettier/plugin-xml@3.4.1 prettier-plugin-sh@0.14.0` or probably just `pnpm install -D` if it's not your project.
 1. If they don't exist already `echo "{}" > .prettierrc && touch .prettierignore`
 1. `pnpm exec prettier . --write` or `pnpm exec prettier . --check`
 
