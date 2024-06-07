@@ -19,6 +19,7 @@ excerpt: I use them both directly, and within pre-commit
 
 - [The packages](#the-packages)
 - [Installation](#installation)
+- [Configuration](#configuration)
 - [`.pre-commit-config.yaml`](#pre-commit-configyaml)
   - [Offline](#offline)
   - [Online](#online)
@@ -43,6 +44,19 @@ excerpt: I use them both directly, and within pre-commit
 1. `npm install -D -E prettier@3.3.1 prettier-plugin-nginx@1.0.3 @prettier/plugin-ruby@4.0.4 prettier-plugin-toml@2.0.1 @prettier/plugin-xml@3.4.1 prettier-plugin-sh@0.14.0` or probably just `pnpm install -D` if it's not your project.
 1. If they don't exist already `echo "{}" > .prettierrc && touch .prettierignore`
 1. `pnpm exec prettier . --write` or `pnpm exec prettier . --check`
+
+## Configuration
+
+I do with `.editorconfig` what I can, but for example this site's `.prettierrc` looks like:
+
+```json
+{
+  "plugins": ["@prettier/plugin-xml"],
+  "overrides": [{ "files": ".prettierrc", "options": { "parser": "json" } }]
+}
+```
+
+at the time of writing. It's directly from documentation excluding the plugin name, but I will want it everywhere.
 
 ## `.pre-commit-config.yaml`
 
