@@ -38,9 +38,9 @@ There isn't much point in signing things, unless you are able to verify them. Th
 
 ```bash
 sshAllowedSigners=$HOME/src/gitea.blesmrt.net/Mikaela/ssh-allowed_signers/allowed_signers
-ssh-verify-file () {
-    echo "$1 ${2:?Usage: ssh-verify-file <email> <file-to-verify>}" > /dev/null
-    ssh-keygen -Y verify -f $sshAllowedSigners -I $1 -n file -s $2.sig < $2
+ssh-verify-file() {
+  echo "$1 ${2:?Usage: ssh-verify-file <email> <file-to-verify>}" > /dev/null
+  ssh-keygen -Y verify -f $sshAllowedSigners -I $1 -n file -s $2.sig < $2
 }
 ```
 

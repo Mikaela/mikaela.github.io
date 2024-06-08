@@ -6,9 +6,9 @@
 * text=auto eol=lf linguist-detectable
 
 # Built-in diff patterns (disabled by default).
-*.css   diff=css
-*.html  diff=html
-*.php   diff=php
+*.css diff=css
+*.html diff=html
+*.php diff=php
 *.{md,markdown} diff=markdown
 
 # These don't feel like mine
