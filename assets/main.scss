@@ -7,8 +7,12 @@
 // Our variables
 $serif-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman",
   serif, emoji;
-$sans-serif-font-family: ui-sans-serif, "Liberation Sans", "Arimo", "Arial",
-  sans-serif;
+// The second font, system-ui, may map to serif or something else entirely
+// instead of sans-serif, but it's less of an issue than the others
+// considering how serifs have distinguishable homoglyphs (I and l or O and 0
+// etc.)
+$sans-serif-font-family: ui-sans-serif, system-ui, "Liberation Sans", "Arimo",
+  "Arial", sans-serif;
 $monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
   monospace, emoji;
 // Must be in the end or undefined error.
@@ -42,14 +46,16 @@ $base-font-family: $sans-serif-font-family;
   font-variant-emoji: text;
 }
 
+// E.g. blesmrt.net vs bIesmrt.net
 a {
   text-decoration: underline !important;
   font-family: $serif-font-family;
 }
 
-a.site-title {
-  font-family: $serif-font-family;
-}
+// Extraneous considering the above.
+//a.site-title {
+//  font-family: $serif-font-family;
+//}
 
 // .page-content {
 //     width: 100% !important;
@@ -68,7 +74,8 @@ code {
   font-size: 0.8em !important;
 }
 
-// Serif for headings?
+// Serif for headings to constrast with everything else being sans-serif
+// (except links).
 h1,
 h2,
 h3,
