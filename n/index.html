@@ -32,8 +32,9 @@ robots: noai
 <!-- If the page is on the sitemap, I want to publish it here -->
 {% assign notes = site.pages | where_exp: "page", "page.path contains 'n/'" %}
 {% for note in notes %} {% if note.sitemap == true %}
+<h2><a href="{{ note.url }}">{{note.title}}</a></h2>
 <p>
-  <a href="{{ note.url }}">{{ note.url | split: ".html" }} - {{note.title}}</a>
+  <span class="monospaced">{{ note.url | split: ".html" }}</span> - {{
+  note.excerpt | strip_html }}
 </p>
-<p>{{ note.excerpt | strip_html }}</p>
 {% endif %} {% endfor %}

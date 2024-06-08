@@ -17,19 +17,16 @@ robots: noai
   <h2 id="in-english">In English</h2>
 
   {% for post in site.categories.english %}
-  <p>
-    <em>{{ post.date | date: "%F" }}:</em>
-    <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
-  </p>
-  {{ post.excerpt | markdownify }} {% endfor %}
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p>{{ post.date | date: "%F" }}: {{ post.excerpt | strip_html }}</p>
+  {% endfor %}
 </div>
 <hr />
+<br />
 <div lang="fi">
   <h2 id="suomeksi">suomeksi</h2>
   {% for post in site.categories.finnish %}
-  <p>
-    <em>{{ post.date | date: "%F" }}:</em>
-    <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
-  </p>
-  {{ post.excerpt | markdownify }} {% endfor %}
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p>{{ post.date | date: "%F" }}: {{ post.excerpt | strip_html }}</p>
+  {% endfor %}
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Mitä puhelimet tekisivät jos kelloja siirrettäisiin pysyvästi"
+title: "Mitä puhelimet tekisivät jos kelloja siirrettäisiin pysyvästi?"
 category: [finnish]
 tags:
   [
