@@ -11,6 +11,7 @@ redirect_from:
   - /r/_nomap.md
   - /r/_optout_nomap.md
 robots: noai
+sitemap: true
 excerpt: Previously a blog post, now a note on _nomap in SSID.
 ---
 
