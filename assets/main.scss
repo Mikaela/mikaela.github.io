@@ -7,12 +7,10 @@
 // Our variables
 $serif-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman",
   serif, emoji;
-// The second font, system-ui, may map to serif or something else entirely
-// instead of sans-serif, but it's less of an issue than the others
-// considering how serifs have distinguishable homoglyphs (I and l or O and 0
-// etc.)
-$sans-serif-font-family: ui-sans-serif, system-ui, "Liberation Sans", "Arimo",
-  "Arial", sans-serif;
+// I would like to use system-ui as a fallback, but it just is too
+// inconsistent. Refer to https://caniuse.com/extended-system-fonts
+$sans-serif-font-family: ui-sans-serif, "Liberation Sans", "Arimo", "Arial",
+  sans-serif;
 $monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
   monospace, emoji;
 // Must be in the end or undefined error.
