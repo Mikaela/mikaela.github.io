@@ -21,6 +21,10 @@ _{{ page.excerpt }}_
 
 `_nomap` in the end of your SSID will exclude your network from Google, Apple, WiGLE etc.
 
+Microsoft has a separate [location services
+opt-out](https://account.microsoft.com/privacy/location-services-opt-out)
+which uses MAC addresses instead.
+
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
 
