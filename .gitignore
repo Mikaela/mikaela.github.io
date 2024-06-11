@@ -12,3 +12,4 @@ keys.txt.asc
 vendor/
 *_original
 .cache/**
+node_modules/**

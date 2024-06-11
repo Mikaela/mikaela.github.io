@@ -5,49 +5,95 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.ci for more information
 ci:
-  skip: [exiftool]
+  skip: [exiftool, prettier]
+  # I don't need so many duplicated notifications on the same thing as I keep
+  # autoupdating manually too. Besides it just creates extra branch I never
+  # touch.
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
 
-default_language_version:
-  python: pypy3
+# Use pypy3 for the Python hooks. Except don't, see .gitlab-ci.yml
+#default_language_version:
+#  python: pypy3
 
 repos:
-  - repo: https://github.com/fsfe/reuse-tool
-    rev: v3.0.2
-    hooks:
-      - id: reuse
-
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext", "md,markdown"]
         exclude_types: [svg, tsv]
-      - id: check-added-large-files
-      - id: check-case-conflict
       - id: end-of-file-fixer
       - id: check-yaml
+      - id: check-added-large-files
+      - id: check-case-conflict
       - id: check-executables-have-shebangs
+      - id: check-json
+      - id: check-merge-conflict
       - id: check-shebang-scripts-are-executable
       - id: destroyed-symlinks
       - id: detect-private-key
       - id: fix-byte-order-marker
+      - id: check-merge-conflict
+      - id: mixed-line-ending
+        args: [--fix=auto]
+      - id: pretty-format-json
+        args: [--autofix, --no-ensure-ascii]
 
-  - repo: https://github.com/rbubley/mirrors-prettier
-    rev: "v3.2.5"
+  - repo: https://github.com/pre-commit/sync-pre-commit-deps
+    rev: v0.0.1
     hooks:
-      - id: prettier
-        #additional_dependencies: [
-        # https://www.npmjs.com/package/prettier
-        #"prettier@3.1.0",
-        #]
+      - id: sync-pre-commit-deps
 
-  # Fedora: perl-Image-ExifTool
+  - repo: https://github.com/pre-commit-ci/pre-commit-ci-config
+    rev: v1.6.1
+    hooks:
+      - id: check-pre-commit-ci-config
+
+  - repo: https://github.com/thlorenz/doctoc
+    rev: v2.2.0
+    hooks:
+      - id: doctoc
+        args:
+          [
+            --update-only,
+            --title,
+            '<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>',
+          ]
+
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.28.5
+    hooks:
+      - id: check-dependabot
+      - id: check-github-workflows
+      - id: check-gitlab-ci
+
+  - repo: https://github.com/fsfe/reuse-tool
+    rev: v3.1.0a1
+    hooks:
+      - id: reuse
+        exclude: ^.cache\/.*$
+
   - repo: local
     hooks:
+      - id: prettier
+        name: prettier
+        entry: pnpm exec prettier --cache --ignore-unknown --write
+        language: system
+        # Better handled by pretty-format-json from pre-commit-hooks.
+        # Remember to have *.json in .prettierignore!
+        exclude_types: [json]
+
+      # Fedora: perl-Image-ExifTool
       - id: exiftool
         name: Remove all EXIF metadata using exiftool
         entry: exiftool -all=
         language: system
         types: [image]
+
+  - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
+    rev: "2.7.3"
+    hooks:
+      - id: editorconfig-checker
+        alias: ec
+        args: [-disable-max-line-length]
