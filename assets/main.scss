@@ -8,9 +8,9 @@
 $serif-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman",
   serif, "Noto Emoji", "Noto Color Emoji", emoji;
 // Please consider this as a vote in support of https://caniuse.com/extended-system-fonts
-$sans-serif-font-family: ui-sans-serif, "Comic Neue Angular", "Comic Neue",
-  "Comic Sans MS", "Comic Sans", "Liberation Sans", "Arimo", "Arial", sans-serif,
-  "Noto Emoji", "Noto Color Emoji", emoji;
+$sans-serif-font-family: ui-sans-serif, system-ui, "Comic Neue Angular",
+  "Comic Neue", "Comic Sans MS", "Comic Sans", "Liberation Sans", "Arimo",
+  "Arial", sans-serif, "Noto Emoji", "Noto Color Emoji", emoji;
 $monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
   monospace, "Noto Emoji", "Noto Color Emoji", emoji;
 // Must be in the end or undefined error.
