@@ -7,16 +7,10 @@
 // Our variables
 $serif-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman",
   serif, "Noto Emoji", "Noto Color Emoji", emoji;
-// I would like to use system-ui as a fallback, but it just is too
-// inconsistent. Refer to https://caniuse.com/extended-system-fonts
-$sans-serif-font-family:
-  ui-sans-serif,
-  "Liberation Sans",
-  "Arimo",
-  "Arial",
-  sans-serif "Noto Emoji",
-  "Noto Color Emoji",
-  emoji;
+// Please consider this as a vote in support of https://caniuse.com/extended-system-fonts
+$sans-serif-font-family: ui-sans-serif, "Comic Neue Angular", "Comic Neue",
+  "Comic Sans MS", "Comic Sans", "Liberation Sans", "Arimo", "Arial", sans-serif,
+  "Noto Emoji", "Noto Color Emoji", emoji;
 $monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
   monospace, "Noto Emoji", "Noto Color Emoji", emoji;
 // Must be in the end or undefined error.
