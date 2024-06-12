@@ -48,6 +48,11 @@ $base-font-family: $sans-serif-font-family;
   /* end https://clagnut.com/blog/2395/ */
   // Experimental trick to make all emojis text if supported.
   font-variant-emoji: text;
+  /* WCAG minimum suggestions */
+  margin-bottom: 2 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.12 !important;
+  word-spacing: 0.16 !important;
 }
 
 // E.g. blesmrt.net vs bIesmrt.net
@@ -132,7 +137,7 @@ h6 {
 
 // This is the short bio in the index and all my profiles
 #bio {
-  text-align: center;
+  //text-align: center;
   font-style: italic;
   font-family: ui-cursive, $serif-font-family;
 }
