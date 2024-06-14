@@ -1,6 +1,6 @@
 ---
 title: Quick localectl config
-excerpt: For when I need to remember how to change system language on systemd using distributions.
+excerpt: Reminder on systemd keyboard and language settings, also including more regionally tailored ones.
 layout: mini
 permalink: /n/localectl.html
 redirect_from:
@@ -15,6 +15,8 @@ robots: noai
 
 # Quick notes on `localectl` settings
 
+_{page.excerpt}_
+
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
 
@@ -24,7 +26,6 @@ robots: noai
 
 - [Ready commands](#ready-commands)
   - [Finland compatible internationalish English](#finland-compatible-internationalish-english)
-  - [Finland Finnish](#finland-finnish)
 - [Explanations](#explanations)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -34,19 +35,21 @@ robots: noai
 
 ## Ready commands
 
+TL;DR:
+
+```
+sudo localectl set-keymap fi
+sudo localectl set-locale fi_FI.UTF-8
+sudo localectl set-x11-locale fi
+```
+
 ### Finland compatible internationalish English
 
 ```bash
-sudo localectl set-locale LANG=en_IE.utf8 LC_TIME=en_DK.utf8 LC_MONETARY=fi_FI.utf8 LC_NAME=fi_FI.utf8 LC_TELEPHONE=fi_FI.utf8
+sudo localectl set-locale LANG=en_IE.UTF-8 LC_TIME=en_DK.UTF-8 LC_MONETARY=fi_FI.UTF-8 LC_NAME=fi_FI.UTF-8 LC_TELEPHONE=fi_FI.UTF-8
 ```
 
 - Everything will be in English, but time will be in ISO 8601, financial units use Finnish separators, names are sorted according to Finnish alphabet (a, …, x, y, z, å, ä, ö) and phone numbers begin with the Finnish `+358` prefix.
-
-### Finland Finnish
-
-```
-sudo localectl set-locale LANG=fi_FI.utf8 LC_TIME=fi_FI.utf8 LC_MONETARY=fi_FI.utf8 LC_NAME=fi_FI.utf8 LC_TELEPHONE=fi_FI.utf8
-```
 
 ## Explanations
 
@@ -70,8 +73,6 @@ So `/etc/locale.gen` must include the lines
 ```
 en_DK.UTF-8 UTF-8
 en_IE.UTF-8 UTF-8
-# If you don't have en_US, things will break!
-en_US.UTF-8 UTF-8
 fi_FI.UTF-8 UTF-8
 ```
 
