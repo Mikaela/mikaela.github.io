@@ -51,7 +51,7 @@ icon: https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-me
 # The content is mostly in English and this is just the last fallback. I try
 # to specify it on every new page though. Jekyll SEO also uses locale
 lang: en
-locale: en
+locale: en-FI
 
 # Build settings
 markdown: kramdown
