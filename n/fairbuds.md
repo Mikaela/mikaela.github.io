@@ -1,6 +1,6 @@
 ---
 title: Fairbuds XL and the equalizer settings
-excerpt: I am just copying Dezponia who has approved it in hopes of someone else benefiting from this too.
+excerpt: I have the misnamed XL and while it's clear, even with factory reset by pushing the joystick to the right until it says "factory reset complete", but the studio eq may not be so clear.
 layout: mini
 permalink: /n/fairbuds.html
 redirect_from:
@@ -12,9 +12,7 @@ robots: noai
 
 # Fairbuds XL configuration
 
-I have the misnamed XL and while it's clear, even with factory reset by
-pushing the joystick to the right until it says _factory reset complete_,
-but the studio eq may not be so clear.
+_{{ page.excerpt }}_
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->

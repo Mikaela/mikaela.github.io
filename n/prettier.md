@@ -8,7 +8,7 @@ title: Prettier packages I use
 excerpt: I use them both directly, and within pre-commit
 ---
 
-**{{ page.excerpt }}**
+_{{ page.excerpt }}_
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->

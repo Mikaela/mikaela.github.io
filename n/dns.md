@@ -15,7 +15,7 @@ robots: noai
 
 # DNS notes
 
-_For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
+_{{ page.excerpt }} For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->

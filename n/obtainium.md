@@ -1,12 +1,14 @@
 ---
 title: Obtainiun
-excerpt: Obtainium and useful apps for it.
+excerpt: Obtainium downloads apps directly from forge/whatever without need for app stores and theoretically I can bootstrap it by copy-pasting the txt linked below into it, especially on devices that Google doesn't smile upon.
 layout: mini
 permalink: /n/obtainium.html
 sitemap: true
 lang: en
 robots: noai
 ---
+
+_{{ page.excerpt }}_
 
 [Obtainium](https://github.com/ImranR98/Obtainium/) downloads apps directly from forge/whatever without need for app
 stores and theoretically I can bootstrap it by copy-pasting the txt linked

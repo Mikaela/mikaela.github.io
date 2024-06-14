@@ -12,7 +12,7 @@ robots: noai
 
 # Quick note on firewalld usage
 
-This is practically [/ufw](/ufw), but fore Firewalld which Fedora comes with.
+This is practically [/ufw](/ufw), but for Firewalld which Fedora comes with.
 The blog post also predates me having a /n directory here.
 
 **_After done, run `sudo firewall-cmd --reload`_**

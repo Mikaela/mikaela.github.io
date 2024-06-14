@@ -1,6 +1,6 @@
 ---
 title: Essential software on my systems
-excerpt: This is a living note on what I should consider installing or configuring everywhere.
+excerpt: This is just a quick personal reference so I don't have to guess.
 layout: mini
 permalink: /n/essentialsoftware.html
 sitemap: true
@@ -10,7 +10,7 @@ robots: noai
 
 # Essential software for new systems
 
-This is just a quick personal reference so I don't have to guess.
+_{{ page.excerpt }}_
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->

@@ -1,6 +1,6 @@
 ---
 title: Telegram language links
-excerpt: This page contains link lists to change language of Telegram clients.
+excerpt: You have ended up to my note-to-self on languages of Telegram that I care about (as /setlanguage/xx[<-beta>] is so difficult to remember)?
 layout: mini
 permalink: /n/telegram.html
 redirect_from: /r/telegram.html
@@ -8,8 +8,7 @@ sitemap: false
 lang: en
 ---
 
-You have ended up to my note-to-self on languages of Telegram that I care
-about (as /setlanguage/xx[<-beta>] is so difficult to remember)?
+_{{ page.excerpt }}_
 
 - [https://t.me/setlanguage/cs-beta](https://t.me/setlanguage/cs-beta)
 - [https://t.me/setlanguage/eo-beta](https://t.me/setlanguage/eo-beta)
