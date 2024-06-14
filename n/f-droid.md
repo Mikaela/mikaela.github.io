@@ -1,6 +1,6 @@
 ---
 title: F-Droid repository list
-excerpt: I always add these on my F-Droid.
+excerpt: F-Droid is kind of apt for Android with multiple repositories available. This is my note to self on which repositories I tend to have configured.
 layout: mini
 permalink: /n/f-droid.html
 redirect_from: /n/fdroid.html
@@ -9,8 +9,7 @@ lang: en
 robots: noai
 ---
 
-F-Droid is kind of apt for Android with multiple repositories available. This
-is my note to self on which repositories I tend to have configured.
+_{{ page.excerpt }}_
 
 Remember to prefer the [F-Droid Basic](https://f-droid.org/packages/org.fdroid.basic) app!
 
@@ -37,14 +36,14 @@ isn't enabled by default. And for some reason my Yeul decided that it
 needs 0 repositories out of the box, so time to add them too.
 
 - [cloudflare.f-droid.org/repo](fdroidrepos://cloudflare.f-droid.org/repo?fingerprint=43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab)
-- [cloudflare.f-droid.org/archive](fdroidrepos://cloudflare.f-droid.org/archive?fingerprint=43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab)
+  - <s>[cloudflare.f-droid.org/archive](fdroidrepos://cloudflare.f-droid.org/archive?fingerprint=43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab)</s>
 
 ## Additional F-Droid repositories
 
 - [apt.izzysoft.de/fdroid/repo](fdroidrepos://apt.izzysoft.de/fdroid/repo?fingerprint=3bf0d6abfeae2f401707b6d966be743bf0eee49c2561b9ba39073711f628937a) is a less strictly foss repository by an F-Droid maintainer.
 - [fdroid.frostnerd.com/fdroid/repo](fdroidrepos://fdroid.frostnerd.com/fdroid/repo?fingerprint=74bb580f263ec89e15c207298dec861b5069517550fe0f1d852f16fa611d2d26) contains Frostnerd's apps, mainly Nebulo.
 - [guardianproject.info/fdroid/repo](fdroidrepos://guardianproject.info/fdroid/repo?fingerprint=b7c2eefd8dac7806af67dfcd92eb18126bc08312a7f2d6f3862e46013c7a6135)
-- [guardianproject.info/fdroid/archive](fdroidrepos://guardianproject.info/fdroid/archive?fingerprint=b7c2eefd8dac7806af67dfcd92eb18126bc08312a7f2d6f3862e46013c7a6135)
+  - <s>[guardianproject.info/fdroid/archive](fdroidrepos://guardianproject.info/fdroid/archive?fingerprint=b7c2eefd8dac7806af67dfcd92eb18126bc08312a7f2d6f3862e46013c7a6135)</s>
 - [s2.spiritcroc.de/fdroid/repo](fdroidrepos://s2.spiritcroc.de/fdroid/repo?fingerprint=6612ade7e93174a589cf5ba26ed3ab28231a789640546c8f30375ef045bc9242) contains SpiritCroc's apps, mainly SchildiChat.
 - [s2.spiritcroc.de/testing/fdroid/repo](fdroidrepos://s2.spiritcroc.de/testing/fdroid/repo?fingerprint=52d03f2fab785573bb295c7ab270695e3a1bdd2adc6a6de8713250b33f231225) contains testing versions of SpiritCroc's apps, mainly SchildiChat.
 - [divestos.org/apks/official/fdroid/repo](fdroidrepos://divestos.org/apks/official/fdroid/repo?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) contains the DivestOS apps such as Hypatia and Mull Browser (not to be confused with Mullvad Browser).
