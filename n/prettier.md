@@ -32,31 +32,43 @@ _{{ page.excerpt }}_
 
 ## The packages
 
+- [@prettier/plugin-ruby](https://www.npmjs.com/package/@prettier/plugin-ruby)
+- [@prettier/plugin-xml](https://www.npmjs.com/package/@prettier/plugin-xml)
 - [prettier](https://www.npmjs.com/package/prettier)
 - [prettier-plugin-nginx](https://www.npmjs.com/package/prettier-plugin-nginx)
-- [@prettier/plugin-ruby](https://www.npmjs.com/package/@prettier/plugin-ruby)
-- [prettier-plugin-toml](https://www.npmjs.com/package/prettier-plugin-toml)
-- [@prettier/plugin-xml](https://www.npmjs.com/package/@prettier/plugin-xml)
 - [prettier-plugin-sh](https://www.npmjs.com/package/prettier-plugin-sh)
+- [prettier-plugin-toml](https://www.npmjs.com/package/prettier-plugin-toml)
 
 ## Installation
 
-1. `npm install -D -E prettier@3.3.1 prettier-plugin-nginx@1.0.3 @prettier/plugin-ruby@4.0.4 prettier-plugin-toml@2.0.1 @prettier/plugin-xml@3.4.1 prettier-plugin-sh@0.14.0` or probably just `pnpm install -D` if it's not your project.
+1. `npm install -D -E prettier@3.3.2 prettier-plugin-nginx@1.0.3 @prettier/plugin-ruby@4.0.4 prettier-plugin-toml@2.0.1 @prettier/plugin-xml@3.4.1 prettier-plugin-sh@0.14.0` or probably just `pnpm install -D` if it's not your project.
 1. If they don't exist already `echo "{}" > .prettierrc && touch .prettierignore`
 1. `pnpm exec prettier . --write` or `pnpm exec prettier . --check`
 
 ## Configuration
 
-I do with `.editorconfig` what I can, but for example this site's `.prettierrc` looks like:
+I do with `.editorconfig` what I can, but for example my template `.prettierrc` looks like:
 
 ```json
 {
-  "plugins": ["@prettier/plugin-xml"],
-  "overrides": [{ "files": ".prettierrc", "options": { "parser": "json" } }]
+  "plugins": [
+    "@prettier/plugin-ruby",
+    "@prettier/plugin-xml",
+    "prettier-plugin-nginx",
+    "prettier-plugin-sh",
+    "prettier-plugin-toml"
+  ],
+  "overrides": [
+    { "files": ".prettierrc", "options": { "parser": "json" } },
+    {
+      "files": "conf/librewolf.overrides.cfg",
+      "options": { "parser": "javascript" }
+    }
+  ]
 }
 ```
 
-at the time of writing. It's directly from documentation excluding the plugin name, but I will want it everywhere.
+at the time of writing. It's directly from documentation excluding the plugin names, but I will want it everywhere.
 
 ## `.pre-commit-config.yaml`
 
