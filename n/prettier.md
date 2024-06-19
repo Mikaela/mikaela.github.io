@@ -54,6 +54,9 @@ looks like:
 
 ```json
 {
+  "insertPragma": true,
+  "proseWrap": "always",
+  "singleAttributePerLine": true,
   "plugins": [
     "@prettier/plugin-ruby",
     "@prettier/plugin-xml",
@@ -65,6 +68,10 @@ looks like:
     { "files": ".prettierrc", "options": { "parser": "json" } },
     {
       "files": "conf/librewolf.overrides.cfg",
+      "options": { "parser": "javascript" }
+    },
+    {
+      "files": "conf/autoconfig.js.online",
       "options": { "parser": "javascript" }
     }
   ]
