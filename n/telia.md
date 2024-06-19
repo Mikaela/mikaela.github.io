@@ -5,10 +5,7 @@ redirect_from: /r/telia.html
 sitemap: false
 lang: fi
 locale: fi_FI
-excerpt: Telia on pistänyt silmiini monissa asioissa, etenkin miten monta kertaa
-heidän verkkonsa on ollut nurin koko maassa ilman muiden operaattoreiden
-vastaavan häiriön tapahtumista.
-
+excerpt: Telia on pistänyt silmiini monissa asioissa, etenkin miten monta kertaa heidän verkkonsa on ollut nurin koko maassa ilman muiden operaattoreiden vastaavan häiriön tapahtumista.
 ---
 
 _{{ page.excerpt }}_
