@@ -98,11 +98,11 @@ I am not thinking of as a not-coder myself.
 
 ```yaml
 ci:
-  skip: [pnpm-prettier]
+  skip: [prettier]
 repos:
   - repo: local
     hooks:
-      - id: pnpm-prettier
+      - id: prettier
         name: prettier
         entry: pnpm exec prettier --cache --ignore-unknown --write
         language: system
