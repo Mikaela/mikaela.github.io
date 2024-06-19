@@ -9,10 +9,12 @@ lang: en
 robots: noai
 ---
 
-> Keyoxide is a decentralized tool to create and verify decentralized online identities.
+> Keyoxide is a decentralized tool to create and verify decentralized online
+> identities.
 
 - For painful OpenPGP proofs using notations refer to [n/gpg](/n/gpg.html).
-- For ASP profiles [Keyoxide-flutter](https://codeberg.org/Berker/keyoxide-flutter).
+- For ASP profiles
+  [Keyoxide-flutter](https://codeberg.org/Berker/keyoxide-flutter).
   - [n/obtainium](/n/obtainium.html) is that way.
 
 ## My ASP profile
@@ -21,6 +23,8 @@ robots: noai
 
 ### Proofs
 
-- Plain: [`aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY`](https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY)
+- Plain:
+  [`aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY`](https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY)
   - <code>[`aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY`](https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY)</code>
-- Hashed: `$argon2id$v=19$m=8192,t=2,p=4$UeKcKenApsCHc+YGJUGCHw$hoTY1qFVXf56BZpZCUNG39/2IrQjwKrT`
+- Hashed:
+  `$argon2id$v=19$m=8192,t=2,p=4$UeKcKenApsCHc+YGJUGCHw$hoTY1qFVXf56BZpZCUNG39/2IrQjwKrT`

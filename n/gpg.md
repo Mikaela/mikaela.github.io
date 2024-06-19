@@ -1,6 +1,8 @@
 ---
 title: GPG notes without a better place
-excerpt: Creating Ed25519/future key, configuring WKD, Keyoxide PGP and something on Keybase.
+excerpt:
+  Creating Ed25519/future key, configuring WKD, Keyoxide PGP and something on
+  Keybase.
 layout: mini
 permalink: /n/gpg.html
 redirect_from:
@@ -42,8 +44,8 @@ robots: noai
 
 ## Ed25519 (or future default) key creation
 
-To create an Ed25519 key, or whatever will be the default version in the
-future as defined by your GPG version:
+To create an Ed25519 key, or whatever will be the default version in the future
+as defined by your GPG version:
 
 ```
 gpg2 --quick-gen-key address@domain.example future-default
@@ -59,26 +61,28 @@ deluid # to delete the uid which doesn't contain your name
 save
 ```
 
-\* [OpenPGP User ID Comments considered harmful by dkg on debian-administrator.org (via web.archive.org)](https://web.archive.org/web/20201020082313/https://debian-administration.org/users/dkg/weblog/97)
+\*
+[OpenPGP User ID Comments considered harmful by dkg on debian-administrator.org (via web.archive.org)](https://web.archive.org/web/20201020082313/https://debian-administration.org/users/dkg/weblog/97)
 
-Then you are ready to publish the public key however you generally publish
-it, preferably in multiple places from where some recognise revokation
-certificates if the time ever comes.
+Then you are ready to publish the public key however you generally publish it,
+preferably in multiple places from where some recognise revokation certificates
+if the time ever comes.
 
-NOTE: You can extend the expiry time of an expired gpg signature by issuing
-the `expire` command in `--edit-key` and the key is valid again when the
-update is reimported to gpg keyrings by other people.
+NOTE: You can extend the expiry time of an expired gpg signature by issuing the
+`expire` command in `--edit-key` and the key is valid again when the update is
+reimported to gpg keyrings by other people.
 
 ## Keybase
 
-To publish the key `keybase pgp select --multi` (where multi
-is required for multiple PGP keys per account) and to submit changes to it,
+To publish the key `keybase pgp select --multi` (where multi is required for
+multiple PGP keys per account) and to submit changes to it,
 `keybase pgp update --all` (where --all is again necessary only if you have
 multiple keys).
 
 ## Claws-mail note that is somewhat related.
 
-Debian: `sudo apt install claws-mail claws-mail-address-keeper claws-mail-attach-warner claws-mail-gdata-plugin claws-mail-pgpinline claws-mail-pgpmime claws-mail-smime-plugin`
+Debian:
+`sudo apt install claws-mail claws-mail-address-keeper claws-mail-attach-warner claws-mail-gdata-plugin claws-mail-pgpinline claws-mail-pgpmime claws-mail-smime-plugin`
 
 Load plugins from Configuration (menu) --> Plugins --> Load, they are all
 somewhere in `/usr/lib/x86_64-linux-gnu/claws-mail/plugins` or similar path.
@@ -103,17 +107,19 @@ xxxx xxxx xxxx xxxx xxxx  xxxx xxxx xxxx xxxx xxxx
 
 ```
 
-Note the empty line in the end, as PGP/INLINE is the way to sign emails,
-it the PGP signature comes after it and in my opinion looks a bit cleaner
-with the signature ending to an empty line.
+Note the empty line in the end, as PGP/INLINE is the way to sign emails, it the
+PGP signature comes after it and in my opinion looks a bit cleaner with the
+signature ending to an empty line.
 
 ---
 
 ## WKD
 
-Setting up GPG WKD (Web Key Directory), _mostly stripped/adjusted from
-Matt Rude whose page is NXDOMAIN and not in Wayback Machine. [What I find is](https://openpgpkey.mattrude.com/)
-pointers to [1](https://wiki.gnupg.org/WKD) [2](https://wiki.gnupg.org/WKS) [3](https://tools.ietf.org/html/draft-koch-openpgp-webkey-service)_
+Setting up GPG WKD (Web Key Directory), _mostly stripped/adjusted from Matt Rude
+whose page is NXDOMAIN and not in Wayback Machine.
+[What I find is](https://openpgpkey.mattrude.com/) pointers to
+[1](https://wiki.gnupg.org/WKD) [2](https://wiki.gnupg.org/WKS)
+[3](https://tools.ietf.org/html/draft-koch-openpgp-webkey-service)_
 
 Requires a control over domain/.well-known and email under that domain.
 
@@ -126,7 +132,8 @@ Requires a control over domain/.well-known and email under that domain.
 7. in Jekyll `_config.yml` ensure existence of `include: [.well-known]` if
    applicable.
 8. deploy
-9. test with `gpg -v --auto-key-locate clear,wkd,nodefault --locate-key email@example.net`
+9. test with
+   `gpg -v --auto-key-locate clear,wkd,nodefault --locate-key email@example.net`
 
 NOTE: The empty `policy` goes to the `openpgpkey` directory, not `hu` (I
 initially failed at this part)
@@ -144,7 +151,8 @@ commands in `gpg --edit-key "key fingerprint here"`:
 - Add notations: `notation`
 - Remove notations: `notation` from `showpref` with a `-` in the beginning
 
-Don't forget to `gpg --keyserver hkps://keys.openpgp.org --send-keys "your keyid here"` !
+Don't forget to
+`gpg --keyserver hkps://keys.openpgp.org --send-keys "your keyid here"` !
 
 ### Keyoxide docs
 

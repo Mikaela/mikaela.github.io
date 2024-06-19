@@ -1,6 +1,8 @@
 ---
 title: Telegram language links
-excerpt: You have ended up to my note-to-self on languages of Telegram that I care about (as /setlanguage/xx[<-beta>] is so difficult to remember)?
+excerpt:
+  You have ended up to my note-to-self on languages of Telegram that I care
+  about (as /setlanguage/xx[<-beta>] is so difficult to remember)?
 layout: mini
 permalink: /n/telegram.html
 redirect_from: /r/telegram.html

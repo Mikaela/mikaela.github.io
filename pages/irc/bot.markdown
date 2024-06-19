@@ -3,7 +3,9 @@ layout: page
 title: The IRC bot Euforia
 permalink: /irc/bot.html
 sitemap: true
-excerpt: "A little about my IRC bot. Useful links, why it doesn't reply to me, how to make it recognize me, what does it actually do?"
+excerpt:
+  "A little about my IRC bot. Useful links, why it doesn't reply to me, how to
+  make it recognize me, what does it actually do?"
 redirect_from: /bot.html
 published: false
 ---
@@ -17,14 +19,13 @@ _Please read also [rules of my channels.](https://mikaela.info/channel.html)_
 
 ## Limnoria
 
-My bot is [Limnoria] which is currently the most popular [Supybot] fork
-that is still under active development and it has merged in features of
-another popular fork, [Gribble].
+My bot is [Limnoria] which is currently the most popular [Supybot] fork that is
+still under active development and it has merged in features of another popular
+fork, [Gribble].
 
-My role with [Limnoria] was Finnish translator and IRC support and I also
-made minor changes to make some default configuration variables more
-reasonable. Most of [documentation] since [Supybot] and before my leaving
-is also written by me.
+My role with [Limnoria] was Finnish translator and IRC support and I also made
+minor changes to make some default configuration variables more reasonable. Most
+of [documentation] since [Supybot] and before my leaving is also written by me.
 
 [supybot]: https://github.com/Supybot/Supybot
 [limnoria]: https://github.com/ProgVal/Limnoria
@@ -35,8 +36,8 @@ is also written by me.
 
 ### Addressing the bot
 
-The following table opens where the bot will reply to in channel. In PM
-the bot replies to everything _(without prefix)_.
+The following table opens where the bot will reply to in channel. In PM the bot
+replies to everything _(without prefix)_.
 
 <table>
     <tr>
@@ -73,8 +74,8 @@ the bot replies to everything _(without prefix)_.
     </tr>
 </table>
 
-For checking the channel specific prefixes, refer to the following
-commands. They can be used in channel (if you know the prefix) or PM.
+For checking the channel specific prefixes, refer to the following commands.
+They can be used in channel (if you know the prefix) or PM.
 
 <table>
     <tr>
@@ -99,28 +100,27 @@ commands. They can be used in channel (if you know the prefix) or PM.
 ### Quick start
 
 Use `list` command to get list of plugins, `list <plugin>` to get list of
-commands in plugin, `help <plugin> <command>` to get usage instructions
-for \<command\> in \<plugin\>.
+commands in plugin, `help <plugin> <command>` to get usage instructions for
+\<command\> in \<plugin\>.
 
-If the bot tells you `(X more messages)`, use the `more` command to see
-more output.
+If the bot tells you `(X more messages)`, use the `more` command to see more
+output.
 
-There are also default plugins which means that when you use only
-`<command>` the command is automatically understood as `<plugin> <command>`
-for example `tell` is configured to be `later tell` which tells text
-to nick next time it's seen. If `command` exists only in one plugin,
-it's gets turned to `<plugin> <command>` automatically.
+There are also default plugins which means that when you use only `<command>`
+the command is automatically understood as `<plugin> <command>` for example
+`tell` is configured to be `later tell` which tells text to nick next time it's
+seen. If `command` exists only in one plugin, it's gets turned to
+`<plugin> <command>` automatically.
 
-In case command exists in multiple plugins, the bot will tell you that
-the command exists in multiple plugins and asks you to specify the plugin
-before it.
+In case command exists in multiple plugins, the bot will tell you that the
+command exists in multiple plugins and asks you to specify the plugin before it.
 
 ## Users
 
 The bot doesn't allow anyone to register and I will register channel ops
 manually on the channels the bot is on. Users are primarily identified by
-NickServ account, but on networks where there are no services it's required
-to use hostmasks.
+NickServ account, but on networks where there are no services it's required to
+use hostmasks.
 
 Requirements for getting account:
 
@@ -131,59 +131,60 @@ Requirements for getting account:
 
 ### Identifying
 
-_All users have a password in the bot, but I have made them invalid (by
-adding `!` in front of the hash in users.conf). If you have password set
-separately as said below, it will work._
+_All users have a password in the bot, but I have made them invalid (by adding
+`!` in front of the hash in users.conf). If you have password set separately as
+said below, it will work._
 
 - If you have a password, `/msg <bot> user identify username password`
-  - Passwords can be asked from me if needed. After getting one, change
-    it immediately with
-    `/msg <bot> user set password OLDPASSWORD NEWPASSWORD`
+  - Passwords can be asked from me if needed. After getting one, change it
+    immediately with `/msg <bot> user set password OLDPASSWORD NEWPASSWORD`
 - If you use NickServ account:
   - Use the `auth` command.
   - `/cycle` so extended-join sends your account name to the bot.
-  - `/kick <bot>` so the bot will automatically rejoin and send whox
-    requests to the channel receiving your NickServ account.
+  - `/kick <bot>` so the bot will automatically rejoin and send whox requests to
+    the channel receiving your NickServ account.
 - [Other methods / Official documentation](https://limnoria-doc.readthedocs.org/en/latest/use/getting_started.html#making-supybot-recognize-you)
 
 ## Channels
 
-List of the channels where the bot is on can be seen with /whois. However
-this list doesn't include secret/private channels (mode +s/+p).
+List of the channels where the bot is on can be seen with /whois. However this
+list doesn't include secret/private channels (mode +s/+p).
 
-The bot can also be requested to join other channels, but I reserve the
-right to not join it anywhere or to not register specific channel ops
-to the bot.
+The bot can also be requested to join other channels, but I reserve the right to
+not join it anywhere or to not register specific channel ops to the bot.
 
 ## What does the bot do?
 
-Currently the bot is primarily spamming my channels with new items in some
-RSS feeds. You can find list of the feeds added to the bot at
+Currently the bot is primarily spamming my channels with new items in some RSS
+feeds. You can find list of the feeds added to the bot at
 [the web documentation for RSS plugin](https://bot.mikaela.info/plugindoc/RSS/),
-but listing the feeds automatically announced on the channel isn't
-possible [yet](https://github.com/ProgVal/Limnoria/issues/1085).
+but listing the feeds automatically announced on the channel isn't possible
+[yet](https://github.com/ProgVal/Limnoria/issues/1085).
 
-It's also protecting channels from spam using the [AttackProtector plugin.](https://github.com/ProgVal/Supybot-plugins/tree/master/AttackProtector)
+It's also protecting channels from spam using the
+[AttackProtector plugin.](https://github.com/ProgVal/Supybot-plugins/tree/master/AttackProtector)
 
-The bot also has `ops` command for getting op attention, but it requires
-correct prefix to be used.
+The bot also has `ops` command for getting op attention, but it requires correct
+prefix to be used.
 
 ## Issues you may encounter
 
-For all known issues, see the issue tracker link below relevant subtopic
-as this section only lists those that you are likely to see or that others
-have asked about from me.
+For all known issues, see the issue tracker link below relevant subtopic as this
+section only lists those that you are likely to see or that others have asked
+about from me.
 
-I am trying to run [the latest released version of Limnoria.](https://github.com/ProgVal/Limnoria/tags)
+I am trying to run
+[the latest released version of Limnoria.](https://github.com/ProgVal/Limnoria/tags)
 
-External plugins are updated whenever I see need for it, but at least when
-I upgrade Limnoria.
+External plugins are updated whenever I see need for it, but at least when I
+upgrade Limnoria.
 
 ### Limnoria issues
 
 - Issue tracker: https://github.com/ProgVal/Limnoria/issues
 
-_Includes Limnoria core and [included plugins](https://github.com/ProgVal/Limnoria/tree/master/plugins)._
+_Includes Limnoria core and
+[included plugins](https://github.com/ProgVal/Limnoria/tree/master/plugins)._
 
 - [Title is only told for the first link in a message](https://github.com/ProgVal/Limnoria/issues/152)
 - [Some commands using hostmasks behave weirdly](https://github.com/ProgVal/Limnoria/issues/281)
@@ -195,11 +196,12 @@ _Includes Limnoria core and [included plugins](https://github.com/ProgVal/Limnor
 - [Meta descriptions for links aren't told](https://github.com/ProgVal/Limnoria/issues/650)
   - these could be useful with news sites.
 - [DNS command doesn't mention CNAMEs/ALIASes](https://github.com/ProgVal/Limnoria/issues/864)
-- Internet whois is quite broken [1](https://github.com/ProgVal/Limnoria/issues/993) [2](https://github.com/ProgVal/Limnoria/issues/994)
+- Internet whois is quite broken
+  [1](https://github.com/ProgVal/Limnoria/issues/993)
+  [2](https://github.com/ProgVal/Limnoria/issues/994)
 - [RSS: no announced feeds in web interface](https://github.com/ProgVal/Limnoria/issues/1085)
 - [html/javascript redirects aren't followed](https://github.com/ProgVal/Limnoria/issues/1120)
-  - you will especially see this if you encounter links to my
-    "URL shortener"
+  - you will especially see this if you encounter links to my "URL shortener"
 - [Google says: Error invalid resultSize](https://github.com/ProgVal/Limnoria/issues/1163)
 - [Web title & titlesnarfer are broken](https://github.com/ProgVal/Limnoria/issues/1173)
 
@@ -207,11 +209,12 @@ _Includes Limnoria core and [included plugins](https://github.com/ProgVal/Limnor
 
 - Issue tracker: https://github.com/ProgVal/Supybot-plugins/issues
 
-_Includes plugins from @ProgVal's/pinkieval's [plugin repository.](https://github.com/ProgVal/Supybot-plugins)_
+_Includes plugins from @ProgVal's/pinkieval's
+[plugin repository.](https://github.com/ProgVal/Supybot-plugins)_
 
 - LinkRelay
   - [Doesn't sync topics between relayed channels](https://github.com/ProgVal/Supybot-plugins/issues/31)
   - [Status of user in the channel isn't shown](https://github.com/ProgVal/Supybot-plugins/issues/60)
   - [What the bot says isn't relayed.](https://github.com/ProgVal/Supybot-plugins/issues/288)
-    - **This is currently the most visible issue on channels where
-      LinkRelay is used.**
+    - **This is currently the most visible issue on channels where LinkRelay is
+      used.**

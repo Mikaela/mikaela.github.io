@@ -11,10 +11,8 @@ lang: en
 
 # Unemojied emojis
 
-[John D. Cook shares a nice trick to prevent emojis from being displayed as
-emojis](https://www.johndcook.com/blog/2022/09/30/preventing-emoji/) and I
-want to store it here alongside the more personally
-relevant symbols.
+[John D. Cook shares a nice trick to prevent emojis from being displayed as emojis](https://www.johndcook.com/blog/2022/09/30/preventing-emoji/)
+and I want to store it here alongside the more personally relevant symbols.
 
 So to make something not an emoji, `U+FE0E` or `&#65038;` and to use emoji,
 `FE0F` or (`&#65039`).
@@ -49,7 +47,8 @@ _My shellrc has some reminders for me and these are the sequences there._
 ## aminda.eu
 
 - &#129477;&#65038; Onion: `\u1f9c5` `&#129477;&#65038;`
-  - I guess it just doesn't have a non-emoji variant at least on my system at the time of writing?
+  - I guess it just doesn't have a non-emoji variant at least on my system at
+    the time of writing?
 
 ### friends
 
@@ -58,20 +57,26 @@ _My shellrc has some reminders for me and these are the sequences there._
 
 ## Flags
 
-- &#127988;&#8205;&#9760;&#65038; Pirate Flag: `\u1f3f4\u200d\u2620\ufe0f\ufe0e` or `&#127988;&#8205;&#9760;&#65038;`
-- &#x1F3F3;&#xFE0F;&#x200D;&#x1F308;&#65038; Pride Flag: `&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;`
-- &#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;&#x200D;&#65038; Trans Pride Flag: `&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;&#x200D;&#65038;`
+- &#127988;&#8205;&#9760;&#65038; Pirate Flag: `\u1f3f4\u200d\u2620\ufe0f\ufe0e`
+  or `&#127988;&#8205;&#9760;&#65038;`
+- &#x1F3F3;&#xFE0F;&#x200D;&#x1F308;&#65038; Pride Flag:
+  `&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;`
+- &#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;&#x200D;&#65038; Trans Pride Flag:
+  `&#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;&#x200D;&#65038;`
 
 ## Kingdom Hearts
 
-Well, one must be prepared to discuss the clash between Light and Darkness and the &chi;-blade, in case someone resurrects it?
+Well, one must be prepared to discuss the clash between Light and Darkness and
+the &chi;-blade, in case someone resurrects it?
 
 - &chi; can be expressed as `\U03C7`, `&#x3C7;` or neatly `&chi;`.
-  - In case of `&Chi` making it a capital letter turns it into &Chi;, but can you even distinguish that from X?
+  - In case of `&Chi` making it a capital letter turns it into &Chi;, but can
+    you even distinguish that from X?
 
 ### Roman Numerals
 
-_You have no idea how often I miss these. And I don't even mean to discuss the_ Organization &#8555;&#8544;.
+_You have no idea how often I miss these. And I don't even mean to discuss the_
+Organization &#8555;&#8544;.
 
 **_WARNING: The first syntax may be incorrect._**
 

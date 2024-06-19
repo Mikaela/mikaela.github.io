@@ -18,10 +18,9 @@ It's very simple.
 sudo apt-get update && sudo apt-get install unbound dnssec-trigger
 ```
 
-And this is the farthest I have gotten before. But today at IRC there
-was talk on DNS proxies which Ubuntu and Fedora use, Ubuntu uses dnsmasq
-and Fedora unbound. That made me _read the fine manual_ of
-NetworkManager.conf...
+And this is the farthest I have gotten before. But today at IRC there was talk
+on DNS proxies which Ubuntu and Fedora use, Ubuntu uses dnsmasq and Fedora
+unbound. That made me _read the fine manual_ of NetworkManager.conf...
 
 ```man
        dns
@@ -43,12 +42,14 @@ NetworkManager.conf...
            none: NetworkManager will not modify resolv.conf.
 ```
 
-And there is the solution, unbound. The third line of NetworkManager.conf
-is usually `dns=dnsmasq`, just change it to `dns=unbound` or add the line
-if it doesn't exist and restart networkmanager with `sudo systemctl restart NetworkManager.service` and your dnssec-trigger should now work.
+And there is the solution, unbound. The third line of NetworkManager.conf is
+usually `dns=dnsmasq`, just change it to `dns=unbound` or add the line if it
+doesn't exist and restart networkmanager with
+`sudo systemctl restart NetworkManager.service` and your dnssec-trigger should
+now work.
 
-And when you `sudo reboot` you should see new dnssec-trigger tray icon in
-your tray bar or whatever it was called as.
+And when you `sudo reboot` you should see new dnssec-trigger tray icon in your
+tray bar or whatever it was called as.
 
 _Edit_: Arch users do remember do `systemctl enable dnssec-triggerd` and
 `systemctl enable unbound`.

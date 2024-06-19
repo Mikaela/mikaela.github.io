@@ -9,7 +9,8 @@ lang: en
 
 # Do copyright years need yearly updates?
 
-Apparently it depends on whether you care about when the project enters public domain.
+Apparently it depends on whether you care about when the project enters public
+domain.
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
@@ -35,7 +36,8 @@ Apparently it depends on whether you care about when the project enters public d
 ## Yes
 
 - [Information for maintainers of GNU software, 6.5: copyright notices](https://www.gnu.org/prep/maintain/maintain.html#Copyright-Notices)
-  - At the time of writing they practically say to update every file that has more than 10 lines.
+  - At the time of writing they practically say to update every file that has
+    more than 10 lines.
 
 ## Other links
 

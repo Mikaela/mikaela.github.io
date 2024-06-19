@@ -11,9 +11,15 @@ lang: en
 robots: noai
 ---
 
-_I previously wrote about enforcing HTTPS for all users/profiles through browser policy receiving some positive feedback and I felt like continuing on the subject by instructing with extension installation. This barely scratches the surface of what browser policy can do for you either though._
+_I previously wrote about enforcing HTTPS for all users/profiles through browser
+policy receiving some positive feedback and I felt like continuing on the
+subject by instructing with extension installation. This barely scratches the
+surface of what browser policy can do for you either though._
 
-I recommend reading the [browser policy part Ⅰ on enforcing HTTPS only mode]({% post_url blog/2024-05-17-https-everywhere %}) as especially the Firefox part will continue building on it and I will try to not repeat myself, although that is unavoidable.
+I recommend reading the [browser policy part Ⅰ on enforcing HTTPS
+only mode]({% post_url blog/2024-05-17-https-everywhere %}) as especially the
+Firefox part will continue building on it and I will try to not repeat myself,
+although that is unavoidable.
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
@@ -42,48 +48,105 @@ I recommend reading the [browser policy part Ⅰ on enforcing HTTPS only mode]({
 
 ## Chromium
 
-[I previously instructed with the directory creation and permissions in the part Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#chromium) and there I also mentioned loving how I can create separate files
-there as opposed to messing everything together. I tend to use the filename
-`aminda-extensions.json` for all extension related as Chromium isn't perfect
-either and only lets the options appear once.
+[I previously instructed with the directory creation and permissions in the
+part Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#chromium) and there I
+also mentioned loving how I can create separate files there as opposed to
+messing everything together. I tend to use the filename `aminda-extensions.json`
+for all extension related as Chromium isn't perfect either and only lets the
+options appear once.
 
-So the file may look a bit scary, but it's actually quite simple (and the difficulty comes from getting json formatted correctly, which I am leaving for `pretty-format-json` pre-commit hook), so I am going to explain everything before the actual json:
+So the file may look a bit scary, but it's actually quite simple (and the
+difficulty comes from getting json formatted correctly, which I am leaving for
+`pretty-format-json` pre-commit hook), so I am going to explain everything
+before the actual json:
 
 The `3rdparty` and `extensions` let us configure extensions in advance.
 
-`cjpalhdlnbpafiamejdnhcphjbkeiagm` is the ID of uBlock Origin from Chrome Web store which can be seen from its URL: `https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm` and everything specified here will become a part of it's configuration.`trustedSiteDirective` means the sites it will be disabld on, the extension pages are recommended in the documentation and I don't mind Ecosia displaying ads since they go to planting trees. Note that the user can add their own sites or remove these from the extension settings.
+`cjpalhdlnbpafiamejdnhcphjbkeiagm` is the ID of uBlock Origin from Chrome Web
+store which can be seen from its URL:
+`https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm`
+and everything specified here will become a part of it's
+configuration.`trustedSiteDirective` means the sites it will be disabld on, the
+extension pages are recommended in the documentation and I don't mind Ecosia
+displaying ads since they go to planting trees. Note that the user can add their
+own sites or remove these from the extension settings.
 
-`toOverwrite` says clearly it will overwrite user settings, so the lists everyone on your system wishes to use should be specified here. In this case, this contains the default lists, the Finnish adblocking list and the quick fixes list, which updates more rapidly in cases such as the cat-and-mouse with YouTube and adblockers.
+`toOverwrite` says clearly it will overwrite user settings, so the lists
+everyone on your system wishes to use should be specified here. In this case,
+this contains the default lists, the Finnish adblocking list and the quick fixes
+list, which updates more rapidly in cases such as the cat-and-mouse with YouTube
+and adblockers.
 
-There is also the EFF DNT allowlist which was introduced to me by [AdNauseam]. You have most likely heard of how ads let content to be free and supports content creators and all that, I don't want to take away their revenue, but I don't want to risk targeted malvertising or manipulation either, so this is my compromise. Respect my privacy, and I will see your ads, or be blocked.
+There is also the EFF DNT allowlist which was introduced to me by [AdNauseam].
+You have most likely heard of how ads let content to be free and supports
+content creators and all that, I don't want to take away their revenue, but I
+don't want to risk targeted malvertising or manipulation either, so this is my
+compromise. Respect my privacy, and I will see your ads, or be blocked.
 
-Onwards to [PrivacyBadger], the ID again comes from Chrome Web Store URL `https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp` and the settings are clear on what they do. If they are removed, it's up to the default value or user configuration what will happen.
+Onwards to [PrivacyBadger], the ID again comes from Chrome Web Store URL
+`https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp`
+and the settings are clear on what they do. If they are removed, it's up to the
+default value or user configuration what will happen.
 
-This [PrivacyBadger] configuration will simply always set these options on browser start:
+This [PrivacyBadger] configuration will simply always set these options on
+browser start:
 
-- `"checkForDNTPolicy": true` check if the domain has a [`.well-known/dnt-policy.txt`](https://www.eff.org/dnt-policy) and if so, won't block it.
-- `"disabledSites": []` configures the domains that are allowed to perform tracking/disrespect DNT. While here it's the same as with uBlock Origin, in my actual policies I allowlist domains more freely in uBlock Origin than [PrivacyBadger].
-- `"learnInIncognito": true` [**_WARNING! May make you more trackable_**](https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better) Same as below, but in incognito mode.
-- `"learnLocally": true` [**_WARNING! May make you more trackable_**](https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better) [PrivacyBadger] has rare ability to learn who tracks you without having to ask anywhere else, so with this enabled, it may block something before it gets added to either the premade list or something uBlock Origin has.
-- `"sendDNTSignal": true` Whether or not to configure the web browser to send Do Not Track and Global Privacy Control signals.
-- `"showCounter": true` Whether to display the number of blocked trackers in the [PrivacyBadger] icon.
-- `"showIntroPage": false` Whether or not to display the welcome to PrivacyBadger screen on start. In general having less displayed automatically on browser start is a good thing, and if you set this to `true`, [PrivacyBadger] would greet you every browser start and I bet you would get annoyed quickly.
-- `"socialWidgetReplacementEnabled": true` Whether to display social media embeds directly or replace them with a notice on how [PrivacyBadger] has blocked them from tracking you with the menu options on what to do.
+- `"checkForDNTPolicy": true` check if the domain has a
+  [`.well-known/dnt-policy.txt`](https://www.eff.org/dnt-policy) and if so,
+  won't block it.
+- `"disabledSites": []` configures the domains that are allowed to perform
+  tracking/disrespect DNT. While here it's the same as with uBlock Origin, in my
+  actual policies I allowlist domains more freely in uBlock Origin than
+  [PrivacyBadger].
+- `"learnInIncognito": true`
+  [**_WARNING! May make you more trackable_**](https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better)
+  Same as below, but in incognito mode.
+- `"learnLocally": true`
+  [**_WARNING! May make you more trackable_**](https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better)
+  [PrivacyBadger] has rare ability to learn who tracks you without having to ask
+  anywhere else, so with this enabled, it may block something before it gets
+  added to either the premade list or something uBlock Origin has.
+- `"sendDNTSignal": true` Whether or not to configure the web browser to send Do
+  Not Track and Global Privacy Control signals.
+- `"showCounter": true` Whether to display the number of blocked trackers in the
+  [PrivacyBadger] icon.
+- `"showIntroPage": false` Whether or not to display the welcome to
+  PrivacyBadger screen on start. In general having less displayed automatically
+  on browser start is a good thing, and if you set this to `true`,
+  [PrivacyBadger] would greet you every browser start and I bet you would get
+  annoyed quickly.
+- `"socialWidgetReplacementEnabled": true` Whether to display social media
+  embeds directly or replace them with a notice on how [PrivacyBadger] has
+  blocked them from tracking you with the menu options on what to do.
 
 Now the only thing to do remains actually installing the extension.
 
-**_BONUS!_** [`"ExtensionManifestV2Availability": 2`](https://chromeenterprise.google/policies/#ExtensionManifestV2Availability) will extend the time how long until ManifestV3 gets forced (and Google kills content filters).
+**_BONUS!_**
+[`"ExtensionManifestV2Availability": 2`](https://chromeenterprise.google/policies/#ExtensionManifestV2Availability)
+will extend the time how long until ManifestV3 gets forced (and Google kills
+content filters).
 
 Anyway there is the same extension ID as before and four new options:
 
-- `installation_mode` has options `normal_installed`, `force_installed` and `blocked`. The first means it's installed by default, but the user can choose to unload it, the second used here will prevent unloading the extension and the third prevents installing and loading it entirely.
+- `installation_mode` has options `normal_installed`, `force_installed` and
+  `blocked`. The first means it's installed by default, but the user can choose
+  to unload it, the second used here will prevent unloading the extension and
+  the third prevents installing and loading it entirely.
 - Typing this I am not sure if `override_update_url` is actually required.
-- `force_pinned` will pin the extension to Chromium toolbar by default and not allow unpinning and moving it to the extension menu. I strongly recommend it with content blockers, especially when there is site breakage as it makes it so much easier to see at a glance when something is blocked. The other option would be `default_unpinned`.
-- `update_url` is required for automatically installed extensions and while here it's the Chrome Web Store, it could as well be `https://edge.microsoft.com/extensionwebstorebase/v1/crx` and although the IDs are different there, they are again visible in the URL bar.
+- `force_pinned` will pin the extension to Chromium toolbar by default and not
+  allow unpinning and moving it to the extension menu. I strongly recommend it
+  with content blockers, especially when there is site breakage as it makes it
+  so much easier to see at a glance when something is blocked. The other option
+  would be `default_unpinned`.
+- `update_url` is required for automatically installed extensions and while here
+  it's the Chrome Web Store, it could as well be
+  `https://edge.microsoft.com/extensionwebstorebase/v1/crx` and although the IDs
+  are different there, they are again visible in the URL bar.
 
 ### `/etc/opt/chromium/policies/managed/aminda-extensions.json`
 
-I hope I didn't scare you too badly by saying this isn't scary, but it's all explained above.
+I hope I didn't scare you too badly by saying this isn't scary, but it's all
+explained above.
 
 ```json
 {
@@ -160,14 +223,22 @@ _2024-06-04: I added uBlock Origin Lite here, see the questions and answers._
 
 ## Firefox
 
-If you haven't read the previous blog post yet, please do that now as Firefox forces everything to be in `/etc/firefox/policies.json` and thus this file will begin by expanding the end result from there. And to not repeat myself, please also read the Chromium section above as due to everything being webextensions, the new part within extension configuration is the same.
+If you haven't read the previous blog post yet, please do that now as Firefox
+forces everything to be in `/etc/firefox/policies.json` and thus this file will
+begin by expanding the end result from there. And to not repeat myself, please
+also read the Chromium section above as due to everything being webextensions,
+the new part within extension configuration is the same.
 
 Let's begin by what differs from Chromium:
 
-- The extension ID is most easily readable from `about:support` instead of addon URL.
+- The extension ID is most easily readable from `about:support` instead of addon
+  URL.
 - We can sideload the extension, although that won't affect Firefox sync.
-- It's a lot easier to figure out what extension a block belongs to as the names appear here.
-- While there is no `ExtensionManifestV2Availability`, there are domains protected by default (`extensions.webextensions.restrictedDomains`) that we could unset.
+- It's a lot easier to figure out what extension a block belongs to as the names
+  appear here.
+- While there is no `ExtensionManifestV2Availability`, there are domains
+  protected by default (`extensions.webextensions.restrictedDomains`) that we
+  could unset.
 
 _Oh meow, no more json!_ I am sorry.
 
@@ -267,52 +338,97 @@ _Oh meow, no more json!_ I am sorry.
 }
 ```
 
-Doesn't that look familiar? Yes, it's practically the same file [from part Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#dns-over-https-1) and the extensions took the exact same values as Chromium, only the IDs and download locations changed and some Chromium extras disappeared.
+Doesn't that look familiar? Yes, it's practically the same file [from
+part Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#dns-over-https-1) and
+the extensions took the exact same values as Chromium, only the IDs and download
+locations changed and some Chromium extras disappeared.
 
-Well, in uBlock Origin I did add the Mozilla/Firefox domains to avoid breakage and in the end I removed the extra protection those sites would have from extensions which would permit tracking by Mozilla. However, [PrivacyBadger] would still protect from that while being less likely to break.
+Well, in uBlock Origin I did add the Mozilla/Firefox domains to avoid breakage
+and in the end I removed the extra protection those sites would have from
+extensions which would permit tracking by Mozilla. However, [PrivacyBadger]
+would still protect from that while being less likely to break.
 
-_Would you like to restore the protection for Mozilla pages? Replace the `user` in `status` of `extensions.webextensions.restrictedDomains {}` with `clear` so it will be restored to default value while `user` persists even if the lines are removed as they appear as if the user had changed them in `about:config`._
+_Would you like to restore the protection for Mozilla pages? Replace the `user`
+in `status` of `extensions.webextensions.restrictedDomains {}` with `clear` so
+it will be restored to default value while `user` persists even if the lines are
+removed as they appear as if the user had changed them in `about:config`._
 
 _2024-06-04: I added uBlock Origin Lite here, see the questions and answers._
 
 ## Answers to potential questions
 
-As I sometimes tend to be a bit controversial when balancing security,
-privacy, digital carbon footprint and all, there are going to be questions
-and I keep answering them otherwise too.
+As I sometimes tend to be a bit controversial when balancing security, privacy,
+digital carbon footprint and all, there are going to be questions and I keep
+answering them otherwise too.
 
 ## Where can I see what policies extensions can take?
 
-In Chromium `about:policies` has a checkbox "show unset policies" which will bring a long list including the extensions. It also has a lovely search box.
+In Chromium `about:policies` has a checkbox "show unset policies" which will
+bring a long list including the extensions. It also has a lovely search box.
 
 ### Why both PrivacyBadger and uBlock Origin?
 
-I admit they have some overlap, but uBlock Origin relies on human made lists instead of an algorhitm to block trackers (note that [PrivacyBadger] doesn't even try to block ads, it happens by accident).
+I admit they have some overlap, but uBlock Origin relies on human made lists
+instead of an algorhitm to block trackers (note that [PrivacyBadger] doesn't
+even try to block ads, it happens by accident).
 
-Additionally uBlock Origin does nothing about Instagram, Disqus, etc. widgets. I could block JavaScript (which I do), but sometimes I will allow it to a website anyway and then the widget learns I am there even if I had no interest in seeing comments in that case. And if I wanted to allow them somewhere, I could click "always allow this widget on this site".
+Additionally uBlock Origin does nothing about Instagram, Disqus, etc. widgets. I
+could block JavaScript (which I do), but sometimes I will allow it to a website
+anyway and then the widget learns I am there even if I had no interest in seeing
+comments in that case. And if I wanted to allow them somewhere, I could click
+"always allow this widget on this site".
 
-I also love its ability to self-learn trackers, even if that may make me more trackable. I think there are easier methods to track me (like my HTTP user-agent saying I am on Windows, while my `navigator.useragent or `navigator.platform` say something different) and Firefox Nightly is newer than most people use and there are a countless of small things in browser fingerprinting, which could be it's own blog post.
+I also love its ability to self-learn trackers, even if that may make me more
+trackable. I think there are easier methods to track me (like my HTTP user-agent
+saying I am on Windows, while my `navigator.useragent or `navigator.platform`
+say something different) and Firefox Nightly is newer than most people use and
+there are a countless of small things in browser fingerprinting, which could be
+it's own blog post.
 
 ### Why EFF DNT allowlist?
 
-I think I already answered this in the Chromium section, but I don't hate ads. They may be important source of money to creators and I wouldn't mind some financial support as well (if that wasn't practically illegal in Finland).
+I think I already answered this in the Chromium section, but I don't hate ads.
+They may be important source of money to creators and I wouldn't mind some
+financial support as well (if that wasn't practically illegal in Finland).
 
-What I mind is targeted advertising, tracking, the potential for targeted malvertising without it affecting anyone else and how they are used for manipulation especially politically and with elections on discouraging some people from voting.
+What I mind is targeted advertising, tracking, the potential for targeted
+malvertising without it affecting anyone else and how they are used for
+manipulation especially politically and with elections on discouraging some
+people from voting.
 
 ### Where did uBlock Origin Lite come from?
 
-I added it here on 2024-06-04 and set uBlock Origin to `normal_installed` instead of `force_installed`, because I am worried about ManifestV2 extensions not syncing as the majority probably won't have the policy to allow it configured.
+I added it here on 2024-06-04 and set uBlock Origin to `normal_installed`
+instead of `force_installed`, because I am worried about ManifestV2 extensions
+not syncing as the majority probably won't have the policy to allow it
+configured.
 
-This gives the users the choice to use either of the two, both (which may be discouraged) or neither, while PrivacyBadger is forced on and I think it may perform better with ManifestV3 anyway considering the local learning feature, which I consider essential for non-English content anyway.
+This gives the users the choice to use either of the two, both (which may be
+discouraged) or neither, while PrivacyBadger is forced on and I think it may
+perform better with ManifestV3 anyway considering the local learning feature,
+which I consider essential for non-English content anyway.
 
 Speaking of PrivacyBadger, other concerns I have with uBlock Origin Lite are:
 
-1. I cannot allow non-tracking ads as I cannot add the EFF DNT allowlist. I would need to convince the developer to add it, which I am not even going to try, as it would go against the principle of the extension.
-1. <del>I didn't get uBlock Origin Lite's `"noFiltering": [""]` policy working, so I cannot pre-emptively handle broken captchas or allow Ecosia to show me tracking ads in exchange of them planting trees.</del>. A day later I got `"noFiltering": [""]` working, but it works like `toOverwrite` from uBlock Origin, so any edits outside of the policy will reset upon restart. Then again that may also be a feature, please do send your best regards to Google...
+1. I cannot allow non-tracking ads as I cannot add the EFF DNT allowlist. I
+   would need to convince the developer to add it, which I am not even going to
+   try, as it would go against the principle of the extension.
+1. <del>I didn't get uBlock Origin Lite's `"noFiltering": [""]` policy working,
+   so I cannot pre-emptively handle broken captchas or allow Ecosia to show me
+   tracking ads in exchange of them planting trees.</del>. A day later I got
+   `"noFiltering": [""]` working, but it works like `toOverwrite` from uBlock
+   Origin, so any edits outside of the policy will reset upon restart. Then
+   again that may also be a feature, please do send your best regards to
+   Google...
 
-Google only has themselves to blame for not thinking of the scenario where their users might be ok with non-tracking ads and now have no option to allow them due to being more concerned about malvertising than how advertising businesses are doing, since they they ruined the compromise solution that tried to account both.
+Google only has themselves to blame for not thinking of the scenario where their
+users might be ok with non-tracking ads and now have no option to allow them due
+to being more concerned about malvertising than how advertising businesses are
+doing, since they they ruined the compromise solution that tried to account
+both.
 
-I may trust myself to avoid malicious content online or that DNS filtering will catch it, but I don't have such trust on my less technical family members.
+I may trust myself to avoid malicious content online or that DNS filtering will
+catch it, but I don't have such trust on my less technical family members.
 
 I should also say that ManifestV3 and uBlock Origin Lite have good sides as
 well, considering it not needing or requesting access to all pages visited out
@@ -321,23 +437,39 @@ actually get installed through policy.
 
 ### How do I enable more default lists in uBlock Origin?
 
-As you saw, external blocklists are just matter of entering the URL into the policy, but integrated ones are a bit more challenging. See the eye icon in uBlock Origin dashboard? I have been pointing it and looking at the URL which ends e.g. `/asset-viewer.html?url=fanboy-social` where `fanboy-social` would be the list name.
+As you saw, external blocklists are just matter of entering the URL into the
+policy, but integrated ones are a bit more challenging. See the eye icon in
+uBlock Origin dashboard? I have been pointing it and looking at the URL which
+ends e.g. `/asset-viewer.html?url=fanboy-social` where `fanboy-social` would be
+the list name.
 
-More technical solution would be looking into the [`assets/assets.json` file in uBlock Origin's GitHub repository](https://github.com/gorhill/uBlock/blob/master/assets/assets.json) where the same names appear.
+More technical solution would be looking into the
+[`assets/assets.json` file in uBlock Origin's GitHub repository](https://github.com/gorhill/uBlock/blob/master/assets/assets.json)
+where the same names appear.
 
-Remember that [more filter lists make you more identifiable](https://browserleaks.com/proxy) and _do as I say, not as I do_.
+Remember that
+[more filter lists make you more identifiable](https://browserleaks.com/proxy)
+and _do as I say, not as I do_.
 
 ## What do you think about this blog post?
 
-I feel a bit disappointed with it, I felt the previous one was more meaningful and did everything better, but I hope this will be some benefit to someone regardless or be something I can link to when I inevitably get asked these questions again.
+I feel a bit disappointed with it, I felt the previous one was more meaningful
+and did everything better, but I hope this will be some benefit to someone
+regardless or be something I can link to when I inevitably get asked these
+questions again.
 
 ## Will there be browser policies part Ⅲ?
 
-Honestly, I don't know. I was surprised part Ⅱ happened, although this is also just scratching the tip of the iceberg and there is really a lot you can do with browser policies.
+Honestly, I don't know. I was surprised part Ⅱ happened, although this is also
+just scratching the tip of the iceberg and there is really a lot you can do with
+browser policies.
 
 ### Where is all the futher reading?
 
-If you have read both blog posts carefully, this one didn't actually say anything new, it's all linked [from part Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#documentation-and-other-policies).
+If you have read both blog posts carefully, this one didn't actually say
+anything new, it's all linked [from
+part
+Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#documentation-and-other-policies).
 
 _[Obligatory changelog link](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2024-05-22-policy-contentblocker.md)_
 

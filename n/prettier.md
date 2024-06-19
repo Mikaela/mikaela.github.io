@@ -41,13 +41,16 @@ _{{ page.excerpt }}_
 
 ## Installation
 
-1. `npm install -D -E prettier@3.3.2 prettier-plugin-nginx@1.0.3 @prettier/plugin-ruby@4.0.4 prettier-plugin-toml@2.0.1 @prettier/plugin-xml@3.4.1 prettier-plugin-sh@0.14.0` or probably just `pnpm install -D` if it's not your project.
-1. If they don't exist already `echo "{}" > .prettierrc && touch .prettierignore`
+1. `npm install -D -E prettier@3.3.2 prettier-plugin-nginx@1.0.3 @prettier/plugin-ruby@4.0.4 prettier-plugin-toml@2.0.1 @prettier/plugin-xml@3.4.1 prettier-plugin-sh@0.14.0`
+   or probably just `pnpm install -D` if it's not your project.
+1. If they don't exist already
+   `echo "{}" > .prettierrc && touch .prettierignore`
 1. `pnpm exec prettier . --write` or `pnpm exec prettier . --check`
 
 ## Configuration
 
-I do with `.editorconfig` what I can, but for example my template `.prettierrc` looks like:
+I do with `.editorconfig` what I can, but for example my template `.prettierrc`
+looks like:
 
 ```json
 {
@@ -68,7 +71,8 @@ I do with `.editorconfig` what I can, but for example my template `.prettierrc` 
 }
 ```
 
-at the time of writing. It's directly from documentation excluding the plugin names, but I will want it everywhere.
+at the time of writing. It's directly from documentation excluding the plugin
+names, but I will want it everywhere.
 
 ## `.pre-commit-config.yaml`
 
@@ -76,7 +80,11 @@ This is the file that controls [`pre-commit`]s behaviour.
 
 ### Offline
 
-I accidentally wrote this while updating this page to reflect me using prettier outside of [`pre-commit`] too nowadays. This has the advantage that the same local environment gets reused and dependencies are managed centrally, but assumes everyone uses pnpm, won't work in [`pre-commit` ci] and may have other issues I am not thinking of as a not-coder myself.
+I accidentally wrote this while updating this page to reflect me using prettier
+outside of [`pre-commit`] too nowadays. This has the advantage that the same
+local environment gets reused and dependencies are managed centrally, but
+assumes everyone uses pnpm, won't work in [`pre-commit` ci] and may have other issues
+I am not thinking of as a not-coder myself.
 
 [`pre-commit`]: https://pre-commit.com
 [`pre-commit` ci]: https://pre-commit.ci

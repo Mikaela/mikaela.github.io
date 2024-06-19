@@ -19,10 +19,11 @@ excerpt: Previously a blog post, now a note on _nomap in SSID.
 
 _{{ page.excerpt }}_
 
-`_nomap` in the end of your SSID will exclude your network from Google, Apple, WiGLE etc.
+`_nomap` in the end of your SSID will exclude your network from Google, Apple,
+WiGLE etc.
 
-Microsoft has a separate [location services
-opt-out](https://account.microsoft.com/privacy/location-services-opt-out)
+Microsoft has a separate
+[location services opt-out](https://account.microsoft.com/privacy/location-services-opt-out)
 which uses MAC addresses instead.
 
 <!-- editorconfig-checker-disable -->
@@ -42,10 +43,13 @@ which uses MAC addresses instead.
 
 ## Why?
 
-Privacy. WiGLE.net may point your home directly just by entering the SSID and who knows how many similar services there are. While I have been thinking of this since 2015, there is at least one case where this has been used:
+Privacy. WiGLE.net may point your home directly just by entering the SSID and
+who knows how many similar services there are. While I have been thinking of
+this since 2015, there is at least one case where this has been used:
 
 - [Christian Haschek: The curious case of the Raspberry Pi in the network closet](https://blog.haschek.at/2018/the-curious-case-of-the-RasPi-in-our-network.html)
 
 ## `_optout`
 
-Legacy from 2015-2016. Used to be part of Microsoft WiFi Sense that shared WiFi networks and passwords to all contacts.
+Legacy from 2015-2016. Used to be part of Microsoft WiFi Sense that shared WiFi
+networks and passwords to all contacts.

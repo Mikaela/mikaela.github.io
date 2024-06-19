@@ -13,8 +13,8 @@ sitemap: false
 lang: fi
 ---
 
-Uudet puhelimet: https://android.com/one
-LineageOS-yhteensopivuus: https://wiki.lineageos.org/devices/
+Uudet puhelimet: https://android.com/one LineageOS-yhteensopivuus:
+https://wiki.lineageos.org/devices/
 
 Käytettyjä puhelimia suomalaisilta tai suomenkielisiltä yrityksiltä:
 

@@ -6,4 +6,5 @@ excerpt: "404, not found, don't bother clicking..."
 lang: en
 ---
 
-Sorry, whatever you were looking for, is not here. Maybe the navigation bar above or on the top right on smaller displays will help you?
+Sorry, whatever you were looking for, is not here. Maybe the navigation bar
+above or on the top right on smaller displays will help you?

@@ -10,6 +10,8 @@ redirect_from:
   - /pgp.html
   - /wire.html
 redirect_to: /keys.txt
-excerpt: "My public key fingerprints (that I think can be put here, if I am missing something, tell me) for secure communication with me."
+excerpt:
+  "My public key fingerprints (that I think can be put here, if I am missing
+  something, tell me) for secure communication with me."
 lang: en
 ---

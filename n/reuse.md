@@ -35,12 +35,13 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 > reuse is a tool for compliance with the REUSE recommendations.
 
-says [their GitHub description](https://github.com/fsfe/reuse-tool) and
-in practice this means having a license header in all files or alternatively
-a `file.license` file. The tool can generate these, but I never remember
-the commands.
+says [their GitHub description](https://github.com/fsfe/reuse-tool) and in
+practice this means having a license header in all files or alternatively a
+`file.license` file. The tool can generate these, but I never remember the
+commands.
 
-For more detailed explanation, consult [reuse.software/tutorial](https://reuse.software/tutorial/)
+For more detailed explanation, consult
+[reuse.software/tutorial](https://reuse.software/tutorial/)
 
 ---
 

@@ -25,36 +25,33 @@ pysyvästi, mutta kirjoittelen siitä nyt kuitenkin._
 Kaikki luultavasti tietävät, että puhelimet siirtelevät kelloja
 aikavyöhyketietokannan mukaan, kuten myös tietokoneet.
 
-Jos kelloja siirrettäisiin pysyvästi, aikavyöhyketietokanta pitäisi
-päivittää puhelimista tai ne jatkaisivat kellojen siirtelyä samoina
-päivinä, kuin nytkin.
+Jos kelloja siirrettäisiin pysyvästi, aikavyöhyketietokanta pitäisi päivittää
+puhelimista tai ne jatkaisivat kellojen siirtelyä samoina päivinä, kuin nytkin.
 
 Ideaalitapauksessa kaikki laitevalmistajat päivittäisivät
-aikavyöhyketietokannat, mutta tämä ei tapahdu suurimmalla osasta
-puhelimista.
+aikavyöhyketietokannat, mutta tämä ei tapahdu suurimmalla osasta puhelimista.
 
-Tämä ongelma on kuitenkin helppoa ratkaista, koska mikäli siirtyisimme
-pysyvästi Keski-Euroopan aikaan, kelloja ei enää siirrettäisi ja se olisi
-niinkin helppoa kuin poistaa asetuksista automaattinen kellojen siirto
-käytöstä ja asettaa aika itse.
+Tämä ongelma on kuitenkin helppoa ratkaista, koska mikäli siirtyisimme pysyvästi
+Keski-Euroopan aikaan, kelloja ei enää siirrettäisi ja se olisi niinkin helppoa
+kuin poistaa asetuksista automaattinen kellojen siirto käytöstä ja asettaa aika
+itse.
 
-Android-laitteiden, jotka ovat suurin ongelma päivitysten suhteen, on myös
-kaksi muutakin vaihtoehtoa: aikavyöhyketietokannan päivittäminen itse
-(_TimeZone Fixer (ROOT)_) tai ulkoisen aikavyöhyketietokannan lataaminen.
+Android-laitteiden, jotka ovat suurin ongelma päivitysten suhteen, on myös kaksi
+muutakin vaihtoehtoa: aikavyöhyketietokannan päivittäminen itse (_TimeZone Fixer
+(ROOT)_) tai ulkoisen aikavyöhyketietokannan lataaminen.
 
-TimeZone Fixer (ROOT)in tapauksessa puhelimeene täytyy olla
-pääkäyttäjäoikeudet, ja sen on sanottu joissakin tapauksessa sekoittavan
-puhelimen käyttöjärjestelmän niin että se on täytynyt asentaa uudelleen.
-Tällä tavalla puhelin kuitenkin jatkaa normaalisti toimintaa ulkomailla
-mukaanlukien maat, jotka ovat vaihtaneet aikavyöhykettä pysyvästi
-puhelimen aikavyöhyketietokannan tietämättä.
+TimeZone Fixer (ROOT)in tapauksessa puhelimeene täytyy olla pääkäyttäjäoikeudet,
+ja sen on sanottu joissakin tapauksessa sekoittavan puhelimen käyttöjärjestelmän
+niin että se on täytynyt asentaa uudelleen. Tällä tavalla puhelin kuitenkin
+jatkaa normaalisti toimintaa ulkomailla mukaanlukien maat, jotka ovat vaihtaneet
+aikavyöhykettä pysyvästi puhelimen aikavyöhyketietokannan tietämättä.
 
 Ulkoisella aikavyöhyketietokannalla taas tarkoitan esimerkiksi
 _ClockSync_-sovellusta, joka päivittää laitteen ajan käyttäen internetin
-NTP-palvelimia) jolle on saatavilla oma aikavyöhyketietokantansa,
-jota käytettäessä laitteen omasta aikavyöhyketietokannasta ei
-välitetä. Haittapuolena tosin aikavyöhyke täytyy asettaa ClockSyncin
-asetuksista käsin ja vaihtaa aina esimerkiksi ulkomaille mennessä.
+NTP-palvelimia) jolle on saatavilla oma aikavyöhyketietokantansa, jota
+käytettäessä laitteen omasta aikavyöhyketietokannasta ei välitetä. Haittapuolena
+tosin aikavyöhyke täytyy asettaa ClockSyncin asetuksista käsin ja vaihtaa aina
+esimerkiksi ulkomaille mennessä.
 
 Linkkejä:
 

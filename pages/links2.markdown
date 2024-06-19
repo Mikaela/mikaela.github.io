@@ -7,9 +7,9 @@ sitemap: false
 lang: en
 ---
 
-_This page has some kind of link list on minorities which mostly somehow
-affect me and is probably always under construction. The order is somewhat
-random and [improvements are welcome here.](https://github.com/Mikaela/mikaela.github.io/edit/master/pages/links2.markdown)_
+_This page has some kind of link list on minorities which mostly somehow affect
+me and is probably always under construction. The order is somewhat random and
+[improvements are welcome here.](https://github.com/Mikaela/mikaela.github.io/edit/master/pages/links2.markdown)_
 
 _This page is also in need of attention._
 
@@ -47,13 +47,13 @@ _This page is also in need of attention._
   - I think there are a lot better pages telling this than this one.
 - [Review article provides evidence on the biological nature of gender identity](http://medicalxpress.com/news/2015-02-article-evidence-biological-nature-gender.html)
 - [Sex redefined](http://www.nature.com/news/sex-redefined-1.16943?WT.mc_id=FBK_NatureNews)
-  - _So if the law requires that a person is male or female, should that
-    sex be assigned by anatomy, hormones, cells or chromosomes, and what
-    should be done if they clash? “My feeling is that since there is not
-    one biological parameter that takes over every other parameter, at
-    the end of the day, gender identity seems to be the most reasonable
-    parameter,” says Vilain. In other words, if you want to know whether
-    someone is male or female, it may be best just to ask._
+  - _So if the law requires that a person is male or female, should that sex be
+    assigned by anatomy, hormones, cells or chromosomes, and what should be done
+    if they clash? “My feeling is that since there is not one biological
+    parameter that takes over every other parameter, at the end of the day,
+    gender identity seems to be the most reasonable parameter,” says Vilain. In
+    other words, if you want to know whether someone is male or female, it may
+    be best just to ask._
 - [Gender identity is biological study says](https://gma.yahoo.com/gender-identity-biological-study-says-090824140--abc-news-health.html)
 - [Stop Using Phony Science to Justify Transphobia - Scientific American Blog Network](https://blogs.scientificamerican.com/voices/stop-using-phony-science-to-justify-transphobia/)
 

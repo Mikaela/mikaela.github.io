@@ -11,7 +11,9 @@ stockmargin: "0.23 c/kWh"
 lang: fi
 ---
 
-Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537) [Google Play](https://play.google.com/store/apps/details?id=fi.fingrid.tuntihinta)
+Tuntihinta @
+[Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537)
+[Google Play](https://play.google.com/store/apps/details?id=fi.fingrid.tuntihinta)
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
@@ -33,19 +35,26 @@ Tuntihinta @ [Apple App Store](https://apps.apple.com/app/tuntihinta/id824684537
 
 _Siirtohinnasto ei tiedossa, joten se ei ole mukana yhtälöissä._
 
-KSOYn Jatkuvan sähkösopimuksen hinta kuukaudelle {{ page.month }} on {{ page.monthly }}.
+KSOYn Jatkuvan sähkösopimuksen hinta kuukaudelle {{ page.month }} on
+{{ page.monthly }}.
 
-- KSOY Pörssisähkön hinta: {{ page.basicstock }}, marginaali {{ page.stockmargin }}.
+- KSOY Pörssisähkön hinta: {{ page.basicstock }}, marginaali
+  {{ page.stockmargin }}.
 
 ## Yhtälöt Tuntihinnalle
 
 _Jekyll ei salli matematiikkaa suoraan tietoturvasyistä._
 
-- Kallis: <strong>{{ page.monthly }}</strong> (KSOY jatkuvan sähkösopimuksen hinta)
-- Halpa: <strong>{{ page.monthly }} / 2</strong> (KSOY jatkuvan sähkösopimuksen hinta / 2), **_pyöristettynä alaspäin_**
+- Kallis: <strong>{{ page.monthly }}</strong> (KSOY jatkuvan sähkösopimuksen
+  hinta)
+- Halpa: <strong>{{ page.monthly }} / 2</strong> (KSOY jatkuvan sähkösopimuksen
+  hinta / 2), **_pyöristettynä alaspäin_**
 - Marginaali: <strong>{{ page.stockmargin }}</strong> (pörssisähkön marginaali).
 
 ## Lähteet
 
-- [KSOY jatkuva sähkösopimus](https://www.ksoy.fi/sahkon-myynti/sahkoa-kotiin/ksoy-jatkuva/) määrittää kalliin hinnan.
-  - KSOY veloittaa sitä jatkuvilta sähköasiakkailtaan koko kuukauden ja pyrkii sillä kattamaan omat kulunsa ja varmistamaan, ettei myy sähköä liian edullisesti.
+- [KSOY jatkuva sähkösopimus](https://www.ksoy.fi/sahkon-myynti/sahkoa-kotiin/ksoy-jatkuva/)
+  määrittää kalliin hinnan.
+  - KSOY veloittaa sitä jatkuvilta sähköasiakkailtaan koko kuukauden ja pyrkii
+    sillä kattamaan omat kulunsa ja varmistamaan, ettei myy sähköä liian
+    edullisesti.

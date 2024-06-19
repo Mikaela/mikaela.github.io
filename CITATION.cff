@@ -1,8 +1,7 @@
 cff-version: 1.2.0
 title: Aminda.eu
 message: >-
-  If you use this website, please cite it using the
-  metadata from this file.
+  If you use this website, please cite it using the metadata from this file.
 type: software
 authors:
   - given-names: Aminda

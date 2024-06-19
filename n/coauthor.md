@@ -1,6 +1,8 @@
 ---
 title: Co-authoring and private emails with Git Forges
-excerpt: This note tells how to mark me as a git commit coauthor and my privatized email addresses.
+excerpt:
+  This note tells how to mark me as a git commit coauthor and my privatized
+  email addresses.
 layout: mini
 permalink: /n/coauthor.html
 sitemap: true
@@ -10,11 +12,11 @@ robots: noai
 
 # Git forge private emails
 
-**_WARNING! These are vendor lock-in and contribution activity will not
-pass on to other platrforms._** It may not matter much with sign-offs though.
+**_WARNING! These are vendor lock-in and contribution activity will not pass on
+to other platrforms._** It may not matter much with sign-offs though.
 
-Forges generally have a feature for private email addresses and it can be
-used at least by co-authored commits, e.g. [r/coauthor](/r/coauthor.html):
+Forges generally have a feature for private email addresses and it can be used
+at least by co-authored commits, e.g. [r/coauthor](/r/coauthor.html):
 
 > `Co-authored-by: NAME <NAME@EXAMPLE.COM>`
 

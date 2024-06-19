@@ -11,7 +11,8 @@ cache:
     - ${CI_PROJECT_DIR}/vendor
 
 before_script:
-  - apk add --no-cache ruby ruby-dev ruby-bundler make gcc g++ musl-dev build-base libffi-dev libxml2-dev
+  - apk add --no-cache ruby ruby-dev ruby-bundler make gcc g++ musl-dev
+    build-base libffi-dev libxml2-dev
   - bundle install
 
 test:
@@ -37,7 +38,8 @@ pages:
 gitlab-ci-pre-commit:
   stage: build
   before_script:
-    - apk add --no-cache python3 python3-dev py3-pip py3-wheel git gcc musl-dev bash nodejs-current npm ruby ruby-bundler
+    - apk add --no-cache python3 python3-dev py3-pip py3-wheel git gcc musl-dev
+      bash nodejs-current npm ruby ruby-bundler
     - pip install pre-commit --break-system-packages
   script:
     - pre-commit run --all-files --show-diff-on-failure
