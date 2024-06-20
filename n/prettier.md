@@ -98,10 +98,18 @@ I am not thinking of as a not-coder myself.
 
 ```yaml
 ci:
-  skip: [prettier]
+  skip: [pnpm-install-dev, prettier]
+
 repos:
   - repo: local
     hooks:
+      - id: pnpm-install-dev
+        name: Install pnpm dev dependencies
+        entry: pnpm install -D
+        language: system
+        always_run: true
+        verbose: true
+        pass_filenames: false
       - id: prettier
         name: prettier
         entry: pnpm exec prettier --cache --ignore-unknown --write
