@@ -10,3 +10,4 @@ keys.txt.asc
 .jekyll-metadata
 vendor/
 node_modules/
+pnpm-lock.yaml
