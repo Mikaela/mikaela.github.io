@@ -41,11 +41,12 @@ _{{ page.excerpt }}_
 
 ## Installation
 
-1. `npm install -D -E prettier@3.3.2 prettier-plugin-nginx@1.0.3 @prettier/plugin-ruby@4.0.4 prettier-plugin-toml@2.0.1 @prettier/plugin-xml@3.4.1 prettier-plugin-sh@0.14.0`
-   or probably just `pnpm install -D` if it's not your project.
+1. `corepack pnpm install -D -E prettier@latest prettier-plugin-nginx@latest @prettier/plugin-ruby@latest prettier-plugin-toml@latest @prettier/plugin-xml@latest prettier-plugin-sh@latest`
+   or probably just `corepack pnpm install -D` if it's not your project.
 1. If they don't exist already
    `echo "{}" > .prettierrc && touch .prettierignore`
-1. `pnpm exec prettier . --write` or `pnpm exec prettier . --check`
+1. `corepack pnpm exec prettier . --write` or
+   `corepack pnpm exec prettier . --check`
 
 ## Configuration
 
@@ -68,11 +69,11 @@ looks like:
     { "files": ".prettierrc", "options": { "parser": "json" } },
     {
       "files": "conf/librewolf.overrides.cfg",
-      "options": { "parser": "javascript" }
+      "options": { "parser": ".js" }
     },
     {
       "files": "conf/autoconfig.js.online",
-      "options": { "parser": "javascript" }
+      "options": { "parser": ".js" }
     }
   ]
 }
@@ -105,14 +106,14 @@ repos:
     hooks:
       - id: pnpm-install-dev
         name: Install pnpm dev dependencies
-        entry: pnpm install -D
+        entry: corepack pnpm install -D
         language: system
         always_run: true
-        verbose: true
+        #verbose: true
         pass_filenames: false
       - id: prettier
         name: prettier
-        entry: pnpm exec prettier --cache --ignore-unknown --write
+        entry: corepack pnpm exec prettier --cache --ignore-unknown --write
         language: system
         # Better handled by pretty-format-json from pre-commit-hooks.
         # Remember to have *.json in .prettierignore!
@@ -144,3 +145,5 @@ repos:
 ## Further information
 
 - [prettier docs install](https://prettier.io/docs/en/install)
+- [corepack docs](https://nodejs.org/api/corepack.html)
+- [corepack readme](https://github.com/nodejs/corepack/blob/main/README.md)
