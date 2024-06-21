@@ -79,14 +79,14 @@ repos:
     hooks:
       - id: pnpm-install-dev
         name: Install pnpm dev dependencies
-        entry: pnpm install -D
+        entry: corepack pnpm install -D
         language: system
         always_run: true
         verbose: true
         pass_filenames: false
       - id: prettier
         name: prettier
-        entry: pnpm exec prettier --cache --ignore-unknown --write
+        entry: corepack pnpm exec prettier --cache --ignore-unknown --write
         language: system
         # Better handled by pretty-format-json from pre-commit-hooks.
         # Remember to have *.json in .prettierignore!
