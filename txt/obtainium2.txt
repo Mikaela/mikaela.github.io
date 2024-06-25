@@ -35,6 +35,7 @@ https://github.com/laurent22/joplin-android
 https://github.com/markusfisch/BinaryEye
 https://github.com/mastodon/mastodon-android
 https://github.com/michaeltroger/greenpass-android
+https://github.com/mjaakko/NeoStumbler
 https://github.com/mollyim/mollyim-android
 https://github.com/mollyim/mollyim-android-unifiedpush
 https://github.com/mollyim/mollyim-insider-android
