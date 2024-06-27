@@ -25,6 +25,9 @@ robots: noai, nofollow, noindex
 codeberg_username: Mikaela
 github_username: Mikaela
 linkedin_username: Aminda-eu
+facebook_username: "61560831284680"
+facebook:
+  publisher: "61560831284680"
 mastodon:
   username: Aminda
   instance: sauna.social
