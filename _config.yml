@@ -29,6 +29,7 @@ facebook_username: "61560831284680"
 facebook:
   publisher: "61560831284680"
   app_id: "1614500206007989"
+  admins: "61560831284680"
 mastodon:
   username: Aminda
   instance: sauna.social
