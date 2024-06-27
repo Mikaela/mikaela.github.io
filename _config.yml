@@ -41,6 +41,7 @@ webmaster_verifications:
   google: oELGPuQ0VNEekDke964c0XCMYaC_Nd_Mr_TRYEVRXgY
   bing: DDF472BEC8E65C680D65A24256C33B24
   yandex: 2d5398c328c66322
+  facebook: 392740910488138
 # Jekyll SEO as well
 defaults:
   - scope:
