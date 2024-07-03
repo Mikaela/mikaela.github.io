@@ -69,11 +69,11 @@ looks like:
     { "files": ".prettierrc", "options": { "parser": "json" } },
     {
       "files": "conf/librewolf.overrides.cfg",
-      "options": { "parser": ".js" }
+      "options": { "parser": "babel" }
     },
     {
       "files": "conf/autoconfig.js.online",
-      "options": { "parser": ".js" }
+      "options": { "parser": "babel" }
     }
   ]
 }
@@ -145,5 +145,6 @@ repos:
 ## Further information
 
 - [prettier docs install](https://prettier.io/docs/en/install)
+- [prettier parser options](https://github.com/prettier/prettier/blob/main/docs/options.md#parser)
 - [corepack docs](https://nodejs.org/api/corepack.html)
 - [corepack readme](https://github.com/nodejs/corepack/blob/main/README.md)
