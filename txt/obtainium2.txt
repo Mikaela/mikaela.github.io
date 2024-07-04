@@ -29,6 +29,7 @@ https://github.com/guardianproject/orbot
 https://github.com/HabitRPG/habitica-android
 https://github.com/iamr0s/Dhizuku
 https://github.com/ImranR98/Obtainium
+https://github.com/karasevm/PrivateDNSAndroid
 https://github.com/kawaiiDango/pano-scrobbler
 https://github.com/krille-chan/fluffychat
 https://github.com/laurent22/joplin-android
