@@ -25,13 +25,13 @@ robots: noai, nofollow, noindex
 codeberg_username: Mikaela
 github_username: Mikaela
 linkedin_username: Aminda-eu
-facebook_username: "61560831284680"
+facebook_username: aminda.eu
 instagram_username: amiauh39
 
 facebook:
   publisher: "357677997429713"
   app_id: "1614500206007989"
-  admins: "61560831284680"
+  admins: aminda.eu
 mastodon:
   username: Aminda
   instance: sauna.social
