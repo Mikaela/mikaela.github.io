@@ -6,10 +6,12 @@ permalink: /n/nomap.html
 redirect_from:
   - /english/2015/11/29/SSID_optout_nomap.html
   - /blog/english/2015/11/29/SSID_optout_nomap.html
-  - /r/optout.md
-  - /r/_optout.md
-  - /r/_nomap.md
-  - /r/_optout_nomap.md
+  - /r/optout.html
+  - /r/_optout.html
+  - /r/_nomap.html
+  - /r/_optout_nomap.html
+  - /nomap.html
+  - /_nomap.html
 robots: noai
 sitemap: true
 excerpt:
