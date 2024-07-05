@@ -62,14 +62,14 @@ repos:
           ]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.28.5
+    rev: 0.28.6
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
       - id: check-gitlab-ci
 
   - repo: https://github.com/fsfe/reuse-tool
-    rev: v3.1.0a1
+    rev: v4.0.2
     hooks:
       - id: reuse
         exclude: ^.cache\/.*$
