@@ -104,7 +104,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.24.0)
+    minitest (5.24.1)
     mutex_m (0.2.0)
     nokogiri (1.16.6)
       mini_portile2 (~> 2.8.2)
@@ -223,4 +223,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.5.9
+   2.5.11
