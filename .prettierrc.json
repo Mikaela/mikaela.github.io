@@ -1,17 +1,11 @@
 {
-  "insertPragma": false,
-  "overrides": [
-    {
-      "files": ".prettierrc",
-      "options": {
-        "parser": "json"
-      }
-    }
-  ],
+  "bracketSameLine": true,
+  "endOfLine": "auto",
   "plugins": [
     "@prettier/plugin-xml",
     "prettier-plugin-sh"
   ],
   "proseWrap": "always",
+  "quoteProps": "consistent",
   "singleAttributePerLine": true
 }
