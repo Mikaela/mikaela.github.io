@@ -1,0 +1,17 @@
+{
+  "insertPragma": false,
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ],
+  "plugins": [
+    "@prettier/plugin-xml",
+    "prettier-plugin-sh"
+  ],
+  "proseWrap": "always",
+  "singleAttributePerLine": true
+}
