@@ -238,13 +238,14 @@ Otherwise no, you cannot.
 
 ### How can I remove my messages automatically like on Signal, WhatsApp, Telegram and everything else?
 
-Matrix doesn't support it, but some clients, mainly Nheko (nightly) do. For more
-information including countless reasons why you would like to do this, consult
+Matrix doesn't support it, but some clients, mainly Nheko <del>(nightly)</del>
+do. For more information including countless reasons why you would like to do
+this, consult
 [Element Meta discussion #682: Self-destructing/disappearing messages](https://github.com/vector-im/element-meta/discussions/682).
 
 #### How can I remove my messages automatically on Nheko?
 
-Assuming you are on nightly build, there are three steps:
+<del>Assuming you are on nightly build,</del> there are three steps:
 
 1. In global settings of Nheko, enable _Periodically disable expired events_, it
    will affect all profiles upon restart.
