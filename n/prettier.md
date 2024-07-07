@@ -22,7 +22,6 @@ _{{ page.excerpt }}_
 - [Configuration](#configuration)
 - [`.pre-commit-config.yaml`](#pre-commit-configyaml)
   - [Offline](#offline)
-  - [Online](#online)
 - [Further information](#further-information)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -50,14 +49,35 @@ _{{ page.excerpt }}_
 
 ## Configuration
 
-I do with `.editorconfig` what I can, but for example my template `.prettierrc`
-looks like:
+I do with `.editorconfig` what I can, but for example my template
+`.prettierrc.json` looks like this. I use pre-commit's pretty-format-json, while
+the one included on this page gets managed by prettier.
 
 ```json
 {
+  "bracketSameLine": true,
+  "endOfLine": "auto",
   "insertPragma": true,
-  "proseWrap": "always",
-  "singleAttributePerLine": true,
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "conf/librewolf.overrides.cfg",
+      "options": {
+        "parser": "babel"
+      }
+    },
+    {
+      "files": "conf/autoconfig.js.online",
+      "options": {
+        "parser": "babel"
+      }
+    }
+  ],
   "plugins": [
     "@prettier/plugin-ruby",
     "@prettier/plugin-xml",
@@ -65,22 +85,32 @@ looks like:
     "prettier-plugin-sh",
     "prettier-plugin-toml"
   ],
-  "overrides": [
-    { "files": ".prettierrc", "options": { "parser": "json" } },
-    {
-      "files": "conf/librewolf.overrides.cfg",
-      "options": { "parser": "babel" }
-    },
-    {
-      "files": "conf/autoconfig.js.online",
-      "options": { "parser": "babel" }
-    }
-  ]
+  "proseWrap": "always",
+  "quoteProps": "consistent",
+  "requirePragma": false,
+  "singleAttributePerLine": true
 }
 ```
 
-at the time of writing. It's directly from documentation excluding the plugin
-names, but I will want it everywhere.
+See the documentation linked on the bottom, but here are some explanations
+anyway:
+
+- `bracketSameLine: true` - HTML tags closing on the same line as something else
+  just looks so much better for my eyes.
+- `endOfLine: auto` - The default is `lf` line-endings, which I support in
+  general, but I think `prettier` is the wrong place to configure it. I have it
+  in `.gitattributes` which will take priority on check-in and `.editorconfig`.
+- `insertPragma: true` - adds a comment on files formatted
+- `overrides` and `plugins` - self-explanatory, but if not see the documentation
+  (bottom of the page). I know I don't actually have `.prettierrc` as it's
+  `.prettierrc.json`, but it doesn't seem to hurt and `babel` seems to be used
+  for JavaScript by default, which those two are regardless of the name.
+- `proseWrap: always` - wraps long markdown lines as individual newlines don't
+  matter (two begin a new paragraph).
+- `quoteProps: consistent` - quotes things if anything is quoted.
+- `requirePragma: false` - the other side of `insertPragma: true`, it's here as
+  a note to self.
+- `singleAttributePerLine: true` - I just think it looks better.
 
 ## `.pre-commit-config.yaml`
 
@@ -117,8 +147,10 @@ repos:
         language: system
         # Better handled by pretty-format-json from pre-commit-hooks.
         # Remember to have *.json in .prettierignore!
-        exclude_types: [json]
+        #exclude_types: [json]
 ```
+
+<!--
 
 ### Online
 
@@ -141,6 +173,8 @@ repos:
             "@prettier/plugin-xml@3.4.1",
           ]
 ```
+
+-->
 
 ## Further information
 
