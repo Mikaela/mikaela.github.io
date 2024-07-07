@@ -57,12 +57,14 @@ Or directories that generally aren't encountered in other similar projects.
 
 ## Building
 
-1. Install `bundler` onto your system.
+1. Install `rbenv` and its `ruby-build` plugins. Refer to
+   [rbenv/rbenv README.md for more information](https://github.com/rbenv/rbenv/blob/master/README.md#basic-git-checkout)
 1. `cd` to root of this repository, if you didn't already.
-1. _Optionally_ configure where you wish bundler to install everything. This
-   repository already specifies `bundle config set --local path 'vendor/bundle'`
-   in the gitignored `.bundle/config` file.
+1. Install the required Ruby version by `rbenv install`
+1. _Optionally_ configure where you wish bundler to install everything by e.g.
+   `bundle config set --local path 'vendor/bundle'`, but the rbenv default
+   should work just fine
 1. Run `bundle install`
 1. You are done, `bundle exec jekyll <build|serve>` and similar commands should
-   work, just remember `bundle exec` in front of the command so the system wide
-   installation doesn't unintentionally get used.
+   work. I suggest `bundle exec jekyll serve -lo` which will livereload and open
+   the web browser for you.
