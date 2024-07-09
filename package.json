@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@prettier/plugin-xml": "3.4.1",
+    "mvdan-sh": "0.10.1",
     "prettier": "3.3.2",
     "prettier-plugin-sh": "0.14.0"
   },
