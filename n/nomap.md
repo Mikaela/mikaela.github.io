@@ -12,7 +12,7 @@ redirect_from:
   - /r/_optout_nomap.html
   - /nomap.html
   - /_nomap.html
-robots: noai
+robots: yesai
 sitemap: true
 excerpt:
   The underscore nomap suffix in SSID indicates your desire to opt-out of Wi-Fi
