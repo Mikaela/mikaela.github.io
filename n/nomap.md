@@ -32,6 +32,9 @@ Microsoft has a separate
 [location services opt-out](https://account.microsoft.com/privacy/location-services-opt-out)
 which uses MAC addresses instead.
 
+**_Hidden SSID won't work for opt-out in some of those services. Refer to
+[n/hiddenssid](hiddenssid.html)._**
+
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
 
