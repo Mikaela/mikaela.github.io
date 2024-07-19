@@ -66,9 +66,15 @@ own), but we do have a couple of other rules too:
     limited to bot/relay/bridge) or the protocol in question may neglect to
     encrypt something
     [like Matrix does for reactions](https://github.com/matrix-org/matrix-spec/issues/660).
-- For other matters,
-  [_Chatham House Rule_](https://www.chathamhouse.org/about-us/chatham-house-rule)
-  applies.
+  - For other matters,
+    [_Chatham House Rule_](https://www.chathamhouse.org/about-us/chatham-house-rule)
+    applies.
+- Don't talk about boyeian [socially frozen](https://www.socialcooling.com/) far
+  left communities that don't allow you to make mistakes or believe that people
+  can \{change, mature, improve\}.
+  - Talking about them just serves to make everyone feel bad, it will not affect
+    their anathema being upon you for \{reading this page, being in speaking
+    terms with me, whatever\}.
 
 ## Languages
 
