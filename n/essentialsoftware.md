@@ -24,6 +24,7 @@ _{{ page.excerpt }}_
 - [Offtopic system configuration](#offtopic-system-configuration)
   - [Debian-based](#debian-based)
   - [SSD](#ssd)
+  - [BTRFS](#btrfs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -102,3 +103,13 @@ issue):
     suffering especially on BTRFS. I have been doing fine without it for years,
     it will not help any issue, unless you want read operations to cause writes
     and eat space...
+
+### BTRFS
+
+- The above applies, `/etc/fstab` must have `noatime`.
+- `compress=zstd:0` may be helpful. It enables zstd compression, which is an
+  integrated feature of BTRFS, with the default compression level (3 at the time
+  of writing). The BTRFS devs are most likely wiser than me and can provide a
+  reasonable balance between efficiency and CPU use.
+  - The compression will happen either the next time the file is written or can
+    be manually triggered through `sudo btrfs filesystem defragment -r "$PWD"`
