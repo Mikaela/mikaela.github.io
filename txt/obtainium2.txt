@@ -1,11 +1,13 @@
 https://github.com/accrescent/accrescent
 https://github.com/aistra0528/Hail
+https://github.com/ankitstarski/GeoclueShare
 https://github.com/AnySoftKeyboard/AnySoftKeyboard
 https://github.com/billthefarmer/editor
 https://github.com/binwiederhier/ntfy-android
 https://github.com/bitfireAT/davx5-ose
 https://github.com/bitwarden/authenticator-android
 https://github.com/bitwarden/mobile
+https://github.com/breezy-weather/breezy-weather
 https://github.com/Catfriend1/syncthing-android
 https://github.com/Catfriend1/syncthing-android-fdroid
 https://github.com/celzero/rethink-app
@@ -47,6 +49,7 @@ https://github.com/organicmaps/organicmaps
 https://github.com/OsmTravel/OsmGo
 https://github.com/pilot51/voicenotify
 https://github.com/polymorphicshade/Tubular
+https://github.com/project-kaat/gpsdRelay
 https://github.com/RikkaApps/Shizuku
 https://github.com/seemoo-lab/AirGuard
 https://github.com/segler-alex/RadioDroid
