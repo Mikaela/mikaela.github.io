@@ -98,3 +98,7 @@ issue):
 - `sudo systemctl enable --now fstrim.timer`
 - check that `/etc/fstab` has `noatime` so every file access isn't written to
   the disk. BTRFS filesystems should also have `ssd` flag.
+  - NEVER ENABLE `atime`, `relatime` or `norelatime` under the threat of
+    suffering especially on BTRFS. I have been doing fine without it for years,
+    it will not help any issue, unless you want read operations to cause writes
+    and eat space...
