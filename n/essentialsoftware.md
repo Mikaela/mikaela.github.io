@@ -23,6 +23,7 @@ _{{ page.excerpt }}_
 - [Usability](#usability)
 - [Offtopic system configuration](#offtopic-system-configuration)
   - [Debian-based](#debian-based)
+    - [Terminus everywhere outside of Debian](#terminus-everywhere-outside-of-debian)
   - [SSD](#ssd)
   - [BTRFS](#btrfs)
 
@@ -93,6 +94,17 @@ issue):
   - ensure UTF-8 and select Terminus
 - `sudo dpkg-reconfigure keyboard-configuration`
   - compose key
+
+#### Terminus everywhere outside of Debian
+
+After installing the package, adjust `/etc/vconsole.conf` e.g.:
+
+```conf
+KEYMAP="fi"
+FONT="ter-v16v"
+```
+
+Maybe `sudo updatedb` and `locate ter-v16v` at first though?
 
 ### SSD
 
