@@ -8,7 +8,21 @@
   <meta name="robots" content="nofollow">
   <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="robots" content="{% if page.robots %}{{ page.robots }} {% else %}{{ site.robots | default: 'nofollow' }}{% endif %}">
-  <meta name="Google-Extended" content="none">
+  <!-- Based on https://darkvisitors.com/docs/robots-txt -->
+  <meta name="Applebot-Extended" content="noindex, nofollow">
+  <meta name="Bytespider" content="noindex, nofollow">
+  <meta name="CCBot" content="noindex, nofollow">
+  <meta name="ClaudeBot" content="noindex, nofollow">
+  <meta name="Diffbot" content="noindex, nofollow">
+  <meta name="FacebookBot" content="noindex, nofollow">
+  <meta name="Google-Extended" content="noindex, nofollow">
+  <meta name="GPTBot" content="noindex, nofollow">
+  <meta name="Meta-ExternalAgent" content="noindex, nofollow">
+  <meta name="omgili" content="noindex, nofollow">
+  <meta name="Timpibot" content="noindex, nofollow">
+  <meta name="anthropic-ai" content="noindex, nofollow">
+  <meta name="Claude-Web" content="noindex, nofollow">
+  <meta name="cohere-ai" content="noindex, nofollow">
   <link rel="icon prefetch" href="{{site.icon}}">
   <link rel="me prefetch" href="{{ site.url }}">
   <link rel="openid.delegate" href="https://aminda.eu/">
