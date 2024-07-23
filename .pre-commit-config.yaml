@@ -14,8 +14,9 @@ ci:
 
 # Consistency with other tools
 default_language_version:
-  node: lts
-  ruby: .ruby-version
+  node: "lts"
+  python: "3.12"
+  ruby: ".ruby-version"
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
