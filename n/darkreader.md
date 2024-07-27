@@ -35,6 +35,9 @@ robots: noai
 
 ## Configuration for the new interface
 
+1. Set it from on to auto as [darkman](https://gitlab.com/WhyNotHugo/darkman/)
+   handles
+   [that](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/local/share).
 1. See all options
 1. Colors
 
@@ -44,7 +47,7 @@ robots: noai
 1. Font and more
 
 - Change font: yes
-- Font name: `OpenDyslexic, ui-serif, system-ui, serif, emoji`
+- Font name: `ui-serif, system-ui`, or whatever fits the situation. I just get
+  annoyed by other options.
 
-In _Settings_ there is additionally _Detect dark theme_ option which is nice,
-but again disables font changing.
+In _Settings_ there is additionally _Detect dark theme_ option.
