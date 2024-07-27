@@ -12,9 +12,11 @@ ci:
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
 
-# Use pypy3 for the Python hooks. Except don't, see .gitlab-ci.yml
-#default_language_version:
-#  python: pypy3
+default_language_version:
+  node: "lts"
+  # Remember .python-version !
+  python: "3.12"
+  ruby: ".ruby-version"
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -62,14 +64,14 @@ repos:
           ]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.28.6
+    rev: 0.29.0
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
       - id: check-gitlab-ci
 
   - repo: https://github.com/fsfe/reuse-tool
-    rev: v4.0.2
+    rev: v4.0.3
     hooks:
       - id: reuse
         exclude: ^.cache\/.*$
@@ -78,11 +80,8 @@ repos:
     hooks:
       - id: prettier
         name: prettier
-        entry: corepack pnpm exec prettier --cache --ignore-unknown --write
+        entry: corepack pnpx prettier --cache --ignore-unknown --write
         language: system
-        # Better handled by pretty-format-json from pre-commit-hooks.
-        # Remember to have *.json in .prettierignore!
-        exclude_types: [json]
 
       # Fedora: perl-Image-ExifTool
       - id: exiftool

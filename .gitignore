@@ -13,4 +13,3 @@ vendor/
 *_original
 .cache/**
 node_modules/**
-pnpm-lock.yaml
