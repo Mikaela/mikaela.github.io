@@ -4,16 +4,16 @@
 
 @charset "utf-8";
 
-// Our variables
-$serif-font-family: ui-serif, "Liberation Serif", Tinos, "Times New Roman",
-  serif, "Noto Emoji", "Noto Color Emoji", emoji;
-// Please consider this as a vote in support of https://caniuse.com/extended-system-fonts
-$sans-serif-font-family: ui-sans-serif, system-ui, "Comic Neue Angular",
-  "Comic Neue", "Comic Sans MS", "Comic Sans", "Liberation Sans", "Arimo",
-  "Arial", sans-serif, "Noto Emoji", "Noto Color Emoji", emoji;
-$monospace-font-family: ui-monospace, "Liberation Mono", Cousine, "Courier New",
-  monospace, "Noto Emoji", "Noto Color Emoji", emoji;
-// Must be in the end or undefined error.
+// Our font definitions. I know system-ui is generally sans-serif, but I
+// consider that lesser evil than not letting the client OS choose its
+// preferred font.
+$serif-font-family: ui-serif, system-ui, serif, "Noto Emoji", "Noto Color Emoji",
+  emoji;
+$sans-serif-font-family: ui-sans-serif, system-ui, sans-serif, "Noto Emoji",
+  "Noto Color Emoji", emoji;
+$monospace-font-family: ui-monospace, monospace, "Noto Emoji",
+  "Noto Color Emoji", emoji;
+// Must be in the end under threat of undefined variable error.
 $base-font-family: $sans-serif-font-family;
 
 // CSS of used Jekyll theme
