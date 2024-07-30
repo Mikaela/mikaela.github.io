@@ -47,7 +47,11 @@ robots: noai
 1. Font and more
 
 - Change font: yes
-- Font name: `ui-serif, system-ui`, or whatever fits the situation. I just get
-  annoyed by other options.
+- Font name: Depends on the circumstances. Are you worried about I and l and
+  whatever else looking the same? Serif. Legibility especially with reading
+  difficulties? Sans-Serif. While system-ui generally maps to Sans Serif, I
+  just get annoyed by other fonts.
+  - `ui-serif, system-ui`
+  - `ui-sans-serif, system-ui`
 
 In _Settings_ there is additionally _Detect dark theme_ option.
