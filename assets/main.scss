@@ -4,15 +4,14 @@
 
 @charset "utf-8";
 
-// Our font definitions. I know system-ui is generally sans-serif, but I
-// consider that lesser evil than not letting the client OS choose its
-// preferred font.
-$serif-font-family: ui-serif, system-ui, serif, "Noto Emoji", "Noto Color Emoji",
-  emoji;
-$sans-serif-font-family: ui-sans-serif, system-ui, sans-serif, "Noto Emoji",
-  "Noto Color Emoji", emoji;
-$monospace-font-family: ui-monospace, monospace, "Noto Emoji",
-  "Noto Color Emoji", emoji;
+// Font specifications. I keep changing my mind on what are the most pleasant
+// fonts to my eyes, so I won't bother commenting them here.'
+$serif-font-family: ui-serif, "Roboto Serif", "Noto Serif", Tinos, serif,
+  "Noto Emoji", "Noto Color Emoji", emoji;
+$sans-serif-font-family: ui-sans-serif, Roboto, "Noto Sans", Arimo, sans-serif,
+  "Noto Emoji", "Noto Color Emoji", emoji;
+$monospace-font-family: ui-monospace, "Roboto Mono", "Noto Mono", Cousine,
+  monospace, "Noto Emoji", "Noto Color Emoji", emoji;
 // Must be in the end under threat of undefined variable error.
 $base-font-family: $sans-serif-font-family;
 
