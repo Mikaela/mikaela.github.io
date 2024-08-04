@@ -14,3 +14,9 @@ gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 # Required for `bundle exec jekyll serve`
 gem "webrick"
+
+# Required for https://www.npmjs.com/package/@prettier/plugin-ruby
+gem "prettier_print"
+gem "syntax_tree"
+gem "syntax_tree-haml"
+gem "syntax_tree-rbs"

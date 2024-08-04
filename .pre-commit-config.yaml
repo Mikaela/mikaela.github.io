@@ -15,6 +15,7 @@ ci:
 # Consistency with other tools
 default_language_version:
   node: "lts"
+  # Remember .python-version !
   python: "3.12"
   ruby: ".ruby-version"
 
@@ -33,6 +34,8 @@ repos:
       - id: check-json
       - id: check-merge-conflict
       - id: check-shebang-scripts-are-executable
+      - id: check-toml
+      #- id: check-xml
       - id: destroyed-symlinks
       - id: detect-private-key
       - id: fix-byte-order-marker
@@ -40,7 +43,7 @@ repos:
       - id: mixed-line-ending
         args: [--fix=auto]
       - id: pretty-format-json
-        args: [--autofix, --no-ensure-ascii]
+        args: [--autofix, --indent, "\t", --no-ensure-ascii]
 
   - repo: https://github.com/pre-commit/sync-pre-commit-deps
     rev: v0.0.1

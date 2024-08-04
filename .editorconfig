@@ -13,3 +13,6 @@ charset = utf-8
 indent_style = space
 # https://github.com/Mikaela/mikaela.github.io/issues/324
 #indent_size = 2
+
+[*.json]
+indent_style = tab
