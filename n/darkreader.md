@@ -49,8 +49,8 @@ robots: noai
 - Change font: yes
 - Font name: Depends on the circumstances. Are you worried about I and l and
   whatever else looking the same? Serif. Legibility especially with reading
-  difficulties? Sans-Serif. While system-ui generally maps to Sans Serif, I
-  just get annoyed by other fonts.
+  difficulties? Sans-Serif. While system-ui generally maps to Sans Serif, I just
+  get annoyed by other fonts.
   - `ui-serif, system-ui`
   - `ui-sans-serif, system-ui`
 

@@ -66,7 +66,7 @@ be
 
 ```toml
 [Settings]
-Hidden=true
+Hidden = true
 ```
 
 ## Seeing hidden networks

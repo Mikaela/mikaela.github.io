@@ -56,7 +56,8 @@ repos:
     rev: v2.2.0
     hooks:
       - id: doctoc
-        args: [
+        args:
+          [
             --update-only,
             --title,
             '<em lang="fi">Automaattinen sisällysluettelo</em> / <em

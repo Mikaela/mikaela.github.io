@@ -2,7 +2,10 @@
 layout: mini
 permalink: /n/helen.html
 title: Helenin hintatiedot
-excerpt: Lunttilappu sähkönhintatietosovelluksille paljonko maksan Helenille, sillä kaipaan näitä tietoja säännöllisen epäsäännöllisesti jostakin Helenin valikoita helpommasta paikasta.
+excerpt:
+  Lunttilappu sähkönhintatietosovelluksille paljonko maksan Helenille, sillä
+  kaipaan näitä tietoja säännöllisen epäsäännöllisesti jostakin Helenin
+  valikoita helpommasta paikasta.
 sitemap: true
 robots: noai
 lang: fi
