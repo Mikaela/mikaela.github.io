@@ -46,4 +46,4 @@ _Note that this section is manually updated and might be missing some links._
 - ZNC
   - [ZNC 1.6.0 & SSL certificate verification]({% post_url blog/2015-02-24-znc160-ssl %})
   - [Installing ZNC on Ubuntu using PPA]({% post_url blog/2015-05-10-znc-ubuntu %})
-- [A couple of words on protocols (on the Discuss page)](/discuss.html/#a-couple-of-words-on-protocols)
+- [A couple of words on protocols (on the Discuss page)](/discuss.html#a-couple-of-words-on-protocols)
