@@ -23,7 +23,8 @@ _{{ page.excerpt }}_
 - [Usability](#usability)
 - [Offtopic system configuration](#offtopic-system-configuration)
   - [Debian-based](#debian-based)
-    - [Terminus everywhere outside of Debian](#terminus-everywhere-outside-of-debian)
+    - [Terminus on Fedora](#terminus-on-fedora)
+    - [Terminus on Arch Linux](#terminus-on-arch-linux)
   - [SSD](#ssd)
   - [BTRFS](#btrfs)
 
@@ -37,10 +38,13 @@ _{{ page.excerpt }}_
 - `microcode` - propietary, but otherwise CPU holes are going to be gaping open.
   Refer to `tail -n +1 /sys/devices/system/cpu/vulnerabilities/*`
   - Debian calls this as `amd64-microcode` or `intel-microcode`
-- `ufw` for Deb-based or `firewalld` on Fedora
+  - Arch knows them as `amd-ucode` or `intel-ucode`
+- `ufw` for Deb-based or `firewalld` on Fedora (and Kali and Arch Linux, if you
+  so choose in the last)
 - `sshguard` for mitigating shared systems where others refuse to use keys
 - `needrestart` for knowing when updates actually require services to be
   restarted or a kernel upgrade happens and requires reboot
+  - Arch users may prefer `checkservices` from `archlinux-contrib`
 - `molly-guard` so you won't accidentally `reboot` or `poweroff` production
   rather than local machine.
 - `apt-listchanges` changelogs are worth knowing when updating.
@@ -62,9 +66,9 @@ _{{ page.excerpt }}_
 ## Usability
 
 - `nvim git tmux zsh` - good luck without these
-- if cryptographic operations are taking ages, consider something like
+- <del>if cryptographic operations are taking ages, consider something like
   `haveged`. It's controversial, so if there are no issues, don't install a
-  random number generator.
+  random number generator.</del>
 - userspace oom killer, may avoid frozen systems, much more pleasant than
   actually having to deal with a frozen system.
   - `earlyoom`
@@ -95,7 +99,7 @@ issue):
 - `sudo dpkg-reconfigure keyboard-configuration`
   - compose key
 
-#### Terminus everywhere outside of Debian
+#### Terminus on Fedora
 
 After installing the package, adjust `/etc/vconsole.conf` e.g.:
 
@@ -105,6 +109,10 @@ FONT="ter-v16v"
 ```
 
 Maybe `sudo updatedb` and `locate ter-v16v` at first though?
+
+#### Terminus on Arch Linux
+
+See Fedora, but change the `FONT` to `"ter-132b"` instead.
 
 ### SSD
 
@@ -118,7 +126,7 @@ Maybe `sudo updatedb` and `locate ter-v16v` at first though?
 
 ### BTRFS
 
-- The above applies, `/etc/fstab` must have `noatime`.
+- The above applies, `/etc/fstab` **_must have_** `noatime`.
 - `compress=zstd:0` may be helpful. It enables zstd compression, which is an
   integrated feature of BTRFS, with the default compression level (3 at the time
   of writing). The BTRFS devs are most likely wiser than me and can provide a
