@@ -38,7 +38,9 @@ _{{ page.excerpt }}_
 - `microcode` - propietary, but otherwise CPU holes are going to be gaping open.
   Refer to `tail -n +1 /sys/devices/system/cpu/vulnerabilities/*`
   - Debian calls this as `amd64-microcode` or `intel-microcode`
-  - Arch knows them as `amd-ucode` or `intel-ucode`
+  - Arch knows them as `amd-ucode` or `intel-ucode` and won't load it for you,
+    you will have to `initrd /intel-ucode.img` yourself instantly after `linux`
+    and before `initrd /initramfs-linux-lts.img`...
 - `ufw` for Deb-based or `firewalld` on Fedora (and Kali and Arch Linux, if you
   so choose in the last)
 - `sshguard` for mitigating shared systems where others refuse to use keys
