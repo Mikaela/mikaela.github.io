@@ -1,12 +1,18 @@
 cff-version: 1.2.0
-title: Aminda.eu
-message: >-
-  If you use this website, please cite it using the metadata from this file.
-type: software
+title: "Aminda.eu"
+type: misc
 authors:
   - given-names: Aminda
     family-names: Suomalainen
-    email: suomalainen+git@mikaela.info
+    email: suomalainen@mikaela.info
+    orcid: "https://orcid.org/0009-0003-8657-4653"
+abstract:
+  "My personal blog and website, also containing notes to self that may be
+  useful for others and an URL redirector."
 repository-code: "https://github.com/Mikaela/mikaela.github.io"
+keywords:
+  - blog
+  - trans
+  - transgender
 url: "https://www.aminda.eu"
 license: CC-BY-4.0
