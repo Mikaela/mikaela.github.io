@@ -133,5 +133,8 @@ See Fedora, but change the `FONT` to `"ter-132b"` instead.
   integrated feature of BTRFS, with the default compression level (3 at the time
   of writing). The BTRFS devs are most likely wiser than me and can provide a
   reasonable balance between efficiency and CPU use.
+  - Alternatively `compress-force=zstd:0` may be used, but that might bring
+    extra CPU usage in compressing what cannot be compressed.
+    - Test on Lumina: 20G free -> 24G free.
   - The compression will happen either the next time the file is written or can
     be manually triggered through `sudo btrfs filesystem defragment -r "$PWD"`
