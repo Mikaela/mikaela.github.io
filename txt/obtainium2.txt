@@ -8,11 +8,13 @@ https://github.com/bitfireAT/davx5-ose
 https://github.com/bitwarden/authenticator-android
 https://github.com/bitwarden/mobile
 https://github.com/breezy-weather/breezy-weather
+https://github.com/butzist/ActivityLauncher
 https://github.com/Catfriend1/syncthing-android
 https://github.com/Catfriend1/syncthing-android-fdroid
 https://github.com/celzero/rethink-app
 https://github.com/cliambrown/EasyNoise
 https://github.com/c-lis/morelocale
+https://github.com/cvzi/darkmodewallpaper
 https://github.com/d4rken-org/permission-pilot
 https://github.com/element-hq/element-android
 https://github.com/element-hq/element-x-android
@@ -53,6 +55,7 @@ https://github.com/project-kaat/gpsdRelay
 https://github.com/RikkaApps/Shizuku
 https://github.com/seemoo-lab/AirGuard
 https://github.com/segler-alex/RadioDroid
+https://github.com/shub39/Rush
 https://github.com/simplex-chat/simplex-chat
 https://github.com/streetcomplete/StreetComplete
 https://github.com/svenjacobs/leon
