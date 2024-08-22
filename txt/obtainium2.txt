@@ -2,6 +2,7 @@ https://github.com/accrescent/accrescent
 https://github.com/aistra0528/Hail
 https://github.com/ankitstarski/GeoclueShare
 https://github.com/AnySoftKeyboard/AnySoftKeyboard
+https://github.com/barbeau/gpstest
 https://github.com/billthefarmer/editor
 https://github.com/binwiederhier/ntfy-android
 https://github.com/bitfireAT/davx5-ose
@@ -19,6 +20,7 @@ https://github.com/d4rken-org/permission-pilot
 https://github.com/element-hq/element-android
 https://github.com/element-hq/element-x-android
 https://github.com/F0x1d/LogFox
+https://github.com/f-leoni/lyrics2
 https://github.com/flxapps/DetoxDroid
 https://github.com/forkgram/TelegramAndroid
 https://github.com/forrestguice/IntervalMidpoints
@@ -32,10 +34,14 @@ https://github.com/guardianproject/ObscuraCam
 https://github.com/guardianproject/orbot
 https://github.com/HabitRPG/habitica-android
 https://github.com/iamr0s/Dhizuku
+https://github.com/IllusionMan1212/lyrics-grabbr
 https://github.com/ImranR98/Obtainium
+https://github.com/JunkieLabs/sensify-android
 https://github.com/karasevm/PrivateDNSAndroid
 https://github.com/kawaiiDango/pano-scrobbler
 https://github.com/krille-chan/fluffychat
+https://github.com/kylecorry31/Trail-Sense
+https://github.com/Lambada10/SongSync
 https://github.com/laurent22/joplin-android
 https://github.com/markusfisch/BinaryEye
 https://github.com/mastodon/mastodon-android
@@ -53,6 +59,7 @@ https://github.com/pilot51/voicenotify
 https://github.com/polymorphicshade/Tubular
 https://github.com/project-kaat/gpsdRelay
 https://github.com/RikkaApps/Shizuku
+https://github.com/schorschii/FsClock-Android
 https://github.com/seemoo-lab/AirGuard
 https://github.com/segler-alex/RadioDroid
 https://github.com/shub39/Rush
@@ -62,6 +69,7 @@ https://github.com/svenjacobs/leon
 https://github.com/Swordfish90/Lemuroid
 https://github.com/syncthing/syncthing-android
 https://github.com/TeamNewPipe/NewPipe
+https://github.com/TecCheck/FastLyrics
 https://github.com/Telegram-FOSS-Team/Telegram-FOSS
 https://github.com/thundernest/k-9
 https://github.com/Tobi823/ffupdater
@@ -71,3 +79,4 @@ https://github.com/UP-NextPush/android
 https://github.com/Zverik/every_door
 https://gitlab.com/AuroraOSS/AuroraStore
 https://gitlab.com/guardianproject/proofmode/proofmode-android
+https://gitlab.com/jiwopene/temperature-android
