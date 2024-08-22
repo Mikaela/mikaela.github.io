@@ -137,7 +137,7 @@ GEM
       ffi (~> 1.0)
     rbs (3.5.2)
       logger
-    rexml (3.3.5)
+    rexml (3.3.6)
       strscan
     rouge (4.3.0)
     safe_yaml (1.0.5)
