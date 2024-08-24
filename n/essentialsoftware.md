@@ -25,6 +25,7 @@ _{{ page.excerpt }}_
   - [Debian-based](#debian-based)
     - [Terminus on Fedora](#terminus-on-fedora)
     - [Terminus on Arch Linux](#terminus-on-arch-linux)
+  - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
   - [SSD](#ssd)
   - [BTRFS](#btrfs)
 
@@ -115,6 +116,25 @@ Maybe `sudo updatedb` and `locate ter-v16v` at first though?
 #### Terminus on Arch Linux
 
 See Fedora, but change the `FONT` to `"ter-132b"` instead.
+
+### Accessing UEFI setup without key smashing
+
+- systemd: there is a `systemctl reboot --firmware-setup`
+  ([spotted here](https://toot.io/@ProfessorCode@fosstodon.org/113009727720521254))
+- Plasma: in `desktop session` there is a checkbox to _after next boot, enter
+  UEFI settings_ (via
+  [reply to that](https://sauna.social/@justin@toot.io/113011195378808998))
+- Windows allows access to UEFI by pressing Shift while reboot
+  ([said here](https://sauna.social/@halva@wetdry.world/113011439141055477)) or
+  simply `shutdown -r -t 1 -fw` twice
+  ([said here](https://infosec.exchange/@jernej__s/113012094181641667)).
+- GNOME: in the reboot after 60 seconds menu, hold alt to get into boot options
+  ([said here](https://chaos.social/@keywan/113012020348714057))
+- In boot loader the command `fwsetup` should take you there
+  ([said here](https://fedi.absturztau.be/notice/AlGqYz5GeJOQw9dfNo)). And
+  anyone using either grub or systemd-bootd has probably seen the menu entry.
+- efibootmgr: `efibootmgr —bootnext 0000 && reboot`
+  ([said or implied here](https://infosec.exchange/@dodgybadger/113012265751917509))
 
 ### SSD
 
