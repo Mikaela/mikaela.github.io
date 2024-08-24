@@ -2,13 +2,13 @@
 layout: mini
 permalink: /n/reuse.html
 sitemap: false
-email: "suomalainen+git@mikaela.info"
+email: "suomalainen@aminda.eu"
 lang: en
 ---
 
 <!--
 SPDX-FileCopyrightText: 2023 Free Software Foundation Europe e.V.
-SPDX-FileCopyrightText: 2023 Aminda Suomalainen <suomalainen+git@mikaela.info>
+SPDX-FileCopyrightText: 2024 Aminda Suomalainen <suomalainen@aminda.eu>
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
