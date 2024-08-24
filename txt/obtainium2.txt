@@ -43,6 +43,7 @@ https://github.com/krille-chan/fluffychat
 https://github.com/kylecorry31/Trail-Sense
 https://github.com/Lambada10/SongSync
 https://github.com/laurent22/joplin-android
+https://github.com/ligi/SurvivalManual
 https://github.com/markusfisch/BinaryEye
 https://github.com/mastodon/mastodon-android
 https://github.com/michaeltroger/greenpass-android
@@ -57,6 +58,7 @@ https://github.com/organicmaps/organicmaps
 https://github.com/OsmTravel/OsmGo
 https://github.com/pilot51/voicenotify
 https://github.com/polymorphicshade/Tubular
+https://github.com/PranshulGG/WeatherMaster
 https://github.com/project-kaat/gpsdRelay
 https://github.com/RikkaApps/Shizuku
 https://github.com/schorschii/FsClock-Android
