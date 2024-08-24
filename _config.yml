@@ -23,6 +23,7 @@ url: "https://aminda.eu" # the base hostname & protocol for your site
 robots: noai, nofollow, noindex
 
 codeberg_username: Mikaela
+email: "suomalainen@aminda.eu"
 github_username: Mikaela
 linkedin_username: Aminda-eu
 facebook_username: aminda.eu
