@@ -121,8 +121,8 @@ See Fedora, but change the `FONT` to `"ter-132b"` instead.
 
 - systemd: there is a `systemctl reboot --firmware-setup`
   ([spotted here](https://toot.io/@ProfessorCode@fosstodon.org/113009727720521254))
-- Plasma: in `desktop session` there is a checkbox to _after next boot, enter
-  UEFI settings_ (via
+- Plasma: in `systemsettings` section `desktop session` there is a checkbox to
+  _after next boot, enter UEFI settings_ (via
   [reply to that](https://sauna.social/@justin@toot.io/113011195378808998))
 - Windows allows access to UEFI by pressing Shift while reboot
   ([said here](https://sauna.social/@halva@wetdry.world/113011439141055477)) or
