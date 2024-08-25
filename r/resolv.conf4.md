@@ -1,5 +1,5 @@
 ---
-redirect_to: https://gitea.blesmrt.net/Mikaela/shell-things/raw/master/etc/resolv.conf
+redirect_to: https://codeberg.org/Aminda/shell-things/raw/cxefa/etc/resolv.conf
 permalink: /r/resolv.conf4.html
 sitemap: false
 ---

@@ -1,5 +1,5 @@
 ---
-redirect_to: https://gitea.blesmrt.net/mikaela/pgp-alt-wot
+redirect_to: https://codeberg.org/Aminda/pgp-alt-wot
 permalink: /r/pgp.html
 redirect_from:
   - /r/gpg.html
