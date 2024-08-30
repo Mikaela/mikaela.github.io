@@ -1,6 +1,8 @@
 ---
-title: Essential software on my systems
-excerpt: This is just a quick personal reference so I don't have to guess.
+title: Essential software and configuration on my systems
+excerpt:
+  This is just a quick personal reference so I don't have to guess and notice
+  that I forgot something important.
 layout: mini
 permalink: /n/essentialsoftware.html
 sitemap: true
@@ -21,13 +23,14 @@ _{{ page.excerpt }}_
 
 - [Security](#security)
 - [Usability](#usability)
-- [Offtopic system configuration](#offtopic-system-configuration)
-  - [Debian-based](#debian-based)
-    - [Terminus on Fedora](#terminus-on-fedora)
+- [Essential system configuration](#essential-system-configuration)
+  - [Debian console](#debian-console)
+  - [Terminus on Fedora](#terminus-on-fedora)
     - [Terminus on Arch Linux](#terminus-on-arch-linux)
-  - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
   - [SSD](#ssd)
   - [BTRFS](#btrfs)
+- [Remember!](#remember)
+  - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -90,19 +93,20 @@ _{{ page.excerpt }}_
   - `sudo tlp-stat | less`
   - `sudo systemctl enable --now tlp`
 
-## Offtopic system configuration
+## Essential system configuration
 
-This is just too close to not mention here (and was besides in my planning
-issue):
+Since software being present and doing nothing may not actually do anything.
 
-### Debian-based
+### Debian console
 
 - `sudo dpkg-reconfigure console-setup`
   - ensure UTF-8 and select Terminus
 - `sudo dpkg-reconfigure keyboard-configuration`
   - compose key
 
-#### Terminus on Fedora
+### Terminus on Fedora
+
+<!-- Don't move this, as it's the same as Debian above -->
 
 After installing the package, adjust `/etc/vconsole.conf` e.g.:
 
@@ -115,26 +119,9 @@ Maybe `sudo updatedb` and `locate ter-v16v` at first though?
 
 #### Terminus on Arch Linux
 
+<!-- Don't move this, as it's the same as Debian and Fedora above -->
+
 See Fedora, but change the `FONT` to `"ter-132b"` instead.
-
-### Accessing UEFI setup without key smashing
-
-- systemd: there is a `systemctl reboot --firmware-setup`
-  ([spotted here](https://toot.io/@ProfessorCode@fosstodon.org/113009727720521254))
-- Plasma: in `systemsettings` section `desktop session` there is a checkbox to
-  _after next boot, enter UEFI settings_ (via
-  [reply to that](https://sauna.social/@justin@toot.io/113011195378808998))
-- Windows allows access to UEFI by pressing Shift while reboot
-  ([said here](https://sauna.social/@halva@wetdry.world/113011439141055477)) or
-  simply `shutdown -r -t 1 -fw` twice
-  ([said here](https://infosec.exchange/@jernej__s/113012094181641667)).
-- GNOME: in the reboot after 60 seconds menu, hold alt to get into boot options
-  ([said here](https://chaos.social/@keywan/113012020348714057))
-- In boot loader the command `fwsetup` should take you there
-  ([said here](https://fedi.absturztau.be/notice/AlGqYz5GeJOQw9dfNo)). And
-  anyone using either grub or systemd-bootd has probably seen the menu entry.
-- efibootmgr: `efibootmgr —bootnext 0000 && reboot`
-  ([said or implied here](https://infosec.exchange/@dodgybadger/113012265751917509))
 
 ### SSD
 
@@ -158,3 +145,27 @@ See Fedora, but change the `FONT` to `"ter-132b"` instead.
     - Test on Lumina: 20G free -> 24G free.
   - The compression will happen either the next time the file is written or can
     be manually triggered through `sudo btrfs filesystem defragment -r "$PWD"`
+
+## Remember!
+
+Not quite configuration, but I am not going to start inventing a new place for
+it.
+
+### Accessing UEFI setup without key smashing
+
+- systemd: there is a `systemctl reboot --firmware-setup`
+  ([spotted here](https://toot.io/@ProfessorCode@fosstodon.org/113009727720521254))
+- Plasma: in `systemsettings` section `desktop session` there is a checkbox to
+  _after next boot, enter UEFI settings_ (via
+  [reply to that](https://sauna.social/@justin@toot.io/113011195378808998))
+- Windows allows access to UEFI by pressing Shift while reboot
+  ([said here](https://sauna.social/@halva@wetdry.world/113011439141055477)) or
+  simply `shutdown -r -t 1 -fw` twice
+  ([said here](https://infosec.exchange/@jernej__s/113012094181641667)).
+- GNOME: in the reboot after 60 seconds menu, hold alt to get into boot options
+  ([said here](https://chaos.social/@keywan/113012020348714057))
+- In boot loader the command `fwsetup` should take you there
+  ([said here](https://fedi.absturztau.be/notice/AlGqYz5GeJOQw9dfNo)). And
+  anyone using either grub or systemd-bootd has probably seen the menu entry.
+- efibootmgr: `efibootmgr —bootnext 0000 && reboot`
+  ([said or implied here](https://infosec.exchange/@dodgybadger/113012265751917509))
