@@ -29,6 +29,15 @@ _{{ page.excerpt }}_
     - [Terminus on Arch Linux](#terminus-on-arch-linux)
   - [SSD](#ssd)
   - [BTRFS](#btrfs)
+  - [Swap](#swap)
+  - [sudo](#sudo)
+  - [Debian](#debian)
+    - [sources.list](#sourceslist)
+    - [`/etc/apt/preferences.d/whatever`](#etcaptpreferencesdwhatever)
+  - [sshd](#sshd)
+  - [Encrypted DNS](#encrypted-dns)
+  - [`/etc/xdg/autostart`](#etcxdgautostart)
+  - [`aminda-*.{service,socket]`](#aminda-servicesocket)
 - [Remember!](#remember)
   - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
 
@@ -71,7 +80,7 @@ _{{ page.excerpt }}_
 
 ## Usability
 
-- `nvim git tmux zsh` - good luck without these
+- `nvim git tmux zsh mosh` - good luck without these
 - <del>if cryptographic operations are taking ages, consider something like
   `haveged`. It's controversial, so if there are no issues, don't install a
   random number generator.</del>
@@ -81,6 +90,7 @@ _{{ page.excerpt }}_
     - remember to `sudo systemctl enable --now earlyoom`
   - `systemd-oomd`
     - remember to `sudo systemctl enable --now systemd-oomd`
+    - https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/oomd.conf.d
 - `zram-tools` - small compressed swap in RAM
   - Remember to check configs! Fedora: `/etc/zram.conf`
   - `sudo systemctl enable --now zramswap.service zram-swap.service`
@@ -145,6 +155,112 @@ See Fedora, but change the `FONT` to `"ter-132b"` instead.
     - Test on Lumina: 20G free -> 24G free.
   - The compression will happen either the next time the file is written or can
     be manually triggered through `sudo btrfs filesystem defragment -r "$PWD"`
+- For swapfiles on btrfs partition, e.g.
+  `btrfs filesystem mkswapfile --size 8G /swap`
+
+### Swap
+
+Zramswap is not enough. 8 GB everywhere may be enough,
+[summarizing Gentoo](https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation#What_about_swap_space.3F).
+
+No swap partition and swap file is acceptable (consider SSD)? See above for
+btrfs or as root
+
+```bash
+fallocate -l 8G /swap
+chmod 600 /swap
+mkswap /swap
+swapon /swap
+```
+
+The `/etc/fstab` rule is: `/swap    none    swap    sw  0   0` and then it's
+just a matter of `sudo swapon -a`
+
+### sudo
+
+- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/sudoers.d
+
+Consider these:
+
+```sudoers
+# Thanks Tails
+Defaults timestamp_timeout=0
+Defaults pwfeedback
+Defaults lecture = always
+```
+
+Additionally Arch Linux should consider either
+
+```sudoers
+# Allow full sudo access to the group which is uncommented. The first is
+# Debian.
+#%sudoers ALL=(ALL:ALL) ALL
+# Defaults to passwordless sudo on Debian.
+#%wheel ALL=(ALL:ALL) ALL
+```
+
+### Debian
+
+Remember to install `apt-transport-tor`!
+
+#### sources.list
+
+The mirror to use is `https://deb.debian.org/debian`.
+
+#### `/etc/apt/preferences.d/whatever`
+
+```apt
+# Copied from https://www.wireguard.com/install/ (2020-01-11)
+# Default priority appears to be 500, so 90 results to unstable being
+# used when the package is not available anywhere else
+Package: *
+Pin: release a=unstable
+Pin-Priority: 90
+
+Package: *
+Pin: release a=unstable-debug
+Pin-Priority: 90
+```
+
+### sshd
+
+If nothing else, **_please_** at least
+
+```
+# ssh-keygen -t ed25519 -N "" -f /etc/ssh/ssh_host_ed25519_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+LogLevel VERBOSE
+PermitRootLogin prohibit-password
+PasswordAuthentication no
+AuthenticationMethods publickey
+```
+
+### Encrypted DNS
+
+- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/resolved.conf.d
+- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/unbound/unbound.conf.d
+
+### `/etc/xdg/autostart`
+
+Not having terminal autostarting for all users is pain.
+
+- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/xdg/autostart/kgx-tmux.desktop
+
+```desktop
+[Desktop Entry]
+Terminal=true
+Exec=kgx --command="bash --norc -c tmux"
+Name=Tmux in Console
+Icon=org.gnome.Console
+```
+
+### `aminda-*.{service,socket]`
+
+They workaround either me or the distribution messing things up. While at it,
+don't forget `/etc/sysctl.d`
+
+- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system
 
 ## Remember!
 
