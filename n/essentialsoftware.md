@@ -31,6 +31,7 @@ _{{ page.excerpt }}_
   - [BTRFS](#btrfs)
   - [Swap](#swap)
   - [sudo](#sudo)
+  - [systemd presets](#systemd-presets)
   - [Debian](#debian)
     - [sources.list](#sourceslist)
     - [`/etc/apt/preferences.d/whatever`](#etcaptpreferencesdwhatever)
@@ -198,6 +199,16 @@ Additionally Arch Linux should consider either
 # Defaults to passwordless sudo on Debian.
 #%wheel ALL=(ALL:ALL) ALL
 ```
+
+### systemd presets
+
+You are practically **_guaranteed horrible time especially on Debian_**, unless
+`/etc/systemd/system-preset` has a `whatever.preset` saying `disable *` as some
+distributions consider it a good idea to autostart every installed service by
+default.
+
+To return to the preset state of nothing autostarting, execute the **_dangerous
+if you don't know what you are doing_** command `sudo systemctl preset-all`.
 
 ### Debian
 
