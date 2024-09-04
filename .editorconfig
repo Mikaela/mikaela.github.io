@@ -16,3 +16,6 @@ indent_style = space
 
 [*.json]
 indent_style = tab
+
+[.gitmodules]
+indent_style = tab
