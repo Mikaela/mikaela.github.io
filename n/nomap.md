@@ -35,6 +35,18 @@ which uses MAC addresses instead.
 **_Hidden SSID won't work for opt-out in some of those services. Refer to
 [n/hiddenssid](hiddenssid.html)._**
 
+<p class="centered">
+  <a
+    class="centered"
+    href="https://openwireless.org">
+    <img
+      width="150"
+      height="196"
+      src="https://github.com/Mikaela/mikaela.github.io/raw/lfs-media/eff.org/openwireless.org.png"
+      alt="I Support Open Wi-fi. openwireless.org"
+  /></a>
+</p>
+
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
 

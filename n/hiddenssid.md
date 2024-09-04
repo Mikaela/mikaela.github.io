@@ -13,6 +13,18 @@ lang: en
 _{{ page.excerpt }} For opting out of location services, refer to
 [n/nomap](nomap.html)_.
 
+<p class="centered">
+  <a
+    class="centered"
+    href="https://openwireless.org">
+    <img
+      width="150"
+      height="196"
+      src="https://github.com/Mikaela/mikaela.github.io/raw/lfs-media/eff.org/openwireless.org.png"
+      alt="I Support Open Wi-fi. openwireless.org"
+  /></a>
+</p>
+
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
 
