@@ -10,6 +10,7 @@ https://github.com/bitwarden/authenticator-android
 https://github.com/bitwarden/mobile
 https://github.com/breezy-weather/breezy-weather
 https://github.com/butzist/ActivityLauncher
+https://github.com/CasperVerswijvelt/Better-Internet-Tiles
 https://github.com/Catfriend1/syncthing-android
 https://github.com/Catfriend1/syncthing-android-fdroid
 https://github.com/celzero/rethink-app
@@ -43,6 +44,7 @@ https://github.com/krille-chan/fluffychat
 https://github.com/kylecorry31/Trail-Sense
 https://github.com/Lambada10/SongSync
 https://github.com/laurent22/joplin-android
+https://github.com/LibreShift/red-moon
 https://github.com/ligi/SurvivalManual
 https://github.com/markusfisch/BinaryEye
 https://github.com/mastodon/mastodon-android
@@ -62,6 +64,8 @@ https://github.com/PranshulGG/WeatherMaster
 https://github.com/project-kaat/gpsdRelay
 https://github.com/RikkaApps/Shizuku
 https://github.com/schorschii/FsClock-Android
+https://github.com/SecUSo/privacy-friendly-pedometer
+https://github.com/SecUSo/privacy-friendly-qr-scanner
 https://github.com/seemoo-lab/AirGuard
 https://github.com/segler-alex/RadioDroid
 https://github.com/shub39/Rush
@@ -78,6 +82,7 @@ https://github.com/Tobi823/ffupdater
 https://github.com/tosdr/tosdr-android
 https://github.com/UnifiedPush/fcm-distributor
 https://github.com/UP-NextPush/android
+https://github.com/yolosec/routerkeygenAndroid
 https://github.com/Zverik/every_door
 https://gitlab.com/AuroraOSS/AuroraStore
 https://gitlab.com/guardianproject/proofmode/proofmode-android
