@@ -41,6 +41,7 @@ _{{ page.excerpt }}_
   - [`aminda-*.{service,socket]`](#aminda-servicesocket)
 - [Remember!](#remember)
   - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
+  - [Recovering selinux policy issues](#recovering-selinux-policy-issues)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -297,3 +298,10 @@ it.
   anyone using either grub or systemd-bootd has probably seen the menu entry.
 - efibootmgr: `efibootmgr —bootnext 0000 && reboot`
   ([said or implied here](https://infosec.exchange/@dodgybadger/113012265751917509))
+
+### Recovering selinux policy issues
+
+- The Fedora advice is `sudo fixfiles -B onboot`, but that didn't assist me.
+- Boot with flags `enforcing=0 autorelabel` to temporarily have permissive mode
+  and automatic fixing.
+- What actually worked was booting with `enforcing=0` and `sudo restorecon -R /`
