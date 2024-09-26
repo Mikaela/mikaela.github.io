@@ -10,19 +10,19 @@ sitemap: true
 robots: noai
 lang: fi
 locale: fi-FI
-date: 2024-07-31
+date: 2024-09-26
 ---
 
 ## Helen pörssisähköhinnasto {{ page.date }}
 
 _{{ page.excerpt }}_
 
-- Perusmaksu: `4.90 €/kk`
-- Marginaali: `0.48 snt/kk`
-- Siirron perusmaksu: `5.51€/kk`
-- Siirtomaksu: `4.07 snt/kWh`
-- Sähkövero: `2.79 c/kWh
+- Perusmaksu: `4.96 €/kk`
+- Marginaali: `0.49 snt/kWh`
+- Siirron perusmaksu: `5.57 €/kk`
+- Siirtomaksu: `4.12 snt/kWh`
+- Sähkövero: `2.83 c/kWh`
 
-Hintatiedot sisältävät ALVn jos tulkitsen sopimusta oikein!
+Hintatiedot sisältävät ALVn!
 
 - [web.oma.helen.fi/personal/contracts](https://web.oma.helen.fi/personal/contracts)
