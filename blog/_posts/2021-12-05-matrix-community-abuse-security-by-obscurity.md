@@ -7,6 +7,7 @@ category: [english]
 tags: [matrix]
 lang: en
 robots: noai
+redirect_from: /mcasbo.html
 ---
 
 _I am administrator or moderator in multiple communities in Matrix, the most
