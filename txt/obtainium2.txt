@@ -3,6 +3,7 @@ https://github.com/aistra0528/Hail
 https://github.com/ankitstarski/GeoclueShare
 https://github.com/AnySoftKeyboard/AnySoftKeyboard
 https://github.com/barbeau/gpstest
+https://github.com/billthefarmer/currency
 https://github.com/billthefarmer/editor
 https://github.com/binwiederhier/ntfy-android
 https://github.com/bitfireAT/davx5-ose
@@ -70,6 +71,8 @@ https://github.com/seemoo-lab/AirGuard
 https://github.com/segler-alex/RadioDroid
 https://github.com/shub39/Rush
 https://github.com/simplex-chat/simplex-chat
+https://github.com/slavabarkov/tidy/
+https://github.com/soupslurpr/AppVerifier
 https://github.com/streetcomplete/StreetComplete
 https://github.com/svenjacobs/leon
 https://github.com/Swordfish90/Lemuroid
@@ -85,5 +88,6 @@ https://github.com/UP-NextPush/android
 https://github.com/yolosec/routerkeygenAndroid
 https://github.com/Zverik/every_door
 https://gitlab.com/AuroraOSS/AuroraStore
+https://gitlab.com/axet/android-hourly-reminder
 https://gitlab.com/guardianproject/proofmode/proofmode-android
 https://gitlab.com/jiwopene/temperature-android
