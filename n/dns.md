@@ -401,6 +401,10 @@ warnings in Ooni Probe and disable automatic testing, Syncthing Fork will not
 autostart due to detecting the network as metered, unless it's given permission
 to run in metered networks.
 
+**_NOTE ESPECIALLY!_** _Android Auto_ cannot be used when there is a "VPN"
+connected (why? ask Google, not me). Additionally you may encounter
+[questionable battery drain](/n/androidbattery.html).
+
 1. Use either GitHub or F-Droid release as Google Play doesn't have blocklists.
 1. Enable it.
 1. In Android Settings, Internet, Advanced, VPN, select Rethink, make it
