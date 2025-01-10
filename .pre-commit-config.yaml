@@ -47,7 +47,7 @@ repos:
       - id: check-illegal-windows-names
 
   - repo: https://github.com/pre-commit/sync-pre-commit-deps
-    rev: v0.0.1
+    rev: v0.0.2
     hooks:
       - id: sync-pre-commit-deps
 
