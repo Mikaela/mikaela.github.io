@@ -14,7 +14,8 @@ gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 # Required for `bundle exec jekyll serve`
 gem "webrick"
-
+# Undeclared dependency in current version of Jekyll?
+gem "csv"
 # Required for https://www.npmjs.com/package/@prettier/plugin-ruby
 gem "prettier_print"
 gem "syntax_tree"
