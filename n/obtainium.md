@@ -36,8 +36,8 @@ Android 12+.
 <em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Importable app list](#importable-app-list)
-- [Third party F-Droid repositories](#third-party-f-droid-repositories)
-  - [Apps within them](#apps-within-them)
+- [F-Droid repositories](#f-droid-repositories)
+  - [Apps within 3rd party F-Droid repos](#apps-within-3rd-party-f-droid-repos)
 - [App Stores](#app-stores)
 - [Other noteworthy apps:](#other-noteworthy-apps)
 
@@ -53,41 +53,30 @@ Android 12+.
 - For apps that require GitHub or GitLab API key to be entered into Obtainium,
   see [txt/obtainium2.txt](/txt/obtainium2.txt)
 
-## Third party F-Droid repositories
+## F-Droid repositories
 
-Aren't mass-importable sadly, but using Briar as an example:
+Aren't mass-importable sadly.
 
-- App Source URL: https://briarproject.org/fdroid
-- Override Source: F-Droid Third-Party Repo
-- App ID or Name: Briar
+- SherpaTTS
+  - https://f-droid.org/packages/org.woheller69.ttsengine/
+- Briar
+  - App Source URL: https://briarproject.org/fdroid
+  - Override Source: F-Droid Third-Party Repo
+  - App ID or Name: Briar
 
 Upon adding it will become something like the link below.
 
-### Apps within them
+### Apps within 3rd party F-Droid repos
 
 _However I would use [the F-Droid repositories directly](/n/f-droid.html)._
 
 - `https://briarproject.org/fdroid/repo?appId=org.briarproject.briar.android`
-  - Briar. Third party F-Droid repo.
-- `https://fdroid.frostnerd.com?appId=com.frostnerd.smokescreen`
-  - Nebulo. Third party F-Droid repo.
-- `https://divestos.org/apks/official/fdroid/repo?appId=us.spotco.malwarescanner`
-  - Hypatia malware scanner. Third party F-Droid repo.
-- `https://divestos.org/apks/official/fdroid/repo?appId=us.spotco.fennec_dos`
-  - Mull Browser (not to be confused with Mullvad). Often suggested as the
-    closest to [LibreWolf](https://librewolf.net) on Android. Third party
-    F-Droid repo.
+  - Briar.
 
 ## App Stores
 
 _Always exercise caution when installing apps, even from Google Play Store!_
 
-- `https://github.com/accrescent/accrescent`
-  - Accrescent is a recent App Store which I have seen recommended especially in
-    privacy circles, while it's a bit plain and doesn't have much selection yet.
-- `https://apkpure.net/apkpure/com.apkpure.aegon`
-  - APK Pure. Full of intrusive advertising, I wouldn't use it without adblocker
-    and even then would keep my family away from it.
 - `https://gitlab.com/AuroraOSS/AuroraStore`
   - Open source and anonymous interface for Google Play Store. Google doesn't
     like it, so the accounts often don't work, which is the reason this section
@@ -108,23 +97,11 @@ _Always exercise caution when installing apps, even from Google Play Store!_
     but not limited to Firefox, Chromium and other browsers based on them
     (except obviously not Google Chrome). Would install for family, if they
     didn't have Google Play Store.
-- `https://appgallery.huawei.com/app/C27162`
-  - Huawei App Gallery. I don't think I recommend it, unless it comes with your
-    phone, but it's nice to know it exists and can be installed?
 - `https://github.com/ImranR98/Obtainium`
   - An app downloader that can install apps directly from the publishers, a few
     other app stores and F-Droid repositories (see an earlier section on this
     page). But you should know that already considering this page is of no
     interest to anyone else than Obtainium users (and mainly only me).
-- `https://uptodown-android.en.uptodown.com/android`
-  - Uptodown app store, pleasant interface and not so intrusive advertising as
-    opposed to APK Pure. I would consider installing it for a family member,
-    should they reach ??? apps outside of Play Store that it offers (such as
-    AdGuard (which Google again dislikes), Telegram.org/Android...)
-- `https://lite-uptodown-app-store.en.uptodown.com/android`
-  - Lighter version for less powerful phones, thinking of you Android Go
-    Edition, or certain other 8 GB memory phones. Additionally Google is
-    stripped out of it.
 
 ## Other noteworthy apps:
 
