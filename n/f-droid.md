@@ -53,9 +53,6 @@ repositories out of the box, so time to add them too.
   contains SpiritCroc's apps, mainly SchildiChat.
 - [s2.spiritcroc.de/testing/fdroid/repo](fdroidrepos://s2.spiritcroc.de/testing/fdroid/repo?fingerprint=52d03f2fab785573bb295c7ab270695e3a1bdd2adc6a6de8713250b33f231225)
   contains testing versions of SpiritCroc's apps, mainly SchildiChat.
-- [divestos.org/apks/official/fdroid/repo](fdroidrepos://divestos.org/apks/official/fdroid/repo?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467)
-  contains the DivestOS apps such as Hypatia and Mull Browser (not to be
-  confused with Mullvad Browser).
 
 ## Official repositories for a single project
 
