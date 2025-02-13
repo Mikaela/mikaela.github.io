@@ -272,7 +272,8 @@ Some notes:
   `network.dns.use_https_rr_as_altsvc` to be `true`, but they seem to default to
   true at least in Firefox Nightly so maybe no action is needed.
 - [While investingating how Android 9 Private DNS works, I also wrote a DNS
-  provider comparsion here on 2019-07-11]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
+  provider comparsion here on
+  2019-07-11]({% post_url blog/2019-07-11-android-private-dns-in-practice %})
 
 ## SSDs
 

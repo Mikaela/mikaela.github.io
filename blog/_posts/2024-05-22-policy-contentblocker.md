@@ -16,10 +16,10 @@ policy receiving some positive feedback and I felt like continuing on the
 subject by instructing with extension installation. This barely scratches the
 surface of what browser policy can do for you either though._
 
-I recommend reading the [browser policy part Ⅰ on enforcing HTTPS
-only mode]({% post_url blog/2024-05-17-https-everywhere %}) as especially the
-Firefox part will continue building on it and I will try to not repeat myself,
-although that is unavoidable.
+I recommend reading the [browser policy part Ⅰ on enforcing HTTPS only
+mode]({% post_url blog/2024-05-17-https-everywhere %}) as especially the Firefox
+part will continue building on it and I will try to not repeat myself, although
+that is unavoidable.
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
@@ -48,12 +48,12 @@ although that is unavoidable.
 
 ## Chromium
 
-[I previously instructed with the directory creation and permissions in the
-part Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#chromium) and there I
-also mentioned loving how I can create separate files there as opposed to
-messing everything together. I tend to use the filename `aminda-extensions.json`
-for all extension related as Chromium isn't perfect either and only lets the
-options appear once.
+[I previously instructed with the directory creation and permissions in the part
+Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#chromium) and there I also
+mentioned loving how I can create separate files there as opposed to messing
+everything together. I tend to use the filename `aminda-extensions.json` for all
+extension related as Chromium isn't perfect either and only lets the options
+appear once.
 
 So the file may look a bit scary, but it's actually quite simple (and the
 difficulty comes from getting json formatted correctly, which I am leaving for
@@ -338,9 +338,9 @@ _Oh meow, no more json!_ I am sorry.
 }
 ```
 
-Doesn't that look familiar? Yes, it's practically the same file [from
-part Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#dns-over-https-1) and
-the extensions took the exact same values as Chromium, only the IDs and download
+Doesn't that look familiar? Yes, it's practically the same file [from part
+Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#dns-over-https-1) and the
+extensions took the exact same values as Chromium, only the IDs and download
 locations changed and some Chromium extras disappeared.
 
 Well, in uBlock Origin I did add the Mozilla/Firefox domains to avoid breakage
@@ -467,8 +467,7 @@ browser policies.
 ### Where is all the futher reading?
 
 If you have read both blog posts carefully, this one didn't actually say
-anything new, it's all linked [from
-part
+anything new, it's all linked [from part
 Ⅰ]({% post_url blog/2024-05-17-https-everywhere %}#documentation-and-other-policies).
 
 _[Obligatory changelog link](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2024-05-22-policy-contentblocker.md)_

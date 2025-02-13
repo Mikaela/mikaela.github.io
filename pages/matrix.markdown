@@ -27,10 +27,10 @@ I also have a [txt with a list of all my accounts](/txt/matrix.txt) which
 _Note that this section is manually updated and might be missing some links._
 
 - Critique
-  - [Inconsistency issues of Element, Element and Element, also privacy concerns]({% post_url blog/2021-08-03-matrix-perfect-privacy-not %})
+  - [Inconsistency issues of Element, Element and Element, also privacy
+    concerns]({% post_url blog/2021-08-03-matrix-perfect-privacy-not %})
   - [Without selfhosting a homeserver or even then, Matrix moderation tools rely
-    on security
-    through
+    on security through
     obscurity]({% post_url blog/2021-12-05-matrix-community-abuse-security-by-obscurity %})
 - [A couple of words on protocols (on the Discuss page)](/discuss.html#a-couple-of-words-on-protocols)
 
@@ -166,7 +166,8 @@ there are a couple of methods to try:
 Please note that your
 **_[reactions are NOT encrypted](https://github.com/matrix-org/matrix-spec/issues/660)_**
 even in encrypted rooms. See also my blog post, [Inconsistency issues of
-Element, Element and Element, also privacy concerns]({% post_url blog/2021-08-03-matrix-perfect-privacy-not %}).
+Element, Element and Element, also privacy
+concerns]({% post_url blog/2021-08-03-matrix-perfect-privacy-not %}).
 
 ### What are ghost and puppets?
 

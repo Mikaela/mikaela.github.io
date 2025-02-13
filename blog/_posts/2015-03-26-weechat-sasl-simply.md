@@ -65,6 +65,7 @@ choises:
 1. Trust the fingerprints manually using `irc.server.NETWORK.ssl_fingerprint`,
    see [this post].
 2. Disable SSL certificate checking using
-   `/set irc.server.NETWORK.ssl_verify off` **NOT RECOMMENDED**, see [this post].
+   `/set irc.server.NETWORK.ssl_verify off` **NOT RECOMMENDED**, see [this
+   post].
 
 [this post]:{% post_url blog/2015-02-24-znc160-ssl %}

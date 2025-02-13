@@ -146,23 +146,25 @@ place, so where else should it be?
 
 _Time of writing in YYYY-MM-DD (ISO 8601): title or what it's about._
 
-- [2015-03-25: Leaving bot communities & a little on my life]({% post_url 2015-03-25-leaving-bots-life %})
+- [2015-03-25: Leaving bot communities & a little on my
+  life]({% post_url 2015-03-25-leaving-bots-life %})
 - [2015-04-03: Scum]({% post_url 2015-04-03-scum %})
   - [2015-04-01: Saasta (same in Finnish)]({% post_url 2015-04-01-saasta %})
-- [2015-05-18: Somewhat more on my life & untold background
-  of bots]({% post_url 2015-05-18-life-bot-background %})
-- [2015-06-16: Feelings and wounds of
-  school bullying]({% post_url 2015-06-16-feelings %})
+- [2015-05-18: Somewhat more on my life & untold background of
+  bots]({% post_url 2015-05-18-life-bot-background %})
+- [2015-06-16: Feelings and wounds of school
+  bullying]({% post_url 2015-06-16-feelings %})
 - [2015-06-29: Google translated "suicide post"](https://translate.google.fi/translate?sl=fi&tl=en&js=y&prev=_t&hl=fi&ie=UTF-8&u=https%3A%2F%2Fmikaela.info%2Ffinnish%2F2015%2F06%2F29%2Fminusta.html&edit-text=)
   - _I was at psychiatrical hospital after writing this._
-- [2015-09-09: The most important post that I
-  have written]({% post_url 2015-09-09-act-around-trans %})
-- [2015-11-03: I moved to Lauttasaari, Helsinki]({% post_url 2015-11-03-moving %})
+- [2015-09-09: The most important post that I have
+  written]({% post_url 2015-09-09-act-around-trans %})
+- [2015-11-03: I moved to Lauttasaari,
+  Helsinki]({% post_url 2015-11-03-moving %})
   - way too positive for this section, but where else...
 - [2015-11-21: Email to Legal Affairs Committee on how trans law must be based on the right of self-definition](https://translate.google.fi/translate?sl=fi&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https%3A%2F%2Fmikaela.info%2Ffinnish%2F2015%2F11%2F21%2Fsahkopostia-lakivaliokunnalle-translaki.html&edit-text=)
 - [2017-04-18: Google Translated dance lesson trauma](https://translate.google.com/translate?sl=fi&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https%3A%2F%2Fmikaela.info%2Ffinnish%2F2017%2F04%2F18%2Ftanssitunti.html&edit-text=)
-- [2017-04-30: After trans process and AvPD, everything
-  is OK]({% post_url 2017-04-30-post-trans %})
+- [2017-04-30: After trans process and AvPD, everything is
+  OK]({% post_url 2017-04-30-post-trans %})
 
 ---
 

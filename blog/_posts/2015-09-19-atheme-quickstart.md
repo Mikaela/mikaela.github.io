@@ -38,7 +38,8 @@ Now you should be successfully identified and should configure automatic
 identification, I cannot help with it so much, but I can point you to beginning:
 
 - [liberachat's SASL instructions](https://libera.chat/guides/sasl)
-- [My instructions for SASL with WeeChat]({% post_url blog/2015-03-26-weechat-sasl-simply %})
+- [My instructions for SASL with
+  WeeChat]({% post_url blog/2015-03-26-weechat-sasl-simply %})
 - [Searx YOURCLIENTHERE SASL](https://search.disroot.org/?q=YOURCLIENTHERE+SASL)
 - IRCCloud: edit network and go to advanced settings and you will see box for
   NickServ password.
@@ -127,8 +128,7 @@ Now there are only two tasks left, making the group op and adding ops there:
 
 ## Futher reading
 
-- [Always add opers to access list (this is the $oper in
-  my
+- [Always add opers to access list (this is the $oper in my
   templates)]({% post_url blog/2015-01-10-channels-hostmask-groups-a-basic-howto %})
   - oops, did I just repeat previous post
 - [Keep the ops opped]({% post_url blog/2015-04-01-keep-the-ops-opped %})

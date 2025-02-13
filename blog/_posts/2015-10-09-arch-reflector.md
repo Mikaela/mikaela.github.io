@@ -15,9 +15,8 @@ redirect_from:
 _Reflector is a tool that checks the most recently upgraded Arch Linux mirrors
 and ranks them by speed and saves them to your mirrorlist._
 
-**This is largely based on [ArchWiki page on reflector] which is licensed in [GNU
-Free
-Documentation License 1.3 or later].**
+**This is largely based on [ArchWiki page on reflector] which is licensed in
+[GNU Free Documentation License 1.3 or later].**
 
 [archwiki page on reflector]: https://wiki.archlinux.org/index.php/Reflector
 [gnu free documentation license 1.3 or later]:

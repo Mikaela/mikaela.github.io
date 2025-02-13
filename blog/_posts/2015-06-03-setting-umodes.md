@@ -50,8 +50,8 @@ what the actual umodes are on your network, try `/quote help umode` or
 
 - i — invisible, hides your channel list from whois with ircd-seven and possibly
   some other ircds. Also hides you from /who of people who don't share channels
-  with you. [See also why I unset
-  it here.]({% post_url blog/2015-03-26-umode--i %})
+  with you. [See also why I unset it
+  here.]({% post_url blog/2015-03-26-umode--i %})
 - I — On InspIRCd with [hidechans] module hides your channel list from whois.
 - w — receive wallops, less-important announcements from network operators that
   are only received by those who are curious and have umode +w. More important

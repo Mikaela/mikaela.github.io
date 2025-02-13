@@ -269,7 +269,8 @@ version 115). You should already know how to enable it if you have read this far
 😼
 
 **_SEQUEL ANNOUNCEMENT!_** [Part Ⅱ: Browser policies Ⅱ: Deploying PrivacyBadger
-and uBlock Origin]({% post_url blog/2024-05-22-policy-contentblocker %}) is now online!
+and uBlock Origin]({% post_url blog/2024-05-22-policy-contentblocker %}) is now
+online!
 
 ## Documentation and other policies
 

@@ -121,8 +121,8 @@ This is the file that controls [`pre-commit`]s behaviour.
 I accidentally wrote this while updating this page to reflect me using prettier
 outside of [`pre-commit`] too nowadays. This has the advantage that the same
 local environment gets reused and dependencies are managed centrally, but
-assumes everyone uses pnpm, won't work in [`pre-commit` ci] and may have other issues
-I am not thinking of as a not-coder myself.
+assumes everyone uses pnpm, won't work in [`pre-commit` ci] and may have other
+issues I am not thinking of as a not-coder myself.
 
 [`pre-commit`]: https://pre-commit.com
 [`pre-commit` ci]: https://pre-commit.ci
