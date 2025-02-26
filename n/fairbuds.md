@@ -24,19 +24,20 @@ _{{ page.excerpt }}_
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
-- [Dezponia's studio EQ](#dezponias-studio-eq)
-  - [2024-04-11](#2024-04-11)
+  - [Dezponia's studio EQ](#dezponias-studio-eq)
+    - [2024-04-11](#2024-04-11)
+- [For Fairbuds](#for-fairbuds)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 <!-- prettier-ignore-end -->
 <!-- editorconfig-checker-enable -->
 
-## Dezponia's studio EQ
+### Dezponia's studio EQ
 
 Shamelessly copied from Matrix.
 
-### 2024-04-11
+#### 2024-04-11
 
 > My settings for Studio so far is 60hz+0db, 230hz+2db, 1.1khz+0db, 4khz+5db,
 > 10khz+4db. I think the some people may prefer +/- a db or two on the 4khz and
@@ -50,8 +51,21 @@ Shamelessly copied from Matrix.
 
 In clearer words, in the app drag the four sliders to
 
-- 0
-- 2
-- 0
-- 5
-- 4
+- 0 dB
+- 2 dB
+- 0 dB
+- 5 dB
+- 4 dB
+
+## For Fairbuds
+
+The not XL kind sliders are:
+
+- 2 dB
+- 0 dB
+- 0 dB
+- 0 dB
+- -1 dB
+- 6 dB
+- -2 dB
+- 7 dB
