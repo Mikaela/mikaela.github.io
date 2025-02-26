@@ -61,7 +61,7 @@ In clearer words, in the app drag the four sliders to
 
 The not XL kind sliders are:
 
-- 2 dB
+- 1 dB
 - 0 dB
 - 0 dB
 - 0 dB
