@@ -291,11 +291,13 @@ dig +short TXT whoami-ecs.v4.powerdns.org.
 In my experience [DNS0.eu] tends to have better filtering and
 [reporting options](https://www.dns0.eu/report) than [Quad9], while
 [servers being located only in](https://www.dns0.eu/network) the
-[European Union](https://european-union.europa.eu) is mildly problematic when
-your users start traveling outside it either for work or leisure, which across
-continents tends to bring round-trips overseas. Additionally private ECS (see
-above) tends to be bad poor for IPv6 and for very small AS like a school, it
-directs to another side of the country, but that is a very minor issue.
+[European Union](https://european-union.europa.eu) may either be free brownie
+points on not sending DNS queries outside of the EU or mildly problematic when
+your users start traveling outside the EU which which brings round-trips
+overseas. Additionally private ECS (see above) tends to be bad poor for IPv6 and
+for very small AS like a school, it directs to another side of the country, but
+that is a very minor issue, as opposed to constantly being directed to another
+country.
 
 Meanwhile [Quad9] blocking seems almost as good in
 [tests like this](https://techblog.nexxwave.eu/public-dns-malware-filters-tested-in-september-2024/)
