@@ -317,33 +317,6 @@ other options; [default filters](https://www.dns0.eu),
 [DNS0.eu]: https://www.dns0.eu
 [Quad9]: https://quad9.net
 
-<!--
-
-### Conclusion
-
-As the size and confusion this page induces to anyone else than me shows, I have spent too much time thinking about DNS and related matters.
-
-- Android: while the system only gives the option between `cloudflare-dns.com` and `dns.google` (HTTP/3, see below),
-  web browsers are free to choose the DoH server. If the device is not expected to travel far outside the EU, DNS0.eu may be a safe choice, otherwise Quad9.
-  - As I have to support devices going outside of the EU, I lean towards Quad9.
-- iOS (or Apple in general): same question, do the devices travel outside of the EU? Both provide configuration profiles.
-  - While not noticing the DNS0.eu configuration profile is difficult, [Quad9 currently hides it a bit under docs.quad9.net iOS instructions](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_%28Encrypted%29/).
-- Personal computers: I have reached the cursed conclusion of [using Unbound upstreams DNS0 for IPv4, Quad9 ECS for IPv6](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/dot-dns0-quad9.conf) and [using the hosts file to point web browsers away from DNS0.eu IPv6](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/hosts/dns) using [IPv4 mapped IPv6 addresses](https://en.m.wikipedia.org/wiki/IPv6#IPv4-mapped_IPv6_addresses).
-  - Especially the last part is cursed.
-  - Yes, ECS has privacy concerns, however _theoretically_ it's only a fallback if IPv4 goes down (very rare, has happened for short periods of time in my experience), but the environment also weights my decision. See above on whether to ECS or not.
-    - I hope to offset the risks of ECS by [not allowing TTLs below an hour](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/min-ttl-hour.conf) so whether I have a tab open or not cannot be figured out from DNS traffic alone and somewhat relatedly [serve stale records if I must](https://gitea.blesmrt.net/mikaela/shell-things/src/branch/master/etc/unbound/unbound.conf.d/expired-stale-serving-rfc8767.conf).
-- Personal servers: Personal preference, you could even use all of the DNS servers or be your own recursor. I again have small preference towards Quad9 ECS as titlefetching for unencrypted IRC connection is already open for mass surveillance and there is no telling who triggered a DNS query there anyway.
-- Business/association/enterprise/whatever device: there may be free political/regulational/bureaucratic/whatever brownie points for using DNS0.eu with the queries not being transmitted outside of the EU.
-
-This may also be a wrong approach entirely and it should just be an adblocking
-DNS as noted before.
-
-Additionally DNS filtering for web browsers may be irrelevant if browser
-policy enforces extensions that block malicious domains (such as µBlock Origin
-or AdNauseam) or even Google Safe Browsing.
-
--->
-
 ---
 
 ## CLI applications
@@ -444,29 +417,6 @@ connected (why? ask Google, not me). Additionally you may encounter
 Hopefully there is no situation where Rethink stops working and thinks it's
 still working. As can be deduced from this section, sometimes Rethink and I
 disagree with each other. _I don't guarantee I know what I am doing._
-
-<!--
-
-#### Using Obtainium with APKPure/Aegon
-
-I think a few of the blocklists in Rethink are blocking apkpure's domain
-breaking Obtainium and their official app and the steps to fix that are:
-
-1. Use a DNS server that doesn't have the block (`https://open.dns0.eu/` or
-   `https://unfiltered.adguard-dns.com/dns-query` if private ECS is desirable?)
-1. Select `Apps` in Rethink's main screen (the biggest button below `Proxy` and
-   `Logs`.
-1. Search for `Obtainium` or `APKPure` and select it.
-1. Select `Domain Rules`.
-1. Select the floating `+` from bottom right.
-1. Select Wildcard, enter `*.winudf.com` and select `Trust`.
-1. Select `Okay` and now Obtainium/APKPure should work assuming no DNS is
-   blocking it (check the logs).
-
-The `Trust` could also be set globally, but what business does any other app
-have for that domain?
-
--->
 
 ### [FFUpdater](https://github.com/Tobi823/ffupdater)
 
