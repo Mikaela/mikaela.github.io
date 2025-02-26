@@ -39,7 +39,6 @@ _{{ page.excerpt }} For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
 - [Mobile applications](#mobile-applications)
   - [Android](#android)
   - [Rethink](#rethink)
-    - [Using Obtainium with APKPure/Aegon](#using-obtainium-with-apkpureaegon)
   - [FFUpdater](#ffupdater)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -203,17 +202,18 @@ HTTPS everywhere? Do you know to not accept warnings about certificate issues?
 Do the other (less technical) users of your network? Would you or them be a
 delicious target? Do you even use GAFAM services?
 
+It's important to remember that authoritative nameserver is the one that knows
+where the domain is hosted that you can see through e.g. `whois aminda.eu` which
+will reply `lakas.ns.cloudflare.com` and `coco.ns.cloudflare.com`. Thus when you
+perform a DNS query with ECS enabled, the USA will know your IP with the
+accuracy of 256 users (poor example since
+[this site is currently hosted on GitHub pages](https://github.com/Mikaela/mikaela.github.io/issues/153)).
+Same as when you visit a domain ending
+[`.af`, Afganistan will know](https://en.wikipedia.org/wiki/.af#Restrictions).
+
 See also:
 
 - [_Understanding the Privacy Implications of ECS_](https://yacin.nadji.us/docs/pubs/dimva16_ecs.pdf)
-
-<del>_Later I have been torn on whether the quote above is correct and helps
-decrease my digital climate footprint more or less than adblocking on DNS level,
-but what really put the scales towards ECS for me was late night GApple update
-that was keeping me from sleeping. So ECS is for busy people who want to
-sleep?_</del> _The CISA link above makes me question this the very next day
-considering I belong to gender and sexual minorities, Pirate Party of Finland,
-and everything..._
 
 ### Why to use private ECS?
 
@@ -224,7 +224,7 @@ Do you want the benefits of ECS with the privacy and security of not having ECS?
 Private ECS is a compromise solution in the middle, although not without its own
 issues.
 
-Your private DNS provider will lie for you and say that your IP address is
+Your private DNS provider will lie a bit for you and say that your IP address is
 somewhere else where it will also place many others from your ISP. However what
 if it says you are a customer of another ISP, possibly even located in another
 country? It tends to have greater accuracy with IPv4 than IPv6,
@@ -237,6 +237,12 @@ work? Is perfect the enemy of good enough?
 In that case you may <del>get even worse performance</del> be in even worse
 situation than without ECS. Then again if everything works properly, you will
 get the benefit of ECS without the privacy impact and lessened security impact.
+
+I am often observing Cloudflare and other public DNS providers connecting me to
+Swedish servers when no ECS is used and so far the only place where I spent
+significant amount of time with wrong private ECS was a school and considering
+the drawbacks of ECS in the current world situation, I think private ECS is
+easily the least bad option.
 
 See the next section for testing "where you are." Consider also what is
 important for you if you had to pick one or two from privacy, performance and
@@ -292,7 +298,7 @@ above) tends to be bad poor for IPv6 and for very small AS like a school, it
 directs to another side of the country, but that is a very minor issue.
 
 Meanwhile [Quad9] blocking seems almost as good in
-[tests like this](https://techblog.nexxwave.eu/public-dns-malware-filters-tested-in-2024/)
+[tests like this](https://techblog.nexxwave.eu/public-dns-malware-filters-tested-in-september-2024/)
 and they give me impression
 [of more transparency](https://quad9.net/about/transparency-report) (as opposed
 to
@@ -362,7 +368,7 @@ using `cloudflare-dns.com`). **_However is connectivity in limited networks and
 maybe a bit faster speed in bad network more important than a level of security
 reached by a filtering resolver?_**
 
-Then setup your web browser (including Firefox (other than stable which disables
+Then setup your web browser (including Firefox Nightly (other channels disable
 `about:config`) and Chrome) to use DNS over HTTPS with your preferred server and
 while at it enabling HTTPS only mode.
 
@@ -439,6 +445,8 @@ Hopefully there is no situation where Rethink stops working and thinks it's
 still working. As can be deduced from this section, sometimes Rethink and I
 disagree with each other. _I don't guarantee I know what I am doing._
 
+<!--
+
 #### Using Obtainium with APKPure/Aegon
 
 I think a few of the blocklists in Rethink are blocking apkpure's domain
@@ -457,6 +465,8 @@ breaking Obtainium and their official app and the steps to fix that are:
 
 The `Trust` could also be set globally, but what business does any other app
 have for that domain?
+
+-->
 
 ### [FFUpdater](https://github.com/Tobi823/ffupdater)
 
