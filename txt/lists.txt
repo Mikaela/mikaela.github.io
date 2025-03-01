@@ -1,0 +1,5 @@
+https://ads-for-open-source.readthedocs.io/en/latest/_static/lists/opensource-ads.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener-AffiliateTagAllowlist.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+https://raw.githubusercontent.com/Mikaela/gist/master/DNS/blocklist.txt
+https://www.eff.org/files/effdntlist.txt
