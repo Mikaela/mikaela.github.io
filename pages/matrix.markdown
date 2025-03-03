@@ -98,6 +98,8 @@ _Note that this section is manually updated and might be missing some links._
 - Cos has written
   [Matrix tips they don't tell you](https://wordsmith.social/cos/matrix-tips-they-dont-tell-you)
   containing a FAQ, hints and guides.
+- [Tune Your Chat](https://tune-your-chat.github.io/ecosystem/tune/) has a
+  similar collection of hints to this section.
 
 ### Is there any kind of Matrix etiquette I should know about?
 
