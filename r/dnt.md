@@ -5,7 +5,6 @@ redirect_from:
   - r/effdntlist.html
   - r/effdnt.html
   - r/dntallowlist.html
-  - r/dntwhitelist.html
   - r/dntlist.html
 sitemap: false
 ---
