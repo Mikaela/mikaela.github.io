@@ -251,7 +251,7 @@ moderators would have a couple of other options too:
   `!draupnir protections enable <protection-name-here>` might help you. Consider
   especially `FirstMessageIsImageProtection` (ban user if their first user is an
   image), `MentionLimitProtection` (remove messages if they spam ping many
-  usres), `MessageIsMediaProtection` (remove files containing media),
+  users), `MessageIsMediaProtection` (remove files containing media),
   `MessageIsVoiceProtection` (remove voice messages). For more information see
   `!draupnir protections` and `!draupnir help`.
   - I don't have an access to a Mjolnir, but I think it might have older command
@@ -290,6 +290,9 @@ See also the
 1. Tap the version number several times (7 for me)
 1. Open developer settings that are now visible
 1. Select the first option _Hide image & video previews_.
+   1. Note that the same menu features a _Clear cache_ button on the bottom. It
+      can help if you are stuck with spam invites from ignored user or otherwise
+      experience weirdness in the app.
 
 ##### Nheko
 
