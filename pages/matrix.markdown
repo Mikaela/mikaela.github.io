@@ -49,6 +49,11 @@ _Note that this section is manually updated and might be missing some links._
 - [What are ghost and puppets?](#what-are-ghost-and-puppets)
 - [What does the public history visibility mean? I don't want to appear in search engines](#what-does-the-public-history-visibility-mean-i-dont-want-to-appear-in-search-engines)
 - [Can I see who is in any specific room without being there?](#can-i-see-who-is-in-any-specific-room-without-being-there)
+- [How do I deal with NSFL spam?](#how-do-i-deal-with-nsfl-spam)
+  - [Disabling image previews](#disabling-image-previews)
+    - [Element Web/Desktop](#element-webdesktop)
+    - [ElementX](#elementx)
+    - [Nheko](#nheko)
 - [How can I remove my messages automatically like on Signal, WhatsApp, Telegram and everything else?](#how-can-i-remove-my-messages-automatically-like-on-signal-whatsapp-telegram-and-everything-else)
   - [How can I remove my messages automatically on Nheko?](#how-can-i-remove-my-messages-automatically-on-nheko)
   - [How can I install Nheko nightly?](#how-can-i-install-nheko-nightly)
@@ -100,6 +105,7 @@ _Note that this section is manually updated and might be missing some links._
   containing a FAQ, hints and guides.
 - [Tune Your Chat](https://tune-your-chat.github.io/ecosystem/tune/) has a
   similar collection of hints to this section.
+- [Ubuntu Community: Dealing with spam on Matrix](https://ubuntu.com/community/communications/matrix/spam)
 
 ### Is there any kind of Matrix etiquette I should know about?
 
@@ -235,6 +241,63 @@ may be in the room. Note that this particular link requires `matrix.org` to be
 in the room and aware of the alias.
 
 Otherwise no, you cannot.
+
+### How do I deal with NSFL spam?
+
+I recommend disabling image previews in public rooms, more about that below, but
+moderators would have a couple of other options too:
+
+- Do you have a Draupnir/Mjolnir?
+  `!draupnir protections enable <protection-name-here>` might help you. Consider
+  especially `FirstMessageIsImageProtection` (ban user if their first user is an
+  image), `MentionLimitProtection` (remove messages if they spam ping many
+  usres), `MessageIsMediaProtection` (remove files containing media),
+  `MessageIsVoiceProtection` (remove voice messages). For more information see
+  `!draupnir protections` and `!draupnir help`.
+  - I don't have an access to a Mjolnir, but I think it might have older command
+    `!mjolnir enable`, but it too should understand `!mjolnir protections` or at
+    least `!mjolnir help`.
+- You could use permissions manager in room settings to disallow media files.
+  TODO: `/devtools` event/instructions.
+
+#### Disabling image previews
+
+Everything is its own subheading for easier navigation through the table of
+contents on top.
+
+See also the
+[Ubuntu guide for dealing with spam](https://ubuntu.com/community/communications/matrix/spam).
+
+##### Element Web/Desktop
+
+1. Open settings
+1. Select options/preferences, I am not sure which it is in English
+1. Uncheck option "display image/media previews" or something similar. It should
+   also sync to your other Element Web/Desktop clients at least upon restart.
+
+##### ElementX
+
+1. Open settings
+1. Scroll down to the version number
+1. Tap the version number several times (7 for me)
+1. Open developer settings that are now visible
+1. Select the first option _Hide image & video previews_.
+
+##### Nheko
+
+I am unsure on whether this is specific to Nightly, see below for flatpak
+installation instructions.
+
+1. Open user settings. It's on bottom left in the same row that begins with
+   create a new chat (plus symbol), room directory (looks like a building), room
+   search (ctrl + k which looks like a zooming glass) and finally the user
+   settings looking like a cog.
+1. Scroll down to timeline
+1. The third option should be _show images automatically_ which has a dropbox
+   with options _always_, _only in private rooms_ and _never_. Consider which is
+   the most appropiate for you since knocking only rooms count as private even
+   if they may be big and moderators may not know who is going to spam before
+   letting them in.
 
 ### How can I remove my messages automatically like on Signal, WhatsApp, Telegram and everything else?
 
