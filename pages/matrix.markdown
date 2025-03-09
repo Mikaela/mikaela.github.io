@@ -258,7 +258,15 @@ moderators would have a couple of other options too:
     `!mjolnir enable`, but it too should understand `!mjolnir protections` or at
     least `!mjolnir help`.
 - You could use permissions manager in room settings to disallow media files.
-  TODO: `/devtools` event/instructions.
+  See the next bullet point, except `m.room.power_levels` and _event TODO_
+  instead of `m.room.join_rules`.
+- There is also the possibility of making your join available only through
+  knocking/request to join. Element users will find it from labs, ElementX from
+  developer settings (see below).
+  - Element Web also has the possibility of `/devtools`, `Explore room state`,
+    `m.room.join_rules`, `{ "join_rule": "knock" }`. Other options include
+    `restricted` and `knock_restricted`, but more about that in
+    [my matrix/m.room.join_rules in the gist repo](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/matrix/m.room.join_rules/README.md).
 
 #### Disabling image previews
 
