@@ -26,13 +26,13 @@ codeberg_username: Aminda
 email: "suomalainen@aminda.eu"
 github_username: Mikaela
 linkedin_username: Aminda-eu
-facebook_username: aminda.eu
-instagram_username: amiauh39
+#facebook_username: aminda.eu
+#instagram_username: amiauh39
 
-facebook:
-  publisher: "357677997429713"
-  app_id: "1614500206007989"
-  admins: aminda.eu
+#facebook:
+#  publisher: "357677997429713"
+#  app_id: "1614500206007989"
+#  admins: aminda.eu
 mastodon:
   username: Aminda
   instance: sauna.social
@@ -45,7 +45,7 @@ webmaster_verifications:
   google: oELGPuQ0VNEekDke964c0XCMYaC_Nd_Mr_TRYEVRXgY
   bing: DDF472BEC8E65C680D65A24256C33B24
   yandex: 2d5398c328c66322
-  facebook: 7xn4x8q3svdnolnp60rmlp4lph3t5d
+#  facebook: 7xn4x8q3svdnolnp60rmlp4lph3t5d
 # Jekyll SEO as well
 defaults:
   - scope:
