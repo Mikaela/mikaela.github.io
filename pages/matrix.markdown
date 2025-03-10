@@ -264,9 +264,9 @@ moderators would have a couple of other options too:
   See the next bullet point, except `m.room.power_levels` and _event TODO_
   instead of `m.room.join_rules`.
 - There is also the possibility of making your join available only through
-  knocking/request to join, if it's at least version 7 (of
-  {{site.matrixLatestRoomVersion}}). Element users will find it from labs,
-  ElementX from developer settings (see below).
+  knocking/request to join (if it's at least version 7 of
+  {{site.matrixLatestRoomVersion}}). Element users will find the feature from
+  labs, ElementX from developer settings (see below).
   - Element Web also has the possibility of `/devtools`, `Explore room state`,
     `m.room.join_rules`, `{ "join_rule": "knock" }` (if the room is at least
     version 7 of {{site.matrixLatestRoomVersion}}). Other options include
