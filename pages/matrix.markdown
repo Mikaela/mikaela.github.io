@@ -247,7 +247,8 @@ Otherwise no, you cannot.
 I recommend disabling image previews in public rooms, more about that below, but
 moderators would have a couple of other options too:
 
-- Do you have a Draupnir/Mjolnir?
+- Do you have a
+  [Draupnir](https://github.com/the-draupnir-project/Draupnir)/[Mjolnir](https://github.com/matrix-org/mjolnir)?
   `!draupnir protections enable <protection-name-here>` might help you. Consider
   especially `FirstMessageIsImageProtection` (ban user if their first user is an
   image), `MentionLimitProtection` (remove messages if they spam ping many
@@ -257,6 +258,8 @@ moderators would have a couple of other options too:
   - I don't have an access to a Mjolnir, but I think it might have older command
     `!mjolnir enable`, but it too should understand `!mjolnir protections` or at
     least `!mjolnir help`.
+  - If you don't have access to either, you may be able to _request_ a
+    [Draupnir4All](https://docs.draupnir.midnightthoughts.space/) instance.
 - You could use permissions manager in room settings to disallow media files.
   See the next bullet point, except `m.room.power_levels` and _event TODO_
   instead of `m.room.join_rules`.
