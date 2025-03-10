@@ -261,11 +261,16 @@ moderators would have a couple of other options too:
   See the next bullet point, except `m.room.power_levels` and _event TODO_
   instead of `m.room.join_rules`.
 - There is also the possibility of making your join available only through
-  knocking/request to join. Element users will find it from labs, ElementX from
-  developer settings (see below).
+  knocking/request to join, if it's at least version 7 (of
+  {{site.matrixLatestRoomVersion}}). Element users will find it from labs,
+  ElementX from developer settings (see below).
   - Element Web also has the possibility of `/devtools`, `Explore room state`,
-    `m.room.join_rules`, `{ "join_rule": "knock" }`. Other options include
-    `restricted` and `knock_restricted`, but more about that in
+    `m.room.join_rules`, `{ "join_rule": "knock" }` (if the room is at least
+    version 7 of {{site.matrixLatestRoomVersion}}). Other options include
+    `restricted` (if the room is at least version <del>8</del> 9 of
+    {{site.matrixLatestRoomVersion}}) and `knock_restricted` (if the room is at
+    least version 10 of {{site.matrixLatestRoomVersion}}), but more about that
+    in
     [my matrix/m.room.join_rules in the gist repo](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/matrix/m.room.join_rules/README.md).
 
 #### Disabling image previews
