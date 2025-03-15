@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 My Matrix accounts
 ==================
 
@@ -6,14 +9,14 @@ Having multiple accounts on different homeservers is preferable for many reasons
 See also: https://keyoxide.org/aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY
 
 Primary accounts
-----------------
+- - - ----------------
 
 * matrix:u/aminda:pikaviestin.fi - main…ish
 * matrix:u/mikaela.suomalainen:matrix.org - professional context where shouldersurfing may be a concern. Also {Element,SchildiChat}-{X,Android,iOS,Next}. (Predates my December 2021 namechange a bit)
 * matrix:u/Ciblia:matrix.org - ~2016 retro MXID (nowadays they aren't allowed to have capital letters which I did by accident). Also less professional {Element,SchildiChat}-{X,Android,iOS,Next}.
 
 Others
-------
+- - - ------
 
 * matrix:u/aminda:matrix.org - https://github.com/vector-im/element-web/issues/17483
 * matrix:u/aminda:mozilla.org https://github.com/flathub/im.riot.Riot/issues/268#issuecomment-1103213448
@@ -24,32 +27,33 @@ Others
 * matrix:u/aminda:conduit.ungleich.ch - IPv6 Conduit test account, but as they may erase database at all times, it may not be me.
 * matrix:u/aminda:envs.net - you know who to blame if this account is relevant to you.
 * matrix:u/aminda:beeper.com - Beeper is building everything on top of Matrix while having their own clients and everything, so one would think it likely to be on all my devices and sending notifications, regardless of any primary status of the account. However it doesn't seem to like /e/OS and has fallen a bit out of use.
+* matrix:u/mikaela-5756df8cc43b8c6019785660:gitter.im - because Element bought Gitter and converted it to native Matrix and my account alongside it ':)
 
 Bots
-----
+- - - ----
 
 * matrix:u/mikaela.matterbridge:tedomum.net - currently used
 
 Old bots
---------
+- - - --------
 
 * matrix:u/mikaela.matterbridge:converser.eu - inactive previous iteration
 * matrix:u/aminda.matterbridge:jae.fi - https://aminda.eu/matrix/#brief-history-of-my-experiences-with-dead-homeservers
 
 Bridges
--------
+- - - -------
 
 Please refer to irc.txt, telegram.txt and xmpp.txt
 
 Deactivated accounts
---------------------
+- - - --------------------
 
 These accounts are deactivated and thus no longer usable by anyone. If they reappear, assume malicious homeserver and ACL on sight.
 
 * matrix:u/aminda:the-apothecary.club - used to exist for accessibility testing animated avatars e.g. https://github.com/vector-im/element-web/issues/18442 and https://github.com/vector-im/hydrogen-web/issues/841 . I disagree with how they run their communities and thus have deactivated the account myself.
 
 Legacy
-------
+- - - ------
 
 These homeservers no longer exist and should they reappear it's most likely not me, please kban on sight unless otherwise stated.
 
@@ -63,12 +67,19 @@ These homeservers no longer exist and should they reappear it's most likely not 
 
 * * * * *
 
-PS. For SSH signature add .sig to the end of the URL
-
 Aminda Suomalainen
 aspe:keyoxide.org:LGWNUB7QG4M326FXXBH5Z6PLVY
-2024-03-11 13.47+0300
+2025-03-15 10.23+0200
 
 <!--
 vim: filetype=markdown
--->
+- - - -->
+
+-----BEGIN PGP SIGNATURE-----
+
+iI8EARYKADcWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCZ9U5KBkcc3VvbWFsYWlu
+ZW5AbWlrYWVsYS5pbmZvAAoJEJk5L2K64wcj11sA/3e7rR3gm/iElTN3qUCvo0+J
+11mgrR+FPHxpYUEyTDl2AQCUR3k5FPdkGx8x0su3N6gG4SkB9QQeKeniX6jUJYjO
+Cg==
+=OURq
+-----END PGP SIGNATURE-----
