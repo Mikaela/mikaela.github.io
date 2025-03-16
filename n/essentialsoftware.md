@@ -93,9 +93,6 @@ _{{ page.excerpt }}_
   - `systemd-oomd`
     - remember to `sudo systemctl enable --now systemd-oomd`
     - https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/oomd.conf.d
-- `zram-tools` - small compressed swap in RAM
-  - Remember to check configs! Fedora: `/etc/zram.conf`
-  - `sudo systemctl enable --now zramswap.service zram-swap.service`
 - `thermald` for additional help keeping system cool, especially intel
   - `sudo systemctl enable --now thermald`
 - `vnstat` - help for observing bandwidth usage
@@ -104,6 +101,18 @@ _{{ page.excerpt }}_
 - `tlp` - for laptop power management, especially ThinkPad.
   - `sudo tlp-stat | less`
   - `sudo systemctl enable --now tlp`
+- `zram` - for compressing RAM and getting a bit more breathing room before
+  userspace oom killer hits.
+  - Fedora: `sudo dnf install zram-generator zram-generator-defaults`
+  - Debian: `sudo apt install systemd-zram-generator`
+  - To check that it works `zramctl`. May take a while after
+    `sudo systemctl reload` or a reboot.
+
+<!--
+- `zram-tools` - small compressed swap in RAM
+  - Remember to check configs! Fedora: `/etc/zram.conf`
+  - `sudo systemctl enable --now zramswap.service zram-swap.service`
+-->
 
 ## Essential system configuration
 
@@ -162,7 +171,8 @@ See Fedora, but change the `FONT` to `"ter-132b"` instead.
 
 ### Swap
 
-Zramswap is not enough. 8 GB everywhere may be enough,
+<!--Zramswap is not enough.--> 8 GB everywhere may be enough,
+
 [summarizing Gentoo](https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Installation#What_about_swap_space.3F).
 
 No swap partition and swap file is acceptable (consider SSD)? See above for
