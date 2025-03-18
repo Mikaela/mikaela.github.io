@@ -14,8 +14,6 @@ ci:
 
 # Consistency with other tools
 default_language_version:
-  # Remember .python-version !
-  python: "3.13"
   ruby: ".ruby-version"
 
 repos:
