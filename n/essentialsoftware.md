@@ -5,6 +5,7 @@ excerpt:
   that I forgot something important.
 layout: mini
 permalink: /n/essentialsoftware.html
+redirect_from: /n/pipx.html
 sitemap: true
 lang: en
 robots: noai
@@ -23,6 +24,7 @@ _{{ page.excerpt }}_
 
 - [Security](#security)
 - [Usability](#usability)
+  - [pipx](#pipx)
 - [Essential system configuration](#essential-system-configuration)
   - [Debian console](#debian-console)
   - [Terminus on Fedora](#terminus-on-fedora)
@@ -113,6 +115,27 @@ _{{ page.excerpt }}_
   - Remember to check configs! Fedora: `/etc/zram.conf`
   - `sudo systemctl enable --now zramswap.service zram-swap.service`
 -->
+
+### pipx
+
+pipx automatically creates virtualenvs and is basically a package manager for
+apps written in Python. Here is a small list to remember in no particular order.
+
+- (`pipx install "git+https://github.com/fsfe/reuse-tool.git"`)
+  - Refer to [n/reuse](/n/reuse.html), development version. Package manager
+    version is generally good enough.
+- `pipx install "git+https://github.com/yt-dlp/yt-dlp.git"`
+  - Downloader for multiple online video services, development version.
+- `xkcdpass`
+  - `correct horse battery stable` needs no introduction, the possibilities are
+    nearly endless with `xkcdpas --help`. E.g.
+    - `xkcdpass --wordfile eff-long,fin-kotus --valid-chars '[a-z]' --delimiter ',' --case random`
+    - `UNLAWFUL,OPPIRAHAT,astonish,ruvettua,JOUTAVA,pultti`
+- (`pre-commit`)
+  - Synced pre-commit hooks for git, probably in all my repositories by now.
+    However I would install it from system package manager instead.
+
+Just remember to `pipx upgrade-all` occassionally!
 
 ## Essential system configuration
 
