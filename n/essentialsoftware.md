@@ -126,14 +126,17 @@ apps written in Python. Here is a small list to remember in no particular order.
     version is generally good enough.
 - `pipx install "git+https://github.com/yt-dlp/yt-dlp.git"`
   - Downloader for multiple online video services, development version.
-- `xkcdpass`
+- `pipx install xkcdpass`
   - `correct horse battery stable` needs no introduction, the possibilities are
     nearly endless with `xkcdpas --help`. E.g.
     - `xkcdpass --wordfile eff-long,fin-kotus --valid-chars '[a-z]' --delimiter ',' --case random`
     - `UNLAWFUL,OPPIRAHAT,astonish,ruvettua,JOUTAVA,pultti`
-- (`pre-commit`)
+- (`pipx install pre-commit`)
   - Synced pre-commit hooks for git, probably in all my repositories by now.
     However I would install it from system package manager instead.
+- `pipx install "git+https://github.com/aajanki/yle-dl"`
+  - Downloader for `{areena,arenan}.yle.fi`, Finnish public broadcaster web
+    portal.
 
 Just remember to `pipx upgrade-all` occassionally!
 
