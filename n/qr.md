@@ -98,10 +98,10 @@ Obviously don't include the dots and replace `wlan0` with your actual interface.
   - At least on iOS and SailfishOS.
 - [BinaryEye](https://github.com/markusfisch/BinaryEye) is my go-to app for QR
   codes and will tell you more than you might want to know about them.
-  [Google Play](https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye)
+  [Google Play](https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye),
   [F-Droid](https://f-droid.org/en/packages/de.markusfisch.android.binaryeye/)
-- [SecUSo: Privacy Friendly QR Code Scanner for Android ](https://github.com/SecUSo/privacy-friendly-qr-scanner)
-  [Google Play](https://play.google.com/store/apps/details?id=com.secuso.privacyFriendlyCodeScanner)
+- [SecUSo: Privacy Friendly QR Code Scanner for Android ](https://github.com/SecUSo/privacy-friendly-qr-scanner),
+  [Google Play](https://play.google.com/store/apps/details?id=com.secuso.privacyFriendlyCodeScanner),
   [F-Droid](https://f-droid.org/repository/browse/?fdid=com.secuso.privacyFriendlyCodeScanner)
 
 ### See also
