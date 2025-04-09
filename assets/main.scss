@@ -8,13 +8,13 @@
 // fonts to my eyes, so I won't bother commenting them here.'
 $serif-font-family:
   ui-serif, "Roboto Serif", "Noto Serif", Tinos, serif, "Noto Emoji",
-  "Noto Color Emoji", emoji;
+  "Noto Color Emoji", "Segoe UI Emoji", emoji;
 $sans-serif-font-family:
-  ui-sans-serif, "Roboto Flex", Roboto, "Noto Sans", Arimo, sans-serif,
-  "Noto Emoji", "Noto Color Emoji", emoji;
+  ui-sans-serif, "Roboto Flex", "Segoe UI Variable", Roboto, "Noto Sans", Arimo,
+  sans-serif, "Noto Emoji", "Noto Color Emoji", "Segoe UI Emoji", emoji;
 $monospace-font-family:
-  ui-monospace, "Roboto Mono", "Noto Mono", Cousine, monospace, "Noto Emoji",
-  "Noto Color Emoji", emoji;
+  ui-monospace, "Roboto Mono", "Segoe UI Mono", "Noto Mono", Cousine, monospace,
+  "Noto Emoji", "Noto Color Emoji", "Segoe UI Emoji", emoji;
 // Must be in the end under threat of undefined variable error.
 $base-font-family: $sans-serif-font-family;
 
