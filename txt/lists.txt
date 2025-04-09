@@ -1,4 +1,5 @@
 https://ads-for-open-source.readthedocs.io/en/latest/_static/lists/opensource-ads.txt
+https://badblock.celenity.dev/abp/ethical_whitelist.txt
 https://big.oisd.nl
 https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener-AffiliateTagAllowlist.txt
