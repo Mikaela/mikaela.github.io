@@ -73,6 +73,8 @@ including their parent directories if those don't exist already and
 `chmod -v a+rx` verbosely allows everyone to read and execute, which is required
 for listing directory contents.
 
+<!-- prettier-ignore-start -->
+
 ```bash
 # An example, without the -p there would be error about the parent directory
 # not existing
@@ -82,6 +84,8 @@ mkdir: created directory '/tmp/meow/meow'
 % chmod -v a+rx /tmp/meow
 mode of '/tmp/meow' retained as 0755 (rwxr-xr-x)
 ```
+
+<!-- prettier-ignore-end -->
 
 ---
 
