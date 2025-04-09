@@ -2,17 +2,17 @@
 	path = lfs-media
 	url = https://github.com/Mikaela/mikaela.github.io.git
 	branch = lfs-media
-	ignore = all
+	ignore= dirty
 	shallow = true
 [submodule "or"]
 	path = or
 	url = https://github.com/Mikaela/ormirror.git
 	branch = master
-	ignore = all
+	ignore= dirty
 	shallow = true
 [submodule "ir"]
 	path = ir
 	url = https://github.com/Mikaela/i2pmirror.git
 	branch = master
-	ignore = all
+	ignore= dirty
 	shallow = true
