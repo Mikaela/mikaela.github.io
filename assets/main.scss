@@ -14,8 +14,9 @@ $sans-serif-font-family:
   "Noto Sans", Arimo, sans-serif, "Noto Emoji", "Noto Color Emoji",
   "Segoe UI Emoji", emoji;
 $monospace-font-family:
-  ui-monospace, "Roboto Mono", "Segoe UI Mono", "Noto Mono", Cousine, monospace,
-  "Noto Emoji", "Noto Color Emoji", "Segoe UI Emoji", emoji;
+  "Comic Shanns Mono", ui-monospace, "Roboto Mono", "Segoe UI Mono",
+  "Noto Mono", Cousine, monospace, "Noto Emoji", "Noto Color Emoji",
+  "Segoe UI Emoji", emoji;
 // Must be in the end under threat of undefined variable error.
 $base-font-family: $sans-serif-font-family;
 
@@ -32,6 +33,11 @@ $base-font-family: $sans-serif-font-family;
     format("woff2");
   font-weight: normal;
   font-style: italic;
+}
+@font-face {
+  font-family: "Comic Shanns Mono";
+  src: url("https://raw.githubusercontent.com/jesusmgg/comic-shanns-mono/refs/heads/master/fonts/ComicShannsMono-Regular.otf")
+    format("opentype");
 }
 
 // CSS of used Jekyll theme
