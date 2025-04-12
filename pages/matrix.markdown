@@ -293,10 +293,21 @@ See also the
 
 ##### ElementX
 
+If you are on an ElementX version from at least April 2025, you will find the
+option to hiding media from _advanced settings_:
+
+1.  Open settings
+1.  Open _Advanced settings_
+1.  Scroll down to _Moderation and safety_
+1.  Select _Hide media previews in timeline_. You may also like to select _Hide
+    avatars in room invite requests_.
+
+Else you will find it from _developer settings_:
+
 1. Open settings
 1. Scroll down to the version number
 1. Tap the version number several times (7 for me)
-1. Open developer settings that are now visible
+1. Open _developer settings_ that are now visible
 1. Select the first option _Hide image & video previews_.
    1. Note that the same menu features a _Clear cache_ button on the bottom. It
       can help if you are stuck with spam invites from ignored user or otherwise
