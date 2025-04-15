@@ -58,7 +58,6 @@ https://github.com/mollyim/mollyim-insider-android
 https://github.com/Neamar/KISS
 https://github.com/nextcloud/android
 https://github.com/ooni/probe-android
-https://github.com/organicmaps/organicmaps
 https://github.com/OsmTravel/OsmGo
 https://github.com/pilot51/voicenotify
 https://github.com/polymorphicshade/Tubular

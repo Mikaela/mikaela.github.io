@@ -39,6 +39,7 @@ Android 12+.
 - [F-Droid repositories](#f-droid-repositories)
   - [Apps within 3rd party F-Droid repos](#apps-within-3rd-party-f-droid-repos)
 - [App Stores](#app-stores)
+- [Selfhosting forge](#selfhosting-forge)
 - [Other noteworthy apps:](#other-noteworthy-apps)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -102,6 +103,10 @@ _Always exercise caution when installing apps, even from Google Play Store!_
     other app stores and F-Droid repositories (see an earlier section on this
     page). But you should know that already considering this page is of no
     interest to anyone else than Obtainium users (and mainly only me).
+
+## Selfhosting forge
+
+- `https://git.omaps.dev/organicmaps/organicmaps` override source: Forgejo/Gitea
 
 ## Other noteworthy apps:
 
