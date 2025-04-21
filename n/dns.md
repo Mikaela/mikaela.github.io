@@ -139,8 +139,8 @@ and may help with decreasing your _digital carbon footprint_.
 
 I was also surprised to find speedy Google Play Store download in the middle of
 sea (Helsinki-Tallinn) when switching from non-ECS to ECS nameserver. I wonder
-if they had an [edge node](https://peering.google.com/#/) somewhere in clsoe
-proximity or if it was juat happenstance.
+if they had an [edge node](https://peering.google.com/#/) somewhere in close
+proximity or if it was just happenstance.
 
 _The above means GAFAM, if you don't use them in any form, there may not be a
 need for ECS._
