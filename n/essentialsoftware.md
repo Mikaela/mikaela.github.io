@@ -171,7 +171,7 @@ is on a Steam Deck, so gayming related things have suddenly became essential.
 ```bash
 # Considering everything is installed from there, it should exist
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.pulseaudio.pavucontrol org.torproject.torbrowser-launcher
+sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.pulseaudio.pavucontrol org.torproject.torbrowser-launcher org.videolan.VLC
 ```
 
 - Flatseal is a permission/override manager GUI, although one is integrated with
@@ -192,6 +192,8 @@ sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffe
 - pavucontrol is the volume manager and needs no introduction especially if one
   looks at it
 - Tor Browser just must exist everywhere just in case!
+- VLC is a world-famous media player supporting ~everything and the flathub
+  apparently bundles libdvdcss having the capacity to play DVDs.
 
 #### Pay attention
 
