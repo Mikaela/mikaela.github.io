@@ -48,6 +48,7 @@ _{{ page.excerpt }}_
 - [Remember!](#remember)
   - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
   - [Recovering selinux policy issues](#recovering-selinux-policy-issues)
+  - [Removing all flatpaks](#removing-all-flatpaks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -171,7 +172,7 @@ is on a Steam Deck, so gayming related things have suddenly became essential.
 ```bash
 # Considering everything is installed from there, it should exist
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.pulseaudio.pavucontrol org.torproject.torbrowser-launcher org.videolan.VLC
+sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.pulseaudio.pavucontrol org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
 ```
 
 - Flatseal is a permission/override manager GUI, although one is integrated with
@@ -192,6 +193,8 @@ sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffe
 - pavucontrol is the volume manager and needs no introduction especially if one
   looks at it
 - Tor Browser just must exist everywhere just in case!
+- Firefox is the last major non-Chromium web browser and while installed by
+  default, it may not survive `flatpak uninstall --all`.
 - VLC is a world-famous media player supporting ~everything and the flathub
   apparently bundles libdvdcss having the capacity to play DVDs.
 
@@ -416,3 +419,12 @@ it.
 - Boot with flags `enforcing=0 autorelabel` to temporarily have permissive mode
   and automatic fixing.
 - What actually worked was booting with `enforcing=0` and `sudo restorecon -R /`
+
+### Removing all flatpaks
+
+```bash
+sudo flatpak uninstall --all --assumeyes
+```
+
+Now that overwhelmingly sinking into them has been resolved, you can reinstall a
+lot of them and feel overwhelmed again!
