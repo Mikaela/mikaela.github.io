@@ -25,6 +25,10 @@ _{{ page.excerpt }}_
 - [Security](#security)
 - [Usability](#usability)
   - [pipx](#pipx)
+- [Fedora Atomic](#fedora-atomic)
+  - [Flatpaks](#flatpaks)
+    - [Pay attention](#pay-attention)
+    - [Other essential atomic/kinoite/flatpak/gayming reading](#other-essential-atomickinoiteflatpakgayming-reading)
 - [Essential system configuration](#essential-system-configuration)
   - [Debian console](#debian-console)
   - [Terminus on Fedora](#terminus-on-fedora)
@@ -137,8 +141,77 @@ apps written in Python. Here is a small list to remember in no particular order.
 - `pipx install "git+https://github.com/aajanki/yle-dl"`
   - Downloader for `{areena,arenan}.yle.fi`, Finnish public broadcaster web
     portal.
+- `pipx install "git+https://github.com/syncplay/syncplay.git"`
+  - Client (and server) for synchronising playback of a file. All parties need
+    the same file, but seeking, playing and pausing are synchronized. Mpv
+    recommended!
 
 Just remember to `pipx upgrade-all` occassionally!
+
+## Fedora Atomic
+
+_By which I mean Fedora Kinoite unless otherwise specified._ A system where
+everyone runs the same image, except that as this section shows, I alter it a
+bit...
+
+```bash
+# Alter base image by adding packages I need on the base system
+sudo rpm-ostree install btop clang darkman duperemove gamescope git-lfs gnome-console htop mosh mpv neovim pipx pre-commit sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor unbound zsh
+# Delete kernel boot arguments that would display boot splash screen and hide verbose kernel messages
+sudo rpm-ostree kargs --delete=rhgb --delete=quiet
+# Add kernel boot arguments for stricter lockdown mode and CPU vulnerability mitigation
+sudo rpm-ostree kargs --append=lockdown=confidentiality --append=mitigations=auto,nosmt
+```
+
+### Flatpaks
+
+These also affect non-Fedora-Kinoite. And my first Fedora Kinoite installation
+is on a Steam Deck, so gayming related things have suddenly became essential.
+
+```bash
+# Considering everything is installed from there, it should exist
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.pulseaudio.pavucontrol org.torproject.torbrowser-launcher
+```
+
+- Flatseal is a permission/override manager GUI, although one is integrated with
+  KDE Plasma systemsettings
+- Easyeffects features autogain, limiter, equalizer amongst other useful audio
+  features. I wasn't sure whether to include it here, but I do autostart it most
+  of the time...
+- HeroicGames supports GOG and Epic Games (and Amazon)
+- Steam needs no explanation
+- Proton GE is improved version of Proton, the WINE based compatibility layer
+  for playing Windows games and probably needs no introduction either
+- Shortwave is Radio Browser using Internet Radio app and woof approves having
+  it at paw
+- Spread the love of Fedora Kinoite by having Fedora Imagewriter!
+- ProtonUp allows downloading newer versions of Proton including Proton GE, in
+  flatpaks it's mainly useful for either SteamOS users or Heroic Games which
+  might actually have its integrated manager...
+- pavucontrol is the volume manager and needs no introduction especially if one
+  looks at it
+- Tor Browser just must exist everywhere just in case!
+
+#### Pay attention
+
+```bash
+sudo flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud//23.08 org.freedesktop.Platform.VulkanLayer.gamescope//23.08
+```
+
+MangoHud and gamescope can be used by Heroic Games or manually in Steam (see
+gayming README below), but they might require specific version or branch, so
+after the dualslash change the branch from `23.08` if they decide to update to
+require a newer version.
+
+#### Other essential atomic/kinoite/flatpak/gayming reading
+
+- [init-browser-profiles.bash](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/init-browser-policies.bash)
+  for setting up Firefox policies. It's shipped by default in Kinoite, otherwise
+  I would list it above.
+- [gayming/README.md](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/gayming/README.md)
+  for earlier or other notes that didn't fit here or I don't want to duplicate
+  then.
 
 ## Essential system configuration
 
