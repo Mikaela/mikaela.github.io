@@ -208,7 +208,7 @@ require a newer version.
 
 #### Other essential atomic/kinoite/flatpak/gayming reading
 
-- [init-browser-profiles.bash](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/init-browser-policies.bash)
+- [init-browser-policies.bash](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/init-browser-policies.bash)
   for setting up Firefox policies. It's shipped by default in Kinoite, otherwise
   I would list it above.
 - [gayming/README.md](https://gitea.blesmrt.net/mikaela/gist/src/branch/master/gayming/README.md)
