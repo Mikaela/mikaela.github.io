@@ -40,7 +40,7 @@ _{{ page.excerpt }}_
   - [sshd](#sshd)
   - [Encrypted DNS](#encrypted-dns)
   - [`/etc/xdg/autostart`](#etcxdgautostart)
-  - [`aminda-*.{service,socket]`](#aminda-servicesocket)
+  - [`aminda-*.{service,socket}`](#aminda-servicesocket)
 - [Remember!](#remember)
   - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
   - [Recovering selinux policy issues](#recovering-selinux-policy-issues)
@@ -304,7 +304,7 @@ Name=Tmux in Console
 Icon=org.gnome.Console
 ```
 
-### `aminda-*.{service,socket]`
+### `aminda-*.{service,socket}`
 
 They workaround either me or the distribution messing things up. While at it,
 don't forget `/etc/sysctl.d`
