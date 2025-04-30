@@ -28,7 +28,7 @@ _{{ page.excerpt }}_
 - [Fedora Atomic](#fedora-atomic)
   - [Flatpaks](#flatpaks)
     - [Pay attention](#pay-attention)
-    - [Other essential atomic/kinoite/flatpak/gayming reading](#other-essential-atomickinoiteflatpakgayming-reading)
+  - [Other essential atomic/kinoite/flatpak/gayming reading](#other-essential-atomickinoiteflatpakgayming-reading)
 - [Essential system configuration](#essential-system-configuration)
   - [Debian console](#debian-console)
   - [Terminus on Fedora](#terminus-on-fedora)
@@ -172,7 +172,12 @@ is on a Steam Deck, so gayming related things have suddenly became essential.
 ```bash
 # Considering everything is installed from there, it should exist
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.pulseaudio.pavucontrol org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
+# I need Nheko
+sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reborn/nheko/-/raw/master/nheko-nightly.flatpakrepo
+# Flathub installations
+sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave im.dino.Dino it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.briarproject.Briar org.libreoffice.LibreOffice org.libreoffice.LibreOffice.BundledExtension.Voikko org.pulseaudio.pavucontrol org.signal.Signal org.squidowl.halloy org.telegram.desktop org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC --assumeyes
+# Nheko nightly
+sudo flatpak install nheko-nightly im.nheko.Nheko//master --assumeyes
 ```
 
 - Flatseal is a permission/override manager GUI, although one is integrated with
@@ -181,22 +186,36 @@ sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffe
   features. I wasn't sure whether to include it here, but I do autostart it most
   of the time...
 - HeroicGames supports GOG and Epic Games (and Amazon)
+- NextCloud is selfhosted Google/Office/whatever suite and the desktop client is
+  kind of Dropbox.
+- Blanket gives nice sounds for e.g. focusing, white and nature noise inclued
 - Steam needs no explanation
 - Proton GE is improved version of Proton, the WINE based compatibility layer
   for playing Windows games and probably needs no introduction either
 - Shortwave is Radio Browser using Internet Radio app and woof approves having
   it at paw
+- Dino is a modern XMPP client
+- Gearlever makes appimages less annoying a bit
+- Syncthing-gtk is a GUI for syncthing providing desktop notifications without
+  browser.
 - Spread the love of Fedora Kinoite by having Fedora Imagewriter!
 - ProtonUp allows downloading newer versions of Proton including Proton GE, in
   flatpaks it's mainly useful for either SteamOS users or Heroic Games which
   might actually have its integrated manager...
+- Briar is a P2P messenger using Tor or LAN, no bluetooth on desktop yet?
+- LibreOffice is world-famous office suite and Voikko Finnish spellchecking
+  support
 - pavucontrol is the volume manager and needs no introduction especially if one
   looks at it
+- Signal is E2EE messenger
+- Halloy is a modern IRC client
+- Telegram is a common chat-app although not that secure
 - Tor Browser just must exist everywhere just in case!
 - Firefox is the last major non-Chromium web browser and while installed by
   default, it may not survive `flatpak uninstall --all`.
 - VLC is a world-famous media player supporting ~everything and the flathub
   apparently bundles libdvdcss having the capacity to play DVDs.
+- Nheko nightly is simply the best Matrix client
 
 #### Pay attention
 
@@ -209,7 +228,12 @@ gayming README below), but they might require specific version or branch, so
 after the dualslash change the branch from `23.08` if they decide to update to
 require a newer version.
 
-#### Other essential atomic/kinoite/flatpak/gayming reading
+```bash
+# May be huge, especially TeXlive
+sudo flatpak install flathub org.freedesktop.Sdk.Extension.texlive org.kde.kile
+```
+
+### Other essential atomic/kinoite/flatpak/gayming reading
 
 - [init-browser-policies.bash](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/init-browser-policies.bash)
   for setting up Firefox policies. It's shipped by default in Kinoite, otherwise
