@@ -175,7 +175,7 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 # I need Nheko
 sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reborn/nheko/-/raw/master/nheko-nightly.flatpakrepo
 # Flathub installations
-sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave im.dino.Dino it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.briarproject.Briar org.libreoffice.LibreOffice org.libreoffice.LibreOffice.BundledExtension.Voikko org.pulseaudio.pavucontrol org.signal.Signal org.squidowl.halloy org.telegram.desktop org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC --assumeyes
+sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave im.dino.Dino it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.briarproject.Briar org.libreoffice.LibreOffice org.libreoffice.LibreOffice.BundledExtension.Voikko org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.signal.Signal org.squidowl.halloy org.telegram.desktop org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC --assumeyes
 # Nheko nightly
 sudo flatpak install nheko-nightly im.nheko.Nheko//master --assumeyes
 ```
@@ -207,6 +207,10 @@ sudo flatpak install nheko-nightly im.nheko.Nheko//master --assumeyes
   support
 - pavucontrol is the volume manager and needs no introduction especially if one
   looks at it
+- qBittorrent just is the best way to download Linux images since the Fedora
+  Media Writer doesn't use P2P and may be a burden for servers, while it does
+  have the capacity to write any image and also restore the USB stick
+  afterwards.
 - Signal is E2EE messenger
 - Halloy is a modern IRC client
 - Telegram is a common chat-app although not that secure
