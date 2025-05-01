@@ -187,9 +187,11 @@ sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reb
 
 ```bash
 sudo flatpak install --assumeyes nheko-nightly im.nheko.Nheko//master
-sudo flatpak install --assumeyes im.dino.Dino org.briarproject.Briar org.signal.Signal org.squidowl.halloy org.telegram.desktop
+sudo flatpak install --assumeyes com.discordapp.Discord im.dino.Dino org.briarproject.Briar org.signal.Signal org.squidowl.halloy org.telegram.desktop
 ```
 
+- Discord is a Slack competitor and somehow challenging Facebook in necessary
+  evil to be in to hear of events. Electron app.
 - Dino is a modern XMPP client
 - Briar is a P2P messenger using Tor or LAN, no bluetooth on desktop yet?
 - Signal is E2EE messenger
