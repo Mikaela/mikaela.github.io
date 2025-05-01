@@ -27,7 +27,10 @@ _{{ page.excerpt }}_
   - [pipx](#pipx)
 - [Fedora Atomic](#fedora-atomic)
   - [Flatpaks](#flatpaks)
-    - [Pay attention](#pay-attention)
+    - [Communication](#communication)
+    - [Gayming](#gayming)
+    - [General purpose](#general-purpose)
+    - [Office](#office)
   - [Other essential atomic/kinoite/flatpak/gayming reading](#other-essential-atomickinoiteflatpakgayming-reading)
 - [Essential system configuration](#essential-system-configuration)
   - [Debian console](#debian-console)
@@ -166,18 +169,58 @@ sudo rpm-ostree kargs --append=lockdown=confidentiality --append=mitigations=aut
 
 ### Flatpaks
 
-These also affect non-Fedora-Kinoite. And my first Fedora Kinoite installation
-is on a Steam Deck, so gayming related things have suddenly became essential.
+These also affect non-Fedora-Kinoite for which my first production installation
+was on Steam Deck and upon learning of `flatpak uninstall --all`, this section
+got out of paw so it got cut a bit.
+
+Always remember that you **_don't paste commands to terminal directly, use a
+text editor in the middle instead!_**
 
 ```bash
 # Considering everything is installed from there, it should exist
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 # I need Nheko
 sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reborn/nheko/-/raw/master/nheko-nightly.flatpakrepo
-# Flathub installations
-sudo flatpak install flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.heroicgameslauncher.hgl com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE de.haeckerfelix.Shortwave im.dino.Dino it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter net.davidotek.pupgui2 org.briarproject.Briar org.libreoffice.LibreOffice org.libreoffice.LibreOffice.BundledExtension.Voikko org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.signal.Signal org.squidowl.halloy org.telegram.desktop org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC --assumeyes
-# Nheko nightly
-sudo flatpak install nheko-nightly im.nheko.Nheko//master --assumeyes
+```
+
+#### Communication
+
+```bash
+sudo flatpak install --assumeyes nheko-nightly im.nheko.Nheko//master
+sudo flatpak install --assumeyes im.dino.Dino org.briarproject.Briar org.signal.Signal org.squidowl.halloy org.telegram.desktop
+```
+
+- Dino is a modern XMPP client
+- Briar is a P2P messenger using Tor or LAN, no bluetooth on desktop yet?
+- Signal is E2EE messenger
+- Halloy is a modern IRC client
+- Telegram is a common chat-app although not that secure
+- Nheko nightly is simply the best Matrix client
+
+#### Gayming
+
+```bash
+sudo flatpak install --assumeyes flathub com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE net.davidotek.pupgui2
+# Note branch numbers for Heroic Games!
+sudo flatpak install --assumeyes org.freedesktop.Platform.VulkanLayer.MangoHud//23.08 org.freedesktop.Platform.VulkanLayer.gamescope//23.08
+```
+
+- HeroicGames supports GOG and Epic Games (and Amazon)
+- Steam needs no explanation
+- Proton GE is improved version of Proton, the WINE based compatibility layer
+  for playing Windows games and probably needs no introduction either
+- ProtonUp allows downloading newer versions of Proton including Proton GE, in
+  flatpaks it's mainly useful for either SteamOS users or Heroic Games which
+  might actually have its integrated manager...
+- MangoHud and gamescope can be used by Heroic Games or manually in Steam (see
+  gayming README below), but they might require specific version or branch, so
+  after the dualslash change the branch from `23.08` if they decide to update to
+  require a newer version.
+
+#### General purpose
+
+```bash
+sudo flatpak install --assumeyes flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
 ```
 
 - Flatseal is a permission/override manager GUI, although one is integrated with
@@ -185,57 +228,37 @@ sudo flatpak install nheko-nightly im.nheko.Nheko//master --assumeyes
 - Easyeffects features autogain, limiter, equalizer amongst other useful audio
   features. I wasn't sure whether to include it here, but I do autostart it most
   of the time...
-- HeroicGames supports GOG and Epic Games (and Amazon)
 - NextCloud is selfhosted Google/Office/whatever suite and the desktop client is
   kind of Dropbox.
 - Blanket gives nice sounds for e.g. focusing, white and nature noise inclued
-- Steam needs no explanation
-- Proton GE is improved version of Proton, the WINE based compatibility layer
-  for playing Windows games and probably needs no introduction either
 - Shortwave is Radio Browser using Internet Radio app and woof approves having
   it at paw
-- Dino is a modern XMPP client
 - Gearlever makes appimages less annoying a bit
 - Syncthing-gtk is a GUI for syncthing providing desktop notifications without
   browser.
 - Spread the love of Fedora Kinoite by having Fedora Imagewriter!
-- ProtonUp allows downloading newer versions of Proton including Proton GE, in
-  flatpaks it's mainly useful for either SteamOS users or Heroic Games which
-  might actually have its integrated manager...
-- Briar is a P2P messenger using Tor or LAN, no bluetooth on desktop yet?
-- LibreOffice is world-famous office suite and Voikko Finnish spellchecking
-  support
 - pavucontrol is the volume manager and needs no introduction especially if one
   looks at it
 - qBittorrent just is the best way to download Linux images since the Fedora
   Media Writer doesn't use P2P and may be a burden for servers, while it does
   have the capacity to write any image and also restore the USB stick
   afterwards.
-- Signal is E2EE messenger
-- Halloy is a modern IRC client
-- Telegram is a common chat-app although not that secure
 - Tor Browser just must exist everywhere just in case!
 - Firefox is the last major non-Chromium web browser and while installed by
   default, it may not survive `flatpak uninstall --all`.
 - VLC is a world-famous media player supporting ~everything and the flathub
   apparently bundles libdvdcss having the capacity to play DVDs.
-- Nheko nightly is simply the best Matrix client
 
-#### Pay attention
-
-```bash
-sudo flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud//23.08 org.freedesktop.Platform.VulkanLayer.gamescope//23.08
-```
-
-MangoHud and gamescope can be used by Heroic Games or manually in Steam (see
-gayming README below), but they might require specific version or branch, so
-after the dualslash change the branch from `23.08` if they decide to update to
-require a newer version.
+#### Office
 
 ```bash
+sudo flatpak install --assumeyes flathub org.libreoffice.LibreOffice org.libreoffice.LibreOffice.BundledExtension.Voikko
 # May be huge, especially TeXlive
-sudo flatpak install flathub org.freedesktop.Sdk.Extension.texlive org.kde.kile
+sudo flatpak install --assumeyes flathub org.freedesktop.Sdk.Extension.texlive org.kde.kile
 ```
+
+- LibreOffice is world-famous office suite
+- Voikko is Finnish spellchecking support for it
 
 ### Other essential atomic/kinoite/flatpak/gayming reading
 
