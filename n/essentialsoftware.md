@@ -222,9 +222,10 @@ sudo flatpak install --assumeyes org.freedesktop.Platform.VulkanLayer.MangoHud//
 #### General purpose
 
 ```bash
-sudo flatpak install --assumeyes flathub com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
+sudo flatpak install --assumeyes flathub com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
 ```
 
+- Dropbox is a file synchronization app using the cloud :(
 - Flatseal is a permission/override manager GUI, although one is integrated with
   KDE Plasma systemsettings
 - Easyeffects features autogain, limiter, equalizer amongst other useful audio
