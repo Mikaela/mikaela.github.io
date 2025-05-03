@@ -16,12 +16,13 @@ robots: noai
 
 _{{ page.excerpt }}_
 
-First step is opening `systemsettings`, scrolling down to `Apps & Windows` where
-there is `Window Management` which opens a sidebar with `Window Rules`.
+First step is opening `LC_ALL=C.UTF-8 systemsettings`, scrolling down to
+`Apps & Windows` where there is `Window Management` which opens a sidebar with
+`Window Rules`.
 
-Alternatively one can just second click any titlebar, choose ore
-actions`and select either`Window specific special settings`or`App specific
-special settings` (backtranslated from Finnish).
+Alternatively one can just second click any titlebar, choose more actions and
+select either `Window specific special settings` or
+`App specific special settings` (backtranslated from Finnish).
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
@@ -53,15 +54,12 @@ from `systemsettings` would work too.
 - Windows class (application): `Exact match`: `gamescope`
 - Match whole window class: `Yes`
 - Window types: `All selected`
-- Size & Position: Add Property
-  - Initial placement: `Force` `Maximized`
-    - _Originally I went just with this, but then I realized that I can fix
-      gamescope ignoring `--fullscreen` flag with the next property:_
-  - `Fullscreen`: `Apply initially`
-
-**_TODO_**: The _Add Property_ sections above are wrong since they were
-automatically filled for me and thus I wrote them wrong, while it's easy to
-figure out what I mean.
+- _Add Property_, _Size & Position_:
+- Initial placement: `Force` `Maximized`
+  - _Originally I went just with this, but then I realized that I can fix
+    gamescope ignoring `--fullscreen` flag with the next property:_
+- _Add Property_, _Size & Position_:
+- `Fullscreen`: `Apply initially` `Yes`
 
 ## All apps
 
@@ -72,12 +70,8 @@ not maximize everything by another rule?
 - Windows class (application): `Unimportant`: ``
 - Match whole window class: `Yes`
 - Window types: `Normal window`
-- Size & Position: Add Property
-  - Initial placement: `Force` `Maximized`
-
-**_TODO_**: The _Add Property_ sections above are wrong since they were
-automatically filled for me and thus I wrote them wrong, while it's easy to
-figure out what I mean.
+- _Add Property,_ _Size & Position_
+- Initial placement: `Force` `Maximized`
 
 And there is one papercut less on enjoying Fedora Kinoite on Steam Deck. I think
 this would also work with SteamOS, but that launches to game mode aka big
