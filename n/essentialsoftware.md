@@ -117,6 +117,7 @@ _{{ page.excerpt }}_
   - Debian: `sudo apt install systemd-zram-generator`
   - To check that it works `zramctl`. May take a while after
     `sudo systemctl reload` or a reboot.
+- `inxi` - system information script (and dependencies)
 
 <!--
 - `zram-tools` - small compressed swap in RAM
@@ -155,17 +156,30 @@ Just remember to `pipx upgrade-all` occassionally!
 ## Fedora Atomic
 
 _By which I mean Fedora Kinoite unless otherwise specified._ A system where
-everyone runs the same image, except that as this section shows, I alter it a
+everyone runs the same image, except that as this section shows, I add to it a
 bit...
 
 ```bash
-# Alter base image by adding packages I need on the base system
-sudo rpm-ostree install btop clang darkman duperemove gamescope git-lfs gnome-console htop mosh mpv neovim pipx pre-commit sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor unbound zsh
-# Delete kernel boot arguments that would display boot splash screen and hide verbose kernel messages
-sudo rpm-ostree kargs --delete=rhgb --delete=quiet
-# Add kernel boot arguments for stricter lockdown mode and CPU vulnerability mitigation
-sudo rpm-ostree kargs --append=lockdown=confidentiality --append=mitigations=auto,nosmt
+# Layer packages I need on top of the base image.
+sudo rpm-ostree install btop clang darkman duperemove gamescope git-lfs gnome-console htop inxi mosh mpv neovim pipx pre-commit sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor unbound zsh
+# Disable bootscreen, ensure CPU vulnerability mitigation, enable lockdown
+# mode. REMEMBER! lockdown is incompatible with unsigned additional
+# kernel modules
+sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append=mitigations=auto,nosmt --append=lockdown=confidentiality
 ```
+
+Consider also adding
+[RPMFusion through their OSTree instructions](https://rpmfusion.org/Howto/OSTree).
+The _Major releases_ uninstalling and installing is especially important so it
+switches from local package to layered package, which also affects all other
+third party repositories such as `google-chrome-stable` if it was added. While
+there is repository breakage risk stopping system upgrades, at least it will
+upgrade itself as opposed to errorring about being a local not upgraded package
+in the future.
+
+Why RPMFusion? At least `Broadcom BCM43142` wireless NIC requires
+`sudo rpm-ostree install akmod-wl kernel-devel` from `rpmfusion-nonfree` and
+there are likely other such devices/drivers as well.
 
 ### Flatpaks
 
