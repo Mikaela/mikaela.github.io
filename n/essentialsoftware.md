@@ -162,10 +162,11 @@ bit...
 ```bash
 # Layer packages I need on top of the base image.
 sudo rpm-ostree install android-tools btop clang darkman duperemove gamescope git-lfs gnome-console htop inxi mosh mpv neovim pipx pre-commit sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor unbound zsh
-# Disable bootscreen, ensure CPU vulnerability mitigation, enable lockdown
-# mode. REMEMBER! lockdown is incompatible with unsigned additional
-# kernel modules
-sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append=mitigations=auto,nosmt --append=lockdown=confidentiality
+# Disable bootscreen, ensure CPU vulnerability mitigation.
+sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append=mitigations=auto,nosmt
+# I would additionally use lockdown=confidentiality (or lockdown=integrity if
+# less privacy and security was required, but that prevents shipped osnoise
+# module from working.
 ```
 
 Consider also adding
