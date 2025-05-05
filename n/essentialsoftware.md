@@ -160,8 +160,10 @@ everyone runs the same image, except that as this section shows, I add to it a
 bit...
 
 ```bash
+# Ensure third party Fedora repos are available, this is part of KDE Prompt?
+sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools btop clang darkman duperemove gamescope git-lfs gnome-console htop inxi mosh mpv neovim pipx pre-commit sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor unbound zsh
+sudo rpm-ostree install aircrack-ng android-tools btop clang darkman duperemove gamescope git-lfs gnome-console htop inxi mosh mpv neovim nmap pipx pre-commit sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 # Disable bootscreen, ensure CPU vulnerability mitigation.
 sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append=mitigations=auto,nosmt
 # I would additionally use lockdown=confidentiality (or lockdown=integrity if
