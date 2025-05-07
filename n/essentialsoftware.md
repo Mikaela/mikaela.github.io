@@ -239,7 +239,7 @@ sudo flatpak install --assumeyes org.freedesktop.Platform.VulkanLayer.MangoHud//
 #### General purpose
 
 ```bash
-sudo flatpak install --assumeyes flathub com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
+sudo flatpak install --assumeyes flathub com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.kde.kate org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
 ```
 
 - Dropbox is a file synchronization app using the cloud :(
@@ -257,6 +257,10 @@ sudo flatpak install --assumeyes flathub com.dropbox.Client com.github.tchx84.Fl
 - Syncthing-gtk is a GUI for syncthing providing desktop notifications without
   browser.
 - Spread the love of Fedora Kinoite by having Fedora Imagewriter!
+- Kate is my go-to text editor when I want a GUI (otherwise it's the rpm-ostree
+  nvim) and if the flatpak didn't exist (and if I wouldn't likely be using nvim
+  where flatpaks have no power), I would make it yet another rpm-ostree
+  install...
 - pavucontrol is the volume manager and needs no introduction especially if one
   looks at it
 - qBittorrent just is the best way to download Linux images since the Fedora
