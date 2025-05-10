@@ -168,8 +168,9 @@ bit...
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
 sudo rpm-ostree install aircrack-ng android-tools btop clang darkman duperemove gamescope git-lfs gnome-console htop inxi mosh mpv neovim nmap pipx pre-commit setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
-# Disable bootscreen, ensure CPU vulnerability mitigation.
-sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append=mitigations=auto,nosmt
+# Disable bootscreen, enable btrfs compression etc. REMEMBER TO REMOVE SSD FOR NON-SSD setups! Ensure CPU vulnerability mitigation.
+sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=root --append=rootflags=subvol=root,noatime,compress-force=zstd:0,ssd --append=mitigations=auto,nosmt
+# Another reminder to not use flag SSD above if there is no SSD on the system.
 # I would additionally use lockdown=confidentiality (or lockdown=integrity if
 # less privacy and security was required, but that prevents shipped osnoise
 # module from working.
