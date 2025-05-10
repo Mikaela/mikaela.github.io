@@ -68,6 +68,10 @@ _{{ page.excerpt }}_
     and before `initrd /initramfs-linux-lts.img`...
 - `ufw` for Deb-based or `firewalld` on Fedora (and Kali and Arch Linux, if you
   so choose in the last)
+- `setroubleshoot` on distributions using it gives graphical notifications when
+  SELinux has a security warning and thus hints that it might be a good idea to
+  take a look at journalctl to see whether it's something that requires action
+  either incorrect rule or actually nefarious activity.
 - `sshguard` for mitigating shared systems where others refuse to use keys
 - `needrestart` for knowing when updates actually require services to be
   restarted or a kernel upgrade happens and requires reboot
@@ -163,7 +167,7 @@ bit...
 # Ensure third party Fedora repos are available, this is part of KDE Prompt?
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install aircrack-ng android-tools btop clang darkman duperemove gamescope git-lfs gnome-console htop inxi mosh mpv neovim nmap pipx pre-commit sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
+sudo rpm-ostree install aircrack-ng android-tools btop clang darkman duperemove gamescope git-lfs gnome-console htop inxi mosh mpv neovim nmap pipx pre-commit setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 # Disable bootscreen, ensure CPU vulnerability mitigation.
 sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append=mitigations=auto,nosmt
 # I would additionally use lockdown=confidentiality (or lockdown=integrity if
