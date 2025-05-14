@@ -167,7 +167,7 @@ bit...
 # Ensure third party Fedora repos are available, this is part of KDE Prompt?
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install aircrack-ng android-tools btop clang darkman duperemove gamescope git-lfs gnome-console htop inxi mosh mpv neovim nmap pipx pre-commit setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
+sudo rpm-ostree install aircrack-ng android-tools btop clang darkman duperemove gamescope git-lfs gnome-console htop inxi iwd mosh mpv neovim nmap pipx pre-commit setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 # Disable bootscreen, enable btrfs compression etc. REMEMBER TO REMOVE SSD FOR NON-SSD setups! Ensure CPU vulnerability mitigation.
 sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=root --append=rootflags=subvol=root,noatime,compress-force=zstd:0,ssd --append=mitigations=auto,nosmt
 # Another reminder to not use flag SSD above if there is no SSD on the system.
