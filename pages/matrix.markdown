@@ -340,7 +340,7 @@ this, consult
 
 <del>Assuming you are on nightly build,</del> there are three steps:
 
-1. In global settings of Nheko, enable _Periodically disable expired events_, it
+1. In global settings of Nheko, enable _Periodically delete expired events_, it
    will affect all profiles upon restart.
 2. In the room where you wish to automatically remove your messages, go to room
    settings and select _Configure_ next to _Automatic event deletion_. There you
