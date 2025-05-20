@@ -9,9 +9,10 @@ lang: fi
 <div lang="fi">Käytettyjä enimmäkseen yrityskoneita suomalaisilta tai suomenkielisiltä
 yrityksiltä:
 
-https://cimos.fi/ https://taitonetti.fi/ https://www.inrego.fi/
+[cimos.fi](https://cimos.fi/) [inrego.fi](https://www.inrego.fi/)
+[nuvoo.com](https://nuvoo.com/)
 
-Katso myös /n/puhelin
+Katso myös [/n/puhelin](/n/puhelin)
 
 </div>
 
@@ -20,8 +21,8 @@ Katso myös /n/puhelin
 International used devices (the goal of this note is business devices, but I am
 unsure whether all here are):
 
-Hungary: https://www.marseus.com/
+Hungary: [marseus.com](https://www.marseus.com/)
 
-Czech Republic in Czech https://www.gigacomputer.cz/
+Czech Republic in Czech [gigacomputer.cz](https://www.gigacomputer.cz/)
 
 </div>
