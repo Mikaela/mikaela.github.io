@@ -99,7 +99,11 @@ _{{ page.excerpt }}_
 - `nvim git tmux zsh mosh` - good luck without these
 - <del>if cryptographic operations are taking ages, consider something like
   `haveged`. It's controversial, so if there are no issues, don't install a
-  random number generator.</del>
+  random number generator.</del> Should be unnecessary since kernel 5.6, but
+  **_Debian 13 sddm regardless wants it._**
+  - If you install `haveged`, please also `sudo systemctl enable --now rngd`
+    from `rng-tools` (Fedora, Arch?) or `rng-tools5` (Debian) together to ensure
+    quality, but those shouldn't be required on 5.6 and later either.
 - userspace oom killer, may avoid frozen systems, much more pleasant than
   actually having to deal with a frozen system.
   - `earlyoom`
