@@ -215,7 +215,7 @@ sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reb
 
 ```bash
 sudo flatpak install --assumeyes nheko-nightly im.nheko.Nheko//master
-sudo flatpak install --assumeyes com.discordapp.Discord im.dino.Dino org.briarproject.Briar org.signal.Signal org.squidowl.halloy org.telegram.desktop
+sudo flatpak install --assumeyes flathub com.discordapp.Discord im.dino.Dino org.briarproject.Briar org.signal.Signal org.squidowl.halloy org.telegram.desktop
 ```
 
 - Discord is a Slack competitor and somehow challenging Facebook in necessary
@@ -232,7 +232,7 @@ sudo flatpak install --assumeyes com.discordapp.Discord im.dino.Dino org.briarpr
 ```bash
 sudo flatpak install --assumeyes flathub com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE net.davidotek.pupgui2
 # Note branch numbers for Heroic Games!
-sudo flatpak install --assumeyes org.freedesktop.Platform.VulkanLayer.MangoHud//23.08 org.freedesktop.Platform.VulkanLayer.gamescope//23.08
+sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.MangoHud//23.08 org.freedesktop.Platform.VulkanLayer.gamescope//23.08
 ```
 
 - HeroicGames supports GOG and Epic Games (and Amazon)
