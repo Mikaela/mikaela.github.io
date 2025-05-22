@@ -6,6 +6,8 @@ excerpt:
   abuse those for something else without even thinking about backdoors?
 layout: mini
 permalink: /n/annoying-ports.html
+redirect_from:
+  - /r/annoyingports.html
 sitemap: true
 lang: en
 ---
