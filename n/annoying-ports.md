@@ -7,7 +7,7 @@ excerpt:
 layout: mini
 permalink: /n/annoying-ports.html
 redirect_from:
-  - /r/annoyingports.html
+  - /n/annoyingports.html
 sitemap: true
 lang: en
 ---
