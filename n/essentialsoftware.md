@@ -171,7 +171,7 @@ bit...
 # Ensure third party Fedora repos are available, this is part of KDE Prompt?
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install aircrack-ng android-tools btop clang darkman duperemove gamescope git-lfs gnome-console haveged htop inxi iucode-tool iwd mosh mpv neovim nmap npm pipx pre-commit qrencode rng-tools rubygem-bundler setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
+sudo rpm-ostree install aircrack-ng android-tools btop clang cronie cronie-anacron darkman duperemove gamescope git-lfs gnome-console haveged htop inxi iucode-tool iwd mosh mpv neovim nmap npm pipx pre-commit qrencode rng-tools rubygem-bundler setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 # Disable bootsplash and kernel message hiding, adjust rootfs fstab,
 # REMEMBER TO REMOVE SSD FOR NON-SSD setups! Legacy interface names (eth0,
 # wlan0) are also nice. Ensure CPU vulnerability mitigation while at kargs too.
