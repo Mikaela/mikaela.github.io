@@ -30,6 +30,7 @@ _{{ page.excerpt }}_
   - [Flatpaks](#flatpaks)
     - [Communication](#communication)
     - [Gayming](#gayming)
+      - [Flatpakked Steam for the flatpak-unaware](#flatpakked-steam-for-the-flatpak-unaware)
     - [General purpose](#general-purpose)
     - [Office](#office)
   - [Other essential atomic/kinoite/flatpak/gayming reading](#other-essential-atomickinoiteflatpakgayming-reading)
@@ -254,6 +255,16 @@ sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.Ma
   gayming README below), but they might require specific version or branch, so
   after the dualslash change the branch from `23.08` if they decide to update to
   require a newer version.
+
+##### Flatpakked Steam for the flatpak-unaware
+
+Looking at you, handhelddaemon, 2025-05-2025.
+
+```
+mkdir -vp $HOME/.local/share/
+ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam $HOME/.local/share/Steam
+ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.steam $HOME/.steam
+```
 
 #### General purpose
 
