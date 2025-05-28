@@ -26,6 +26,7 @@ _{{ page.excerpt }}_
 - [Usability](#usability)
   - [pipx](#pipx)
 - [Fedora Atomic](#fedora-atomic)
+  - [Additional rpm-ostree install](#additional-rpm-ostree-install)
   - [Flatpaks](#flatpaks)
     - [Communication](#communication)
     - [Gayming](#gayming)
@@ -191,9 +192,16 @@ there is repository breakage risk stopping system upgrades, at least it will
 upgrade itself as opposed to errorring about being a local not upgraded package
 in the future.
 
-Why RPMFusion? At least `Broadcom BCM43142` wireless NIC requires
-`sudo rpm-ostree install akmod-wl kernel-devel` from `rpmfusion-nonfree` and
-there are likely other such devices/drivers as well.
+### Additional rpm-ostree install
+
+- In general `neilalexander`'s yggdrasil copr makes life easier with
+  `sudo rpm-ostree install yggdrasil`
+- For Broadcom WiFi with `rpmfusion-nonfree` enabled:
+  `sudo rpm-ostree install akmod-wl kernel-devel`
+- For NVIDIA propietary drivers with `sudo fedora-third-party enable`:
+  `sudo rpm-ostree install akmod-nvidia`
+- For Steam Deck and other handhelds with their copr:
+  `sudo rpm-ostree install hhd adjustor hhd-ui`
 
 ### Flatpaks
 
