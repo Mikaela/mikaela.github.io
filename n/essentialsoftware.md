@@ -241,7 +241,7 @@ sudo flatpak install --assumeyes flathub com.discordapp.Discord im.dino.Dino org
 ```bash
 sudo flatpak install --assumeyes flathub com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE net.davidotek.pupgui2
 # Note branch numbers for Heroic Games!
-sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.MangoHud//23.08 org.freedesktop.Platform.VulkanLayer.gamescope//23.08
+sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.MangoHud//24.08 org.freedesktop.Platform.VulkanLayer.gamescope//24.08
 ```
 
 - HeroicGames supports GOG and Epic Games (and Amazon)
@@ -253,7 +253,7 @@ sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.Ma
   might actually have its integrated manager...
 - MangoHud and gamescope can be used by Heroic Games or manually in Steam (see
   gayming README below), but they might require specific version or branch, so
-  after the dualslash change the branch from `23.08` if they decide to update to
+  after the dualslash change the branch from `24.08` if they decide to update to
   require a newer version.
 
 ##### Flatpakked Steam for the flatpak-unaware
