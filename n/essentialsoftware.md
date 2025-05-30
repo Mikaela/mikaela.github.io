@@ -201,6 +201,10 @@ in the future.
   `sudo rpm-ostree install akmod-wl kernel-devel`
 - For NVIDIA propietary drivers with `sudo fedora-third-party enable`:
   `sudo rpm-ostree install akmod-nvidia`
+  - This also requires
+    `sudo rpm-ostree kargs --append=rd.driver.blacklist=nouveau --append=modprobe.blacklist=nouveau --append=nvidia-drm.modeset=1`
+    and suggests keeping an eye on the source page
+    [rpmfusion howto nvidia#ostree](https://rpmfusion.org/Howto/NVIDIA#OSTree_.28Silverblue.2FKinoite.2Fetc.29)
 - For Steam Deck and other handhelds with their copr:
   `sudo rpm-ostree install hhd adjustor hhd-ui`
 
