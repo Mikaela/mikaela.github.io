@@ -54,6 +54,8 @@ _{{ page.excerpt }}_
   - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
   - [Recovering selinux policy issues](#recovering-selinux-policy-issues)
   - [Removing all flatpaks](#removing-all-flatpaks)
+  - [rsync](#rsync)
+  - [VeraCrypt](#veracrypt)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -541,3 +543,34 @@ sudo flatpak uninstall --all --assumeyes
 
 Now that overwhelmingly sinking into them has been resolved, you can reinstall a
 lot of them and feel overwhelmed again!
+
+### rsync
+
+You want to use `rsync` instead of `cp` when taking a final copy of a system
+before reinstall?
+
+```bash
+# Abbreviatable as -aP?
+rsync --progress --archive <source> <destination>
+```
+
+### VeraCrypt
+
+In the beginning of 2025-06 VeraCrypt decided to not be my friend. The trick was
+downloading appimage
+[from their download page](https://veracrypt.io/en/Downloads.html), ensuring it
+was signed with a key I trusted and had previously signed,
+`5069 A233 D55A 0EEB 174A  5FC3 821A CD02 680D 16DE` and **_this is not how you
+use VeraCrypt, Linux or sudo!_**
+
+```bash
+gpg --verify VeraCrypt-1.26.24-x86_64.AppImage.sig
+mkdir VeraCrypt-1.26.24-x86_64.AppImage.config
+# NO, WRONG!
+sudo ./VeraCrypt-1.26.24-x86_64.AppImage
+```
+
+but the layered VeraCrypt package kept trying to run `/usr/sbin/true` constantly
+asking for password since `Defaults timestamp_timeout=0` and even removing that
+didn't help and theoretically this will only cause permissions issue for that
+single portable appimage configuration directory created before...
