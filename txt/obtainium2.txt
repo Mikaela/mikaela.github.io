@@ -1,4 +1,3 @@
-
 https://github.com/accrescent/accrescent
 https://github.com/aistra0528/Hail
 https://github.com/ankitstarski/GeoclueShare
@@ -39,6 +38,7 @@ https://github.com/HabitRPG/habitica-android
 https://github.com/iamr0s/Dhizuku
 https://github.com/IllusionMan1212/lyrics-grabbr
 https://github.com/ImranR98/Obtainium
+https://github.com/JunkFood02/Seal
 https://github.com/JunkieLabs/sensify-android
 https://github.com/karasevm/PrivateDNSAndroid
 https://github.com/kawaiiDango/pano-scrobbler
