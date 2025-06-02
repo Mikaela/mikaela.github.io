@@ -1,4 +1,5 @@
 https://codeberg.org/Berker/keyoxide-flutter
+https://codeberg.org/comaps/comaps
 https://f-droid.org/packages/com.apps.adrcotfas.goodtime
 https://f-droid.org/packages/com.darshancomputing.BatteryIndicatorPro
 https://f-droid.org/packages/com.jarsilio.android.autoautorotate
