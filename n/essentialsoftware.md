@@ -176,6 +176,9 @@ bit...
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
 sudo rpm-ostree install aircrack-ng android-tools btop clang cronie cronie-anacron darkman duperemove gamescope git-lfs gnome-console haveged htop inxi iucode-tool iwd kate mosh mpv neovim nmap npm pipx pre-commit qrencode rng-tools rubygem-bundler setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
+# Remove packages I don't need from the base image. (Challenge to remove
+# nothing failed by using rpmfusion codecs anyway)
+sudo rpm-ostree override remove firefox firefox-langpacks
 # Disable bootsplash and kernel message hiding, adjust rootfs fstab,
 # REMEMBER TO REMOVE SSD FOR NON-SSD setups! Legacy interface names (eth0,
 # wlan0) are also nice. Ensure CPU vulnerability mitigation while at kargs too.
@@ -188,12 +191,16 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
 
 Consider also adding
 [RPMFusion through their OSTree instructions](https://rpmfusion.org/Howto/OSTree).
-The _Major releases_ uninstalling and installing is especially important so it
-switches from local package to layered package, which also affects all other
-third party repositories such as `google-chrome-stable` if it was added. While
-there is repository breakage risk stopping system upgrades, at least it will
-upgrade itself as opposed to errorring about being a local not upgraded package
-in the future.
+
+- The _Major releases_ uninstalling and installing is especially important so it
+  switches from local package to layered package, which also affects all other
+  third party repositories such as `google-chrome-stable` if it was added. While
+  there is repository breakage risk stopping system upgrades, at least it will
+  upgrade itself as opposed to errorring about being a local not upgraded
+  package in the future.
+- You need it when using either Broadcom WiFi or
+  `Failed to initialize a decoder for codec 'hevc'.` from `mpv` which gets
+  resolved by following the instructions for your hardware or software codecs.
 
 ### Additional rpm-ostree install
 
