@@ -210,7 +210,7 @@ Consider also adding
 - For Broadcom WiFi with `rpmfusion-nonfree` enabled:
   `sudo rpm-ostree install akmod-wl kernel-devel`
 - For NVIDIA propietary drivers with `sudo fedora-third-party enable`:
-  `sudo rpm-ostree install akmod-nvidia`
+  `sudo rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia-cuda`
   - This also requires
     `sudo rpm-ostree kargs --append=rd.driver.blacklist=nouveau --append=modprobe.blacklist=nouveau --append=nvidia-drm.modeset=1`
     and suggests keeping an eye on the source page
