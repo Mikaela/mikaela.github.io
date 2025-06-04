@@ -217,6 +217,9 @@ Consider also adding
     [rpmfusion howto nvidia#ostree](https://rpmfusion.org/Howto/NVIDIA#OSTree_.28Silverblue.2FKinoite.2Fetc.29)
 - For Steam Deck and other handhelds with their copr:
   `sudo rpm-ostree install hhd adjustor hhd-ui`
+- Also with rpmfusion for DVD playback
+  `sudo rpm-ostree install rpmfusion-free-release-tainted` and
+  `sudo rpm-ostree install libdvdcss`
 
 ### Flatpaks
 
