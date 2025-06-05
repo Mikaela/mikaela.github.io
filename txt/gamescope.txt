@@ -1,0 +1,1 @@
+SteamDeck=1 MANGOHUD=0 gamemoderun gamescope --steam --borderless --mangoapp -- %command%
