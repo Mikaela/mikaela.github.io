@@ -175,7 +175,7 @@ bit...
 # Ensure third party Fedora repos are available, this is part of KDE Prompt?
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install aircrack-ng android-tools btop clang cronie cronie-anacron darkman duperemove gamescope git-lfs gnome-console haveged htop inxi iucode-tool iwd kate mangohud mosh mpv neovim nmap npm pipx pre-commit qrencode rng-tools rubygem-bundler setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound vlc zsh
+sudo rpm-ostree install aircrack-ng android-tools btop clang cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged htop inxi iucode-tool iwd kate mangohud mosh mpv neovim nmap npm pipx pre-commit qrencode rng-tools rubygem-bundler setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound vlc zsh
 # Remove packages I don't need from the base image. (Challenge to remove
 # nothing failed by using rpmfusion codecs anyway)
 sudo rpm-ostree override remove firefox firefox-langpacks
@@ -289,7 +289,7 @@ ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.steam $HOME/.steam
 #### General purpose
 
 ```bash
-sudo flatpak install --assumeyes flathub com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.kate org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC page.codeberg.dnkl.foot
+sudo flatpak install --assumeyes flathub com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.kate org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
 ```
 
 - Calibre is the VLC of ebooks, especially if you have an ebook reader
@@ -328,8 +328,6 @@ sudo flatpak install --assumeyes flathub com.calibre_ebook.calibre com.dropbox.C
   default, it may not survive `flatpak uninstall --all`.
 - VLC is a world-famous media player supporting ~everything and the flathub
   apparently bundles libdvdcss having the capacity to play DVDs.
-- Foot is the terminal that will just work and nicely doesn't even require
-  layering onto the base system.
 
 #### Office
 
