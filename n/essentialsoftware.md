@@ -501,16 +501,18 @@ AuthenticationMethods publickey
 
 ### `/etc/xdg/autostart`
 
-Not having terminal autostarting for all users is pain.
+Not having terminal autostarting for all users is pain. First
+`sudo systemctl --global enable foot-server.socket`
 
-- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/xdg/autostart/kgx-tmux.desktop
+- [footclient-tmux.desktop](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/xdg/autostart/footclient-tmux.desktop)
 
 ```desktop
 [Desktop Entry]
-Terminal=true
-Exec=kgx --command="bash --norc -c tmux"
-Name=Tmux in Console
-Icon=org.gnome.Console
+Type=Application
+Exec=footclient -m tmux
+Icon=foot
+Terminal=false
+Name=Foot Client running tmux
 ```
 
 ### `aminda-*.{service,socket}`
