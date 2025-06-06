@@ -289,7 +289,7 @@ ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.steam $HOME/.steam
 #### General purpose
 
 ```bash
-sudo flatpak install --assumeyes flathub com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.kate org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
+sudo flatpak install --assumeyes flathub com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.kate org.pulseaudio.pavucontrol org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
 ```
 
 - Calibre is the VLC of ebooks, especially if you have an ebook reader
@@ -304,6 +304,9 @@ sudo flatpak install --assumeyes flathub com.calibre_ebook.calibre com.dropbox.C
 - Blanket gives nice sounds for e.g. focusing, white and nature noise inclued
 - Shortwave is Radio Browser using Internet Radio app and woof approves having
   it at paw
+- mpv is my media player of choise and while it may be installed on the base
+  system for syncthing, it might not be everywhere and the flatpak may have
+  better codec etc. support on some systems.
 - Gearlever makes appimages less annoying a bit
 - Syncthing-gtk is a GUI for syncthing providing desktop notifications without
   browser.
