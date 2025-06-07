@@ -99,7 +99,7 @@ _{{ page.excerpt }}_
     `sudo systemctl enable dnf-automatic-download.{timer,service}`
   - for `rpm-ostree`, `systemctl enable rpm-ostreed-automatic.timer --now`
     - Remember to check `/etc/rpm-ostreed.conf`, it should say
-      `AutomaticUpdatePolicy=stage` and likely `LockLayering=true` under
+      `AutomaticUpdatePolicy=stage` and likely `LockLayering=false` under
       `[Daemon]`
 
 ## Usability
@@ -183,7 +183,7 @@ sudo rpm-ostree install aircrack-ng android-tools btop cronie cronie-anacron dar
 # Remove packages I don't need from the base image. (Challenge to remove
 # nothing failed by using rpmfusion codecs anyway)
 sudo rpm-ostree override remove firefox firefox-langpacks
-# Enable automatic updates (check /etc/rpm-ostreed.conf for AutomaticUpdatePolicy=stage and LockLayering=true)
+# Enable automatic updates (check /etc/rpm-ostreed.conf for AutomaticUpdatePolicy=stage and LockLayering=false)
 sudo systemctl enable rpm-ostreed-automatic.timer --now
 # Disable bootsplash and kernel message hiding, adjust rootfs fstab,
 # REMEMBER TO REMOVE SSD FOR NON-SSD setups! Legacy interface names (eth0,
