@@ -284,7 +284,7 @@ sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.Ma
 
 ##### Flatpakked Steam for the flatpak-unaware
 
-Looking at you, handhelddaemon, 2025-05-2025.
+Looking at you, handhelddaemon, 2025-05-28.
 
 ```
 mkdir -vp $HOME/.local/share/
