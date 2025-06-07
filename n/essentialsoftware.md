@@ -91,12 +91,16 @@ _{{ page.excerpt }}_
   had it connect to upstream dns\[crypt\]proxy
   - alternatively configure `systemd-resolved`. Simultaneously
     `systemd-networkd` may be a good idea.
-- `unattended-upgrades` or `dnf-automatic` so security updates are at least
-  downloaded if not even directly installed (see configuration and systemd
-  units!)
+- `unattended-upgrades`, `dnf-automatic` or `rpm-ostreed-automatic` so security
+  updates are at least downloaded if not even directly installed (see
+  configuration and systemd units!)
   - if `dnf-automatic`, consider
     `sudo systemctl enable dnf-automatic-install.{timer,service}` or at least
     `sudo systemctl enable dnf-automatic-download.{timer,service}`
+  - for `rpm-ostree`, `systemctl enable rpm-ostreed-automatic.timer --now`
+    - Remember to check `/etc/rpm-ostreed.conf`, it should say
+      `AutomaticUpdatePolicy=stage` and likely `LockLayering=true` under
+      `[Daemon]`
 
 ## Usability
 
@@ -179,6 +183,8 @@ sudo rpm-ostree install aircrack-ng android-tools btop clang cronie cronie-anacr
 # Remove packages I don't need from the base image. (Challenge to remove
 # nothing failed by using rpmfusion codecs anyway)
 sudo rpm-ostree override remove firefox firefox-langpacks
+# Enable automatic updates (check /etc/rpm-ostreed.conf for AutomaticUpdatePolicy=stage and LockLayering=true)
+sudo systemctl enable rpm-ostreed-automatic.timer --now
 # Disable bootsplash and kernel message hiding, adjust rootfs fstab,
 # REMEMBER TO REMOVE SSD FOR NON-SSD setups! Legacy interface names (eth0,
 # wlan0) are also nice. Ensure CPU vulnerability mitigation while at kargs too.
