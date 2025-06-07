@@ -193,6 +193,8 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
 # I would additionally use lockdown=confidentiality (or lockdown=integrity if
 # less privacy and security was required, but that prevents shipped osnoise
 # module from working.
+# footclient (or server) for all users on-demand
+sudo systemctl --global enable foot-server.socket
 ```
 
 Consider also adding
