@@ -32,6 +32,7 @@ select either `Window specific special settings` or
 <em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Gamescope](#gamescope)
+- [Steam games without gamescope](#steam-games-without-gamescope)
 - [All apps](#all-apps)
 - [FanFicFare](#fanficfare)
 - [GNOME Console](#gnome-console)
@@ -60,6 +61,15 @@ from `systemsettings` would work too.
     gamescope ignoring `--fullscreen` flag with the next property:_
 - _Add Property_, _Size & Position_:
 - `Fullscreen`: `Apply initially` `Yes`
+
+## Steam games without gamescope
+
+- Description: `Steam apps`
+- Windows class (application): `Partial match`: `steam_app_`
+- Match whole window class: `Yes`
+- Window types: `All selected`
+- _Add Property_, _Size & Position_:
+- `Fullscreen`: `Force` `Yes`
 
 ## All apps
 
