@@ -229,6 +229,8 @@ Consider also adding
 - Also with rpmfusion for DVD playback
   `sudo rpm-ostree install rpmfusion-free-release-tainted` and
   `sudo rpm-ostree install libdvdcss`
+- rpmfusion also has `sudo rpm-ostree install pipewire-codec-aptx` which allows
+  better quality playback with some BT devices such as Fairbuds XL.
 
 ### Flatpaks
 
