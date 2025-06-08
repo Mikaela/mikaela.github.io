@@ -180,7 +180,7 @@ bit...
 # Ensure third party Fedora repos are available, this is part of KDE Prompt?
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install aircrack-ng android-tools btop cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged htop inxi iwd mangohud mosh mpv neovim nmap npm pipx pre-commit qrencode rng-tools rubygem-bundler setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound vlc zsh
+sudo rpm-ostree install android-tools cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv neovim qrencode rng-tools setroubleshoot sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound vlc zsh
 # Remove packages I don't need from the base image. (Challenge to remove
 # nothing failed by using rpmfusion codecs anyway)
 sudo rpm-ostree override remove firefox firefox-langpacks
