@@ -116,6 +116,10 @@ regarding FFF's browser cache feature.
 - Window title: `Exact match`: `Downloading metadata for stories`
 - _Add Property_, _Arrangement & Access_
 - Keep above other windows: `Force` `Yes`
+- _Add Property_, _Size & Position_:
+- Maximized horizontally: `Force` `No`
+- _Add Property_, _Size & Position_:
+- Maximized vertically: `Force` `No`
 
 ## GNOME Console
 
