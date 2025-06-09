@@ -300,10 +300,10 @@ ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.steam $HOME/.steam
 #### General purpose
 
 ```bash
-sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.kate org.pulseaudio.pavucontrol org.kde.kwrite org.kde.okular org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
+sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.github.celluloid_player.Celluloid io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.haruna org.kde.kate org.pulseaudio.pavucontrol org.kde.kwrite org.kde.okular org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
 ```
 
-- Kind of a Windows Terminal for Linux
+- Ptyxis reminds me of a Windows Terminal for Linux
 - Calibre is the VLC of ebooks, especially if you have an ebook reader
 - Dropbox is a file synchronization app using the cloud :(
 - Flatseal is a permission/override manager GUI, although one is integrated with
@@ -316,6 +316,7 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
 - Blanket gives nice sounds for e.g. focusing, white and nature noise inclued
 - Shortwave is Radio Browser using Internet Radio app and woof approves having
   it at paw
+- Celluloid is a mpv frontend, which can optionally read `mpv.conf`
 - mpv is my media player of choise and while it may be installed on the base
   system for syncthing, it might not be everywhere and the flatpak may have
   better codec etc. support on some systems.
@@ -325,6 +326,9 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
 - Spread the love of Fedora Kinoite by having Fedora Imagewriter!
 - Eye of GNOME is GNOME picture viewer and if I cannot `eog image.png` I get
   confused
+- Haruna is another Mpv front-end, but this time KDE. It also doesn't read or
+  understand mpv.conf at the time of writing, so I ma mor elikely to suggest
+  Celluloid while using mpv directly myself.
 - Kate is my go-to text editor when I want a GUI (otherwise it's the rpm-ostree
   nvim) and if the flatpak didn't exist (and if I wouldn't likely be using nvim
   where flatpaks have no power), I would make it yet another rpm-ostree
