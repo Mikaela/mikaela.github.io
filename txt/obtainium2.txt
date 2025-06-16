@@ -42,6 +42,8 @@ https://github.com/JunkFood02/Seal
 https://github.com/JunkieLabs/sensify-android
 https://github.com/karasevm/PrivateDNSAndroid
 https://github.com/kawaiiDango/pano-scrobbler
+https://github.com/KotatsuApp/Kotatsu
+https://github.com/KotatsuApp/Kotatsu-nightly
 https://github.com/krille-chan/fluffychat
 https://github.com/kylecorry31/Trail-Sense
 https://github.com/Lambada10/SongSync
