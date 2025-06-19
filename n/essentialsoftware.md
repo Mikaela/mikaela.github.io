@@ -180,10 +180,10 @@ bit...
 # Ensure third party Fedora repos are available, this is part of KDE Prompt?
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv neovim qrencode rng-tools setroubleshoot snapd sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound vlc zsh
+sudo rpm-ostree install android-tools cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv neovim qrencode rng-tools setroubleshoot snapd sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 # Remove packages I don't need from the base image. (Challenge to remove
 # nothing failed by using rpmfusion codecs anyway)
-sudo rpm-ostree override remove firefox firefox-langpacks
+sudo rpm-ostree override remove firefox firefox-langpacks vlc-plugin-gstreamer gstreamer1-plugins-bad-free
 # Enable automatic updates (check /etc/rpm-ostreed.conf for AutomaticUpdatePolicy=stage (or apply for automatic reboots) and LockLayering=false)
 sudo systemctl enable rpm-ostreed-automatic.timer --now
 # Disable bootsplash and kernel message hiding, adjust rootfs fstab,
