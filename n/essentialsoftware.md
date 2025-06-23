@@ -25,6 +25,7 @@ _{{ page.excerpt }}_
 - [Security](#security)
 - [Usability](#usability)
   - [pipx](#pipx)
+  - [Homebrew](#homebrew)
 - [Fedora Atomic](#fedora-atomic)
   - [Additional rpm-ostree install](#additional-rpm-ostree-install)
   - [Flatpaks](#flatpaks)
@@ -170,6 +171,14 @@ apps written in Python. Here is a small list to remember in no particular order.
 
 Just remember to `pipx upgrade-all` occassionally!
 
+### Homebrew
+
+This section is a WIP and to avoid having to install some rpm-ostree...
+
+```
+brew install mpv neovim qrencode symlinks llvm pipx mtr pre-commit node ruby
+```
+
 ## Fedora Atomic
 
 _By which I mean Fedora Kinoite unless otherwise specified._ A system where
@@ -180,10 +189,10 @@ bit...
 # Ensure third party Fedora repos are available, this is part of KDE Prompt?
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv neovim qrencode rng-tools setroubleshoot snapd sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
+sudo rpm-ostree install android-tools cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh rng-tools setroubleshoot snapd sshguard steam-devices syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 # Remove packages I don't need from the base image. (Challenge to remove
 # nothing failed by using rpmfusion codecs anyway)
-sudo rpm-ostree override remove firefox firefox-langpacks vlc-plugin-gstreamer gstreamer1-plugins-bad-free
+sudo rpm-ostree override remove firefox firefox-langpacks
 # Enable automatic updates (check /etc/rpm-ostreed.conf for AutomaticUpdatePolicy=stage (or apply for automatic reboots) and LockLayering=false)
 sudo systemctl enable rpm-ostreed-automatic.timer --now
 # Disable bootsplash and kernel message hiding, adjust rootfs fstab,
