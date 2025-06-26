@@ -176,7 +176,7 @@ Just remember to `pipx upgrade-all` occassionally!
 This section is a WIP and to avoid having to install some rpm-ostree...
 
 ```
-brew install mpv neovim qrencode symlinks llvm pipx mtr pre-commit node ruby inxi zsh
+brew install mpv neovim qrencode symlinks llvm pipx mtr pre-commit node ruby inxi zsh btop htop ipfs
 ```
 
 ## Fedora Atomic
