@@ -8,35 +8,35 @@ importers:
   .:
     devDependencies:
       "@aminda/global-prettier-config":
-        specifier: 2025.21.0
-        version: 2025.21.0
+        specifier: 2025.26.0
+        version: 2025.26.0
       "@prettier/plugin-ruby":
         specifier: 4.0.4
-        version: 4.0.4(prettier@3.5.3)
+        version: 4.0.4(prettier@3.6.2)
       "@prettier/plugin-xml":
         specifier: 3.4.1
-        version: 3.4.1(prettier@3.5.3)
+        version: 3.4.1(prettier@3.6.2)
       corepack:
         specifier: latest
         version: 0.33.0
       prettier:
-        specifier: 3.5.3
-        version: 3.5.3
+        specifier: 3.6.2
+        version: 3.6.2
       prettier-plugin-nginx:
         specifier: 1.0.3
         version: 1.0.3
       prettier-plugin-sh:
-        specifier: 0.17.4
-        version: 0.17.4(prettier@3.5.3)
+        specifier: 0.18.0
+        version: 0.18.0(prettier@3.6.2)
       prettier-plugin-toml:
         specifier: 2.0.5
-        version: 2.0.5(prettier@3.5.3)
+        version: 2.0.5(prettier@3.6.2)
 
 packages:
-  "@aminda/global-prettier-config@2025.21.0":
+  "@aminda/global-prettier-config@2025.26.0":
     resolution:
       {
-        integrity: sha512-2r7n24AgkOK5mHHNVagM0DADSWpYv1deF1eC80HMCoXKyuT0TSb+fMvZUfhi8w+S5DCZKzoTvQH3+3wFg7f3bA==,
+        integrity: sha512-Ny0MqK1QGNWRgR1SBbQtoupN0UmK/XYwx4uo12EI8ncEbtH6eyBJzIwes+EtCn/kXu9VzQONqnrryukjbmWOqg==,
       }
 
   "@prettier/plugin-ruby@4.0.4":
@@ -100,14 +100,14 @@ packages:
         integrity: sha512-vV5q85s8XnV6NEgvz1gVLfZhmxAxY03MyOYj2ApBpjFkbs00lRsRkTmqO9L39ADuD18z1RRCcfZ3eVxKhI/nqg==,
       }
 
-  prettier-plugin-sh@0.17.4:
+  prettier-plugin-sh@0.18.0:
     resolution:
       {
-        integrity: sha512-aAVKXZ7GTEMZdZsIPSwMwddwPvt2ibMbRGd4OJAP0G7QoeYZV+mPNg2Oln3R53sZ4PVjeAA7Xzi/PuI0QlHHfQ==,
+        integrity: sha512-cW1XL27FOJQ/qGHOW6IHwdCiNWQsAgK+feA8V6+xUTaH0cD3Mh+tFAtBvEEWvuY6hTDzRV943Fzeii+qMOh7nQ==,
       }
     engines: { node: ">=16.0.0" }
     peerDependencies:
-      prettier: ^3.0.3
+      prettier: ^3.6.0
 
   prettier-plugin-toml@2.0.5:
     resolution:
@@ -118,10 +118,10 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  prettier@3.5.3:
+  prettier@3.6.2:
     resolution:
       {
-        integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==,
+        integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==,
       }
     engines: { node: ">=14" }
     hasBin: true
@@ -146,24 +146,24 @@ packages:
       }
 
 snapshots:
-  "@aminda/global-prettier-config@2025.21.0":
+  "@aminda/global-prettier-config@2025.26.0":
     dependencies:
-      "@prettier/plugin-ruby": 4.0.4(prettier@3.5.3)
-      "@prettier/plugin-xml": 3.4.1(prettier@3.5.3)
+      "@prettier/plugin-ruby": 4.0.4(prettier@3.6.2)
+      "@prettier/plugin-xml": 3.4.1(prettier@3.6.2)
       corepack: 0.33.0
-      prettier: 3.5.3
+      prettier: 3.6.2
       prettier-plugin-nginx: 1.0.3
-      prettier-plugin-sh: 0.17.4(prettier@3.5.3)
-      prettier-plugin-toml: 2.0.5(prettier@3.5.3)
+      prettier-plugin-sh: 0.18.0(prettier@3.6.2)
+      prettier-plugin-toml: 2.0.5(prettier@3.6.2)
 
-  "@prettier/plugin-ruby@4.0.4(prettier@3.5.3)":
+  "@prettier/plugin-ruby@4.0.4(prettier@3.6.2)":
     dependencies:
-      prettier: 3.5.3
+      prettier: 3.6.2
 
-  "@prettier/plugin-xml@3.4.1(prettier@3.5.3)":
+  "@prettier/plugin-xml@3.4.1(prettier@3.6.2)":
     dependencies:
       "@xml-tools/parser": 1.0.11
-      prettier: 3.5.3
+      prettier: 3.6.2
 
   "@reteps/dockerfmt@0.3.6": {}
 
@@ -185,18 +185,18 @@ snapshots:
 
   prettier-plugin-nginx@1.0.3: {}
 
-  prettier-plugin-sh@0.17.4(prettier@3.5.3):
+  prettier-plugin-sh@0.18.0(prettier@3.6.2):
     dependencies:
       "@reteps/dockerfmt": 0.3.6
-      prettier: 3.5.3
+      prettier: 3.6.2
       sh-syntax: 0.5.8
 
-  prettier-plugin-toml@2.0.5(prettier@3.5.3):
+  prettier-plugin-toml@2.0.5(prettier@3.6.2):
     dependencies:
       "@taplo/lib": 0.5.0
-      prettier: 3.5.3
+      prettier: 3.6.2
 
-  prettier@3.5.3: {}
+  prettier@3.6.2: {}
 
   regexp-to-ast@0.5.0: {}
 
