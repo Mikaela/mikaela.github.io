@@ -27,7 +27,7 @@ _{{ page.excerpt }}_
 <!-- prettier-ignore-end -->
 <!-- editorconfig-checker-enable -->
 
-<div lang="fi">päläpäläpälä
+<div lang="fi">
 
 ## Tekstitykset huonokuuloisille
 
