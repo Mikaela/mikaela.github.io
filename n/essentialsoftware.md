@@ -176,7 +176,7 @@ Just remember to `pipx upgrade-all` occassionally!
 This section is a WIP and to avoid having to install some rpm-ostree...
 
 ```
-brew install btop htop inxi ipfs llvm mpv mtr neovim node pipx pre-commit qrencode ruby smartmontools symlinks zsh
+brew install aircrack-ng btop htop inxi ipfs llvm mpv mtr neovim nmap node pipx pre-commit qrencode ruby smartmontools symlinks zsh
 ```
 
 ## Fedora Atomic
