@@ -197,8 +197,9 @@ sudo rpm-ostree override remove firefox firefox-langpacks
 sudo systemctl enable rpm-ostreed-automatic.timer --now
 # Disable bootsplash and kernel message hiding, adjust rootfs fstab,
 # REMEMBER TO REMOVE SSD FOR NON-SSD setups! Legacy interface names (eth0,
-# wlan0) are also nice. Ensure CPU vulnerability mitigation while at kargs too.
-sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=root --append=rootflags=subvol=root,noatime,compress-force=zstd:0,ssd --append=net.ifnames=0 --append=mitigations=auto,nosmt
+# wlan0) are also nice, like is not letting invalid LUKS password drop into
+# root emergency shell. Ensure CPU vulnerability mitigation while at kargs too.
+sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=root --append=rootflags=subvol=root,noatime,compress-force=zstd:0,ssd --append=net.ifnames=0 --append=rd.shell=0 --append=rd.emergency=halt --append=mitigations=auto,nosmt
 # Another reminder to not use flag SSD above if there is no SSD on the system.
 # I would additionally use lockdown=confidentiality (or lockdown=integrity if
 # less privacy and security was required, but that prevents shipped osnoise
