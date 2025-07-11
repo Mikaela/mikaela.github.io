@@ -217,17 +217,14 @@ Consider also adding
   there is repository breakage risk stopping system upgrades, at least it will
   upgrade itself as opposed to errorring about being a local not upgraded
   package in the future.
-- You need it when using either Broadcom WiFi or
-  `Failed to initialize a decoder for codec 'hevc'.` from `mpv` which gets
-  resolved by following the instructions for your hardware or software codecs.
+- You need it when using e.g. Broadcom WiFi or `mpv` and receiving
+  `Failed to initialize a decoder for codec 'hevc'.`
 
 ### Additional rpm-ostree install
 
 - In general `neilalexander`'s yggdrasil copr makes life easier with
   `sudo rpm-ostree install yggdrasil`
 - For ThinkPads: `sudo rpm-ostree install tlp tlp-rdw` is good for battery
-- For Broadcom WiFi with `rpmfusion-nonfree` enabled:
-  `sudo rpm-ostree install akmod-wl kernel-devel`
 - For NVIDIA propietary drivers with `sudo fedora-third-party enable`:
   `sudo rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia-cuda`
   - This also requires
@@ -236,11 +233,16 @@ Consider also adding
     [rpmfusion howto nvidia#ostree](https://rpmfusion.org/Howto/NVIDIA#OSTree_.28Silverblue.2FKinoite.2Fetc.29)
 - For Steam Deck and other handhelds with their copr:
   `sudo rpm-ostree install hhd adjustor hhd-ui`
-- Also with rpmfusion for DVD playback
-  `sudo rpm-ostree install rpmfusion-free-release-tainted` and
-  `sudo rpm-ostree install libdvdcss`
-- rpmfusion also has `sudo rpm-ostree install pipewire-codec-aptx` which allows
-  better quality playback with some BT devices such as Fairbuds XL.
+- rpmfusion packages
+  - For Broadcom WiFi with `rpmfusion-nonfree` enabled:
+    `sudo rpm-ostree install akmod-wl kernel-devel`
+  - DVD playback: `sudo rpm-ostree install rpmfusion-free-release-tainted` and
+    `sudo rpm-ostree install libdvdcss`
+  - Bluetooth APTX HD codec: `sudo rpm-ostree install pipewire-codec-aptx` which
+    allows better quality playback with some devices e.g. Fairbuds XL.
+  - For
+    [hevc playback support](https://discussion.fedoraproject.org/t/how-do-i-enable-h265-hevc-playback-in-fedora-41-or-42-2025/147870),
+    `sudo rpm-ostree install libavcodec-freeworld`
 
 ### Flatpaks
 
