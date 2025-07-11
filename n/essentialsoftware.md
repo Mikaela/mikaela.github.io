@@ -176,7 +176,7 @@ Just remember to `pipx upgrade-all` occassionally!
 This section is a WIP and to avoid having to install some rpm-ostree...
 
 ```
-brew install aircrack-ng btop htop inxi ipfs llvm mpv mtr neovim nmap node pipx pre-commit qrencode ruby smartmontools symlinks zsh
+brew install aircrack-ng btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ruby smartmontools symlinks
 ```
 
 ## Fedora Atomic
@@ -189,7 +189,7 @@ bit...
 # Ensure third party Fedora repos are available, this is part of KDE Prompt?
 sudo fedora-third-party enable
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh rng-tools setroubleshoot snapd sshguard steam-devices syncthing terminus-fonts-console tmux tor torsocks unbound zsh
+sudo rpm-ostree install android-tools cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv rng-tools setroubleshoot snapd sshguard steam-devices syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 # Remove packages I don't need from the base image. (Challenge to remove
 # nothing failed by using rpmfusion codecs anyway)
 sudo rpm-ostree override remove firefox firefox-langpacks
