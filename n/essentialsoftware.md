@@ -51,6 +51,7 @@ _{{ page.excerpt }}_
   - [Encrypted DNS](#encrypted-dns)
   - [`/etc/xdg/autostart`](#etcxdgautostart)
   - [`aminda-*.{service,socket}`](#aminda-servicesocket)
+  - [systemd sockets](#systemd-sockets)
 - [Remember!](#remember)
   - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
   - [Recovering selinux policy issues](#recovering-selinux-policy-issues)
@@ -552,6 +553,18 @@ They workaround either me or the distribution messing things up. While at it,
 don't forget `/etc/sysctl.d`
 
 - https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system
+
+### systemd sockets
+
+Starting services on-demand rather than keeping them on all the time. Some of
+these are already on this page, but to recap and have them all in one place:
+
+```bash
+# User services or sockets
+sudo systemctl --global enable foot-server.socket
+# System sockets
+sudo systemctl enable --now ssh.socket sshd.socket avahi-daemon.socket systemd-oomd.socket oidentd.socket
+```
 
 ## Remember!
 
