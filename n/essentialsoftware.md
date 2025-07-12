@@ -283,7 +283,7 @@ sudo flatpak install --assumeyes flathub com.discordapp.Discord im.dino.Dino inf
 #### Gayming
 
 ```bash
-sudo flatpak install --assumeyes flathub com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE
+sudo flatpak install --assumeyes flathub com.heroicgameslauncher.hgl com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE eu.usdx.UltraStarDeluxe
 # Note branch numbers!
 sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.MangoHud//24.08 org.freedesktop.Platform.VulkanLayer.gamescope//24.08
 ```
@@ -292,6 +292,8 @@ sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.Ma
 - Steam needs no explanation
 - Proton GE is improved version of Proton, the WINE based compatibility layer
   for playing Windows games and probably needs no introduction either
+- FOSS Karaoke, possibly fun to try sometime, once courage is gathered.
+  Spiritual successor of PlayStation 2 SingStar with option for own songs?
 - MangoHud and gamescope can be used by Heroic Games or manually in Steam (see
   gayming README below), but they might require specific version or branch, so
   after the dualslash change the branch from `24.08` if they decide to update to
