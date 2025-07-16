@@ -120,7 +120,7 @@ exclude:
 # Latest Matrix room version for blog posts or /upgraderoom advice. If I
 # need something from the latest version, this is it once the servers I care
 # about have upgraded. Otherwise this is based on my discretion.
-matrixLatestRoomVersion: 11
+matrixLatestRoomVersion: 12
 
 # {{site.ipfsGateway}}/ipfs/IPFSHASHHERE to get ipfs link via gateway.
 # Hopefully future proof letting me simply swap the link here instead of
