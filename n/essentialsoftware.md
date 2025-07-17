@@ -52,6 +52,7 @@ _{{ page.excerpt }}_
   - [`/etc/xdg/autostart`](#etcxdgautostart)
   - [`aminda-*.{service,socket}`](#aminda-servicesocket)
   - [systemd sockets](#systemd-sockets)
+    - [firewalld for systemd sockets](#firewalld-for-systemd-sockets)
 - [Remember!](#remember)
   - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
   - [Recovering selinux policy issues](#recovering-selinux-policy-issues)
@@ -563,6 +564,25 @@ these are already on this page, but to recap and have them all in one place:
 sudo systemctl --global enable foot-server.socket
 # System sockets
 sudo systemctl enable --now ssh.socket sshd.socket avahi-daemon.socket systemd-oomd.socket oidentd.socket
+```
+
+Remember that systemd sockets are silly and listen only to `::` by default and
+since system administrators not-so-uncommonly set that to only mean IPv6 in
+order to avoid dotted-decimals, it may be desirable to have a
+`/etc/systemd/system/socket.d/dualstack-bind.conf` with
+
+```ini
+[Socket]
+BindIPv6Only=both
+```
+
+#### firewalld for systemd sockets
+
+```bash
+sudo firewall-cmd --add-service=ssh --permanent && sudo firewall-cmd --add-service=ssh --permanent --zone=home
+sudo firewall-cmd --add-service=ident --permanent && sudo firewall-cmd --add-service=ident --permanent --zone=home
+sudo firewall-cmd --add-service=mdns --permanent && sudo firewall-cmd --add-service=mdns --permanent --zone=home
+sudo firewall-cmd --reload
 ```
 
 ## Remember!
