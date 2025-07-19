@@ -27,7 +27,9 @@ _{{ page.excerpt }}_
   - [pipx](#pipx)
   - [Homebrew](#homebrew)
 - [Fedora Atomic](#fedora-atomic)
-  - [Additional rpm-ostree install](#additional-rpm-ostree-install)
+  - [`rpm-ostree install` everywhere](#rpm-ostree-install-everywhere)
+  - [`rpm-ostree kargs`](#rpm-ostree-kargs)
+  - [Situational `rpm-ostree install`](#situational-rpm-ostree-install)
   - [Flatpaks](#flatpaks)
     - [Communication](#communication)
     - [Gayming](#gayming)
@@ -187,26 +189,27 @@ _By which I mean Fedora Kinoite unless otherwise specified._ A system where
 everyone runs the same image, except that as this section shows, I add to it a
 bit...
 
+### `rpm-ostree install` everywhere
+
 ```bash
-# Ensure third party Fedora repos are available, this is part of KDE Prompt?
+# Ensure third party Fedora repos are available, this is part of the KDE
+# welcome prompt, maybe?
 sudo fedora-third-party enable
+
 # Layer packages I need on top of the base image.
 sudo rpm-ostree install android-tools cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv oidentd rng-tools setroubleshoot snapd sshguard steam-devices syncthing terminus-fonts-console tmux tor torsocks unbound zsh
-# Remove packages I don't need from the base image. (Challenge to remove
-# nothing failed by using rpmfusion codecs anyway)
-sudo rpm-ostree override remove firefox firefox-langpacks
-# Enable automatic updates (check /etc/rpm-ostreed.conf for AutomaticUpdatePolicy=stage (or apply for automatic reboots) and LockLayering=false)
+
+# Enable automatic updates (check /etc/rpm-ostreed.conf for
+# AutomaticUpdatePolicy=stage (or apply for automatic reboots at probably
+# unwanted times & difficulties with encryption passphrase) and
+# LockLayering=false unless you want to be stuck with the base image)
 sudo systemctl enable rpm-ostreed-automatic.timer --now
-# Disable bootsplash and kernel message hiding, adjust rootfs fstab,
-# REMEMBER TO REMOVE SSD FOR NON-SSD setups! Legacy interface names (eth0,
-# wlan0) are also nice, like is not letting invalid LUKS password drop into
-# root emergency shell. Ensure CPU vulnerability mitigation while at kargs too.
-sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=root --append=rootflags=subvol=root,noatime,compress-force=zstd:0,ssd --append=net.ifnames=0 --append=rd.shell=0 --append=rd.emergency=halt --append=mitigations=auto,nosmt
-# Another reminder to not use flag SSD above if there is no SSD on the system.
-# I would additionally use lockdown=confidentiality (or lockdown=integrity if
-# less privacy and security was required, but that prevents shipped osnoise
-# module from working.
-# footclient (or server) for all users on-demand
+
+# Apply changes now, fix permission for my /root config
+sudo rpm-ostree apply-live && sudo chmod a+x /var/roothome
+
+# footclient (or server) for all users on-demand. Requires
+# the previous command or reboot
 sudo systemctl --global enable foot-server.socket
 ```
 
@@ -222,7 +225,30 @@ Consider also adding
 - You need it when using e.g. Broadcom WiFi or `mpv` and receiving
   `Failed to initialize a decoder for codec 'hevc'.`
 
-### Additional rpm-ostree install
+### `rpm-ostree kargs`
+
+```bash
+# REMOVE ssd FROM rootflags if not on SSD!
+sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=root --append=rootflags=subvol=root,noatime,compress-force=zstd:0,ssd --append=net.ifnames=0 --append=rd.shell=0 --append=rd.emergency=halt --append=mitigations=auto,nosmt
+```
+
+- `rhgb quiet` - These enable graphical boot screen and suppressing more verbose
+  kernel messages (the other text than `[OK]` from systemd)
+- `rootflags=` - the `/etc/fstab` entries for `/` as the file has no effect on
+  `/` on Atomic. The parameters are explained later on this page.
+- `net.ifnames=0` - disables the predictable interface names returning to `eth0`
+  and `wlan0`. People say the only predictable thing about them is amount of
+  complaints.
+- `rd.shell=0 rd.emergency=halt` - hardening to not enter debug shell upon wrong
+  encryption password
+- `mitigations=auto,nosmt` - enable automatic mitigations for CPU
+  vulnerabilities including disabling hyperthreading (not default).
+- `lockdown={confidentiality,integrity}` - hardening from secure boot being
+  enabled, locks down realtime changes to kernel including unsigned kernel
+  modules and in form of blocking default `osnoise` increases hardware
+  noisiness.
+
+### Situational `rpm-ostree install`
 
 - In general `neilalexander`'s yggdrasil copr makes life easier with
   `sudo rpm-ostree install yggdrasil`
@@ -313,7 +339,7 @@ ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.steam $HOME/.steam
 #### General purpose
 
 ```bash
-sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.github.celluloid_player.Celluloid io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.haruna org.kde.kate org.pulseaudio.pavucontrol org.kde.kwrite org.kde.okular org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.mozilla.firefox org.videolan.VLC
+sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.github.celluloid_player.Celluloid io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.haruna org.kde.kate org.pulseaudio.pavucontrol org.kde.kwrite org.kde.okular org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.videolan.VLC
 ```
 
 - Ptyxis reminds me of a Windows Terminal for Linux
@@ -355,8 +381,6 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
   have the capacity to write any image and also restore the USB stick
   afterwards.
 - Tor Browser just must exist everywhere just in case!
-- Firefox is the last major non-Chromium web browser and while installed by
-  default, it may not survive `flatpak uninstall --all`.
 - VLC is a world-famous media player supporting ~everything and the flathub
   apparently bundles libdvdcss having the capacity to play DVDs.
 
