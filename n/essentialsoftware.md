@@ -177,10 +177,17 @@ Just remember to `pipx upgrade-all` occassionally!
 
 ### Homebrew
 
-This section is a WIP and to avoid having to install some rpm-ostree...
+In order to avoid having to use `rpm-ostree`, Homebrew is practical for some
+tools and applications.
+
+**_This section is still a WIP and TODO omitting important parts._**
 
 ```
-brew install aircrack-ng btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ruby smartmontools symlinks
+sudo mkdir /home/linuxbrew
+sudo chown -R $(whoami):$(whoami) /home/linuxbrew
+cd /home/linuxbrew
+git clone https://github.com/Homebrew/brew .linuxbrew
+brew install aircrack-ng btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ruby smartmontools symlinks weechat
 ```
 
 ## Fedora Atomic
