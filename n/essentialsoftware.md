@@ -278,6 +278,8 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
   - For
     [hevc playback support](https://discussion.fedoraproject.org/t/how-do-i-enable-h265-hevc-playback-in-fedora-41-or-42-2025/147870),
     `sudo rpm-ostree install libavcodec-freeworld`
+  - VirtualBox? Also at rpmfusion,
+    `sudo rpm-ostree install akmod-VirtualBox VirtualBox`
 
 ### Flatpaks
 
