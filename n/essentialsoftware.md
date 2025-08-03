@@ -187,7 +187,7 @@ sudo mkdir /home/linuxbrew
 sudo chown -R $(whoami):$(whoami) /home/linuxbrew
 cd /home/linuxbrew
 git clone https://github.com/Homebrew/brew .linuxbrew
-brew install aircrack-ng btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ruby smartmontools symlinks weechat
+brew install aircrack-ng btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ruby smartmontools weechat
 ```
 
 ## Fedora Atomic
@@ -204,7 +204,7 @@ bit...
 sudo fedora-third-party enable
 
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools celluloid cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haruna haveged iwd mangohud mosh mpv oidentd rng-tools setroubleshoot snapd sshguard steam-devices syncthing terminus-fonts-console tmux tor torsocks unbound zsh
+sudo rpm-ostree install android-tools celluloid cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haruna haveged iwd mangohud mosh mpv oidentd rng-tools setroubleshoot snapd sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 
 # Enable automatic updates (check /etc/rpm-ostreed.conf for
 # AutomaticUpdatePolicy=stage (or apply for automatic reboots at probably
