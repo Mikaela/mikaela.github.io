@@ -348,7 +348,7 @@ ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.steam $HOME/.steam
 #### General purpose
 
 ```bash
-sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.github.celluloid_player.Celluloid io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.haruna org.kde.kate org.pulseaudio.pavucontrol org.kde.kwrite org.kde.okular org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.videolan.VLC
+sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.github.celluloid_player.Celluloid io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.elisa org.kde.gwenview org.kde.haruna org.kde.kate org.kde.kcalc org.kde.kmahjongg org.kde.kmines org.kde.kolourpaint org.kde.krdc org.pulseaudio.pavucontrol org.kde.kwrite org.kde.okular org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.videolan.VLC
 ```
 
 - Ptyxis reminds me of a Windows Terminal for Linux
@@ -374,6 +374,8 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
 - Spread the love of Fedora Kinoite by having Fedora Imagewriter!
 - Eye of GNOME is GNOME picture viewer and if I cannot `eog image.png` I get
   confused
+- Elisa is the Fedora Kinoite shipped music player
+- Gwenview is the KDE image viewer (think of Eye of {GNOME,MATE}=
 - Haruna is another Mpv front-end, but this time KDE. It also doesn't read or
   understand mpv.conf at the time of writing, so I ma mor elikely to suggest
   Celluloid while using mpv directly myself.
@@ -381,6 +383,12 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
   nvim) and if the flatpak didn't exist (and if I wouldn't likely be using nvim
   where flatpaks have no power), I would make it yet another rpm-ostree
   install...
+- Kcalc is calculator
+- Kmahjong is a game shipped with Fedora Kinoite
+- Kmines is the same
+- Kolourpaint seems to be KDE's response to MS Paint, shipped with Fedora
+  Kinoite
+- Krdc is Fedora Kinoite shipped remote desktop client (VNC, RDP)
 - pavucontrol is the volume manager and needs no introduction especially if one
   looks at it
 - kwrite is the KDE text editor
