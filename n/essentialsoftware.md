@@ -187,7 +187,7 @@ sudo mkdir /home/linuxbrew
 sudo chown -R $(whoami):$(whoami) /home/linuxbrew
 cd /home/linuxbrew
 git clone https://github.com/Homebrew/brew .linuxbrew
-brew install aircrack-ng bat bat-extras btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ruby smartmontools weechat
+brew install aircrack-ng bat bat-extras btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ripgrep ruby smartmontools weechat
 ```
 
 ## Fedora Atomic
