@@ -36,6 +36,7 @@ _{{ page.excerpt }}_
       - [Flatpakked Steam for the flatpak-unaware](#flatpakked-steam-for-the-flatpak-unaware)
     - [General purpose](#general-purpose)
     - [Office](#office)
+  - [Snaps](#snaps)
   - [Other essential atomic/kinoite/flatpak/gayming reading](#other-essential-atomickinoiteflatpakgayming-reading)
 - [Essential system configuration](#essential-system-configuration)
   - [Debian console](#debian-console)
@@ -412,6 +413,17 @@ sudo flatpak install --assumeyes flathub org.freedesktop.Sdk.Extension.texlive o
 - KDE Scanner app (in case of removing all flatpaks)
 - LibreOffice is world-famous office suite
 - Voikko is Finnish spellchecking support for it
+
+### Snaps
+
+I heavily prefer flatpaks since they allow multiple simultaneous repositories as
+opposed to Snap tying you into one at a time basically always meaning Canonical.
+Regardless I keep having snapd installed so I can install duplicates of software
+like Signal and run two accounts simultaneously.
+
+```
+sudo snap install tldr
+```
 
 ### Other essential atomic/kinoite/flatpak/gayming reading
 
