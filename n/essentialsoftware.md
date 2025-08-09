@@ -219,6 +219,12 @@ sudo rpm-ostree apply-live && sudo chmod a+x /var/roothome
 # footclient (or server) for all users on-demand. Requires
 # the previous command or reboot
 sudo systemctl --global enable foot-server.socket
+
+# Uninstall all flatpaks (to get rid of Fedora remote and unnecessary apps,
+# refer to later section of this page for more relevant flatpaks).
+# (Yes, the invalid command is intentional, fix it to acknowledge reading and
+# understanding.)
+sudo flatpak uninstall --all --assumeno
 ```
 
 Consider also adding
