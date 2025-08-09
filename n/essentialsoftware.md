@@ -205,7 +205,7 @@ bit...
 sudo fedora-third-party enable
 
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools celluloid cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haruna haveged iwd mangohud mosh mpv oidentd rng-tools setroubleshoot snapd sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
+sudo rpm-ostree install android-tools celluloid cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv oidentd rng-tools setroubleshoot snapd sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 
 # Enable automatic updates (check /etc/rpm-ostreed.conf for
 # AutomaticUpdatePolicy=stage (or apply for automatic reboots at probably
@@ -308,7 +308,7 @@ sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reb
 
 ```bash
 sudo flatpak install --assumeyes nheko-nightly im.nheko.Nheko//master
-sudo flatpak install --assumeyes flathub com.discordapp.Discord im.dino.Dino info.mumble.Mumble org.briarproject.Briar org.signal.Signal org.squidowl.halloy org.telegram.desktop
+sudo flatpak install --assumeyes flathub com.discordapp.Discord im.dino.Dino info.mumble.Mumble org.briarproject.Briar org.gajim.Gajim org.signal.Signal org.squidowl.halloy org.telegram.desktop
 ```
 
 - Discord is a Slack competitor and somehow challenging Facebook in necessary
@@ -318,6 +318,7 @@ sudo flatpak install --assumeyes flathub com.discordapp.Discord im.dino.Dino inf
   podcasting than calling
 - Dino is a modern XMPP client
 - Briar is a P2P messenger using Tor or LAN, no bluetooth on desktop yet?
+- Gajim is XMPP client that does everything
 - Signal is E2EE messenger
 - Halloy is a modern IRC client
 - Telegram is a common chat-app although not that secure
@@ -355,7 +356,7 @@ ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.steam $HOME/.steam
 #### General purpose
 
 ```bash
-sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave io.github.celluloid_player.Celluloid io.mpv.Mpv it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.elisa org.kde.gwenview org.kde.haruna org.kde.kate org.kde.kcalc org.kde.kmahjongg org.kde.kmines org.kde.kolourpaint org.kde.krdc org.pulseaudio.pavucontrol org.kde.kwrite org.kde.okular org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher org.videolan.VLC
+sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.calibre com.dropbox.Client com.github.tchx84.Flatseal com.github.wwmm.easyeffects com.nextcloud.desktopclient.nextcloud com.rafaelmardojai.Blanket de.haeckerfelix.Shortwave it.mijorus.gearlever me.kozec.syncthingtk org.fedoraproject.MediaWriter org.gnome.eog org.kde.elisa org.kde.kate org.kde.kcalc org.kde.kolourpaint org.kde.krdc org.pulseaudio.pavucontrol org.kde.kwrite org.kde.okular org.qbittorrent.qBittorrent org.torproject.torbrowser-launcher
 ```
 
 - Ptyxis reminds me of a Windows Terminal for Linux
@@ -371,10 +372,6 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
 - Blanket gives nice sounds for e.g. focusing, white and nature noise inclued
 - Shortwave is Radio Browser using Internet Radio app and woof approves having
   it at paw
-- Celluloid is a mpv frontend, which can optionally read `mpv.conf`
-- mpv is my media player of choise and while it may be installed on the base
-  system for syncthing, it might not be everywhere and the flatpak may have
-  better codec etc. support on some systems.
 - Gearlever makes appimages less annoying a bit
 - Syncthing-gtk is a GUI for syncthing providing desktop notifications without
   browser.
@@ -382,17 +379,11 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
 - Eye of GNOME is GNOME picture viewer and if I cannot `eog image.png` I get
   confused
 - Elisa is the Fedora Kinoite shipped music player
-- Gwenview is the KDE image viewer (think of Eye of {GNOME,MATE}=
-- Haruna is another Mpv front-end, but this time KDE. It also doesn't read or
-  understand mpv.conf at the time of writing, so I ma mor elikely to suggest
-  Celluloid while using mpv directly myself.
 - Kate is my go-to text editor when I want a GUI (otherwise it's the rpm-ostree
   nvim) and if the flatpak didn't exist (and if I wouldn't likely be using nvim
   where flatpaks have no power), I would make it yet another rpm-ostree
   install...
 - Kcalc is calculator
-- Kmahjong is a game shipped with Fedora Kinoite
-- Kmines is the same
 - Kolourpaint seems to be KDE's response to MS Paint, shipped with Fedora
   Kinoite
 - Krdc is Fedora Kinoite shipped remote desktop client (VNC, RDP)
@@ -405,8 +396,6 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
   have the capacity to write any image and also restore the USB stick
   afterwards.
 - Tor Browser just must exist everywhere just in case!
-- VLC is a world-famous media player supporting ~everything and the flathub
-  apparently bundles libdvdcss having the capacity to play DVDs.
 
 #### Office
 
