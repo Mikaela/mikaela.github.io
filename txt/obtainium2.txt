@@ -51,6 +51,7 @@ https://github.com/laurent22/joplin-android
 https://github.com/LibreShift/red-moon
 https://github.com/ligi/SurvivalManual
 https://github.com/ljmc2000/NoiseLooper
+https://github.com/localsend/localsend/
 https://github.com/markusfisch/BinaryEye
 https://github.com/mastodon/mastodon-android
 https://github.com/michaeltroger/greenpass-android
@@ -91,6 +92,7 @@ https://github.com/UnifiedPush/fcm-distributor
 https://github.com/UP-NextPush/android
 https://github.com/yolosec/routerkeygenAndroid
 https://github.com/Zverik/every_door
+https://gitlab.com/Atharok/BtRemote
 https://gitlab.com/AuroraOSS/AuroraStore
 https://gitlab.com/axet/android-hourly-reminder
 https://gitlab.com/guardianproject/proofmode/proofmode-android
