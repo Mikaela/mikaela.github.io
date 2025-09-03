@@ -16,7 +16,9 @@ lang: en
 - `#800080` - purple
   - `#8A2BE2` - blue violet via ChatGPT via [dev](https://t.me/devs_chat/131577)
     [meme](https://t.me/devs_chat/131597)
+  - `#750851` - velvet
 
 ## See also
 
 - [shutterstock: purple](https://www.shutterstock.com/color/purple)
+- [figma: velvet](https://www.figma.com/colors/velvet/)
