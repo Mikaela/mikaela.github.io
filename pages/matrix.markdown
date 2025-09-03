@@ -862,6 +862,9 @@ am just personally unlucky?
    and their [call for volunteers page](https://diasp.in/volunteer) has sunset
    date set for 2024-01-31. As I have been PirateIRC operator since 2017-05-11,
    Diasp.in received a spot in this listing.
+1. 2025-09-02
+   [Matrix.org experienced poor luck with RAID failures](https://www.theregister.com/2025/09/03/matrixorg_raid_failure/)
+   returning about 36 hours later.
 
 #### Why do you use Matrix URI scheme instead of matrix.to?
 
