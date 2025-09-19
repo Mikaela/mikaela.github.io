@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IRC
-navigation: true
+navigation: false
 permalink: /irc/
 excerpt:
   "Where do you find me at IRC and verify that it's me. Also includes my IRC
