@@ -19,6 +19,7 @@ https://github.com/cliambrown/EasyNoise
 https://github.com/c-lis/morelocale
 https://github.com/cvzi/darkmodewallpaper
 https://github.com/d4rken-org/permission-pilot
+https://github.com/davidventura/firefox-translator
 https://github.com/element-hq/element-android
 https://github.com/element-hq/element-x-android
 https://github.com/F0x1d/LogFox
