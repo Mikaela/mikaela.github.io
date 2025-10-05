@@ -153,10 +153,10 @@ _{{ page.excerpt }}_
 pipx automatically creates virtualenvs and is basically a package manager for
 apps written in Python. Here is a small list to remember in no particular order.
 
-- (`pipx install "git+https://github.com/fsfe/reuse-tool.git"`)
+- (`pipx install "reuse @ git+https://github.com/fsfe/reuse-tool.git"`)
   - Refer to [n/reuse](/n/reuse.html), development version. Package manager
     version is generally good enough.
-- `pipx install "git+https://github.com/yt-dlp/yt-dlp.git"`
+- `pipx install "yt-dlp @ git+https://github.com/yt-dlp/yt-dlp.git@master"`
   - Downloader for multiple online video services, development version.
 - `pipx install xkcdpass`
   - `correct horse battery stable` needs no introduction, the possibilities are
@@ -166,7 +166,7 @@ apps written in Python. Here is a small list to remember in no particular order.
 - (`pipx install pre-commit`)
   - Synced pre-commit hooks for git, probably in all my repositories by now.
     However I would install it from system package manager instead.
-- `pipx install "git+https://github.com/aajanki/yle-dl"`
+- `pipx install "yle-dl[extra] @ git+https://github.com/aajanki/yle-dl"`
   - Downloader for `{areena,arenan}.yle.fi`, Finnish public broadcaster web
     portal.
 - `pipx install "git+https://github.com/syncplay/syncplay.git"`
