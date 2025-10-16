@@ -151,16 +151,16 @@ code {
 // Overrides for dark themes
 @media (prefers-color-scheme: dark) {
   *:not(a) {
-    color: #ffb700 !important;
-    border-color: #ffb700 !important;
+    color: #adff2f !important;
+    border-color: #adff2f !important;
     background-color: #000000 !important;
   }
 
   // Adblocker detection)
   .ftf-dma-note {
     color-scheme: only dark !important;
-    color: #ffb700 !important;
-    border-color: #ffb700 !important;
+    color: #adff2f !important;
+    border-color: #adff2f !important;
     background-color: #000000 !important;
     max-width: 78ch !important;
     margin: 0 auto !important;
