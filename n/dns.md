@@ -34,12 +34,10 @@ _{{ page.excerpt }} For DNS resolvers, refer to [r/resolv.tsv](/r/resolv.tsv)_
   - [Why to use private ECS?](#why-to-use-private-ecs)
   - [Is this a relevant question?](#is-this-a-relevant-question)
   - [Identifying support for ECS](#identifying-support-for-ecs)
-- [[DNS0.eu] or [Quad9]?](#dns0eu-or-quad9)
 - [CLI applications](#cli-applications)
 - [Mobile applications](#mobile-applications)
   - [Android](#android)
   - [Rethink](#rethink)
-  - [FFUpdater](#ffupdater)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -252,7 +250,6 @@ See also:
 
 - [NextDNS (Medium.com): How we made DNS both fast and private with ECS](https://medium.com/nextdns/how-we-made-dns-both-fast-and-private-with-ecs-4970d70401e5)
 - [AdGuard DNS: Privacy-friendly EDNS Client Subnet](https://adguard-dns.io/en/blog/privacy-friendly-edns-client-subnet.html)
-- [DNS0 Privacy Policy](https://www.dns0.eu/privacy)
 
 ### Is this a relevant question?
 
@@ -283,41 +280,6 @@ dig +short TXT whoami-ecs.v4.powerdns.org.
 
 - Note:
   [Cloudflare sends ECS only for `whoami.ds.akahelp.net`, nowhere else](https://developers.cloudflare.com/1.1.1.1/faq/#does-1.1.1.1-send-edns-client-subnet-header).
-
----
-
-## [DNS0.eu] or [Quad9]?
-
-In my experience [DNS0.eu] tends to have better filtering and
-[reporting options](https://www.dns0.eu/report) than [Quad9], while
-[servers being located only in](https://www.dns0.eu/network) the
-[European Union](https://european-union.europa.eu) may either be free brownie
-points on not sending DNS queries outside of the EU or mildly problematic when
-your users start traveling outside the EU which which brings round-trips
-overseas. Additionally private ECS (see above) tends to be bad poor for IPv6 and
-for very small AS like a school, it directs to another side of the country, but
-that is a very minor issue, as opposed to constantly being directed to another
-country.
-
-Meanwhile [Quad9] blocking seems almost as good in
-[tests like this](https://techblog.nexxwave.eu/public-dns-malware-filters-tested-in-september-2024/)
-and they give me impression
-[of more transparency](https://quad9.net/about/transparency-report) (as opposed
-to
-[DNS0.eu only having a <del>Twitter</del> X account](https://twitter.com/dns0eu)).
-[Quad9] also has more options on whether to ECS or not (see above).
-
-The end-users traveling outside of the EU is also solved as they
-[have servers all around the world](https://quad9.net/service/locations/).
-
-Back to [DNS0.eu], while disabling private ECS is not an option, they do have
-other options; [default filters](https://www.dns0.eu),
-[no filters](https://www.dns0.eu/open),
-[heavier filtering (zero)](https://www.dns0.eu/zero) and
-[kids](https://www.dns0.eu/kids).
-
-[DNS0.eu]: https://www.dns0.eu
-[Quad9]: https://quad9.net
 
 ---
 
@@ -419,10 +381,5 @@ connected (why? ask Google, not me). Additionally you may encounter
 Hopefully there is no situation where Rethink stops working and thinks it's
 still working. As can be deduced from this section, sometimes Rethink and I
 disagree with each other. _I don't guarantee I know what I am doing._
-
-### [FFUpdater](https://github.com/Tobi823/ffupdater)
-
-- `https://dns0.eu;2a0f:fc80::;2a0f:fc81::;193.110.81.0;185.253.5.0`
-- `https://open.dns0.eu;2a0f:fc80::ffff;2a0f:fc81::ffff;193.110.81.254;185.253.5.254`
 
 ---
