@@ -156,7 +156,7 @@ apps written in Python. Here is a small list to remember in no particular order.
 - (`pipx install "reuse @ git+https://github.com/fsfe/reuse-tool.git"`)
   - Refer to [n/reuse](/n/reuse.html), development version. Package manager
     version is generally good enough.
-- `pipx install "yt-dlp @ git+https://github.com/yt-dlp/yt-dlp.git@master"`
+- `pipx install "yt-dlp[default] @ git+https://github.com/yt-dlp/yt-dlp.git@master"`
   - Downloader for multiple online video services, development version.
 - `pipx install xkcdpass`
   - `correct horse battery stable` needs no introduction, the possibilities are
