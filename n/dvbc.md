@@ -47,7 +47,7 @@ operaattoria kertomatta Vantaalla ja Tuusulassa.
 
 Lähde:
 [Verkkokauppa.com tuotearvostelut ja -kokemukset: Denver DVBC-120 HD-digiboksi kaapeliverkkoon](https://www.verkkokauppa.com/fi/product/918427/Denver-DVBC-120-HD-digiboksi-kaapeliverkkoon/reviews?sort=rating).
-En olisi saanut kyseistä laitetta toimimaan ilman avulioita kirjoittajia, joiden
+En olisi saanut kyseistä laitetta toimimaan ilman avuliaita kirjoittajia, joiden
 kommentit tulivat Ecosia-haulla vastaan nopeammin kuin operaattorin tieto
 taajuuksista, symboleista, QAMista ja muutenkin vieraista termeistä.
 
