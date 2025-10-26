@@ -6,7 +6,7 @@ excerpt:
 layout: mini
 permalink: /n/google.html
 redirect_from:
-  - /r/gmail.html
+  - /n/gmail.html
 sitemap: true
 lang: fi
 robots: noai
