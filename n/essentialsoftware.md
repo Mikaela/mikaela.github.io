@@ -243,7 +243,7 @@ Consider also adding
 
 ```bash
 # REMOVE ssd FROM rootflags if not on SSD!
-sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=root --append=rootflags=subvol=root,noatime,compress-force=zstd:0,ssd --append=net.ifnames=0 --append=rd.shell=0 --append=rd.emergency=halt --append=mitigations=auto,nosmt
+sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=root --append=rootflags=subvol=root,noatime,compress-force=zstd:0,ssd --append=net.ifnames=0 --append=rd.shell=0 --append=rd.emergency=halt --append=btusb.enable_autosuspend=0 --append=btusb.reset=1 --append=mitigations=auto,nosmt
 ```
 
 - `rhgb quiet` - These enable graphical boot screen and suppressing more verbose
@@ -255,6 +255,13 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
   complaints.
 - `rd.shell=0 rd.emergency=halt` - hardening to not enter debug shell upon wrong
   encryption password
+- `btusb.enable_autosuspend=0` - disables Bluetooth devices suspending
+  automatically. In general suspending them would be a good idea, but in
+  practice I keep losing all Bluetooth devices after a few hours without
+  rebooting and then I have to reboot through KDE Connect for everything to work
+  again.
+- `btusb.reset=1` send a HCI reset command to Bluetooth devices on connection
+  initialization.
 - `mitigations=auto,nosmt` - enable automatic mitigations for CPU
   vulnerabilities including disabling hyperthreading (not default).
 - `lockdown={confidentiality,integrity}` - hardening from secure boot being
