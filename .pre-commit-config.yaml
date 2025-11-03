@@ -76,7 +76,7 @@ repos:
         additional_dependencies: ["pyjson5"]
 
   - repo: https://github.com/fsfe/reuse-tool
-    rev: v6.1.2
+    rev: v6.2.0
     hooks:
       - id: reuse
         exclude: ^.cache\/.*$
@@ -89,7 +89,7 @@ repos:
         language: system
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "3.4.0"
+    rev: "3.4.1"
     hooks:
       - id: editorconfig-checker
         alias: ec
