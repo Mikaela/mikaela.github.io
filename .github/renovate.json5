@@ -1,6 +1,4 @@
-/** @format */
-
 {
   extends: ["local>Mikaela/shell-things:.renovate-shared"],
-  baseBranches: ["master", "lfs-media"],
+  baseBranchPatterns: ["master", "lfs-media"],
 }
