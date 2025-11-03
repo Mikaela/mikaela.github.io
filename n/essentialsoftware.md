@@ -205,7 +205,7 @@ bit...
 sudo fedora-third-party enable
 
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools celluloid cronie cronie-anacron darkman duperemove foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv oidentd rng-tools setroubleshoot snapd sshguard steam-devices symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
+sudo rpm-ostree install android-tools chromium cronie cronie-anacron duperemove foot foot-terminfo gamescope git-lfs iwd mangohud mosh mpv oidentd oxygen-cursor-themes rng-tools setroubleshoot snapd sshguard symlinks syncthing terminus-fonts-console tmux tor torsocks unbound zsh
 
 # Enable automatic updates (check /etc/rpm-ostreed.conf for
 # AutomaticUpdatePolicy=stage (or apply for automatic reboots at probably
@@ -271,6 +271,10 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
 
 ### Situational `rpm-ostree install`
 
+- `chromium` although, mentioned above, may be unhappy should its configuration
+  already exist before staging it. I am particularly suspicious of
+  `/etc/{chromium,chromium-browser}`, which may be caused by my
+  `init-browser-policies.bash` when executed too early.
 - In general `neilalexander`'s yggdrasil copr makes life easier with
   `sudo rpm-ostree install yggdrasil`
 - For ThinkPads: `sudo rpm-ostree install tlp tlp-rdw` is good for battery
