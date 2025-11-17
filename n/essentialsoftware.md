@@ -303,7 +303,8 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
 
 These also affect non-Fedora-Kinoite for which my first production installation
 was on Steam Deck and upon learning of `flatpak uninstall --all`, this section
-got out of paw so it got cut a bit.
+got out of paw so it got cut a bit. The default flatpaks can be figured out
+[from this file](https://pagure.io/pungi-fedora/blob/main/f/fedora.conf).
 
 Always remember that you **_don't paste commands to terminal directly, use a
 text editor in the middle instead!_**
