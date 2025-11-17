@@ -285,7 +285,7 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
     and suggests keeping an eye on the source page
     [rpmfusion howto nvidia#ostree](https://rpmfusion.org/Howto/NVIDIA#OSTree_.28Silverblue.2FKinoite.2Fetc.29)
 - For Steam Deck and other handhelds with their copr:
-  `sudo rpm-ostree install hhd adjustor hhd-ui`
+  `sudo rpm-ostree install hhd hhd-ui`
 - rpmfusion packages
   - For Broadcom WiFi with `rpmfusion-nonfree` enabled:
     `sudo rpm-ostree install akmod-wl kernel-devel`
