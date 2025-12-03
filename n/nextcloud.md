@@ -44,7 +44,7 @@ sudo -u www-data php --define apc.enable_cli=1 occ --help
 sudo -u www-data php --define apc.enable_cli=1 occ status
 
 # Example: self-repair?
-sudo -u www-data php --define apc.enable_cli=1 occ maintenance:repair
+sudo -u www-data php --define apc.enable_cli=1 occ maintenance:repair --include-expensive
 
 # Disable maintenance-mode
 sudo -u www-data php --define apc.enable_cli=1 occ maintenance:mode --off
