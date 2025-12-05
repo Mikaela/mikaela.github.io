@@ -37,6 +37,7 @@ _{{ page.excerpt }}_
     - [General purpose](#general-purpose)
     - [Office](#office)
   - [Snaps](#snaps)
+    - [Discord rich presence ipc socket](#discord-rich-presence-ipc-socket)
   - [Other essential atomic/kinoite/flatpak/gayming reading](#other-essential-atomickinoiteflatpakgayming-reading)
 - [Essential system configuration](#essential-system-configuration)
   - [Debian console](#debian-console)
@@ -320,11 +321,9 @@ sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reb
 
 ```bash
 sudo flatpak install --assumeyes nheko-nightly im.nheko.Nheko//master
-sudo flatpak install --assumeyes flathub com.discordapp.Discord im.dino.Dino info.mumble.Mumble org.briarproject.Briar org.gajim.Gajim org.signal.Signal org.squidowl.halloy org.telegram.desktop
+sudo flatpak install --assumeyes flathub im.dino.Dino info.mumble.Mumble org.briarproject.Briar org.gajim.Gajim org.signal.Signal org.squidowl.halloy org.telegram.desktop
 ```
 
-- Discord is a Slack competitor and somehow challenging Facebook in necessary
-  evil to be in to hear of events. Electron app.
 - Mumble is a FOSS VoIP app Discord tries to challenge and although it has
   gaming features I use it for calling and know more people using it for
   podcasting than calling
@@ -429,9 +428,31 @@ opposed to Snap tying you into one at a time basically always meaning Canonical.
 Regardless I keep having snapd installed so I can install duplicates of software
 like Signal and run two accounts simultaneously.
 
+```bash
+sudo snap install tldr discord
+# SECURITY WARNING! Allow Discord to detect open games (and everything else)
+sudo snap connect discord:system-observe
 ```
-sudo snap install tldr
+
+#### Discord rich presence ipc socket
+
+Based on
+[Discord flatpak instructions](<https://github.com/flathub/com.discordapp.Discord/wiki/Rich-Precense-(discord-rpc)#unsandboxed-applications>)
+
+`mkdir -vp ~/.config/user-tmpfiles.d` and create a whatever `.conf` file there
+containing the following perhaps without comments
+
 ```
+# Make a symlink /run/user/$(id -u)/discord-ipc-0 pointing to
+# /run/user/$(id -u)/snap.discord/discord-ipc-0 so non-snaps recognise it
+L %t/discord-ipc-0 - - - - snap.discord/discord-ipc-0
+# Point the flatpak Discord location to Snap too, whether it works or not.
+L %t/app/com.discordapp.Discord/discord-ipc-0 - - - - %t/snap.discord/discord-ipc-0
+```
+
+The linked flatpak instructions say
+`systemctl --user enable --now systemd-tmpfiles-setup.service`, but I had to
+reboot (relogin would most likely be enough).
 
 ### Other essential atomic/kinoite/flatpak/gayming reading
 
