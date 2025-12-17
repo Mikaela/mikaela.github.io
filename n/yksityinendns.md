@@ -2,7 +2,7 @@
 title: Internetin puhelinluettelon (DNS) suojaaminen mobiililaitteilla
 excerpt:
   DNS kertoo mistä ihmisen muistettavissa oleva verkkotunnus löytyy, mutta
-  mikään ei estä monsteria välissä ohjaamasta väärään paikkan ellei sitä
+  mikään ei estä monsteria välissä ohjaamasta väärään paikkaan ellei sitä
   suojata.
 layout: mini
 permalink: /n/yksityinendns.html
@@ -59,8 +59,8 @@ nimipalvelin tekee sen.
     suodatusta, aikuissivustojen suodatusta, sekä mainostenestoa. Palvelimet
     sijaitsevan Euroopan Unionin jäsenvaltioissa.
 - [Quad9](https://quad9.net/)
-  - Sveitsiläinen voittoatavoittelematon DNS-palvelu haitallisten sivujen
-    suodatuksella. Palvelimia ympäri maailmaa, mukaanlukien Helsingissä ja
+  - Sveitsiläinen voittoa tavoittelematon DNS-palvelu haitallisten sivujen
+    suodatuksella. Palvelimia ympäri maailmaa, mukaan lukien Helsingissä ja
     Tampereella. Yhteistyössä mm. F-Secure.
 
 ## Android
