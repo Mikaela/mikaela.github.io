@@ -24,7 +24,7 @@ palvelin.
 
 Nimipalvelimella on tärkeä rooli. Kaikkien tulisi esimerkiksi muistaa
 verkkotunnus `kanta.fi`, joka kirjoitushetkellä ohjaa IPv4-osoitteeseen
-`91.202.112.2`, jota kukaan ei ala muistamaan ja miks itarvitsisikaan, kun
+`91.202.112.2`, jota kukaan ei ala muistamaan ja miksi tarvitsisikaan, kun
 nimipalvelin tekee sen.
 
 <!-- editorconfig-checker-disable -->
@@ -58,7 +58,7 @@ nimipalvelin tekee sen.
   - Euroopan Unionin rahoittama DNS-palvelu. Tarjoaa mm. haitallisten sivujen
     suodatusta, aikuissivustojen suodatusta, sekä mainostenestoa. Palvelimet
     sijaitsevan Euroopan Unionin jäsenvaltioissa.
-- [Quad9}(https://quad9.net/)
+- [Quad9](https://quad9.net/)
   - Sveitsiläinen voittoatavoittelematon DNS-palvelu haitallisten sivujen
     suodatuksella. Palvelimia ympäri maailmaa, mukaanlukien Helsingissä ja
     Tampereella. Yhteistyössä mm. F-Secure.
@@ -157,8 +157,8 @@ Löydät asentamasi DNS-pavelimet seuraavasti.
 
 ### Apple-asetusprofiileja
 
-Näitä linkkejä on huomattavasti helpompaa käyttää Apple-laitteella, joten avaa
-`aminda.eu/n/yksityinendns` sellaisella, ellet näin ole jo toiminut.
+`aminda.eu/n/yksityinendns` on tämän sivun osoite Apple-laitteella avattavaksi,
+ellet lue tätä sivua sellaisella.
 
 - [AdGuard](https://adguard-dns.io/fi/public-dns.html)
   - Valitse `Vaihtoehto 2: Määritä AdGuard DNS manuaalisesti`, `iOS` ja paina
