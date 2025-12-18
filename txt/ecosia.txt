@@ -1,0 +1,3 @@
+https://www.ecosia.org/search?addon=firefoxgpo&q=%s
+
+https://ac.ecosia.org/autocomplete?q=%s
