@@ -40,6 +40,7 @@ nimipalvelin tekee sen.
   - [Verkko ei ole yhteydessä internetiin](#verkko-ei-ole-yhteydess%C3%A4-internetiin)
 - [Apple](#apple)
   - [Apple-asetusprofiileja](#apple-asetusprofiileja)
+- [Tietokoneet](#tietokoneet)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -179,3 +180,19 @@ ellet lue tätä sivua sellaisella.
 Apple tukee molempia, DNS-over-HTTPS:ää ja DNS-over-TLS:ää, joista aiempi toimii
 käytännössä kaikkialla, toisin kuin Androidin DNS-over-TLS ("Yksityinen DNS"),
 joten Apple ei tarvitse tarkempaa ongelmanratkaisu-ohjetta minun puoleltani.
+
+## Tietokoneet
+
+Tämän sivun aihe on nimenomaan puhelimet ja tabletit. Mikäli kirjoittaisin
+tietokoneista, tämä sivu monimutkaistuisi ja pitenisi moninkertaisesti. Tästä
+syystä osoitan vain oikeaan suuntaan.
+
+- Apple macOS: ks. Apple ylempäntä.
+- Linux: suosittelen tutustumaan Unboundiin
+  ([esimerkki](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/unbound/unbound.conf.d)),
+  mutta systemd-resolved tukee myös DNS-over-TLS:ää
+  ([esimerkki](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/resolved.conf.d)).
+- Windows 11: aseta DNS-palvelimen osoite käsin. IP-osoitteita vastaavat
+  DoH-palvelimet on määritetty rekisterissä
+  `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\<IP-osoite>`
+  ([esimerkki](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/Windows/DoH/DohWellKnownServers.reg)).
