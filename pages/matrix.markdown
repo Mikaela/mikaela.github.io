@@ -250,8 +250,8 @@ moderators would have a couple of other options too:
 - Do you have a
   [Draupnir](https://github.com/the-draupnir-project/Draupnir)/[Mjolnir](https://github.com/matrix-org/mjolnir)?
   `!draupnir protections enable <protection-name-here>` might help you. Consider
-  especially `FirstMessageIsImageProtection` (ban user if their first user is an
-  image), `MentionLimitProtection` (remove messages if they spam ping many
+  especially `FirstMessageIsImageProtection` (ban user if their first message is
+  an image), `MentionLimitProtection` (remove messages if they spam ping many
   users), `MessageIsMediaProtection` (remove files containing media),
   `MessageIsVoiceProtection` (remove voice messages). For more information see
   `!draupnir protections` and `!draupnir help`.
