@@ -281,6 +281,51 @@ dig +short TXT whoami-ecs.v4.powerdns.org.
 - Note:
   [Cloudflare sends ECS only for `whoami.ds.akahelp.net`, nowhere else](https://developers.cloudflare.com/1.1.1.1/faq/#does-1.1.1.1-send-edns-client-subnet-header).
 
+  ### Why I chose ECS?
+
+  The primary argument against ECS is that it leaks your IP address. This folows
+  line of thought that IP address maps to a single individual, which is wrong
+  and which the [Open Wireless movement](https://openwireless.org) seeks to
+  challenge.
+
+  If anyone comes asking, I can say that I run a
+  [openwireless.org](https://openwireless.org) access point and have been doing
+  so for years enthustiastically, while I am afraid I am of a very small
+  minority doing so. Then again many run open networks without being aware of
+  being parts of the movement. The [openwireless.org](https://openwireless.org)
+  website has many myths and FAQs, which accidentally somewhat apply to ECS as
+  well.
+
+Can I prove my claim on running a open network?
+
+- There are a decade old
+  [issues](https://github.com/EFForg/OpenWireless/issues/created_by/Mikaela?q=author%3AMikaela)
+  and
+  [comments](https://github.com/EFForg/OpenWireless/issues/created_by/Mikaela?q=commenter%3AMikaela)
+  from me and while some have aged not so well or I otherwise feel embarassed
+  about them, they demonstrate I have had interest on open networks for a long
+  time.
+- You hopefully cannot find my networks from public WiFi location services,
+  since
+  [I have written about being paranoid about them in 2015](https://github.com/Mikaela/mikaela.github.io/blob/d1e0609ec79c5e6bba06eda8db3dced66835fbfa/_posts/2015-11-29-SSID_optout_nomap.md),
+  which turned out to be justified in 2018 and 2024, and I encourage you to
+  check out the [current iteration of that page](/n/nomap.html)
+- I tried to write a final assignment on WiFi security in 2024. While I burnt
+  out, [it's available on GitHub](https://github.com/Mikaela/wifi-security.tex/)
+  and hopefully manages to communicate that WiFi is inherently insecure, someone
+  is going to break into it if they really want to sooner or later and your best
+  bet is running an open network in addition to your main one, since it's easier
+  to prove than an attack, and never trust your router and secure all your
+  devices as well.
+
+I realize these are very unpopular opinions that often get mocked, but I have
+stood behind them for a decade, no one has convinced me otherwise. And I am
+going to be visible with open networks although likely less so than LGBT\*, but
+that is another subject anyway.
+
+_This subheading was written on 2025-12-30 while suffering migraine, but this
+has been on my mind on occassion anyway._
+
 ---
 
 ## CLI applications
