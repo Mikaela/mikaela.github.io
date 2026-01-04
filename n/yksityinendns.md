@@ -23,9 +23,9 @@ määrittämä nimipalvelin, ellei jopa lähistöllä olevan hyökkääjän hall
 palvelin.
 
 Nimipalvelimella on tärkeä rooli. Kaikkien tulisi esimerkiksi muistaa
-verkkotunnus `kanta.fi`, joka kirjoitushetkellä ohjaa IPv4-osoitteeseen
-`91.202.112.2`, jota kukaan ei ala muistamaan ja miksi tarvitsisikaan, kun
-nimipalvelin tekee sen.
+verkkotunnus `suomi.fi`, joka kirjoitushetkellä ohjaa IPv4-osoitteisiin
+`99.83.234.170` ja `75.2.107.96`, joita kukaan ei ala muistamaan ja miksi
+tarvitsisikaan, kun nimipalvelin tekee sen.
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
