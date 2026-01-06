@@ -31,6 +31,7 @@ _{{ page.excerpt }}_
   - [`rpm-ostree kargs`](#rpm-ostree-kargs)
   - [Situational `rpm-ostree install`](#situational-rpm-ostree-install)
   - [Flatpaks](#flatpaks)
+    - [Alarms](#alarms)
     - [Communication](#communication)
     - [Gayming](#gayming)
       - [Flatpakked Steam for the flatpak-unaware](#flatpakked-steam-for-the-flatpak-unaware)
@@ -316,6 +317,19 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 # I need Nheko
 sudo flatpak remote-add --if-not-exists nheko-nightly https://nheko.im/nheko-reborn/nheko/-/raw/master/nheko-nightly.flatpakrepo
 ```
+
+#### Alarms
+
+```bash
+sudo flatpak install --assumeyes flathub org.kde.kclock org.kde.kteatime
+```
+
+- KClock is the Plasma Mobile clock app featuring what you would expect from a
+  smart phone clock app.
+- KTeaTime is tea timer in the tray bar and more likely to work than Apple Siri
+  going to understand shortcut voice command "musta tee" ("black tea") correctly
+  instead of "musta tie" ("black road") or "musta työ" ("black way)") or just
+  "musta" ("black").
 
 #### Communication
 
