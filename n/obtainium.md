@@ -1,5 +1,5 @@
 ---
-title: Obtainiun
+title: Obtainium
 excerpt:
   Obtainium downloads apps directly from forge/whatever without need for app
   stores and theoretically I can bootstrap it by copy-pasting the txt linked
