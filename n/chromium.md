@@ -22,7 +22,10 @@ robots: noai
 - `--enable-features=WaylandWindowDecorations` - Wayland title bar etc.? No
   idea, everything just has it. TODO!
 - `--profile-directory=Default` - Chromium profile. Doesn't match the profile
-  name specified in profile manager?
+  name specified in profile manager, since the first one is always Default?
+- `--no-startup-window` - Starts in the background (tray if enabled?). I have no
+  idea where is the documentation or where did I find this for my login scripts
+  originally.
 - `--app-id=` - when autostarting a PWA, this is the appid.
 - `--app-run-on-os-login-mode=windowed` - when autostarting a PWA; this opens it
   in a PWA window. TODO: What are the other modes than `windowed`?
