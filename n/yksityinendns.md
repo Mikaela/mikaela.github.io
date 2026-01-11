@@ -165,7 +165,9 @@ ellet lue tätä sivua sellaisella.
   - Valitse `Vaihtoehto 2: Määritä AdGuard DNS manuaalisesti`, `iOS` ja paina
     `Lataa määritysprofiili`.
 - [DNS4EU](https://github.com/whalebone/DNS4EU-Public/tree/main/iOS/DoH)
-  - [Tämä ei tosin toimi.](https://github.com/whalebone/DNS4EU-Public/issues/5)
+  - [Tämä virallinen lähde ei tosin toimi.](https://github.com/whalebone/DNS4EU-Public/issues/5).
+    Kokeile
+    [IPFS-kopiota heinäkuulta 2025](https://bafybeidsilkekdhgf5ljunm4an3bil2wadwc35hob4wiysmmo5nlqkpkfe.ipfs.dweb.link/).
 - [Quad9](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_%28Encrypted%29/#download-profile)
   - Valitse `Recommended: HTTPS(.9)` tai `HTTPS(.11)` jos haluat ECS-tuen. Quad9
     on parhaat ohjeet, mutta valitettavasti vain englanniksi.
