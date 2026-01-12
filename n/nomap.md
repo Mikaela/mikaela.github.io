@@ -64,9 +64,10 @@ which uses MAC addresses instead.
 
 ## Why?
 
-Privacy. WiGLE.net may point your home directly just by entering the SSID and
-who knows how many similar services there are. While I have been thinking of
-this since 2015, there is at least one case where this has been used in 2018:
+**For privacy.** WiGLE.net may point your home directly just by entering the
+SSID and who knows how many similar services there are. While I have been
+thinking of this since 2015, there is at least one case where this has been used
+in 2018:
 
 - [Christian Haschek: The curious case of the Raspberry Pi in the network closet](https://blog.haschek.at/2018/the-curious-case-of-the-RasPi-in-our-network.html)
 
@@ -75,6 +76,20 @@ Wi-Fi networks that hadn't opted out, including Starlink terminals in Ukraine
 and Gaza.
 
 - [KrebsOnSecurity: Why Your Wi-Fi Router Doubles as an Apple AirTag](https://krebsonsecurity.com/2024/05/why-your-wi-fi-router-doubles-as-an-apple-airtag/)
+
+**For practical reasons.** If you have ever _moved_ taking your WiFi access
+point with you, you may have noticed Google/Apple Maps and all locating you to
+your _old home_, which may be annoying with route planner apps and similar.
+
+To fix this, you can either append `_nomap` to your SSID to remove it from the
+positioning process, try going outside with maps open and hoping it will update
+your location or wait patiently for the location services to realize your move.
+
+Another occassionally happening event is the _WiFi AP moving_ by itself.
+Location services may blocklist moving access points without static location, or
+you may find that on the move you always locate to a home point, while it would
+be more useful to just `_nomap` so other location sources would be used
+immediately.
 
 ## `_optout`
 
