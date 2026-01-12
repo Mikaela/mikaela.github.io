@@ -48,6 +48,7 @@ _{{ page.excerpt }}_
   - [BTRFS](#btrfs)
   - [Swap](#swap)
   - [sudo](#sudo)
+    - [The `sudo` lecture for reference](#the-sudo-lecture-for-reference)
   - [systemd presets](#systemd-presets)
   - [Debian](#debian)
     - [sources.list](#sourceslist)
@@ -571,14 +572,20 @@ just a matter of `sudo swapon -a`
 
 ### sudo
 
-- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/sudoers.d
+- [sudoers.d in my "shell-things" (dotfiles)](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/sudoers.d)
 
 Consider these:
 
 ```sudoers
-# Thanks Tails
+# Thank you Tails, for first leading me to these:
+
+# Always ask for password
 Defaults timestamp_timeout=0
+
+# Display asterisks when entering passwords (as opposed to nothing)
 Defaults pwfeedback
+
+# When using sudo, always display the lecture (see below Arch)
 Defaults lecture = always
 ```
 
@@ -591,6 +598,27 @@ Additionally Arch Linux should consider either
 # Defaults to passwordless sudo on Debian.
 #%wheel ALL=(ALL:ALL) ALL
 ```
+
+#### The `sudo` lecture for reference
+
+```txt
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+```
+
+I consider the second point especially important and wonder if it could save
+less experienced users from clickfix by looking scary.
+
+In my root shell, I like to append
+
+> Additionally you shouldn't be logging in as root directly.
+
+while I keep doing it anyway, but that is bad for auditing purposes as there
+will not be a trace in logs who did what as root unlike with `sudo`.
 
 ### systemd presets
 
