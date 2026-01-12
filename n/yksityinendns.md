@@ -25,7 +25,7 @@ palvelin.
 - Lisätietoa suojaamattomaan DNS:ään kohdistuvista uhkista _englanniksi_;
   [Wikipedia: DNSChanger](https://en.wikipedia.org/wiki/DNSChanger),
   [Cloudflare: What is lateral movement?](https://www.cloudflare.com/learning/security/glossary/what-is-lateral-movement/),
-  [Krebs on Security: The Kimwolf Botnet is Stalking Your Local Network](https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/).
+  [Krebs on Security: The Kimwolf Botnet is Stalking Your Local Network (2026-01-02)](https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/).
 
 Nimipalvelimella on tärkeä rooli. Kaikkien tulisi esimerkiksi muistaa
 verkkotunnus `suomi.fi`, joka kirjoitushetkellä ohjaa IPv4-osoitteisiin
