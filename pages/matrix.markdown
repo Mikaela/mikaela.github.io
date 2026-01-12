@@ -866,7 +866,7 @@ am just personally unlucky?
    [Matrix.org experienced poor luck with RAID failures](https://www.theregister.com/2025/09/03/matrixorg_raid_failure/)
    returning about 36 hours later.
 1. 2026(-01-11) began with
-   [an announcement of Envs.net shutting down their Matrix server on 2026-03-01, but no later than 2024-04-01](https://github.com/envs-net/site/blob/e449162225e8c0c5a3f34bd2eba47208a0d31c95/index.php#L29-L56).
+   [an announcement of Envs.net shutting down their Matrix server on 2026-03-01, but no later than 2026-04-01](https://github.com/envs-net/site/blob/e449162225e8c0c5a3f34bd2eba47208a0d31c95/index.php#L29-L56).
 
 #### Why do you use Matrix URI scheme instead of matrix.to?
 
