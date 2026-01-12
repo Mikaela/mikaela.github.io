@@ -183,15 +183,33 @@ Just remember to `pipx upgrade-all` occassionally!
 In order to avoid having to use `rpm-ostree`, Homebrew is practical for some
 tools and applications.
 
-**_This section is still a WIP and TODO omitting important parts._**
-
 ```
 sudo mkdir /home/linuxbrew
 sudo chown -R $(whoami):$(whoami) /home/linuxbrew
 cd /home/linuxbrew
 git clone https://github.com/Homebrew/brew .linuxbrew
-brew install aircrack-ng bat bat-extras btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ripgrep ruby smartmontools weechat
+# The following is only applicable to Fedora Atomic or other distributions with /var/home instead of /home
+# Make a copy to avoid conflicts
+cp /home/linuxbrew/.linuxbrew/bin/brew /home/linuxbrew/.linuxbrew/bin/brew2
+# Replace "pwd -P" with just "pwd" so bottles and all work.
+# Credit: https://github.com/orgs/Homebrew/discussions/1282#discussioncomment-1281288
+sed -i 's/pwd\ \-P/pwd/g' /home/linuxbrew/.linuxbrew/bin/brew2
+# Use the modified copy instead of the original.
+brew2 install aircrack-ng bat bat-extras btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ripgrep ruby smartmontools weechat
 ```
+
+Additionally I have helpful tools for making this easier.
+
+- [Wrapper script automaticising things after cloning](https://gitea.blesmrt.net/mikaela/scripts/src/branch/master/bash/usr-local-bin/homebrew)
+- systemd services for
+  [setting permissions](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system/linuxbrew-permissions.service)
+  ([overriding user/group](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system/linuxbrew-permissions.service.d/user-group-override.conf))
+  and
+  [automatic updates](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system/linuxbrew-update.service)
+  ([specifying user](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system/linuxbrew-update.service.d/00-user.conf))
+  - [linuxbrew-permissions.timer](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system/linuxbrew-permissions.timer)
+    [linuxbrew-update.timer](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system/linuxbrew-update.timer)
+- [System update script aware of the above systemd units](https://gitea.blesmrt.net/mikaela/scripts/src/branch/master/bash/deb-update.bash)
 
 ## Fedora Atomic
 
