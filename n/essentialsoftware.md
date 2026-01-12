@@ -642,8 +642,10 @@ AuthenticationMethods publickey
 
 ### Encrypted DNS
 
-- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/resolved.conf.d
-- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/unbound/unbound.conf.d
+Refer to my "shell-things" (dotfiles) for:
+
+- [resolved.conf.d/](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/resolved.conf.d)
+- [unbound.conf.d/](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/unbound/unbound.conf.d)
 
 ### `/etc/xdg/autostart`
 
