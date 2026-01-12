@@ -696,7 +696,7 @@ Name=Foot Client running tmux
 They workaround either me or the distribution messing things up. While at it,
 don't forget `/etc/sysctl.d`
 
-- https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system
+- [my shell-things/dotfiles (naturally) on /etc/systemd/system](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system)
 
 ### systemd sockets
 
