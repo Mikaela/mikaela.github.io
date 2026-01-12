@@ -37,6 +37,7 @@ _{{ page.excerpt }}_
       - [Flatpakked Steam for the flatpak-unaware](#flatpakked-steam-for-the-flatpak-unaware)
     - [General purpose](#general-purpose)
     - [Office](#office)
+    - [YouTube](#youtube)
   - [Snaps](#snaps)
     - [Discord rich presence ipc socket](#discord-rich-presence-ipc-socket)
   - [Other essential atomic/kinoite/flatpak/gayming reading](#other-essential-atomickinoiteflatpakgayming-reading)
@@ -453,6 +454,26 @@ sudo flatpak install --assumeyes flathub org.freedesktop.Sdk.Extension.texlive o
 - KDE Scanner app (in case of removing all flatpaks)
 - LibreOffice is world-famous office suite
 - Voikko is Finnish spellchecking support for it
+
+#### YouTube
+
+A too popular video/streaming service with ads rampant and Google fighting
+adblockers. When sharing devices and not wanting to log in (I am paying for
+YouTube Music Premium), a desktop client is starting to be more practical and
+these show promise to my eyes:
+
+```bash
+sudo flatpak install --assumeyes flathub jp.nonbili.noutube org.kde.audiotube org.kde.plasmatube rocks.shy.VacuumTube
+```
+
+- `NouTube` is a wrapper for both YouTube and YouTube Music including adblocking
+  and not requiring login.
+- `AudioTube and PlasmaTube` are KDE desktop clients for both services, however
+  the latter requires a Invidious or Piped instance so it has a bit of technical
+  setup. It also functions as a PeerTube client though.
+- `VacuumTube` is YouTube TV client with adblocking and controller support and
+  may be practical for bigger screens or Steam Deck that is always connected to
+  TV.
 
 ### Snaps
 
