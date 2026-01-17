@@ -479,14 +479,19 @@ sudo flatpak install --assumeyes flathub jp.nonbili.noutube org.kde.audiotube or
 
 I heavily prefer flatpaks since they allow multiple simultaneous repositories as
 opposed to Snap tying you into one at a time basically always meaning Canonical.
-Regardless I keep having snapd installed so I can install duplicates of software
-like Signal and run two accounts simultaneously.
 
 ```bash
-sudo snap install tldr discord
+sudo snap install tldr discord vlc
 # SECURITY WARNING! Allow Discord to detect open games (and everything else)
 sudo snap connect discord:system-observe
 ```
+
+- Discord - chat application focused on gayming and communities, propietary.
+- Signal - least bad secure messenger for now. I have two phones, phone numbers
+  and thus Signal accounts, so it needs to be duplicated.
+- TLDR - summarized usage instructions on terminal commands, when man is too
+  much
+- VLC - multimedia player. Verified on Snap, broken since ages ago on flatpak.
 
 #### Discord rich presence ipc socket
 
