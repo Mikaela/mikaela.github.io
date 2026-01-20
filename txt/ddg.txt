@@ -1,5 +1,3 @@
-https://noai.duckduckgo.com/?atb&ka=s&ku=1&kt=monospace&kbj=1&kn=1&kak=-1&kax=-1&kpsb=-1&q=%s
-
 https://noai.duckduckgo.com/?kak=-1&kax=-1&q=%s
 
 https://noai.duckduckgo.com/ac/?type=list&q=%s
