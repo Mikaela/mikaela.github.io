@@ -320,6 +320,10 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
     `sudo rpm-ostree install libavcodec-freeworld`
   - VirtualBox? Also at rpmfusion,
     `sudo rpm-ostree install akmod-VirtualBox VirtualBox`
+- Do we have a identity card reader? Download the
+  [DVV.fi card reader software](https://dvv.fi/en/card-reader-software) from
+  their
+  [all Linux versions page, which contains the rpm](https://dvv.fi/en/linux-versions).
 
 ### Flatpaks
 
