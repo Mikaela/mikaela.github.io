@@ -321,8 +321,8 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
   - VirtualBox? Also at rpmfusion,
     `sudo rpm-ostree install akmod-VirtualBox VirtualBox`
 - The rare scenario where we are not on KDE and don't have KDE Connect
-  installed: `gnome-shell-extension-gsconnect gnome-shell-extension-gsconnect`,
-  maybe `nautilus-gsconnect` or `nemo-gsconnect` if either of those are used.
+  installed: `gnome-shell-extension-gsconnect webextension-gsconnect`, maybe
+  `nautilus-gsconnect` or `nemo-gsconnect` if either of those are used.
 - Do we have a identity card reader? Download the
   [DVV.fi card reader software](https://dvv.fi/en/card-reader-software) from
   their
