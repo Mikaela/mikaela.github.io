@@ -10,8 +10,58 @@ redirect_from: /n/pangram.html
 sitemap: true
 lang: en
 robots: noai
-draft: true
-unpublished: true
 ---
 
 _{{ page.excerpt }}_
+
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
+
+- [English](#english)
+- [Finnish](#finnish)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
+## English
+
+_It's impossible to avoid seeing this somewhere, whether it be font test or
+something._
+
+```
+A quick brown fox jumps over the lazy dog.
+```
+
+A quick brown fox jumps over the lazy dog.
+
+_A quick brown fox jumps over the lazy dog._
+
+**A quick brown fox jumps over the lazy dog.**
+
+**_A quick brown fox jumps over the lazy dog._**
+
+## Finnish
+
+_via Chromium font settings._
+
+<div lang="fi">
+
+```
+Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä.
+```
+
+Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä.
+
+_Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä._
+
+**Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä.**
+
+**_Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä._**
+
+</div>
