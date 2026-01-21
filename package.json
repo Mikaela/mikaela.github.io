@@ -3,7 +3,7 @@
     "@aminda/global-prettier-config": "2025.10.0",
     "@prettier/plugin-ruby": "4.0.4",
     "@prettier/plugin-xml": "3.4.1",
-    "prettier": "3.5.3",
+    "prettier": "3.8.1",
     "prettier-plugin-nginx": "1.0.3",
     "prettier-plugin-sh": "0.15.0",
     "prettier-plugin-toml": "2.0.2"
