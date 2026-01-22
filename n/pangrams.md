@@ -14,6 +14,13 @@ robots: noai
 
 _{{ page.excerpt }}_
 
+- _0 1 2 3 4 5 6 7 8 9_
+- `0 1 2 3 4 5 6 7 8 9`
+- 0 1 2 3 4 5 6 7 8 9
+- _0 1 2 3 4 5 6 7 8 9_
+- **0 1 2 3 4 5 6 7 8 9**
+- **_0 1 2 3 4 5 6 7 8 9_**
+
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
 
@@ -34,17 +41,11 @@ _{{ page.excerpt }}_
 _It's impossible to avoid seeing this somewhere, whether it be font test or
 something._
 
-```
-A quick brown fox jumps over the lazy dog.
-```
-
-A quick brown fox jumps over the lazy dog.
-
-_A quick brown fox jumps over the lazy dog._
-
-**A quick brown fox jumps over the lazy dog.**
-
-**_A quick brown fox jumps over the lazy dog._**
+- `A quick brown fox jumps over the lazy dog.`
+- A quick brown fox jumps over the lazy dog.
+- _A quick brown fox jumps over the lazy dog._
+- **A quick brown fox jumps over the lazy dog.**
+- **_A quick brown fox jumps over the lazy dog._**
 
 ## Finnish
 
@@ -52,16 +53,10 @@ _via Chromium font settings._
 
 <div lang="fi">
 
-```
-Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä.
-```
-
-Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä.
-
-_Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä._
-
-**Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä.**
-
-**_Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä._**
+- `Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä.`
+- Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä.
+- _Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä._
+- **Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä.**
+- **_Charles Darwin jammaili Åken hevixylofonilla Qatarin yöpub Zeligissä._**
 
 </div>
