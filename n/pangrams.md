@@ -32,6 +32,7 @@ _{{ page.excerpt }}_
 - [Czech](#czech)
 - [Spanish](#spanish)
 - [German](#german)
+- [Russian](#russian)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -120,9 +121,9 @@ also from Chromium
 
 <div lang="es">
 
-- `Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú..`
+- `Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú.`
 - Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más
-  exquisita champaña del menú..
+  exquisita champaña del menú.
 - _Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más
   exquisita champaña del menú._
 - **Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más
@@ -143,5 +144,19 @@ Chromium
 - _Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich._
 - **Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich.**
 - **_Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich._**
+
+</div>
+
+## Russian
+
+Chromium. And I know that Atkinson Hyperlegible Next doesn't support Cyrillic so
+it fallbacks.
+
+<div lang="ru">
+- `Съешь же ещё этих мягких французских булок, да выпей чаю.`
+- Съешь же ещё этих мягких французских булок, да выпей чаю.
+- *Съешь же ещё этих мягких французских булок, да выпей чаю.*
+- **Съешь же ещё этих мягких французских булок, да выпей чаю.*
+- ***Съешь же ещё этих мягких французских булок, да выпей чаю.***
 
 </div>
