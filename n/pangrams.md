@@ -47,6 +47,27 @@ something._
 - **A quick brown fox jumps over the lazy dog.**
 - **_A quick brown fox jumps over the lazy dog._**
 
+There are also questions on how do you speell Illinois or Iori? While that is
+more of font testing for homoglyphs than a pangram.
+
+- `lIIN0lS? l0Rl?`
+- lIIN0lS? l0Rl?
+- _lIIN0lS? l0Rl?_
+- **lIIN0lS? l0Rl?**
+- **_lIIN0lS? l0Rl?_**
+
+Speaking of zero,
+
+- `Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you asked me.`
+- Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you
+  asked me.
+- _Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you
+  asked me._
+- **Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you
+  asked me.**
+- **_Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you
+  asked me._**
+
 ## Finnish
 
 _via Chromium font settings._
