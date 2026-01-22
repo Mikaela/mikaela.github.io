@@ -29,6 +29,9 @@ _{{ page.excerpt }}_
 
 - [English](#english)
 - [Finnish](#finnish)
+- [Czech](#czech)
+- [Spanish](#spanish)
+- [German](#german)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -94,5 +97,51 @@ Ja niistä epäselvistä merkeistä...
 - **_Aktia on suomalainen pankki. AKTlA vuorostaan on todennäköisesti huijaus,
   etenkin halutessaan tietää pankkiasioistasi. Sähköisen rikosilmoituksen voi
   tehdä Poliisin verkkosivuilla, mutta PoIiisi tuskin auttaa asiaa._**
+
+</div>
+
+## Czech
+
+from Chromium again
+
+<div lang="cz">
+
+- `Příliš žluťoučký kůň úpěl ďábelské ódy.`
+- Příliš žluťoučký kůň úpěl ďábelské ódy.
+- _Příliš žluťoučký kůň úpěl ďábelské ódy._
+- **Příliš žluťoučký kůň úpěl ďábelské ódy.**
+- **_Příliš žluťoučký kůň úpěl ďábelské ódy._**
+
+</div>
+
+## Spanish
+
+also from Chromium
+
+<div lang="es">
+
+- `Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú..`
+- Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más
+  exquisita champaña del menú..
+- _Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más
+  exquisita champaña del menú._
+- **Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más
+  exquisita champaña del menú.**
+- **_Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más
+  exquisita champaña del menú._**
+
+</div>
+
+## German
+
+Chromium
+
+<div lang="de">
+
+- `Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich.`
+- Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich.
+- _Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich._
+- **Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich.**
+- **_Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich._**
 
 </div>
