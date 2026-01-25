@@ -63,13 +63,21 @@ Speaking of zero,
 
 - `Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you asked me.`
 - Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you
-  asked me.
+  asked me. And if we are to speak about ø, Æ deserves a mention as well, which
+  again would be Norwegian Ä. I think Pandæmonium is a silly word, since I read
+  it as Pandämonium, but then I was told that is the German spelling...
 - _Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you
-  asked me._
+  asked me. And if we are to speak about ø, Æ deserves a mention as well, which
+  again would be Norwegian Ä. I think Pandæmonium is a silly word, since I read
+  it as Pandämonium, but then I was told that is the German spelling..._
 - **Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you
-  asked me.**
+  asked me. And if we are to speak about ø, Æ deserves a mention as well, which
+  again would be Norwegian Ä. I think Pandæmonium is a silly word, since I read
+  it as Pandämonium, but then I was told that is the German spelling...**
 - **_Is it a 0, O, or perhaps even Ø? Ø would be Norwegian version of Ö if you
-  asked me._**
+  asked me. And if we are to speak about ø, Æ deserves a mention as well, which
+  again would be Norwegian Ä. I think Pandæmonium is a silly word, since I read
+  it as Pandämonium, but then I was told that is the German spelling..._**
 
 ## Finnish
 
@@ -158,7 +166,7 @@ it fallbacks.
 - *Съешь же ещё этих мягких французских булок, да выпей чаю.*
 - **Съешь же ещё этих мягких французских булок, да выпей чаю.**
 - ***Съешь же ещё этих мягких французских булок, да выпей чаю.***
--
+- -
 - `В чащах юга жил-был цитрус... — да, но фальшивый экземпляръ!`
 - В чащах юга жил-был цитрус... — да, но фальшивый экземпляръ!
 - *В чащах юга жил-был цитрус... — да, но фальшивый экземпляръ!*
