@@ -117,7 +117,13 @@ Esimerkki hiukan edistyneemmille käyttäjille mm. Android 9 TV:tä varten
 
 ```bash
 adb shell settings put global private_dns_mode hostname
-adb shell settings put global private_dns_specifier noads.joindns4.eu
+# Konservatiivinen vaihtoehto. Ei mainosestosta johtuvaa rikkoutumista, ECS
+# yksityisyys ei huoleta älytelevisiolla, mahdollisesti nopeampi
+# YouTube/Netflix/tms.
+adb shell settings put global private_dns_specifier dns11.quad9.net
+# Avaa verkkosivu dnscheck.tools nähdäksesi muutoksen voimaanastuminen
+# olettaen DHCP:n tarjoavan eri DNS-palvelinta, kuin asetettu yksityinen DNS.
+adb shell am start --user 0 -a android.intent.action.VIEW -d https://dnscheck.tools
 ```
 
 ### Verkko ei ole yhteydessä internetiin
