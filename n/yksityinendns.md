@@ -123,8 +123,11 @@ adb shell settings put global private_dns_mode hostname
 adb shell settings put global private_dns_specifier dns11.quad9.net
 # Avaa verkkosivu dnscheck.tools nähdäksesi muutoksen voimaanastuminen
 # olettaen DHCP:n tarjoavan eri DNS-palvelinta, kuin asetettu yksityinen DNS.
-adb shell am start --user 0 -a android.intent.action.VIEW -d https://dnscheck.tools
+adb shell am start -a android.intent.action.VIEW -d https://dnscheck.tools
 ```
+
+_Lisää adb:tä sivuilla [n/androidtv](/n/androidtv) ja
+[n/androidbattery](/n/androidbattery)._
 
 ### Verkko ei ole yhteydessä internetiin
 
