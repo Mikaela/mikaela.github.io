@@ -35,6 +35,9 @@ _{{ page.excerpt }}_
 1. Paina kaukosäätimen `Menu`-painiketta ja valitse `Lisäasetukset`.
 1. Valitse `Tekstitys`. Aseta _Tekstityksen tyypiksi_ `Kuulovammainen`.
 
+Katso myös
+[yksityinen DNS Android TV:lle](/n/yksityinendns.html#android-debug-bridge).
+
 </div>
 
 <div lang="en">

@@ -42,6 +42,7 @@ tarvitsisikaan, kun nimipalvelin tekee sen.
 - [Nimipalvelin ehdotuksia](#nimipalvelin-ehdotuksia)
 - [Android](#android)
   - [Ehdottamieni nimipalvelimien osoitteita](#ehdottamieni-nimipalvelimien-osoitteita)
+    - [Android Debug Bridge](#android-debug-bridge)
   - [Verkko ei ole yhteydessä internetiin](#verkko-ei-ole-yhteydess%C3%A4-internetiin)
 - [Apple](#apple)
   - [Apple-asetusprofiileja](#apple-asetusprofiileja)
@@ -109,6 +110,15 @@ löytyvät, mutta selkeyden vuoksi Android-käyttäjille:
 
 Tietoturva-asiantuntijana en voi mainita osoitteita, jotka eivät sisällä
 haittaohjelmasuojatusta.
+
+#### Android Debug Bridge
+
+Esimerkki hiukan edistyneemmille käyttäjille mm. Android 9 TV:tä varten
+
+```bash
+adb shell settings put global private_dns_mode hostname
+adb shell settings put global private_dns_specifier noads.joindns4.eu
+```
 
 ### Verkko ei ole yhteydessä internetiin
 
