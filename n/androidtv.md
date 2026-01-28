@@ -51,6 +51,12 @@ tietokoneella:
 adb shell am start -n com.android.vending/com.google.android.finsky.activities.MainActivity
 # Play Protect. TODO: yllä
 adb shell am start -n com.android.vending/com.google.android.finsky.protect.impl.PlayProtectHomeDeepLinkActivity
+# F-Droid Basic. TODO: yllä
+adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity
+# UpToDown (TV UI). TODO: yllä
+adb shell am start -n com.uptodown/.tv.ui.activity.TvMainActivity
+# Aurora Store. TODO: yllä
+adb shell am start -n com.aurora.store/.MainActivity
 ```
 
 Internetin mukaan tosin voi olla parempi asentaa
@@ -89,6 +95,12 @@ If it's installed on the device, it can surely be found by:
 adb shell am start -n com.android.vending/com.google.android.finsky.activities.MainActivity
 # Play Protect. TODO: above
 adb shell am start -n com.android.vending/com.google.android.finsky.protect.impl.PlayProtectHomeDeepLinkActivity
+# F-Droid Basic. TODO: above
+adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity
+# UpToDown (TV UI). TODO: above
+adb shell am start -n com.uptodown/.tv.ui.activity.TvMainActivity
+# Aurora Store. TODO: above
+adb shell am start -n com.aurora.store/.MainActivity
 ```
 
 However according to the internet, it might be a better idea to install
