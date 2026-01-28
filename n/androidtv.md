@@ -60,7 +60,7 @@ adb shell am start -n com.aurora.store/.MainActivity
 ```
 
 Internetin mukaan tosin voi olla parempi asentaa
-[F-Droid](https://f-droid.org/packages/org.fdroid.fdroid) (hyvä ajatus) ja
+[F-Droid](https://f-droid.org/packages/org.fdroid.basic) (hyvä ajatus) ja
 [UpToDown](https://uptodown-android.en.uptodown.com/android) (en tiedä). Miten
 olisi [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)?
 
@@ -104,7 +104,7 @@ adb shell am start -n com.aurora.store/.MainActivity
 ```
 
 However according to the internet, it might be a better idea to install
-[F-Droid](https://f-droid.org/packages/org.fdroid.fdroid) (good idea) and
+[F-Droid](https://f-droid.org/packages/org.fdroid.basic) (good idea) and
 [UpToDown](https://uptodown-android.en.uptodown.com/android) (I don't know). How
 about [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)?
 
