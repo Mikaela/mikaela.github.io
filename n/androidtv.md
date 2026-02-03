@@ -20,8 +20,10 @@ _{{ page.excerpt }}_
 <em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Tekstitykset huonokuuloisille](#tekstitykset-huonokuuloisille)
+- [Yötila](#y%C3%B6tila)
 - [Play Kauppa](#play-kauppa)
 - [Closed captions for hearing impaired](#closed-captions-for-hearing-impaired)
+- [Night light](#night-light)
 - [Play Store](#play-store)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -37,32 +39,49 @@ _{{ page.excerpt }}_
 1. Paina kaukosäätimen `Menu`-painiketta ja valitse `Lisäasetukset`.
 1. Valitse `Tekstitys`. Aseta _Tekstityksen tyypiksi_ `Kuulovammainen`.
 
-## Play Kauppa
+## Yötila
 
-Mahdollisesti kätketty Asetukset -> Sovellukset alle, jossa voi näkyä Play
-Kauppa ja avaa. TODO: Minulla ei itselläni ole Android TV:tä, joten tämä odottaa
-sellaisen kohtaamista jälleen kerran.
-
-Mikäli se on laitteelle asennettuna, se löytyy aivan varmasti ajamalla
-tietokoneella:
+[Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux)
+toimii varmemmin.
 
 ```bash
-# TODO: Kokeile Android TV:llä pelkän Android puhelimen sijaan
-adb shell am start -n com.android.vending/com.google.android.finsky.activities.MainActivity
-# Play Protect. TODO: yllä
-adb shell am start -n com.android.vending/com.google.android.finsky.protect.impl.PlayProtectHomeDeepLinkActivity
-# F-Droid Basic. TODO: yllä
-adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity
-# UpToDown (TV UI). TODO: yllä
-adb shell am start -n com.uptodown/.tv.ui.activity.TvMainActivity
-# Aurora Store. TODO: yllä
-adb shell am start -n com.aurora.store/.MainActivity
+adb shell settings put secure night_display_activated 1
+# Auringonlaskusta -nousuun
+adb shell settings put secure night_display_auto_mode 2
+# Enimmäisvoimakkuus, oletus 50
+adb shell settings put secure night_display_strength 100
 ```
 
-Internetin mukaan tosin voi olla parempi asentaa
-[F-Droid](https://f-droid.org/packages/org.fdroid.basic) (hyvä ajatus) ja
-[UpToDown](https://uptodown-android.en.uptodown.com/android) (en tiedä). Miten
-olisi [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)?
+## Play Kauppa
+
+Ilmeisesti sitä ei ole tarkoitus käyttää suoraan vaan muilla Android-laitteilla
+tai osoitteessa `play.google.com`. Sovellus itse saattaa tosin olla kätketty
+Asetukset -> Sovellukset alle, lisää sovelluksia. Vaihtoehtoisesti löytyy
+järjestelmäsovellukset näyttämällä, jossa taas on Avaa.
+
+Voi olla helpompaa sivuladata
+[F-Droid](https://f-droid.org/packages/org.fdroid.basic) ja avata se komennolla
+
+```bash
+adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity
+```
+
+Sivuladattu [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+taas ilmestyy alkunäyttöön, kuin myös
+[UpToDown](https://uptodown-android.en.uptodown.com/android). Henkilökohtaisesti
+asentaisin molemmat, mutta käyttäisin UpToDownia vain Auroran anonyymitunnusten
+ollessa alhaalla, sillä Aurora Store on Play Kaupan käyttöliittymä ja omat
+tunnukset voivat riskeerata Googlen liikahuomion.
+
+Muita Android TV -yhteensopivia sovelluksia ovat
+[Steam Link](https://play.google.com/store/apps/details?id=com.valvesoftware.steamlink&),
+[Twitch](https://play.google.com/store/apps/details?id=tv.twitch.android.app),
+[NewPipe](https://f-droid.org/packages/org.schabi.newpipe/) (ja siihen perustuva
+[Tunular](https://f-droid.org/packages/org.polymorphicshade.tubular/)).
+
+En ole vielä keskinyt suoraan yhteensopivaa verkkoselainta, mutta sentaisin
+[DuckDuckGon](https://github.com/duckduckgo/Android/releases) yksinkertaisuuden
+vuoksi, jotta jollakin voi avata linkkejä.
 
 ---
 
@@ -82,31 +101,50 @@ _Katso myös
 1. Select `Subtitles` (or was it `Captions`?). Enter _Subtitle type_ and select
    `Hearing impaired`.
 
-## Play Store
+## Night light
 
-Possibly hidden under Settings -> Apps, where Play Store and open might appear.
-TODO: I don't have an Android TV myself, so this is waiting for encountering one
-yet again.
-
-If it's installed on the device, it can surely be found by:
+[Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux)
+works more certainly.
 
 ```bash
-# TODO: Try this on Android TV and not just phone
-adb shell am start -n com.android.vending/com.google.android.finsky.activities.MainActivity
-# Play Protect. TODO: above
-adb shell am start -n com.android.vending/com.google.android.finsky.protect.impl.PlayProtectHomeDeepLinkActivity
-# F-Droid Basic. TODO: above
-adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity
-# UpToDown (TV UI). TODO: above
-adb shell am start -n com.uptodown/.tv.ui.activity.TvMainActivity
-# Aurora Store. TODO: above
-adb shell am start -n com.aurora.store/.MainActivity
+adb shell settings put secure night_display_activated 1
+# Sunset to sunrise
+adb shell settings put secure night_display_auto_mode 2
+# Max strength, default 50
+adb shell settings put secure night_display_strength 100
 ```
 
-However according to the internet, it might be a better idea to install
-[F-Droid](https://f-droid.org/packages/org.fdroid.basic) (good idea) and
-[UpToDown](https://uptodown-android.en.uptodown.com/android) (I don't know). How
-about [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)?
+## Play Store
+
+Apparently you aren't supposed to use it directly, but through another Android
+device or on `play.google.com` in web browser. Regardless, the app may be hdden
+under Settings -> Applications, more apps. Alternatively it's under system
+applications where there is an open button
+
+It may be easier to sideload
+[F-Droid](https://f-droid.org/packages/org.fdroid.basic) and open it by running
+
+```bash
+adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity
+```
+
+Meanwhile sideloaded
+[Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases) appears on
+homescreen just like
+[UpToDown](https://uptodown-android.en.uptodown.com/android). Personally I would
+install both, but only use UpToDown when Aurora anonymous account token
+dispenser is down, because Aurora Store is a Play Store frontend and using
+personal accounts with it may risk Google Scrutinity.
+
+Other Android TV compatible apps include
+[Steam Link](https://play.google.com/store/apps/details?id=com.valvesoftware.steamlink&),
+[Twitch](https://play.google.com/store/apps/details?id=tv.twitch.android.app),
+[NewPipe](https://f-droid.org/packages/org.schabi.newpipe/) (ja siihen perustuva
+[Tunular](https://f-droid.org/packages/org.polymorphicshade.tubular/)).
+
+I am yet to think of a compatible web browser, but I would install
+[DuckDuckGo](https://github.com/duckduckgo/Android/releases) for simplicity and
+having at least one application capable of opening links.
 
 ---
 

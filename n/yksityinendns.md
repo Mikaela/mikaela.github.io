@@ -121,8 +121,10 @@ adb shell settings put global private_dns_mode hostname
 # yksityisyys ei huoleta älytelevisiolla, mahdollisesti nopeampi
 # YouTube/Netflix/tms.
 adb shell settings put global private_dns_specifier dns11.quad9.net
-# Avaa verkkosivu dnscheck.tools nähdäksesi muutoksen voimaanastuminen
+# Avaa oletusselaimessa dnscheck.tools nähdäksesi muutoksen voimaanastuminen
 # olettaen DHCP:n tarjoavan eri DNS-palvelinta, kuin asetettu yksityinen DNS.
+# Toki vaatii verkkoselaimen, sivulataa vaikkapa
+# https://github.com/duckduckgo/android/releases/latest
 adb shell am start -a android.intent.action.VIEW -d https://dnscheck.tools
 ```
 
