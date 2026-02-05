@@ -21,10 +21,14 @@ _{{ page.excerpt }}_
 
 - [Tekstitykset huonokuuloisille](#tekstitykset-huonokuuloisille)
 - [Yötila](#y%C3%B6tila)
-- [Play Kauppa](#play-kauppa)
+- [Sovelluksia](#sovelluksia)
+  - [Oleellisia sovelluksia](#oleellisia-sovelluksia)
+  - [Sivuladattavia sovelluksia](#sivuladattavia-sovelluksia)
 - [Closed captions for hearing impaired](#closed-captions-for-hearing-impaired)
 - [Night light](#night-light)
-- [Play Store](#play-store)
+- [Applications](#applications)
+  - [Relevant applications](#relevant-applications)
+  - [Applications to sideload](#applications-to-sideload)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -52,36 +56,48 @@ adb shell settings put secure night_display_auto_mode 2
 adb shell settings put secure night_display_strength 100
 ```
 
-## Play Kauppa
+## Sovelluksia
 
-Ilmeisesti sitä ei ole tarkoitus käyttää suoraan vaan muilla Android-laitteilla
-tai osoitteessa `play.google.com`. Sovellus itse saattaa tosin olla kätketty
-Asetukset -> Sovellukset alle, lisää sovelluksia. Vaihtoehtoisesti löytyy
-järjestelmäsovellukset näyttämällä, jossa taas on Avaa.
+Play Kauppa löytyy Asetukset -> Sovellukset -> Näytä kaikki sovellukset -> Näytä
+järjestelmäsovellukset -> Google Play Kauppa -> Avaa. Sitä ei ilmeisesti ole
+tarkoitus käyttää suoraan vaan muulta laitteelta tai `play.google.com` kautta.
 
-Voi olla helpompaa sivuladata
-[F-Droid](https://f-droid.org/packages/org.fdroid.basic) ja avata se komennolla
+Suosittelen asentamaan
+[`Kodi`](https://play.google.com/store/apps/details?id=org.xbmc.kodi)
+-sovelluksen, jossa `Lisäosat` pohjalta löytyy `Android-sovellukset`, jossa on
+mahdollista painaa Play Kauppaa pitkään ja valita `Lisää suokikeihin`.
+`Android-sovellukset` nimensä mukaisesti listaa kaikki asennetut sovellukset,
+eikä vain TV-yhteensopivat.
 
-```bash
-adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity
-```
+Kodin asetukset -> Käyttöliittymä -> Käynnistys -> Aloitusruutu -> Suosikit
+tekee siitä vielä helpompaa. Kodin laajennuksista löytyy muutakin kivaa, kuten
+`FOSDEM Videos`, `Internet Archive`, `media.ccc.de` ja `Open-Meteo`.
 
-Sivuladattu [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
-taas ilmestyy alkunäyttöön, kuin myös
-[UpToDown](https://uptodown-android.en.uptodown.com/android). Henkilökohtaisesti
-asentaisin molemmat, mutta käyttäisin UpToDownia vain Auroran anonyymitunnusten
-ollessa alhaalla, sillä Aurora Store on Play Kaupan käyttöliittymä ja omat
-tunnukset voivat riskeerata Googlen liikahuomion.
+### Oleellisia sovelluksia
 
-Muita Android TV -yhteensopivia sovelluksia ovat
-[Steam Link](https://play.google.com/store/apps/details?id=com.valvesoftware.steamlink&),
-[Twitch](https://play.google.com/store/apps/details?id=tv.twitch.android.app),
-[NewPipe](https://f-droid.org/packages/org.schabi.newpipe/) (ja siihen perustuva
-[Tunular](https://f-droid.org/packages/org.polymorphicshade.tubular/)).
+- [Kodi](https://play.google.com/store/apps/details?id=org.xbmc.kodi)
+  - [Kodi kaukosäädin puhelimelle](https://play.google.com/store/apps/details?id=org.xbmc.kore)
+- [YLE Areena](https://play.google.com/store/apps/details?id=com.yle.webtv)
+- [MTV Katsomo](https://play.google.com/store/apps/details?id=fi.mtvkatsomo)
+- [Ruutu](https://play.google.com/store/apps/details?id=com.thirdpresence.ruutu)
+- [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux)
+- [Twitch](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
+- [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc)
+- [Steam Link](https://play.google.com/store/apps/details?id=com.valvesoftware.steamlink)
 
-En ole vielä keskinyt suoraan yhteensopivaa verkkoselainta, mutta sentaisin
-[DuckDuckGon](https://github.com/duckduckgo/Android/releases) yksinkertaisuuden
-vuoksi, jotta jollakin voi avata linkkejä.
+### Sivuladattavia sovelluksia
+
+- [F-Droid](https://f-droid.org/packages/org.fdroid.basic) (ei ilmesty
+  käynnistimeen)
+  - `adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity`
+- [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+  - Play Kauppaa helpompi löytää. Käytä aina anonyymiä tunnusta, jotta Google ei
+    häiriinny.
+- [DuckDuckGon](https://github.com/duckduckgo/Android/releases) (ei ilmesty
+  käynnistimeen)
+- [Tubular](https://f-droid.org/packages/org.polymorphicshade.tubular/)
+- [UpToDown](https://uptodown-android.en.uptodown.com/android)
+  - Käytä vain kun Aurora Store ei toimi.
 
 ---
 
@@ -114,37 +130,51 @@ adb shell settings put secure night_display_auto_mode 2
 adb shell settings put secure night_display_strength 100
 ```
 
-## Play Store
+## Applications
 
-Apparently you aren't supposed to use it directly, but through another Android
-device or on `play.google.com` in web browser. Regardless, the app may be hdden
-under Settings -> Applications, more apps. Alternatively it's under system
-applications where there is an open button
+Play Store can be found from Settings -> Applications -> Display all
+applications -> Display system applications -> Google Play Store -> Open.
+Apparently one isn't supposed to use it directly, but through another device or
+`play.google.com`.
 
-It may be easier to sideload
-[F-Droid](https://f-droid.org/packages/org.fdroid.basic) and open it by running
+I recommend installing
+[`Kodi`](https://play.google.com/store/apps/details?id=org.xbmc.kodi) where
+within `Add-ons` menu there are `Android-applications`, where it's possible to
+long press `Play Store` and select `Add to favourites`. `Android-applications`
+displays all the Android apps and not only TV compatible ones like the name
+says.
 
-```bash
-adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity
-```
+It's possible to set favourites to start when Kodi is opened through Kodi
+Settings -> Interface -> Startup -> Beginning screen -> Favourites.
 
-Meanwhile sideloaded
-[Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases) appears on
-homescreen just like
-[UpToDown](https://uptodown-android.en.uptodown.com/android). Personally I would
-install both, but only use UpToDown when Aurora anonymous account token
-dispenser is down, because Aurora Store is a Play Store frontend and using
-personal accounts with it may risk Google Scrutinity.
+Kodi addons repository also has other nice things, such as `FOSDEM Videos`,
+`Internet Archive`, `media.ccc.de` and `Open-Meteo`.
 
-Other Android TV compatible apps include
-[Steam Link](https://play.google.com/store/apps/details?id=com.valvesoftware.steamlink&),
-[Twitch](https://play.google.com/store/apps/details?id=tv.twitch.android.app),
-[NewPipe](https://f-droid.org/packages/org.schabi.newpipe/) (ja siihen perustuva
-[Tunular](https://f-droid.org/packages/org.polymorphicshade.tubular/)).
+### Relevant applications
 
-I am yet to think of a compatible web browser, but I would install
-[DuckDuckGo](https://github.com/duckduckgo/Android/releases) for simplicity and
-having at least one application capable of opening links.
+- [Kodi](https://play.google.com/store/apps/details?id=org.xbmc.kodi)
+  - [Kodi remote control for phone](https://play.google.com/store/apps/details?id=org.xbmc.kore)
+- Finnish users will want streaming services that are known from TV channels
+  - [YLE Areena](https://play.google.com/store/apps/details?id=com.yle.webtv)
+  - [MTV Katsomo](https://play.google.com/store/apps/details?id=fi.mtvkatsomo)
+  - [Ruutu](https://play.google.com/store/apps/details?id=com.thirdpresence.ruutu)
+- [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux)
+- [Twitch](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
+- [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc)
+- [Steam Link](https://play.google.com/store/apps/details?id=com.valvesoftware.steamlink)
+
+### Applications to sideload
+
+- [F-Droid](https://f-droid.org/packages/org.fdroid.basic) (won't appear in
+  Android TV launcher)
+  - `adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity`
+- [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+  - Easier to find than Play Store. Always use anonymous accounts.
+- [DuckDuckGon](https://github.com/duckduckgo/Android/releases) (won't appear in
+  Android TV launcher)
+- [Tubular](https://f-droid.org/packages/org.polymorphicshade.tubular/)
+- [UpToDown](https://uptodown-android.en.uptodown.com/android)
+  - Use only when Aurora Store doesn't work.
 
 ---
 
