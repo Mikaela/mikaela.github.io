@@ -1,10 +1,12 @@
 ---
 title: Notes on Android TV
 excerpt:
-  Huonokuuloisten tekstityksen käyttöönotto Android TVllä. Enabling hearing
-  impaired subtitles on Android TV.
+  Huonokuuloisten tekstityksen käyttöönotto ja muita piilotettuja jekkuja
+  Android TVllä. Enabling hearing impaired subtitles and other tricks on Android
+  TV.
 layout: mini
 permalink: /n/androidtv.html
+redirect_from: /n/googletv.html
 sitemap: true
 lang: en
 robots: noai
