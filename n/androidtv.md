@@ -95,7 +95,7 @@ tekee siitä vielä helpompaa. Kodin laajennuksista löytyy muutakin kivaa, kute
 - [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
   - Play Kauppaa helpompi löytää. Käytä aina anonyymiä tunnusta, jotta Google ei
     häiriinny.
-- [DuckDuckGon](https://github.com/duckduckgo/Android/releases) (ei ilmesty
+- [DuckDuckGo](https://github.com/duckduckgo/Android/releases) (ei ilmesty
   käynnistimeen)
 - [Tubular](https://f-droid.org/packages/org.polymorphicshade.tubular/)
 - [UpToDown](https://uptodown-android.en.uptodown.com/android)
@@ -172,7 +172,7 @@ Kodi addons repository also has other nice things, such as `FOSDEM Videos`,
   - `adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity`
 - [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
   - Easier to find than Play Store. Always use anonymous accounts.
-- [DuckDuckGon](https://github.com/duckduckgo/Android/releases) (won't appear in
+- [DuckDuckGo](https://github.com/duckduckgo/Android/releases) (won't appear in
   Android TV launcher)
 - [Tubular](https://f-droid.org/packages/org.polymorphicshade.tubular/)
 - [UpToDown](https://uptodown-android.en.uptodown.com/android)
