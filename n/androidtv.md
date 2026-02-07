@@ -21,12 +21,14 @@ _{{ page.excerpt }}_
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
-- [Tekstitykset huonokuuloisille](#tekstitykset-huonokuuloisille)
+- [DigiTV Tekstitykset huonokuuloisille](#digitv-tekstitykset-huonokuuloisille)
+- [Tiliasetukset - Videon automaattinen toisto, Vain sovellukset-tila](#tiliasetukset---videon-automaattinen-toisto-vain-sovellukset-tila)
 - [Yötila](#y%C3%B6tila)
 - [Sovelluksia](#sovelluksia)
   - [Oleellisia sovelluksia](#oleellisia-sovelluksia)
   - [Sivuladattavia sovelluksia](#sivuladattavia-sovelluksia)
-- [Closed captions for hearing impaired](#closed-captions-for-hearing-impaired)
+- [DigiTV Closed captions for hearing impaired](#digitv-closed-captions-for-hearing-impaired)
+- [Account settings - Autoplay video, Apps-only mode](#account-settings---autoplay-video-apps-only-mode)
 - [Night light](#night-light)
 - [Applications](#applications)
   - [Relevant applications](#relevant-applications)
@@ -39,11 +41,34 @@ _{{ page.excerpt }}_
 
 <div lang="fi">
 
-## Tekstitykset huonokuuloisille
+## DigiTV Tekstitykset huonokuuloisille
 
 1. Avaa televisiokanava.
 1. Paina kaukosäätimen `Menu`-painiketta ja valitse `Lisäasetukset`.
 1. Valitse `Tekstitys`. Aseta _Tekstityksen tyypiksi_ `Kuulovammainen`.
+
+## Tiliasetukset - Videon automaattinen toisto, Vain sovellukset-tila
+
+Oletuksena Google TV Stramer häiritsevästi <del>mainostaa</del> suosittelee
+kaikenlaista useista eri lähteistä ja tekee asennetuista sovelluksista
+hankalampia nähdä. Kaikeksi onneksi tämä on helposti korjattavissa.
+
+_Tämän näkymän voi saada helpommin näkyviin painamalla pitkään kaukosäätimen
+Koti-painiketta._
+
+Pika-asetukset -> Kaikki asetukset -> Tilit ja profiilit -> tilisi:
+
+- _Profiililukolla_ saa TVn pyytämään Google-tunnuksen salasanaa mikäli ei halua
+  muita käyttäjiä omalle profiililleen.
+- _Videon automaattinen toisto_ pois päältä lisää saavutettavuutta etenkin
+  mainosten kohdalla.
+- _Ääniapuri_ mahdollistaa _ääniohjauksen_ käytöstäpoistamisen mahdollisesti
+  lisäten (illuusiota) yksityisyydestä kun mikrofonia ei vahingossa voi laittaa
+  kaukosäätimen painikkeestakaan päälle.
+- _Vain sovellukset -tila_ helpottaa laitteen käyttöä huomattavasti. Ylhäällä
+  yhä rullaavista <del>mainoksista</del> suosituksista sinulle huolimatta,
+  kaikki asennetut sovellukset ovat helpommin käden ulottuvilla ja korostetumpia
+  oletusnäkymään verrattuna.
 
 ## Yötila
 
@@ -112,12 +137,34 @@ _Katso myös
 
 <div lang="en">
 
-## Closed captions for hearing impaired
+## DigiTV Closed captions for hearing impaired
 
 1. Open a TV channel.
 1. Press the `Menu` button on the remote control and select `Advanced settings`.
 1. Select `Subtitles` (or was it `Captions`?). Enter _Subtitle type_ and select
    `Hearing impaired`.
+
+## Account settings - Autoplay video, Apps-only mode
+
+By default Google TV streamer disturbingly <del>advertises</del> recommends a
+bit of this and that from many different sources and makes installed apps more
+difficult to see. Luckily this is easy to fix.
+
+_This screen may be easier to reach by holding the remote's home button for
+three seconds._
+
+Quick Settings -> All settings -> Accounts and profiles -> YOUR ACCOUNT:
+
+- _Profile lock_ makes the TV ask for Google account password in case it's
+  desirable for other users to not access your profile.
+- _Autoplay video_ disabled increases accessibility especially with
+  advertisements.
+- _Voice assistant_, _Voice control_ disables using microphone by accident
+  possibly increasing privacy (or giving an illusion of it)
+- _Apps-only mode_ makes using the device significantly easier. While
+  <del>advertisements</del> recommendations keep scrolling on top, all installed
+  TV compatible applications will be easier to reach and emphatised as opposed
+  to the default view.
 
 ## Night light
 
