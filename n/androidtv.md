@@ -27,12 +27,14 @@ _{{ page.excerpt }}_
 - [Sovelluksia](#sovelluksia)
   - [Oleellisia sovelluksia](#oleellisia-sovelluksia)
   - [Sivuladattavia sovelluksia](#sivuladattavia-sovelluksia)
+    - [F-Droid ohjelmistolähteitä](#f-droid-ohjelmistol%C3%A4hteit%C3%A4)
 - [DigiTV Closed captions for hearing impaired](#digitv-closed-captions-for-hearing-impaired)
 - [Account settings - Autoplay video, Apps-only mode](#account-settings---autoplay-video-apps-only-mode)
 - [Night light](#night-light)
 - [Applications](#applications)
   - [Relevant applications](#relevant-applications)
   - [Applications to sideload](#applications-to-sideload)
+    - [F-Droid repositories](#f-droid-repositories)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -114,6 +116,8 @@ tekee siitä vielä helpompaa. Kodin laajennuksista löytyy muutakin kivaa, kute
 
 ### Sivuladattavia sovelluksia
 
+Huomaa suoritinarkkitehtuuri. Google TV Streamer on `armeabi-v7a`.
+
 - [F-Droid](https://f-droid.org/packages/org.fdroid.basic) (ei ilmesty
   käynnistimeen)
   - `adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity`
@@ -125,6 +129,18 @@ tekee siitä vielä helpompaa. Kodin laajennuksista löytyy muutakin kivaa, kute
 - [Tubular](https://f-droid.org/packages/org.polymorphicshade.tubular/)
 - [UpToDown](https://uptodown-android.en.uptodown.com/android)
   - Käytä vain kun Aurora Store ei toimi.
+- [Ooni Probe](https://f-droid.org/packages/org.openobservatory.ooniprobe/)?
+
+#### F-Droid ohjelmistolähteitä
+
+Suorita yksi kerrallaan kun olet lisännyt ohjelmistolähteen.
+
+```bash
+# IzzySoft
+adb shell am start -a android.intent.action.VIEW -d "fdroidrepos://apt.izzysoft.de/fdroid/repo?fingerprint=3bf0d6abfeae2f401707b6d966be743bf0eee49c2561b9ba39073711f628937a"
+# GuardianProject
+adb shell am start -a android.intent.action.VIEW -d "fdroidrepos://guardianproject.info/fdroid/repo?fingerprint=b7c2eefd8dac7806af67dfcd92eb18126bc08312a7f2d6f3862e46013c7a6135"
+```
 
 ---
 
@@ -214,6 +230,8 @@ Kodi addons repository also has other nice things, such as `FOSDEM Videos`,
 
 ### Applications to sideload
 
+Note CPU architechture. Google TV Streamer has `armeabi-v7a`.
+
 - [F-Droid](https://f-droid.org/packages/org.fdroid.basic) (won't appear in
   Android TV launcher)
   - `adb shell am start -n org.fdroid.basic/org.fdroid.MainActivity`
@@ -224,6 +242,18 @@ Kodi addons repository also has other nice things, such as `FOSDEM Videos`,
 - [Tubular](https://f-droid.org/packages/org.polymorphicshade.tubular/)
 - [UpToDown](https://uptodown-android.en.uptodown.com/android)
   - Use only when Aurora Store doesn't work.
+- [Ooni Probe](https://f-droid.org/packages/org.openobservatory.ooniprobe/)?
+
+#### F-Droid repositories
+
+Execute one at a time after they have been added.
+
+```bash
+# IzzySoft
+adb shell am start -a android.intent.action.VIEW -d "fdroidrepos://apt.izzysoft.de/fdroid/repo?fingerprint=3bf0d6abfeae2f401707b6d966be743bf0eee49c2561b9ba39073711f628937a"
+# GuardianProject
+adb shell am start -a android.intent.action.VIEW -d "fdroidrepos://guardianproject.info/fdroid/repo?fingerprint=b7c2eefd8dac7806af67dfcd92eb18126bc08312a7f2d6f3862e46013c7a6135"
+```
 
 ---
 
