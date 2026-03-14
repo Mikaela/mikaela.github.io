@@ -362,7 +362,7 @@ sudo flatpak install --assumeyes flathub org.kde.kclock org.kde.kteatime
 
 ```bash
 sudo flatpak install --assumeyes nheko-nightly im.nheko.Nheko//master
-sudo flatpak install --assumeyes flathub im.dino.Dino info.mumble.Mumble org.briarproject.Briar org.gajim.Gajim org.signal.Signal org.squidowl.halloy org.telegram.desktop
+sudo flatpak install --assumeyes flathub im.dino.Dino info.mumble.Mumble org.briarproject.Briar org.gajim.Gajim org.jitsi.jitsi-meet org.signal.Signal org.squidowl.halloy org.telegram.desktop
 ```
 
 - Mumble is a FOSS VoIP app Discord tries to challenge and although it has
@@ -371,6 +371,7 @@ sudo flatpak install --assumeyes flathub im.dino.Dino info.mumble.Mumble org.bri
 - Dino is a modern XMPP client
 - Briar is a P2P messenger using Tor or LAN, no bluetooth on desktop yet?
 - Gajim is XMPP client that does everything
+- Jitsi Meet is a WebRTC based video conference app
 - Signal is E2EE messenger
 - Halloy is a modern IRC client
 - Telegram is a common chat-app although not that secure
