@@ -534,6 +534,31 @@ reboot (relogin would most likely be enough).
 
 Since software being present and doing nothing may not actually do anything.
 
+<!--
+
+### User details on systemd
+
+`aminda` is being used as the username in all examples for a reason.
+
+- Viewing user details: `userdbctl user aminda`
+
+Changing user details:
+
+```bash
+homectl update aminda --real-name "Aminda Suomalainen" --alias mikaela,ciblia --shell /bin/zsh --language fi_FI.UTF-8,en_DK.UTF-8,en_IE.UTF-8
+```
+
+Explanations and other potentially interesting flags when not obvious:
+
+- `--alias` allows referring to the user with multiple usernames
+- `--email-addres`
+- `--location`
+- `--umask`
+- `--setenv=ENV=value`
+- `--timezone=Europe/Helsinki`
+
+-->
+
 ### Debian console
 
 - `sudo dpkg-reconfigure console-setup`
