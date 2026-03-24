@@ -299,7 +299,11 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --delete=rootflags=subvol=roo
   `init-browser-policies.bash` when executed too early.
 - In general `neilalexander`'s yggdrasil copr makes life easier with
   `sudo rpm-ostree install yggdrasil`
-- For ThinkPads: `sudo rpm-ostree install tlp tlp-rdw` is good for battery
+- For ThinkPads: `sudo rpm-ostree install tlp tlp-rdw` is good for battery.
+  Starting from Fedora 44
+  `sudo rpm-ostree override remove tuned-ppd --install tlp --install tlp-rdw`
+  may be required instead? Or it might be a beta issue that
+  `net.hadess.PowerProfiles.service` already exists.
 - For NVIDIA propietary drivers with `sudo fedora-third-party enable`:
   `sudo rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia-cuda`
   - This also requires
