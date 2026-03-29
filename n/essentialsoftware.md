@@ -322,7 +322,7 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
     `sudo rpm-ostree install libdvdcss`
   - Bluetooth APTX HD codec: `sudo rpm-ostree install pipewire-codec-aptx` which
     allows better quality playback with some devices e.g. Fairbuds XL.
-  - For
+  - For mpv
     [hevc playback support](https://discussion.fedoraproject.org/t/how-do-i-enable-h265-hevc-playback-in-fedora-41-or-42-2025/147870),
     `sudo rpm-ostree install libavcodec-freeworld`
   - VirtualBox? Also at rpmfusion,
