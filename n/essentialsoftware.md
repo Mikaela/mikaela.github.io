@@ -227,7 +227,7 @@ bit...
 sudo fedora-third-party enable
 
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs iwd mangohud mosh mpv ncdu oidentd oxygen-cursor-themes plocate rng-tools setroubleshoot snapd sshguard symlinks syncthing terminus-fonts-console tmux tor torbrowser-launcher torsocks unbound zsh
+sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs iwd mangohud mosh mpv mumble mumble-overlay mumble-plugins ncdu oidentd oxygen-cursor-themes plocate rng-tools setroubleshoot snapd sshguard symlinks syncthing terminus-fonts-console thunderbird tmux tor torbrowser-launcher torsocks unbound zsh
 
 # Enable automatic updates (check /etc/rpm-ostreed.conf for
 # AutomaticUpdatePolicy=stage (or apply for automatic reboots at probably
@@ -315,7 +315,7 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
     [rpmfusion howto nvidia#ostree](https://rpmfusion.org/Howto/NVIDIA#OSTree_.28Silverblue.2FKinoite.2Fetc.29)
 - For Steam Deck and other handhelds with their copr:
   `sudo rpm-ostree install hhd hhd-ui`
-- rpmfusion packages
+- rpmfusion packages (`steam` is there by the way)
   - For Broadcom WiFi with `rpmfusion-nonfree` enabled:
     `sudo rpm-ostree install akmod-wl kernel-devel`
   - DVD playback: `sudo rpm-ostree install rpmfusion-free-release-tainted` and
