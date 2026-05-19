@@ -39,7 +39,6 @@ _{{ page.excerpt }}_
     - [Office](#office)
     - [YouTube](#youtube)
   - [Snaps](#snaps)
-    - [Discord rich presence ipc socket](#discord-rich-presence-ipc-socket)
   - [Other essential atomic/kinoite/flatpak/gayming reading](#other-essential-atomickinoiteflatpakgayming-reading)
 - [Essential system configuration](#essential-system-configuration)
   - [Debian console](#debian-console)
@@ -315,7 +314,7 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
     [rpmfusion howto nvidia#ostree](https://rpmfusion.org/Howto/NVIDIA#OSTree_.28Silverblue.2FKinoite.2Fetc.29)
 - For Steam Deck and other handhelds with their copr:
   `sudo rpm-ostree install hhd hhd-ui`
-- rpmfusion packages (`steam` is there by the way)
+- rpmfusion packages (`steam` and `discord` are there by the way)
   - For Broadcom WiFi with `rpmfusion-nonfree` enabled:
     `sudo rpm-ostree install akmod-wl kernel-devel`
   - DVD playback: `sudo rpm-ostree install rpmfusion-free-release-tainted` and
@@ -366,6 +365,8 @@ sudo flatpak install --assumeyes flathub org.kde.kclock org.kde.kteatime
   "musta" ("black").
 
 #### Communication
+
+**_TODO: Kaidan, NeoChat, Tokodon_**
 
 ```bash
 sudo flatpak install --assumeyes nheko-nightly im.nheko.Nheko//master
@@ -493,17 +494,16 @@ I heavily prefer flatpaks since they allow multiple simultaneous repositories as
 opposed to Snap tying you into one at a time basically always meaning Canonical.
 
 ```bash
-sudo snap install tldr discord vlc
-# SECURITY WARNING! Allow Discord to detect open games (and everything else)
-sudo snap connect discord:system-observe
+sudo snap install tldr vlc
 ```
 
-- Discord - chat application focused on gayming and communities, propietary.
 - Signal - least bad secure messenger for now. I have two phones, phone numbers
   and thus Signal accounts, so it needs to be duplicated.
 - TLDR - summarized usage instructions on terminal commands, when man is too
   much
 - VLC - multimedia player. Verified on Snap, broken since ages ago on flatpak.
+
+<!--
 
 #### Discord rich presence ipc socket
 
@@ -524,6 +524,8 @@ L %t/app/com.discordapp.Discord/discord-ipc-0 - - - - %t/snap.discord/discord-ip
 The linked flatpak instructions say
 `systemctl --user enable --now systemd-tmpfiles-setup.service`, but I had to
 reboot (relogin would most likely be enough).
+
+-->
 
 ### Other essential atomic/kinoite/flatpak/gayming reading
 
