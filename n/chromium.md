@@ -15,6 +15,8 @@ robots: noai
 
 # Chromium terminal flags
 
+_{{ page.excerpt }}_
+
 - `--ozone-platform=wayland` - Start with `wayland` instead of `X11`. For
   automatic try `--ozone-platfor-hintm=auto` instead
 - `--disk-cache-dir='/dev/null'` - Disable disk cache (Chromium equivalent of
