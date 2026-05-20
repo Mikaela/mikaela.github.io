@@ -226,7 +226,7 @@ bit...
 sudo fedora-third-party enable
 
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs iwd mangohud mosh mpv mumble mumble-overlay mumble-plugins ncdu oidentd oxygen-cursor-themes plocate rng-tools setroubleshoot snapd sshguard symlinks syncthing terminus-fonts-console thunderbird tmux tor torbrowser-launcher torsocks unbound zsh
+sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs iwd mangohud mosh mpv mpv-mpris mumble mumble-overlay mumble-plugins ncdu oidentd oxygen-cursor-themes plocate rng-tools setroubleshoot snapd sshguard symlinks syncthing terminus-fonts-console thunderbird tmux tor torbrowser-launcher torsocks unbound zsh
 
 # Enable automatic updates (check /etc/rpm-ostreed.conf for
 # AutomaticUpdatePolicy=stage (or apply for automatic reboots at probably
