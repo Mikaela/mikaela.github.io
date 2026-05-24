@@ -17,10 +17,10 @@ _{{ page.excerpt }}_
 
 # Internetin puhelinluettelo, DNS
 
-Yleensä WLAN-tukiasema kertoo käytetyn DNS-palvelimen, mutta voiko siihen
-luottaa? Se voi olla internet-palveluntarjoajan nimipalvelin, tai haittaohjelman
-määrittämä nimipalvelin, ellei jopa lähistöllä olevan hyökkääjän hallitsema
-palvelin.
+Yleensä matkapuhelinoperaattori tai WLANia käytettäessä -tukiasema kertoo
+käytetyn DNS-palvelimen, mutta voiko siihen luottaa? Se voi olla
+internet-palveluntarjoajan nimipalvelin, haittaohjelman määrittämä nimipalvelin,
+ellei jopa lähistöllä olevan hyökkääjän hallitsema palvelin.
 
 - Lisätietoa suojaamattomaan DNS:ään kohdistuvista uhkista _englanniksi_ mm.;
   [Wikipedia: DNSChanger](https://en.wikipedia.org/wiki/DNSChanger),
