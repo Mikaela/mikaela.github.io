@@ -44,10 +44,12 @@ tarvitsisikaan, kun nimipalvelin tekee sen.
 - [Android](#android)
   - [Ehdottamieni nimipalvelimien osoitteita](#ehdottamieni-nimipalvelimien-osoitteita)
     - [Android Debug Bridge](#android-debug-bridge)
-  - [Verkko ei ole yhteydessä internetiin](#verkko-ei-ole-yhteydess%C3%A4-internetiin)
 - [Apple](#apple)
   - [Apple-asetusprofiileja](#apple-asetusprofiileja)
 - [Tietokoneet](#tietokoneet)
+- [Ongelmia ja ratkaisuja](#ongelmia-ja-ratkaisuja)
+  - [Mobiilidata ei vain toimi](#mobiilidata-ei-vain-toimi)
+  - [Android: Verkko ei ole yhteydessä internetiin](#android-verkko-ei-ole-yhteydess%C3%A4-internetiin)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -132,39 +134,6 @@ adb shell am start -a android.intent.action.VIEW -d https://dnscheck.tools
 _Lisää adb:tä sivuilla [n/androidtv](/n/androidtv) ja
 [n/androidbattery](/n/androidbattery)._
 
-### Verkko ei ole yhteydessä internetiin
-
-> Ei pääsyä yksityiselle DNS-palvelimelle
-
-Useimmiten tämä virheilmoitus ilmestyy käytetyn WLAN-tukiaseman palomuurin
-estäessä liikenteen TCP-porttiin 853, jota yksityinen DNS (teknisesti
-DNS-over-TLS käyttää), etenkin julkisissa verkoissa, kuten terveysasemalla,
-kirjastossa, metrossa, joissa yksityisen DNS:n käyttäminen olisi erittäin
-tärkeää.
-
-Paras ratkaisu olisi olla yhteydessä verkon ylläpitoon tai tekniseen tukeen ja
-vinkata heille miten portti 853 voisi olla hyvä sallia, linkittää heille
-valitsemasi DNS-palvelintarjoaja tai ehkä jopa tämä sivu.
-
-Olisiko mahdollista olla käyttämättä kyseistä WiFi-verkkoa ja sen sijaan käyttää
-vain mobiilidataa (vaikkakin se ei ole yhtä energiatehokasta)?
-
-Mikäli WiFi-verkon käyttäminen painaa vaakakupissa enemmän kuin tietoturva ja
-haitalliset sivustot eivät ole huoli, jäljelle jää yksityisen DNS:n
-käytöstäpoistaminen:
-
-- `Asetukset` -> `Verkko ja internet` -> (ehkä lisäasetukset tms. pohjalla ->)
-  `Yksityinen DNS` -> `Automaattinen`
-
-Muista verkosta poistaessasi käydä valitsemassa
-`yksityisen DNS-tarjoajan isäntänimi` takaisin!
-
-Mitä automaattinen tarkoittaa? Android yrittää yhdistää tukiaseman määrittämään
-palvelimeen suojattua yhteyttä. Se onnistuu jos onnistuu, ja jos se epäonnistuu,
-käytetään suojaamatonta yhteyttä. Android ei myöskään tarkista SSL-varmennetta,
-joten ilman todella hyvää tuuria tämä ei lisää tietoturvaa yhtään, se vain on
-Androidin oletusasetus ja ehkä pienempi paha, kuin `Ei käytössä`.
-
 ## Apple
 
 _iOS, TvOS, iPadOS, macOS, yms._
@@ -222,3 +191,81 @@ syystä osoitan vain oikeaan suuntaan.
   DoH-palvelimet on määritetty rekisterissä
   `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\<IP-osoite>`
   ([esimerkki](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/Windows/DoH/DohWellKnownServers.reg)).
+
+## Ongelmia ja ratkaisuja
+
+Ainakin tietooni saatettuja sellaisia.
+
+### Mobiilidata ei vain toimi
+
+Mobiilioperaattorit eivät välillä tiedä itsekään mitä myyvät. Tämän vuoksi voi
+olla oleellista perehtyä matkapuhelinlaskuusi, katsoa minkä tyyppisestä
+liittymästä maksat ja mitä siihen kuuluu.
+
+Tapauksessa **DNA Business Varma 5G 300M** hakukone löytää
+[tämän lehdistötiedotteet](https://www.sttinfo.fi/tiedote/70246795/dna-helpottaa-verkkohuijausten-torjuntaa-uusi-yritysliittyma-dna-varma-auttaa-estamaan-haitalliset-sivustot?lang=fi)
+ja siihen sisäänrakennetun lisäpalvelun **DNA Selausturva**.
+
+Ilmeisesti kyseessä on vain yritysasiakkaille tarjottava lisäpalvelu, joka
+suojaa haitallisilta sivustoilta, sekä estää yksityisen DNS:n käytön (mitä DNA
+ei osaa kertoa).
+[DNA selausturvan tuotesivu](https://www.dna.fi/yrityksille/selausturva)
+vuorostaan kertoo:
+
+> Miten aloitan palvelun käytön?
+>
+> ...
+>
+> Muutama puhelimen asetus on hyvä varmistaa, ennen kuin aloitat palvelun
+> käytön:
+>
+> Ota WiFi-yhteys pois päältä. Selausturva toimii vain, kun käytät nettiä
+> mobiiliverkossa. Ota myös suojattu VPN-yhteys pois päältä. Selausturvan
+> suodatus toimii, kun käytät nettiä ilman suojattua VPN-yhteyttä.
+
+Toisinsanoen DNA selausturvaa käyttävillä liittymillä on kiellettyä käyttää
+WiFiä/WLANia ja VPN:ää. Rivien välistä voidaan myös lukea, että yksityinen DNS
+ja toisen SIM-kortin käyttäminen puhelimessa samanaikaisesti ovat yhtälailla
+kiellettyjä tai muuten selausturvan tarjoama suoja ohitetaan ja laitteen
+tietoturva vaarantuu.
+
+Henkilökohtainen suositukseni on irtisanoa kyseinen palvelu tai siirtyä
+liittymään, jossa ei ole tälläistä ominaisuutta, sillä lähtökohtaisesti
+yksityinen DNS toimii liittymästä ja yhteyden muodosta riippumatta.
+
+WLAN on myös ympäristöystävällisempi kuin mobiilidata, sillä se kuluttaa
+vähemmän energiaa mobiilidataan nähden tai tapauksissa, joissa puhelimessa on
+4G-yhteys WLAN-tukiaseman käyttäessä 5G-yhteyttä.
+
+### Android: Verkko ei ole yhteydessä internetiin
+
+> Ei pääsyä yksityiselle DNS-palvelimelle
+
+Useimmiten tämä virheilmoitus ilmestyy käytetyn WLAN-tukiaseman palomuurin
+estäessä liikenteen TCP-porttiin 853, jota yksityinen DNS (teknisesti
+DNS-over-TLS käyttää), etenkin julkisissa verkoissa, kuten terveysasemalla,
+kirjastossa, metrossa, joissa yksityisen DNS:n käyttäminen olisi erittäin
+tärkeää.
+
+Paras ratkaisu olisi olla yhteydessä verkon ylläpitoon tai tekniseen tukeen ja
+vinkata heille miten portti 853 voisi olla hyvä sallia, linkittää heille
+valitsemasi DNS-palvelintarjoaja tai ehkä jopa tämä sivu.
+
+Olisiko mahdollista olla käyttämättä kyseistä WiFi-verkkoa ja sen sijaan käyttää
+vain mobiilidataa (vaikkakin se ei ole yhtä energiatehokasta)?
+
+Mikäli WiFi-verkon käyttäminen painaa vaakakupissa enemmän kuin tietoturva ja
+haitalliset sivustot eivät ole huoli, jäljelle jää yksityisen DNS:n
+käytöstäpoistaminen:
+
+- `Asetukset` -> `Verkko ja internet` -> (ehkä lisäasetukset tms. pohjalla ->)
+  `Yksityinen DNS` -> `Automaattinen`
+
+Muista verkosta poistaessasi käydä valitsemassa
+`yksityisen DNS-tarjoajan isäntänimi` takaisin!
+
+Mitä automaattinen tarkoittaa? Android yrittää yhdistää tukiaseman määrittämään
+palvelimeen suojattua yhteyttä. Se onnistuu jos onnistuu, ja jos se epäonnistuu,
+käytetään suojaamatonta yhteyttä. Android ei myöskään tarkista SSL-varmennetta,
+joten ilman todella hyvää tuuria tämä ei lisää tietoturvaa yhtään, se vain on
+Androidin oletusasetus ja ehkä pienempi paha, kuin `Ei käytössä`.
