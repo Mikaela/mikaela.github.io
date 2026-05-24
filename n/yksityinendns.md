@@ -22,10 +22,11 @@ luottaa? Se voi olla internet-palveluntarjoajan nimipalvelin, tai haittaohjelman
 määrittämä nimipalvelin, ellei jopa lähistöllä olevan hyökkääjän hallitsema
 palvelin.
 
-- Lisätietoa suojaamattomaan DNS:ään kohdistuvista uhkista _englanniksi_;
+- Lisätietoa suojaamattomaan DNS:ään kohdistuvista uhkista _englanniksi_ mm.;
   [Wikipedia: DNSChanger](https://en.wikipedia.org/wiki/DNSChanger),
   [Cloudflare: What is lateral movement?](https://www.cloudflare.com/learning/security/glossary/what-is-lateral-movement/),
-  [Krebs on Security: The Kimwolf Botnet is Stalking Your Local Network (2026-01-02)](https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/).
+  [Krebs on Security: The Kimwolf Botnet is Stalking Your Local Network (2026-01-02)](https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/),
+  [Krebs on Security: Russia Hacked Routers to Steal Microsoft Office Tokens (2026-04-07)](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/).
 
 Nimipalvelimella on tärkeä rooli. Kaikkien tulisi esimerkiksi muistaa
 verkkotunnus `suomi.fi`, joka kirjoitushetkellä ohjaa IPv4-osoitteisiin
