@@ -459,7 +459,7 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
 #### Office
 
 ```bash
-sudo flatpak install --assumeyes flathub org.kde.skanpage org.libreoffice.LibreOffice org.libreoffice.LibreOffice.BundledExtension.Voikko
+sudo flatpak install --assumeyes flathub org.kde.skanpage org.libreoffice.LibreOffice org.libreoffice.LibreOffice.BundledExtension.Voikko org.gnome.glabels-3
 # May be huge, especially TeXlive
 sudo flatpak install --assumeyes flathub org.freedesktop.Sdk.Extension.texlive org.kde.kile
 ```
@@ -467,6 +467,8 @@ sudo flatpak install --assumeyes flathub org.freedesktop.Sdk.Extension.texlive o
 - KDE Scanner app (in case of removing all flatpaks)
 - LibreOffice is world-famous office suite
 - Voikko is Finnish spellchecking support for it
+- gLabels is an easy answer to the infrequently-frequently question "how do I
+  print this image X times on the same paper?"
 
 #### YouTube
 
