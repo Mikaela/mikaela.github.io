@@ -5,7 +5,7 @@ title:
   asetukset"
 category: [finnish]
 tags: [Kotka, 112, Suomi, vaaratiedotteet, FinTraffic, Android]
-lang: ri
+lang: fi
 ---
 
 _Jotka ovat_ Ohita älä häiritse -asetus, Hallinnoi sovellusta, jos käyttämätön,
@@ -108,12 +108,29 @@ järjestyksessä palaten aina tähän ruutuun, katso nämä alivalikot:
   Tärkein asetus on viimeisenä, _**poista käytöstä**_ _Hallinnoi sovellusta, jos
   käyttämätön_. Muuten et kuukauden kuluttua sovelluksen asennuksesta saa mitään
   vaaratiedotteita, ellet säännöllisesti availlut sitä.
+  - Vanhemmilla laitteilla _Sovellusten käyttöoikeudet_ ovat vain kytkimiä,
+    joissa sijainti on joko sallittu tai ei sallittu. Älä siis huolestu mikäli
+    et näe _salli aina_ tai _vain käytetttäessä_ tai edes _tarkka sijainti_
+    kohtia.
 - _Mobiilidatan käyttö_. Täällä pitäisi olla valittuna _Taustatiedot_,
   mahdollisesti varmuuden vuoksi _Rajaton mobiilidatan käyttö_.
 - _Sovelluksen akunkäyttö_. Varmista, että täällä on _Salli käyttö taustalla_,
   laitteesta riippuen _Salli rajoittamaton akunkäyttö_.
+  - Tämä voi olla myös nimellä _Akku_, josta löytyy _Akun käytön optimointi_,
+    josta tulee valita _Kaikki sovellukset_, selata _112 Suomi_ ja valita _Älä
+    optimoi_.
 - _Hallinnoi sovellusta, jos käyttämätön_. Tämä löytyi myös _Luvat_ alapuolelta,
   mutta _**sen täytyy olla pois käytöstä**_.
+  - **Mikäli et näe tätä asetusta kummassakaan paikassa**, avaa (Google) _Play
+    Kauppa_, paina profiilikuvaasi oikeassa ylänurkassa, _Ylläpidä sovelluksia
+    tai laitteita_, avaa Play Protect (siinä todennäköisesti lukee _Haitallisia
+    sovelluksia ei löytynyt_ ja _Play Protect tarkasti ...), paina oikeassa
+    ylänurkassa mutterin kuvaa, paina _Käyttämättömien sovellusten luvat_,
+    valitse ylhäältä _Kaikki sovellukset_, etsi _112 Suomi_ ja poista täppä
+    _Poista luvat, jos sovellusta ei käytetä. Toista tämä samalla muillekin
+    oleellisille sovelluksille, joita et päivittäin käytä. Tietosuoja tietysti
+    heikentyy, mikäli sovelluksilla on turhia lupia, mutta ne
+    vaaratiedotteet/droonivaroitukset...
 - _Herätykset ja muistutukset_, tämä sentään on oletuksena _Sallittu_.
 
 Nyt toivottavasti saat vaaratiedotteet puhelimestasi, vaikket mahdollisesti
@@ -141,6 +158,18 @@ ole samoilla nimillä tai dokumentoimissani paikoissa, mihin vinkkiä
 mahdollisesti antoivat [Don't kill my app!](https://dontkillmyapp.com/),
 _Solulähetyksen_ useat nimet ja mahdollisesti aiemmin mainitut vanhempien
 laitteiden polut.
+
+Toinen toivomani tapa on
+[Common Alerting Protocol (CAP)](https://en.wikipedia.org/wiki/Common_Alerting_Protocol)
+-syöte, jolla mm. KDE-projektin
+[FOSS Public Alert Server](https://alerts.kde.org/sources/status) saisi
+vaaratiedotteet tietoonsa ja voisi välittää ne mm.
+[KPublicAlerts](https://invent.kde.org/utilities/kpublicalerts)
+-työpöytäsovelluksen ja
+[FOSS Warn](https://f-droid.org/packages/de.nucleus.foss_warn/)
+-mobiilisovelluksen käyttäjille, sillä vaaratiedotteiden kannalta mitä
+useammalla tavalla niitä toimitetaan, sitä todennäköisemmin kaikki saavat ne
+tietoonsa.
 
 ## Ilmatila- ja merisulut
 
@@ -177,3 +206,6 @@ suosittelen
 kuuluvaa pattereilla toimivaa FM-Radiota ja sen virittämistä
 [YLE Radio Suomen taajuudelle](https://yle.fi/aihe/a/20-203991). Se on ainut
 tapa, jolla olen itse varmasti kuullut merialuesulutkin oleskellessani Kotkassa.
+
+PS. Vilkaise myös kirjoitukseni
+[n/yksityinendns sen sijaan, että maksaisit ylimääräistä maksuttomasta haitallisten sivujen estämisestä](/n/yksityinendns).
