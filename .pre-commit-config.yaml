@@ -18,7 +18,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext", "md,markdown"]
@@ -41,7 +41,7 @@ repos:
         args: [--autofix, --no-ensure-ascii]
 
   - repo: https://github.com/pre-commit/sync-pre-commit-deps
-    rev: v0.0.3
+    rev: v0.0.5
     hooks:
       - id: sync-pre-commit-deps
 
@@ -51,7 +51,7 @@ repos:
       - id: check-pre-commit-ci-config
 
   - repo: https://github.com/thlorenz/doctoc
-    rev: v2.2.0
+    rev: v2.5.0
     hooks:
       - id: doctoc
         args:
@@ -63,14 +63,14 @@ repos:
           ]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.31.3
+    rev: 0.38.0
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
       - id: check-gitlab-ci
 
   - repo: https://github.com/fsfe/reuse-tool
-    rev: v5.0.2
+    rev: v6.2.0
     hooks:
       - id: reuse
         exclude: ^.cache\/.*$
@@ -90,7 +90,7 @@ repos:
         types: [image]
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "3.2.0"
+    rev: "3.11.1"
     hooks:
       - id: editorconfig-checker
         alias: ec
