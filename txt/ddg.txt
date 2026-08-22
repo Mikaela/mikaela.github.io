@@ -1,3 +1,3 @@
-https://noai.duckduckgo.com/?kak=-1&kax=-1&q=%s
+https://noai.duckduckgo.com/?extensioninstalled=1&q=%s
 
 https://noai.duckduckgo.com/ac/?type=list&q=%s
