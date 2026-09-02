@@ -6,7 +6,7 @@
 		"corepack": "latest",
 		"prettier": "3.8.4",
 		"prettier-plugin-nginx": "1.0.3",
-		"prettier-plugin-sh": "0.18.1",
+		"prettier-plugin-sh": "0.19.0",
 		"prettier-plugin-toml": "2.0.6"
 	},
 	"packageManager": "pnpm@11.22.0+sha512.1ff870c4c6133dfd88fb2afc46dd13d47f09c9794b438c6fdb47ca98caf3bc16381ee0be93a091b8e3824cf01f889f46d7d9e20910fb0be1ab0fb5baa80dd621",
