@@ -27,6 +27,7 @@ _{{ page.excerpt }}_
   - [pipx](#pipx)
   - [Homebrew](#homebrew)
 - [Fedora Atomic](#fedora-atomic)
+  - [Stop multiarch from ruining your day](#stop-multiarch-from-ruining-your-day)
   - [`rpm-ostree install` everywhere](#rpm-ostree-install-everywhere)
   - [`rpm-ostree kargs`](#rpm-ostree-kargs)
   - [Situational `rpm-ostree install`](#situational-rpm-ostree-install)
@@ -34,7 +35,6 @@ _{{ page.excerpt }}_
     - [Alarms](#alarms)
     - [Communication](#communication)
     - [Gayming](#gayming)
-      - [Flatpakked Steam for the flatpak-unaware](#flatpakked-steam-for-the-flatpak-unaware)
     - [General purpose](#general-purpose)
     - [Office](#office)
     - [YouTube](#youtube)
@@ -219,6 +219,25 @@ _By which I mean Fedora Kinoite unless otherwise specified._ A system where
 everyone runs the same image, except that as this section shows, I add to it a
 bit...
 
+### Stop multiarch from ruining your day
+
+Unless you know you want to have packages not native to your system, you will
+want to block them especially on atomic platforms to avoid mysterious errors and
+instead see the relevant errors.
+
+1. `sudo mkdir -p /etc/dnf/repos.override.d/`
+2. Create whatever ending to `.repo` there with contents:
+
+```txt
+[*]
+# Exclude i386 and i686 packages, this is a x86_64 system
+excludepkgs=*.i386 *.i686
+```
+
+although I initially put `i386` there by accident having been thinking of
+`i686`, I doubt it will hurt. Platform independent packages are `.all` anyway
+and I doubt this affects anything base image if there is anything.
+
 ### `rpm-ostree install` everywhere
 
 ```bash
@@ -227,13 +246,17 @@ bit...
 sudo fedora-third-party enable
 
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs iwd mangohud mosh mpv mpv-mpris mumble mumble-overlay mumble-plugins ncdu oidentd oxygen-cursor-themes plocate rng-tools setroubleshoot snapd sshguard symlinks syncthing terminus-fonts-console thunderbird tmux tor torbrowser-launcher torsocks unbound zsh
+sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs iwd mangohud mosh mpv mpv-mpris mumble mumble-overlay mumble-plugins ncdu oidentd oxygen-cursor-themes plocate rng-tools setroubleshoot sshguard symlinks syncthing terminus-fonts-console thunderbird tmux tor torbrowser-launcher torsocks unbound zsh
 
 # Enable automatic updates (check /etc/rpm-ostreed.conf for
 # AutomaticUpdatePolicy=stage (or apply for automatic reboots at probably
 # unwanted times & difficulties with encryption passphrase) and
 # LockLayering=false unless you want to be stuck with the base image)
 sudo systemctl enable rpm-ostreed-automatic.timer --now
+
+# Enabling checking for firemware updates won't hurt if it's disabled for
+# some reason causing errors in KDE Discover
+sudo systemctl enable fwupd-refresh.timer
 
 # Apply changes now, fix permission for my /root config
 sudo rpm-ostree apply-live && sudo chmod a+x /var/roothome
@@ -296,6 +319,7 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
 
 ### Situational `rpm-ostree install`
 
+- `snapd` if really required for two Signal desktops or similar
 - `chromium` although, mentioned above, may be unhappy should its configuration
   already exist before staging it. I am particularly suspicious of
   `/etc/{chromium,chromium-browser}`, which may be caused by my
@@ -315,16 +339,20 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
     [rpmfusion howto nvidia#ostree](https://rpmfusion.org/Howto/NVIDIA#OSTree_.28Silverblue.2FKinoite.2Fetc.29)
 - For Steam Deck and other handhelds with their copr:
   `sudo rpm-ostree install hhd hhd-ui`
-- rpmfusion packages (`steam` and `discord` are there by the way)
+- rpmfusion packages (`discord` is there by the way should the ipc be wanted)
   - For Broadcom WiFi with `rpmfusion-nonfree` enabled:
     `sudo rpm-ostree install akmod-wl kernel-devel`
   - DVD playback: `sudo rpm-ostree install rpmfusion-free-release-tainted` and
     `sudo rpm-ostree install libdvdcss`
   - Bluetooth APTX HD codec: `sudo rpm-ostree install pipewire-codec-aptx` which
-    allows better quality playback with some devices e.g. Fairbuds XL.
+    allows better quality playback with some devices e.g. Fairbuds XL, while
+    others go Sony LDAC that seems default installed or comes from somewhere
+    else.
   - For mpv
     [hevc playback support](https://discussion.fedoraproject.org/t/how-do-i-enable-h265-hevc-playback-in-fedora-41-or-42-2025/147870),
-    `sudo rpm-ostree install libavcodec-freeworld`
+    `sudo rpm-ostree install libavcodec-freeworld`. However it may cause random
+    conflicts and you may end up running a `brew install mpv` anyway bypassing
+    the issues and need.
   - VirtualBox? Also at rpmfusion,
     `sudo rpm-ostree install akmod-VirtualBox VirtualBox`
 - The rare scenario where we are not on KDE and don't have KDE Connect
@@ -371,11 +399,10 @@ sudo flatpak install --assumeyes flathub org.kde.kclock org.kde.kteatime
 
 ```bash
 sudo flatpak install --assumeyes nheko-nightly im.nheko.Nheko//master
-sudo flatpak install --assumeyes flathub im.dino.Dino org.briarproject.Briar org.gajim.Gajim org.jitsi.jitsi-meet org.signal.Signal org.squidowl.halloy org.telegram.desktop
+sudo flatpak install --assumeyes flathub im.dino.Dino org.gajim.Gajim org.jitsi.jitsi-meet org.signal.Signal org.squidowl.halloy org.telegram.desktop
 ```
 
 - Dino is a modern XMPP client
-- Briar is a P2P messenger using Tor or LAN, no bluetooth on desktop yet?
 - Gajim is XMPP client that does everything
 - Jitsi Meet is a WebRTC based video conference app
 - Signal is E2EE messenger
@@ -391,7 +418,11 @@ sudo flatpak install --assumeyes flathub com.heroicgameslauncher.hgl com.valveso
 sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.MangoHud//24.08 org.freedesktop.Platform.VulkanLayer.gamescope//24.08
 ```
 
-- HeroicGames supports GOG and Epic Games (and Amazon)
+- HeroicGames supports GOG and Epic Games (and Amazon). And can be configured to
+  put Proton versions to Steam directory somewhat replacing ProtonUp.
+  - In stetings set Steam base path to `~/.steam/steam` for native or
+    `~/.var/app/com.valvesoftware.Steam/.steam/steam/` for flatpak **and** in
+    WINE management press the cog and check to download to Steam directory.
 - Steam needs no explanation
 - Proton GE is improved version of Proton, the WINE based compatibility layer
   for playing Windows games and probably needs no introduction either
@@ -403,6 +434,8 @@ sudo flatpak install --assumeyes flathub org.freedesktop.Platform.VulkanLayer.Ma
   after the dualslash change the branch from `24.08` if they decide to update to
   require a newer version.
 
+<!--
+
 ##### Flatpakked Steam for the flatpak-unaware
 
 Looking at you, handhelddaemon, 2025-05-28.
@@ -412,6 +445,8 @@ mkdir -vp $HOME/.local/share/
 ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam $HOME/.local/share/Steam
 ln -nsfv $HOME/.var/app/com.valvesoftware.Steam/.steam $HOME/.steam
 ```
+
+-->
 
 #### General purpose
 
@@ -442,7 +477,7 @@ sudo flatpak install --assumeyes flathub app.devsuite.Ptyxis com.calibre_ebook.c
 - Kate is my go-to text editor when I want a GUI (otherwise it's the rpm-ostree
   nvim) and if the flatpak didn't exist (and if I wouldn't likely be using nvim
   where flatpaks have no power), I would make it yet another rpm-ostree
-  install...
+  install... Although I have been learning to quickly `kwrite` as well.
 - Kcalc is calculator
 - Kolourpaint seems to be KDE's response to MS Paint, shipped with Fedora
   Kinoite
@@ -474,9 +509,8 @@ sudo flatpak install --assumeyes flathub org.freedesktop.Sdk.Extension.texlive o
 #### YouTube
 
 A too popular video/streaming service with ads rampant and Google fighting
-adblockers. When sharing devices and not wanting to log in (I am paying for
-YouTube Music Premium), a desktop client is starting to be more practical and
-these show promise to my eyes:
+adblockers. A desktop client is starting to be more practical and these show
+promise to my eyes:
 
 ```bash
 sudo flatpak install --assumeyes flathub jp.nonbili.noutube org.kde.audiotube org.kde.plasmatube rocks.shy.VacuumTube
