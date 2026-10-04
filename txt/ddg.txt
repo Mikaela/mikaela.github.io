@@ -1,3 +1,23 @@
-https://noai.duckduckgo.com/?extensioninstalled=1&q=%s
+https://noai.duckduckgo.com/?q=%s&extensioninstalled=1&atb&kp=-1&kn=1&kf=fw&kaf=1&ka=s&ku=1&kak=-1&kax=-1
 
 https://noai.duckduckgo.com/ac/?type=list&q=%s
+
+Explanations:
+
+- extensioninstalled=1 - set by the DDG NoAI search extension.
+- atb - set by the DDG extension.
+- kp=-1 - moderate safe search (no images)
+- kn=1 - open results in new window (tab)
+- kf=fw - favicons + WoT icons
+- ka=s - link font serif
+- ku=1 - link underline
+- kaf=1 - full urls
+- kak=1 - don't display hints to install DDG
+- kax=1 - don't display hints to install DDG
+
+Official documentation (omits extensioninstalled & atb):
+https://duckduckgo.com/duckduckgo-help-pages/settings/params
+
+<!--
+vim: filetype=markdown
+-->
