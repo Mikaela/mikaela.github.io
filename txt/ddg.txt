@@ -1,4 +1,4 @@
-https://noai.duckduckgo.com/?q=%s&extensioninstalled=1&atb&kp=-1&kn=1&kf=fw&kaf=1&ka=s&kt=s&ku=1&kak=-1&kax=-1
+https://noai.duckduckgo.com/?q=%s&extensioninstalled=1&atb&kp=-1&kn=1&kf=fw&kaf=1&ka=s&kt=s&ku=1&kak=-1&kax=-1&kae=t
 
 https://noai.duckduckgo.com/ac/?type=list&q=%s
 
@@ -15,6 +15,7 @@ Explanations:
 - kaf=1 - full urls
 - kak=1 - don't display hints to install DDG
 - kax=1 - don't display hints to install DDG
+- kae=t - terminal theme. Since somehow this bookmarklet breaks system dark theme?
 
 Official documentation (omits extensioninstalled & atb):
 https://duckduckgo.com/duckduckgo-help-pages/settings/params
