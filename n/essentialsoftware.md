@@ -115,10 +115,11 @@ _{{ page.excerpt }}_
 ## Usability
 
 - `nvim git tmux zsh mosh` - good luck without these
-- <del>if cryptographic operations are taking ages, consider something like
-  `haveged`. It's controversial, so if there are no issues, don't install a
-  random number generator.</del> Should be unnecessary since kernel 5.6, but
-  **_Debian 13 sddm regardless wants it._**
+- if cryptographic operations are taking ages, especially display manger
+  opening, consider something like `haveged`. It's controversial, so if there
+  are no issues, don't install a random number generator. Should be unnecessary
+  since kernel 5.6 except in early boot, but **_Debian 13 sddm regardless wants
+  it._**
   - If you install `haveged`, please also `sudo systemctl enable --now rngd`
     from `rng-tools` (Fedora, Arch?) or `rng-tools5` (Debian) together to ensure
     quality, but those shouldn't be required on 5.6 and later either.
@@ -246,7 +247,7 @@ and I doubt this affects anything base image if there is anything.
 sudo fedora-third-party enable
 
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs iwd mangohud mosh mpv mpv-mpris mumble mumble-overlay mumble-plugins ncdu oidentd oxygen-cursor-themes plocate rng-tools setroubleshoot sshguard symlinks syncthing terminus-fonts-console thunderbird tmux tor torbrowser-launcher torsocks unbound zsh
+sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv mpv-mpris mumble mumble-overlay mumble-plugins ncdu oidentd oxygen-cursor-themes plocate rng-tools setroubleshoot sshguard symlinks syncthing terminus-fonts-console thunderbird tmux tor torbrowser-launcher torsocks unbound zsh
 
 # Enable automatic updates (check /etc/rpm-ostreed.conf for
 # AutomaticUpdatePolicy=stage (or apply for automatic reboots at probably
@@ -332,7 +333,10 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
   may be required instead? Or it might be a beta issue that
   `net.hadess.PowerProfiles.service` already exists.
 - For NVIDIA propietary drivers with `sudo fedora-third-party enable`:
-  `sudo rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia-cuda`
+  - Currently
+    supported:`sudo rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia-cuda`
+  - Older versions (note to self: Sedric):
+    `sudo rpm-ostree install akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda`
   - This also requires
     `sudo rpm-ostree kargs --append=rd.driver.blacklist=nouveau --append=modprobe.blacklist=nouveau --append=nvidia-drm.modeset=1`
     and suggests keeping an eye on the source page
