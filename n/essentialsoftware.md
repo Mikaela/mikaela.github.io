@@ -338,7 +338,7 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
   - Older versions (note to self: Sedric):
     `sudo rpm-ostree install akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda`
   - This also requires
-    `sudo rpm-ostree kargs --append=rd.driver.blacklist=nouveau,nova_core --append=modprobe.blacklist=nouveau,nova_core --append=nvidia-drm.modeset=1`
+    `sudo rpm-ostree kargs --append=rd.driver.blacklist=nouveau,nova_core --append=modprobe.blacklist=nouveau,nova_core`
     and suggests keeping an eye on the source page _for kargs changes_
     [rpmfusion howto nvidia#ostree](https://rpmfusion.org/Howto/NVIDIA#OSTree_.28Silverblue.2FKinoite.2Fetc.29)
 - For Steam Deck and other handhelds with their copr:
