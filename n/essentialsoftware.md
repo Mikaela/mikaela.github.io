@@ -62,6 +62,7 @@ _{{ page.excerpt }}_
 - [Remember!](#remember)
   - [Accessing UEFI setup without key smashing](#accessing-uefi-setup-without-key-smashing)
   - [Recovering selinux policy issues](#recovering-selinux-policy-issues)
+  - [The `systemd.unit=` kernel boot parameter flag](#the-systemdunit-kernel-boot-parameter-flag)
   - [Removing all flatpaks](#removing-all-flatpaks)
   - [rsync](#rsync)
   - [VeraCrypt](#veracrypt)
@@ -338,7 +339,10 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
   - Currently
     supported:`sudo rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia-cuda`
   - Older versions (note to self: Sedric):
-    `sudo rpm-ostree install akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda`
+    `sudo rpm-ostree install kernel-devel kernel-headers akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda` -
+    I am yet to get this working, but `kernel-headers` may need to be installed
+    first, but then again this may be why `sudo rpm-ostree       apply-live`
+    exists.
   - This also requires
     `sudo rpm-ostree kargs --append=rd.driver.blacklist=nouveau,nova_core --append=modprobe.blacklist=nouveau,nova_core`
     and suggests keeping an eye on the source page _for kargs changes_
@@ -867,6 +871,18 @@ it.
 - Boot with flags `enforcing=0 autorelabel` to temporarily have permissive mode
   and automatic fixing.
 - What actually worked was booting with `enforcing=0` and `sudo restorecon -R /`
+
+### The `systemd.unit=` kernel boot parameter flag
+
+_In time before systemd, this was known as runlevel_
+
+It's meant for things such as `systemd.unit=emergency.target` or
+`systemd.unit=multi-user.target`, but if you are having issues booting and want
+a hatch to look into what is going on, `systemd.unit=getty@tty1.service` will
+work as well.
+
+Although starting from Fedora 45, you may want a
+`systemd.unit=kmsconvt@tty1.service` instead.
 
 ### Removing all flatpaks
 
