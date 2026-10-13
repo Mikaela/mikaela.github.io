@@ -1,3 +1,203 @@
+---
+lockfileVersion: "9.0"
+
+importers:
+  .:
+    configDependencies: {}
+    packageManagerDependencies:
+      pnpm:
+        specifier: 12.13.0
+        version: 12.13.0
+
+packages:
+  "@pnpm/exe.android-arm64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-BI++xXYAk3lTLQ1695b3pAAaLwzUTQqKyT5UukVd1NU5qv7h/rUfVCiV5hrLksdbgPMWcic8gf9uXMiqTlerzg==,
+      }
+    cpu: [arm64]
+    os: [android]
+
+  "@pnpm/exe.android-x64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-bFq6cnbSB3fezJ0siOtuoRqLiR3VXFCZvUUFa0wlZ4a3EaJYsnnDli4ZTe8/bDfX1UhNMFxAAiSAKg7xITu+Zw==,
+      }
+    cpu: [x64]
+    os: [android]
+
+  "@pnpm/exe.darwin-arm64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-9rRpaMGxxrv5YbptsRTIeG+q2IzQyrkRKXkD30pb7weCC6Xz6vQzfkItzrUZsb2bXyYd7fSsq+luTsreXBQYyQ==,
+      }
+    cpu: [arm64]
+    os: [darwin]
+
+  "@pnpm/exe.darwin-x64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-A+VFQakozmXIo8kxtcP9sZCKIi94f9uB5jLXRvwnNSA5G6/G6Iq/8E17+fIPf4bm7xvR+qeM794Nz98Q52lutQ==,
+      }
+    cpu: [x64]
+    os: [darwin]
+
+  "@pnpm/exe.freebsd-x64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-HqT2ppLDxmpO8jTgl44BLdrBQoQXE73HHBElYRKvxL47d4maQ0sfk+fI+bfeDpRTqKzc5JZfj85yjRo7anqioA==,
+      }
+    cpu: [x64]
+    os: [freebsd]
+
+  "@pnpm/exe.linux-arm64-musl@12.13.0":
+    resolution:
+      {
+        integrity: sha512-yZfm/7h1Kdd1XTNf9+F2Gt5R4WuQKMRbkMIpbzCtxpzniPEKGo/2kymNxdHq3jIcfnzHnP+KBR/YONZ+4Icq+g==,
+      }
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  "@pnpm/exe.linux-arm64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-jp29ia+fTNhheXzt4FRUw5CwFW9caPNEdLRuy7/Dlbv3sj+iHldfJXfCojkPE4g71NPVwMpY5Eoc7nkfWexqrA==,
+      }
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  "@pnpm/exe.linux-ppc64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-BO8Nz70baL6KV0G9p+Lx8l6BQYFE11KDEOTTjSNZdiUMMyN1byeDlls10ZgCIaIq5ELlLJ0F/LKieNjubOC7BA==,
+      }
+    cpu: [ppc64]
+    os: [linux]
+    libc: [glibc]
+
+  "@pnpm/exe.linux-riscv64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-LrGM+VzpNghXuHK1XSMNEsochaLscAYkllSPLF3Y4CQpaOFYmiZoX+G3TN+T3pYRxdgvwWJCqbbdwRJZFykrig==,
+      }
+    cpu: [riscv64]
+    os: [linux]
+    libc: [glibc]
+
+  "@pnpm/exe.linux-s390x@12.13.0":
+    resolution:
+      {
+        integrity: sha512-0Xetcb9OJpXYmJ7rMDh3oFszIvbQl0F8UNh7oJnbLJY1K5PtDgYVkjqwb1JpjU0mkr0b4HKkFdZhlYh7XEGTvw==,
+      }
+    cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+
+  "@pnpm/exe.linux-x64-musl@12.13.0":
+    resolution:
+      {
+        integrity: sha512-LSD/snRsouEGA52HrTfEbGrCGdkkr5gXfQym26Ogu3I7sc5dJHUHyp8GnA7ewXrFOSRCJXH25mnmQ6Jpit572Q==,
+      }
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  "@pnpm/exe.linux-x64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-t4EYUFG4SPYaJJVQToWIPq/lLBquCPCxMtt9vV//HirSDl332dnxDnwgvdW29sqLg3Ob2x7zFQ69HZLyoCyfpQ==,
+      }
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  "@pnpm/exe.win32-arm64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-aDzzll9stgP+p6KKYHNzuShZhBCaxabv481xK5BjfvSnyFbjzu7ksKUIVlsiAw4xAXnrIqvEj0lQarsbBRcIQA==,
+      }
+    cpu: [arm64]
+    os: [win32]
+
+  "@pnpm/exe.win32-x64@12.13.0":
+    resolution:
+      {
+        integrity: sha512-Nkw4hDJTcmuO6zDjkTo4Dz7pG2ojEifSBGC4QbFJFIfBoRbN88GIMu/Lm1woxd7ONhJFlfJ+dJeiDyuP0NKtSA==,
+      }
+    cpu: [x64]
+    os: [win32]
+
+  pnpm@12.13.0:
+    resolution:
+      {
+        integrity: sha512-HlVxm/JugJ3OXFCE/euqZO+z2pA4rl1oqfimgxHxpFhByMO3ajcpjDtm9rzIBAmpt/M8eKcWij6Q+2Wl2CNa5A==,
+      }
+    engines: { node: ">=18.*" }
+    hasBin: true
+
+snapshots:
+  "@pnpm/exe.android-arm64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.android-x64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.darwin-arm64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.darwin-x64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.freebsd-x64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.linux-arm64-musl@12.13.0":
+    optional: true
+
+  "@pnpm/exe.linux-arm64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.linux-ppc64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.linux-riscv64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.linux-s390x@12.13.0":
+    optional: true
+
+  "@pnpm/exe.linux-x64-musl@12.13.0":
+    optional: true
+
+  "@pnpm/exe.linux-x64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.win32-arm64@12.13.0":
+    optional: true
+
+  "@pnpm/exe.win32-x64@12.13.0":
+    optional: true
+
+  pnpm@12.13.0:
+    optionalDependencies:
+      "@pnpm/exe.android-arm64": 12.13.0
+      "@pnpm/exe.android-x64": 12.13.0
+      "@pnpm/exe.darwin-arm64": 12.13.0
+      "@pnpm/exe.darwin-x64": 12.13.0
+      "@pnpm/exe.freebsd-x64": 12.13.0
+      "@pnpm/exe.linux-arm64": 12.13.0
+      "@pnpm/exe.linux-arm64-musl": 12.13.0
+      "@pnpm/exe.linux-ppc64": 12.13.0
+      "@pnpm/exe.linux-riscv64": 12.13.0
+      "@pnpm/exe.linux-s390x": 12.13.0
+      "@pnpm/exe.linux-x64": 12.13.0
+      "@pnpm/exe.linux-x64-musl": 12.13.0
+      "@pnpm/exe.win32-arm64": 12.13.0
+      "@pnpm/exe.win32-x64": 12.13.0
+
+---
 lockfileVersion: "9.0"
 
 settings:
@@ -9,34 +209,40 @@ importers:
     devDependencies:
       "@aminda/global-prettier-config":
         specifier: latest
-        version: 2026.26.0
+        version: 2026.42.0
       "@prettier/plugin-ruby":
         specifier: 4.0.4
-        version: 4.0.4(prettier@3.8.4)
+        version: 4.0.4(prettier@3.9.10)
       "@prettier/plugin-xml":
         specifier: 3.4.2
-        version: 3.4.2(prettier@3.8.4)
+        version: 3.4.2(prettier@3.9.10)
       corepack:
         specifier: latest
         version: 0.36.0
       prettier:
-        specifier: 3.8.4
-        version: 3.8.4
+        specifier: 3.9.10
+        version: 3.9.10
       prettier-plugin-nginx:
-        specifier: 1.0.3
-        version: 1.0.3
+        specifier: 2.0.0
+        version: 2.0.0(prettier@3.9.10)
       prettier-plugin-sh:
-        specifier: 0.18.1
-        version: 0.18.1(prettier@3.8.4)
+        specifier: 0.20.2
+        version: 0.20.2(prettier@3.9.10)
       prettier-plugin-toml:
-        specifier: 2.0.6
-        version: 2.0.6(prettier@3.8.4)
+        specifier: 3.0.2
+        version: 3.0.2(prettier@3.9.10)
 
 packages:
-  "@aminda/global-prettier-config@2026.26.0":
+  "@aminda/global-prettier-config@2026.42.0":
     resolution:
       {
-        integrity: sha512-Bs6uuUO5f5YBcr1pB0JFIV+pVA7TXgiQqyqdWvc9OV8E0rincZYsZo1LBuRNE3VpX3HzZq97hs1gc1kzlDcScg==,
+        integrity: sha512-q1j18jZJjZAl7TMgBLrmScqYWoupBlnxT7QXnckMnhlsMAuHpvGCbaOHua8nuhHgp8j1JSJML3dydTqoCouGkA==,
+      }
+
+  "@dual-bundle/import-meta-resolve@4.2.1":
+    resolution:
+      {
+        integrity: sha512-id+7YRUgoUX6CgV0DtuhirQWodeeA7Lf4i2x71JS/vtA5pRb/hIGWlw+G6MeXvsM+MXrz0VAydTGElX1rAfgPg==,
       }
 
   "@prettier/plugin-ruby@4.0.4":
@@ -95,22 +301,16 @@ packages:
     engines: { node: ^v12.20.0 || ^14.13.0 || >=16.0.0 }
     hasBin: true
 
-  "@taplo/core@0.2.0":
+  "@tombi-toml/wasm-lib@1.8.4":
     resolution:
       {
-        integrity: sha512-r8bl54Zj1In3QLkiW/ex694bVzpPJ9EhwqT9xkcUVODnVUGirdB1JTsmiIv0o1uwqZiwhi8xNnTOQBRQCpizrQ==,
+        integrity: sha512-Zz3a0yH60YqQpMMGF1V9mAAgtEmz6h4aVYTZ2lp8XInMPNZXTYFkGS8nl4q4VBeHZtIF1tKkeU75vrFldU11bA==,
       }
 
-  "@taplo/lib@0.5.0":
+  "@xml-tools/parser@1.0.12":
     resolution:
       {
-        integrity: sha512-+xIqpQXJco3T+VGaTTwmhxLa51qpkQxCjRwezjFZgr+l21ExlywJFcDfTrNmL6lG6tqb0h8GyJKO3UPGPtSCWg==,
-      }
-
-  "@xml-tools/parser@1.0.11":
-    resolution:
-      {
-        integrity: sha512-aKqQ077XnR+oQtHJlrAflaZaL7qZsulWc/i/ZEooar5JiWj1eLt0+Wg28cpa+XLney107wXqneC+oG1IZvxkTA==,
+        integrity: sha512-YNIPbmr/7ClPpWyk0MLImLBLyVLgW+BeOkbd4UDp8w0tCcgU8lmA4karXBF9EQwaQzDTzaBbJtmSA0G2NKKlPA==,
       }
 
   chevrotain@7.1.1:
@@ -127,34 +327,37 @@ packages:
     engines: { node: ^22.22.2 || ^24.15.0 || >=26.0.0 }
     hasBin: true
 
-  prettier-plugin-nginx@1.0.3:
+  prettier-plugin-nginx@2.0.0:
     resolution:
       {
-        integrity: sha512-vV5q85s8XnV6NEgvz1gVLfZhmxAxY03MyOYj2ApBpjFkbs00lRsRkTmqO9L39ADuD18z1RRCcfZ3eVxKhI/nqg==,
+        integrity: sha512-fdSsnlYu1CyVrKNgOjEihIJ/32vdwCR3OOUfYCJ+S/phdzmML97Z6VC5KKHlUWRtzGU2Z2juQOdRMyG0QeO0Ng==,
       }
+    engines: { node: ">=18" }
+    peerDependencies:
+      prettier: ^3.6.0
 
-  prettier-plugin-sh@0.18.1:
+  prettier-plugin-sh@0.20.2:
     resolution:
       {
-        integrity: sha512-uZmU22wBMevjh3rmCatNQqiEer2+5KLa0xYCBX6zQQUQkcNzVL+s6FbPKK6ZSUNUbQk6jMAcQHrYPvuL2W6ihQ==,
+        integrity: sha512-4QVyY7Vav0f5i6AVa80SFwUJXaWsAv9t0yUZIivwI0ucxTei6Jwhso/khWqaKDj4QGdwjP2py1nxQrDUeZ0jyQ==,
       }
     engines: { node: ">=16.0.0" }
     peerDependencies:
       prettier: ^3.6.0
 
-  prettier-plugin-toml@2.0.6:
+  prettier-plugin-toml@3.0.2:
     resolution:
       {
-        integrity: sha512-12N/wBuHa9jd/KVy9pRP20NMKxQfQLMseQCt66lIbLaPLItvGUcSIryE1eZZMJ7loSws6Ig3M2Elc2EreNh76w==,
+        integrity: sha512-1t1FOSGaXNy7xN6ffE7ND71VqsnbUtanGEKAD1hTwFDrGIH1cwZ0KH6lMThDVItjdV/UUJWqD3f1+16AHG3eUQ==,
       }
-    engines: { node: ">=16.0.0" }
+    engines: { node: ">=18.0.0" }
     peerDependencies:
       prettier: ^3.0.3
 
-  prettier@3.8.4:
+  prettier@3.9.10:
     resolution:
       {
-        integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==,
+        integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==,
       }
     engines: { node: ">=14" }
     hasBin: true
@@ -165,38 +368,41 @@ packages:
         integrity: sha512-tlbJqcMHnPKI9zSrystikWKwHkBqu2a/Sgw01h3zFjvYrMxEDYHzzoMZnUrbIfpTFEsoRnnviOXNCzFiSc54Qw==,
       }
 
-  sh-syntax@0.5.8:
+  sh-syntax@0.7.0:
     resolution:
       {
-        integrity: sha512-JfVoxf4FxQI5qpsPbkHhZo+n6N9YMJobyl4oGEUBb/31oQYlgTjkXQD8PBiafS2UbWoxrTO0Z5PJUBXEPAG1Zw==,
+        integrity: sha512-sgMyAxpHiGgAaNg+gD3ad41vha24CzIjjghD4mdiON1lUafZPLJNYknyjcXmU4geilPstd69zCKkpccY0YvajA==,
       }
     engines: { node: ">=16.0.0" }
 
-  tslib@2.8.1:
+  smol-toml@1.9.1:
     resolution:
       {
-        integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==,
+        integrity: sha512-j7WyPdf0CJoutMzMoPLF/bVXHtKZIT9Rb4eGeEbWw8X2t5oirjPgpL+OpaENZrILYaXqYwnVH+qgUwVbl+pUJQ==,
       }
+    engines: { node: ">= 18" }
 
 snapshots:
-  "@aminda/global-prettier-config@2026.26.0":
+  "@aminda/global-prettier-config@2026.42.0":
     dependencies:
-      "@prettier/plugin-ruby": 4.0.4(prettier@3.8.4)
-      "@prettier/plugin-xml": 3.4.2(prettier@3.8.4)
+      "@prettier/plugin-ruby": 4.0.4(prettier@3.9.10)
+      "@prettier/plugin-xml": 3.4.2(prettier@3.9.10)
       corepack: 0.36.0
-      prettier: 3.8.4
-      prettier-plugin-nginx: 1.0.3
-      prettier-plugin-sh: 0.18.1(prettier@3.8.4)
-      prettier-plugin-toml: 2.0.6(prettier@3.8.4)
+      prettier: 3.9.10
+      prettier-plugin-nginx: 2.0.0(prettier@3.9.10)
+      prettier-plugin-sh: 0.20.2(prettier@3.9.10)
+      prettier-plugin-toml: 3.0.2(prettier@3.9.10)
 
-  "@prettier/plugin-ruby@4.0.4(prettier@3.8.4)":
-    dependencies:
-      prettier: 3.8.4
+  "@dual-bundle/import-meta-resolve@4.2.1": {}
 
-  "@prettier/plugin-xml@3.4.2(prettier@3.8.4)":
+  "@prettier/plugin-ruby@4.0.4(prettier@3.9.10)":
     dependencies:
-      "@xml-tools/parser": 1.0.11
-      prettier: 3.8.4
+      prettier: 3.9.10
+
+  "@prettier/plugin-xml@3.4.2(prettier@3.9.10)":
+    dependencies:
+      "@xml-tools/parser": 1.0.12
+      prettier: 3.9.10
 
   "@reteps/dockerfmt-darwin-arm64@0.5.4":
     optional: true
@@ -217,13 +423,9 @@ snapshots:
       "@reteps/dockerfmt-linux-arm64": 0.5.4
       "@reteps/dockerfmt-linux-x64": 0.5.4
 
-  "@taplo/core@0.2.0": {}
+  "@tombi-toml/wasm-lib@1.8.4": {}
 
-  "@taplo/lib@0.5.0":
-    dependencies:
-      "@taplo/core": 0.2.0
-
-  "@xml-tools/parser@1.0.11":
+  "@xml-tools/parser@1.0.12":
     dependencies:
       chevrotain: 7.1.1
 
@@ -233,25 +435,27 @@ snapshots:
 
   corepack@0.36.0: {}
 
-  prettier-plugin-nginx@1.0.3: {}
+  prettier-plugin-nginx@2.0.0(prettier@3.9.10):
+    dependencies:
+      prettier: 3.9.10
 
-  prettier-plugin-sh@0.18.1(prettier@3.8.4):
+  prettier-plugin-sh@0.20.2(prettier@3.9.10):
     dependencies:
       "@reteps/dockerfmt": 0.5.4
-      prettier: 3.8.4
-      sh-syntax: 0.5.8
+      prettier: 3.9.10
+      sh-syntax: 0.7.0
 
-  prettier-plugin-toml@2.0.6(prettier@3.8.4):
+  prettier-plugin-toml@3.0.2(prettier@3.9.10):
     dependencies:
-      "@taplo/lib": 0.5.0
-      prettier: 3.8.4
+      "@dual-bundle/import-meta-resolve": 4.2.1
+      "@tombi-toml/wasm-lib": 1.8.4
+      prettier: 3.9.10
+      smol-toml: 1.9.1
 
-  prettier@3.8.4: {}
+  prettier@3.9.10: {}
 
   regexp-to-ast@0.5.0: {}
 
-  sh-syntax@0.5.8:
-    dependencies:
-      tslib: 2.8.1
+  sh-syntax@0.7.0: {}
 
-  tslib@2.8.1: {}
+  smol-toml@1.9.1: {}
