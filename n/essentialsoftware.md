@@ -169,9 +169,6 @@ apps written in Python. Here is a small list to remember in no particular order.
     nearly endless with `xkcdpas --help`. E.g.
     - `xkcdpass --wordfile eff-long,fin-kotus --valid-chars '[a-z]' --delimiter ',' --case random`
     - `UNLAWFUL,OPPIRAHAT,astonish,ruvettua,JOUTAVA,pultti`
-- (`pipx install pre-commit`)
-  - Synced pre-commit hooks for git, probably in all my repositories by now.
-    However I would install it from system package manager instead.
 - `pipx install "yle-dl[extra] @ git+https://github.com/aajanki/yle-dl"`
   - Downloader for `{areena,arenan}.yle.fi`, Finnish public broadcaster web
     portal.
@@ -248,7 +245,7 @@ and I doubt this affects anything base image if there is anything.
 sudo fedora-third-party enable
 
 # Layer packages I need on top of the base image.
-sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv mpv-mpris mumble mumble-overlay mumble-plugins ncdu oidentd oxygen-cursor-themes plocate rng-tools setroubleshoot sshguard symlinks syncthing terminus-fonts-console thunderbird tmux tor torbrowser-launcher torsocks unbound zsh
+sudo rpm-ostree install android-tools bat chromium cronie cronie-anacron duperemove f3 foot foot-terminfo gamescope git-lfs haveged iwd mangohud mosh mpv mpv-mpris mumble mumble-overlay mumble-plugins nodejs-corepack ncdu oidentd oxygen-cursor-themes plocate pre-commit rng-tools setroubleshoot sshguard symlinks syncthing terminus-fonts-console thunderbird tmux tor torbrowser-launcher torsocks unbound zsh
 
 # Enable automatic updates (check /etc/rpm-ostreed.conf for
 # AutomaticUpdatePolicy=stage (or apply for automatic reboots at probably
