@@ -46,14 +46,17 @@ sudo -u www-data php --define apc.enable_cli=1 occ status
 # Example: self-repair?
 sudo -u www-data php --define apc.enable_cli=1 occ maintenance:repair --include-expensive
 
-# Disable maintenance-mode
-sudo -u www-data php --define apc.enable_cli=1 occ maintenance:mode --off
+# Run NextCloud updater
+sudo -u www-data php --define apc.enable_cli=1 updater/updater.phar
 
 # Post-upgrade routine tasks once new version is downloaded.
 sudo -u www-data php --define apc.enable_cli=1 occ upgrade
 
-# Display apps pending update. Remove flag for actually updating.
-sudo -u www-data php --define apc.enable_cli=1 occ app:update --showonly
+# Update NextCloud apps
+sudo -u www-data php --define apc.enable_cli=1 occ app:update --all
+
+# Disable maintenance-mode
+sudo -u www-data php --define apc.enable_cli=1 occ maintenance:mode --off
 ```
 
 ### Interesting keywords for perusing official documentation
