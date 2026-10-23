@@ -64,3 +64,16 @@ sudo -u www-data php --define apc.enable_cli=1 occ app:update --showonly
 - `sudo -u www-data php --define apc.enable_cli=1 occ user`
   - `sudo -u www-data php --define apc.enable_cli=1 occ user:report`
 - `sudo -u www-data php --define apc.enable_cli=1 occ setupchecks`
+
+## Background tasks
+
+For some reason these are in my
+[shell-things repository](https://codeberg.org/Aminda/shell-things)
+([GitHub mirror](https://github.com/Mikaela/shell-things)):
+
+- [logrotate config](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/logrotate.d/nextcloud)
+- systemd
+  [service](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system/nextcloud-cron.service)
+  and
+  [timer](https://codeberg.org/Aminda/shell-things/src/branch/cxefa/etc/systemd/system/nextcloud-cron.timer)
+  to replace cron for running `cron.php` background tasks
