@@ -31,6 +31,7 @@ _{{ page.excerpt }}_
   - [`rpm-ostree install` everywhere](#rpm-ostree-install-everywhere)
   - [`rpm-ostree kargs`](#rpm-ostree-kargs)
   - [Situational `rpm-ostree install`](#situational-rpm-ostree-install)
+  - [Recovering from `chattr +i` or unlinkat error](#recovering-from-chattr-i-or-unlinkat-error)
   - [Flatpaks](#flatpaks)
     - [Alarms](#alarms)
     - [Communication](#communication)
@@ -369,6 +370,19 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
   [DVV.fi card reader software](https://dvv.fi/en/card-reader-software) from
   their
   [all Linux versions page, which contains the rpm](https://dvv.fi/en/linux-versions).
+
+### Recovering from `chattr +i` or unlinkat error
+
+If `sudo ostree admin cleanup` complains and you know you have used `chattr +i`,
+which you shouldn't on Atomic, the steps are simple:
+
+1. Remount `/sysroot` as read write, e.g.
+   `sudo mount --options-source=disable -o remount,rw /sysroot`
+1. Revert the `chattr`'d file in all deployments, e.g.
+   `sudo chattr -i /ostree/deploy/fedora/deploy/*/etc/resolv.conf`
+1. Run `sudo ostree admin cleanup` again. It may take a while, if you collected
+   a lot of deployments and in case there are more errors, continue from the
+   previous step adjusting the path.
 
 ### Flatpaks
 
