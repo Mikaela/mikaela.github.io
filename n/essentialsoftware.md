@@ -197,7 +197,7 @@ cp /home/linuxbrew/.linuxbrew/bin/brew /home/linuxbrew/.linuxbrew/bin/brew2
 # Credit: https://github.com/orgs/Homebrew/discussions/1282#discussioncomment-1281288
 sed -i 's/pwd\ \-P/pwd/g' /home/linuxbrew/.linuxbrew/bin/brew2
 # Use the modified copy instead of the original.
-brew2 install aircrack-ng bat bat-extras btop htop inxi ipfs llvm mtr neovim nmap node pipx pre-commit qrencode ripgrep ruby smartmontools weechat
+brew2 install aircrack-ng bat bat-extras btop htop inxi ipfs llvm mtr neovim nmap node ntfy pipx pre-commit qrencode ripgrep ruby smartmontools weechat
 ```
 
 Additionally I have helpful tools for making this easier.
