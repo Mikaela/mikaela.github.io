@@ -1,7 +1,8 @@
 ---
 title: Aloitussivu
 excerpt:
-  > Suhteellisen järkevä aloittussivu, kun käyttäjäsi eivät ymmärrä verkkoselaimen ja -sivun eroa.
+  Suhteellisen järkevä aloittussivu, kun käyttäjäsi eivät ymmärrä verkkoselaimen
+  ja -sivun eroa.
 layout: mini
 permalink: /n/aloitussivu.html
 redirect_from: /n/etusivu.html
