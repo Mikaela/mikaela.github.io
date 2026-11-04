@@ -1,7 +1,7 @@
 ---
 layout: mini
 permalink: /n/aloitussivu.html
-permalink: /n/etusivu.html
+redirect_from: /n/etusivu.html
 sitemap: false
 lang: fi
 ---
