@@ -17,7 +17,11 @@ osoitteen.
 
 ## Etsitkö näitä?
 
-[Aminda.eu](/) [DuckDuckGo-haku](https://noai.duckduckgo.com)
+<strong>
+[Aminda.eu](/)
+[AmIunique.org/fingerprint](https://amiunique.org/fingerprint)
+[BrowserLeaks.com/ip](https://browserleaks.com/ip)
+[DuckDuckGo-haku](https://noai.duckduckgo.com)
 [Facebook Messenger](https://messenger.com)
 [Fingrid tila](https://fingrid.fi/online)
 [GMail -sähköposti](https://mail.google.com)
@@ -30,3 +34,4 @@ osoitteen.
 [Telegram Web](https://web.telegram.org/a/)
 [Traficom Merivaroitukset](https://liikennetilanne.fintraffic.fi/meri/merivaroitukset/)
 [WhatsApp](https://web.whatsapp.com)
+</strong>
