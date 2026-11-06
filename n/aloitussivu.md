@@ -19,8 +19,7 @@ osoitteen.
 
 <strong>
 [Aminda.eu](/)
-[AmIunique.org/fingerprint](https://amiunique.org/fingerprint)
-[BrowserLeaks.com/ip](https://browserleaks.com/ip)
+[bitwardenia-suomeksi.pdf](https://codeberg.org/Aminda/bitwardenia-suomeksi/media/branch/cxefa/bitwardenia-suomeksi.pdf)
 [DuckDuckGo-haku](https://noai.duckduckgo.com)
 [Facebook Messenger](https://messenger.com)
 [Fingrid tila](https://fingrid.fi/online)
