@@ -52,6 +52,10 @@ sudo -u www-data php --define apc.enable_cli=1 updater/updater.phar
 # Post-upgrade routine tasks once new version is downloaded.
 sudo -u www-data php --define apc.enable_cli=1 occ upgrade
 
+# Add new indices to database in case there is a warning in control panel
+# about them missing.
+sudo -u www-data php --define apc.enable_cli=1 occ db:add-missing-indices
+
 # Update NextCloud apps
 sudo -u www-data php --define apc.enable_cli=1 occ app:update --all
 
