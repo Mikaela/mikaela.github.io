@@ -25,6 +25,7 @@ osoitteen.
 [Fingrid tila](https://fingrid.fi/online)
 [GMail -sähköposti](https://mail.google.com)
 [Google Kalenteri](https://calendar.google.com)
+[Google Keep](https://keep.google.com/)
 [Google Tekstiviestit](https://messages.google.com/web/)
 [HSL Reittiopas](https://reittiopas.hsl.fi/etusivu)
 [Junalähdöt](https://junalahdot.fi/junalahdot/main?lang=1)
