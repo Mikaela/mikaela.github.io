@@ -27,6 +27,7 @@ osoitteen.
 [Google Kalenteri](https://calendar.google.com)
 [Google Keep](https://keep.google.com/)
 [Google Tekstiviestit](https://messages.google.com/web/)
+[Hightrust.ID -ohjeet](https://hightrust.id/helpcenter/hightrust-id-digilompakon-kayttoonoton-valmistelut/)
 [HSL Reittiopas](https://reittiopas.hsl.fi/etusivu)
 [Junalähdöt](https://junalahdot.fi/junalahdot/main?lang=1)
 [PeerTube -videohaku](https://sepiasearch.org)
