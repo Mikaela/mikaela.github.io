@@ -41,6 +41,11 @@ Ellet päätynyt tälle sivulle skannaamalla
   kuullunymmärtämistäni huomaamattani.
 - En katso sinua silmiin. Voin samanaikaisesti joko tehdä niin _tai_ ymmärtää
   puhetta ja puhua ymmärrettävästi.
+- Minulla on taipumusta migreeniin. Erityisesti kirkkaat loisteputket ja
+  välkkyvät valot tai pinnoista heijastuva valo käyvät silmiini.
+- Autistinen yksikanavaisuus on hyöty ja haitta. Voin kestää paremmin, mikäli
+  kuuntelen musiikkia, mutta positiivinenkin kuormitus on kuormitusta ja
+  kuulokkeet painavat päätä.
 
 <div lang="en">
 
