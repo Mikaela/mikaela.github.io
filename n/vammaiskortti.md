@@ -51,4 +51,4 @@ If you didn't end up to this page by scanning
 please see [Vammaiskortti.fi/en/](https://vammaiskortti.fi/en/frontpage/) for
 more what this is about.
 
-</div lang="en">
+</div>
