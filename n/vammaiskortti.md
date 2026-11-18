@@ -22,6 +22,7 @@ _{{ page.excerpt }}_
 - [Suomeksi](#suomeksi)
   - [Huomioonotettavaa aistiherkkyyksistäni](#huomioonotettavaa-aistiherkkyyksist%C3%A4ni)
 - [English](#english)
+  - [Sensory sensitivities](#sensory-sensitivities)
 
 <!-- END doctoc -->
 
@@ -76,5 +77,38 @@ _If you didn't end up to this page by scanning
 [a disability card QR code](https://vammaiskortti.fi/en/qr-code-a-quick-way-to-share-information/),
 please see [Vammaiskortti.fi/en/](https://vammaiskortti.fi/en/frontpage/) for
 more what this is about._
+
+Do you offer something like small snacks to everyone in your space/event? I may
+have difficulties counting myself amongst everyone and it will help if you
+remind me of that, before I actually take anything.
+
+### Sensory sensitivities
+
+My sensory issues vary in strength by day or more often on worse days. Sometimes
+I feel no issues, othertimes I feel like all senses are too much for me.
+
+You may notice that I don't look at your eyes or even towards your direction. I
+can either understand what you say and speak understandably myself _xOR_ look
+into your eyes.
+
+I often need **sunglasses**, even indoors while it's dark outdoors. My
+sunglasses are polarized, which is helpful especially when my migraine tendency
+hits me. Bright lights drain me easily and I find especially fluorescent tubes
+difficult. Another challenge is light reflecting to my eyes from bright desks
+and similar, although that can be eased by a tablecloth or similar.
+
+I get stressed easily in loud environment and too much sensory stimulus stress
+leads to a panic attack. _**Noise cancelling**_ headset may ease how I feel a
+bit, while positive sensory stimulus is also stress and I may not be able to
+wear heavy headset for hours.
+
+Loudish background music is a special challenge for me. I may not conciously
+notice how much it stresses me out and how it affects my hearing comprehension.
+If the space has background music and I stop participating in the discussion
+being unusually quiet, it's very likely I don't feel well.
+
+What kind of a seating arrangement does your space have? Round tables and
+circles may be difficult for me, since I start feeling anxious when I see
+everyone around me at once.
 
 </div>
