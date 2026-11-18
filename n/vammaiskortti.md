@@ -20,7 +20,7 @@ _{{ page.excerpt }}_
 <em lang="fi">Automaattinen sisällysluettelo</em> / <em lang="en">Automatically generated Table of Contents</em>
 
 - [Suomeksi](#suomeksi)
-  - [Aistit](#aistit)
+  - [Huomioonotettavaa aistiherkkyyksistäni](#huomioonotettavaa-aistiherkkyyksist%C3%A4ni)
 - [English](#english)
 
 <!-- END doctoc -->
@@ -38,20 +38,35 @@ Mikäli tilassasi on tarjoiluja kaikille, minun voi olla vaikeaa ymmärtää
 lukeutuvani kaikkiin. Saatan tarvita erillistä muistutusta ennen kuin uskallan
 ottaa mitään.
 
-### Aistit
+### Huomioonotettavaa aistiherkkyyksistäni
 
-- Olen aistiherkkä. Ethän pahastu kun käytän aurinkolaseja tai
-  vastamelukuulokkeita. Taustamusiikki voi kuormittaa minua ja vaikeuttaa
-  kuullunymmärtämistäni huomaamattani.
-- En katso sinua silmiin. Voin samanaikaisesti joko tehdä niin _tai_ ymmärtää
-  puhetta ja puhua ymmärrettävästi.
-- Minulla on taipumusta migreeniin. Erityisesti kirkkaat loisteputket ja
-  välkkyvät valot tai pinnoista heijastuva valo käyvät silmiini.
-- Autistinen yksikanavaisuus on hyöty ja haitta. Voin kestää paremmin, mikäli
-  kuuntelen musiikkia, mutta positiivinenkin kuormitus on kuormitusta ja
-  kuulokkeet painavat päätä.
-- Piirit eivät ole aistiystävällisiä. Ahdistun mikäli olen tilassa, jossa
-  samanaikaisesti näen kaikki ympärilläni olevat.
+Aistiherkkyyksieni voimakkuus vaihtelee. Joinakin päivinä en koe aistiongelmia,
+toisina kaikki aistit tuntuvat olevan minulle liikaa.
+[Suomen Migreeniyhdistyksellä on hyvä sivu työpaikan migreenialtisteista](https://migreeni.org/tietoa/elama-migreenin-kanssa/migreeni-ja-tyoelama/2087-2/).
+
+Huomaat mahdollisesti, etten katso sinua silmiin. Voin samanaikaisesti joko
+tehdä niin _tai_ ymmärtää puhetta ja puhua ymmärrettävästi. Tämä on sattumoisin
+myös esimerkki yksikanavaisuudesta aistieni suhteen.
+
+Tarvitsen usein _**aurinkolaseja**_, myös sisätiloissa pimeän aikaan.
+Aurinkolasini ovat polarisoidut, josta on apua etenkin migreenitaipumukseni
+iskiessä. Kirkkaat valot kuormittavat minua helposti ja koen erityisesti
+loisteputket vaikeiksi. Toinen hankala asia on kirkkaista pöydänpinnoista tms.
+silmiini heijastuva valo, jota voi helpottaa vaikkapa pöytäliinalla.
+
+Kuormitun nopeasti meluisessa ympäristössä ja liika aistiärsykestressi johtaa
+paniikkikohtaukseen. Voin helpottaa oloani _**vastamelukuulokkeilla**_ jonkin
+verran. Toisaalta myös musiikki on lievää kuormitusta, enkä ehkä jaksa pitää
+painavia kuulokkeita päässäni tuntikausia.
+
+Kovaäänisehkö taustamusiikki on minulle erityinen haaste. En ehkä tietoisesti
+huomaa paljonko se kuormittaa minua ja vaikuttaa kuullunymmärtämiseeni. Mikäli
+tilassa on taustamusiikkia ja lopetan keskusteluun osallistumisen ollen
+epätavallisen hiljaa, en todennäköisesti voi hyvin.
+
+Millainen istumisjärjestys tilassasi on? Piirit tai pyöreät pöydät voivat olla
+minulle erityisen vaikeita, sillä ahdistun nähdessäni samanaikaisesti kaikki
+ympärilläni olevat.
 
 <div lang="en">
 
