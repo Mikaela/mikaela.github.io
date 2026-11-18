@@ -30,9 +30,13 @@ _{{ page.excerpt }}_
 
 ## Suomeksi
 
-Ellet päätynyt tälle sivulle skannaamalla
+_Ellet päätynyt tälle sivulle skannaamalla
 [vammaiskortin QR-koodia](https://vammaiskortti.fi/mika-on-qr-koodi/), tutustu
-[Vammaiskortti.fi](https://vammaiskortti.fi/)-sivustoon.
+[Vammaiskortti.fi](https://vammaiskortti.fi/)-sivustoon._
+
+Mikäli tilassasi on tarjoiluja kaikille, minun voi olla vaikeaa ymmärtää
+lukeutuvani kaikkiin. Saatan tarvita erillistä muistutusta ennen kuin uskallan
+ottaa mitään.
 
 ### Aistit
 
@@ -46,14 +50,16 @@ Ellet päätynyt tälle sivulle skannaamalla
 - Autistinen yksikanavaisuus on hyöty ja haitta. Voin kestää paremmin, mikäli
   kuuntelen musiikkia, mutta positiivinenkin kuormitus on kuormitusta ja
   kuulokkeet painavat päätä.
+- Piirit eivät ole aistiystävällisiä. Ahdistun mikäli olen tilassa, jossa
+  samanaikaisesti näen kaikki ympärilläni olevat.
 
 <div lang="en">
 
 ## English
 
-If you didn't end up to this page by scanning
+_If you didn't end up to this page by scanning
 [a disability card QR code](https://vammaiskortti.fi/en/qr-code-a-quick-way-to-share-information/),
 please see [Vammaiskortti.fi/en/](https://vammaiskortti.fi/en/frontpage/) for
-more what this is about.
+more what this is about._
 
 </div>
