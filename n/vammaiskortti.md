@@ -21,8 +21,10 @@ _{{ page.excerpt }}_
 
 - [Suomeksi](#suomeksi)
   - [Huomioonotettavaa aistiherkkyyksistäni](#huomioonotettavaa-aistiherkkyyksist%C3%A4ni)
+  - [Hätäyhteystiedot](#h%C3%A4t%C3%A4yhteystiedot)
 - [English](#english)
   - [Sensory sensitivities](#sensory-sensitivities)
+  - [In Case of Emergency (ICE) contacts](#in-case-of-emergency-ice-contacts)
 
 <!-- END doctoc -->
 
@@ -69,6 +71,27 @@ Millainen istumisjärjestys tilassasi on? Piirit tai pyöreät pöydät voivat o
 minulle erityisen vaikeita, sillä ahdistun nähdessäni samanaikaisesti kaikki
 ympärilläni olevat.
 
+### Hätäyhteystiedot
+
+Puhelimeni kertovat hätäyhteystiedot seuraavasti:
+
+- Fairphone (sininen kotelo): Pyyhkäise lukonkuvasta ylöspäin. Valitse
+  "Hätäpuhelu" PIN-koodin syötön (numeron 0) alapuolelta. Vedä kytkin
+  "Hätätilannetiedot" oikealle nähdäksesi hätäyhteystietojen puhelinnumerot.
+  Voit myös soittaa heille tästä näkymästä.
+- iPhone (omenan kuva): Paina ruudun alareunassa keskellä olevaa paineketta.
+  Mikäli näet listan ilmoituksista, paina sitä uudelleen. Valitse vasemmalta
+  alhaalta "Hätätilanne". Paina punaista tekstiä "\* SOS-tiedot" nähdäksesi
+  hätäyhteystietojen puhelinnumerot tai soittaaksesi heille.
+  - Apple Watch (älykello): Kellon nupin alapuolella on pitkä painike. Paina
+    sitä muutaman sekutin ajan, jolloin kosketusnäytölle tulee valikko. Vedä
+    SOS-tiedot (ylempi kytkin) oikealle ja rullaa alaspäin joko sormella tai
+    nupilla. Mikäli soitat kellolla, oikeasti ylempänä mainittu iPhone soittaa
+    puhelun.
+
+(TODO: haluaako kukaan Telegram/Signal/tjsp linkkinsä tälle sivulle, vaikka
+tänne voi päätyä ilman fyysistä vammaiskorttiakin.)
+
 <div lang="en">
 
 ## English
@@ -110,5 +133,28 @@ being unusually quiet, it's very likely I don't feel well.
 What kind of a seating arrangement does your space have? Round tables and
 circles may be difficult for me, since I start feeling anxious when I see
 everyone around me at once.
+
+### In Case of Emergency (ICE) contacts
+
+My phones can inform you of my emergency contacts:
+
+- Fairphone (blue case): Swipe up from the picture of a lock. Select
+  "Hätäpuhelu" below the PIN code input (or its number 0). Drag the switch
+  "Hätätilannetiedot" to the right in order to see the phone numbers of the
+  emergency contacts. You can also dial them from this screen.
+- iPhone (picture of an apple): Press the button in the middle of the lower
+  portition of the screen. If you see a list of notifications, press it again.
+  On the bottom left there is a "Hätätilanne", press it and then the red text
+  saying "\* SOS-tiedot". The phone will display the emergency contact phone
+  numbers and allow you to dial them.
+  - Apple Watch (smartwatch): Press the long button below the knob for a couple
+    of seconds. A menu will open on the touch screen, drag the "SOS-tiedot" (the
+    upper switch) to the right and scroll down either with the knob or your
+    finger in order to see the ICE contacts. If you dial a contact through the
+    watch, the iPhone mentioned above will perform the dialing.
+
+(TODO: ask around if anyone wants their Signal/Telegram similar link here even
+at the risk of this page being accessible even without the physical disability
+card.)
 
 </div>
