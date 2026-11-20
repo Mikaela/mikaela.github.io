@@ -21,9 +21,11 @@ _{{ page.excerpt }}_
 
 - [Suomeksi](#suomeksi)
   - [Huomioonotettavaa aistiherkkyyksistäni](#huomioonotettavaa-aistiherkkyyksist%C3%A4ni)
+  - [Ruokailutilanteet](#ruokailutilanteet)
   - [Hätäyhteystiedot](#h%C3%A4t%C3%A4yhteystiedot)
 - [English](#english)
   - [Sensory sensitivities](#sensory-sensitivities)
+  - [Dining situations](#dining-situations)
   - [In Case of Emergency (ICE) contacts](#in-case-of-emergency-ice-contacts)
 
 <!-- END doctoc -->
@@ -71,6 +73,19 @@ Millainen istumisjärjestys tilassasi on? Piirit tai pyöreät pöydät voivat o
 minulle erityisen vaikeita, sillä ahdistun nähdessäni samanaikaisesti kaikki
 ympärilläni olevat.
 
+### Ruokailutilanteet
+
+Aistiherkkyyteni yllä koskevat myös ruokailutilanteita. Kerrothan minulle, että
+voin käyttää vastamelukuulokkeita ja aurinkolaseja, sillä olen aiemmin ollut
+todella kuormittunut ruokalatilanteissa jonottaessa ihmisten ympäröidessä
+kaikkialla, sekä usean samanaikaisen keskustelun, ruokailuvälineiden, lasien,
+yms. aiheuttamien äänien vuoksi.
+
+Vastaanotan mielelläni suosituksia ruokalistalta, etenkin kauempana
+eurooppalaisesta ruokakulttuurista olevissa ravintoiloissa. Suosin vegaaniruokaa
+sen ollessa helposti saatavilla, vaikken olekaan täysin vegaani (syön mm.
+juustoa). En kuitenkaan halua nähdä kokonaisia kuolleita eläimiä lautasellani.
+
 ### Hätäyhteystiedot
 
 Puhelimeni kertovat hätäyhteystiedot seuraavasti:
@@ -89,8 +104,10 @@ Puhelimeni kertovat hätäyhteystiedot seuraavasti:
     nupilla. Mikäli soitat kellolla, oikeasti ylempänä mainittu iPhone soittaa
     puhelun.
 
+<!--
 (TODO: haluaako kukaan Telegram/Signal/tjsp linkkinsä tälle sivulle, vaikka
 tänne voi päätyä ilman fyysistä vammaiskorttiakin.)
+-->
 
 <div lang="en">
 
@@ -134,6 +151,19 @@ What kind of a seating arrangement does your space have? Round tables and
 circles may be difficult for me, since I start feeling anxious when I see
 everyone around me at once.
 
+### Dining situations
+
+Everything has mostly been stated in the senses section. However it may be
+helpful if you let me know that noise cancelling headset and sunglasses are OK,
+since I have a history of extreme sensory stimulus stress in canteen situations
+due to many people around in queues, multiple simultaneous conversations, the
+clinking of utensils and glasses against plates and tables etc.
+
+I am happy to receive recommendations in making a decision on what to eat,
+especially in restaurant going further from European foods. I prefer vegan while
+it's more convenient, although I am not fully vegan (e.g. I eat cheese). However
+I don't want to seet whole dead creatures on my plate.
+
 ### In Case of Emergency (ICE) contacts
 
 My phones can inform you of my emergency contacts:
@@ -153,8 +183,10 @@ My phones can inform you of my emergency contacts:
     finger in order to see the ICE contacts. If you dial a contact through the
     watch, the iPhone mentioned above will perform the dialing.
 
+<!--
 (TODO: ask around if anyone wants their Signal/Telegram similar link here even
 at the risk of this page being accessible even without the physical disability
 card.)
+-->
 
 </div>
