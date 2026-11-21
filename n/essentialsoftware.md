@@ -360,7 +360,8 @@ sudo rpm-ostree kargs --delete=rhgb --delete=quiet --append plymouth.enable=0 --
     [hevc playback support](https://discussion.fedoraproject.org/t/how-do-i-enable-h265-hevc-playback-in-fedora-41-or-42-2025/147870),
     `sudo rpm-ostree install libavcodec-freeworld`. However it may cause random
     conflicts and you may end up running a `brew install mpv` anyway bypassing
-    the issues and need.
+    the issues and need. The best solution according to
+    [rpmfusion would be following their multimedia instructions](https://aminda.eu/n/essentialsoftware).
   - VirtualBox? Also at rpmfusion,
     `sudo rpm-ostree install akmod-VirtualBox VirtualBox`
 - The rare scenario where we are not on KDE and don't have KDE Connect
