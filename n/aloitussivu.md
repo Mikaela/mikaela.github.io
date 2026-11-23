@@ -27,6 +27,7 @@ osoitteen.
 [Google Kalenteri](https://calendar.google.com)
 [Google Keep](https://keep.google.com/)
 [Google Tekstiviestit](https://messages.google.com/web/)
+[Helen: Pörssisähkön hinta](https://www.helen.fi/sahko/sahkon-hinta#porssisahkon-spot-hinta-nyt)
 [Hightrust.ID -ohjeet](https://hightrust.id/helpcenter/hightrust-id-digilompakon-kayttoonoton-valmistelut/)
 [HSL Reittiopas](https://reittiopas.hsl.fi/etusivu)
 [Junalähdöt](https://junalahdot.fi/junalahdot/main?lang=1)
@@ -34,5 +35,6 @@ osoitteen.
 [Saunotaanko tänään?](https://saunotaanko.fi)
 [Telegram Web](https://web.telegram.org/a/)
 [Traficom Merivaroitukset](https://liikennetilanne.fintraffic.fi/meri/merivaroitukset/)
+[Vattenfall: Pörssisähkön hinta](https://www.vattenfall.fi/sahkosopimukset/porssisahko/porssisahkon-hinta/#main)
 [WhatsApp](https://web.whatsapp.com)
 </strong>
