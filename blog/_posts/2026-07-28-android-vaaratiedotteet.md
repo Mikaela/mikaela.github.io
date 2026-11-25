@@ -224,9 +224,14 @@ iPhone käyttäjien tulisi siis avata _Asetukset_, _Yleiset_, _Ohjelmistopäivit
 ja asentaa kaikki tarjotut päivitykset. Kirjoitushetkellä minulla lukee _iOS on
 ajan tasalla_ `iOS 27.2.1`.
 
-Androidilla asia menee monimutkaisemmaksi, mutta Fairphone 5:llä (Android 15)
-löytyy _Asetukset_, _Tietoja puhelimesta_, _Android-versio_, _Google Play
--järjestelmäpäivitys_. Asetusten hakuun voi myös kirjoittaa "päivitys".
+Androidilla asia menee monimutkaisemmaksi, mutta
+
+- Fairphone 5:llä (Android 15) löytyy _Asetukset_, _Tietoja puhelimesta_,
+  _Android-versio_, _Google Play -järjestelmäpäivitys_.
+- [Pelastustoimen mukaan](<>) Samsungilla valikkopolku on _Asetukset_,
+  _Tietoturva ja tietosuoja_, _Päivitykset_, _Google Play -järjestelmäpäivitys_
+- Asetusten hakuun voi myös kirjoittaa sanan "päivitys" ja ainakin Fairphone
+  5:llä, alin tulos menee oikeaan paikkaan.
 
 Minulle on epäselvää miten Google Playttömien laitteiden, mm. Huawein, kanssa
 tulee toimia, mutta tiedän ainakin GrapheneOS-laitteiden vastaanottaneen
