@@ -1,8 +1,8 @@
 ---
 layout: post
 title:
-  "Android-käyttäjä, saatko varmasti vaaratiedotteet? Tarkista ainakin nämä
-  asetukset"
+  "Android-käyttäjä, saatko varmasti 112 Suomi -sovellusilmoitukset? Tarkista
+  ainakin nämä asetukset"
 category: [finnish]
 tags: [Kotka, 112, Suomi, vaaratiedotteet, FinTraffic, Android]
 lang: fi
@@ -27,6 +27,7 @@ pienellä i-kirjaimella, kuten iPhone tai iPad).
 - [Onko tässä mitään järkeä?](#onko-t%C3%A4ss%C3%A4-mit%C3%A4%C3%A4n-j%C3%A4rke%C3%A4)
 - [Ilmatila- ja merisulut](#ilmatila--ja-merisulut)
 - [Saanko varmasti kaiken oleellisen tiedon?](#saanko-varmasti-kaiken-oleellisen-tiedon)
+- [Lisäys: FI-Alertin viralliset vaatimukset](#lis%C3%A4ys-fi-alertin-viralliset-vaatimukset)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -143,14 +144,17 @@ oleva rakenteellinen [Don't kill my app!](https://dontkillmyapp.com/) -ongelma
 on ollut tiedossa jo vuosia. Mielestäni oikea ratkaisu vaaratiedottamiseen on
 _Solulähetys_, englanniksi
 [Cell Broadcast, jota kokeiltiin ensimmäisen kerran Pariisissa 1997](https://en.wikipedia.org/wiki/Cell_Broadcast),
-jonka pitäisi löytyä kaikista vuoden 1991 jälkeen valmistetuista puhelimista.
+jonka pitäisi löytyä _nykyisin_ kaikista <del>vuoden 1991 jälkeen valmistetuista
+puhelimista<del> ainakin 4G:tä tukevista matkapuhelimista.
 
 Solulähetys tunnetaan myös nimillä _EU-Alert_ ja paikallisesti _FI-Alert_ ja
 käytännössä sitä tukevat puhelimet vain ulvovat vaaratiedotteet saatuaan
 täydellä äänenvoimakkuudella asentamatta mitään.
 
-Androidista se löytyy _Asetukset_, _Turvallisuus ja hätätilanteet_, _Langattomat
-hätähälytykset_.
+Androidista se löytyy helpoten kirjoittamalla _Asetukset_ hakuun sana "hätä".
+Minulla se löytyy _Asetukset_, _Turvallisuus ja hätätilanteet_, _Langattomat
+hätähälytykset_, mutta olen kuullut sen löytyvän myös ääniem ja ilmoituksen
+alta.
 
 Eikä siinä vielä kaikki! Laitevalmistajilla on tapana muokata
 Android-käyttöjärjestelmää, joten tässä artikkelissa nimeämäni asiat välttämättä
@@ -209,3 +213,24 @@ tapa, jolla olen itse varmasti kuullut merialuesulutkin oleskellessani Kotkassa.
 
 PS. Vilkaise myös kirjoitukseni
 [n/yksityinendns sen sijaan, että maksaisit ylimääräistä maksuttomasta haitallisten sivujen estämisestä](/n/yksityinendns).
+
+## Lisäys: FI-Alertin viralliset vaatimukset
+
+[Pelastustoimen sivuilta löytyy virallinen tieto FI-Alertista](https://pelastustoimi.fi/koti-ja-arki/hatatilanne/vaaratiedote/fi-alert-vaaratiedote).
+Tämän blogikirjoituksen kannalta oleellisin tieto on versionumerovaatimukset
+**iOS 27.2** ja **Google Play -järjestelmäpäivitys 1. lokakuuta 2026**.
+
+iPhone käyttäjien tulisi siis avata _Asetukset_, _Yleiset_, _Ohjelmistopäivitys_
+ja asentaa kaikki tarjotut päivitykset. Kirjoitushetkellä minulla lukee _iOS on
+ajan tasalla_ `iOS 27.2.1`.
+
+Androidilla asia menee monimutkaisemmaksi, mutta Fairphone 5:llä (Android 15)
+löytyy _Asetukset_, _Tietoja puhelimesta_, _Android-versio_, _Google Play
+-järjestelmäpäivitys_. Asetusten hakuun voi myös kirjoittaa "päivitys".
+
+Minulle on epäselvää miten Google Playttömien laitteiden, mm. Huawein, kanssa
+tulee toimia, mutta tiedän ainakin GrapheneOS-laitteiden vastaanottaneen
+"presidenttitason ilmoituksia."
+
+_Päivitetty 25.11.2026: lisäsin yliviivauksia, tarkensin FI-Alert asetusten
+sijaintia ja lisäsin sen viralliset vaatimukset._
