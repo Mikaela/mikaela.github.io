@@ -228,8 +228,9 @@ Androidilla asia menee monimutkaisemmaksi, mutta
 
 - Fairphone 5:llä (Android 15) löytyy _Asetukset_, _Tietoja puhelimesta_,
   _Android-versio_, _Google Play -järjestelmäpäivitys_.
-- [Pelastustoimen mukaan](<>) Samsungilla valikkopolku on _Asetukset_,
-  _Tietoturva ja tietosuoja_, _Päivitykset_, _Google Play -järjestelmäpäivitys_
+- [Pelastustoimen mukaan](https://pelastustoimi.fi/koti-ja-arki/hatatilanne/vaaratiedote/fi-alert-vaaratiedote)
+  Samsungilla valikkopolku on _Asetukset_, _Tietoturva ja tietosuoja_,
+  _Päivitykset_, _Google Play -järjestelmäpäivitys_
 - Asetusten hakuun voi myös kirjoittaa sanan "päivitys" ja ainakin Fairphone
   5:llä, alin tulos menee oikeaan paikkaan.
 
@@ -238,4 +239,5 @@ tulee toimia, mutta tiedän ainakin GrapheneOS-laitteiden vastaanottaneen
 "presidenttitason ilmoituksia."
 
 _Päivitetty 25.11.2026: lisäsin yliviivauksia, tarkensin FI-Alert asetusten
-sijaintia ja lisäsin sen viralliset vaatimukset._
+sijaintia ja lisäsin sen viralliset vaatimukset.
+[Muutoshistoria](https://github.com/Mikaela/mikaela.github.io/commits/master/blog/_posts/2026-07-28-android-vaaratiedotteet.md)_
