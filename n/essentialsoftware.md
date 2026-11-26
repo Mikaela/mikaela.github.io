@@ -163,7 +163,8 @@ apps written in Python. Here is a small list to remember in no particular order.
   - Refer to [n/reuse](/n/reuse.html), development version. Package manager
     version is generally good enough.
 - `pipx install "yt-dlp[default,curl-cffi] @ git+https://github.com/yt-dlp/yt-dlp.git@master"`
-  and `pipx install "yt-dlp-ejs @ git+https://github.com/yt-dlp/ejs.git@main"`
+  and
+  `pipx inject yt-dlp "yt-dlp-ejs @ git+https://github.com/yt-dlp/ejs.git@main"`
   - Downloader for multiple online video services, development version.
 - `pipx install xkcdpass`
   - `correct horse battery stable` needs no introduction, the possibilities are
